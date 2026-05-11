@@ -4,12 +4,16 @@ import { feedItems } from './data';
 const ITEMS_PER_PAGE = 10;
 
 /**
- * Format a date string to Chinese format like "5月9日"
- */
+* Format a date string to Chinese format like "5月9日" or "2025年7月20日" (if not current year)
+*/
 function formatDate(dateString: string): string {
   const date = new Date(dateString);
+  const now = new Date();
   const month = date.getMonth() + 1;
   const day = date.getDate();
+  if (date.getFullYear() !== now.getFullYear()) {
+    return `${date.getFullYear()}年${month}月${day}日`;
+  }
   return `${month}月${day}日`;
 }
 

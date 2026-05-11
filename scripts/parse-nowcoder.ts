@@ -354,7 +354,46 @@ async function main() {
       return b.score - a.score;
     });
 
-  writeOutput(feedItems);
+  // Merge with existing data to accumulate across builds
+  const mergedItems = mergeWithExisting(feedItems);
+  writeOutput(mergedItems);
+}
+
+// ─── Merge with existing data (accumulate across builds) ─────────────
+function mergeWithExisting(newItems: FeedItem[]): FeedItem[] {
+  const outputPath = path.join(__dirname, '..', 'src', 'lib', 'nowcoder-data.json');
+
+  let existing: FeedItem[] = [];
+  try {
+    if (fs.existsSync(outputPath)) {
+      existing = JSON.parse(fs.readFileSync(outputPath, 'utf-8'));
+      console.log(`Loaded ${existing.length} existing items from nowcoder-data.json`);
+    }
+  } catch {
+    console.log('No existing data or parse error, starting fresh');
+  }
+
+  // Merge: new items override existing ones with the same id
+  const merged = new Map<string, FeedItem>();
+  for (const item of existing) {
+    merged.set(item.id, item);
+  }
+  let newCount = 0;
+  let updatedCount = 0;
+  for (const item of newItems) {
+    if (!merged.has(item.id)) newCount++;
+    else updatedCount++;
+    merged.set(item.id, item);
+  }
+
+  console.log(`Merge result: ${newCount} new, ${updatedCount} updated, ${merged.size} total`);
+
+  // Sort by date desc, then score desc
+  return [...merged.values()].sort((a, b) => {
+    const dateCompare = new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime();
+    if (dateCompare !== 0) return dateCompare;
+    return b.score - a.score;
+  });
 }
 
 // ─── Write output ────────────────────────────────────────────────────
