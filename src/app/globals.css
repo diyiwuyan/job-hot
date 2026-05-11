@@ -1008,3 +1008,28 @@ a:focus-visible {
   font-size: 0.875rem;
   color: var(--text-muted);
 }
+
+/* ============================================
+   Utility Classes
+   ============================================ */
+
+.text-gradient {
+  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.divider {
+  height: 1px;
+  background: var(--border);
+  margin: 0.75rem 0;
+}
+
+/* ============================================
+   Page Layout
+   ============================================ */
+
+.page {
+  max-width: 900px;
+}

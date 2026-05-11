@@ -16,8 +16,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'JOBHOT - 大学生求职热点',
-  description: 'JOBHOT 汇集大学生求职热点信息，提供精选求职动态、求职日报、工具推荐等内容，助力大学生求职之路。',
+  title: {
+    default: 'JOBHOT - 大学生求职热点',
+    template: '%s',
+  },
+  description: 'JOBHOT 汇集大学生求职热点信息，提供精选校招实习动态、求职日报、避雷名单、工具推荐等内容，助力大学生高效求职。',
+  keywords: ['校招', '实习', '求职', '大学生', '招聘', 'JOBHOT', '校招避雷', '求职工具'],
+  alternates: {
+    types: {
+      'application/rss+xml': '/job-hot/feed.xml',
+    },
+  },
 };
 
 export default function RootLayout({

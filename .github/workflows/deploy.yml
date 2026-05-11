@@ -3,6 +3,9 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+  schedule:
+    # Run hourly from 07:00-19:00 Beijing time (UTC-8: 23,0-11)
+    - cron: '0 23,0-11 * * *'
   workflow_dispatch:
 
 permissions:
@@ -30,10 +33,18 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Fetch data from sources
+        run: |
+          npx tsx scripts/parse-campus2026.ts
+          npx tsx scripts/parse-campus-shame.ts
+          npx tsx scripts/parse-nowcoder.ts
+          npx tsx scripts/generate-rss.ts
+
       - name: Build
         run: npx next build
-        env:
-          NEXT_PUBLIC_BASE_PATH: /job-hot
+
+      - name: Add .nojekyll
+        run: touch ./out/.nojekyll
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

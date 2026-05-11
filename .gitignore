@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# generated data (rebuilt from upstream on each build)
+src/lib/campus-data.json
+src/lib/shame-data.json
+public/feed.xml

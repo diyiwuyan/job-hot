@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { getFeaturedItems } from '@/lib/feed';
+import { feedItems } from '@/lib/data';
 import { FeedItem } from '@/lib/types';
 
 function getScoreClass(score: number): string {
@@ -56,6 +57,9 @@ function FeaturedCard({ item }: { item: FeedItem }) {
 
 export default function HomePage() {
   const featuredItems = getFeaturedItems(10);
+  const totalItems = feedItems.length;
+  const campusCount = feedItems.filter(i => i.channel === 'campus').length;
+  const internCount = feedItems.filter(i => i.channel === 'intern').length;
 
   return (
     <div className="page page-home">
@@ -69,6 +73,37 @@ export default function HomePage() {
           <p>编辑精选的高质量求职信息，助你高效求职</p>
         </div>
       </div>
+
+      {/* Stats bar */}
+      <div style={{
+        display: 'grid',
+        gridTemplateColumns: 'repeat(auto-fit, minmax(120px, 1fr))',
+        gap: '0.75rem',
+        marginTop: '1.25rem',
+        marginBottom: '1.5rem',
+      }}>
+        {[
+          { label: '总信息量', value: totalItems, color: 'var(--accent)' },
+          { label: '校招岗位', value: campusCount, color: 'var(--success)' },
+          { label: '实习岗位', value: internCount, color: 'var(--warning)' },
+          { label: '精选推荐', value: featuredItems.length, color: 'var(--gradient-end)' },
+        ].map((stat) => (
+          <div
+            key={stat.label}
+            className="timeline-card"
+            style={{ textAlign: 'center', padding: '0.875rem 0.5rem' }}
+          >
+            <div style={{ fontSize: '1.5rem', fontWeight: 700, color: stat.color }}>
+              {stat.value}
+            </div>
+            <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '0.25rem' }}>
+              {stat.label}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div className="divider" />
 
       <div style={{ marginTop: '1.5rem' }}>
         {featuredItems.map((item) => (

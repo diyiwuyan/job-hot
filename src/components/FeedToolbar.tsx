@@ -12,7 +12,6 @@ const channels: { value: Channel; label: string }[] = [
   { value: 'all', label: '全部' },
   { value: 'campus', label: '校招' },
   { value: 'intern', label: '实习' },
-  { value: 'info', label: '资讯' },
 ];
 
 const categories: { value: Category; label: string }[] = [

@@ -1,0 +1,423 @@
+[
+  {
+    "id": "nowcoder-2932",
+    "title": "厦门银行 — 26春招",
+    "summary": "连续超10年获评“最佳雇主厦门十强”。招聘批次：26春招。工作地点：福州、厦门、莆田、三明、泉州、漳州、南平、龙岩。",
+    "url": "https://xmccb.zhaopin.com/",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "finance",
+    "tags": [
+      "厦门银行",
+      "校招",
+      "春招",
+      "金融",
+      "福州",
+      "厦门",
+      "莆田",
+      "银行"
+    ],
+    "score": 94,
+    "featured": true,
+    "createdAt": "2026-09-15T02:00:00.000Z"
+  },
+  {
+    "id": "nowcoder-31951",
+    "title": "中国能建安徽院 — 27届实习",
+    "summary": "央企电力甲级设计院，特高压新能源设计实力强劲，国内外能源工程承接经验丰富。招聘批次：27届实习。工作地点：合肥。招聘岗位：硬件工程师、电子/半导体、通信、技术支持、机械等。",
+    "url": "https://mp.weixin.qq.com/s/njOphf2SS3UD9YOAJVXvqQ",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "auto_ic",
+    "tags": [
+      "中国能建安徽院",
+      "实习",
+      "车企/IC",
+      "合肥"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-05-10T02:00:00.000Z"
+  },
+  {
+    "id": "nowcoder-31953",
+    "title": "沃茨中国 — 27届实习",
+    "summary": "百年国际水工业龙头，暖通给排水产品线齐全，在华产销研布局完整。招聘批次：27届实习。工作地点：上海。招聘岗位：产品、市场/营销、销售类、商务、管理等。",
+    "url": "https://campus.51job.com/watts2026/job.html",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "other",
+    "tags": [
+      "沃茨中国",
+      "实习",
+      "上海"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-05-10T02:00:00.000Z"
+  },
+  {
+    "id": "nowcoder-31948",
+    "title": "中国电建福建院 — 27届实习",
+    "summary": "央企甲级电力设计院，资质等级齐全，新能源与电网设计经验深厚，工程技术实力雄厚。。招聘批次：27届实习。工作地点：福州。招聘岗位：后端开发、数据、人工智能/算法、硬件工程师、电子/半导体等。",
+    "url": "https://fedi.zhiye.com/intern/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "auto_ic",
+    "tags": [
+      "中国电建福建院",
+      "实习",
+      "车企/IC",
+      "福州"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-05-10T02:00:00.000Z"
+  },
+  {
+    "id": "nowcoder-31949",
+    "title": "北汽产投 — 27届实习",
+    "summary": "汽车产业官方投资平台，硬科技赛道布局广泛，产业基金体系完善，产业链整合能力突出。。招聘批次：27届实习。工作地点：深圳、北京、上海。招聘岗位：风控、投融资、保险、管理、咨询/调研。",
+    "url": "https://baicgroup.zhiye.com/campus/jobs?queryId=bfc49d86-5dc2-47ba-b0ae-7d734d8319c0",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "finance",
+    "tags": [
+      "北汽产投",
+      "实习",
+      "金融",
+      "深圳",
+      "北京",
+      "上海"
+    ],
+    "score": 89,
+    "featured": true,
+    "createdAt": "2026-05-10T02:00:00.000Z"
+  },
+  {
+    "id": "nowcoder-652",
+    "title": "滴滴 — 人才专项",
+    "summary": "提供移动出行与生活服务的平台，业务涵盖网约车、单车与货运等多元化领域。。招聘批次：人才专项。工作地点：北京。招聘岗位：人工智能/算法、研发工程师。",
+    "url": "https://app.mokahr.com/campus-recruitment/didiglobal/116021#/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "tags": [
+      "滴滴",
+      "校招",
+      "互联网/AI",
+      "北京",
+      "工具"
+    ],
+    "score": 96,
+    "featured": true,
+    "createdAt": "2026-05-08T02:00:00.000Z"
+  },
+  {
+    "id": "nowcoder-898",
+    "title": "快手 — 27届实习",
+    "summary": "头部短视频社交平台，业务生态布局完整，技术迭代速度快，内容与商业化体系成熟完善。。招聘批次：27届实习。工作地点：杭州、广州、深圳、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://www.nowcoder.com/jobs/hr/99932",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "internet",
+    "tags": [
+      "快手",
+      "实习",
+      "互联网/AI",
+      "杭州",
+      "广州",
+      "深圳",
+      "视频直播"
+    ],
+    "score": 94,
+    "featured": true,
+    "createdAt": "2026-05-07T02:00:00.000Z"
+  },
+  {
+    "id": "nowcoder-2197",
+    "title": "平安产险科技中心 — 26春招",
+    "summary": "保险行业标杆，综合金融实践平台。。招聘批次：26春招。工作地点：唐山、长春、白山、松原、福州、长沙、深圳、海口、兰州。招聘岗位：后端开发、前端开发、测试、数据、人工智能/算法等。",
+    "url": "https://www.nowcoder.com/jobs/company-project?projectId=2594&deliverSource=4&activityId=172&activitySuffix=2603digital&pageSource=5009&channel=adv_qzsy",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "finance",
+    "tags": [
+      "平安产险科技中心",
+      "校招",
+      "春招",
+      "金融",
+      "唐山",
+      "长春",
+      "白山"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-05-06T02:00:00.000Z"
+  },
+  {
+    "id": "nowcoder-259671",
+    "title": "小天才 — 26春招",
+    "summary": "专注于打造高品质儿童智能产品，深耕儿童智能穿戴和教育电子行业，持续创新！。招聘批次：26春招。工作地点：东莞。招聘岗位：后端开发、前端开发、教育产品研发、客户端开发、数据等。",
+    "url": "https://www.nowcoder.com/jobs/company-project?projectId=2580&deliverSource=4&activityId=172&activitySuffix=2603digital&pageSource=5009&channel=adv_qzsy",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "小天才",
+      "校招",
+      "春招",
+      "东莞"
+    ],
+    "score": 88,
+    "featured": true,
+    "createdAt": "2026-05-06T02:00:00.000Z"
+  },
+  {
+    "id": "nowcoder-266987",
+    "title": "龙智数科 — 26春招",
+    "summary": "招聘批次：26春招。工作地点：成都、北京。招聘岗位：后端开发、人工智能/算法、研发工程师、产品。",
+    "url": "https://www.nowcoder.com/jobs/company-project?projectId=2599&deliverSource=4&activityId=172&activitySuffix=2603digital&pageSource=5009&channel=adv_qzsy",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "龙智数科",
+      "校招",
+      "春招",
+      "成都",
+      "北京"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-05-06T02:00:00.000Z"
+  },
+  {
+    "id": "nowcoder-13352",
+    "title": "上海人工智能实验室 — 27届实习",
+    "summary": "国家级 AI 科研机构，大模型技术领先，产学研协同紧密，科研成果转化能力突出。招聘批次：27届实习。工作地点：北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://www.shlab.org.cn/joinus/campus?keyword=&location=&jobFunction=&jobType=&subject=7619221867426433326&mode=campus&sessionid=",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "internet",
+    "tags": [
+      "上海人工智能实验室",
+      "实习",
+      "互联网/AI",
+      "北京",
+      "上海",
+      "人工智能"
+    ],
+    "score": 81,
+    "featured": true,
+    "createdAt": "2026-04-25T02:00:00.000Z"
+  },
+  {
+    "id": "nowcoder-8347",
+    "title": "万兴科技 — 27届实习",
+    "summary": "深耕创意软件研发运营，产品体系多元，重视新人技术研发与产品创新能力培养。招聘批次：27届实习。工作地点：杭州、长沙、深圳。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://www.nowcoder.com/jobs/company-project?projectId=2601&deliverSource=4&activityId=173&activitySuffix=27sqsx2&pageSource=5009&channel=adv_qzsy",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "internet",
+    "tags": [
+      "万兴科技",
+      "实习",
+      "互联网/AI",
+      "杭州",
+      "长沙",
+      "深圳"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-04-24T02:00:00.000Z"
+  },
+  {
+    "id": "nowcoder-21369",
+    "title": "正浩创新EcoFlow — 27提前批",
+    "summary": "专注便携储能设备研发，产品创新能力强，重视新人技术研发与市场洞察能力。招聘批次：27提前批。工作地点：苏州、深圳、西安。招聘岗位：后端开发、测试、运维、研发工程师、硬件工程师等。",
+    "url": "https://jobs.ecoflow.com/602892/position/list?keywords=&category=&location=&project=7626581365308049710&type=&job_hot_flag=&current=1&limit=10&functionCategory=&tag=",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "正浩创新EcoFlow",
+      "校招",
+      "提前批",
+      "苏州",
+      "深圳",
+      "西安"
+    ],
+    "score": 79,
+    "featured": false,
+    "createdAt": "2026-04-16T02:00:00.000Z"
+  },
+  {
+    "id": "nowcoder-1023",
+    "title": "华泰证券 — 网申中",
+    "summary": "大型综合性证券金融机构，业务范围涵盖证券经纪、投资银行与资产管理等领域。。招聘批次：网申中。工作地点：南京、深圳、北京、上海、香港。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://wecruit.hotjob.cn/SU6013d14e5d83dc11e4a8ae4d/pb/index.html#/",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "finance",
+    "tags": [
+      "华泰证券",
+      "校招",
+      "金融",
+      "南京",
+      "深圳",
+      "北京",
+      "证券"
+    ],
+    "score": 80,
+    "featured": true,
+    "createdAt": "2026-04-03T02:00:00.000Z"
+  },
+  {
+    "id": "nowcoder-1166",
+    "title": "商米 — 26春招",
+    "summary": "智能商用设备领军，场景覆盖广，技术创新强，生态布局完善。招聘批次：26春招。工作地点：上海。招聘岗位：后端开发、客户端开发、市场/营销、数据、行政等。",
+    "url": "https://mp.weixin.qq.com/s/wve_vCmqodXDVp3ELQ9h1A",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "商米",
+      "校招",
+      "春招",
+      "车企/IC",
+      "上海",
+      "硬件",
+      "互联网"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-04-03T02:00:00.000Z"
+  },
+  {
+    "id": "nowcoder-1503",
+    "title": "农夫山泉 — 26春招",
+    "summary": "快消行业龙头，品牌力强，渠道体系完善，快消品运营成长平台优质。招聘批次：26春招。工作地点：杭州。招聘岗位：市场/营销、化工、人事、商务、行政等。",
+    "url": "https://app.mokahr.com/campus-recruitment/yst/68367?locale=zh-CN#/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "tags": [
+      "农夫山泉",
+      "校招",
+      "春招",
+      "互联网/AI",
+      "杭州",
+      "消费生活"
+    ],
+    "score": 74,
+    "featured": false,
+    "createdAt": "2026-03-31T02:00:00.000Z"
+  },
+  {
+    "id": "nowcoder-13094",
+    "title": "腾讯云智研发 — 26/27届",
+    "summary": "云智研发公司是腾讯旗下的子公司，聚焦云和智慧产业基础产品和行业标准产品的研发。招聘批次：26/27届。工作地点：厦门、武汉、长沙、西安、重庆。招聘岗位：后端开发、前端开发、客户端开发、测试、运维等。",
+    "url": "https://join.tencent-cloud.com",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "tags": [
+      "腾讯云智研发",
+      "校招",
+      "互联网/AI",
+      "厦门",
+      "武汉",
+      "长沙",
+      "人工智能"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-03-13T02:00:00.000Z"
+  },
+  {
+    "id": "nowcoder-2437",
+    "title": "奥克斯 — 网申中",
+    "summary": "大型多元化制造集团，家电与电力设备主业突出，规模大平台稳健。招聘批次：网申中。工作地点：宁波、芜湖。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://auxgroup.zhiye.com/campus/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "奥克斯",
+      "校招",
+      "车企/IC",
+      "宁波",
+      "芜湖",
+      "硬件",
+      "电商"
+    ],
+    "score": 73,
+    "featured": false,
+    "createdAt": "2026-03-12T02:00:00.000Z"
+  },
+  {
+    "id": "nowcoder-958",
+    "title": "联想 — 网申中",
+    "summary": "全球领先的智能设备与解决方案提供商，业务涵盖个人电脑、服务器与智能硬件。。招聘批次：网申中。工作地点：厦门、武汉、深圳、西安、北京、上海、天津。招聘岗位：后端开发、测试、人工智能/算法、研发工程师、产品等。",
+    "url": "https://talent.lenovo.com.cn/position?projectType=1",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "联想",
+      "校招",
+      "车企/IC",
+      "厦门",
+      "武汉",
+      "深圳",
+      "硬件",
+      "数据服务"
+    ],
+    "score": 77,
+    "featured": false,
+    "createdAt": "2026-03-10T02:00:00.000Z"
+  },
+  {
+    "id": "nowcoder-153",
+    "title": "携程 — 26春招",
+    "summary": "全球领先的一站式旅行服务商，业务覆盖旅行预订的完整链条，数据与技术驱动运营。。招聘批次：26春招。工作地点：南通、合肥、南昌、广州、成都、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://www.nowcoder.com/jobs/company-project?projectId=2543",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "tags": [
+      "携程",
+      "校招",
+      "春招",
+      "互联网/AI",
+      "南通",
+      "合肥",
+      "南昌",
+      "消费生活"
+    ],
+    "score": 77,
+    "featured": false,
+    "createdAt": "2026-03-06T02:00:00.000Z"
+  }
+]
