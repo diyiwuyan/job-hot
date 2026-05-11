@@ -1,5 +1,68 @@
 [
   {
+    "id": "nowcoder-2227",
+    "title": "奇安信 — 27届实习 今日收录",
+    "summary": "网络安全行业龙头企业，客户资源丰富，技术研发实力强，安全产品与运营服务体系完善。招聘批次：27届实习 今日收录。工作地点：南京、杭州、厦门、广州、成都、北京。招聘岗位：运维、通信、技术支持。",
+    "url": "https://campus.qianxin.com/campus/jobSearch?type=shixishen",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "security",
+    "tags": [
+      "奇安信",
+      "实习",
+      "安全/云服务",
+      "南京",
+      "杭州",
+      "厦门",
+      "信息安全"
+    ],
+    "score": 90,
+    "featured": true,
+    "createdAt": "2026-05-11T15:07:41.000Z"
+  },
+  {
+    "id": "nowcoder-26961",
+    "title": "58同城 — 27届实习 今日收录",
+    "summary": "头部生活服务互联网平台，业务生态完备，城市覆盖广泛，本地生活与招聘房产资源积淀充。招聘批次：27届实习 今日收录。工作地点：北京。招聘岗位：人工智能/算法。",
+    "url": "https://campus.58.com/campus-recruitment/58/150953/#/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "internet",
+    "tags": [
+      "58同城",
+      "实习",
+      "互联网/AI",
+      "北京"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-05-11T15:06:07.000Z"
+  },
+  {
+    "id": "nowcoder-1064",
+    "title": "上汽集团 — 27届实习 今日收录",
+    "summary": "国内汽车行业龙头央企，产业布局完整，智电转型提速，自主品牌与海外市场实力雄厚。。招聘批次：27届实习 今日收录。工作地点：苏州、南通、合肥、芜湖、上海、重庆。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://saic-recruit.saicmotor.com/recruit/pc/#/collegeRecruit",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "auto_ic",
+    "tags": [
+      "上汽集团",
+      "实习",
+      "车企/IC",
+      "苏州",
+      "南通",
+      "合肥",
+      "汽车制造"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-05-11T15:05:07.000Z"
+  },
+  {
     "id": "nowcoder-31951",
     "title": "中国能建安徽院 — 27届实习",
     "summary": "央企电力甲级设计院，特高压新能源设计实力强劲，国内外能源工程承接经验丰富。招聘批次：27届实习。工作地点：合肥。招聘岗位：硬件工程师、电子/半导体、通信、技术支持、机械等。",
@@ -352,6 +415,30 @@
     "score": 75,
     "featured": false,
     "createdAt": "2026-04-07T08:34:59.000Z"
+  },
+  {
+    "id": "nowcoder-1129",
+    "title": "海信集团 — 日常实习",
+    "summary": "家电与电子信息龙头，技术研发实力强，产业链完整，制造科技成长稳健。招聘批次：日常实习。工作地点：扬州、杭州、湖州、青岛、武汉、深圳、佛山、江门、成都、贵阳、西安、上海。招聘岗位：后端开发、测试、人工智能/算法、研发工程师、销售技术支持等。",
+    "url": "https://jobs.hisense.com/intern/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "auto_ic",
+    "tags": [
+      "海信集团",
+      "实习",
+      "日常实习",
+      "车企/IC",
+      "扬州",
+      "杭州",
+      "湖州",
+      "硬件",
+      "通信电子"
+    ],
+    "score": 73,
+    "featured": false,
+    "createdAt": "2026-04-01T05:02:29.000Z"
   },
   {
     "id": "nowcoder-1503",
