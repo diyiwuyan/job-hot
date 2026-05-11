@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[97367,["/job-hot/_next/static/chunks/0t0m6zy.32es_.js","/job-hot/_next/static/chunks/0d3shmwh5_nmn.js"],"ViewportBoundary"]
+3:I[97367,["/job-hot/_next/static/chunks/0t0m6zy.32es_.js","/job-hot/_next/static/chunks/0d3shmwh5_nmn.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+5:I[27201,["/job-hot/_next/static/chunks/0t0m6zy.32es_.js","/job-hot/_next/static/chunks/0d3shmwh5_nmn.js"],"IconMark"]
+0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"工具推荐 - JOBHOT"}],["$","meta","1",{"name":"description","content":"精选求职工具和资源推荐，包括刷题平台、简历工具、薪资查询、校招信息聚合等。"}],["$","meta","2",{"name":"keywords","content":"校招,实习,求职,大学生,招聘,JOBHOT,校招避雷,求职工具"}],["$","link","3",{"rel":"alternate","type":"application/rss+xml","href":"/job-hot/feed.xml"}],["$","link","4",{"rel":"icon","href":"/job-hot/favicon.ico?favicon.0x3dzn~oxb6tn.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L5","5",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"z1T_Rdyj6HZWvpEhV1DUd"}
