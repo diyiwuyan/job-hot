@@ -129,20 +129,15 @@ function computeScore(company: NowcoderCompany): number {
     score += 5;
   }
 
-  // Recency bonus based on record date
-  const recordDate = extractRecordDate(company);
-  if (recordDate) {
-    const match = recordDate.match(/(\d{2})\.(\d{2})/);
-    if (match) {
-      const now = new Date();
-      const rd = new Date(now.getFullYear(), parseInt(match[1]) - 1, parseInt(match[2]));
-      const daysDiff = Math.floor((now.getTime() - rd.getTime()) / (1000 * 60 * 60 * 24));
+  // Recency bonus based on updateTime
+  if (company.updateTime) {
+    const now = new Date();
+    const daysDiff = Math.floor((now.getTime() - company.updateTime) / (1000 * 60 * 60 * 24));
 
-      if (daysDiff <= 3) score += 20;
-      else if (daysDiff <= 7) score += 15;
-      else if (daysDiff <= 14) score += 10;
-      else if (daysDiff <= 30) score += 5;
-    }
+    if (daysDiff <= 3) score += 20;
+    else if (daysDiff <= 7) score += 15;
+    else if (daysDiff <= 14) score += 10;
+    else if (daysDiff <= 30) score += 5;
   }
 
   // Active recruitment bonus
@@ -236,19 +231,11 @@ function buildApplyUrl(company: NowcoderCompany): string {
   return `https://www.nowcoder.com/enterprise/${company.companyId}`;
 }
 
-// ─── Parse createdAt from record date or updateTime ──────────────────
+// ─── Parse createdAt from updateTime (precise timestamp) ─────────────
 function parseCreatedAt(company: NowcoderCompany): string {
-  // Prefer the record date from card info
-  const recordDate = extractRecordDate(company);
-  if (recordDate) {
-    const match = recordDate.match(/(\d{2})\.(\d{2})/);
-    if (match) {
-      const now = new Date();
-      return new Date(now.getFullYear(), parseInt(match[1]) - 1, parseInt(match[2]), 10, 0, 0).toISOString();
-    }
-  }
-
-  // Fallback to updateTime (milliseconds timestamp)
+  // Use updateTime (milliseconds timestamp) — this is the most accurate
+  // The record date from card info (e.g. "09.15收录") has no year, which
+  // causes cross-year bugs when using the current year naively.
   if (company.updateTime) {
     return new Date(company.updateTime).toISOString();
   }

@@ -1,28 +1,5 @@
 [
   {
-    "id": "nowcoder-2932",
-    "title": "厦门银行 — 26春招",
-    "summary": "连续超10年获评“最佳雇主厦门十强”。招聘批次：26春招。工作地点：福州、厦门、莆田、三明、泉州、漳州、南平、龙岩。",
-    "url": "https://xmccb.zhaopin.com/",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "campus",
-    "category": "finance",
-    "tags": [
-      "厦门银行",
-      "校招",
-      "春招",
-      "金融",
-      "福州",
-      "厦门",
-      "莆田",
-      "银行"
-    ],
-    "score": 94,
-    "featured": true,
-    "createdAt": "2026-09-15T02:00:00.000Z"
-  },
-  {
     "id": "nowcoder-31951",
     "title": "中国能建安徽院 — 27届实习",
     "summary": "央企电力甲级设计院，特高压新能源设计实力强劲，国内外能源工程承接经验丰富。招聘批次：27届实习。工作地点：合肥。招聘岗位：硬件工程师、电子/半导体、通信、技术支持、机械等。",
@@ -39,7 +16,7 @@
     ],
     "score": 93,
     "featured": true,
-    "createdAt": "2026-05-10T02:00:00.000Z"
+    "createdAt": "2026-05-10T02:06:48.000Z"
   },
   {
     "id": "nowcoder-31953",
@@ -57,26 +34,7 @@
     ],
     "score": 93,
     "featured": true,
-    "createdAt": "2026-05-10T02:00:00.000Z"
-  },
-  {
-    "id": "nowcoder-31948",
-    "title": "中国电建福建院 — 27届实习",
-    "summary": "央企甲级电力设计院，资质等级齐全，新能源与电网设计经验深厚，工程技术实力雄厚。。招聘批次：27届实习。工作地点：福州。招聘岗位：后端开发、数据、人工智能/算法、硬件工程师、电子/半导体等。",
-    "url": "https://fedi.zhiye.com/intern/jobs",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "intern",
-    "category": "auto_ic",
-    "tags": [
-      "中国电建福建院",
-      "实习",
-      "车企/IC",
-      "福州"
-    ],
-    "score": 93,
-    "featured": true,
-    "createdAt": "2026-05-10T02:00:00.000Z"
+    "createdAt": "2026-05-10T02:05:34.000Z"
   },
   {
     "id": "nowcoder-31949",
@@ -97,7 +55,74 @@
     ],
     "score": 89,
     "featured": true,
-    "createdAt": "2026-05-10T02:00:00.000Z"
+    "createdAt": "2026-05-10T01:58:05.000Z"
+  },
+  {
+    "id": "nowcoder-2437",
+    "title": "奥克斯 — 网申中",
+    "summary": "大型多元化制造集团，家电与电力设备主业突出，规模大平台稳健。招聘批次：网申中。工作地点：宁波、芜湖。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://auxgroup.zhiye.com/campus/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "奥克斯",
+      "校招",
+      "车企/IC",
+      "宁波",
+      "芜湖",
+      "硬件",
+      "电商"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-05-09T09:29:29.000Z"
+  },
+  {
+    "id": "nowcoder-160",
+    "title": "完美世界 — 26春招",
+    "summary": "文娱产业龙头企业，游戏影视电竞多板块协同，自研 IP 储备丰富，全球化发行运营布。招聘批次：26春招。工作地点：苏州、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://jobs.games.wanmei.com/school.html?sessionid=",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "game",
+    "tags": [
+      "完美世界",
+      "校招",
+      "春招",
+      "游戏",
+      "苏州",
+      "北京",
+      "上海"
+    ],
+    "score": 99,
+    "featured": true,
+    "createdAt": "2026-05-09T00:35:47.000Z"
+  },
+  {
+    "id": "nowcoder-2932",
+    "title": "厦门银行 — 26春招",
+    "summary": "连续超10年获评“最佳雇主厦门十强”。招聘批次：26春招。工作地点：福州、厦门、莆田、三明、泉州、漳州、南平、龙岩。",
+    "url": "https://xmccb.zhaopin.com/",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "finance",
+    "tags": [
+      "厦门银行",
+      "校招",
+      "春招",
+      "金融",
+      "福州",
+      "厦门",
+      "莆田",
+      "银行"
+    ],
+    "score": 94,
+    "featured": true,
+    "createdAt": "2026-05-08T06:54:23.000Z"
   },
   {
     "id": "nowcoder-652",
@@ -117,7 +142,7 @@
     ],
     "score": 96,
     "featured": true,
-    "createdAt": "2026-05-08T02:00:00.000Z"
+    "createdAt": "2026-05-07T11:42:52.000Z"
   },
   {
     "id": "nowcoder-898",
@@ -139,7 +164,48 @@
     ],
     "score": 94,
     "featured": true,
-    "createdAt": "2026-05-07T02:00:00.000Z"
+    "createdAt": "2026-05-06T14:29:27.000Z"
+  },
+  {
+    "id": "nowcoder-8347",
+    "title": "万兴科技 — 27届实习",
+    "summary": "深耕创意软件研发运营，产品体系多元，重视新人技术研发与产品创新能力培养。招聘批次：27届实习。工作地点：杭州、长沙、深圳。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://www.nowcoder.com/jobs/company-project?projectId=2601&deliverSource=4&activityId=173&activitySuffix=27sqsx2&pageSource=5009&channel=adv_qzsy",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "internet",
+    "tags": [
+      "万兴科技",
+      "实习",
+      "互联网/AI",
+      "杭州",
+      "长沙",
+      "深圳"
+    ],
+    "score": 94,
+    "featured": true,
+    "createdAt": "2026-05-06T07:02:11.000Z"
+  },
+  {
+    "id": "nowcoder-266987",
+    "title": "龙智数科 — 26春招",
+    "summary": "招聘批次：26春招。工作地点：成都、北京。招聘岗位：后端开发、人工智能/算法、研发工程师、产品。",
+    "url": "https://www.nowcoder.com/jobs/company-project?projectId=2599&deliverSource=4&activityId=172&activitySuffix=2603digital&pageSource=5009&channel=adv_qzsy",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "龙智数科",
+      "校招",
+      "春招",
+      "成都",
+      "北京"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-05-06T06:38:32.000Z"
   },
   {
     "id": "nowcoder-2197",
@@ -161,7 +227,7 @@
     ],
     "score": 92,
     "featured": true,
-    "createdAt": "2026-05-06T02:00:00.000Z"
+    "createdAt": "2026-05-06T06:34:15.000Z"
   },
   {
     "id": "nowcoder-259671",
@@ -180,27 +246,7 @@
     ],
     "score": 88,
     "featured": true,
-    "createdAt": "2026-05-06T02:00:00.000Z"
-  },
-  {
-    "id": "nowcoder-266987",
-    "title": "龙智数科 — 26春招",
-    "summary": "招聘批次：26春招。工作地点：成都、北京。招聘岗位：后端开发、人工智能/算法、研发工程师、产品。",
-    "url": "https://www.nowcoder.com/jobs/company-project?projectId=2599&deliverSource=4&activityId=172&activitySuffix=2603digital&pageSource=5009&channel=adv_qzsy",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "龙智数科",
-      "校招",
-      "春招",
-      "成都",
-      "北京"
-    ],
-    "score": 84,
-    "featured": true,
-    "createdAt": "2026-05-06T02:00:00.000Z"
+    "createdAt": "2026-05-06T06:32:26.000Z"
   },
   {
     "id": "nowcoder-13352",
@@ -221,28 +267,7 @@
     ],
     "score": 81,
     "featured": true,
-    "createdAt": "2026-04-25T02:00:00.000Z"
-  },
-  {
-    "id": "nowcoder-8347",
-    "title": "万兴科技 — 27届实习",
-    "summary": "深耕创意软件研发运营，产品体系多元，重视新人技术研发与产品创新能力培养。招聘批次：27届实习。工作地点：杭州、长沙、深圳。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
-    "url": "https://www.nowcoder.com/jobs/company-project?projectId=2601&deliverSource=4&activityId=173&activitySuffix=27sqsx2&pageSource=5009&channel=adv_qzsy",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "intern",
-    "category": "internet",
-    "tags": [
-      "万兴科技",
-      "实习",
-      "互联网/AI",
-      "杭州",
-      "长沙",
-      "深圳"
-    ],
-    "score": 84,
-    "featured": true,
-    "createdAt": "2026-04-24T02:00:00.000Z"
+    "createdAt": "2026-04-25T03:05:15.000Z"
   },
   {
     "id": "nowcoder-21369",
@@ -263,7 +288,7 @@
     ],
     "score": 79,
     "featured": false,
-    "createdAt": "2026-04-16T02:00:00.000Z"
+    "createdAt": "2026-04-16T04:29:46.000Z"
   },
   {
     "id": "nowcoder-1023",
@@ -283,9 +308,9 @@
       "北京",
       "证券"
     ],
-    "score": 80,
+    "score": 85,
     "featured": true,
-    "createdAt": "2026-04-03T02:00:00.000Z"
+    "createdAt": "2026-04-16T01:57:29.000Z"
   },
   {
     "id": "nowcoder-1166",
@@ -307,7 +332,7 @@
     ],
     "score": 75,
     "featured": false,
-    "createdAt": "2026-04-03T02:00:00.000Z"
+    "createdAt": "2026-04-07T08:34:59.000Z"
   },
   {
     "id": "nowcoder-1503",
@@ -328,7 +353,7 @@
     ],
     "score": 74,
     "featured": false,
-    "createdAt": "2026-03-31T02:00:00.000Z"
+    "createdAt": "2026-03-31T06:12:34.000Z"
   },
   {
     "id": "nowcoder-13094",
@@ -350,29 +375,7 @@
     ],
     "score": 84,
     "featured": true,
-    "createdAt": "2026-03-13T02:00:00.000Z"
-  },
-  {
-    "id": "nowcoder-2437",
-    "title": "奥克斯 — 网申中",
-    "summary": "大型多元化制造集团，家电与电力设备主业突出，规模大平台稳健。招聘批次：网申中。工作地点：宁波、芜湖。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
-    "url": "https://auxgroup.zhiye.com/campus/jobs",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "奥克斯",
-      "校招",
-      "车企/IC",
-      "宁波",
-      "芜湖",
-      "硬件",
-      "电商"
-    ],
-    "score": 73,
-    "featured": false,
-    "createdAt": "2026-03-12T02:00:00.000Z"
+    "createdAt": "2026-03-13T07:18:16.000Z"
   },
   {
     "id": "nowcoder-958",
@@ -395,7 +398,7 @@
     ],
     "score": 77,
     "featured": false,
-    "createdAt": "2026-03-10T02:00:00.000Z"
+    "createdAt": "2026-03-10T08:59:31.000Z"
   },
   {
     "id": "nowcoder-153",
@@ -418,6 +421,6 @@
     ],
     "score": 77,
     "featured": false,
-    "createdAt": "2026-03-06T02:00:00.000Z"
+    "createdAt": "2026-03-05T14:30:10.000Z"
   }
 ]
