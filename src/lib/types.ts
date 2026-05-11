@@ -1,6 +1,14 @@
-export type Channel = 'all' | 'official' | 'news' | 'social';
+export type Channel = 'all' | 'campus' | 'intern' | 'info';
 
-export type Category = 'all' | 'interview' | 'resume' | 'industry' | 'salary' | 'internship' | 'tips';
+export type Category =
+  | 'all'
+  | 'internet'    // 互联网/AI
+  | 'foreign'     // 外企
+  | 'game'        // 游戏
+  | 'auto_ic'     // 车企/IC
+  | 'finance'     // 金融/国企
+  | 'security'    // 安全/云服务
+  | 'other';      // 其他
 
 export interface FeedItem {
   id: string;

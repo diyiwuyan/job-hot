@@ -1,5 +1,5 @@
 import { FeedItem, FeedDay, PaginatedFeed, Channel, Category } from './types';
-import { mockFeedItems } from './data';
+import { feedItems } from './data';
 
 const ITEMS_PER_PAGE = 10;
 
@@ -156,7 +156,7 @@ export function getFeed(params: {
   const { page = 1, channel = 'all', category = 'all', query = '' } = params;
   
   // Apply filters
-  let filteredItems = mockFeedItems;
+  let filteredItems = feedItems;
   filteredItems = filterByChannel(filteredItems, channel);
   filteredItems = filterByCategory(filteredItems, category);
   filteredItems = filterByQuery(filteredItems, query);
@@ -188,14 +188,14 @@ export function getFeed(params: {
  * Get a single feed item by ID
  */
 export function getFeedItemById(id: string): FeedItem | undefined {
-  return mockFeedItems.find((item) => item.id === id);
+  return feedItems.find((item) => item.id === id);
 }
 
 /**
  * Get featured items
  */
 export function getFeaturedItems(limit: number = 5): FeedItem[] {
-  return mockFeedItems
+  return feedItems
     .filter((item) => item.featured)
     .sort((a, b) => b.score - a.score)
     .slice(0, limit);
@@ -205,7 +205,7 @@ export function getFeaturedItems(limit: number = 5): FeedItem[] {
  * Get items by tag
  */
 export function getItemsByTag(tag: string, limit?: number): FeedItem[] {
-  const items = mockFeedItems
+  const items = feedItems
     .filter((item) => item.tags.includes(tag))
     .sort((a, b) => b.score - a.score);
   
@@ -217,7 +217,7 @@ export function getItemsByTag(tag: string, limit?: number): FeedItem[] {
  */
 export function getAllTags(): string[] {
   const tags = new Set<string>();
-  mockFeedItems.forEach((item) => {
+  feedItems.forEach((item) => {
     item.tags.forEach((tag) => tags.add(tag));
   });
   return Array.from(tags).sort();
@@ -228,6 +228,6 @@ export function getAllTags(): string[] {
  */
 export function getAllSources(): string[] {
   const sources = new Set<string>();
-  mockFeedItems.forEach((item) => sources.add(item.source));
+  feedItems.forEach((item) => sources.add(item.source));
   return Array.from(sources).sort();
 }

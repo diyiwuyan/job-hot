@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "fetch-data": "tsx scripts/parse-campus2026.ts",
+    "prebuild": "tsx scripts/parse-campus2026.ts",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
@@ -21,6 +23,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
     "tailwindcss": "^4",
+    "tsx": "^4.21.0",
     "typescript": "^5"
   }
 }

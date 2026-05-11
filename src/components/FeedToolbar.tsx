@@ -10,19 +10,20 @@ interface FeedToolbarProps {
 
 const channels: { value: Channel; label: string }[] = [
   { value: 'all', label: '全部' },
-  { value: 'official', label: '官方招聘' },
-  { value: 'news', label: '资讯' },
-  { value: 'social', label: '经验分享' },
+  { value: 'campus', label: '校招' },
+  { value: 'intern', label: '实习' },
+  { value: 'info', label: '资讯' },
 ];
 
 const categories: { value: Category; label: string }[] = [
   { value: 'all', label: '全部' },
-  { value: 'interview', label: '面试' },
-  { value: 'resume', label: '简历' },
-  { value: 'industry', label: '行业' },
-  { value: 'salary', label: '薪资' },
-  { value: 'internship', label: '实习/校招' },
-  { value: 'tips', label: '技巧' },
+  { value: 'internet', label: '互联网/AI' },
+  { value: 'foreign', label: '外企' },
+  { value: 'game', label: '游戏' },
+  { value: 'auto_ic', label: '车企/IC' },
+  { value: 'finance', label: '金融/国企' },
+  { value: 'security', label: '安全/云服务' },
+  { value: 'other', label: '其他' },
 ];
 
 function buildFilterUrl(basePath: string, channel: Channel, category: Category): string {
