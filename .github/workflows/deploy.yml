@@ -38,14 +38,17 @@ jobs:
           npx tsx scripts/parse-campus2026.ts
           npx tsx scripts/parse-campus-shame.ts
           npx tsx scripts/parse-nowcoder.ts
+          npx tsx scripts/parse-deepoffer.ts
+          npx tsx scripts/parse-guopin.ts
+          npx tsx scripts/parse-yingjiesheng.ts
           npx tsx scripts/generate-rss.ts
 
-      - name: Commit updated data (accumulate Nowcoder entries)
+      - name: Commit updated data (accumulate entries across builds)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add src/lib/nowcoder-data.json
-          git diff --cached --quiet || git commit -m "chore: update nowcoder data [skip ci]"
+          git add src/lib/nowcoder-data.json src/lib/deepoffer-data.json src/lib/guopin-data.json src/lib/yingjiesheng-data.json
+          git diff --cached --quiet || git commit -m "chore: update recruitment data [skip ci]"
           git push || true
 
       - name: Build

@@ -1,7 +1,7 @@
 import { FeedItem, FeedDay, PaginatedFeed, Channel, Category } from './types';
 import { feedItems } from './data';
 
-const ITEMS_PER_PAGE = 10;
+const ITEMS_PER_PAGE = 30;
 
 /**
 * Format a date string to Chinese format like "5月9日" or "2025年7月20日" (if not current year)
@@ -95,20 +95,29 @@ function filterByQuery(items: FeedItem[], query: string): FeedItem[] {
 }
 
 /**
- * Sort items by score (descending) and then by createdAt (descending)
+ * Sort items: date first (newest day on top), then score within same day.
+ * This ensures the feed always shows the latest data first,
+ * with higher-scored items promoted within each day.
  */
 function sortItems(items: FeedItem[]): FeedItem[] {
   return [...items].sort((a, b) => {
-    // Featured items first
+    // Primary: by calendar date (newest first)
+    const dayA = a.createdAt.slice(0, 10);
+    const dayB = b.createdAt.slice(0, 10);
+    if (dayA !== dayB) {
+      return dayB.localeCompare(dayA);
+    }
+
+    // Within the same day: featured first
     if (a.featured && !b.featured) return -1;
     if (!a.featured && b.featured) return 1;
-    
+
     // Then by score
     if (b.score !== a.score) {
       return b.score - a.score;
     }
-    
-    // Then by date
+
+    // Finally by exact time
     return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime();
   });
 }

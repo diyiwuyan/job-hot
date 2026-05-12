@@ -337,8 +337,8 @@ async function main() {
 
   console.log(`Parsed ${entries.length} entries`);
 
-  // Convert to FeedItems
-  const feedItems: FeedItem[] = entries.map((entry, index) => {
+// Convert to FeedItems
+let feedItems: FeedItem[] = entries.map((entry, index) => {
     const score = computeScore(entry);
 
     return {
@@ -363,6 +363,15 @@ async function main() {
     if (dateCompare !== 0) return dateCompare;
     return b.score - a.score;
   });
+
+  // Only keep items from 2026-01-01 onwards
+  const cutoff = new Date('2026-01-01T00:00:00Z');
+  const beforeCount = feedItems.length;
+  feedItems = feedItems.filter(item => new Date(item.createdAt) >= cutoff);
+  const prunedCount = beforeCount - feedItems.length;
+  if (prunedCount > 0) {
+    console.log(`Pruned ${prunedCount} items before 2026-01-01 (cutoff: ${cutoff.toISOString().slice(0, 10)})`);
+  }
 
   // Write output
   const outputPath = path.join(__dirname, '..', 'src', 'lib', 'campus-data.json');

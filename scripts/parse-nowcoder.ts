@@ -388,8 +388,16 @@ function mergeWithExisting(newItems: FeedItem[]): FeedItem[] {
 
   console.log(`Merge result: ${newCount} new, ${updatedCount} updated, ${merged.size} total`);
 
+    // Only keep items from 2026-01-01 onwards
+  const cutoff = new Date('2026-01-01T00:00:00Z');
+  const pruned = [...merged.values()].filter(item => new Date(item.createdAt) >= cutoff);
+  const prunedCount = merged.size - pruned.length;
+  if (prunedCount > 0) {
+    console.log(`Pruned ${prunedCount} items before 2026-01-01`);
+  }
+
   // Sort by date desc, then score desc
-  return [...merged.values()].sort((a, b) => {
+  return pruned.sort((a, b) => {
     const dateCompare = new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime();
     if (dateCompare !== 0) return dateCompare;
     return b.score - a.score;
@@ -427,3 +435,4 @@ function writeOutput(feedItems: FeedItem[]) {
 }
 
 main().catch(console.error);
+

@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "fetch-data": "tsx scripts/parse-campus2026.ts && tsx scripts/parse-campus-shame.ts && tsx scripts/parse-nowcoder.ts",
-    "prebuild": "tsx scripts/parse-campus2026.ts && tsx scripts/parse-campus-shame.ts && tsx scripts/parse-nowcoder.ts && tsx scripts/generate-rss.ts",
+    "fetch-data": "tsx scripts/parse-campus2026.ts && tsx scripts/parse-campus-shame.ts && tsx scripts/parse-nowcoder.ts && tsx scripts/parse-deepoffer.ts && tsx scripts/parse-guopin.ts && tsx scripts/parse-yingjiesheng.ts",
+    "prebuild": "tsx scripts/parse-campus2026.ts && tsx scripts/parse-campus-shame.ts && tsx scripts/parse-nowcoder.ts && tsx scripts/parse-deepoffer.ts && tsx scripts/parse-guopin.ts && tsx scripts/parse-yingjiesheng.ts && tsx scripts/generate-rss.ts",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
