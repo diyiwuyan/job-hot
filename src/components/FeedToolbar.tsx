@@ -1,3 +1,6 @@
+'use client';
+
+import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { Channel, Category } from '@/lib/types';
 
@@ -30,10 +33,26 @@ function buildFilterUrl(basePath: string, channel: Channel, category: Category):
   params.set('page', '1');
   if (channel !== 'all') params.set('channel', channel);
   if (category !== 'all') params.set('category', category);
-  return `${basePath}?${params.toString()}`;
+  // Trailing slash is required for GitHub Pages static hosting
+  return `${basePath}/?${params.toString()}`;
 }
 
 export function FeedToolbar({ currentChannel, currentCategory, currentQuery, basePath }: FeedToolbarProps) {
+  const router = useRouter();
+
+  function handleSearch(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+    const params = new URLSearchParams();
+    params.set('page', '1');
+    const q = (formData.get('q') as string || '').trim();
+    if (q) params.set('q', q);
+    if (currentChannel !== 'all') params.set('channel', currentChannel);
+    if (currentCategory !== 'all') params.set('category', currentCategory);
+    // Use client-side navigation (no full page reload) to avoid GitHub Pages 404
+    router.push(`${basePath}/?${params.toString()}`);
+  }
+
   return (
     <div className="page-header">
       <div style={{ marginBottom: '1rem' }}>
@@ -72,8 +91,8 @@ export function FeedToolbar({ currentChannel, currentCategory, currentQuery, bas
           ))}
         </div>
 
-        {/* Search Form */}
-        <form className="filter-form" action={basePath} method="get">
+        {/* Search Form — uses client-side navigation to avoid GitHub Pages 404 */}
+        <form className="filter-form" onSubmit={handleSearch}>
           <input
             type="text"
             name="q"
@@ -81,13 +100,6 @@ export function FeedToolbar({ currentChannel, currentCategory, currentQuery, bas
             className="field"
             defaultValue={currentQuery}
           />
-          <input type="hidden" name="page" value="1" />
-          {currentChannel !== 'all' && (
-            <input type="hidden" name="channel" value={currentChannel} />
-          )}
-          {currentCategory !== 'all' && (
-            <input type="hidden" name="category" value={currentCategory} />
-          )}
           <button type="submit" className="btn">搜索</button>
         </form>
       </div>
