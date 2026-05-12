@@ -28,18 +28,9 @@ function loadJson(filename: string): FeedItem[] {
 
 const cutoffDate = new Date('2026-01-01T00:00:00Z');
 
-// Get today's date key in Beijing time (UTC+8) — used to filter out future-dated items
-function getTodayBeijingKey(): string {
-  const now = new Date();
-  const bjNow = new Date(now.getTime() + 8 * 60 * 60 * 1000);
-  const y = bjNow.getUTCFullYear();
-  const m = String(bjNow.getUTCMonth() + 1).padStart(2, '0');
-  const d = String(bjNow.getUTCDate()).padStart(2, '0');
-  return `${y}-${m}-${d}`;
-}
-
-const todayKey = getTodayBeijingKey();
-console.log(`[generate-pages] Today (Beijing): ${todayKey}`);
+// Filter out items with createdAt in the future
+const now = new Date();
+console.log(`[generate-pages] Build time (UTC): ${now.toISOString()}`);
 
 const allItems: FeedItem[] = [
   ...loadJson('campus-data.json'),
@@ -48,12 +39,11 @@ const allItems: FeedItem[] = [
   ...loadJson('guopin-data.json'),
   ...loadJson('yingjiesheng-data.json'),
 ].filter(item => {
-  const afterCutoff = new Date(item.createdAt) >= cutoffDate;
-  const notFuture = toBeijingDateKey(item.createdAt) <= todayKey;
-  return afterCutoff && notFuture;
+  const t = new Date(item.createdAt);
+  return t >= cutoffDate && t <= now;
 });
 
-console.log(`[generate-pages] Items after filtering: ${allItems.length}`);
+console.log(`[generate-pages] Items after filtering (future excluded): ${allItems.length}`);
 
 // Deduplicate
 const seen = new Map<string, FeedItem>();

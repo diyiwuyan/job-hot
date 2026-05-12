@@ -19,8 +19,14 @@ export default function DailyPage() {
   useEffect(() => {
     fetch(`${basePath}/api/feed/daily-digest.json`)
       .then(res => res.json())
-      .then(data => {
-        setDays(data);
+      .then((data: DailyDay[]) => {
+        // Runtime guard: filter out future-dated items
+        const nowStr = new Date().toISOString();
+        const filtered = data.map(day => ({
+          ...day,
+          items: day.items.filter((item: FeedItem) => item.createdAt <= nowStr),
+        })).filter(day => day.items.length > 0);
+        setDays(filtered);
         setLoading(false);
       })
       .catch(() => {

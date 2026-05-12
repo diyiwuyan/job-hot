@@ -19,6 +19,10 @@ async function searchFeed(query: string, channel: Channel, category: Category, p
 
   let items: FeedItem[] = await res.json();
 
+  // Exclude future-dated items (createdAt > now)
+  const now = new Date().toISOString();
+  items = items.filter(i => i.createdAt <= now);
+
   // Apply filters
   if (channel !== 'all') items = items.filter(i => i.channel === channel);
   if (category !== 'all') items = items.filter(i => i.category === category);
@@ -78,7 +82,14 @@ function AllPageContent() {
         if (!res.ok) {
           setFeed({ days: [], currentPage: 1, totalPages: 0 });
         } else {
-          setFeed(await res.json());
+          const data: PaginatedFeed = await res.json();
+          // Runtime guard: filter out any future-dated items that slipped through build
+          const nowStr = new Date().toISOString();
+          data.days = data.days.map(day => ({
+            ...day,
+            items: day.items.filter(item => item.createdAt <= nowStr),
+          })).filter(day => day.items.length > 0);
+          setFeed(data);
         }
       }
     } catch {
