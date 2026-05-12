@@ -8,8 +8,33 @@ import yingjieshengData from './yingjiesheng-data.json';
 // Only keep items from 2026-01-01 onwards
 const cutoffDate = new Date('2026-01-01T00:00:00Z');
 
+// Get today's date key in Beijing time (UTC+8)
+function getTodayBeijingKey(): string {
+  const now = new Date();
+  const bjNow = new Date(now.getTime() + 8 * 60 * 60 * 1000);
+  const y = bjNow.getUTCFullYear();
+  const m = String(bjNow.getUTCMonth() + 1).padStart(2, '0');
+  const d = String(bjNow.getUTCDate()).padStart(2, '0');
+  return `${y}-${m}-${d}`;
+}
+
+function toBeijingDateKey(dateString: string): string {
+  const date = new Date(dateString);
+  const bjTime = new Date(date.getTime() + 8 * 60 * 60 * 1000);
+  const y = bjTime.getUTCFullYear();
+  const m = String(bjTime.getUTCMonth() + 1).padStart(2, '0');
+  const d = String(bjTime.getUTCDate()).padStart(2, '0');
+  return `${y}-${m}-${d}`;
+}
+
+const todayKey = getTodayBeijingKey();
+
 function isRecent(item: FeedItem): boolean {
   return new Date(item.createdAt) >= cutoffDate;
+}
+
+function isNotFuture(item: FeedItem): boolean {
+  return toBeijingDateKey(item.createdAt) <= todayKey;
 }
 
 // Merge all data sources, filter expired, and deduplicate by id
@@ -19,7 +44,7 @@ const allItems: FeedItem[] = [
   ...(deepofferData as FeedItem[]),
   ...(guopinData as FeedItem[]),
   ...(yingjieshengData as FeedItem[]),
-].filter(isRecent);
+].filter(item => isRecent(item) && isNotFuture(item));
 
 // Deduplicate: if same company appears in multiple sources, keep the higher-scored one
 const seen = new Map<string, FeedItem>();
