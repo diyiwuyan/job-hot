@@ -4,44 +4,54 @@ import { feedItems } from './data';
 const ITEMS_PER_PAGE = 30;
 
 /**
-* Format a date string to Chinese format like "5月9日" or "2025年7月20日" (if not current year)
-*/
-function formatDate(dateString: string): string {
+ * Convert a UTC date to Beijing time (UTC+8) components.
+ * This ensures consistent date display regardless of the user's local timezone.
+ */
+function toBeijingDate(dateString: string): { year: number; month: number; day: number } {
   const date = new Date(dateString);
-  const now = new Date();
-  const month = date.getMonth() + 1;
-  const day = date.getDate();
-  if (date.getFullYear() !== now.getFullYear()) {
-    return `${date.getFullYear()}年${month}月${day}日`;
+  // Add 8 hours to get Beijing time, then extract UTC components
+  const bjTime = new Date(date.getTime() + 8 * 60 * 60 * 1000);
+  return {
+    year: bjTime.getUTCFullYear(),
+    month: bjTime.getUTCMonth() + 1,
+    day: bjTime.getUTCDate(),
+  };
+}
+
+/**
+ * Get a sortable date key in Beijing time: "YYYY-MM-DD"
+ */
+function toBeijingDateKey(dateString: string): string {
+  const { year, month, day } = toBeijingDate(dateString);
+  return `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+}
+
+/**
+ * Format a date string to Chinese format like "5月9日" or "2025年7月20日" (if not current year)
+ * Always uses Beijing time (UTC+8).
+ */
+function formatDate(dateString: string): string {
+  const { year, month, day } = toBeijingDate(dateString);
+  const nowBj = toBeijingDate(new Date().toISOString());
+  if (year !== nowBj.year) {
+    return `${year}年${month}月${day}日`;
   }
   return `${month}月${day}日`;
 }
 
 /**
- * Check if a date is today
+ * Check if a date is today (Beijing time)
  */
 function isToday(dateString: string): boolean {
-  const date = new Date(dateString);
-  const today = new Date();
-  return (
-    date.getFullYear() === today.getFullYear() &&
-    date.getMonth() === today.getMonth() &&
-    date.getDate() === today.getDate()
-  );
+  return toBeijingDateKey(dateString) === toBeijingDateKey(new Date().toISOString());
 }
 
 /**
- * Check if a date is yesterday
+ * Check if a date is yesterday (Beijing time)
  */
 function isYesterday(dateString: string): boolean {
-  const date = new Date(dateString);
-  const yesterday = new Date();
-  yesterday.setDate(yesterday.getDate() - 1);
-  return (
-    date.getFullYear() === yesterday.getFullYear() &&
-    date.getMonth() === yesterday.getMonth() &&
-    date.getDate() === yesterday.getDate()
-  );
+  const yesterday = new Date(Date.now() - 24 * 60 * 60 * 1000);
+  return toBeijingDateKey(dateString) === toBeijingDateKey(yesterday.toISOString());
 }
 
 /**
@@ -101,9 +111,9 @@ function filterByQuery(items: FeedItem[], query: string): FeedItem[] {
  */
 function sortItems(items: FeedItem[]): FeedItem[] {
   return [...items].sort((a, b) => {
-    // Primary: by calendar date (newest first)
-    const dayA = a.createdAt.slice(0, 10);
-    const dayB = b.createdAt.slice(0, 10);
+    // Primary: by calendar date in Beijing time (newest first)
+    const dayA = toBeijingDateKey(a.createdAt);
+    const dayB = toBeijingDateKey(b.createdAt);
     if (dayA !== dayB) {
       return dayB.localeCompare(dayA);
     }

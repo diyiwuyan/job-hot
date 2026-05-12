@@ -44,3 +44,4 @@ next-env.d.ts
 src/lib/campus-data.json
 src/lib/shame-data.json
 public/feed.xml
+public/api/feed/

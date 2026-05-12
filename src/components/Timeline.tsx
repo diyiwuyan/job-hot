@@ -8,9 +8,11 @@ function getScoreClass(score: number): string {
 }
 
 function formatTime(dateString: string): string {
+  // Use Beijing time (UTC+8) for consistent display
   const date = new Date(dateString);
-  const hours = date.getHours().toString().padStart(2, '0');
-  const minutes = date.getMinutes().toString().padStart(2, '0');
+  const bjTime = new Date(date.getTime() + 8 * 60 * 60 * 1000);
+  const hours = bjTime.getUTCHours().toString().padStart(2, '0');
+  const minutes = bjTime.getUTCMinutes().toString().padStart(2, '0');
   return `${hours}:${minutes}`;
 }
 

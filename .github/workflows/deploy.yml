@@ -41,6 +41,7 @@ jobs:
           npx tsx scripts/parse-deepoffer.ts
           npx tsx scripts/parse-guopin.ts
           npx tsx scripts/parse-yingjiesheng.ts
+          npx tsx scripts/generate-pages.ts
           npx tsx scripts/generate-rss.ts
 
       - name: Commit updated data (accumulate entries across builds)

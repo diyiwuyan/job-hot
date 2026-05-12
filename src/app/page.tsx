@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import { getFeaturedItems } from '@/lib/feed';
-import { feedItems } from '@/lib/data';
+import * as fs from 'fs';
+import * as path from 'path';
 import { FeedItem } from '@/lib/types';
 
 function getScoreClass(score: number): string {
@@ -55,11 +55,34 @@ function FeaturedCard({ item }: { item: FeedItem }) {
   );
 }
 
+interface HomeData {
+  featuredItems: FeedItem[];
+  totalItems: number;
+  campusCount: number;
+  internCount: number;
+}
+
+function getHomeData(): HomeData {
+  // Read pre-generated home data at build time (Server Component)
+  const jsonPath = path.join(process.cwd(), 'public', 'api', 'feed', 'home.json');
+  if (fs.existsSync(jsonPath)) {
+    return JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
+  }
+  // Fallback: import from data.ts (first build before generate-pages runs)
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const { feedItems } = require('@/lib/data');
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const { getFeaturedItems } = require('@/lib/feed');
+  return {
+    featuredItems: getFeaturedItems(10),
+    totalItems: feedItems.length,
+    campusCount: feedItems.filter((i: FeedItem) => i.channel === 'campus').length,
+    internCount: feedItems.filter((i: FeedItem) => i.channel === 'intern').length,
+  };
+}
+
 export default function HomePage() {
-  const featuredItems = getFeaturedItems(10);
-  const totalItems = feedItems.length;
-  const campusCount = feedItems.filter(i => i.channel === 'campus').length;
-  const internCount = feedItems.filter(i => i.channel === 'intern').length;
+  const { featuredItems, totalItems, campusCount, internCount } = getHomeData();
 
   return (
     <div className="page page-home">
