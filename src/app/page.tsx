@@ -60,6 +60,7 @@ interface HomeData {
   totalItems: number;
   campusCount: number;
   internCount: number;
+  talkCount?: number;
 }
 
 function getHomeData(): HomeData {
@@ -82,7 +83,7 @@ function getHomeData(): HomeData {
 }
 
 export default function HomePage() {
-  const { featuredItems, totalItems, campusCount, internCount } = getHomeData();
+  const { featuredItems, totalItems, campusCount, internCount, talkCount = 0 } = getHomeData();
 
   return (
     <div className="page page-home">
@@ -109,6 +110,7 @@ export default function HomePage() {
           { label: '总信息量', value: totalItems, color: 'var(--accent)' },
           { label: '校招岗位', value: campusCount, color: 'var(--success)' },
           { label: '实习岗位', value: internCount, color: 'var(--warning)' },
+          { label: '宣讲会', value: talkCount, color: 'var(--danger)' },
           { label: '精选推荐', value: featuredItems.length, color: 'var(--gradient-end)' },
         ].map((stat) => (
           <div

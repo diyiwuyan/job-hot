@@ -9,31 +9,111 @@ import { FeedToolbar } from '@/components/FeedToolbar';
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '/job-hot';
 
-/**
- * Client-side search: load the lightweight search index, filter, paginate, and group.
- */
-async function searchFeed(query: string, channel: Channel, category: Category, page: number): Promise<PaginatedFeed> {
-  const ITEMS_PER_PAGE = 30;
-  const res = await fetch(`${basePath}/api/feed/search-index.json`);
-  if (!res.ok) return { days: [], currentPage: 1, totalPages: 0 };
+// ─── Search index cache ─────────────────────────────────────────────
+// Search indexes use a columnar format to minimize file size (~4.6 MB vs 11.7 MB).
+// Format: { k: [field names], u/s/c/g: reverse maps, d: [[row], ...] }
+// We download per-channel shards and cache the reconstructed objects in memory.
+// Pagination within the same search session is instant (no network).
+const searchCache = new Map<string, FeedItem[]>();
 
-  let items: FeedItem[] = await res.json();
+// Columnar shard type (matches build output)
+interface ColumnarShard {
+  k: string[];                          // field names
+  u: Record<string, string>;            // URL code → prefix
+  s: Record<string, string>;            // source code → full name
+  c: Record<string, string>;            // channel code → full name
+  g: Record<string, string>;            // category code → full name
+  d: string[][];                         // data rows (all values are strings)
+}
+
+function restoreUrl(compact: string, urlMap: Record<string, string>): string {
+  // First char might be a URL prefix code
+  const code = compact[0];
+  if (urlMap[code]) return urlMap[code] + compact.slice(1);
+  return compact;
+}
+
+async function loadSearchShard(channel: Channel): Promise<FeedItem[]> {
+  const shardKey = channel === 'all' ? 'all' : channel;
+  const cached = searchCache.get(shardKey);
+  if (cached) return cached;
+
+  const res = await fetch(`${basePath}/api/feed/search-${shardKey}.json`);
+  if (!res.ok) return [];
+
+  const shard: ColumnarShard = await res.json();
+  const { k: fields, u: urlMap, s: srcMap, c: chMap, g: catMap, d: rows } = shard;
+
+  // Field index lookup
+  const idx: Record<string, number> = {};
+  fields.forEach((f, i) => { idx[f] = i; });
+
+  // Reconstruct FeedItem objects from columnar rows
+  const items: FeedItem[] = rows.map(row => {
+    const srcCode = row[idx.source] as string;
+    const chCode = row[idx.channel] as string;
+    const catCode = row[idx.category] as string;
+    const dateStr = row[idx.createdAt] as string;
+
+    return {
+      id: row[idx.id] as string,
+      title: row[idx.title] as string,
+      summary: row[idx.summary] as string,
+      url: restoreUrl(row[idx.url] as string, urlMap),
+      source: srcMap[srcCode] || srcCode,
+      channel: (chMap[chCode] || chCode) as FeedItem['channel'],
+      category: (catMap[catCode] || catCode) as FeedItem['category'],
+      // Tags stored as pipe-separated string in columnar format
+      tags: (row[idx.tags] as string).split('|'),
+      createdAt: dateStr.length === 10 ? dateStr + 'T12:00:00.000Z' : dateStr,
+      // Fields not in search index — provide defaults
+      score: 0,
+      featured: false,
+      sourceAvatar: '',
+      sourceHandle: '',
+      images: [],
+    };
+  });
+
+  searchCache.set(shardKey, items);
+  return items;
+}
+
+/**
+ * Client-side search: load the channel-specific search shard (cached),
+ * filter by category + query, paginate, and group by date.
+ */
+async function searchFeed(query: string, channel: Channel, category: Category, page: number, cities: string[] = []): Promise<PaginatedFeed> {
+  const ITEMS_PER_PAGE = 30;
+
+  let items = await loadSearchShard(channel);
 
   // Exclude future-dated items (createdAt > now)
   const now = new Date().toISOString();
   items = items.filter(i => i.createdAt <= now);
 
-  // Apply filters
-  if (channel !== 'all') items = items.filter(i => i.channel === channel);
+  // Category filter (channel already handled by shard selection)
   if (category !== 'all') items = items.filter(i => i.category === category);
 
+  // City filter: match against tags or summary
+  if (cities.length > 0) {
+    items = items.filter(i =>
+      cities.some(city =>
+        i.tags.some(t => t.includes(city)) ||
+        i.summary.includes(city)
+      )
+    );
+  }
+
   const lowerQuery = query.toLowerCase().trim();
-  items = items.filter(i =>
-    i.title.toLowerCase().includes(lowerQuery) ||
-    i.summary.toLowerCase().includes(lowerQuery) ||
-    i.tags.some(t => t.toLowerCase().includes(lowerQuery)) ||
-    i.source.toLowerCase().includes(lowerQuery)
-  );
+  if (lowerQuery) {
+    items = items.filter(i =>
+      i.title.toLowerCase().includes(lowerQuery) ||
+      i.summary.toLowerCase().includes(lowerQuery) ||
+      i.tags.some(t => t.toLowerCase().includes(lowerQuery)) ||
+      i.source.toLowerCase().includes(lowerQuery)
+    );
+  }
 
   // Paginate
   const totalPages = Math.ceil(items.length / ITEMS_PER_PAGE);
@@ -41,7 +121,7 @@ async function searchFeed(query: string, channel: Channel, category: Category, p
   const start = (validPage - 1) * ITEMS_PER_PAGE;
   const paginatedItems = items.slice(start, start + ITEMS_PER_PAGE);
 
-  // Group by date (simple: use createdAt date portion)
+  // Group by date (Beijing time)
   const groups = new Map<string, FeedItem[]>();
   for (const item of paginatedItems) {
     const d = new Date(new Date(item.createdAt).getTime() + 8 * 3600000);
@@ -64,6 +144,8 @@ function AllPageContent() {
   const channel = (searchParams.get('channel') || 'all') as Channel;
   const category = (searchParams.get('category') || 'all') as Category;
   const query = searchParams.get('q') || '';
+  const citiesParam = searchParams.get('cities') || '';
+  const cities = citiesParam ? citiesParam.split(',').filter(Boolean) : [];
 
   const [feed, setFeed] = useState<PaginatedFeed | null>(null);
   const [loading, setLoading] = useState(true);
@@ -71,9 +153,9 @@ function AllPageContent() {
   const loadData = useCallback(async () => {
     setLoading(true);
     try {
-      if (query) {
-        // Search: load search index and filter client-side
-        const result = await searchFeed(query, channel, category, page);
+      if (query || cities.length > 0) {
+        // Search or city filter: load search index and filter client-side
+        const result = await searchFeed(query, channel, category, page, cities);
         setFeed(result);
       } else {
         // Normal browsing: load pre-generated paginated JSON (~20KB)
@@ -96,7 +178,8 @@ function AllPageContent() {
       setFeed({ days: [], currentPage: 1, totalPages: 0 });
     }
     setLoading(false);
-  }, [page, channel, category, query]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [page, channel, category, query, citiesParam]);
 
   useEffect(() => {
     loadData();
@@ -107,6 +190,7 @@ function AllPageContent() {
   if (channel !== 'all') paginationParams.channel = channel;
   if (category !== 'all') paginationParams.category = category;
   if (query) paginationParams.q = query;
+  if (cities.length > 0) paginationParams.cities = cities.join(',');
 
   return (
     <div className="page page-feed">
@@ -114,6 +198,7 @@ function AllPageContent() {
         currentChannel={channel}
         currentCategory={category}
         currentQuery={query}
+        currentCities={cities}
         basePath="/all"
       />
 

@@ -1,4 +1,4 @@
-export type Channel = 'all' | 'campus' | 'intern';
+export type Channel = 'all' | 'campus' | 'intern' | 'talk';
 
 export type Category =
   | 'all'

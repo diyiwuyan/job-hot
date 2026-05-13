@@ -31,36 +31,6 @@ export default function ToolsPage() {
       url: 'https://github.com/forthespada/CampusShame',
       tags: ['避雷', '开源', '校招'],
     },
-    {
-      name: '海投网（鱼泡直聘）',
-      desc: '宣讲会信息聚合平台，覆盖全国高校校园宣讲会时间和地点',
-      url: 'https://www.haitou.cc/',
-      tags: ['宣讲会', '校招'],
-    },
-    {
-      name: 'Offer Show',
-      desc: '校招薪资爆料平台，查看各公司校招offer薪资待遇',
-      url: 'https://offershow.top/',
-      tags: ['薪资', '对比', 'Offer'],
-    },
-    {
-      name: '力扣 LeetCode',
-      desc: '算法刷题必备平台，校招笔试面试算法题练习',
-      url: 'https://leetcode.cn/',
-      tags: ['刷题', '算法', '面试'],
-    },
-    {
-      name: '求职方舟AI',
-      desc: 'AI驱动的校招信息聚合，实时更新26届校招信息，提供Chrome插件',
-      url: 'https://www.qiuzhifangzhou.com/campus',
-      tags: ['AI', '校招', '聚合'],
-    },
-    {
-      name: '超级简历',
-      desc: '专业简历制作工具，提供ATS友好的简历模板和AI优化建议',
-      url: 'https://www.wondercv.com/',
-      tags: ['简历', '模板', 'AI'],
-    },
   ];
 
   return (

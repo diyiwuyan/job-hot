@@ -43,102 +43,6 @@
     "createdAt": "2026-05-11T15:07:41.000Z"
   },
   {
-    "id": "nowcoder-26961",
-    "title": "58同城 — 27届实习",
-    "summary": "头部生活服务互联网平台，业务生态完备，城市覆盖广泛，本地生活与招聘房产资源积淀充。招聘批次：27届实习。工作地点：北京。招聘岗位：人工智能/算法。",
-    "url": "https://campus.58.com/campus-recruitment/58/150953/#/jobs",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "intern",
-    "category": "internet",
-    "tags": [
-      "58同城",
-      "实习",
-      "互联网/AI",
-      "北京"
-    ],
-    "score": 91,
-    "featured": true,
-    "createdAt": "2026-05-11T15:06:07.000Z"
-  },
-  {
-    "id": "nowcoder-31951",
-    "title": "中国能建安徽院 — 27届实习",
-    "summary": "央企电力甲级设计院，特高压新能源设计实力强劲，国内外能源工程承接经验丰富。招聘批次：27届实习。工作地点：合肥。招聘岗位：硬件工程师、电子/半导体、通信、技术支持、机械等。",
-    "url": "https://mp.weixin.qq.com/s/njOphf2SS3UD9YOAJVXvqQ",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "intern",
-    "category": "auto_ic",
-    "tags": [
-      "中国能建安徽院",
-      "实习",
-      "车企/IC",
-      "合肥"
-    ],
-    "score": 93,
-    "featured": true,
-    "createdAt": "2026-05-10T02:06:48.000Z"
-  },
-  {
-    "id": "nowcoder-31953",
-    "title": "沃茨中国 — 27届实习",
-    "summary": "百年国际水工业龙头，暖通给排水产品线齐全，在华产销研布局完整。招聘批次：27届实习。工作地点：上海。招聘岗位：产品、市场/营销、销售类、商务、管理等。",
-    "url": "https://campus.51job.com/watts2026/job.html",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "intern",
-    "category": "other",
-    "tags": [
-      "沃茨中国",
-      "实习",
-      "上海"
-    ],
-    "score": 93,
-    "featured": true,
-    "createdAt": "2026-05-10T02:05:34.000Z"
-  },
-  {
-    "id": "nowcoder-31949",
-    "title": "北汽产投 — 27届实习",
-    "summary": "汽车产业官方投资平台，硬科技赛道布局广泛，产业基金体系完善，产业链整合能力突出。。招聘批次：27届实习。工作地点：深圳、北京、上海。招聘岗位：风控、投融资、保险、管理、咨询/调研。",
-    "url": "https://baicgroup.zhiye.com/campus/jobs?queryId=bfc49d86-5dc2-47ba-b0ae-7d734d8319c0",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "intern",
-    "category": "finance",
-    "tags": [
-      "北汽产投",
-      "实习",
-      "金融",
-      "深圳",
-      "北京",
-      "上海"
-    ],
-    "score": 89,
-    "featured": true,
-    "createdAt": "2026-05-10T01:58:05.000Z"
-  },
-  {
-    "id": "nowcoder-31948",
-    "title": "中国电建福建院 — 27届实习",
-    "summary": "央企甲级电力设计院，资质等级齐全，新能源与电网设计经验深厚，工程技术实力雄厚。。招聘批次：27届实习。工作地点：福州。招聘岗位：后端开发、数据、人工智能/算法、硬件工程师、电子/半导体等。",
-    "url": "https://fedi.zhiye.com/intern/jobs",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "intern",
-    "category": "auto_ic",
-    "tags": [
-      "中国电建福建院",
-      "实习",
-      "车企/IC",
-      "福州"
-    ],
-    "score": 93,
-    "featured": true,
-    "createdAt": "2026-05-10T01:56:32.000Z"
-  },
-  {
     "id": "nowcoder-2437",
     "title": "奥克斯 — 网申中",
     "summary": "大型多元化制造集团，家电与电力设备主业突出，规模大平台稳健。招聘批次：网申中。工作地点：宁波、芜湖。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
@@ -178,7 +82,7 @@
       "北京",
       "上海"
     ],
-    "score": 99,
+    "score": 94,
     "featured": true,
     "createdAt": "2026-05-09T00:35:47.000Z"
   },

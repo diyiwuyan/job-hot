@@ -54,35 +54,59 @@ for (const item of allItems) {
   }
 }
 
+// Re-tag items with "宣讲会" tag as channel='talk' (was 'campus')
+for (const item of seen.values()) {
+  if (item.tags.includes('宣讲会')) {
+    item.channel = 'talk' as Channel;
+  }
+}
+
 const feedItems = [...seen.values()].sort(
   (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
 );
 
-// ─── Beijing time helpers ────────────────────────────────────────────
+// ─── Beijing time helpers (with memoization) ────────────────────────
+const dateKeyCache = new Map<string, string>();
+const dateCNCache = new Map<string, string>();
+const dateTimestampCache = new Map<string, number>();
+
 function toBeijingDateKey(dateString: string): string {
+  let cached = dateKeyCache.get(dateString);
+  if (cached !== undefined) return cached;
   const date = new Date(dateString);
   const bjTime = new Date(date.getTime() + 8 * 60 * 60 * 1000);
   const y = bjTime.getUTCFullYear();
   const m = String(bjTime.getUTCMonth() + 1).padStart(2, '0');
   const d = String(bjTime.getUTCDate()).padStart(2, '0');
-  return `${y}-${m}-${d}`;
+  cached = `${y}-${m}-${d}`;
+  dateKeyCache.set(dateString, cached);
+  return cached;
 }
 
 function formatDateCN(dateString: string): string {
+  let cached = dateCNCache.get(dateString);
+  if (cached !== undefined) return cached;
   const date = new Date(dateString);
   const bjTime = new Date(date.getTime() + 8 * 60 * 60 * 1000);
-  const y = bjTime.getUTCFullYear();
   const m = bjTime.getUTCMonth() + 1;
   const d = bjTime.getUTCDate();
-  // For simplicity in static generation, just use "M月D日" format
-  // (today/yesterday labels are handled client-side)
-  return `${m}月${d}日`;
+  cached = `${m}月${d}日`;
+  dateCNCache.set(dateString, cached);
+  return cached;
+}
+
+function getTimestamp(dateString: string): number {
+  let cached = dateTimestampCache.get(dateString);
+  if (cached !== undefined) return cached;
+  cached = new Date(dateString).getTime();
+  dateTimestampCache.set(dateString, cached);
+  return cached;
 }
 
 // ─── Feed logic (mirrors feed.ts) ───────────────────────────────────
 const ITEMS_PER_PAGE = 30;
 
-const channels: Channel[] = ['all', 'campus', 'intern'];
+const channels: Channel[] = ['all', 'campus', 'intern', 'talk'];
 const categories: Category[] = ['all', 'internet', 'foreign', 'game', 'auto_ic', 'finance', 'security', 'other'];
 
 function filterByChannel(items: FeedItem[], channel: Channel): FeedItem[] {
@@ -103,31 +127,26 @@ function sortItems(items: FeedItem[]): FeedItem[] {
     if (a.featured && !b.featured) return -1;
     if (!a.featured && b.featured) return 1;
     if (b.score !== a.score) return b.score - a.score;
-    return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime();
+    return getTimestamp(b.createdAt) - getTimestamp(a.createdAt);
   });
 }
 
 function groupByDate(items: FeedItem[]): FeedDay[] {
   const groups = new Map<string, FeedItem[]>();
-  const sortedByDate = [...items].sort(
-    (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
-  );
-
-  for (const item of sortedByDate) {
+  // items are already sorted, just group them
+  for (const item of items) {
     const dateKey = formatDateCN(item.createdAt);
     if (!groups.has(dateKey)) groups.set(dateKey, []);
     groups.get(dateKey)!.push(item);
   }
 
   const days: FeedDay[] = [];
-  groups.forEach((items, date) => {
-    days.push({ date, items });
+  groups.forEach((dayItems, date) => {
+    days.push({ date, items: dayItems });
   });
 
   days.sort((a, b) => {
-    const dateA = new Date(a.items[0].createdAt);
-    const dateB = new Date(b.items[0].createdAt);
-    return dateB.getTime() - dateA.getTime();
+    return getTimestamp(b.items[0].createdAt) - getTimestamp(a.items[0].createdAt);
   });
 
   return days;
@@ -168,19 +187,31 @@ for (const f of oldFiles) {
 
 let fileCount = 0;
 
+// Pre-sort each channel×category combination once, then paginate from cache
+const sortedCache = new Map<string, FeedItem[]>();
+
 for (const channel of channels) {
   for (const category of categories) {
-    // First, figure out total pages for this combination
+    const key = `${channel}-${category}`;
     let filtered = feedItems;
     filtered = filterByChannel(filtered, channel);
     filtered = filterByCategory(filtered, category);
 
     if (filtered.length === 0) continue;
 
-    const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE);
+    const sorted = sortItems(filtered);
+    sortedCache.set(key, sorted);
+
+    const totalPages = Math.ceil(sorted.length / ITEMS_PER_PAGE);
 
     for (let page = 1; page <= totalPages; page++) {
-      const data = generateFeed(channel, category, page);
+      const validPage = Math.max(1, Math.min(page, totalPages));
+      const startIndex = (validPage - 1) * ITEMS_PER_PAGE;
+      const endIndex = startIndex + ITEMS_PER_PAGE;
+      const paginatedItems = sorted.slice(startIndex, endIndex);
+      const days = groupByDate(paginatedItems);
+
+      const data: PageData = { days, currentPage: validPage, totalPages };
       const filename = `${channel}-${category}-${page}.json`;
       fs.writeFileSync(
         path.join(outDir, filename),
@@ -189,33 +220,140 @@ for (const channel of channels) {
       );
       fileCount++;
     }
+
+    if (fileCount % 100 === 0) {
+      console.log(`  [progress] ${fileCount} files generated...`);
+    }
   }
 }
 
-// ─── Generate search index (compact: truncate summary, drop optional fields) ──
-const searchIndex = feedItems.map(item => ({
-  id: item.id,
-  title: item.title,
-  summary: item.summary.length > 80 ? item.summary.slice(0, 80) + '…' : item.summary,
-  url: item.url,
-  source: item.source,
-  channel: item.channel,
-  category: item.category,
-  tags: item.tags,
-  score: item.score,
-  createdAt: item.createdAt,
-}));
+// ─── Generate search index (columnar format for minimal size) ────────
+// Instead of one giant JSON array of objects (11+ MB), we use a columnar
+// format that eliminates repeated key names (saves ~50% of file size):
+//
+//   { k: ["id","title",...],       // field names (once)
+//     u: {"W":"https://mp.weixin.qq.com",...},  // URL prefix map
+//     s: {"gp":"国聘",...},         // source code map
+//     c: {"c":"campus",...},        // channel code map
+//     g: {"int":"internet",...},    // category code map
+//     d: [["id1","title1",...], ...] // data rows (arrays, not objects)
+//   }
+//
+// Client reconstructs objects from rows + header. Sharded by channel.
+// Each shard is cached in memory after first download.
 
-fs.writeFileSync(
-  path.join(outDir, 'search-index.json'),
-  JSON.stringify(searchIndex),
-  'utf8'
+// Source name → short code mapping
+const sourceCodeMap: Record<string, string> = {
+  '国聘': 'gp',
+  '应届生求职网': 'yjs',
+  'DeepOffer': 'do',
+  '牛客网': 'nk',
+};
+
+// Channel → short code
+const channelCodeMap: Record<string, string> = {
+  'campus': 'c',
+  'intern': 'i',
+  'talk': 't',
+};
+
+// Category → short code
+const categoryCodeMap: Record<string, string> = {
+  'internet': 'int',
+  'foreign': 'for',
+  'game': 'gam',
+  'auto_ic': 'aut',
+  'finance': 'fin',
+  'security': 'sec',
+  'other': 'oth',
+};
+
+// URL prefix → single-char code (top domains by frequency)
+const urlPrefixMap: Record<string, string> = {
+  'https://mp.weixin.qq.com': 'W',
+  'https://www.iguopin.com': 'G',
+  'https://app.mokahr.com': 'M',
+  'https://my.yingjiesheng.com': 'Y',
+  'https://wecruit.hotjob.cn': 'H',
+  'https://campus.51job.com': 'J',
+  'http://mp.weixin.qq.com': 'w',
+  'https://www.wjx.cn': 'X',
+  'https://xiaoyuan.zhaopin.com': 'Z',
+  'https://recruit.cscec.com': 'C',
+  'https://xyz.51job.com': 'j',
+  'https://xym.51job.com': 'y',
+};
+
+function compactUrl(url: string): string {
+  for (const [prefix, code] of Object.entries(urlPrefixMap)) {
+    if (url.startsWith(prefix)) return code + url.slice(prefix.length);
+  }
+  return url;
+}
+
+function compactDate(iso: string): string {
+  return iso.slice(0, 10);
+}
+
+// Field order in columnar data rows
+const searchFields = ['id', 'title', 'summary', 'url', 'source', 'channel', 'category', 'tags', 'createdAt'];
+
+const channelShards: Record<string, typeof feedItems> = {
+  all: feedItems,
+  campus: feedItems.filter(i => i.channel === 'campus'),
+  intern: feedItems.filter(i => i.channel === 'intern'),
+  talk: feedItems.filter(i => i.channel === 'talk'),
+};
+
+// Reverse maps for client-side restoration (code → full name)
+const sourceReverseMap = Object.fromEntries(Object.entries(sourceCodeMap).map(([k, v]) => [v, k]));
+const channelReverseMap = Object.fromEntries(Object.entries(channelCodeMap).map(([k, v]) => [v, k]));
+const categoryReverseMap = Object.fromEntries(Object.entries(categoryCodeMap).map(([k, v]) => [v, k]));
+const urlReverseMap = Object.fromEntries(Object.entries(urlPrefixMap).map(([k, v]) => [v, k]));
+
+for (const [ch, items] of Object.entries(channelShards)) {
+  const rows = items.map(item => [
+    item.id,
+    item.title,
+    item.summary.length > 50 ? item.summary.slice(0, 50) + '…' : item.summary,
+    compactUrl(item.url),
+    sourceCodeMap[item.source] || item.source,
+    channelCodeMap[item.channel] || item.channel,
+    categoryCodeMap[item.category] || item.category,
+    // Tags as pipe-separated string (saves ~3.7 MB vs JSON arrays across 21K items)
+    item.tags.join('|'),
+    compactDate(item.createdAt),
+  ]);
+
+  const shard = {
+    k: searchFields,
+    u: urlReverseMap,   // code → prefix (for client restoration)
+    s: sourceReverseMap,
+    c: channelReverseMap,
+    g: categoryReverseMap,
+    d: rows,
+  };
+
+  fs.writeFileSync(
+    path.join(outDir, `search-${ch}.json`),
+    JSON.stringify(shard),
+    'utf8'
+  );
+
+  const size = fs.statSync(path.join(outDir, `search-${ch}.json`)).size;
+  console.log(`  search-${ch}.json: ${(size / 1024 / 1024).toFixed(1)} MB (${items.length} items)`);
+}
+
+// Keep backward-compatible search-index.json (copy of search-all.json)
+fs.copyFileSync(
+  path.join(outDir, 'search-all.json'),
+  path.join(outDir, 'search-index.json')
 );
 
 // ─── Generate daily digest JSON ─────────────────────────────────────
 const dailyGrouped = new Map<string, FeedItem[]>();
 const dailySorted = [...feedItems].sort(
-  (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+  (a, b) => getTimestamp(b.createdAt) - getTimestamp(a.createdAt)
 );
 
 for (const item of dailySorted) {
@@ -246,11 +384,43 @@ const featuredItems = feedItems
   .sort((a, b) => b.score - a.score)
   .slice(0, 10);
 
+// ─── Extract city list from tags for city filter ────────────────────
+// Cities appear in tags of items from yingjiesheng (宣讲会) and guopin/deepoffer.
+// We extract them from summary patterns like "城市：{city}" or "工作地点：{city}".
+const cityCount = new Map<string, number>();
+const cityPattern = /(?:城市|工作地点)[：:]\s*([^。\n]+)/;
+for (const item of feedItems) {
+  const match = item.summary.match(cityPattern);
+  if (match) {
+    // Some items have multiple cities separated by "、" or "，" or "/"
+    const cities = match[1].split(/[、，,/]/).map(c => c.trim()).filter(c => c.length > 0 && c.length <= 10);
+    for (const city of cities) {
+      cityCount.set(city, (cityCount.get(city) || 0) + 1);
+    }
+  }
+}
+
+// Sort by frequency, take top 30 cities
+const topCities = [...cityCount.entries()]
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 30)
+  .map(([city]) => city);
+
+console.log(`[generate-pages] Top cities (${topCities.length}): ${topCities.slice(0, 10).join(', ')}...`);
+
+// Write city list for client-side filter
+fs.writeFileSync(
+  path.join(outDir, 'cities.json'),
+  JSON.stringify(topCities),
+  'utf8'
+);
+
 const homeData = {
   featuredItems,
   totalItems: feedItems.length,
   campusCount: feedItems.filter(i => i.channel === 'campus').length,
   internCount: feedItems.filter(i => i.channel === 'intern').length,
+  talkCount: feedItems.filter(i => i.channel === 'talk').length,
 };
 
 fs.writeFileSync(
@@ -259,8 +429,6 @@ fs.writeFileSync(
   'utf8'
 );
 
-const searchSize = fs.statSync(path.join(outDir, 'search-index.json')).size;
 console.log(`Generated ${fileCount} paginated JSON files in public/api/feed/`);
-console.log(`Search index: ${(searchSize / 1024 / 1024).toFixed(1)} MB`);
 console.log(`Daily digest: ${dailyDigest.length} days`);
 console.log(`Total items: ${feedItems.length}`);
