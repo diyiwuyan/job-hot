@@ -50,10 +50,12 @@ function CityDropdown({
   cities,
   selected,
   onToggle,
+  onClear,
 }: {
   cities: string[];
   selected: string[];
   onToggle: (city: string) => void;
+  onClear: () => void;
 }) {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
@@ -87,7 +89,7 @@ function CityDropdown({
             <button
               type="button"
               className="filter-dropdown-clear"
-              onClick={() => { selected.forEach(c => onToggle(c)); }}
+              onClick={onClear}
             >
               清除选择
             </button>
@@ -131,19 +133,27 @@ export function FeedToolbar({ currentChannel, currentCategory, currentQuery, cur
     setSelectedCities(currentCities);
   }, [currentCities]);
 
+  function navigateWithCities(next: string[]) {
+    const params = new URLSearchParams();
+    params.set('page', '1');
+    if (currentChannel !== 'all') params.set('channel', currentChannel);
+    if (currentCategory !== 'all') params.set('category', currentCategory);
+    if (currentQuery) params.set('q', currentQuery);
+    if (next.length > 0) params.set('cities', next.join(','));
+    router.push(`${basePath}/?${params.toString()}`);
+  }
+
   function toggleCity(city: string) {
     setSelectedCities(prev => {
       const next = prev.includes(city) ? prev.filter(c => c !== city) : [...prev, city];
-      // Navigate with updated cities
-      const params = new URLSearchParams();
-      params.set('page', '1');
-      if (currentChannel !== 'all') params.set('channel', currentChannel);
-      if (currentCategory !== 'all') params.set('category', currentCategory);
-      if (currentQuery) params.set('q', currentQuery);
-      if (next.length > 0) params.set('cities', next.join(','));
-      router.push(`${basePath}/?${params.toString()}`);
+      navigateWithCities(next);
       return next;
     });
+  }
+
+  function clearCities() {
+    setSelectedCities([]);
+    navigateWithCities([]);
   }
 
   function handleSearch(e: React.FormEvent<HTMLFormElement>) {
@@ -211,6 +221,7 @@ export function FeedToolbar({ currentChannel, currentCategory, currentQuery, cur
               cities={cityList}
               selected={selectedCities}
               onToggle={toggleCity}
+              onClear={clearCities}
             />
           </div>
         )}
