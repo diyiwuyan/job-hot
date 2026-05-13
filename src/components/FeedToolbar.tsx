@@ -169,23 +169,26 @@ export function FeedToolbar({ currentChannel, currentCategory, currentQuery, cur
       <div className="divider" />
 
       <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-        {/* Channel Filter (招聘类型) */}
-        <div className="segmented" aria-label="招聘类型">
-          {channels.map((ch) => (
-            <Link
-              key={ch.value}
-              href={buildFilterUrl(basePath, ch.value, currentCategory, selectedCities)}
-              className={`seg-item${currentChannel === ch.value ? ' seg-item-active' : ''}`}
-              aria-current={currentChannel === ch.value ? 'page' : undefined}
-            >
-              {ch.label}
-            </Link>
-          ))}
+        {/* Row 1: 招聘类型 */}
+        <div className="filter-labeled-row">
+          <span className="filter-label">招聘类型</span>
+          <div className="segmented" aria-label="招聘类型">
+            {channels.map((ch) => (
+              <Link
+                key={ch.value}
+                href={buildFilterUrl(basePath, ch.value, currentCategory, selectedCities)}
+                className={`seg-item${currentChannel === ch.value ? ' seg-item-active' : ''}`}
+                aria-current={currentChannel === ch.value ? 'page' : undefined}
+              >
+                {ch.label}
+              </Link>
+            ))}
+          </div>
         </div>
 
-        {/* Second row: Category (行业) + City (城市) */}
-        <div className="filter-row">
-          {/* Category Filter (行业) */}
+        {/* Row 2: 行业 */}
+        <div className="filter-labeled-row">
+          <span className="filter-label">行业</span>
           <div className="segmented segmented-wrap" aria-label="行业筛选">
             {categories.map((cat) => (
               <Link
@@ -198,18 +201,21 @@ export function FeedToolbar({ currentChannel, currentCategory, currentQuery, cur
               </Link>
             ))}
           </div>
+        </div>
 
-          {/* City Filter (城市) */}
-          {cityList.length > 0 && (
+        {/* Row 3: 城市 */}
+        {cityList.length > 0 && (
+          <div className="filter-labeled-row">
+            <span className="filter-label">城市</span>
             <CityDropdown
               cities={cityList}
               selected={selectedCities}
               onToggle={toggleCity}
             />
-          )}
-        </div>
+          </div>
+        )}
 
-        {/* Search Form */}
+        {/* Row 4: 搜索 */}
         <form className="filter-form" onSubmit={handleSearch}>
           <input
             type="text"

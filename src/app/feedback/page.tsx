@@ -59,22 +59,6 @@ export default function FeedbackPage() {
           </div>
         </section>
 
-        <section className="timeline-card">
-          <h2 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.75rem' }}>参与贡献</h2>
-          <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)', lineHeight: 1.8 }}>
-            JOBHOT 是一个开源项目，欢迎直接参与代码贡献。你可以 Fork 仓库后提交 Pull Request，
-            无论是修复 Bug、添加新功能还是改进文档，我们都非常欢迎。
-          </p>
-          <a
-            href="https://github.com/diyiwuyan/job-hot"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-secondary"
-            style={{ width: 'fit-content', marginTop: '0.75rem' }}
-          >
-            查看源代码
-          </a>
-        </section>
       </div>
     </div>
   );

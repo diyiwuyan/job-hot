@@ -615,12 +615,21 @@ a:hover {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-/* Filter Row (行业 + 城市 side by side) */
-.filter-row {
+/* Filter labeled row (标签 + 筛选项) */
+.filter-labeled-row {
   display: flex;
   gap: 0.75rem;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
+}
+
+.filter-label {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+  min-width: 3.5em;
 }
 
 .segmented-wrap {
