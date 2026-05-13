@@ -137,6 +137,17 @@ async function searchFeed(query: string, channel: Channel, category: Category, p
   return { days, currentPage: validPage, totalPages };
 }
 
+/**
+ * Prefetch search shard in background so city/search filters feel instant.
+ * Called once on mount — the shard is cached in searchCache for reuse.
+ */
+function prefetchSearchShard(channel: Channel) {
+  const key = channel === 'all' ? 'all' : channel;
+  if (searchCache.has(key)) return; // already cached
+  // Fire-and-forget: load shard into cache
+  loadSearchShard(channel).catch(() => {});
+}
+
 function AllPageContent() {
   const searchParams = useSearchParams();
 
@@ -150,22 +161,26 @@ function AllPageContent() {
   const [feed, setFeed] = useState<PaginatedFeed | null>(null);
   const [loading, setLoading] = useState(true);
 
+  // Prefetch search shard in background on mount so city/search filters are fast
+  useEffect(() => {
+    prefetchSearchShard(channel);
+  }, [channel]);
+
   const loadData = useCallback(async () => {
     setLoading(true);
     try {
       if (query || cities.length > 0) {
-        // Search or city filter: load search index and filter client-side
+        // Search or city filter: use search index shard (cached after first load)
         const result = await searchFeed(query, channel, category, page, cities);
         setFeed(result);
       } else {
-        // Normal browsing: load pre-generated paginated JSON (~20KB)
+        // Normal browsing: load pre-generated paginated JSON (~20KB, instant)
         const filename = `${channel}-${category}-${page}.json`;
         const res = await fetch(`${basePath}/api/feed/${filename}`);
         if (!res.ok) {
           setFeed({ days: [], currentPage: 1, totalPages: 0 });
         } else {
           const data: PaginatedFeed = await res.json();
-          // Runtime guard: filter out any future-dated items that slipped through build
           const nowStr = new Date().toISOString();
           data.days = data.days.map(day => ({
             ...day,
@@ -204,7 +219,9 @@ function AllPageContent() {
 
       {loading ? (
         <div className="empty-state">
-          <div className="empty-state-title">加载中...</div>
+          <div className="empty-state-title">
+            {(query || cities.length > 0) ? '搜索数据加载中，首次稍慢…' : '加载中…'}
+          </div>
         </div>
       ) : feed ? (
         <>
