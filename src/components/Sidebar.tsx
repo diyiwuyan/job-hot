@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { ThemeToggle } from './ThemeToggle';
+import { useSidebar } from './SidebarContext';
 
 const navItems: { href: string; label: string; icon: React.ReactNode; external?: boolean }[] = [
   {
@@ -110,6 +111,7 @@ const navItems: { href: string; label: string; icon: React.ReactNode; external?:
 
 export function Sidebar() {
   const pathname = usePathname();
+  const { close } = useSidebar();
 
   // Normalize pathname: remove basePath prefix if present
   const normalizedPath = pathname.replace(/^\/job-hot/, '') || '/';
@@ -122,7 +124,7 @@ export function Sidebar() {
   return (
     <aside id="app-sidebar" className="sidebar" aria-label="主导航">
       {/* Brand Logo */}
-      <Link href="/" className="brand-logo" aria-label="JOBHOT 首页">
+      <Link href="/" className="brand-logo" aria-label="JOBHOT 首页" onClick={close}>
         <span className="brand-job">JOB</span>
         <span className="orbit-dot" aria-hidden="true"></span>
         <span className="brand-hot">HOT</span>
@@ -140,6 +142,7 @@ export function Sidebar() {
               target="_blank"
               rel="noopener noreferrer"
               className="side-link"
+              onClick={close}
             >
               {item.icon}
               <span>{item.label}</span>
@@ -154,6 +157,7 @@ export function Sidebar() {
               key={item.href}
               href={item.href}
               className={`side-link ${isActive(item.href) ? 'side-link-active' : ''}`}
+              onClick={close}
             >
               {item.icon}
               <span>{item.label}</span>
@@ -168,6 +172,7 @@ export function Sidebar() {
         <Link
           href="/login"
           className={`side-link ${isActive('/login') ? 'side-link-active' : ''}`}
+          onClick={close}
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
             <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4" />

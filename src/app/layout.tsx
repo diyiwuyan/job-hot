@@ -4,6 +4,8 @@ import './globals.css';
 import { Sidebar } from '@/components/Sidebar';
 import { MobileBar } from '@/components/MobileBar';
 import { ThemeScript } from '@/components/ThemeScript';
+import { SidebarProvider } from '@/components/SidebarContext';
+import { AppShell } from '@/components/AppShell';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -38,15 +40,18 @@ export default function RootLayout({
     <html lang="zh-CN" data-theme="dark" data-theme-mode="dark">
       <head>
         <ThemeScript />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`} arco-theme="dark">
-        <div className="app-shell">
-          <Sidebar />
-          <main className="app-main">
-            <MobileBar />
-            {children}
-          </main>
-        </div>
+        <SidebarProvider>
+          <AppShell>
+            <Sidebar />
+            <main className="app-main">
+              <MobileBar />
+              {children}
+            </main>
+          </AppShell>
+        </SidebarProvider>
       </body>
     </html>
   );
