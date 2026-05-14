@@ -1,8 +1,30 @@
 [
   {
+    "id": "nowcoder-9484",
+    "title": "航天一院 — 27提前批 今日收录",
+    "summary": "国家级航天科研龙头，载人航天核心力量，技术顶尖平台高，人才培养体系完善。。招聘批次：27提前批 今日收录。工作地点：北京。招聘岗位：后端开发、前端开发、测试、数据、运维等。",
+    "url": "https://m.zhaopin.com/xiaoyuan/company/detail?number=KA0133192447P90000003000&srccode=644201",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "航天一院",
+      "校招",
+      "提前批",
+      "车企/IC",
+      "北京",
+      "机械制造",
+      "硬件"
+    ],
+    "score": 94,
+    "featured": true,
+    "createdAt": "2026-05-14T07:14:40.000Z"
+  },
+  {
     "id": "nowcoder-2932",
-    "title": "厦门银行 — 网申：已结束",
-    "summary": "连续超10年获评“最佳雇主厦门十强”。招聘批次：网申：已结束。工作地点：福州、厦门、莆田、三明、泉州、漳州、南平、龙岩。",
+    "title": "厦门银行 — 26春招",
+    "summary": "连续超10年获评“最佳雇主厦门十强”。招聘批次：26春招。工作地点：福州、厦门、莆田、三明、泉州、漳州、南平、龙岩。",
     "url": "https://xmccb.zhaopin.com/",
     "source": "牛客网",
     "sourceHandle": "@nowcoder",
@@ -18,9 +40,9 @@
       "莆田",
       "银行"
     ],
-    "score": 89,
+    "score": 94,
     "featured": true,
-    "createdAt": "2026-05-13T19:00:02.000Z"
+    "createdAt": "2026-05-14T04:31:17.000Z"
   },
   {
     "id": "nowcoder-31976",
@@ -450,7 +472,7 @@
       "长沙",
       "深圳"
     ],
-    "score": 94,
+    "score": 89,
     "featured": true,
     "createdAt": "2026-05-06T07:02:11.000Z"
   },
@@ -470,8 +492,8 @@
       "成都",
       "北京"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-06T06:38:32.000Z"
   },
   {
@@ -492,7 +514,7 @@
       "长春",
       "白山"
     ],
-    "score": 92,
+    "score": 87,
     "featured": true,
     "createdAt": "2026-05-06T06:34:15.000Z"
   },
@@ -511,7 +533,7 @@
       "春招",
       "东莞"
     ],
-    "score": 88,
+    "score": 83,
     "featured": true,
     "createdAt": "2026-05-06T06:32:26.000Z"
   },
