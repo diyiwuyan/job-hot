@@ -1,5 +1,89 @@
 [
   {
+    "id": "nowcoder-21369",
+    "title": "正浩创新EcoFlow — 网申：已结束",
+    "summary": "专注便携储能设备研发，产品创新能力强，重视新人技术研发与市场洞察能力。招聘批次：网申：已结束。工作地点：苏州、深圳、西安。招聘岗位：后端开发、测试、运维、研发工程师、硬件工程师等。",
+    "url": "https://jobs.ecoflow.com/602892/position/list?keywords=&category=&location=&project=7626581365308049710&type=&job_hot_flag=&current=1&limit=10&functionCategory=&tag=",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "正浩创新EcoFlow",
+      "校招",
+      "提前批",
+      "苏州",
+      "深圳",
+      "西安"
+    ],
+    "score": 89,
+    "featured": true,
+    "createdAt": "2026-05-14T19:00:05.000Z"
+  },
+  {
+    "id": "nowcoder-958",
+    "title": "联想 — 网申：已结束",
+    "summary": "全球领先的智能设备与解决方案提供商，业务涵盖个人电脑、服务器与智能硬件。。招聘批次：网申：已结束。工作地点：厦门、武汉、深圳、西安、北京、上海、天津。招聘岗位：后端开发、测试、人工智能/算法、研发工程师、产品等。",
+    "url": "https://talent.lenovo.com.cn/position?projectType=1",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "联想",
+      "校招",
+      "车企/IC",
+      "厦门",
+      "武汉",
+      "深圳",
+      "硬件",
+      "数据服务"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-05-14T19:00:02.000Z"
+  },
+  {
+    "id": "nowcoder-31983",
+    "title": "资瑞兴投资 — 27届实习 今日收录",
+    "summary": "老牌私募投资机构，投研团队经验丰富，主观多头策略成熟，穿越牛熊风控体系稳定可靠。。招聘批次：27届实习 今日收录。工作地点：深圳。招聘岗位：后端开发、数据、人工智能/算法、投融资、咨询/调研。",
+    "url": "https://mp.weixin.qq.com/s/xWwj0GPqqoWGsniH17OZWg",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "finance",
+    "tags": [
+      "资瑞兴投资",
+      "实习",
+      "金融",
+      "深圳"
+    ],
+    "score": 90,
+    "featured": true,
+    "createdAt": "2026-05-14T13:55:43.000Z"
+  },
+  {
+    "id": "nowcoder-3127",
+    "title": "游卡 — 27届实习 今日收录",
+    "summary": "国内桌游行业开创者，《三国杀》IP 影响力深远，全产业链布局完善。招聘批次：27届实习 今日收录。工作地点：杭州、广州、成都、上海。招聘岗位：后端开发、前端开发、客户端开发、产品、运营等。",
+    "url": "https://app.mokahr.com/campus-recruitment/yokagames/41940#/jobs?page=1&anchorName=jobsList&commitment%5B0%5D=%E5%AE%9E%E4%B9%A0",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "game",
+    "tags": [
+      "游卡",
+      "实习",
+      "游戏",
+      "杭州",
+      "广州",
+      "成都"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-05-14T13:29:19.000Z"
+  },
+  {
     "id": "nowcoder-9484",
     "title": "航天一院 — 27提前批 今日收录",
     "summary": "国家级航天科研龙头，载人航天核心力量，技术顶尖平台高，人才培养体系完善。。招聘批次：27提前批 今日收录。工作地点：北京。招聘岗位：后端开发、前端开发、测试、数据、运维等。",
@@ -451,7 +535,7 @@
       "深圳",
       "视频直播"
     ],
-    "score": 94,
+    "score": 89,
     "featured": true,
     "createdAt": "2026-05-06T14:29:27.000Z"
   },
@@ -559,27 +643,6 @@
     "createdAt": "2026-04-25T03:05:15.000Z"
   },
   {
-    "id": "nowcoder-21369",
-    "title": "正浩创新EcoFlow — 27提前批",
-    "summary": "专注便携储能设备研发，产品创新能力强，重视新人技术研发与市场洞察能力。招聘批次：27提前批。工作地点：苏州、深圳、西安。招聘岗位：后端开发、测试、运维、研发工程师、硬件工程师等。",
-    "url": "https://jobs.ecoflow.com/602892/position/list?keywords=&category=&location=&project=7626581365308049710&type=&job_hot_flag=&current=1&limit=10&functionCategory=&tag=",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "正浩创新EcoFlow",
-      "校招",
-      "提前批",
-      "苏州",
-      "深圳",
-      "西安"
-    ],
-    "score": 79,
-    "featured": false,
-    "createdAt": "2026-04-16T04:29:46.000Z"
-  },
-  {
     "id": "nowcoder-1023",
     "title": "华泰证券 — 网申中",
     "summary": "大型综合性证券金融机构，业务范围涵盖证券经纪、投资银行与资产管理等领域。。招聘批次：网申中。工作地点：南京、深圳、北京、上海、香港。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
@@ -665,29 +728,6 @@
     "score": 84,
     "featured": true,
     "createdAt": "2026-03-13T07:18:16.000Z"
-  },
-  {
-    "id": "nowcoder-958",
-    "title": "联想 — 网申中",
-    "summary": "全球领先的智能设备与解决方案提供商，业务涵盖个人电脑、服务器与智能硬件。。招聘批次：网申中。工作地点：厦门、武汉、深圳、西安、北京、上海、天津。招聘岗位：后端开发、测试、人工智能/算法、研发工程师、产品等。",
-    "url": "https://talent.lenovo.com.cn/position?projectType=1",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "联想",
-      "校招",
-      "车企/IC",
-      "厦门",
-      "武汉",
-      "深圳",
-      "硬件",
-      "数据服务"
-    ],
-    "score": 77,
-    "featured": false,
-    "createdAt": "2026-03-10T08:59:31.000Z"
   },
   {
     "id": "nowcoder-153",
