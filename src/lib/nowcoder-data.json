@@ -1,5 +1,85 @@
 [
   {
+    "id": "nowcoder-2932",
+    "title": "厦门银行 — 网申：已结束",
+    "summary": "连续超10年获评“最佳雇主厦门十强”。招聘批次：网申：已结束。工作地点：福州、厦门、莆田、三明、泉州、漳州、南平、龙岩。",
+    "url": "https://xmccb.zhaopin.com/",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "finance",
+    "tags": [
+      "厦门银行",
+      "校招",
+      "春招",
+      "金融",
+      "福州",
+      "厦门",
+      "莆田",
+      "银行"
+    ],
+    "score": 89,
+    "featured": true,
+    "createdAt": "2026-05-13T19:00:02.000Z"
+  },
+  {
+    "id": "nowcoder-31976",
+    "title": "浙江省产投集团 — 27届实习 今日收录",
+    "summary": "省属国有产业投资平台，基金运作成熟，聚焦新兴产业，资本赋能与项目孵化能力突出。。招聘批次：27届实习 今日收录。工作地点：杭州。招聘岗位：运营、项目、风控、投融资、管理等。",
+    "url": "https://mp.weixin.qq.com/s/e06ppjrFRs2mqHDk6j02gg",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "finance",
+    "tags": [
+      "浙江省产投集团",
+      "实习",
+      "金融",
+      "杭州"
+    ],
+    "score": 94,
+    "featured": true,
+    "createdAt": "2026-05-13T14:49:46.000Z"
+  },
+  {
+    "id": "nowcoder-31975",
+    "title": "泉州汇鑫 — 27届实习 今日收录",
+    "summary": "区域持牌金融机构，深耕小微普惠领域，业务体系完善，本土资源积淀深厚发展稳定。。招聘批次：27届实习 今日收录。工作地点：泉州。招聘岗位：风控、投融资、管理、财务审计、法务。",
+    "url": "https://mp.weixin.qq.com/s/84zTf-WbVfDwC4MQTGDvLQ",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "finance",
+    "tags": [
+      "泉州汇鑫",
+      "实习",
+      "金融",
+      "泉州"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-05-13T14:26:06.000Z"
+  },
+  {
+    "id": "nowcoder-31977",
+    "title": "英柏检测 — 27届实习 今日收录",
+    "summary": "民营第三方检测龙头，资质认证齐全，实验室网络完善，消费品与低碳检测服务覆盖全球。。招聘批次：27届实习 今日收录。工作地点：深圳、上海。招聘岗位：机械、化工、电气/自动化、技术支持、市场/营销等。",
+    "url": "https://mp.weixin.qq.com/s/NcoEJW6QIAR-QfYsPkV8WQ?scene=1",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "other",
+    "tags": [
+      "英柏检测",
+      "实习",
+      "深圳",
+      "上海"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-05-13T13:56:31.000Z"
+  },
+  {
     "id": "nowcoder-31971",
     "title": "见山科技 — 27届实习 今日收录",
     "summary": "国家级专精特新小巨人，数字孪生赛道龙头，技术自主可控，城市级项目落地经验丰富。。招聘批次：27届实习 今日收录。工作地点：成都。招聘岗位：后端开发、前端开发、数据、人工智能/算法、研发工程师等。",
@@ -118,8 +198,8 @@
   },
   {
     "id": "nowcoder-1129",
-    "title": "海信集团 — 27提前批 今日收录",
-    "summary": "家电与电子信息龙头，技术研发实力强，产业链完整，制造科技成长稳健。招聘批次：27提前批 今日收录。工作地点：扬州、杭州、湖州、青岛、黄岛、平度、武汉、深圳、佛山、江门、成都、贵阳、西安、上海。招聘岗位：后端开发、测试、人工智能/算法、研发工程师、销售技术支持等。",
+    "title": "海信集团 — 27提前批",
+    "summary": "家电与电子信息龙头，技术研发实力强，产业链完整，制造科技成长稳健。招聘批次：27提前批。工作地点：扬州、杭州、湖州、青岛、黄岛、平度、武汉、深圳、佛山、江门、成都、贵阳、西安、上海。招聘岗位：后端开发、测试、人工智能/算法、研发工程师、销售技术支持等。",
     "url": "https://jobs.hisense.com/7/jobs",
     "source": "牛客网",
     "sourceHandle": "@nowcoder",
@@ -310,29 +390,6 @@
     "score": 94,
     "featured": true,
     "createdAt": "2026-05-09T00:35:47.000Z"
-  },
-  {
-    "id": "nowcoder-2932",
-    "title": "厦门银行 — 26春招",
-    "summary": "连续超10年获评“最佳雇主厦门十强”。招聘批次：26春招。工作地点：福州、厦门、莆田、三明、泉州、漳州、南平、龙岩。",
-    "url": "https://xmccb.zhaopin.com/",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "campus",
-    "category": "finance",
-    "tags": [
-      "厦门银行",
-      "校招",
-      "春招",
-      "金融",
-      "福州",
-      "厦门",
-      "莆田",
-      "银行"
-    ],
-    "score": 89,
-    "featured": true,
-    "createdAt": "2026-05-08T06:54:23.000Z"
   },
   {
     "id": "nowcoder-652",
