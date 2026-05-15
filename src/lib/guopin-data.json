@@ -10554,7 +10554,7 @@
       "医药制造业",
       "广州"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-05-07T21:24:06.000Z"
   },
@@ -10575,7 +10575,7 @@
       "居民服务、修理和其他服务业",
       "北京"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-05-07T17:00:00.000Z"
   },
@@ -10596,7 +10596,7 @@
       "科学研究和技术服务业",
       "石河子"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-05-07T16:50:52.000Z"
   },
@@ -10616,7 +10616,7 @@
       "批发和零售业",
       "包头"
     ],
-    "score": 95,
+    "score": 90,
     "featured": true,
     "createdAt": "2026-05-07T16:30:00.000Z"
   },
@@ -10636,7 +10636,7 @@
       "批发和零售业",
       "山西"
     ],
-    "score": 95,
+    "score": 90,
     "featured": true,
     "createdAt": "2026-05-07T16:30:00.000Z"
   },
@@ -10656,7 +10656,7 @@
       "渔业",
       "烟台"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-05-07T16:24:17.000Z"
   },
@@ -10678,8 +10678,8 @@
       "成都市",
       "成都"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-07T15:20:07.000Z"
   },
   {
@@ -10720,7 +10720,7 @@
       "其他制造业",
       "北京"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-05-07T14:01:47.000Z"
   },
@@ -10741,8 +10741,8 @@
       "批发业",
       "西安"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-07T14:00:43.000Z"
   },
   {
@@ -10761,7 +10761,7 @@
       "建筑业",
       "北京"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-05-07T13:00:00.000Z"
   },
@@ -10781,8 +10781,8 @@
       "建筑业",
       "北京"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-07T13:00:00.000Z"
   },
   {
@@ -10802,8 +10802,8 @@
       "建筑业",
       "北京"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-07T13:00:00.000Z"
   },
   {
@@ -10822,8 +10822,8 @@
       "批发业",
       "武汉"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-07T13:00:00.000Z"
   },
   {
@@ -14365,8 +14365,8 @@
       "交通运输、仓储和邮政业",
       "汕头"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-04-30T18:46:50.000Z"
   },
   {
@@ -14385,8 +14385,8 @@
       "交通运输、仓储和邮政业",
       "汕头"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-04-30T18:43:46.000Z"
   },
   {
@@ -14405,8 +14405,8 @@
       "交通运输、仓储和邮政业",
       "汕头"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-04-30T18:38:45.000Z"
   },
   {
@@ -14426,7 +14426,7 @@
       "采矿业",
       "阿里"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-04-30T18:00:00.000Z"
   },
@@ -14447,7 +14447,7 @@
       "采矿业",
       "阿里"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-04-30T18:00:00.000Z"
   },
@@ -14468,8 +14468,8 @@
       "制造业",
       "宜昌"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-04-30T16:48:45.000Z"
   },
   {
@@ -14489,7 +14489,7 @@
       "房地产业",
       "儋州"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-04-30T16:29:13.000Z"
   },
@@ -14510,7 +14510,7 @@
       "医药制造业",
       "上海"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-04-30T16:08:02.000Z"
   },
@@ -14531,7 +14531,7 @@
       "建筑业",
       "长沙"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-04-30T15:45:46.000Z"
   },
@@ -14552,8 +14552,8 @@
       "制造业",
       "嘉峪关"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-04-30T15:08:06.000Z"
   },
   {
@@ -14572,7 +14572,7 @@
       "社会工作",
       "杭州"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-04-30T15:00:24.000Z"
   },
@@ -14593,7 +14593,7 @@
       "信息传输、软件和信息技术服务业",
       "长沙"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-04-30T15:00:00.000Z"
   },
@@ -14614,7 +14614,7 @@
       "专用设备制造业",
       "成都"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-04-30T14:44:51.000Z"
   },
@@ -14635,7 +14635,7 @@
       "专用设备制造业",
       "成都"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-04-30T14:39:19.000Z"
   },
@@ -14656,7 +14656,7 @@
       "医药制造业",
       "西宁"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-04-30T14:21:34.000Z"
   },
@@ -29385,7 +29385,7 @@
       "马来西亚",
       "印度尼西亚"
     ],
-    "score": 68,
+    "score": 63,
     "featured": false,
     "createdAt": "2026-04-14T19:58:03.000Z"
   },
@@ -29407,7 +29407,7 @@
       "安徽",
       "海南"
     ],
-    "score": 69,
+    "score": 64,
     "featured": false,
     "createdAt": "2026-04-14T19:56:48.000Z"
   },
@@ -29428,8 +29428,8 @@
       "制造业",
       "北京"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-04-14T19:11:37.000Z"
   },
   {
@@ -29470,7 +29470,7 @@
       "金融业",
       "绍兴"
     ],
-    "score": 69,
+    "score": 64,
     "featured": false,
     "createdAt": "2026-04-14T15:41:46.000Z"
   },
@@ -29491,7 +29491,7 @@
       "互联网和相关服务",
       "南充"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-04-14T15:31:10.000Z"
   },
@@ -29512,7 +29512,7 @@
       "互联网和相关服务",
       "南充"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-04-14T15:30:56.000Z"
   },
@@ -29533,7 +29533,7 @@
       "互联网和相关服务",
       "上海"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-04-14T14:58:56.000Z"
   },
@@ -29575,7 +29575,7 @@
       "信息传输、软件和信息技术服务业",
       "北京"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-04-14T14:32:30.000Z"
   },
@@ -29638,7 +29638,7 @@
       "其他制造业",
       "广州"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -29659,7 +29659,7 @@
       "其他制造业",
       "广州"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -29680,7 +29680,7 @@
       "道路运输业",
       "广州"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -29700,7 +29700,7 @@
       "道路运输业",
       "广州"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -29720,7 +29720,7 @@
       "道路运输业",
       "广州"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -29741,7 +29741,7 @@
       "道路运输业",
       "广州"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -29762,7 +29762,7 @@
       "研究和试验发展",
       "广州"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -29782,7 +29782,7 @@
       "道路运输业",
       "广州"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -29802,7 +29802,7 @@
       "道路运输业",
       "广州"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -29823,7 +29823,7 @@
       "其他制造业",
       "广州"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -29843,7 +29843,7 @@
       "道路运输业",
       "广州"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -29863,7 +29863,7 @@
       "道路运输业",
       "广州"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -29883,7 +29883,7 @@
       "道路运输业",
       "广州"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -29904,7 +29904,7 @@
       "研究和试验发展",
       "广州"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -29925,7 +29925,7 @@
       "其他制造业",
       "广州"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -29946,7 +29946,7 @@
       "其他制造业",
       "广州"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -29967,7 +29967,7 @@
       "其他制造业",
       "广州"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -29988,7 +29988,7 @@
       "其他制造业",
       "广州"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -30008,7 +30008,7 @@
       "道路运输业",
       "广州"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -30029,7 +30029,7 @@
       "道路运输业",
       "广州"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -30049,7 +30049,7 @@
       "道路运输业",
       "广州"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -30069,7 +30069,7 @@
       "道路运输业",
       "广州"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -30090,7 +30090,7 @@
       "道路运输业",
       "广州"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -30110,7 +30110,7 @@
       "道路运输业",
       "广州"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -30130,7 +30130,7 @@
       "道路运输业",
       "广州"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -30151,7 +30151,7 @@
       "其他制造业",
       "广州"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -30171,7 +30171,7 @@
       "道路运输业",
       "广州"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -30191,7 +30191,7 @@
       "道路运输业",
       "广州"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -30212,7 +30212,7 @@
       "道路运输业",
       "广州"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -30232,7 +30232,7 @@
       "道路运输业",
       "广州"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -30252,7 +30252,7 @@
       "道路运输业",
       "广州"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -30272,7 +30272,7 @@
       "道路运输业",
       "广州"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -30292,7 +30292,7 @@
       "道路运输业",
       "广州"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -30312,7 +30312,7 @@
       "道路运输业",
       "广州"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -30333,7 +30333,7 @@
       "研究和试验发展",
       "广州"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -30354,7 +30354,7 @@
       "研究和试验发展",
       "广州"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-04-14T14:00:00.000Z"
   },
@@ -30375,7 +30375,7 @@
       "化学原料和化学制品制造业",
       "红河"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-04-14T13:25:06.000Z"
   },
