@@ -21,7 +21,7 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
-import type { Category, Channel } from '../src/lib/types';
+import type { Category, Channel, CompanyType } from '../src/lib/types';
 
 // ─── Raw types from DeepOffer API ────────────────────────────────────
 interface DeepOfferJob {
@@ -82,6 +82,9 @@ interface FeedItem {
   sourceHandle?: string;
   channel: Channel;
   category: Category;
+  companyType?: CompanyType;
+  location?: string;
+  deadline?: string;
   tags: string[];
   score: number;
   featured?: boolean;
@@ -394,6 +397,26 @@ function convertToFeedItem(job: DeepOfferJob): FeedItem {
     ? `${job.company_name} — ${titleSuffix}`
     : job.company_name;
 
+  // Map company_type to CompanyType enum
+  const companyTypeMap: Record<string, CompanyType> = {
+    '外企': 'foreign',
+    '央国企': 'state',
+    '民企': 'private',
+    '银行': 'bank',
+    '事业单位': 'institution',
+    '合资': 'foreign',
+    '上市公司': 'private',
+  };
+  const companyType = companyTypeMap[job.company_type] || 'private';
+
+  // Extract location
+  const location = job.location_city && job.location_city !== '全国多地'
+    ? job.location_city
+    : job.work_location || undefined;
+
+  // Extract deadline
+  const deadline = job.deadline || job.apply_end_date || undefined;
+
   return {
     id: `deepoffer-${job.id}`,
     title,
@@ -403,6 +426,9 @@ function convertToFeedItem(job: DeepOfferJob): FeedItem {
     sourceHandle: '@deepoffer',
     channel,
     category,
+    companyType,
+    location,
+    deadline,
     tags: generateTags(job, channel, category),
     score,
     featured: score >= 80,

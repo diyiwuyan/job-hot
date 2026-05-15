@@ -10,6 +10,8 @@ export type Category =
   | 'security'    // 安全/云服务
   | 'other';      // 其他
 
+export type CompanyType = 'all' | 'foreign' | 'state' | 'private' | 'bank' | 'institution';
+
 export interface FeedItem {
   id: string;
   title: string;
@@ -20,6 +22,9 @@ export interface FeedItem {
   sourceHandle?: string;
   channel: Channel;
   category: Category;
+  companyType?: CompanyType; // 外企/央国企/民企/银行/事业单位
+  location?: string;          // 工作城市
+  deadline?: string;          // 截止日期 (e.g. "2026/05/24" or "尽快投递")
   tags: string[];
   score: number;
   featured?: boolean;

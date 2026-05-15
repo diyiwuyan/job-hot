@@ -296,7 +296,7 @@ function compactDate(iso: string): string {
 }
 
 // Field order in columnar data rows
-const searchFields = ['id', 'title', 'summary', 'url', 'source', 'channel', 'category', 'tags', 'createdAt'];
+const searchFields = ['id', 'title', 'summary', 'url', 'source', 'channel', 'category', 'tags', 'createdAt', 'companyType', 'location', 'deadline'];
 
 const channelShards: Record<string, typeof feedItems> = {
   all: feedItems,
@@ -323,6 +323,9 @@ for (const [ch, items] of Object.entries(channelShards)) {
     // Tags as pipe-separated string (saves ~3.7 MB vs JSON arrays across 21K items)
     item.tags.join('|'),
     compactDate(item.createdAt),
+    item.companyType || '',
+    item.location || '',
+    item.deadline || '',
   ]);
 
   const shard = {
@@ -415,12 +418,31 @@ fs.writeFileSync(
   'utf8'
 );
 
+// Count unique companies (extract from first tag which is typically company name)
+const companySet = new Set<string>();
+for (const item of feedItems) {
+  if (item.tags.length > 0) companySet.add(item.tags[0]);
+}
+
+// Count data sources
+const sourceSet = new Set<string>();
+for (const item of feedItems) {
+  sourceSet.add(item.source);
+}
+
+// Today's update count (Beijing time)
+const todayKey = toBeijingDateKey(now.toISOString());
+const todayCount = feedItems.filter(i => toBeijingDateKey(i.createdAt) === todayKey).length;
+
 const homeData = {
   featuredItems,
   totalItems: feedItems.length,
   campusCount: feedItems.filter(i => i.channel === 'campus').length,
   internCount: feedItems.filter(i => i.channel === 'intern').length,
   talkCount: feedItems.filter(i => i.channel === 'talk').length,
+  companyCount: companySet.size,
+  sourceCount: sourceSet.size,
+  todayCount,
 };
 
 fs.writeFileSync(

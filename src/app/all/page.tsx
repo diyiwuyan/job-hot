@@ -1,8 +1,8 @@
 'use client';
 
 import { useSearchParams } from 'next/navigation';
-import { Suspense, useEffect, useState, useCallback } from 'react';
-import { PaginatedFeed, Channel, Category, FeedItem, FeedDay } from '@/lib/types';
+import { Suspense, useEffect, useState, useCallback, useRef } from 'react';
+import { PaginatedFeed, Channel, Category, CompanyType, FeedItem, FeedDay } from '@/lib/types';
 import { Timeline } from '@/components/Timeline';
 import { Pagination } from '@/components/Pagination';
 import { FeedToolbar } from '@/components/FeedToolbar';
@@ -10,24 +10,18 @@ import { FeedToolbar } from '@/components/FeedToolbar';
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '/job-hot';
 
 // ─── Search index cache ─────────────────────────────────────────────
-// Search indexes use a columnar format to minimize file size (~4.6 MB vs 11.7 MB).
-// Format: { k: [field names], u/s/c/g: reverse maps, d: [[row], ...] }
-// We download per-channel shards and cache the reconstructed objects in memory.
-// Pagination within the same search session is instant (no network).
 const searchCache = new Map<string, FeedItem[]>();
 
-// Columnar shard type (matches build output)
 interface ColumnarShard {
-  k: string[];                          // field names
-  u: Record<string, string>;            // URL code → prefix
-  s: Record<string, string>;            // source code → full name
-  c: Record<string, string>;            // channel code → full name
-  g: Record<string, string>;            // category code → full name
-  d: string[][];                         // data rows (all values are strings)
+  k: string[];
+  u: Record<string, string>;
+  s: Record<string, string>;
+  c: Record<string, string>;
+  g: Record<string, string>;
+  d: string[][];
 }
 
 function restoreUrl(compact: string, urlMap: Record<string, string>): string {
-  // First char might be a URL prefix code
   const code = compact[0];
   if (urlMap[code]) return urlMap[code] + compact.slice(1);
   return compact;
@@ -44,11 +38,9 @@ async function loadSearchShard(channel: Channel): Promise<FeedItem[]> {
   const shard: ColumnarShard = await res.json();
   const { k: fields, u: urlMap, s: srcMap, c: chMap, g: catMap, d: rows } = shard;
 
-  // Field index lookup
   const idx: Record<string, number> = {};
   fields.forEach((f, i) => { idx[f] = i; });
 
-  // Reconstruct FeedItem objects from columnar rows
   const items: FeedItem[] = rows.map(row => {
     const srcCode = row[idx.source] as string;
     const chCode = row[idx.channel] as string;
@@ -63,10 +55,11 @@ async function loadSearchShard(channel: Channel): Promise<FeedItem[]> {
       source: srcMap[srcCode] || srcCode,
       channel: (chMap[chCode] || chCode) as FeedItem['channel'],
       category: (catMap[catCode] || catCode) as FeedItem['category'],
-      // Tags stored as pipe-separated string in columnar format
+      companyType: (row[idx.companyType] as FeedItem['companyType']) || undefined,
+      location: (row[idx.location] as string) || undefined,
+      deadline: (row[idx.deadline] as string) || undefined,
       tags: (row[idx.tags] as string).split('|'),
       createdAt: dateStr.length === 10 ? dateStr + 'T12:00:00.000Z' : dateStr,
-      // Fields not in search index — provide defaults
       score: 0,
       featured: false,
       sourceAvatar: '',
@@ -79,28 +72,35 @@ async function loadSearchShard(channel: Channel): Promise<FeedItem[]> {
   return items;
 }
 
-/**
- * Client-side search: load the channel-specific search shard (cached),
- * filter by category + query, paginate, and group by date.
- */
-async function searchFeed(query: string, channel: Channel, category: Category, page: number, cities: string[] = []): Promise<PaginatedFeed> {
+async function searchFeed(
+  query: string,
+  channel: Channel,
+  category: Category,
+  page: number,
+  cities: string[] = [],
+  companyType: CompanyType = 'all',
+): Promise<PaginatedFeed> {
   const ITEMS_PER_PAGE = 30;
 
   let items = await loadSearchShard(channel);
 
-  // Exclude future-dated items (createdAt > now)
   const now = new Date().toISOString();
   items = items.filter(i => i.createdAt <= now);
 
-  // Category filter (channel already handled by shard selection)
   if (category !== 'all') items = items.filter(i => i.category === category);
 
-  // City filter: match against tags or summary
+  // Company type filter
+  if (companyType !== 'all') {
+    items = items.filter(i => i.companyType === companyType);
+  }
+
+  // City filter
   if (cities.length > 0) {
     items = items.filter(i =>
       cities.some(city =>
         i.tags.some(t => t.includes(city)) ||
-        i.summary.includes(city)
+        i.summary.includes(city) ||
+        (i.location && i.location.includes(city))
       )
     );
   }
@@ -115,13 +115,11 @@ async function searchFeed(query: string, channel: Channel, category: Category, p
     );
   }
 
-  // Paginate
   const totalPages = Math.ceil(items.length / ITEMS_PER_PAGE);
   const validPage = Math.max(1, Math.min(page, totalPages || 1));
   const start = (validPage - 1) * ITEMS_PER_PAGE;
   const paginatedItems = items.slice(start, start + ITEMS_PER_PAGE);
 
-  // Group by date (Beijing time)
   const groups = new Map<string, FeedItem[]>();
   for (const item of paginatedItems) {
     const d = new Date(new Date(item.createdAt).getTime() + 8 * 3600000);
@@ -137,15 +135,72 @@ async function searchFeed(query: string, channel: Channel, category: Category, p
   return { days, currentPage: validPage, totalPages };
 }
 
-/**
- * Prefetch search shard in background so city/search filters feel instant.
- * Called once on mount — the shard is cached in searchCache for reuse.
- */
 function prefetchSearchShard(channel: Channel) {
   const key = channel === 'all' ? 'all' : channel;
-  if (searchCache.has(key)) return; // already cached
-  // Fire-and-forget: load shard into cache
+  if (searchCache.has(key)) return;
   loadSearchShard(channel).catch(() => {});
+}
+
+/* ── CSV Export ────────────────────────────────────────────────── */
+function exportCSV(days: FeedDay[]) {
+  const items = days.flatMap(d => d.items);
+  if (items.length === 0) return;
+
+  const headers = ['标题', '公司', '来源', '类型', '行业', '公司性质', '城市', '截止日期', '分数', '链接', '日期'];
+  const rows = items.map(item => [
+    item.title,
+    item.tags[0] || '',
+    item.source,
+    item.channel,
+    item.category,
+    item.companyType || '',
+    item.location || '',
+    item.deadline || '',
+    item.score.toString(),
+    item.url,
+    item.createdAt.slice(0, 10),
+  ]);
+
+  const csvContent = [headers, ...rows]
+    .map(row => row.map(cell => `"${cell.replace(/"/g, '""')}"`).join(','))
+    .join('\n');
+
+  const BOM = '\uFEFF';
+  const blob = new Blob([BOM + csvContent], { type: 'text/csv;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `jobhot-export-${new Date().toISOString().slice(0, 10)}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+/* ── Back to Top Button ───────────────────────────────────────── */
+function BackToTop() {
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    function onScroll() {
+      setVisible(window.scrollY > 400);
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
+  if (!visible) return null;
+
+  return (
+    <button
+      type="button"
+      className="back-to-top"
+      onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+      aria-label="回到顶部"
+    >
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+        <polyline points="18 15 12 9 6 15" />
+      </svg>
+    </button>
+  );
 }
 
 function AllPageContent() {
@@ -154,14 +209,28 @@ function AllPageContent() {
   const page = parseInt(searchParams.get('page') || '1', 10);
   const channel = (searchParams.get('channel') || 'all') as Channel;
   const category = (searchParams.get('category') || 'all') as Category;
+  const companyType = (searchParams.get('companyType') || 'all') as CompanyType;
   const query = searchParams.get('q') || '';
   const citiesParam = searchParams.get('cities') || '';
   const cities = citiesParam ? citiesParam.split(',').filter(Boolean) : [];
 
   const [feed, setFeed] = useState<PaginatedFeed | null>(null);
   const [loading, setLoading] = useState(true);
+  const [viewMode, setViewMode] = useState<'detail' | 'compact'>('detail');
 
-  // Prefetch search shard in background on mount so city/search filters are fast
+  // Read saved view mode preference
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem('jobhot-viewmode');
+      if (saved === 'compact' || saved === 'detail') setViewMode(saved);
+    } catch {}
+  }, []);
+
+  function handleViewModeChange(mode: 'detail' | 'compact') {
+    setViewMode(mode);
+    try { localStorage.setItem('jobhot-viewmode', mode); } catch {}
+  }
+
   useEffect(() => {
     prefetchSearchShard(channel);
   }, [channel]);
@@ -169,12 +238,10 @@ function AllPageContent() {
   const loadData = useCallback(async () => {
     setLoading(true);
     try {
-      if (query || cities.length > 0) {
-        // Search or city filter: use search index shard (cached after first load)
-        const result = await searchFeed(query, channel, category, page, cities);
+      if (query || cities.length > 0 || companyType !== 'all') {
+        const result = await searchFeed(query, channel, category, page, cities, companyType);
         setFeed(result);
       } else {
-        // Normal browsing: load pre-generated paginated JSON (~20KB, instant)
         const filename = `${channel}-${category}-${page}.json`;
         const res = await fetch(`${basePath}/api/feed/${filename}`);
         if (!res.ok) {
@@ -194,16 +261,16 @@ function AllPageContent() {
     }
     setLoading(false);
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [page, channel, category, query, citiesParam]);
+  }, [page, channel, category, companyType, query, citiesParam]);
 
   useEffect(() => {
     loadData();
   }, [loadData]);
 
-  // Build search params for pagination
   const paginationParams: Record<string, string> = {};
   if (channel !== 'all') paginationParams.channel = channel;
   if (category !== 'all') paginationParams.category = category;
+  if (companyType !== 'all') paginationParams.companyType = companyType;
   if (query) paginationParams.q = query;
   if (cities.length > 0) paginationParams.cities = cities.join(',');
 
@@ -214,18 +281,22 @@ function AllPageContent() {
         currentCategory={category}
         currentQuery={query}
         currentCities={cities}
+        currentCompanyType={companyType}
         basePath="/all"
+        viewMode={viewMode}
+        onViewModeChange={handleViewModeChange}
+        onExportCSV={feed ? () => exportCSV(feed.days) : undefined}
       />
 
       {loading ? (
         <div className="empty-state">
           <div className="empty-state-title">
-            {(query || cities.length > 0) ? '搜索数据加载中，首次稍慢…' : '加载中…'}
+            {(query || cities.length > 0 || companyType !== 'all') ? '搜索数据加载中，首次稍慢…' : '加载中…'}
           </div>
         </div>
       ) : feed ? (
         <>
-          <Timeline days={feed.days} />
+          <Timeline days={feed.days} viewMode={viewMode} />
           <Pagination
             currentPage={feed.currentPage}
             totalPages={feed.totalPages}
@@ -234,6 +305,8 @@ function AllPageContent() {
           />
         </>
       ) : null}
+
+      <BackToTop />
     </div>
   );
 }
