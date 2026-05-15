@@ -16,8 +16,8 @@
       "快消/零售/消费品",
       "天津"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-14T10:19:54.000Z"
   },
   {
@@ -790,29 +790,7 @@
       "金融/银行/保险",
       "南京"
     ],
-    "score": 88,
-    "featured": true,
-    "createdAt": "2026-05-13T10:19:52.000Z"
-  },
-  {
-    "id": "deepoffer-16806",
-    "title": "金山区区属国企 — 26届春招 | 审计稽查 人力资源 资产运管 财务管理 网络信息技术 桥梁施工 项目管理 ...",
-    "summary": "招聘类型：26届春招。行业：房地产/建筑/物业。企业性质：央国企。工作地点：上海。截止日期：2026/05/15。岗位：审计稽查 人力资源 资产运管 财务管理 网络信息技术 桥梁施工 项目管理 技术员 营销运营专员 物业运营专员 合规管理（审计学、金融审计、财务管理、管理科...。",
-    "url": "https://www.ecloudexam.com/website/online/list.zul?order=6c48ccc9633a1654a1cc7f72e65bc346989087a01507e312",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "finance",
-    "tags": [
-      "金山区区属国企",
-      "校招",
-      "春招",
-      "金融",
-      "央国企",
-      "房地产/建筑/物业",
-      "上海"
-    ],
-    "score": 84,
+    "score": 83,
     "featured": true,
     "createdAt": "2026-05-13T10:19:52.000Z"
   },
@@ -881,6 +859,28 @@
     ],
     "score": 80,
     "featured": true,
+    "createdAt": "2026-05-13T10:19:52.000Z"
+  },
+  {
+    "id": "deepoffer-16806",
+    "title": "金山区区属国企 — 26届春招 | 审计稽查 人力资源 资产运管 财务管理 网络信息技术 桥梁施工 项目管理 ...",
+    "summary": "招聘类型：26届春招。行业：房地产/建筑/物业。企业性质：央国企。工作地点：上海。截止日期：2026/05/15。岗位：审计稽查 人力资源 资产运管 财务管理 网络信息技术 桥梁施工 项目管理 技术员 营销运营专员 物业运营专员 合规管理（审计学、金融审计、财务管理、管理科...。",
+    "url": "https://www.ecloudexam.com/website/online/list.zul?order=6c48ccc9633a1654a1cc7f72e65bc346989087a01507e312",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "finance",
+    "tags": [
+      "金山区区属国企",
+      "校招",
+      "春招",
+      "金融",
+      "央国企",
+      "房地产/建筑/物业",
+      "上海"
+    ],
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-13T10:19:52.000Z"
   },
   {
@@ -1503,28 +1503,6 @@
       "临沂",
       "济南"
     ],
-    "score": 84,
-    "featured": true,
-    "createdAt": "2026-05-12T06:19:49.000Z"
-  },
-  {
-    "id": "deepoffer-16768",
-    "title": "三生制药 — 26届春招 | 医学信息沟通专员",
-    "summary": "招聘类型：26届春招。行业：生物/医疗/医药/制药。企业性质：民企。工作地点：上海、东莞、乌海、北京、南京、南通、合肥、娄底、宁波、常州、常德、广州、无锡、昆明、杭州、武汉、汕头。岗位：医学信息沟通专员。",
-    "url": "https://mp.weixin.qq.com/s/PnXzBEMsOmSlzHKGxcG_gg",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "三生制药",
-      "校招",
-      "春招",
-      "生物/医疗/医药/制药",
-      "上海",
-      "东莞",
-      "乌海"
-    ],
     "score": 79,
     "featured": false,
     "createdAt": "2026-05-12T06:19:49.000Z"
@@ -1575,6 +1553,28 @@
     "createdAt": "2026-05-12T06:19:49.000Z"
   },
   {
+    "id": "deepoffer-16768",
+    "title": "三生制药 — 26届春招 | 医学信息沟通专员",
+    "summary": "招聘类型：26届春招。行业：生物/医疗/医药/制药。企业性质：民企。工作地点：上海、东莞、乌海、北京、南京、南通、合肥、娄底、宁波、常州、常德、广州、无锡、昆明、杭州、武汉、汕头。岗位：医学信息沟通专员。",
+    "url": "https://mp.weixin.qq.com/s/PnXzBEMsOmSlzHKGxcG_gg",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "三生制药",
+      "校招",
+      "春招",
+      "生物/医疗/医药/制药",
+      "上海",
+      "东莞",
+      "乌海"
+    ],
+    "score": 74,
+    "featured": false,
+    "createdAt": "2026-05-12T06:19:49.000Z"
+  },
+  {
     "id": "deepoffer-16772",
     "title": "山东金朝融惠检测 — 26届春招 | 检测技术岗",
     "summary": "招聘类型：26届春招。行业：广告/咨询/服务。企业性质：央国企。工作地点：济南。截止日期：2026/05/13。岗位：检测技术岗。",
@@ -1591,7 +1591,7 @@
       "广告/咨询/服务",
       "济南"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-12T06:19:49.000Z"
   },
@@ -1612,7 +1612,7 @@
       "IT/互联网/游戏/电商",
       "北京"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-12T06:19:49.000Z"
   },
@@ -1634,7 +1634,7 @@
       "金融/银行/保险",
       "济南"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-12T06:19:49.000Z"
   },
@@ -1656,8 +1656,8 @@
       "杭州",
       "广州"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-12T06:19:48.000Z"
   },
   {
@@ -1680,8 +1680,8 @@
       "南宁",
       "崇左"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-12T06:19:48.000Z"
   },
   {
@@ -1702,8 +1702,8 @@
       "机械/制造/设备",
       "西安"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-12T06:19:48.000Z"
   },
   {
@@ -1724,8 +1724,8 @@
       "太原",
       "全国各地"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-12T06:19:48.000Z"
   },
   {
@@ -1747,8 +1747,8 @@
       "苏州",
       "昆山"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-12T06:19:48.000Z"
   },
   {
@@ -1769,8 +1769,8 @@
       "交通/物流/出行",
       "南京"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-12T06:19:48.000Z"
   },
   {
@@ -1792,8 +1792,8 @@
       "深圳",
       "湖州"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-12T06:19:48.000Z"
   },
   {
@@ -1814,8 +1814,8 @@
       "深圳",
       "上海"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-12T06:19:48.000Z"
   },
   {
@@ -1836,7 +1836,7 @@
       "重庆",
       "全国多地"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-12T06:19:48.000Z"
   },
@@ -1859,7 +1859,7 @@
       "上海",
       "苏州"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-12T06:19:48.000Z"
   },
@@ -1881,7 +1881,7 @@
       "乌海",
       "嘉兴"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-12T06:19:48.000Z"
   },
@@ -1901,7 +1901,7 @@
       "IT/互联网/游戏/电商",
       "北京"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-12T06:19:48.000Z"
   },
@@ -1923,7 +1923,7 @@
       "金融/银行/保险",
       "北京"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-12T06:19:48.000Z"
   },
@@ -1944,7 +1944,7 @@
       "广告/咨询/服务",
       "北京"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-12T06:19:48.000Z"
   },
@@ -1964,7 +1964,7 @@
       "教育/培训",
       "兰州"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-12T06:19:48.000Z"
   },
@@ -1983,7 +1983,7 @@
       "酒旅",
       "长沙"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-12T06:19:48.000Z"
   },
@@ -2003,7 +2003,7 @@
       "金融/银行/保险",
       "上海"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-12T06:19:48.000Z"
   },
@@ -2024,7 +2024,7 @@
       "文化/传媒/出版",
       "北京"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-12T06:19:48.000Z"
   },
@@ -2047,120 +2047,9 @@
       "吕梁",
       "大同"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-12T06:19:48.000Z"
-  },
-  {
-    "id": "deepoffer-16734",
-    "title": "丝绸之路大数据 — 26届春招 | 安全运维、软件开发、市场营销",
-    "summary": "招聘类型：26届春招。行业：IT/互联网/游戏/电商。企业性质：央国企。工作地点：兰州。岗位：安全运维、软件开发、市场营销。",
-    "url": "https://gzw.gansu.gov.cn/gzw/c109030/202605/174327903.shtml",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "game",
-    "tags": [
-      "丝绸之路大数据",
-      "校招",
-      "春招",
-      "游戏",
-      "央国企",
-      "IT/互联网/游戏/电商",
-      "兰州"
-    ],
-    "score": 84,
-    "featured": true,
-    "createdAt": "2026-05-12T06:19:47.000Z"
-  },
-  {
-    "id": "deepoffer-16727",
-    "title": "申能集团 — 实习 | 能源动力类、电气工程类、自动化与控制类、机械工程类、环境科学与工程类化工化...",
-    "summary": "招聘类型：实习。行业：能源/化工/环保。企业性质：央国企。工作地点：上海。岗位：能源动力类、电气工程类、自动化与控制类、机械工程类、环境科学与工程类化工化学类、材料科学类、数学统计类、工商管理类、公共管理类、金融学类等相关专业。",
-    "url": "https://shenergy.zhiye.com/custom/intern",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "finance",
-    "tags": [
-      "申能集团",
-      "实习",
-      "金融",
-      "央国企",
-      "能源/化工/环保",
-      "上海"
-    ],
-    "score": 84,
-    "featured": true,
-    "createdAt": "2026-05-12T06:19:47.000Z"
-  },
-  {
-    "id": "deepoffer-16745",
-    "title": "浙江省产投集团 — 实习 | 投资部 投资助理、资产运营部 运营助理、合规风控部 风控助理、综合管理部 ...",
-    "summary": "招聘类型：实习。行业：金融/银行/保险。企业性质：央国企。工作地点：杭州。岗位：投资部 投资助理、资产运营部 运营助理、合规风控部 风控助理、综合管理部 综合助理、。",
-    "url": "https://mp.weixin.qq.com/s/e06ppjrFRs2mqHDk6j02gg",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "finance",
-    "tags": [
-      "浙江省产投集团",
-      "实习",
-      "金融",
-      "央国企",
-      "金融/银行/保险",
-      "杭州"
-    ],
-    "score": 83,
-    "featured": true,
-    "createdAt": "2026-05-12T06:19:47.000Z"
-  },
-  {
-    "id": "deepoffer-16739",
-    "title": "中国星网 — 26届春招 | 网络安全、人工智能、轨道控制、系统架构、财务管理",
-    "summary": "招聘类型：26届春招。行业：通信/电子/半导体。企业性质：央国企。工作地点：上海、北京、藏族自治州、西安、重庆、雄安新区。岗位：网络安全、人工智能、轨道控制、系统架构、财务管理。",
-    "url": "https://cscnrczp.zhiye.com/campus/jobs",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "中国星网",
-      "校招",
-      "春招",
-      "车企/IC",
-      "央国企",
-      "通信/电子/半导体",
-      "上海",
-      "北京",
-      "藏族自治州"
-    ],
-    "score": 83,
-    "featured": true,
-    "createdAt": "2026-05-12T06:19:47.000Z"
-  },
-  {
-    "id": "deepoffer-16730",
-    "title": "国投证券-产业研究院 — 实习 | 分析师助理、产业研究员助理",
-    "summary": "招聘类型：实习。行业：金融/银行/保险。企业性质：央国企。工作地点：上海、北京、深圳。截止日期：2026/06/15。岗位：分析师助理、产业研究员助理。",
-    "url": "https://wecruit.hotjob.cn/SU625d4ccd2f9d24287db12878/mc/position/intern?sharePostKey=845b02768641484b812357ddef012d82",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "finance",
-    "tags": [
-      "国投证券-产业研究院",
-      "实习",
-      "金融",
-      "央国企",
-      "金融/银行/保险",
-      "上海",
-      "北京",
-      "深圳"
-    ],
-    "score": 83,
-    "featured": true,
-    "createdAt": "2026-05-12T06:19:47.000Z"
   },
   {
     "id": "deepoffer-16732",
@@ -2185,6 +2074,117 @@
     "createdAt": "2026-05-12T06:19:47.000Z"
   },
   {
+    "id": "deepoffer-16734",
+    "title": "丝绸之路大数据 — 26届春招 | 安全运维、软件开发、市场营销",
+    "summary": "招聘类型：26届春招。行业：IT/互联网/游戏/电商。企业性质：央国企。工作地点：兰州。岗位：安全运维、软件开发、市场营销。",
+    "url": "https://gzw.gansu.gov.cn/gzw/c109030/202605/174327903.shtml",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "game",
+    "tags": [
+      "丝绸之路大数据",
+      "校招",
+      "春招",
+      "游戏",
+      "央国企",
+      "IT/互联网/游戏/电商",
+      "兰州"
+    ],
+    "score": 79,
+    "featured": false,
+    "createdAt": "2026-05-12T06:19:47.000Z"
+  },
+  {
+    "id": "deepoffer-16727",
+    "title": "申能集团 — 实习 | 能源动力类、电气工程类、自动化与控制类、机械工程类、环境科学与工程类化工化...",
+    "summary": "招聘类型：实习。行业：能源/化工/环保。企业性质：央国企。工作地点：上海。岗位：能源动力类、电气工程类、自动化与控制类、机械工程类、环境科学与工程类化工化学类、材料科学类、数学统计类、工商管理类、公共管理类、金融学类等相关专业。",
+    "url": "https://shenergy.zhiye.com/custom/intern",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "finance",
+    "tags": [
+      "申能集团",
+      "实习",
+      "金融",
+      "央国企",
+      "能源/化工/环保",
+      "上海"
+    ],
+    "score": 79,
+    "featured": false,
+    "createdAt": "2026-05-12T06:19:47.000Z"
+  },
+  {
+    "id": "deepoffer-16745",
+    "title": "浙江省产投集团 — 实习 | 投资部 投资助理、资产运营部 运营助理、合规风控部 风控助理、综合管理部 ...",
+    "summary": "招聘类型：实习。行业：金融/银行/保险。企业性质：央国企。工作地点：杭州。岗位：投资部 投资助理、资产运营部 运营助理、合规风控部 风控助理、综合管理部 综合助理、。",
+    "url": "https://mp.weixin.qq.com/s/e06ppjrFRs2mqHDk6j02gg",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "finance",
+    "tags": [
+      "浙江省产投集团",
+      "实习",
+      "金融",
+      "央国企",
+      "金融/银行/保险",
+      "杭州"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-05-12T06:19:47.000Z"
+  },
+  {
+    "id": "deepoffer-16739",
+    "title": "中国星网 — 26届春招 | 网络安全、人工智能、轨道控制、系统架构、财务管理",
+    "summary": "招聘类型：26届春招。行业：通信/电子/半导体。企业性质：央国企。工作地点：上海、北京、藏族自治州、西安、重庆、雄安新区。岗位：网络安全、人工智能、轨道控制、系统架构、财务管理。",
+    "url": "https://cscnrczp.zhiye.com/campus/jobs",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "中国星网",
+      "校招",
+      "春招",
+      "车企/IC",
+      "央国企",
+      "通信/电子/半导体",
+      "上海",
+      "北京",
+      "藏族自治州"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-05-12T06:19:47.000Z"
+  },
+  {
+    "id": "deepoffer-16730",
+    "title": "国投证券-产业研究院 — 实习 | 分析师助理、产业研究员助理",
+    "summary": "招聘类型：实习。行业：金融/银行/保险。企业性质：央国企。工作地点：上海、北京、深圳。截止日期：2026/06/15。岗位：分析师助理、产业研究员助理。",
+    "url": "https://wecruit.hotjob.cn/SU625d4ccd2f9d24287db12878/mc/position/intern?sharePostKey=845b02768641484b812357ddef012d82",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "finance",
+    "tags": [
+      "国投证券-产业研究院",
+      "实习",
+      "金融",
+      "央国企",
+      "金融/银行/保险",
+      "上海",
+      "北京",
+      "深圳"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-05-12T06:19:47.000Z"
+  },
+  {
     "id": "deepoffer-16743",
     "title": "江西省农业发展集团 — 26届春招 | 党群工作部党建综合岗（相关专业：农学、哲学、经济学、法学、文学、历史学、管理学）",
     "summary": "招聘类型：26届春招。行业：农业/林业/其他。企业性质：央国企。工作地点：南昌。截止日期：2026/05/24。岗位：党群工作部党建综合岗（相关专业：农学、哲学、经济学、法学、文学、历史学、管理学）。",
@@ -2201,8 +2201,8 @@
       "农业/林业/其他",
       "南昌"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-12T06:19:47.000Z"
   },
   {
@@ -2223,8 +2223,8 @@
       "兰州",
       "全国各地"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-12T06:19:47.000Z"
   },
   {
@@ -2245,8 +2245,8 @@
       "能源/化工/环保",
       "乌鲁木齐"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-12T06:19:47.000Z"
   },
   {
@@ -2267,8 +2267,8 @@
       "房地产/建筑/物业",
       "北京"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-12T06:19:47.000Z"
   },
   {
@@ -2290,8 +2290,8 @@
       "广州",
       "无锡"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-12T06:19:47.000Z"
   },
   {
@@ -2312,178 +2312,6 @@
       "能源/化工/环保",
       "天津",
       "沧州"
-    ],
-    "score": 81,
-    "featured": true,
-    "createdAt": "2026-05-12T06:19:47.000Z"
-  },
-  {
-    "id": "deepoffer-16741",
-    "title": "江西省军工控股集团 — 26届春招 | 兵器类、航空航天类、船舶工程、机械类、电子信息类、环境与安全类、材料与化学...",
-    "summary": "招聘类型：26届春招。行业：机械/制造/设备。企业性质：央国企。工作地点：南昌。岗位：兵器类、航空航天类、船舶工程、机械类、电子信息类、环境与安全类、材料与化学类、大气科学类、经济管理等。",
-    "url": "https://mp.weixin.qq.com/s/kH5dT6cFgzMLzxP4rWpoIA",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "江西省军工控股集团",
-      "校招",
-      "春招",
-      "车企/IC",
-      "央国企",
-      "机械/制造/设备",
-      "南昌"
-    ],
-    "score": 80,
-    "featured": true,
-    "createdAt": "2026-05-12T06:19:47.000Z"
-  },
-  {
-    "id": "deepoffer-16731",
-    "title": "施耐德电气 — 26届春招 | 跨产线协同BD 产品技术工程师 测试设备工程师 质量工程师 产品技术工程师...",
-    "summary": "招聘类型：26届春招。行业：机械/制造/设备。企业性质：外企。工作地点：上海、北京、厦门、无锡、珠海。岗位：跨产线协同BD 产品技术工程师 测试设备工程师 质量工程师 产品技术工程师 工艺工程师 人工智能工程师、Firmware Design Engineer、...。",
-    "url": "https://mp.weixin.qq.com/s/51hVXNty2Sac5CDCLjHQnQ",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "施耐德电气",
-      "校招",
-      "春招",
-      "车企/IC",
-      "外企",
-      "机械/制造/设备",
-      "上海",
-      "北京",
-      "厦门"
-    ],
-    "score": 80,
-    "featured": true,
-    "createdAt": "2026-05-12T06:19:47.000Z"
-  },
-  {
-    "id": "deepoffer-16747",
-    "title": "创和美 — 26届春招 | 客户代表、饲料产品经理助理、市场部专员、养殖技术服务、管培生、外贸员",
-    "summary": "招聘类型：26届春招。行业：生物/医疗/医药/制药。企业性质：民企。工作地点：漳州。岗位：客户代表、饲料产品经理助理、市场部专员、养殖技术服务、管培生、外贸员。",
-    "url": "https://mp.weixin.qq.com/s/fpTc7tTsYb_5Xyl1Ic0mTA",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "创和美",
-      "校招",
-      "春招",
-      "生物/医疗/医药/制药",
-      "漳州"
-    ],
-    "score": 78,
-    "featured": false,
-    "createdAt": "2026-05-12T06:19:47.000Z"
-  },
-  {
-    "id": "deepoffer-16735",
-    "title": "奇安信 — 实习 | 安全漏洞攻防渗透",
-    "summary": "招聘类型：实习。行业：IT/互联网/游戏/电商。企业性质：民企。工作地点：北京、杭州、广州、成都、南京、厦门。岗位：安全漏洞攻防渗透。",
-    "url": "https://campus.qianxin.com/campus/jobSearch?type=shixishen",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "game",
-    "tags": [
-      "奇安信",
-      "实习",
-      "游戏",
-      "IT/互联网/游戏/电商",
-      "北京",
-      "杭州",
-      "广州"
-    ],
-    "score": 78,
-    "featured": false,
-    "createdAt": "2026-05-12T06:19:47.000Z"
-  },
-  {
-    "id": "deepoffer-16733",
-    "title": "秦皇岛银行 — 26届春招 | 综合柜员(主要从事客户服务、柜面服务及业务营销等工作)",
-    "summary": "招聘类型：26届春招。行业：金融/银行/保险。企业性质：民企。工作地点：秦皇岛。岗位：综合柜员(主要从事客户服务、柜面服务及业务营销等工作)。",
-    "url": "https://xiaoyuan.zhaopin.com/company/KA0227064918D90000002000?refcode=4440",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "finance",
-    "tags": [
-      "秦皇岛银行",
-      "校招",
-      "春招",
-      "金融",
-      "金融/银行/保险",
-      "秦皇岛"
-    ],
-    "score": 78,
-    "featured": false,
-    "createdAt": "2026-05-12T06:19:47.000Z"
-  },
-  {
-    "id": "deepoffer-16744",
-    "title": "英柏检测 — 实习 | 检测技术员、客服专员、分板专员、报告文员",
-    "summary": "招聘类型：实习。行业：广告/咨询/服务。企业性质：民企。工作地点：上海、深圳。岗位：检测技术员、客服专员、分板专员、报告文员。",
-    "url": "https://mp.weixin.qq.com/s/NcoEJW6QIAR-QfYsPkV8WQ",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "other",
-    "tags": [
-      "英柏检测",
-      "实习",
-      "广告/咨询/服务",
-      "上海",
-      "深圳"
-    ],
-    "score": 77,
-    "featured": false,
-    "createdAt": "2026-05-12T06:19:47.000Z"
-  },
-  {
-    "id": "deepoffer-16746",
-    "title": "中国航天科工二院二〇八所 — 实习 | 装备战略情报研究员 数据挖掘分析师 数字媒体工程师 科技翻译(英、法、俄）...",
-    "summary": "招聘类型：实习。行业：机械/制造/设备。企业性质：事业单位。工作地点：北京。岗位：装备战略情报研究员 数据挖掘分析师 数字媒体工程师 科技翻译(英、法、俄） 大模型应用开发工程师 系统运维工程师/运维工具研发工程师 物联网 / 数字孪生...。",
-    "url": "https://mp.weixin.qq.com/s/PdUJ57klh0DVTLvki-ZVuQ",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "auto_ic",
-    "tags": [
-      "中国航天科工二院二〇八所",
-      "实习",
-      "车企/IC",
-      "事业单位",
-      "机械/制造/设备",
-      "北京"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-05-12T06:19:47.000Z"
-  },
-  {
-    "id": "deepoffer-16738",
-    "title": "海关总署在京直属事业单位 — 26届春招 | 本次招聘涉及6家海关总署在京直属事业单位、分别为：全国海关信息中心、海关总...",
-    "summary": "招聘类型：26届春招。行业：农业/林业/其他。企业性质：事业单位。工作地点：北京。截止日期：2026/05/22。岗位：本次招聘涉及6家海关总署在京直属事业单位、分别为：全国海关信息中心、海关总署机关服务中心、中国电子口岸数据中心、中国海关博物馆、海关总署国际检验检疫标准与...。",
-    "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202605/t20260507_575569.html",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "海关总署在京直属事业单位",
-      "校招",
-      "春招",
-      "车企/IC",
-      "事业单位",
-      "农业/林业/其他",
-      "北京"
     ],
     "score": 76,
     "featured": false,
@@ -2512,6 +2340,178 @@
     "createdAt": "2026-05-12T06:19:47.000Z"
   },
   {
+    "id": "deepoffer-16741",
+    "title": "江西省军工控股集团 — 26届春招 | 兵器类、航空航天类、船舶工程、机械类、电子信息类、环境与安全类、材料与化学...",
+    "summary": "招聘类型：26届春招。行业：机械/制造/设备。企业性质：央国企。工作地点：南昌。岗位：兵器类、航空航天类、船舶工程、机械类、电子信息类、环境与安全类、材料与化学类、大气科学类、经济管理等。",
+    "url": "https://mp.weixin.qq.com/s/kH5dT6cFgzMLzxP4rWpoIA",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "江西省军工控股集团",
+      "校招",
+      "春招",
+      "车企/IC",
+      "央国企",
+      "机械/制造/设备",
+      "南昌"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-05-12T06:19:47.000Z"
+  },
+  {
+    "id": "deepoffer-16731",
+    "title": "施耐德电气 — 26届春招 | 跨产线协同BD 产品技术工程师 测试设备工程师 质量工程师 产品技术工程师...",
+    "summary": "招聘类型：26届春招。行业：机械/制造/设备。企业性质：外企。工作地点：上海、北京、厦门、无锡、珠海。岗位：跨产线协同BD 产品技术工程师 测试设备工程师 质量工程师 产品技术工程师 工艺工程师 人工智能工程师、Firmware Design Engineer、...。",
+    "url": "https://mp.weixin.qq.com/s/51hVXNty2Sac5CDCLjHQnQ",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "施耐德电气",
+      "校招",
+      "春招",
+      "车企/IC",
+      "外企",
+      "机械/制造/设备",
+      "上海",
+      "北京",
+      "厦门"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-05-12T06:19:47.000Z"
+  },
+  {
+    "id": "deepoffer-16747",
+    "title": "创和美 — 26届春招 | 客户代表、饲料产品经理助理、市场部专员、养殖技术服务、管培生、外贸员",
+    "summary": "招聘类型：26届春招。行业：生物/医疗/医药/制药。企业性质：民企。工作地点：漳州。岗位：客户代表、饲料产品经理助理、市场部专员、养殖技术服务、管培生、外贸员。",
+    "url": "https://mp.weixin.qq.com/s/fpTc7tTsYb_5Xyl1Ic0mTA",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "创和美",
+      "校招",
+      "春招",
+      "生物/医疗/医药/制药",
+      "漳州"
+    ],
+    "score": 73,
+    "featured": false,
+    "createdAt": "2026-05-12T06:19:47.000Z"
+  },
+  {
+    "id": "deepoffer-16735",
+    "title": "奇安信 — 实习 | 安全漏洞攻防渗透",
+    "summary": "招聘类型：实习。行业：IT/互联网/游戏/电商。企业性质：民企。工作地点：北京、杭州、广州、成都、南京、厦门。岗位：安全漏洞攻防渗透。",
+    "url": "https://campus.qianxin.com/campus/jobSearch?type=shixishen",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "game",
+    "tags": [
+      "奇安信",
+      "实习",
+      "游戏",
+      "IT/互联网/游戏/电商",
+      "北京",
+      "杭州",
+      "广州"
+    ],
+    "score": 73,
+    "featured": false,
+    "createdAt": "2026-05-12T06:19:47.000Z"
+  },
+  {
+    "id": "deepoffer-16733",
+    "title": "秦皇岛银行 — 26届春招 | 综合柜员(主要从事客户服务、柜面服务及业务营销等工作)",
+    "summary": "招聘类型：26届春招。行业：金融/银行/保险。企业性质：民企。工作地点：秦皇岛。岗位：综合柜员(主要从事客户服务、柜面服务及业务营销等工作)。",
+    "url": "https://xiaoyuan.zhaopin.com/company/KA0227064918D90000002000?refcode=4440",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "finance",
+    "tags": [
+      "秦皇岛银行",
+      "校招",
+      "春招",
+      "金融",
+      "金融/银行/保险",
+      "秦皇岛"
+    ],
+    "score": 73,
+    "featured": false,
+    "createdAt": "2026-05-12T06:19:47.000Z"
+  },
+  {
+    "id": "deepoffer-16744",
+    "title": "英柏检测 — 实习 | 检测技术员、客服专员、分板专员、报告文员",
+    "summary": "招聘类型：实习。行业：广告/咨询/服务。企业性质：民企。工作地点：上海、深圳。岗位：检测技术员、客服专员、分板专员、报告文员。",
+    "url": "https://mp.weixin.qq.com/s/NcoEJW6QIAR-QfYsPkV8WQ",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "other",
+    "tags": [
+      "英柏检测",
+      "实习",
+      "广告/咨询/服务",
+      "上海",
+      "深圳"
+    ],
+    "score": 72,
+    "featured": false,
+    "createdAt": "2026-05-12T06:19:47.000Z"
+  },
+  {
+    "id": "deepoffer-16746",
+    "title": "中国航天科工二院二〇八所 — 实习 | 装备战略情报研究员 数据挖掘分析师 数字媒体工程师 科技翻译(英、法、俄）...",
+    "summary": "招聘类型：实习。行业：机械/制造/设备。企业性质：事业单位。工作地点：北京。岗位：装备战略情报研究员 数据挖掘分析师 数字媒体工程师 科技翻译(英、法、俄） 大模型应用开发工程师 系统运维工程师/运维工具研发工程师 物联网 / 数字孪生...。",
+    "url": "https://mp.weixin.qq.com/s/PdUJ57klh0DVTLvki-ZVuQ",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "auto_ic",
+    "tags": [
+      "中国航天科工二院二〇八所",
+      "实习",
+      "车企/IC",
+      "事业单位",
+      "机械/制造/设备",
+      "北京"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-05-12T06:19:47.000Z"
+  },
+  {
+    "id": "deepoffer-16738",
+    "title": "海关总署在京直属事业单位 — 26届春招 | 本次招聘涉及6家海关总署在京直属事业单位、分别为：全国海关信息中心、海关总...",
+    "summary": "招聘类型：26届春招。行业：农业/林业/其他。企业性质：事业单位。工作地点：北京。截止日期：2026/05/22。岗位：本次招聘涉及6家海关总署在京直属事业单位、分别为：全国海关信息中心、海关总署机关服务中心、中国电子口岸数据中心、中国海关博物馆、海关总署国际检验检疫标准与...。",
+    "url": "https://www.mohrss.gov.cn/SYrlzyhshbzb/fwyd/SYkaoshizhaopin/zyhgjjgsydwgkzp/zpgg/202605/t20260507_575569.html",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "海关总署在京直属事业单位",
+      "校招",
+      "春招",
+      "车企/IC",
+      "事业单位",
+      "农业/林业/其他",
+      "北京"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-05-12T06:19:47.000Z"
+  },
+  {
     "id": "deepoffer-16709",
     "title": "蔚来 — 26届春招 | 数字技术类、智能制造类、工程技术类、用户与服务类、职能与支持类、动力电池类...",
     "summary": "招聘类型：26届春招。行业：汽车/新能源。企业性质：民企。工作地点：北京、上海、深圳、合肥、武汉、南京、滁州、全国各地。岗位：数字技术类、智能制造类、工程技术类、用户与服务类、职能与支持类、动力电池类、产品类、项目类、设计类。",
@@ -2530,7 +2530,7 @@
       "上海",
       "深圳"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-05-12T06:19:46.000Z"
   },
@@ -2553,8 +2553,8 @@
       "北京",
       "深圳"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-12T06:19:46.000Z"
   },
   {
@@ -2577,8 +2577,8 @@
       "杭州",
       "合肥"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-12T06:19:46.000Z"
   },
   {
@@ -2599,8 +2599,8 @@
       "南昌",
       "全国多地"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-12T06:19:46.000Z"
   },
   {
@@ -2621,8 +2621,8 @@
       "乌鲁木齐",
       "全国多地"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-12T06:19:46.000Z"
   },
   {
@@ -2645,8 +2645,8 @@
       "丽江",
       "保山"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-12T06:19:46.000Z"
   },
   {
@@ -2669,8 +2669,8 @@
       "天津",
       "张家口"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-12T06:19:46.000Z"
   },
   {
@@ -2691,8 +2691,8 @@
       "北京",
       "青岛"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-12T06:19:46.000Z"
   },
   {
@@ -2713,8 +2713,8 @@
       "机械/制造/设备",
       "兰州"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-12T06:19:46.000Z"
   },
   {
@@ -2736,8 +2736,8 @@
       "盐城",
       "温州"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-12T06:19:46.000Z"
   },
   {
@@ -2758,8 +2758,8 @@
       "其他",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-12T06:19:46.000Z"
   },
   {
@@ -2779,7 +2779,7 @@
       "教育/培训",
       "深圳"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-12T06:19:46.000Z"
   },
@@ -2799,7 +2799,7 @@
       "IT/互联网/游戏/电商",
       "珠海"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-12T06:19:46.000Z"
   },
@@ -2818,7 +2818,7 @@
       "车企/IC",
       "机械/制造/设备"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-12T06:19:46.000Z"
   },
@@ -2839,7 +2839,7 @@
       "农业/林业/其他",
       "西宁"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-12T06:19:46.000Z"
   },
@@ -2859,7 +2859,7 @@
       "教育/培训",
       "深圳"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-12T06:19:46.000Z"
   },
@@ -2881,7 +2881,7 @@
       "武汉",
       "襄阳"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-12T06:19:46.000Z"
   },
@@ -2903,7 +2903,7 @@
       "南昌",
       "德阳"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-12T06:19:46.000Z"
   },
@@ -2923,7 +2923,7 @@
       "快消/零售/消费品",
       "东莞"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-12T06:19:46.000Z"
   },
@@ -2945,7 +2945,7 @@
       "苏州",
       "贵港"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-12T06:19:46.000Z"
   },
@@ -2967,7 +2967,7 @@
       "农业/林业/其他",
       "合肥"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-12T06:19:46.000Z"
   },
@@ -3184,25 +3184,6 @@
     "createdAt": "2026-05-09T14:19:45.000Z"
   },
   {
-    "id": "deepoffer-16695",
-    "title": "三宁化工 — 实习 | 化工操作工,设备维修工,化学检验员",
-    "summary": "招聘类型：实习。行业：能源/化工/环保。企业性质：民企。工作地点：宜昌。岗位：化工操作工,设备维修工,化学检验员。",
-    "url": "https://ealklohoih0.jobs.feishu.cn/668247/position/7373832859825506571/detail",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "other",
-    "tags": [
-      "三宁化工",
-      "实习",
-      "能源/化工/环保",
-      "宜昌"
-    ],
-    "score": 80,
-    "featured": true,
-    "createdAt": "2026-05-09T14:19:45.000Z"
-  },
-  {
     "id": "deepoffer-16694",
     "title": "沃尔沃汽车 — 实习 | Digital AI Coding Intern Program/数字化A...",
     "summary": "招聘类型：实习。行业：汽车/新能源。企业性质：外企。工作地点：上海。岗位：Digital AI Coding Intern Program/数字化AI Coding 实习生项目。",
@@ -3306,6 +3287,25 @@
       "北京"
     ],
     "score": 76,
+    "featured": false,
+    "createdAt": "2026-05-09T14:19:45.000Z"
+  },
+  {
+    "id": "deepoffer-16695",
+    "title": "三宁化工 — 实习 | 化工操作工,设备维修工,化学检验员",
+    "summary": "招聘类型：实习。行业：能源/化工/环保。企业性质：民企。工作地点：宜昌。岗位：化工操作工,设备维修工,化学检验员。",
+    "url": "https://ealklohoih0.jobs.feishu.cn/668247/position/7373832859825506571/detail",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "other",
+    "tags": [
+      "三宁化工",
+      "实习",
+      "能源/化工/环保",
+      "宜昌"
+    ],
+    "score": 75,
     "featured": false,
     "createdAt": "2026-05-09T14:19:45.000Z"
   },
@@ -3998,7 +3998,7 @@
       "IT/互联网/游戏/电商",
       "上海"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-08T02:19:39.000Z"
   },
@@ -4019,7 +4019,7 @@
       "广告/咨询/服务",
       "天津"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-08T02:19:39.000Z"
   },
@@ -4039,7 +4039,7 @@
       "广告/咨询/服务",
       "杭州"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-08T02:19:39.000Z"
   },
@@ -4062,7 +4062,7 @@
       "安顺",
       "毕节"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-08T02:19:39.000Z"
   },
@@ -4085,7 +4085,7 @@
       "上海",
       "济南"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-08T02:19:39.000Z"
   },
@@ -4107,7 +4107,7 @@
       "上海",
       "北京"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-08T02:19:39.000Z"
   },
@@ -4131,7 +4131,7 @@
       "株洲",
       "湘潭"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-08T02:19:38.000Z"
   },
@@ -4154,7 +4154,7 @@
       "成都",
       "重庆"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-08T02:19:38.000Z"
   },
@@ -4176,7 +4176,7 @@
       "北京",
       "广州"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-08T02:19:38.000Z"
   },
@@ -4200,7 +4200,7 @@
       "上海",
       "江苏"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-08T02:19:38.000Z"
   },
@@ -4222,7 +4222,7 @@
       "北京",
       "全国"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-08T02:19:38.000Z"
   },
@@ -4245,7 +4245,7 @@
       "南昌",
       "广州"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-08T02:19:38.000Z"
   },
@@ -4267,7 +4267,7 @@
       "机械/制造/设备",
       "北京"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-08T02:19:38.000Z"
   },
@@ -4291,7 +4291,7 @@
       "天津",
       "上海"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-08T02:19:38.000Z"
   },
@@ -4311,7 +4311,7 @@
       "生物/医疗/医药/制药",
       "北京"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-08T02:19:38.000Z"
   },
@@ -4332,7 +4332,7 @@
       "南京",
       "广州"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-08T02:19:38.000Z"
   },
@@ -4352,7 +4352,7 @@
       "房地产/建筑/物业",
       "宁波"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-08T02:19:38.000Z"
   },
@@ -4373,7 +4373,7 @@
       "佛山",
       "东莞"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-08T02:19:38.000Z"
   },
@@ -4394,7 +4394,7 @@
       "汽车/新能源",
       "东莞"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-08T02:19:38.000Z"
   },
@@ -4414,7 +4414,7 @@
       "IT/互联网/游戏/电商",
       "成都"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-08T02:19:38.000Z"
   },
@@ -4436,7 +4436,7 @@
       "汽车/新能源",
       "上海"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-08T02:19:38.000Z"
   },
@@ -4459,7 +4459,7 @@
       "青岛",
       "上海"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-08T02:19:38.000Z"
   },
@@ -4480,7 +4480,7 @@
       "金融/银行/保险",
       "广州"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-08T02:19:38.000Z"
   },
@@ -4501,7 +4501,7 @@
       "教育/培训",
       "北京"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-08T02:19:38.000Z"
   },
@@ -4523,7 +4523,7 @@
       "石家庄",
       "沈阳"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-08T02:19:38.000Z"
   },
@@ -4544,7 +4544,7 @@
       "IT/互联网/游戏/电商",
       "北京"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-08T02:19:38.000Z"
   },
@@ -4567,7 +4567,7 @@
       "上海",
       "深圳"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-08T02:19:37.000Z"
   },
@@ -4589,7 +4589,7 @@
       "机械/制造/设备",
       "天津"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-08T02:19:37.000Z"
   },
@@ -4613,7 +4613,7 @@
       "驻马店",
       "武汉"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-08T02:19:37.000Z"
   },
@@ -4635,7 +4635,7 @@
       "能源/化工/环保",
       "金昌"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-08T02:19:37.000Z"
   },
@@ -4657,7 +4657,7 @@
       "沈阳",
       "辽宁"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-08T02:19:37.000Z"
   },
@@ -4679,211 +4679,7 @@
       "金融/银行/保险",
       "济南"
     ],
-    "score": 78,
-    "featured": false,
-    "createdAt": "2026-05-08T02:19:37.000Z"
-  },
-  {
-    "id": "deepoffer-16627",
-    "title": "重庆机电控股集团动力科技 — 26届春招 | 装配电工",
-    "summary": "招聘类型：26届春招。行业：机械/制造/设备。企业性质：央国企。工作地点：重庆。截止日期：2026/05/30。岗位：装配电工。",
-    "url": "https://mp.weixin.qq.com/s/4EtiQIP-uJ03gOfKeu0dSA",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "重庆机电控股集团动力科技",
-      "校招",
-      "春招",
-      "车企/IC",
-      "央国企",
-      "机械/制造/设备",
-      "重庆"
-    ],
-    "score": 77,
-    "featured": false,
-    "createdAt": "2026-05-08T02:19:37.000Z"
-  },
-  {
-    "id": "deepoffer-16625",
-    "title": "洋浦国际投资咨询 — 26届春招 | 党建专业纪检专员宣传专员管培生",
-    "summary": "招聘类型：26届春招。行业：广告/咨询/服务。企业性质：央国企。工作地点：儋州。截止日期：2026/06/30。岗位：党建专业纪检专员宣传专员管培生。",
-    "url": "https://mp.weixin.qq.com/s/WvKyyJzT1xmn0NQg6c3BVg?scene=1",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "finance",
-    "tags": [
-      "洋浦国际投资咨询",
-      "校招",
-      "春招",
-      "金融",
-      "央国企",
-      "广告/咨询/服务",
-      "儋州"
-    ],
-    "score": 77,
-    "featured": false,
-    "createdAt": "2026-05-08T02:19:37.000Z"
-  },
-  {
-    "id": "deepoffer-16621",
-    "title": "数字浙江 — 26届春招 | 测试工程师，安全工程师，售前解决方案专员，行政专员，产品专员，集约运维助理...",
-    "summary": "招聘类型：26届春招。行业：IT/互联网/游戏/电商。企业性质：央国企。工作地点：天津，杭州，西安，乌鲁木齐。岗位：测试工程师，安全工程师，售前解决方案专员，行政专员，产品专员，集约运维助理，运营专员，智能化工程师，全栈开发工程师，项目助理。",
-    "url": "https://www.zhipin.com/gongsi/job/4bca2544dfe97e770X160t-7EA~~.html?experience=102",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "game",
-    "tags": [
-      "数字浙江",
-      "校招",
-      "春招",
-      "游戏",
-      "央国企",
-      "IT/互联网/游戏/电商",
-      "天津",
-      "杭州",
-      "西安"
-    ],
-    "score": 77,
-    "featured": false,
-    "createdAt": "2026-05-08T02:19:37.000Z"
-  },
-  {
-    "id": "deepoffer-16631",
-    "title": "中国旅游集团 — 26届春招 | 销售专员、初级销售专员、项目案场客服、保障运营岗、前台岗、前台接待、餐饮储...",
-    "summary": "招聘类型：26届春招。行业：酒旅。企业性质：央国企。工作地点：北京、广州、深圳、崇左、海口、三亚、万宁、中卫。岗位：销售专员、初级销售专员、项目案场客服、保障运营岗、前台岗、前台接待、餐饮储备人员、冲浪区域服务员。",
-    "url": "http://mp.weixin.qq.com/s?__biz=MzA4MzQ4MTc5Mg==&mid=2247492179&idx=1&sn=3e358274c7c645e8840b511573b511d8&chksm=9ff767fca880eeea2cec0090f3dd929a1de50d5a5d50d8e3cc987ece9f9e6af9507bcf8283f7#rd",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "中国旅游集团",
-      "校招",
-      "春招",
-      "央国企",
-      "酒旅",
-      "北京",
-      "广州",
-      "深圳"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-05-08T02:19:37.000Z"
-  },
-  {
-    "id": "deepoffer-16623",
-    "title": "中国人民银行清算总中心直属企业银清科技 — 26届春招 | 基础设施运维岗",
-    "summary": "招聘类型：26届春招。行业：金融/银行/保险。企业性质：央国企。工作地点：无锡。截止日期：2026/05/14。岗位：基础设施运维岗。",
-    "url": "https://www.cncc.cn/ryzp/zsqyzp/202604/t20260430_3261.html?sessionid=",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "finance",
-    "tags": [
-      "中国人民银行清算总中心直属企业银清科技",
-      "校招",
-      "春招",
-      "金融",
-      "央国企",
-      "金融/银行/保险",
-      "无锡"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-05-08T02:19:37.000Z"
-  },
-  {
-    "id": "deepoffer-16632",
-    "title": "中国铁路上海局集团 — 26届春招 | 物资业务人员 (电子商务), 法律事务人员，广告业务人员，市场营销业务人员...",
-    "summary": "招聘类型：26届春招。行业：交通/物流/出行。企业性质：央国企。工作地点：上海、南京、徐州、苏州、杭州、宁波、合肥、阜阳。截止日期：2026/05/13。岗位：物资业务人员 (电子商务), 法律事务人员，广告业务人员，市场营销业务人员，材料分析业务人员，疾病预防检验人员，食品安全检验人员，财务核算人员，计算机维护...。",
-    "url": "https://rs.railshj.cn/recruitment-posts/posts-details?id=50055",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "中国铁路上海局集团",
-      "校招",
-      "春招",
-      "车企/IC",
-      "央国企",
-      "交通/物流/出行",
-      "上海",
-      "南京",
-      "徐州"
-    ],
-    "score": 75,
-    "featured": false,
-    "createdAt": "2026-05-08T02:19:37.000Z"
-  },
-  {
-    "id": "deepoffer-16630",
-    "title": "交通银行浙江省分行 — 26届春招 | 营销运营方向(业务岗)、科技金融-客户经理方向岗、金融科技方向-信息技术岗",
-    "summary": "招聘类型：26届春招。行业：金融/银行/保险。企业性质：银行。工作地点：浙江。岗位：营销运营方向(业务岗)、科技金融-客户经理方向岗、金融科技方向-信息技术岗。",
-    "url": "https://mp.weixin.qq.com/s/ryq5hRz_F0LWm0xo6m1yUw?scene=1&click_id=65",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "finance",
-    "tags": [
-      "交通银行浙江省分行",
-      "校招",
-      "春招",
-      "金融",
-      "银行",
-      "金融/银行/保险",
-      "浙江"
-    ],
-    "score": 75,
-    "featured": false,
-    "createdAt": "2026-05-08T02:19:37.000Z"
-  },
-  {
-    "id": "deepoffer-16620",
-    "title": "中国铁路成都局集团 — 26届春招 | 消防设备设施检维修岗位，财务核算相关岗位，法律事务相关岗位，信息化设备运行...",
-    "summary": "招聘类型：26届春招。行业：交通/物流/出行。企业性质：央国企。工作地点：重庆、成都、什邡、绵阳、内江、宜宾、达州、西昌、贵阳、六盘水。截止日期：2026/05/13。岗位：消防设备设施检维修岗位，财务核算相关岗位，法律事务相关岗位，信息化设备运行与维护岗位，卫生防疫岗位，文化传媒岗位，生产经营开发岗位（消防工程，安全工程（消...。",
-    "url": "https://cdpta.cdrsigc.com/",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "finance",
-    "tags": [
-      "中国铁路成都局集团",
-      "校招",
-      "春招",
-      "金融",
-      "央国企",
-      "交通/物流/出行",
-      "重庆",
-      "成都",
-      "什邡"
-    ],
-    "score": 75,
-    "featured": false,
-    "createdAt": "2026-05-08T02:19:37.000Z"
-  },
-  {
-    "id": "deepoffer-16617",
-    "title": "扬帆半导体集团 — 26届春招 | 机电一体化工程师 机构工程师 电气工程师 软件工程师 品质工程师 工艺工程师",
-    "summary": "招聘类型：26届春招。行业：通信/电子/半导体。企业性质：民企。工作地点：苏州。岗位：机电一体化工程师 机构工程师 电气工程师 软件工程师 品质工程师 工艺工程师。",
-    "url": "https://mp.weixin.qq.com/s/reeD4SfVTv--Utc0NJfQnQ?scene=1&click_id=24",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "扬帆半导体集团",
-      "校招",
-      "春招",
-      "车企/IC",
-      "通信/电子/半导体",
-      "苏州"
-    ],
-    "score": 74,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-08T02:19:37.000Z"
   },
@@ -4911,6 +4707,210 @@
     "createdAt": "2026-05-08T02:19:37.000Z"
   },
   {
+    "id": "deepoffer-16627",
+    "title": "重庆机电控股集团动力科技 — 26届春招 | 装配电工",
+    "summary": "招聘类型：26届春招。行业：机械/制造/设备。企业性质：央国企。工作地点：重庆。截止日期：2026/05/30。岗位：装配电工。",
+    "url": "https://mp.weixin.qq.com/s/4EtiQIP-uJ03gOfKeu0dSA",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "重庆机电控股集团动力科技",
+      "校招",
+      "春招",
+      "车企/IC",
+      "央国企",
+      "机械/制造/设备",
+      "重庆"
+    ],
+    "score": 72,
+    "featured": false,
+    "createdAt": "2026-05-08T02:19:37.000Z"
+  },
+  {
+    "id": "deepoffer-16625",
+    "title": "洋浦国际投资咨询 — 26届春招 | 党建专业纪检专员宣传专员管培生",
+    "summary": "招聘类型：26届春招。行业：广告/咨询/服务。企业性质：央国企。工作地点：儋州。截止日期：2026/06/30。岗位：党建专业纪检专员宣传专员管培生。",
+    "url": "https://mp.weixin.qq.com/s/WvKyyJzT1xmn0NQg6c3BVg?scene=1",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "finance",
+    "tags": [
+      "洋浦国际投资咨询",
+      "校招",
+      "春招",
+      "金融",
+      "央国企",
+      "广告/咨询/服务",
+      "儋州"
+    ],
+    "score": 72,
+    "featured": false,
+    "createdAt": "2026-05-08T02:19:37.000Z"
+  },
+  {
+    "id": "deepoffer-16621",
+    "title": "数字浙江 — 26届春招 | 测试工程师，安全工程师，售前解决方案专员，行政专员，产品专员，集约运维助理...",
+    "summary": "招聘类型：26届春招。行业：IT/互联网/游戏/电商。企业性质：央国企。工作地点：天津，杭州，西安，乌鲁木齐。岗位：测试工程师，安全工程师，售前解决方案专员，行政专员，产品专员，集约运维助理，运营专员，智能化工程师，全栈开发工程师，项目助理。",
+    "url": "https://www.zhipin.com/gongsi/job/4bca2544dfe97e770X160t-7EA~~.html?experience=102",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "game",
+    "tags": [
+      "数字浙江",
+      "校招",
+      "春招",
+      "游戏",
+      "央国企",
+      "IT/互联网/游戏/电商",
+      "天津",
+      "杭州",
+      "西安"
+    ],
+    "score": 72,
+    "featured": false,
+    "createdAt": "2026-05-08T02:19:37.000Z"
+  },
+  {
+    "id": "deepoffer-16631",
+    "title": "中国旅游集团 — 26届春招 | 销售专员、初级销售专员、项目案场客服、保障运营岗、前台岗、前台接待、餐饮储...",
+    "summary": "招聘类型：26届春招。行业：酒旅。企业性质：央国企。工作地点：北京、广州、深圳、崇左、海口、三亚、万宁、中卫。岗位：销售专员、初级销售专员、项目案场客服、保障运营岗、前台岗、前台接待、餐饮储备人员、冲浪区域服务员。",
+    "url": "http://mp.weixin.qq.com/s?__biz=MzA4MzQ4MTc5Mg==&mid=2247492179&idx=1&sn=3e358274c7c645e8840b511573b511d8&chksm=9ff767fca880eeea2cec0090f3dd929a1de50d5a5d50d8e3cc987ece9f9e6af9507bcf8283f7#rd",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "中国旅游集团",
+      "校招",
+      "春招",
+      "央国企",
+      "酒旅",
+      "北京",
+      "广州",
+      "深圳"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-05-08T02:19:37.000Z"
+  },
+  {
+    "id": "deepoffer-16623",
+    "title": "中国人民银行清算总中心直属企业银清科技 — 26届春招 | 基础设施运维岗",
+    "summary": "招聘类型：26届春招。行业：金融/银行/保险。企业性质：央国企。工作地点：无锡。截止日期：2026/05/14。岗位：基础设施运维岗。",
+    "url": "https://www.cncc.cn/ryzp/zsqyzp/202604/t20260430_3261.html?sessionid=",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "finance",
+    "tags": [
+      "中国人民银行清算总中心直属企业银清科技",
+      "校招",
+      "春招",
+      "金融",
+      "央国企",
+      "金融/银行/保险",
+      "无锡"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-05-08T02:19:37.000Z"
+  },
+  {
+    "id": "deepoffer-16632",
+    "title": "中国铁路上海局集团 — 26届春招 | 物资业务人员 (电子商务), 法律事务人员，广告业务人员，市场营销业务人员...",
+    "summary": "招聘类型：26届春招。行业：交通/物流/出行。企业性质：央国企。工作地点：上海、南京、徐州、苏州、杭州、宁波、合肥、阜阳。截止日期：2026/05/13。岗位：物资业务人员 (电子商务), 法律事务人员，广告业务人员，市场营销业务人员，材料分析业务人员，疾病预防检验人员，食品安全检验人员，财务核算人员，计算机维护...。",
+    "url": "https://rs.railshj.cn/recruitment-posts/posts-details?id=50055",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "中国铁路上海局集团",
+      "校招",
+      "春招",
+      "车企/IC",
+      "央国企",
+      "交通/物流/出行",
+      "上海",
+      "南京",
+      "徐州"
+    ],
+    "score": 70,
+    "featured": false,
+    "createdAt": "2026-05-08T02:19:37.000Z"
+  },
+  {
+    "id": "deepoffer-16630",
+    "title": "交通银行浙江省分行 — 26届春招 | 营销运营方向(业务岗)、科技金融-客户经理方向岗、金融科技方向-信息技术岗",
+    "summary": "招聘类型：26届春招。行业：金融/银行/保险。企业性质：银行。工作地点：浙江。岗位：营销运营方向(业务岗)、科技金融-客户经理方向岗、金融科技方向-信息技术岗。",
+    "url": "https://mp.weixin.qq.com/s/ryq5hRz_F0LWm0xo6m1yUw?scene=1&click_id=65",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "finance",
+    "tags": [
+      "交通银行浙江省分行",
+      "校招",
+      "春招",
+      "金融",
+      "银行",
+      "金融/银行/保险",
+      "浙江"
+    ],
+    "score": 70,
+    "featured": false,
+    "createdAt": "2026-05-08T02:19:37.000Z"
+  },
+  {
+    "id": "deepoffer-16620",
+    "title": "中国铁路成都局集团 — 26届春招 | 消防设备设施检维修岗位，财务核算相关岗位，法律事务相关岗位，信息化设备运行...",
+    "summary": "招聘类型：26届春招。行业：交通/物流/出行。企业性质：央国企。工作地点：重庆、成都、什邡、绵阳、内江、宜宾、达州、西昌、贵阳、六盘水。截止日期：2026/05/13。岗位：消防设备设施检维修岗位，财务核算相关岗位，法律事务相关岗位，信息化设备运行与维护岗位，卫生防疫岗位，文化传媒岗位，生产经营开发岗位（消防工程，安全工程（消...。",
+    "url": "https://cdpta.cdrsigc.com/",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "finance",
+    "tags": [
+      "中国铁路成都局集团",
+      "校招",
+      "春招",
+      "金融",
+      "央国企",
+      "交通/物流/出行",
+      "重庆",
+      "成都",
+      "什邡"
+    ],
+    "score": 70,
+    "featured": false,
+    "createdAt": "2026-05-08T02:19:37.000Z"
+  },
+  {
+    "id": "deepoffer-16617",
+    "title": "扬帆半导体集团 — 26届春招 | 机电一体化工程师 机构工程师 电气工程师 软件工程师 品质工程师 工艺工程师",
+    "summary": "招聘类型：26届春招。行业：通信/电子/半导体。企业性质：民企。工作地点：苏州。岗位：机电一体化工程师 机构工程师 电气工程师 软件工程师 品质工程师 工艺工程师。",
+    "url": "https://mp.weixin.qq.com/s/reeD4SfVTv--Utc0NJfQnQ?scene=1&click_id=24",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "扬帆半导体集团",
+      "校招",
+      "春招",
+      "车企/IC",
+      "通信/电子/半导体",
+      "苏州"
+    ],
+    "score": 69,
+    "featured": false,
+    "createdAt": "2026-05-08T02:19:37.000Z"
+  },
+  {
     "id": "deepoffer-16626",
     "title": "许昌智能 — 26届春招 | 技术开发、营销服务、研发类等",
     "summary": "招聘类型：26届春招。行业：机械/制造/设备。企业性质：民企。工作地点：许昌、北京、郑州、武汉、新加坡。岗位：技术开发、营销服务、研发类等。",
@@ -4929,7 +4929,7 @@
       "北京",
       "郑州"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-08T02:19:37.000Z"
   },
@@ -4950,7 +4950,7 @@
       "IT/互联网/游戏/电商",
       "杭州"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-08T02:19:37.000Z"
   },
@@ -4971,7 +4971,7 @@
       "人工智能/机器人",
       "北京"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-08T02:19:37.000Z"
   },
@@ -4993,7 +4993,7 @@
       "成都",
       "重庆"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-08T02:19:37.000Z"
   },
@@ -5015,7 +5015,7 @@
       "北京",
       "深圳"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-08T02:19:37.000Z"
   },
@@ -5039,7 +5039,7 @@
       "市海淀区",
       "全国多地"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-08T02:19:36.000Z"
   },
@@ -5060,7 +5060,7 @@
       "农业/林业/其他",
       "北京"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-08T02:19:36.000Z"
   },
@@ -5081,7 +5081,7 @@
       "广告/咨询/服务",
       "武汉"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-08T02:19:36.000Z"
   },
@@ -5103,7 +5103,7 @@
       "徐州",
       "新沂"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-08T02:19:36.000Z"
   },
@@ -5124,7 +5124,7 @@
       "通信/电子/半导体",
       "北京"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-08T02:19:36.000Z"
   },
@@ -5148,28 +5148,6 @@
       "苏州"
     ],
     "score": 76,
-    "featured": false,
-    "createdAt": "2026-05-06T06:20:11.000Z"
-  },
-  {
-    "id": "deepoffer-16591",
-    "title": "东海基金 — 26届春招 | 市场类投研类运营类科技类综合类互金运营岗渠道销售岗机构销售岗行业研究岗 固...",
-    "summary": "招聘类型：26届春招。行业：金融/银行/保险。企业性质：央国企。工作地点：上海。岗位：市场类投研类运营类科技类综合类互金运营岗渠道销售岗机构销售岗行业研究岗 固收研究岗 基金研究岗量化研究岗。",
-    "url": "https://wenjuanxingdenglu.wjx.cn/vm/YxEtWxe.aspx",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "finance",
-    "tags": [
-      "东海基金",
-      "校招",
-      "春招",
-      "金融",
-      "央国企",
-      "金融/银行/保险",
-      "上海"
-    ],
-    "score": 75,
     "featured": false,
     "createdAt": "2026-05-06T06:20:11.000Z"
   },
@@ -5280,6 +5258,28 @@
       "合肥"
     ],
     "score": 72,
+    "featured": false,
+    "createdAt": "2026-05-06T06:20:11.000Z"
+  },
+  {
+    "id": "deepoffer-16591",
+    "title": "东海基金 — 26届春招 | 市场类投研类运营类科技类综合类互金运营岗渠道销售岗机构销售岗行业研究岗 固...",
+    "summary": "招聘类型：26届春招。行业：金融/银行/保险。企业性质：央国企。工作地点：上海。岗位：市场类投研类运营类科技类综合类互金运营岗渠道销售岗机构销售岗行业研究岗 固收研究岗 基金研究岗量化研究岗。",
+    "url": "https://wenjuanxingdenglu.wjx.cn/vm/YxEtWxe.aspx",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "finance",
+    "tags": [
+      "东海基金",
+      "校招",
+      "春招",
+      "金融",
+      "央国企",
+      "金融/银行/保险",
+      "上海"
+    ],
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-06T06:20:11.000Z"
   },
@@ -6083,72 +6083,9 @@
       "上海",
       "南京"
     ],
-    "score": 66,
+    "score": 61,
     "featured": false,
     "createdAt": "2026-05-01T14:19:06.000Z"
-  },
-  {
-    "id": "deepoffer-16554",
-    "title": "北汽产投 — 实习 | 投资助理实习生 研究助理实习生、",
-    "summary": "招聘类型：实习。行业：金融/银行/保险。企业性质：央国企。工作地点：上海、北京、深圳。岗位：投资助理实习生 研究助理实习生、。",
-    "url": "https://baicgroup.zhiye.com/campus/jobs?queryId=bfc49d86-5dc2-47ba-b0ae-7d734d8319c0",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "finance",
-    "tags": [
-      "北汽产投",
-      "实习",
-      "金融",
-      "央国企",
-      "金融/银行/保险",
-      "上海",
-      "北京",
-      "深圳"
-    ],
-    "score": 71,
-    "featured": false,
-    "createdAt": "2026-04-30T06:19:10.000Z"
-  },
-  {
-    "id": "deepoffer-16556",
-    "title": "北方国际 — 实习 | 业务类岗位 职能类岗位",
-    "summary": "招聘类型：实习。行业：房地产/建筑/物业。企业性质：央国企。工作地点：北京。岗位：业务类岗位 职能类岗位。",
-    "url": "https://mp.weixin.qq.com/s/VaoljGIo1vt08_U3wmk5pQ",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "other",
-    "tags": [
-      "北方国际",
-      "实习",
-      "央国企",
-      "房地产/建筑/物业",
-      "北京"
-    ],
-    "score": 70,
-    "featured": false,
-    "createdAt": "2026-04-30T06:19:10.000Z"
-  },
-  {
-    "id": "deepoffer-16553",
-    "title": "卧安机器人 — 实习 | 算法实习生 嵌入式开发实习生 软件测试实习生 结构实习生 海外市场/市场营...",
-    "summary": "招聘类型：实习。行业：人工智能/机器人。企业性质：民企。工作地点：深圳。岗位：算法实习生 嵌入式开发实习生 软件测试实习生 结构实习生 海外市场/市场营销实习生。",
-    "url": "https://woanhome.zhiye.com/intern/jobs",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "internet",
-    "tags": [
-      "卧安机器人",
-      "实习",
-      "互联网/AI",
-      "人工智能/机器人",
-      "深圳"
-    ],
-    "score": 70,
-    "featured": false,
-    "createdAt": "2026-04-30T06:19:10.000Z"
   },
   {
     "id": "deepoffer-16562",
@@ -6173,6 +6110,69 @@
     "createdAt": "2026-04-30T06:19:10.000Z"
   },
   {
+    "id": "deepoffer-16554",
+    "title": "北汽产投 — 实习 | 投资助理实习生 研究助理实习生、",
+    "summary": "招聘类型：实习。行业：金融/银行/保险。企业性质：央国企。工作地点：上海、北京、深圳。岗位：投资助理实习生 研究助理实习生、。",
+    "url": "https://baicgroup.zhiye.com/campus/jobs?queryId=bfc49d86-5dc2-47ba-b0ae-7d734d8319c0",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "finance",
+    "tags": [
+      "北汽产投",
+      "实习",
+      "金融",
+      "央国企",
+      "金融/银行/保险",
+      "上海",
+      "北京",
+      "深圳"
+    ],
+    "score": 66,
+    "featured": false,
+    "createdAt": "2026-04-30T06:19:10.000Z"
+  },
+  {
+    "id": "deepoffer-16556",
+    "title": "北方国际 — 实习 | 业务类岗位 职能类岗位",
+    "summary": "招聘类型：实习。行业：房地产/建筑/物业。企业性质：央国企。工作地点：北京。岗位：业务类岗位 职能类岗位。",
+    "url": "https://mp.weixin.qq.com/s/VaoljGIo1vt08_U3wmk5pQ",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "other",
+    "tags": [
+      "北方国际",
+      "实习",
+      "央国企",
+      "房地产/建筑/物业",
+      "北京"
+    ],
+    "score": 65,
+    "featured": false,
+    "createdAt": "2026-04-30T06:19:10.000Z"
+  },
+  {
+    "id": "deepoffer-16553",
+    "title": "卧安机器人 — 实习 | 算法实习生 嵌入式开发实习生 软件测试实习生 结构实习生 海外市场/市场营...",
+    "summary": "招聘类型：实习。行业：人工智能/机器人。企业性质：民企。工作地点：深圳。岗位：算法实习生 嵌入式开发实习生 软件测试实习生 结构实习生 海外市场/市场营销实习生。",
+    "url": "https://woanhome.zhiye.com/intern/jobs",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "internet",
+    "tags": [
+      "卧安机器人",
+      "实习",
+      "互联网/AI",
+      "人工智能/机器人",
+      "深圳"
+    ],
+    "score": 65,
+    "featured": false,
+    "createdAt": "2026-04-30T06:19:10.000Z"
+  },
+  {
     "id": "deepoffer-16560",
     "title": "苏州市相城区教育系统 — 26届春招 | 高中语文教师、高中英语教师、高中物理教师、高中化学教师、高中体育教师、高中...",
     "summary": "招聘类型：26届春招。行业：教育/培训。企业性质：事业单位。工作地点：苏州。截止日期：2026/05/11。岗位：高中语文教师、高中英语教师、高中物理教师、高中化学教师、高中体育教师、高中信息技术教师、高中心理教师、中学语文教师、中学数学教师、中学英语教师、中学政治教...。",
@@ -6189,7 +6189,7 @@
       "教育/培训",
       "苏州"
     ],
-    "score": 69,
+    "score": 64,
     "featured": false,
     "createdAt": "2026-04-30T06:19:10.000Z"
   },
@@ -6208,7 +6208,7 @@
       "广告/咨询/服务",
       "佛山"
     ],
-    "score": 68,
+    "score": 63,
     "featured": false,
     "createdAt": "2026-04-30T06:19:10.000Z"
   },
@@ -6230,7 +6230,7 @@
       "唐山",
       "威海"
     ],
-    "score": 67,
+    "score": 62,
     "featured": false,
     "createdAt": "2026-04-30T06:19:10.000Z"
   },
@@ -6252,7 +6252,7 @@
       "文化/传媒/出版",
       "北京"
     ],
-    "score": 66,
+    "score": 61,
     "featured": false,
     "createdAt": "2026-04-30T06:19:10.000Z"
   },
@@ -6276,7 +6276,7 @@
       "吐鲁番",
       "昌吉回族自治州"
     ],
-    "score": 66,
+    "score": 61,
     "featured": false,
     "createdAt": "2026-04-30T06:19:10.000Z"
   },
@@ -6298,7 +6298,7 @@
       "房地产/建筑/物业",
       "眉山"
     ],
-    "score": 66,
+    "score": 61,
     "featured": false,
     "createdAt": "2026-04-30T06:19:10.000Z"
   },
@@ -6318,7 +6318,7 @@
       "酒旅",
       "上海"
     ],
-    "score": 66,
+    "score": 61,
     "featured": false,
     "createdAt": "2026-04-30T06:19:10.000Z"
   },
@@ -6340,7 +6340,7 @@
       "金融/银行/保险",
       "昆明"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-04-30T06:19:09.000Z"
   },
@@ -6362,7 +6362,7 @@
       "济南",
       "全国各地"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-04-30T06:19:09.000Z"
   },
@@ -6385,7 +6385,7 @@
       "成都",
       "甘孜藏族自治州"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-04-30T06:19:09.000Z"
   },
@@ -6406,7 +6406,7 @@
       "金融/银行/保险",
       "天津"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-04-30T06:19:09.000Z"
   },
@@ -6427,7 +6427,7 @@
       "文化/传媒/出版",
       "武汉"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-04-30T06:19:09.000Z"
   },
@@ -6451,7 +6451,7 @@
       "北京",
       "南京"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-04-30T06:19:09.000Z"
   },
@@ -6472,7 +6472,7 @@
       "房地产/建筑/物业",
       "福州"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-04-30T06:19:09.000Z"
   },
@@ -6495,7 +6495,7 @@
       "九江",
       "南昌"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-04-30T06:19:09.000Z"
   },
@@ -6516,7 +6516,7 @@
       "能源/化工/环保",
       "沈阳"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-04-30T06:19:09.000Z"
   },
@@ -6537,7 +6537,7 @@
       "文化/传媒/出版",
       "北京"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-04-30T06:19:09.000Z"
   },
@@ -6559,7 +6559,7 @@
       "金融/银行/保险",
       "成都"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-04-30T06:19:09.000Z"
   },
@@ -6583,7 +6583,7 @@
       "北京",
       "吉林"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-04-30T06:19:09.000Z"
   },
@@ -6604,7 +6604,7 @@
       "其他",
       "北京"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-04-30T06:19:09.000Z"
   },
@@ -6626,7 +6626,7 @@
       "上海",
       "杭州"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-04-30T06:19:09.000Z"
   },
@@ -6648,7 +6648,7 @@
       "北京",
       "南昌"
     ],
-    "score": 69,
+    "score": 64,
     "featured": false,
     "createdAt": "2026-04-30T06:19:09.000Z"
   },
@@ -6670,7 +6670,7 @@
       "北京",
       "天津"
     ],
-    "score": 69,
+    "score": 64,
     "featured": false,
     "createdAt": "2026-04-30T06:19:09.000Z"
   },
@@ -6690,7 +6690,7 @@
       "IT/互联网/游戏/电商",
       "北京"
     ],
-    "score": 69,
+    "score": 64,
     "featured": false,
     "createdAt": "2026-04-30T06:19:09.000Z"
   },
@@ -6713,7 +6713,7 @@
       "宜春",
       "常州"
     ],
-    "score": 68,
+    "score": 63,
     "featured": false,
     "createdAt": "2026-04-30T06:19:09.000Z"
   },
@@ -6735,7 +6735,7 @@
       "海外",
       "宁波"
     ],
-    "score": 68,
+    "score": 63,
     "featured": false,
     "createdAt": "2026-04-30T06:19:09.000Z"
   },
@@ -6756,7 +6756,7 @@
       "广州",
       "深圳"
     ],
-    "score": 67,
+    "score": 62,
     "featured": false,
     "createdAt": "2026-04-30T06:19:09.000Z"
   },
@@ -6778,7 +6778,7 @@
       "金融/银行/保险",
       "宁波"
     ],
-    "score": 66,
+    "score": 61,
     "featured": false,
     "createdAt": "2026-04-30T06:19:09.000Z"
   },
@@ -6798,7 +6798,7 @@
       "房地产/建筑/物业",
       "杭州"
     ],
-    "score": 66,
+    "score": 61,
     "featured": false,
     "createdAt": "2026-04-30T06:19:09.000Z"
   },
@@ -6817,7 +6817,7 @@
       "游戏",
       "IT/互联网/游戏/电商"
     ],
-    "score": 68,
+    "score": 63,
     "featured": false,
     "createdAt": "2026-04-30T06:19:08.000Z"
   },
@@ -68008,7 +68008,7 @@
       "农业/林业/其他",
       "宁波"
     ],
-    "score": 66,
+    "score": 61,
     "featured": false,
     "createdAt": "2026-03-01T15:33:57.000Z"
   },
@@ -68140,8 +68140,8 @@
       "能源/化工/环保",
       "蚌埠"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-03-01T15:33:46.000Z"
   },
   {
@@ -68161,7 +68161,7 @@
       "临汾",
       "青岛"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-03-01T15:33:46.000Z"
   },
@@ -68184,7 +68184,7 @@
       "北京",
       "杭州"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-03-01T15:33:44.000Z"
   },
@@ -68207,7 +68207,7 @@
       "佛山",
       "全国各地"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-03-01T15:33:44.000Z"
   },
@@ -68228,8 +68228,8 @@
       "教育/培训",
       "南京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-03-01T15:33:43.000Z"
   },
   {
@@ -68271,8 +68271,8 @@
       "教育/培训",
       "宿迁"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-03-01T15:33:39.000Z"
   },
   {
@@ -68405,7 +68405,7 @@
       "北京",
       "上海"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-03-01T14:52:46.000Z"
   },
@@ -68426,7 +68426,7 @@
       "金融/银行/保险",
       "上海"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-03-01T14:52:45.000Z"
   },
@@ -68514,7 +68514,7 @@
       "农业/林业/其他",
       "长沙"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-03-01T14:52:41.000Z"
   },
@@ -68541,28 +68541,6 @@
     "createdAt": "2026-03-01T14:52:41.000Z"
   },
   {
-    "id": "deepoffer-11693",
-    "title": "中国航发商发 — 26届春招 | 项目管理、采购与供应链管理、适航工程、材料工程、制造工艺、质量管理、构型管...",
-    "summary": "招聘类型：26届春招。行业：机械/制造/设备。企业性质：央国企。工作地点：上海。岗位：项目管理、采购与供应链管理、适航工程、材料工程、制造工艺、质量管理、构型管理、信息化、研发体系建设、系统与总体、结构强度、控制系统、气动热力与燃烧、工程软...。",
-    "url": "https://aecccae.zhaopin.com/jobs/index.html",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "中国航发商发",
-      "校招",
-      "春招",
-      "车企/IC",
-      "央国企",
-      "机械/制造/设备",
-      "上海"
-    ],
-    "score": 73,
-    "featured": false,
-    "createdAt": "2026-03-01T13:54:13.000Z"
-  },
-  {
     "id": "deepoffer-11701",
     "title": "中国化学天辰 — 26届春招 | AI+科研,精细合成,模拟,聚合研发工程师,各专业设计工程师,产业数智化研...",
     "summary": "招聘类型：26届春招。行业：能源/化工/环保。企业性质：央国企。工作地点：北京、天津、哈尔滨、上海、淄博。岗位：AI+科研,精细合成,模拟,聚合研发工程师,各专业设计工程师,产业数智化研发,人工智能,AI应用开发和软件开发工程师,合同,计划,费控,施工安全,施工管理...。",
@@ -68583,6 +68561,28 @@
       "哈尔滨"
     ],
     "score": 69,
+    "featured": false,
+    "createdAt": "2026-03-01T13:54:13.000Z"
+  },
+  {
+    "id": "deepoffer-11693",
+    "title": "中国航发商发 — 26届春招 | 项目管理、采购与供应链管理、适航工程、材料工程、制造工艺、质量管理、构型管...",
+    "summary": "招聘类型：26届春招。行业：机械/制造/设备。企业性质：央国企。工作地点：上海。岗位：项目管理、采购与供应链管理、适航工程、材料工程、制造工艺、质量管理、构型管理、信息化、研发体系建设、系统与总体、结构强度、控制系统、气动热力与燃烧、工程软...。",
+    "url": "https://aecccae.zhaopin.com/jobs/index.html",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "中国航发商发",
+      "校招",
+      "春招",
+      "车企/IC",
+      "央国企",
+      "机械/制造/设备",
+      "上海"
+    ],
+    "score": 68,
     "featured": false,
     "createdAt": "2026-03-01T13:54:13.000Z"
   },
@@ -68643,8 +68643,8 @@
       "能源/化工/环保",
       "杭州"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-03-01T10:03:41.000Z"
   },
   {
@@ -68666,8 +68666,8 @@
       "常州",
       "广州"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-03-01T10:03:39.000Z"
   },
   {
@@ -115505,7 +115505,7 @@
       "南宁",
       "崇左"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-03-01T05:31:23.000Z"
   },
