@@ -1,88 +1,19 @@
+'use client';
+
 import Link from 'next/link';
-import * as fs from 'fs';
-import * as path from 'path';
+import { useEffect, useState } from 'react';
 import { FeedItem } from '@/lib/types';
+import { DailyAccordion } from '@/components/DailyAccordion';
 
-function getScoreClass(score: number): string {
-  if (score >= 80) return 'score-high';
-  if (score >= 50) return 'score-mid';
-  return 'score-muted';
-}
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '/job-hot';
 
-function FeaturedCard({ item }: { item: FeedItem }) {
-  return (
-    <article className="timeline-card" style={{ marginBottom: '1rem' }}>
-      <div className="timeline-card-head">
-        <div className="timeline-source">
-          {item.sourceAvatar && (
-            <img
-              src={item.sourceAvatar}
-              alt=""
-              className="timeline-source-icon"
-              width={16}
-              height={16}
-            />
-          )}
-          <span>{item.source}</span>
-          {item.companyType && item.companyType !== 'private' && (
-            <span className={`company-badge ${
-              item.companyType === 'foreign' ? 'badge-foreign' :
-              item.companyType === 'state' ? 'badge-state' :
-              item.companyType === 'bank' ? 'badge-bank' : 'badge-state'
-            }`}>
-              {item.companyType === 'foreign' ? '外企' :
-               item.companyType === 'state' ? '央国企' :
-               item.companyType === 'bank' ? '银行' : '事业单位'}
-            </span>
-          )}
-        </div>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-          <span className="timeline-selected-badge">精选</span>
-          <span className={`timeline-score ${getScoreClass(item.score)}`}>
-            {item.score}
-          </span>
-        </div>
-      </div>
-
-      <a
-        href={item.url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="timeline-title"
-      >
-        {item.title}
-      </a>
-
-      <p className="timeline-summary">{item.summary}</p>
-
-      {/* Location & Deadline */}
-      {(item.location || item.deadline) && (
-        <div className="timeline-meta-row">
-          {item.location && (
-            <span className="meta-item">
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              {item.location}
-            </span>
-          )}
-          {item.deadline && (
-            <span className="meta-item meta-deadline">
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-              {item.deadline}
-            </span>
-          )}
-        </div>
-      )}
-
-      <div className="timeline-tags">
-        {item.tags.map((tag) => (
-          <span key={tag} className="tag">
-            {tag}
-          </span>
-        ))}
-      </div>
-    </article>
-  );
-}
+const dataSources = [
+  { name: '国聘', color: '#e53935' },
+  { name: '牛客网', color: '#00c853' },
+  { name: 'DeepOffer', color: '#6366f1' },
+  { name: '应届生求职网', color: '#ff9800' },
+  { name: 'Campus2026', color: '#2196f3' },
+];
 
 interface HomeData {
   featuredItems: FeedItem[];
@@ -95,36 +26,40 @@ interface HomeData {
   todayCount?: number;
 }
 
-function getHomeData(): HomeData {
-  const jsonPath = path.join(process.cwd(), 'public', 'api', 'feed', 'home.json');
-  if (fs.existsSync(jsonPath)) {
-    return JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
-  }
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
-  const { feedItems } = require('@/lib/data');
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
-  const { getFeaturedItems } = require('@/lib/feed');
-  return {
-    featuredItems: getFeaturedItems(10),
-    totalItems: feedItems.length,
-    campusCount: feedItems.filter((i: FeedItem) => i.channel === 'campus').length,
-    internCount: feedItems.filter((i: FeedItem) => i.channel === 'intern').length,
-  };
+interface DailyDay {
+  date: string;
+  label: string;
+  items: FeedItem[];
 }
 
-const dataSources = [
-  { name: '国聘', color: '#e53935' },
-  { name: '牛客网', color: '#00c853' },
-  { name: 'DeepOffer', color: '#6366f1' },
-  { name: '应届生求职网', color: '#ff9800' },
-  { name: 'Campus2026', color: '#2196f3' },
-];
-
 export default function HomePage() {
-  const {
-    featuredItems, totalItems, campusCount, internCount,
-    talkCount = 0, companyCount = 0, todayCount = 0,
-  } = getHomeData();
+  const [homeData, setHomeData] = useState<HomeData | null>(null);
+  const [dailyDays, setDailyDays] = useState<DailyDay[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    Promise.all([
+      fetch(`${basePath}/api/feed/home.json`).then(r => r.ok ? r.json() : null),
+      fetch(`${basePath}/api/feed/daily-digest.json`).then(r => r.ok ? r.json() : []),
+    ]).then(([home, daily]) => {
+      if (home) setHomeData(home);
+      // Filter future items
+      const nowStr = new Date().toISOString();
+      const filtered = (daily as DailyDay[]).map(day => ({
+        ...day,
+        items: day.items.filter((item: FeedItem) => item.createdAt <= nowStr),
+      })).filter(day => day.items.length > 0);
+      setDailyDays(filtered);
+      setLoading(false);
+    }).catch(() => setLoading(false));
+  }, []);
+
+  const totalItems = homeData?.totalItems || 0;
+  const campusCount = homeData?.campusCount || 0;
+  const internCount = homeData?.internCount || 0;
+  const talkCount = homeData?.talkCount || 0;
+  const companyCount = homeData?.companyCount || 0;
+  const todayCount = homeData?.todayCount || 0;
 
   return (
     <div className="page page-home">
@@ -139,7 +74,7 @@ export default function HomePage() {
         <p className="hero-desc">大学生求职信息一站式聚合平台</p>
       </div>
 
-      {/* Stats Grid - Enhanced */}
+      {/* Stats Grid */}
       <div className="stats-grid">
         <div className="stat-card stat-card-primary">
           <div className="stat-value">{totalItems.toLocaleString()}</div>
@@ -197,17 +132,22 @@ export default function HomePage() {
 
       <div className="divider" />
 
-      {/* Featured Items */}
+      {/* Daily Featured Section (merged from daily page) */}
       <div style={{ marginTop: '1.5rem' }}>
         <h2 style={{ fontSize: '1.25rem', fontWeight: 700, marginBottom: '1rem' }}>
-          <span className="text-gradient">编辑精选</span>
+          <span className="text-gradient">每日精选</span>
           <span style={{ fontSize: '0.8125rem', color: 'var(--text-muted)', fontWeight: 400, marginLeft: '0.5rem' }}>
-            TOP {featuredItems.length}
+            近 {dailyDays.length} 天
           </span>
         </h2>
-        {featuredItems.map((item) => (
-          <FeaturedCard key={item.id} item={item} />
-        ))}
+
+        {loading ? (
+          <div className="empty-state" style={{ marginTop: '1rem' }}>
+            <div className="empty-state-title">加载中...</div>
+          </div>
+        ) : (
+          <DailyAccordion days={dailyDays} />
+        )}
       </div>
 
       <div style={{ textAlign: 'center', marginTop: '2rem' }}>

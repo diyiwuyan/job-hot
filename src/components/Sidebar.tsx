@@ -8,7 +8,7 @@ import { useSidebar } from './SidebarContext';
 const navItems: { href: string; label: string; icon: React.ReactNode; external?: boolean }[] = [
   {
     href: '/',
-    label: '精选',
+    label: '首页',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
@@ -26,18 +26,6 @@ const navItems: { href: string; label: string; icon: React.ReactNode; external?:
         <line x1="3" y1="6" x2="3.01" y2="6" />
         <line x1="3" y1="12" x2="3.01" y2="12" />
         <line x1="3" y1="18" x2="3.01" y2="18" />
-      </svg>
-    ),
-  },
-  {
-    href: '/daily',
-    label: '求职日报',
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M6 3h13a2 2 0 0 1 2 2v13a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V5a2 2 0 0 1 2-2h1" />
-        <path d="M6 7h10" />
-        <path d="M6 11h10" />
-        <path d="M6 15h7" />
       </svg>
     ),
   },
