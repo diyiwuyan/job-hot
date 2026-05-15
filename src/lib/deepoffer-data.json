@@ -8,6 +8,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "天津",
+    "deadline": "2026/05/15",
     "tags": [
       "天津津酒集团",
       "校招",
@@ -29,6 +32,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "foreign",
+    "companyType": "foreign",
+    "location": "全国多地",
+    "deadline": "2026/05/24",
     "tags": [
       "联合利华",
       "实习",
@@ -48,6 +54,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "全国多地",
+    "deadline": "尽快投递",
     "tags": [
       "中国机械科学研究总院集团",
       "校招",
@@ -69,6 +78,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "foreign",
+    "location": "上海、合肥、天津、无锡、江门、全国多地",
+    "deadline": "尽快投递",
     "tags": [
       "阿特拉斯科普柯集团中国",
       "实习",
@@ -92,6 +104,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "厦门、福州、郑州",
+    "deadline": "2026/12/31",
     "tags": [
       "福建省二建建设集团",
       "校招",
@@ -115,6 +130,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "南平",
+    "deadline": "2026/05/18",
     "tags": [
       "南平绿发集团",
       "校招",
@@ -137,6 +155,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "foreign",
+    "companyType": "foreign",
+    "location": "全国多地",
+    "deadline": "尽快投递",
     "tags": [
       "阿斯利康中国",
       "实习",
@@ -156,6 +177,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "三亚、上海、上饶、中卫、丽水、乌鲁木齐、兰州、南充、厦门、台州、哈尔滨、嘉兴、大连、宁波、宝鸡、广州",
+    "deadline": "2026/06/18",
     "tags": [
       "吉利",
       "校招",
@@ -180,6 +204,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "上海、北京、杭州、深圳、苏州、长沙",
+    "deadline": "尽快投递",
     "tags": [
       "安克创新ANKER",
       "实习",
@@ -202,6 +229,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "bank",
+    "location": "宁波",
+    "deadline": "尽快投递",
     "tags": [
       "宁波银行总行金融科技部",
       "实习",
@@ -223,6 +253,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "internet",
+    "companyType": "private",
+    "location": "上海",
+    "deadline": "尽快投递",
     "tags": [
       "卫宁健康",
       "实习",
@@ -243,6 +276,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "institution",
+    "location": "北京",
+    "deadline": "尽快投递",
     "tags": [
       "文化和旅游部恭王府博物馆",
       "校招",
@@ -264,6 +300,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "private",
+    "location": "北京、成都、武汉、西安",
+    "deadline": "尽快投递",
     "tags": [
       "惠之美生活服务集团",
       "实习",
@@ -285,6 +324,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "乌海、包头、呼伦贝尔、呼和浩特、巴彦淖尔、赤峰、通辽、鄂尔多斯、锡林郭勒盟、阿拉善盟",
+    "deadline": "尽快投递",
     "tags": [
       "内蒙古万联易达",
       "校招",
@@ -307,6 +349,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "private",
+    "location": "杭州",
+    "deadline": "尽快投递",
     "tags": [
       "今溪信息",
       "校招",
@@ -328,6 +373,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "private",
+    "location": "上海、广州、成都、杭州",
+    "deadline": "尽快投递",
     "tags": [
       "游卡",
       "实习",
@@ -349,6 +397,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "全国多地",
+    "deadline": "尽快投递",
     "tags": [
       "金诚同达",
       "实习",
@@ -368,6 +419,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "state",
+    "location": "宁波、徐州、苏州",
+    "deadline": "2026/06/05",
     "tags": [
       "苏州银行",
       "实习",
@@ -391,6 +445,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "foreign",
+    "companyType": "foreign",
+    "location": "全国多地",
+    "deadline": "尽快投递",
     "tags": [
       "波士顿国际传媒咨询-BARTV闪光计划",
       "实习",
@@ -410,6 +467,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "foreign",
+    "location": "苏州",
+    "deadline": "尽快投递",
     "tags": [
       "友达光电",
       "实习",
@@ -431,6 +491,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "北京",
+    "deadline": "2026/05/21",
     "tags": [
       "国家能源集团新能源院",
       "校招",
@@ -453,6 +516,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "北京",
+    "deadline": "2026/05/20",
     "tags": [
       "《中国中医药报》社",
       "校招",
@@ -474,6 +540,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "state",
+    "location": "宁波",
+    "deadline": "2026/05/25",
     "tags": [
       "宁波工业投资集团",
       "实习",
@@ -495,6 +564,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "foreign",
+    "companyType": "foreign",
+    "location": "北京",
+    "deadline": "尽快投递",
     "tags": [
       "Cell Press细胞出版社",
       "实习",
@@ -515,6 +587,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "game",
+    "companyType": "private",
+    "location": "北京",
+    "deadline": "尽快投递",
     "tags": [
       "途游游戏",
       "实习",
@@ -535,6 +610,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "private",
+    "location": "全国多地",
+    "deadline": "尽快投递",
     "tags": [
       "学而思",
       "实习",
@@ -553,6 +631,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "internet",
+    "companyType": "private",
+    "location": "上海、北京",
+    "deadline": "尽快投递",
     "tags": [
       "光轮智能",
       "实习",
@@ -574,6 +655,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "private",
+    "location": "上海",
+    "deadline": "尽快投递",
     "tags": [
       "BottleDream",
       "实习",
@@ -593,6 +677,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "private",
+    "location": "东营、南昌、济南",
+    "deadline": "尽快投递",
     "tags": [
       "万豪集团",
       "校招",
@@ -616,6 +703,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "中山",
+    "deadline": "尽快投递",
     "tags": [
       "玫瑰岛",
       "校招",
@@ -637,6 +727,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "private",
+    "location": "上海、北京、南京、厦门、广州、成都、昆明、武汉、深圳、重庆、长沙",
+    "deadline": "尽快投递",
     "tags": [
       "华程国旅集团",
       "实习",
@@ -659,6 +752,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "private",
+    "location": "南宁、广州、沈阳、长沙",
+    "deadline": "尽快投递",
     "tags": [
       "扬翔股份",
       "实习",
@@ -680,6 +776,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "上海",
+    "deadline": "2026/06/30",
     "tags": [
       "众安保险",
       "实习",
@@ -700,6 +799,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "institution",
+    "location": "长沙",
+    "deadline": "尽快投递",
     "tags": [
       "《年轻人》编辑部",
       "实习",
@@ -720,6 +822,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "private",
+    "location": "广州、杭州、深圳",
+    "deadline": "尽快投递",
     "tags": [
       "包道集团",
       "实习",
@@ -741,6 +846,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "合肥",
+    "deadline": "尽快投递",
     "tags": [
       "新东方合肥学校",
       "校招",
@@ -761,6 +869,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "北京",
+    "deadline": "尽快投递",
     "tags": [
       "XrayBot瑞泊",
       "实习",
@@ -781,6 +892,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "南京",
+    "deadline": "2026/05/13",
     "tags": [
       "南京东南国资投资集团",
       "校招",
@@ -803,6 +917,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "咸阳、商洛、安康、宝鸡、延安、榆林、汉中、渭南、西安、铜川、全国多地",
+    "deadline": "2026/05/20",
     "tags": [
       "陕西省烟草专卖局（公司）",
       "校招",
@@ -826,6 +943,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "青岛、深圳、武汉、上海、杭州、西安、顺德、江门、黄岛、平度、扬州、成都、湖州、贵阳、全国各地",
+    "deadline": "尽快投递",
     "tags": [
       "海信集团",
       "实习",
@@ -849,6 +969,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "武汉",
+    "deadline": "尽快投递",
     "tags": [
       "燥梦者汽车科技",
       "校招",
@@ -870,6 +993,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "上海",
+    "deadline": "2026/05/15",
     "tags": [
       "金山区区属国企",
       "校招",
@@ -892,6 +1018,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "foreign",
+    "location": "上海、苏州",
+    "deadline": "尽快投递",
     "tags": [
       "博世智能驾控",
       "实习",
@@ -914,6 +1043,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "security",
+    "companyType": "state",
+    "location": "北京、聊城",
+    "deadline": "尽快投递",
     "tags": [
       "中国南水北调集团东线",
       "校招",
@@ -937,6 +1069,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "济南",
+    "deadline": "2026/05/20",
     "tags": [
       "山东爱普电气设备",
       "校招",
@@ -959,6 +1094,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "重庆",
+    "deadline": "2026/06/12",
     "tags": [
       "重庆太平洋国际物流",
       "校招",
@@ -980,6 +1118,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "济南",
+    "deadline": "2026/05/20",
     "tags": [
       "济南重工集团",
       "校招",
@@ -1002,6 +1143,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "foreign",
+    "location": "常州、苏州",
+    "deadline": "尽快投递",
     "tags": [
       "盖茨集团",
       "校招",
@@ -1025,6 +1169,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "南昌",
+    "deadline": "2026/05/24",
     "tags": [
       "江西省农业发展集团",
       "校招",
@@ -1046,6 +1193,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "济南",
+    "deadline": "2026/05/20",
     "tags": [
       "济南黄河路桥建设集团",
       "校招",
@@ -1068,6 +1218,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "潍坊、威海、日照、启东",
+    "deadline": "尽快投递",
     "tags": [
       "豪迈",
       "实习",
@@ -1090,6 +1243,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "institution",
+    "location": "北京",
+    "deadline": "2026/05/19",
     "tags": [
       "国家中医药管理局直属事业单位",
       "校招",
@@ -1112,6 +1268,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "game",
+    "companyType": "private",
+    "location": "广州、武汉、苏州、杭州",
+    "deadline": "2026/06/30",
     "tags": [
       "多益网络",
       "校招",
@@ -1135,6 +1294,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "北京",
+    "deadline": "尽快投递",
     "tags": [
       "航天一院 北京航天万源科技",
       "实习",
@@ -1155,6 +1317,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "成都",
+    "deadline": "尽快投递",
     "tags": [
       "元气创品",
       "校招",
@@ -1175,6 +1340,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "上海",
+    "deadline": "尽快投递",
     "tags": [
       "蒙玺投资",
       "实习",
@@ -1195,6 +1363,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "咸阳",
+    "deadline": "尽快投递",
     "tags": [
       "隆基绿能丨中研院材料研发",
       "校招",
@@ -1216,6 +1387,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "institution",
+    "location": "重庆",
+    "deadline": "2026/05/18",
     "tags": [
       "重庆新华书店",
       "校招",
@@ -1237,6 +1411,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "深圳",
+    "deadline": "尽快投递",
     "tags": [
       "图拉斯",
       "实习",
@@ -1257,6 +1434,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "state",
+    "location": "上海、深圳",
+    "deadline": "2026/06/30",
     "tags": [
       "长城基金",
       "实习",
@@ -1279,6 +1459,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "宁波、杭州、全国多地",
+    "deadline": "尽快投递",
     "tags": [
       "浙江省农发集团",
       "校招",
@@ -1303,6 +1486,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "game",
+    "companyType": "private",
+    "location": "广州",
+    "deadline": "尽快投递",
     "tags": [
       "探迹科技",
       "校招",
@@ -1324,6 +1510,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "北京",
+    "deadline": "2026/05/31",
     "tags": [
       "铁总服务",
       "校招",
@@ -1345,6 +1534,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "宁波",
+    "deadline": "尽快投递",
     "tags": [
       "海天集团",
       "实习",
@@ -1365,6 +1557,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "上海、北京",
+    "deadline": "2026/06/01",
     "tags": [
       "启明创投医疗创新投资团队",
       "实习",
@@ -1386,6 +1581,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "bank",
+    "location": "汕尾、深圳",
+    "deadline": "尽快投递",
     "tags": [
       "海丰农商银行",
       "校招",
@@ -1409,6 +1607,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "foreign",
+    "location": "上海",
+    "deadline": "尽快投递",
     "tags": [
       "上汽大众",
       "实习",
@@ -1430,6 +1631,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "深圳",
+    "deadline": "尽快投递",
     "tags": [
       "资瑞兴",
       "实习",
@@ -1450,6 +1654,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "上海、北京、深圳",
+    "deadline": "尽快投递",
     "tags": [
       "傅利叶",
       "实习",
@@ -1472,6 +1679,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "成都",
+    "deadline": "尽快投递",
     "tags": [
       "微派无限",
       "实习",
@@ -1492,6 +1702,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "上海、临沂、济南、烟台、青岛",
+    "deadline": "2026/05/24",
     "tags": [
       "山东铁投集团",
       "校招",
@@ -1516,6 +1729,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "上海、北京、厦门、大连、天津、成都、武汉、深圳、苏州、西安",
+    "deadline": "2026/05/15",
     "tags": [
       "联想",
       "实习",
@@ -1539,6 +1755,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "郑州",
+    "deadline": "2026/05/12",
     "tags": [
       "河南资本集团",
       "校招",
@@ -1561,6 +1780,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "上海、东莞、乌海、北京、南京、南通、合肥、娄底、宁波、常州、常德、广州、无锡、昆明、杭州、武汉、汕头",
+    "deadline": "尽快投递",
     "tags": [
       "三生制药",
       "校招",
@@ -1583,6 +1805,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "济南",
+    "deadline": "2026/05/13",
     "tags": [
       "山东金朝融惠检测",
       "校招",
@@ -1604,6 +1829,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "game",
+    "companyType": "private",
+    "location": "北京",
+    "deadline": "尽快投递",
     "tags": [
       "结行科技",
       "校招",
@@ -1625,6 +1853,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "济南",
+    "deadline": "2026/05/13",
     "tags": [
       "山东贯月科创投资",
       "校招",
@@ -1647,6 +1878,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "game",
+    "companyType": "private",
+    "location": "上海、杭州、广州",
+    "deadline": "尽快投递",
     "tags": [
       "网易游戏互娱",
       "实习",
@@ -1669,6 +1903,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "北海、南宁、崇左、来宾、柳州、桂林、梧州、河池、玉林、百色、贵港、贺州、钦州、防城港",
+    "deadline": "2026/05/15",
     "tags": [
       "中国铁路南宁局集团",
       "校招",
@@ -1693,6 +1930,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "西安",
+    "deadline": "尽快投递",
     "tags": [
       "西安航天动力机械",
       "校招",
@@ -1715,6 +1955,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "太原、全国各地",
+    "deadline": "2026/05/15",
     "tags": [
       "中国铁路太原局集团",
       "校招",
@@ -1737,6 +1980,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "南京、苏州、昆山、太仓、宿迁",
+    "deadline": "2026/05/22",
     "tags": [
       "江苏省规划设计集团",
       "校招",
@@ -1760,6 +2006,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "南京",
+    "deadline": "2026/05/24",
     "tags": [
       "江苏省铁路集团",
       "校招",
@@ -1782,6 +2031,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "private",
+    "location": "天津、深圳、湖州",
+    "deadline": "尽快投递",
     "tags": [
       "滨海投资（天津）",
       "校招",
@@ -1805,6 +2057,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "state",
+    "location": "深圳、上海",
+    "deadline": "2026/06/30",
     "tags": [
       "长城基金",
       "实习",
@@ -1827,6 +2082,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "private",
+    "location": "重庆、全国多地",
+    "deadline": "尽快投递",
     "tags": [
       "金科服务",
       "校招",
@@ -1849,6 +2107,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "internet",
+    "companyType": "private",
+    "location": "北京、上海、苏州",
+    "deadline": "尽快投递",
     "tags": [
       "轻舟智航",
       "校招",
@@ -1872,6 +2133,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "上海、乌海、嘉兴、杭州、清远、舟山、苏州、衢州",
+    "deadline": "2026/06/20",
     "tags": [
       "泰隆银行",
       "实习",
@@ -1894,6 +2158,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "game",
+    "companyType": "private",
+    "location": "北京",
+    "deadline": "尽快投递",
     "tags": [
       "58同城",
       "实习",
@@ -1914,6 +2181,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "institution",
+    "location": "北京",
+    "deadline": "尽快投递",
     "tags": [
       "中国金融四十人论坛",
       "校招",
@@ -1936,6 +2206,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "institution",
+    "location": "北京",
+    "deadline": "2026/05/18",
     "tags": [
       "国务院发展研究中心有关直属单位",
       "校招",
@@ -1957,6 +2230,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "兰州",
+    "deadline": "尽快投递",
     "tags": [
       "兰州新东方",
       "校招",
@@ -1977,6 +2253,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "private",
+    "location": "长沙",
+    "deadline": "尽快投递",
     "tags": [
       "大王山国际旅游度假区",
       "实习",
@@ -1996,6 +2275,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "上海",
+    "deadline": "尽快投递",
     "tags": [
       "国金资管",
       "实习",
@@ -2016,6 +2298,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "institution",
+    "location": "北京",
+    "deadline": "2026/05/15",
     "tags": [
       "国家文物局直属事业单位",
       "校招",
@@ -2037,6 +2322,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "institution",
+    "location": "临汾、吕梁、大同、太原、忻州、运城、长治、阳泉",
+    "deadline": "尽快投递",
     "tags": [
       "山西省气象局",
       "校招",
@@ -2060,6 +2348,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "上海、南京",
+    "deadline": "尽快投递",
     "tags": [
       "帆一尚行",
       "实习",
@@ -2082,6 +2373,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "game",
+    "companyType": "state",
+    "location": "兰州",
+    "deadline": "尽快投递",
     "tags": [
       "丝绸之路大数据",
       "校招",
@@ -2104,6 +2398,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "state",
+    "location": "上海",
+    "deadline": "尽快投递",
     "tags": [
       "申能集团",
       "实习",
@@ -2125,6 +2422,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "state",
+    "location": "杭州",
+    "deadline": "尽快投递",
     "tags": [
       "浙江省产投集团",
       "实习",
@@ -2146,6 +2446,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "上海、北京、藏族自治州、西安、重庆、雄安新区",
+    "deadline": "尽快投递",
     "tags": [
       "中国星网",
       "校招",
@@ -2170,6 +2473,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "state",
+    "location": "上海、北京、深圳",
+    "deadline": "2026/06/15",
     "tags": [
       "国投证券-产业研究院",
       "实习",
@@ -2193,6 +2499,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "南昌",
+    "deadline": "2026/05/24",
     "tags": [
       "江西省农业发展集团",
       "校招",
@@ -2214,6 +2523,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "兰州、全国各地",
+    "deadline": "2026/05/15",
     "tags": [
       "中国铁路兰州局集团",
       "校招",
@@ -2236,6 +2548,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "乌鲁木齐",
+    "deadline": "尽快投递",
     "tags": [
       "中国能源建设集团新疆电力设计院",
       "校招",
@@ -2258,6 +2573,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "北京",
+    "deadline": "2026/06/30",
     "tags": [
       "中国建筑技术集团",
       "校招",
@@ -2280,6 +2598,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "foreign",
+    "companyType": "foreign",
+    "location": "上海、广州、无锡、全国各地",
+    "deadline": "尽快投递",
     "tags": [
       "达能中国",
       "校招",
@@ -2303,6 +2624,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "天津、沧州",
+    "deadline": "2026/05/21",
     "tags": [
       "国家能源集团电子商务",
       "校招",
@@ -2326,6 +2650,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "institution",
+    "location": "北京,南昌",
+    "deadline": "尽快投递",
     "tags": [
       "中国科学院空间应用工程与技术中心",
       "实习",
@@ -2348,6 +2675,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "南昌",
+    "deadline": "尽快投递",
     "tags": [
       "江西省军工控股集团",
       "校招",
@@ -2370,6 +2700,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "foreign",
+    "location": "上海、北京、厦门、无锡、珠海",
+    "deadline": "尽快投递",
     "tags": [
       "施耐德电气",
       "校招",
@@ -2394,6 +2727,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "漳州",
+    "deadline": "尽快投递",
     "tags": [
       "创和美",
       "校招",
@@ -2414,6 +2750,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "game",
+    "companyType": "private",
+    "location": "北京、杭州、广州、成都、南京、厦门",
+    "deadline": "尽快投递",
     "tags": [
       "奇安信",
       "实习",
@@ -2436,6 +2775,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "private",
+    "location": "秦皇岛",
+    "deadline": "尽快投递",
     "tags": [
       "秦皇岛银行",
       "校招",
@@ -2457,6 +2799,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "private",
+    "location": "上海、深圳",
+    "deadline": "尽快投递",
     "tags": [
       "英柏检测",
       "实习",
@@ -2477,6 +2822,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "institution",
+    "location": "北京",
+    "deadline": "尽快投递",
     "tags": [
       "中国航天科工二院二〇八所",
       "实习",
@@ -2498,6 +2846,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "institution",
+    "location": "北京",
+    "deadline": "2026/05/22",
     "tags": [
       "海关总署在京直属事业单位",
       "校招",
@@ -2520,6 +2871,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "北京、上海、深圳、合肥、武汉、南京、滁州、全国各地",
+    "deadline": "尽快投递",
     "tags": [
       "蔚来",
       "校招",
@@ -2543,6 +2897,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "state",
+    "location": "上海、北京、深圳",
+    "deadline": "尽快投递",
     "tags": [
       "北京汽车",
       "实习",
@@ -2566,6 +2923,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "巴彦淖尔、杭州、合肥、六安、荆州、洪湖、咸宁、西安、酒泉、克拉玛依",
+    "deadline": "2026/05/23",
     "tags": [
       "天津创业环保集团",
       "校招",
@@ -2590,6 +2950,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "南昌、全国多地",
+    "deadline": "2026/05/19",
     "tags": [
       "江西省港口集团",
       "校招",
@@ -2612,6 +2975,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "乌鲁木齐、全国多地",
+    "deadline": "尽快投递",
     "tags": [
       "新业能化",
       "校招",
@@ -2634,6 +3000,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "security",
+    "companyType": "state",
+    "location": "临沧、丽江、保山、大理白族自治州、拉萨、昆明、普洱、迪庆藏族自治州",
+    "deadline": "尽快投递",
     "tags": [
       "云南南方地勘工程",
       "校招",
@@ -2658,6 +3027,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "北京,天津,张家口,沧州,鄂尔多斯,沈阳,济南,武汉,银川",
+    "deadline": "2026/05/21",
     "tags": [
       "国华能源投资",
       "校招",
@@ -2682,6 +3054,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "institution",
+    "location": "北京、青岛",
+    "deadline": "2026/05/15",
     "tags": [
       "农业农村部京外事业单位",
       "校招",
@@ -2704,6 +3079,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "兰州",
+    "deadline": "2026/05/31",
     "tags": [
       "兰石集团",
       "校招",
@@ -2726,6 +3104,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "南通、盐城、温州、乳山、汕尾、重庆、成都",
+    "deadline": "尽快投递",
     "tags": [
       "中天科技集团",
       "校招",
@@ -2749,6 +3130,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "institution",
+    "location": "北京",
+    "deadline": "2026/05/27",
     "tags": [
       "国家自然科学基金委员会",
       "校招",
@@ -2771,6 +3155,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "institution",
+    "location": "深圳",
+    "deadline": "2026/05/18",
     "tags": [
       "深圳市宝安区公办中小学",
       "校招",
@@ -2792,6 +3179,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "game",
+    "companyType": "private",
+    "location": "珠海",
+    "deadline": "尽快投递",
     "tags": [
       "三石园科技",
       "实习",
@@ -2812,6 +3202,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "全国多地",
+    "deadline": "尽快投递",
     "tags": [
       "模力方舟",
       "实习",
@@ -2831,6 +3224,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "institution",
+    "location": "西宁",
+    "deadline": "尽快投递",
     "tags": [
       "青海省气象部门",
       "校招",
@@ -2852,6 +3248,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "深圳",
+    "deadline": "尽快投递",
     "tags": [
       "苇航教育",
       "校招",
@@ -2872,6 +3271,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "武汉、襄阳",
+    "deadline": "尽快投递",
     "tags": [
       "骆驼股份",
       "校招",
@@ -2894,6 +3296,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "南京、南昌、德阳、惠州、枣庄、深圳、赣州、金华、全国多地",
+    "deadline": "尽快投递",
     "tags": [
       "欣旺达",
       "实习",
@@ -2916,6 +3321,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "东莞",
+    "deadline": "尽快投递",
     "tags": [
       "美泰玩具",
       "实习",
@@ -2936,6 +3344,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "security",
+    "companyType": "private",
+    "location": "上海、苏州、贵港",
+    "deadline": "尽快投递",
     "tags": [
       "永卓控股",
       "实习",
@@ -2958,6 +3369,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "institution",
+    "location": "合肥",
+    "deadline": "2026/05/15",
     "tags": [
       "安徽省气象部门（第二批次）",
       "校招",
@@ -2980,6 +3394,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "game",
+    "companyType": "private",
+    "location": "全国多地",
+    "deadline": "尽快投递",
     "tags": [
       "用友-友智星",
       "实习",
@@ -2999,6 +3416,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "上海、北京、深圳",
+    "deadline": "尽快投递",
     "tags": [
       "东方财富证券",
       "实习",
@@ -3021,6 +3441,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "上海、云南、北京、壮族自治区、天津、安徽、山东、山西、广东、江苏、江西、河北、河南、浙江、湖北、维吾",
+    "deadline": "尽快投递",
     "tags": [
       "中国船舶集团",
       "校招",
@@ -3045,6 +3468,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "state",
+    "location": "深圳",
+    "deadline": "尽快投递",
     "tags": [
       "前海金融控股",
       "实习",
@@ -3066,6 +3492,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "internet",
+    "companyType": "private",
+    "location": "上海、北京、哈尔滨、广州、成都、杭州、武汉、重庆",
+    "deadline": "尽快投递",
     "tags": [
       "无忧传媒",
       "校招",
@@ -3089,6 +3518,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "全国多地",
+    "deadline": "尽快投递",
     "tags": [
       "三环集团",
       "实习",
@@ -3108,6 +3540,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "宁波",
+    "deadline": "尽快投递",
     "tags": [
       "元生生物UNISONS",
       "校招",
@@ -3128,6 +3563,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "广州",
+    "deadline": "尽快投递",
     "tags": [
       "诗悦",
       "校招",
@@ -3148,6 +3586,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "game",
+    "companyType": "private",
+    "location": "上海、北京、深圳",
+    "deadline": "尽快投递",
     "tags": [
       "京东",
       "校招",
@@ -3171,6 +3612,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "game",
+    "companyType": "private",
+    "location": "北京,杭州",
+    "deadline": "尽快投递",
     "tags": [
       "新浪&微博",
       "实习",
@@ -3192,6 +3636,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "foreign",
+    "location": "上海",
+    "deadline": "尽快投递",
     "tags": [
       "沃尔沃汽车",
       "实习",
@@ -3213,6 +3660,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "game",
+    "companyType": "foreign",
+    "location": "上海、北京、大连、沈阳",
+    "deadline": "尽快投递",
     "tags": [
       "凯捷",
       "实习",
@@ -3236,6 +3686,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "foreign",
+    "companyType": "foreign",
+    "location": "上海、北京、南京、广州、杭州、深圳、苏州、西安",
+    "deadline": "2026/12/31",
     "tags": [
       "索迪斯",
       "实习",
@@ -3258,6 +3711,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "game",
+    "companyType": "foreign",
+    "location": "上海",
+    "deadline": "2026/06/05",
     "tags": [
       "科赴",
       "实习",
@@ -3279,6 +3735,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "foreign",
+    "companyType": "foreign",
+    "location": "北京",
+    "deadline": "尽快投递",
     "tags": [
       "百多力医疗",
       "实习",
@@ -3299,6 +3758,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "private",
+    "location": "宜昌",
+    "deadline": "尽快投递",
     "tags": [
       "三宁化工",
       "实习",
@@ -3318,6 +3780,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "保定、北京、唐山、天津、张家口、承德、沧州、石家庄、衡水、邯郸",
+    "deadline": "2026/05/14",
     "tags": [
       "中国铁路北京局",
       "校招",
@@ -3342,6 +3807,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "private",
+    "location": "武汉",
+    "deadline": "尽快投递",
     "tags": [
       "武汉新东方",
       "实习",
@@ -3361,6 +3829,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "兰州",
+    "deadline": "2026/05/15",
     "tags": [
       "甘肃省铁路投资建设",
       "校招",
@@ -3383,6 +3854,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "泉州",
+    "deadline": "尽快投递",
     "tags": [
       "泉州汇鑫",
       "实习",
@@ -3403,6 +3877,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "深圳",
+    "deadline": "尽快投递",
     "tags": [
       "韶音科技",
       "实习",
@@ -3423,6 +3900,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "internet",
+    "companyType": "private",
+    "location": "杭州",
+    "deadline": "尽快投递",
     "tags": [
       "曼卡龙",
       "校招",
@@ -3444,6 +3924,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "上海、东莞、北京、南昌、天津、无锡、武汉、河源、西安、重庆、海外",
+    "deadline": "尽快投递",
     "tags": [
       "华勤",
       "校招",
@@ -3467,6 +3950,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "厦门、莆田",
+    "deadline": "尽快投递",
     "tags": [
       "天桂食品",
       "校招",
@@ -3488,6 +3974,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "赣州",
+    "deadline": "2026/05/12",
     "tags": [
       "江西峰山抽水蓄能",
       "校招",
@@ -3509,6 +3998,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "foreign",
+    "companyType": "foreign",
+    "location": "上海、北京、南京、大连、常州、成都、杭州、武汉、深圳、苏州、西安、长沙、青岛、香港",
+    "deadline": "尽快投递",
     "tags": [
       "IntelliPro英特利普集团",
       "实习",
@@ -3531,6 +4023,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "上海、北京、南京、成都、扬州、拉萨、杭州、武汉、沈阳、济南、深圳、福州、西安、郑州",
+    "deadline": "2026/06/30",
     "tags": [
       "东方财富",
       "实习",
@@ -3553,6 +4048,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "foreign",
+    "location": "上海、东莞、北京、南京、南宁、南昌、厦门、合肥、哈尔滨、大连、广州、成都、杭州、武汉、海口、深圳、苏",
+    "deadline": "尽快投递",
     "tags": [
       "ATOMIC岱澳",
       "实习",
@@ -3576,6 +4074,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "天津",
+    "deadline": "2026/05/15",
     "tags": [
       "天津渤海轻工投资集团",
       "校招",
@@ -3598,6 +4099,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "state",
+    "location": "广州",
+    "deadline": "尽快投递",
     "tags": [
       "广药集团及司属企业",
       "实习",
@@ -3618,6 +4122,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "广州",
+    "deadline": "2026/05/17",
     "tags": [
       "广州水投集团",
       "校招",
@@ -3640,6 +4147,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "foreign",
+    "companyType": "foreign",
+    "location": "三亚、上海、北京、南京、南宁、南昌、厦门、天津、宁波、广州、成都、昆明、杭州、武汉、沈阳、济南、深圳",
+    "deadline": "尽快投递",
     "tags": [
       "LV-路易威登-LOUIS VUITTON",
       "实习",
@@ -3662,6 +4172,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "state",
+    "location": "上海、南通、宁波、常州、无锡、杭州、泰州、温州、盐城、绍兴、苏州",
+    "deadline": "2026/05/31",
     "tags": [
       "上海银行",
       "实习",
@@ -3685,6 +4198,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "南昌",
+    "deadline": "2026/05/31",
     "tags": [
       "江西中江国际工程",
       "校招",
@@ -3706,6 +4222,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "上海、北京、南京、厦门、大连、天津、广州、成都、深圳、海外",
+    "deadline": "尽快投递",
     "tags": [
       "华贸物流",
       "校招",
@@ -3730,6 +4249,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "上海、上饶、九江、佛山、内江、北京、南昌、合肥、吉安、宜春、广州、抚州、无锡、景德镇、杭州、深圳、福",
+    "deadline": "2026/05/17",
     "tags": [
       "国盛证券",
       "校招",
@@ -3754,6 +4276,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "北京",
+    "deadline": "尽快投递",
     "tags": [
       "北京市北郊农场",
       "校招",
@@ -3775,6 +4300,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "institution",
+    "location": "广州",
+    "deadline": "2026/05/26",
     "tags": [
       "广州市国资委直属事业单位",
       "校招",
@@ -3796,6 +4324,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "game",
+    "companyType": "private",
+    "location": "上海、北京、广州、成都、武汉",
+    "deadline": "尽快投递",
     "tags": [
       "知乎",
       "实习",
@@ -3818,6 +4349,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "private",
+    "location": "上海、南宁、合肥、太原、广州、开封、泉州",
+    "deadline": "2026/06/29",
     "tags": [
       "益海嘉里-金龙鱼",
       "实习",
@@ -3839,6 +4373,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "institution",
+    "location": "绍兴",
+    "deadline": "2026/05/14",
     "tags": [
       "浙江省新昌中学",
       "校招",
@@ -3860,6 +4397,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "北京",
+    "deadline": "尽快投递",
     "tags": [
       "北京元初新能源理论研究院",
       "实习",
@@ -3880,6 +4420,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "private",
+    "location": "上海、深圳、青岛、海外",
+    "deadline": "尽快投递",
     "tags": [
       "峰岹科技",
       "校招",
@@ -3903,6 +4446,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "上海、佛山、南京、武汉、济南",
+    "deadline": "尽快投递",
     "tags": [
       "柏楚",
       "实习",
@@ -3925,6 +4471,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "上海",
+    "deadline": "尽快投递",
     "tags": [
       "中证指数",
       "校招",
@@ -3947,6 +4496,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "上海",
+    "deadline": "尽快投递",
     "tags": [
       "恒越基金",
       "实习",
@@ -3967,6 +4519,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "private",
+    "location": "北京、四平、杭州",
+    "deadline": "尽快投递",
     "tags": [
       "金帝联合控股集团",
       "校招",
@@ -3990,6 +4545,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "game",
+    "companyType": "private",
+    "location": "上海",
+    "deadline": "2026/05/31",
     "tags": [
       "叠纸游戏",
       "实习",
@@ -4011,6 +4569,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "天津",
+    "deadline": "2026/05/16",
     "tags": [
       "天津同昌行",
       "校招",
@@ -4032,6 +4593,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "state",
+    "location": "杭州",
+    "deadline": "尽快投递",
     "tags": [
       "杭州市人才集团",
       "实习",
@@ -4052,6 +4616,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "六盘水、安顺、毕节、贵阳、遵义、铜仁、黔东南苗族侗族自治州、黔南布依族苗族自治州、黔西南布依族苗族自",
+    "deadline": "2026/05/14",
     "tags": [
       "贵州省烟草专卖局（公司）",
       "校招",
@@ -4075,6 +4642,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "北京、上海、济南、青岛",
+    "deadline": "尽快投递",
     "tags": [
       "兴华基金",
       "实习",
@@ -4098,6 +4668,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "private",
+    "location": "上海、北京",
+    "deadline": "尽快投递",
     "tags": [
       "创新集团",
       "校招",
@@ -4120,6 +4693,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "长沙、株洲、湘潭、衡阳、邵阳、岳阳、张家界、益阳、常德、娄底、郴州、永州、怀化、湘西",
+    "deadline": "2026/05/29",
     "tags": [
       "中国邮政集团湖南省分公司",
       "校招",
@@ -4144,6 +4720,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "广州、成都、重庆、昆明、贵阳、石家庄、太原、南昌、长沙、福州、兰州、西安、全国各地",
+    "deadline": "尽快投递",
     "tags": [
       "王老吉",
       "校招",
@@ -4167,6 +4746,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "foreign",
+    "companyType": "foreign",
+    "location": "上海、北京、广州、成都",
+    "deadline": "尽快投递",
     "tags": [
       "碧迪医疗中国",
       "实习",
@@ -4189,6 +4771,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "北京、上海、江苏、广州、全国各地",
+    "deadline": "2026/05/13",
     "tags": [
       "中国物流",
       "校招",
@@ -4213,6 +4798,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "foreign",
+    "companyType": "foreign",
+    "location": "上海、北京、全国、全国多地",
+    "deadline": "尽快投递",
     "tags": [
       "达美乐",
       "实习",
@@ -4235,6 +4823,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "南宁,南昌,广州,成都,桂林,武汉,深圳,长沙",
+    "deadline": "尽快投递",
     "tags": [
       "三绿科技",
       "校招",
@@ -4258,6 +4849,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "北京",
+    "deadline": "2026/05/20",
     "tags": [
       "中国兵器审计中心(北京中心)",
       "校招",
@@ -4280,6 +4874,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "internet",
+    "companyType": "state",
+    "location": "北京、天津、上海、广州、深圳、重庆",
+    "deadline": "2026/05/15",
     "tags": [
       "中国数联物流",
       "校招",
@@ -4304,6 +4901,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "北京",
+    "deadline": "尽快投递",
     "tags": [
       "麦吉太文",
       "校招",
@@ -4324,6 +4924,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "南京、广州",
+    "deadline": "尽快投递",
     "tags": [
       "古田化工",
       "校招",
@@ -4345,6 +4948,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "宁波",
+    "deadline": "尽快投递",
     "tags": [
       "豪雅集团",
       "校招",
@@ -4365,6 +4971,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "private",
+    "location": "广州、佛山、东莞、珠海、南宁、海口",
+    "deadline": "尽快投递",
     "tags": [
       "新东方华南区",
       "实习",
@@ -4386,6 +4995,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "东莞",
+    "deadline": "尽快投递",
     "tags": [
       "新能德",
       "校招",
@@ -4407,6 +5019,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "game",
+    "companyType": "private",
+    "location": "成都",
+    "deadline": "尽快投递",
     "tags": [
       "见山科技",
       "实习",
@@ -4427,6 +5042,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "foreign",
+    "location": "上海",
+    "deadline": "2026/06/10",
     "tags": [
       "奇瑞捷豹路虎",
       "校招",
@@ -4449,6 +5067,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "东莞、青岛、上海、潍坊",
+    "deadline": "尽快投递",
     "tags": [
       "歌尔股份",
       "校招",
@@ -4472,6 +5093,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "private",
+    "location": "广州",
+    "deadline": "尽快投递",
     "tags": [
       "珠江金租",
       "校招",
@@ -4493,6 +5117,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "institution",
+    "location": "北京",
+    "deadline": "2026/05/14",
     "tags": [
       "北京体育大学",
       "校招",
@@ -4514,6 +5141,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "北京,石家庄,沈阳,广州",
+    "deadline": "尽快投递",
     "tags": [
       "有道领世",
       "校招",
@@ -4536,6 +5166,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "game",
+    "companyType": "private",
+    "location": "北京",
+    "deadline": "尽快投递",
     "tags": [
       "易天气科技",
       "校招",
@@ -4557,6 +5190,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "foreign",
+    "companyType": "foreign",
+    "location": "北京、上海、深圳、成都、全国各地",
+    "deadline": "2026/05/11",
     "tags": [
       "路威酩轩时装",
       "校招",
@@ -4580,6 +5216,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "天津",
+    "deadline": "2026/05/15",
     "tags": [
       "天津渤海轻工投资集团",
       "校招",
@@ -4602,6 +5241,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "信阳、驻马店、武汉、十堰、宜昌、襄阳、麻城",
+    "deadline": "2026/05/12",
     "tags": [
       "中国铁路武汉局",
       "校招",
@@ -4626,6 +5268,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "金昌",
+    "deadline": "2026/05/20",
     "tags": [
       "金川集团",
       "校招",
@@ -4648,6 +5293,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "沈阳、辽宁",
+    "deadline": "2026/05/12",
     "tags": [
       "中国烟草总公司辽宁省",
       "校招",
@@ -4670,6 +5318,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "济南",
+    "deadline": "2026/05/15",
     "tags": [
       "泰山财产保险",
       "校招",
@@ -4692,6 +5343,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "bank",
+    "location": "宁德、全国多地",
+    "deadline": "2026/05/26",
     "tags": [
       "福鼎恒兴村镇银行",
       "校招",
@@ -4715,6 +5369,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "重庆",
+    "deadline": "2026/05/30",
     "tags": [
       "重庆机电控股集团动力科技",
       "校招",
@@ -4737,6 +5394,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "儋州",
+    "deadline": "2026/06/30",
     "tags": [
       "洋浦国际投资咨询",
       "校招",
@@ -4759,6 +5419,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "game",
+    "companyType": "state",
+    "location": "天津，杭州，西安，乌鲁木齐",
+    "deadline": "尽快投递",
     "tags": [
       "数字浙江",
       "校招",
@@ -4783,6 +5446,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "北京、广州、深圳、崇左、海口、三亚、万宁、中卫",
+    "deadline": "尽快投递",
     "tags": [
       "中国旅游集团",
       "校招",
@@ -4806,6 +5472,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "无锡",
+    "deadline": "2026/05/14",
     "tags": [
       "中国人民银行清算总中心直属企业银清科技",
       "校招",
@@ -4828,6 +5497,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "上海、南京、徐州、苏州、杭州、宁波、合肥、阜阳",
+    "deadline": "2026/05/13",
     "tags": [
       "中国铁路上海局集团",
       "校招",
@@ -4852,6 +5524,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "bank",
+    "location": "浙江",
+    "deadline": "尽快投递",
     "tags": [
       "交通银行浙江省分行",
       "校招",
@@ -4874,6 +5549,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "重庆、成都、什邡、绵阳、内江、宜宾、达州、西昌、贵阳、六盘水",
+    "deadline": "2026/05/13",
     "tags": [
       "中国铁路成都局集团",
       "校招",
@@ -4898,6 +5576,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "苏州",
+    "deadline": "尽快投递",
     "tags": [
       "扬帆半导体集团",
       "校招",
@@ -4919,6 +5600,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "许昌、北京、郑州、武汉、新加坡",
+    "deadline": "尽快投递",
     "tags": [
       "许昌智能",
       "校招",
@@ -4942,6 +5626,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "game",
+    "companyType": "private",
+    "location": "杭州",
+    "deadline": "尽快投递",
     "tags": [
       "互向科技",
       "校招",
@@ -4963,6 +5650,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "internet",
+    "companyType": "private",
+    "location": "北京",
+    "deadline": "尽快投递",
     "tags": [
       "德塔智能",
       "校招",
@@ -4984,6 +5674,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "广元、成都、重庆",
+    "deadline": "尽快投递",
     "tags": [
       "爱华教育",
       "校招",
@@ -5006,6 +5699,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "上海、北京、深圳",
+    "deadline": "2026/05/31",
     "tags": [
       "安谋科技",
       "实习",
@@ -5028,6 +5724,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "市丰台区、市海淀区、全国多地",
+    "deadline": "2026/08/31",
     "tags": [
       "中牧实业",
       "校招",
@@ -5052,6 +5751,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "北京",
+    "deadline": "尽快投递",
     "tags": [
       "北京市北郊农场",
       "校招",
@@ -5073,6 +5775,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "internet",
+    "companyType": "private",
+    "location": "武汉",
+    "deadline": "尽快投递",
     "tags": [
       "启航智创孵化器",
       "校招",
@@ -5094,6 +5799,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "杭州、徐州、新沂",
+    "deadline": "尽快投递",
     "tags": [
       "吉家宠物",
       "校招",
@@ -5116,6 +5824,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "北京",
+    "deadline": "2026/06/30",
     "tags": [
       "北京视睿讯",
       "校招",
@@ -5137,6 +5848,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "game",
+    "companyType": "private",
+    "location": "上海、北京、苏州",
+    "deadline": "尽快投递",
     "tags": [
       "完美世界",
       "校招",
@@ -5160,6 +5874,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "上海、南京、宁德、郑州",
+    "deadline": "尽快投递",
     "tags": [
       "上汽乘用车",
       "实习",
@@ -5183,6 +5900,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "上海",
+    "deadline": "2026/05/31",
     "tags": [
       "上海电气国际化业务",
       "实习",
@@ -5204,6 +5924,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "internet",
+    "companyType": "state",
+    "location": "四川、壮族自治区、山东、广东、江苏、江西、赣州、全国多地",
+    "deadline": "2026/05/10",
     "tags": [
       "中国稀土集团",
       "校招",
@@ -5228,6 +5951,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "儋州",
+    "deadline": "2026/06/30",
     "tags": [
       "洋浦国际投资咨询",
       "校招",
@@ -5250,6 +5976,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "state",
+    "location": "合肥",
+    "deadline": "尽快投递",
     "tags": [
       "中国能建安徽院",
       "实习",
@@ -5270,6 +5999,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "上海",
+    "deadline": "尽快投递",
     "tags": [
       "东海基金",
       "校招",
@@ -5292,6 +6024,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "internet",
+    "companyType": "private",
+    "location": "北京",
+    "deadline": "尽快投递",
     "tags": [
       "华设设计集团北京民航设计研究院",
       "校招",
@@ -5313,6 +6048,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "state",
+    "location": "北京、杭州",
+    "deadline": "尽快投递",
     "tags": [
       "国科长三角资本",
       "实习",
@@ -5335,6 +6073,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "state",
+    "location": "上海、北京",
+    "deadline": "尽快投递",
     "tags": [
       "工银瑞信",
       "实习",
@@ -5357,6 +6098,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "苏州",
+    "deadline": "尽快投递",
     "tags": [
       "扬帆半导体集团",
       "校招",
@@ -5378,6 +6122,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "上海、全国多地",
+    "deadline": "尽快投递",
     "tags": [
       "国金证券投资银行总部",
       "实习",
@@ -5399,6 +6146,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "上海、北京、深圳",
+    "deadline": "尽快投递",
     "tags": [
       "长江证券研究所",
       "实习",
@@ -5422,6 +6172,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "private",
+    "location": "上海、南京、合肥、广州、成都、海口、石家庄、西安",
+    "deadline": "尽快投递",
     "tags": [
       "科大讯飞",
       "校招",
@@ -5445,6 +6198,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "北京、深圳",
+    "deadline": "2026/06/30",
     "tags": [
       "视睿讯",
       "校招",
@@ -5467,6 +6223,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "private",
+    "location": "广州",
+    "deadline": "尽快投递",
     "tags": [
       "珠江金租",
       "校招",
@@ -5488,6 +6247,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "bank",
+    "location": "枣庄、济宁、菏泽",
+    "deadline": "2026/05/13",
     "tags": [
       "枣庄银行",
       "校招",
@@ -5512,6 +6274,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "上海",
+    "deadline": "2026/06/30",
     "tags": [
       "泉果基金",
       "实习",
@@ -5532,6 +6297,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "game",
+    "companyType": "private",
+    "location": "上海、北京、广州、杭州、深圳",
+    "deadline": "尽快投递",
     "tags": [
       "快手",
       "实习",
@@ -5554,6 +6322,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "foreign",
+    "companyType": "foreign",
+    "location": "上海、南京、吉林、广州、成都、武汉、深圳、福州、西安、郑州、重庆",
+    "deadline": "尽快投递",
     "tags": [
       "欧莱雅大众化妆品部",
       "校招",
@@ -5577,6 +6348,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "foreign",
+    "companyType": "foreign",
+    "location": "上海",
+    "deadline": "尽快投递",
     "tags": [
       "CHARLES & KEITH",
       "校招",
@@ -5598,6 +6372,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "state",
+    "location": "西安",
+    "deadline": "尽快投递",
     "tags": [
       "西北电力设计院",
       "实习",
@@ -5619,6 +6396,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "game",
+    "companyType": "foreign",
+    "location": "北京、厦门",
+    "deadline": "尽快投递",
     "tags": [
       "戴尔科技",
       "实习",
@@ -5641,6 +6421,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "foreign",
+    "location": "上海",
+    "deadline": "尽快投递",
     "tags": [
       "沃茨中国",
       "校招",
@@ -5663,6 +6446,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "foreign",
+    "companyType": "foreign",
+    "location": "上海、苏州",
+    "deadline": "尽快投递",
     "tags": [
       "富士胶片医疗技术服务",
       "实习",
@@ -5684,6 +6470,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "state",
+    "location": "杭州",
+    "deadline": "尽快投递",
     "tags": [
       "浙商期货",
       "实习",
@@ -5705,6 +6494,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "上海、北京、南昌、广州、深圳",
+    "deadline": "2026/05/17",
     "tags": [
       "国盛证券股份",
       "校招",
@@ -5729,6 +6521,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "全国多地",
+    "deadline": "2026/05/19",
     "tags": [
       "中国铁塔",
       "校招",
@@ -5750,6 +6545,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "成都、香港",
+    "deadline": "尽快投递",
     "tags": [
       "鼎桥技术",
       "校招",
@@ -5772,6 +6570,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "上海、杭州",
+    "deadline": "尽快投递",
     "tags": [
       "零跑汽车",
       "实习",
@@ -5793,6 +6594,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "game",
+    "companyType": "private",
+    "location": "北京",
+    "deadline": "尽快投递",
     "tags": [
       "易天气",
       "校招",
@@ -5814,6 +6618,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "foreign",
+    "companyType": "foreign",
+    "location": "北京、苏州、香港",
+    "deadline": "2026/05/31",
     "tags": [
       "Mystuff麦斯达夫",
       "实习",
@@ -5836,6 +6643,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "private",
+    "location": "嘉兴、常州、温州",
+    "deadline": "尽快投递",
     "tags": [
       "浙江一鸣食品",
       "实习",
@@ -5857,6 +6667,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "上海",
+    "deadline": "尽快投递",
     "tags": [
       "远景动力",
       "实习",
@@ -5877,6 +6690,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "上海",
+    "deadline": "尽快投递",
     "tags": [
       "洛书投资",
       "实习",
@@ -5897,6 +6713,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "上海、孝感、深圳、苏州",
+    "deadline": "尽快投递",
     "tags": [
       "六联智能",
       "校招",
@@ -5920,6 +6739,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "game",
+    "companyType": "private",
+    "location": "北京、深圳、苏州",
+    "deadline": "尽快投递",
     "tags": [
       "星海图",
       "实习",
@@ -5942,6 +6764,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "上海、北京、常州、广州、武汉、深圳、西安、郑州",
+    "deadline": "尽快投递",
     "tags": [
       "联影集团",
       "校招",
@@ -5965,6 +6790,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "上海、珠海",
+    "deadline": "尽快投递",
     "tags": [
       "硅芯科技",
       "校招",
@@ -5987,6 +6815,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "game",
+    "companyType": "private",
+    "location": "上海、北京、深圳、长沙",
+    "deadline": "尽快投递",
     "tags": [
       "深信服",
       "实习",
@@ -6009,6 +6840,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "上海、四平、杭州、柳州",
+    "deadline": "尽快投递",
     "tags": [
       "臻驱科技",
       "实习",
@@ -6031,6 +6865,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "foreign",
+    "location": "上海",
+    "deadline": "2026/05/31",
     "tags": [
       "上银基金",
       "校招",
@@ -6053,6 +6890,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "武汉",
+    "deadline": "尽快投递",
     "tags": [
       "燧石投资",
       "实习",
@@ -6074,6 +6914,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "private",
+    "location": "上海、南京",
+    "deadline": "尽快投递",
     "tags": [
       "玄信资产",
       "校招",
@@ -6096,6 +6939,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "乌鲁木齐",
+    "deadline": "2026/05/01",
     "tags": [
       "新疆投资发展(集团)",
       "校招",
@@ -6118,6 +6964,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "state",
+    "location": "上海、北京、深圳",
+    "deadline": "尽快投递",
     "tags": [
       "北汽产投",
       "实习",
@@ -6141,6 +6990,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "state",
+    "location": "北京",
+    "deadline": "尽快投递",
     "tags": [
       "北方国际",
       "实习",
@@ -6161,6 +7013,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "internet",
+    "companyType": "private",
+    "location": "深圳",
+    "deadline": "尽快投递",
     "tags": [
       "卧安机器人",
       "实习",
@@ -6181,6 +7036,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "institution",
+    "location": "苏州",
+    "deadline": "2026/05/11",
     "tags": [
       "苏州市相城区教育系统",
       "校招",
@@ -6202,6 +7060,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "private",
+    "location": "佛山",
+    "deadline": "尽快投递",
     "tags": [
       "广东海迪森律师事务所",
       "实习",
@@ -6221,6 +7082,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "institution",
+    "location": "唐山、威海",
+    "deadline": "2026/05/15",
     "tags": [
       "威海市乳山市26年引进高校优秀毕业生",
       "校招",
@@ -6243,6 +7107,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "institution",
+    "location": "北京",
+    "deadline": "2026/05/18",
     "tags": [
       "北京人民艺术剧院",
       "校招",
@@ -6265,6 +7132,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "foreign",
+    "location": "佛山、吐鲁番、昌吉回族自治州、桂林",
+    "deadline": "尽快投递",
     "tags": [
       "溢达集团",
       "校招",
@@ -6289,6 +7159,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "security",
+    "companyType": "institution",
+    "location": "眉山",
+    "deadline": "2026/05/11",
     "tags": [
       "四川眉山天府新区",
       "校招",
@@ -6311,6 +7184,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "上海",
+    "deadline": "尽快投递",
     "tags": [
       "道旅",
       "校招",
@@ -6331,6 +7207,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "昆明",
+    "deadline": "2026/05/11",
     "tags": [
       "云南省国有股权运营管理",
       "校招",
@@ -6353,6 +7232,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "济南、全国各地",
+    "deadline": "2026/05/17",
     "tags": [
       "山东铁投集团",
       "校招",
@@ -6375,6 +7257,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "成都、甘孜藏族自治州",
+    "deadline": "2026/05/11",
     "tags": [
       "成都交通投资集团",
       "校招",
@@ -6398,6 +7283,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "state",
+    "location": "天津",
+    "deadline": "2026/05/10",
     "tags": [
       "邮储银行天津分行",
       "实习",
@@ -6419,6 +7307,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "state",
+    "location": "武汉",
+    "deadline": "尽快投递",
     "tags": [
       "21世纪数字传媒",
       "实习",
@@ -6440,6 +7331,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "上海、北京、南京、宁波、无锡、杭州",
+    "deadline": "2026/06/26",
     "tags": [
       "永安期货总部",
       "校招",
@@ -6464,6 +7358,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "internet",
+    "companyType": "state",
+    "location": "福州",
+    "deadline": "2026/06/14",
     "tags": [
       "中国电建福建院",
       "实习",
@@ -6485,6 +7382,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "上饶、九江、南昌、吉安、宜春、抚州、新余、景德镇、萍乡、赣州、鹰潭",
+    "deadline": "2026/05/15",
     "tags": [
       "江铜集团财务管理部",
       "校招",
@@ -6508,6 +7408,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "沈阳",
+    "deadline": "尽快投递",
     "tags": [
       "沈阳燃气集团",
       "校招",
@@ -6529,6 +7432,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "institution",
+    "location": "北京",
+    "deadline": "2026/05/08",
     "tags": [
       "中央歌剧院",
       "校招",
@@ -6550,6 +7456,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "成都",
+    "deadline": "2026/05/09",
     "tags": [
       "成都高新科技创新投资发展",
       "校招",
@@ -6572,6 +7481,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "上海、北京、吉林、天津、重庆、全国多地",
+    "deadline": "尽快投递",
     "tags": [
       "国家电网",
       "校招",
@@ -6596,6 +7508,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "institution",
+    "location": "北京",
+    "deadline": "尽快投递",
     "tags": [
       "国家税务总局部分直属事业单位",
       "校招",
@@ -6617,6 +7532,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "foreign",
+    "companyType": "foreign",
+    "location": "上海、杭州",
+    "deadline": "尽快投递",
     "tags": [
       "捷迈邦美",
       "校招",
@@ -6639,6 +7557,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "game",
+    "companyType": "private",
+    "location": "上海、北京、南昌、大连、广州、成都、杭州、武汉、深圳",
+    "deadline": "尽快投递",
     "tags": [
       "腾娱互动",
       "实习",
@@ -6661,6 +7582,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "上海、北京、天津、杭州、深圳、西安",
+    "deadline": "尽快投递",
     "tags": [
       "知存科技",
       "实习",
@@ -6683,6 +7607,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "game",
+    "companyType": "private",
+    "location": "北京",
+    "deadline": "尽快投递",
     "tags": [
       "柠檬微趣",
       "实习",
@@ -6703,6 +7630,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "private",
+    "location": "南京、宜春、常州、苏州、菏泽、襄阳、贵港、遂宁、长沙",
+    "deadline": "尽快投递",
     "tags": [
       "龙蟠科技",
       "校招",
@@ -6726,6 +7656,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "海外、宁波",
+    "deadline": "尽快投递",
     "tags": [
       "力勤集团",
       "校招",
@@ -6748,6 +7681,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "广州,深圳",
+    "deadline": "尽快投递",
     "tags": [
       "华钦校招 | 东亚银行",
       "实习",
@@ -6769,6 +7705,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "bank",
+    "location": "宁波",
+    "deadline": "2026/05/15",
     "tags": [
       "象山农商银行",
       "校招",
@@ -6791,6 +7730,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "杭州",
+    "deadline": "2026/05/31",
     "tags": [
       "安道",
       "校招",
@@ -6811,6 +7753,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "game",
+    "companyType": "private",
+    "location": "全国多地",
+    "deadline": "2026/08/31",
     "tags": [
       "莉莉丝游戏",
       "实习",
@@ -6830,6 +7775,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "苏州",
+    "deadline": "2026/04/30",
     "tags": [
       "苏州电瓷厂",
       "校招",
@@ -6852,6 +7800,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "滁州",
+    "deadline": "2026/04/30",
     "tags": [
       "滁州市轨道交通运营",
       "校招",
@@ -6873,6 +7824,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "state",
+    "location": "上海、北京、深圳",
+    "deadline": "2026/05/28",
     "tags": [
       "中信证券总部",
       "实习",
@@ -6896,6 +7850,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "上海、北京、合肥",
+    "deadline": "尽快投递",
     "tags": [
       "蔚来",
       "实习",
@@ -6918,6 +7875,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "北京、天津、开封、深圳、香港、全国多地",
+    "deadline": "2026/05/05",
     "tags": [
       "中国诚通控股集团",
       "校招",
@@ -6942,6 +7902,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "foreign",
+    "companyType": "foreign",
+    "location": "上海、东莞、南京、南宁、南昌、厦门、宜宾、成都、无锡、杭州、济南、深圳、西安、贵阳、重庆、长沙",
+    "deadline": "2026/05/31",
     "tags": [
       "Mondelez亿滋",
       "校招",
@@ -6965,6 +7928,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "南京、江苏",
+    "deadline": "2026/05/07",
     "tags": [
       "江苏交通控股",
       "校招",
@@ -6988,6 +7954,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "state",
+    "location": "武汉",
+    "deadline": "尽快投递",
     "tags": [
       "南方财经全媒体集团",
       "实习",
@@ -7008,6 +7977,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "foreign",
+    "companyType": "foreign",
+    "location": "上海、中山、北京、厦门、合肥、大同、宿迁、西安、重庆",
+    "deadline": "尽快投递",
     "tags": [
       "日立能源",
       "实习",
@@ -7030,6 +8002,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "private",
+    "location": "全国多地",
+    "deadline": "尽快投递",
     "tags": [
       "派友友",
       "实习",
@@ -7048,6 +8023,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "game",
+    "companyType": "private",
+    "location": "大连",
+    "deadline": "尽快投递",
     "tags": [
       "ALSI阿尔卑斯系统集成（大连）",
       "实习",
@@ -7068,6 +8046,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "institution",
+    "location": "乳山",
+    "deadline": "2026/05/15",
     "tags": [
       "威海市乳山市人民政府",
       "校招",
@@ -7090,6 +8071,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "乌鲁木齐、南京、南宁、南昌、合肥、广州、成都、昆明、杭州、武汉、济南、海口、石家庄、福州、郑州、长沙",
+    "deadline": "尽快投递",
     "tags": [
       "清原集团",
       "校招",
@@ -7112,6 +8096,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "foreign",
+    "location": "上海、晋城、杭州、温州、芜湖、全国多地",
+    "deadline": "尽快投递",
     "tags": [
       "德力西电气",
       "校招",
@@ -7136,6 +8123,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "上海、北京、广州、西安、全国多地",
+    "deadline": "尽快投递",
     "tags": [
       "及因生物",
       "校招",
@@ -7158,6 +8148,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "private",
+    "location": "郑州",
+    "deadline": "尽快投递",
     "tags": [
       "宇通",
       "校招",
@@ -7179,6 +8172,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "security",
+    "companyType": "institution",
+    "location": "北京",
+    "deadline": "2026/05/15",
     "tags": [
       "国家数据发展研究院",
       "校招",
@@ -7201,6 +8197,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "上海、成都",
+    "deadline": "尽快投递",
     "tags": [
       "嘉懿萃私募",
       "实习",
@@ -7222,6 +8221,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "state",
+    "location": "上海",
+    "deadline": "2026/05/10",
     "tags": [
       "浦银理财",
       "实习",
@@ -7243,6 +8245,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "state",
+    "location": "广州",
+    "deadline": "尽快投递",
     "tags": [
       "广发证券广州分公司",
       "实习",
@@ -7264,6 +8269,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "上海、北京",
+    "deadline": "尽快投递",
     "tags": [
       "北方华创",
       "校招",
@@ -7287,6 +8295,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "internet",
+    "companyType": "state",
+    "location": "北京",
+    "deadline": "尽快投递",
     "tags": [
       "中科闻歌",
       "校招",
@@ -7309,6 +8320,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "internet",
+    "companyType": "state",
+    "location": "长沙",
+    "deadline": "尽快投递",
     "tags": [
       "芒果音乐台",
       "实习",
@@ -7331,6 +8345,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "game",
+    "companyType": "private",
+    "location": "乐山、佛山、内江、广州、自贡",
+    "deadline": "尽快投递",
     "tags": [
       "极客未来",
       "校招",
@@ -7354,6 +8371,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "昆明",
+    "deadline": "2026/05/13",
     "tags": [
       "云南省工业投资控股集团",
       "校招",
@@ -7376,6 +8396,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "杭州、全国多地",
+    "deadline": "尽快投递",
     "tags": [
       "大华股份",
       "实习",
@@ -7397,6 +8420,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "天津、沈阳、锦州、长春、杭州、绍兴、上饶、济南、济宁、临沂、德州、郑州、武汉、孝感、东莞、重庆、成都",
+    "deadline": "尽快投递",
     "tags": [
       "先飞智慧物流",
       "校招",
@@ -7419,6 +8445,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "security",
+    "companyType": "private",
+    "location": "北京、天津、唐山、张家口、呼和浩特、巴彦淖尔、尚志、上海、苏州、杭州、合肥、广州、灵武、海外",
+    "deadline": "尽快投递",
     "tags": [
       "蒙牛乳业",
       "校招",
@@ -7442,6 +8471,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "bank",
+    "location": "深圳",
+    "deadline": "2026/06/30",
     "tags": [
       "微众银行",
       "校招",
@@ -7464,6 +8496,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "game",
+    "companyType": "private",
+    "location": "上海",
+    "deadline": "尽快投递",
     "tags": [
       "建旗科技",
       "校招",
@@ -7485,6 +8520,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "internet",
+    "companyType": "private",
+    "location": "北京、南京、南宁、哈尔滨、武汉、济南、海口、西安、长春、长沙",
+    "deadline": "尽快投递",
     "tags": [
       "北控环境",
       "校招",
@@ -7508,6 +8546,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "bank",
+    "location": "北京、上海、杭州、广州、深圳、成都、全国各地",
+    "deadline": "尽快投递",
     "tags": [
       "汇丰银行",
       "实习",
@@ -7531,6 +8572,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "game",
+    "companyType": "private",
+    "location": "上海,温州",
+    "deadline": "尽快投递",
     "tags": [
       "醉清风",
       "实习",
@@ -7552,6 +8596,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "state",
+    "location": "上海、北京、南京、广州、成都、深圳、重庆",
+    "deadline": "2026/05/27",
     "tags": [
       "申万宏源",
       "实习",
@@ -7575,6 +8622,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "security",
+    "companyType": "state",
+    "location": "北京、天津、河北、冀北、山西、山东、上海、江苏、浙江、安徽、福建、湖北、湖南、河南、江西、四川、重庆",
+    "deadline": "2026/05/05",
     "tags": [
       "国家电网（多地）第三批",
       "校招",
@@ -7599,6 +8649,8 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "北京郑州",
     "tags": [
       "测试1",
       "校招",
@@ -7639,6 +8691,8 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "北京郑州",
     "tags": [
       "测试2",
       "校招",
@@ -7657,6 +8711,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "上海、北京",
+    "deadline": "尽快投递",
     "tags": [
       "理想汽车整车电动",
       "实习",
@@ -7679,6 +8736,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "北京",
+    "deadline": "2026/06/30",
     "tags": [
       "首文科集团",
       "校招",
@@ -7700,6 +8760,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "北京",
+    "deadline": "2026/05/10",
     "tags": [
       "北京市国有资产经营",
       "校招",
@@ -7722,6 +8785,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "北京、天津、开封、深圳、全国各地、香港",
+    "deadline": "2026/05/05",
     "tags": [
       "中国诚通控股集团",
       "校招",
@@ -7746,6 +8812,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "南昌、九江、赣州",
+    "deadline": "2026/05/15",
     "tags": [
       "江西省江投路桥投资",
       "校招",
@@ -7770,6 +8839,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "上海、北京、南京、广州、成都、杭州、武汉、沈阳、深圳、福州、西安、青岛",
+    "deadline": "尽快投递",
     "tags": [
       "中国质量认证中心",
       "校招",
@@ -7794,6 +8866,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "state",
+    "location": "杭州、北京、上海、南京、无锡、宁波、全国各地",
+    "deadline": "2026/06/26",
     "tags": [
       "永安期货",
       "实习",
@@ -7817,6 +8892,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "天津、青岛",
+    "deadline": "2026/05/15",
     "tags": [
       "中油海工",
       "校招",
@@ -7840,6 +8918,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "game",
+    "companyType": "state",
+    "location": "北京",
+    "deadline": "2026/05/15",
     "tags": [
       "中国动漫集团",
       "校招",
@@ -7862,6 +8943,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "大连、无锡、常州、苏州、昆山、扬州、杭州、温州、嘉兴、湖州、绍兴、金华、台州、福州、厦门、泉州、南昌",
+    "deadline": "尽快投递",
     "tags": [
       "星火教育",
       "校招",
@@ -7884,6 +8968,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "南京,杭州,宿州,武汉,深圳",
+    "deadline": "尽快投递",
     "tags": [
       "迈瑞医疗",
       "实习",
@@ -7906,6 +8993,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "郑州",
+    "deadline": "尽快投递",
     "tags": [
       "蜜雪集团",
       "校招",
@@ -7926,6 +9016,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "institution",
+    "location": "北京",
+    "deadline": "2026/05/10",
     "tags": [
       "北京市生态环境局",
       "校招",
@@ -7947,6 +9040,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "福州",
+    "deadline": "尽快投递",
     "tags": [
       "宝宝巴士",
       "校招",
@@ -7967,6 +9063,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "宁波",
+    "deadline": "2026/06/23",
     "tags": [
       "远大物产",
       "实习",
@@ -7987,6 +9086,8 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "北京",
     "tags": [
       "测试1",
       "校招",
@@ -8005,6 +9106,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "北京、上海",
+    "deadline": "尽快投递",
     "tags": [
       "高和资本",
       "实习",
@@ -8026,6 +9130,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "郑州",
+    "deadline": "尽快投递",
     "tags": [
       "安图生物",
       "校招",
@@ -8047,6 +9154,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "北京、上海、杭州、成都",
+    "deadline": "尽快投递",
     "tags": [
       "蚂蚁集团",
       "实习",
@@ -8069,6 +9179,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "foreign",
+    "location": "北京、无锡、武汉、重庆、香港",
+    "deadline": "尽快投递",
     "tags": [
       "康明斯",
       "校招",
@@ -8093,6 +9206,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "成都、全国多地",
+    "deadline": "2026/05/18",
     "tags": [
       "四川省自然资源投资集团",
       "校招",
@@ -8116,6 +9232,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "state",
+    "location": "上海、北京、南京、合肥、杭州、深圳",
+    "deadline": "2026/06/10",
     "tags": [
       "杭州银行",
       "实习",
@@ -8139,6 +9258,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "武汉、广州",
+    "deadline": "尽快投递",
     "tags": [
       "中国化学工程五环",
       "校招",
@@ -8161,6 +9283,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "internet",
+    "companyType": "institution",
+    "location": "北京",
+    "deadline": "2026/05/08",
     "tags": [
       "北京市地环所",
       "校招",
@@ -8183,6 +9308,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "无锡、苏州、上海、深圳",
+    "deadline": "尽快投递",
     "tags": [
       "芯朋微电子",
       "实习",
@@ -8205,6 +9333,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "institution",
+    "location": "北京",
+    "deadline": "2026/05/08",
     "tags": [
       "文化和旅游部直属事业单位",
       "校招",
@@ -8227,6 +9358,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "internet",
+    "companyType": "private",
+    "location": "深圳",
+    "deadline": "尽快投递",
     "tags": [
       "睿联",
       "校招",
@@ -8248,6 +9382,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "深圳",
+    "deadline": "尽快投递",
     "tags": [
       "韶音科技AI创新专项",
       "实习",
@@ -8268,6 +9405,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "game",
+    "companyType": "private",
+    "location": "北京",
+    "deadline": "尽快投递",
     "tags": [
       "新忆科技",
       "校招",
@@ -8289,6 +9429,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "bank",
+    "location": "安顺、毕节、黔西、黔东南苗族侗族自治州、黔南布依族苗族自治州",
+    "deadline": "2026/05/10",
     "tags": [
       "中国邮政储蓄银行贵州省分行",
       "校招",
@@ -8313,6 +9456,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "全国多地",
+    "deadline": "2026/05/10",
     "tags": [
       "交通银行",
       "校招",
@@ -8334,6 +9480,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "foreign",
+    "location": "全国多地",
+    "deadline": "2026/05/08",
     "tags": [
       "梅特勒托利多",
       "实习",
@@ -8354,6 +9503,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "state",
+    "location": "杭州",
+    "deadline": "2026/04/30",
     "tags": [
       "杭州萧山国际机场",
       "实习",
@@ -8374,6 +9526,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "上海、南京、南昌、合肥、扬州",
+    "deadline": "2026/04/30",
     "tags": [
       "国家管网-西气东输",
       "校招",
@@ -8397,6 +9552,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "北京",
+    "deadline": "2026/05/10",
     "tags": [
       "国航股份地面服务部",
       "校招",
@@ -8418,6 +9576,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "合肥",
+    "deadline": "尽快投递",
     "tags": [
       "中国能建建筑集团",
       "校招",
@@ -8439,6 +9600,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "game",
+    "companyType": "private",
+    "location": "北京、广州、杭州、深圳",
+    "deadline": "尽快投递",
     "tags": [
       "阿里国际站",
       "实习",
@@ -8461,6 +9625,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "南京",
+    "deadline": "尽快投递",
     "tags": [
       "龙蟠亚太锂源",
       "校招",
@@ -8482,6 +9649,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "巴中、成都",
+    "deadline": "尽快投递",
     "tags": [
       "泰美克",
       "校招",
@@ -8504,6 +9674,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "game",
+    "companyType": "private",
+    "location": "深圳、苏州",
+    "deadline": "尽快投递",
     "tags": [
       "舜云科技",
       "校招",
@@ -8526,6 +9699,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "institution",
+    "location": "上海、北京、广州、烟台、全国多地",
+    "deadline": "2026/04/29",
     "tags": [
       "交通运输部所属事业单位",
       "校招",
@@ -8550,6 +9726,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "institution",
+    "location": "天水",
+    "deadline": "尽快投递",
     "tags": [
       "中国建材地勘中心甘肃总队",
       "校招",
@@ -8572,6 +9751,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "private",
+    "location": "长沙",
+    "deadline": "尽快投递",
     "tags": [
       "芒果TV实习 | 《歌手2026》",
       "实习",
@@ -8592,6 +9774,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "淮安、深圳、苏州",
+    "deadline": "尽快投递",
     "tags": [
       "天孚通信",
       "校招",
@@ -8615,6 +9800,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "临夏回族自治州、北京、吉林、天津、株洲、榆林、重庆",
+    "deadline": "2026/05/10",
     "tags": [
       "中国南水北调集团新能源投资",
       "校招",
@@ -8639,6 +9827,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "state",
+    "location": "娄底、常德、广州、张家界、株洲、永州、益阳、邵阳、郴州、长沙",
+    "deadline": "2026/05/31",
     "tags": [
       "长沙银行",
       "实习",
@@ -8663,6 +9854,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "state",
+    "location": "全国多地",
+    "deadline": "尽快投递",
     "tags": [
       "国元证券",
       "实习",
@@ -8683,6 +9877,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "全国多地",
+    "deadline": "2026/05/10",
     "tags": [
       "广东能源集团",
       "校招",
@@ -8704,6 +9901,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "海口",
+    "deadline": "尽快投递",
     "tags": [
       "海南海控城市综合运营集团",
       "校招",
@@ -8726,6 +9926,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "长沙",
+    "deadline": "尽快投递",
     "tags": [
       "湖南省融资担保集团",
       "校招",
@@ -8748,6 +9951,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "上海、北京",
+    "deadline": "尽快投递",
     "tags": [
       "卓识基金",
       "实习",
@@ -8769,6 +9975,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "全国多地",
+    "deadline": "尽快投递",
     "tags": [
       "中交集团",
       "校招",
@@ -8790,6 +9999,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "乌鲁木齐、伊犁哈萨克自治州、吉林、吐鲁番、哈密、巴音郭楞蒙古自治州",
+    "deadline": "尽快投递",
     "tags": [
       "国家管网-西部管道公司",
       "校招",
@@ -8814,6 +10026,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "上海",
+    "deadline": "2026/05/05",
     "tags": [
       "申万菱信基金",
       "校招",
@@ -8836,6 +10051,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "昆明",
+    "deadline": "2026/05/11",
     "tags": [
       "云南云勤服务集团",
       "校招",
@@ -8858,6 +10076,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "上海、南通、天津、常州、成都、武汉、苏州",
+    "deadline": "尽快投递",
     "tags": [
       "药明康德",
       "校招",
@@ -8880,6 +10101,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "重庆",
+    "deadline": "尽快投递",
     "tags": [
       "新希望六和预混料事业部",
       "校招",
@@ -8900,6 +10124,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "洛阳",
+    "deadline": "尽快投递",
     "tags": [
       "洛阳格力",
       "校招",
@@ -8921,6 +10148,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "深圳",
+    "deadline": "尽快投递",
     "tags": [
       "长隆科技",
       "校招",
@@ -8942,6 +10172,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "bank",
+    "location": "厦门",
+    "deadline": "2026/05/13",
     "tags": [
       "中国邮政储蓄银行厦门分行",
       "校招",
@@ -8964,6 +10197,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "bank",
+    "location": "青岛",
+    "deadline": "2026/05/10",
     "tags": [
       "中国邮政储蓄银行青岛分行",
       "校招",
@@ -8986,6 +10222,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "game",
+    "companyType": "private",
+    "location": "上海、北京、广州、杭州、深圳",
+    "deadline": "尽快投递",
     "tags": [
       "字节跳动-抖音集团广告业务",
       "实习",
@@ -9008,6 +10247,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "全国多地",
+    "deadline": "尽快投递",
     "tags": [
       "DJI大疆",
       "实习",
@@ -9027,6 +10269,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "foreign",
+    "location": "上海、北京、深圳",
+    "deadline": "尽快投递",
     "tags": [
       "Intel英特尔",
       "实习",
@@ -9051,6 +10296,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "state",
+    "location": "武汉",
+    "deadline": "2026/06/06",
     "tags": [
       "中国五环工程",
       "实习",
@@ -9072,6 +10320,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "上海、北京、沈阳",
+    "deadline": "2026/05/30",
     "tags": [
       "中国电能成套设备",
       "校招",
@@ -9095,6 +10346,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "foreign",
+    "companyType": "foreign",
+    "location": "上海、北京、南京、广州、苏州",
+    "deadline": "2026/05/15",
     "tags": [
       "Roche罗氏制药（商业）",
       "实习",
@@ -9117,6 +10371,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "全国多地",
+    "deadline": "尽快投递",
     "tags": [
       "湖南出版&中南传媒",
       "校招",
@@ -9138,6 +10395,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "北京、吕梁、忻州、榆林、衡水、鄂尔多斯",
+    "deadline": "2026/04/30",
     "tags": [
       "国家管网-北京管道公司",
       "校招",
@@ -9161,6 +10421,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "foreign",
+    "location": "上海、北京、成都、杭州、深圳、苏州",
+    "deadline": "尽快投递",
     "tags": [
       "德州仪器",
       "校招",
@@ -9185,6 +10448,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "北京、唐山、广州、株洲、沈阳、湖州、珠海、苏州、萍乡、西安、长沙",
+    "deadline": "尽快投递",
     "tags": [
       "三一集团（星辰计划）",
       "实习",
@@ -9207,6 +10473,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "广州",
+    "deadline": "2026/05/15",
     "tags": [
       "华工设计院",
       "校招",
@@ -9228,6 +10497,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "state",
+    "location": "宁波",
+    "deadline": "2026/05/11",
     "tags": [
       "宁波机场",
       "实习",
@@ -9248,6 +10520,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "上海、北京、成都、深圳",
+    "deadline": "尽快投递",
     "tags": [
       "国金证券",
       "实习",
@@ -9270,6 +10545,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "北京",
+    "deadline": "尽快投递",
     "tags": [
       "北京新忆科技（解决北京户口）",
       "校招",
@@ -9314,6 +10592,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "宝鸡、沧州、盘锦",
+    "deadline": "尽快投递",
     "tags": [
       "宝石机械",
       "校招",
@@ -9338,6 +10619,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "game",
+    "companyType": "private",
+    "location": "广州",
+    "deadline": "尽快投递",
     "tags": [
       "灵犀互娱",
       "实习",
@@ -9358,6 +10642,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "长沙、全国多地",
+    "deadline": "2026/05/15",
     "tags": [
       "湖南轨道集团",
       "校招",
@@ -9380,6 +10667,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "internet",
+    "companyType": "private",
+    "location": "义乌、厦门、武汉、长沙、广州、深圳、珠海",
+    "deadline": "尽快投递",
     "tags": [
       "协同国际物流",
       "校招",
@@ -9425,6 +10715,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "private",
+    "location": "广州",
+    "deadline": "尽快投递",
     "tags": [
       "长发小寨",
       "实习",
@@ -9445,6 +10738,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "深圳",
+    "deadline": "尽快投递",
     "tags": [
       "九天睿芯",
       "实习",
@@ -9465,6 +10761,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "private",
+    "location": "上海、明光、莆田、濮阳、应城、邛崃、全国各地",
+    "deadline": "尽快投递",
     "tags": [
       "三棵树",
       "实习",
@@ -9486,6 +10785,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "深圳",
+    "deadline": "尽快投递",
     "tags": [
       "楠柏集团",
       "校招",
@@ -9506,6 +10808,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "上海",
+    "deadline": "尽快投递",
     "tags": [
       "伯兄投资",
       "实习",
@@ -9527,6 +10832,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "foreign",
+    "location": "合肥",
+    "deadline": "尽快投递",
     "tags": [
       "安徽康明斯",
       "实习",
@@ -9548,6 +10856,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "北京",
+    "deadline": "尽快投递",
     "tags": [
       "华夏久盈",
       "实习",
@@ -9568,6 +10879,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "深圳",
+    "deadline": "尽快投递",
     "tags": [
       "图拉斯 春招补录-急招",
       "校招",
@@ -9589,6 +10903,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "杭州",
+    "deadline": "尽快投递",
     "tags": [
       "浙江泰隆商业银行",
       "实习",
@@ -9609,6 +10926,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "天津",
+    "deadline": "尽快投递",
     "tags": [
       "爱思达航天",
       "实习",
@@ -9630,6 +10950,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "杭州、济南",
+    "deadline": "尽快投递",
     "tags": [
       "显微智能",
       "校招",
@@ -9652,6 +10975,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "security",
+    "companyType": "private",
+    "location": "广州、深圳、福州、漳州、武汉、泉州、厦门",
+    "deadline": "尽快投递",
     "tags": [
       "万物云",
       "实习",
@@ -9674,6 +11000,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "foreign",
+    "location": "西安",
+    "deadline": "尽快投递",
     "tags": [
       "延长壳牌石油",
       "校招",
@@ -9695,6 +11024,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "game",
+    "companyType": "private",
+    "location": "杭州",
+    "deadline": "尽快投递",
     "tags": [
       "阿里国际",
       "实习",
@@ -9715,6 +11047,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "上海、北京、广州、香港",
+    "deadline": "尽快投递",
     "tags": [
       "依科赛生物",
       "校招",
@@ -9992,6 +11327,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "foreign",
+    "location": "上海",
+    "deadline": "尽快投递",
     "tags": [
       "中信保诚基金",
       "实习",
@@ -11553,6 +12891,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "game",
+    "companyType": "private",
+    "location": "上海、西安",
+    "deadline": "尽快投递",
     "tags": [
       "迪果游戏",
       "校招",
@@ -11575,6 +12916,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "广州、杭州、武汉、苏州",
+    "deadline": "尽快投递",
     "tags": [
       "海康威视海康微影",
       "实习",
@@ -17216,6 +18560,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "佛山、北京、南京、大连、天津、常州、德阳、成都、无锡、杭州、柳州、济南、滁州、盐城、西安、长春、青岛",
+    "deadline": "尽快投递",
     "tags": [
       "中国一汽",
       "校招",
@@ -20604,6 +21951,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "internet",
+    "companyType": "private",
+    "location": "福州",
+    "deadline": "尽快投递",
     "tags": [
       "朴朴",
       "实习",
@@ -24574,6 +25924,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "game",
+    "companyType": "private",
+    "location": "北京、上海、南京、杭州、深圳、东莞、成都、西安",
+    "deadline": "尽快投递",
     "tags": [
       "华为云计算BU（不限专业）",
       "实习",
@@ -27820,6 +29173,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "foreign",
+    "companyType": "foreign",
+    "location": "上海、南京、无锡、苏州、全国多地",
+    "deadline": "尽快投递",
     "tags": [
       "ALDI奥乐齐",
       "校招",
@@ -36583,6 +37939,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "上海、东莞、北京",
+    "deadline": "尽快投递",
     "tags": [
       "华为终端BG硬件工程与产品开发管理部",
       "实习",
@@ -38308,6 +39667,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "security",
+    "companyType": "state",
+    "location": "昆明、全国多地",
+    "deadline": "2026/07/07",
     "tags": [
       "中国能源建设集团云南火电建设",
       "校招",
@@ -40301,6 +41663,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "private",
+    "location": "北京、沈阳、上海、南京、无锡、徐州、常州、苏州、南通、连云港、淮安、盐城、扬州、镇江、泰州、宿迁、全",
+    "deadline": "尽快投递",
     "tags": [
       "博时基金",
       "校招",
@@ -42345,6 +43710,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "北京",
+    "deadline": "尽快投递",
     "tags": [
       "北京稻香村",
       "校招",
@@ -47125,6 +48493,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "哈尔滨",
+    "deadline": "2026/05/26",
     "tags": [
       "黑龙江省旅游投资集团",
       "校招",
@@ -47168,6 +48539,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "上海、北京、唐山、成都、杭州、株洲、沈阳、湖州、珠海、益阳、萍乡、西安、邵阳、重庆、长沙",
+    "deadline": "尽快投递",
     "tags": [
       "三一集团",
       "校招",
@@ -50811,6 +52185,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "上海",
+    "deadline": "尽快投递",
     "tags": [
       "春秋航空",
       "校招",
@@ -50832,6 +52209,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "上海、北京、南京、扬州、深圳、潍坊、苏州、长春、青岛、全国多地、海外",
+    "deadline": "尽快投递",
     "tags": [
       "歌尔丹拿",
       "实习",
@@ -53443,6 +54823,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "南宁、南昌、宜宾、成都、昆明、武汉、西安、重庆",
+    "deadline": "尽快投递",
     "tags": [
       "邦泰集团",
       "校招",
@@ -62998,6 +64381,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "game",
+    "companyType": "private",
+    "location": "佛山、北京、南京、广州、深圳、苏州",
+    "deadline": "2026/05/31",
     "tags": [
       "宇宙行者科技MOVA",
       "校招",
@@ -68000,6 +69386,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "institution",
+    "location": "宁波",
+    "deadline": "2026/05/08",
     "tags": [
       "宁波前湾新区（第四批）",
       "校招",
@@ -68021,6 +69410,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "上海、北京、成都",
+    "deadline": "尽快投递",
     "tags": [
       "成方金融科技",
       "校招",
@@ -68045,6 +69437,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "深圳",
+    "deadline": "尽快投递",
     "tags": [
       "康冠科技",
       "校招",
@@ -68066,6 +69461,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "private",
+    "location": "全国各地",
+    "deadline": "2026/05/01",
     "tags": [
       "华农财产保险",
       "校招",
@@ -68132,6 +69530,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "蚌埠",
+    "deadline": "2026/05/20",
     "tags": [
       "蚌埠黄山新材料科技",
       "校招",
@@ -68153,6 +69554,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "临汾、青岛",
+    "deadline": "尽快投递",
     "tags": [
       "建邦集团",
       "校招",
@@ -68174,6 +69578,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "game",
+    "companyType": "private",
+    "location": "成都、北京、杭州",
+    "deadline": "尽快投递",
     "tags": [
       "FunPlus",
       "实习",
@@ -68197,6 +69604,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "internet",
+    "companyType": "private",
+    "location": "宿迁、佛山、全国各地",
+    "deadline": "尽快投递",
     "tags": [
       "海天味业",
       "校招",
@@ -68220,6 +69630,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "institution",
+    "location": "南京",
+    "deadline": "2026/05/15",
     "tags": [
       "南京体育学院",
       "校招",
@@ -68263,6 +69676,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "institution",
+    "location": "宿迁",
+    "deadline": "2026/05/15",
     "tags": [
       "宿迁市教育局直属学校",
       "校招",
@@ -68284,6 +69700,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "state",
+    "location": "长沙",
+    "deadline": "尽快投递",
     "tags": [
       "芒果台｜《你好，星期六》",
       "实习",
@@ -68304,6 +69723,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "private",
+    "location": "上海、北京、深圳、重庆",
+    "deadline": "尽快投递",
     "tags": [
       "重庆信托",
       "校招",
@@ -68327,6 +69749,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "state",
+    "location": "上海、北京、香港",
+    "deadline": "2026/05/31",
     "tags": [
       "招银金融租赁",
       "实习",
@@ -68372,6 +69797,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "private",
+    "location": "上海、北京、广州、成都、苏州、西安",
+    "deadline": "尽快投递",
     "tags": [
       "虹科",
       "校招",
@@ -68395,6 +69823,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "game",
+    "companyType": "private",
+    "location": "深圳、北京、上海",
+    "deadline": "尽快投递",
     "tags": [
       "腾讯元宝",
       "校招",
@@ -68418,6 +69849,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "bank",
+    "location": "上海",
+    "deadline": "2026/05/31",
     "tags": [
       "上海银行",
       "实习",
@@ -68439,6 +69873,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "云浮、汕头、汕尾、江门、湛江、潮州、肇庆、茂名、阳江、韶关",
+    "deadline": "2026/05/17",
     "tags": [
       "中国电信广东公司",
       "校招",
@@ -68483,6 +69920,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "institution",
+    "location": "天津",
+    "deadline": "2026/05/23",
     "tags": [
       "天津市纪委监委所属事业单位",
       "校招",
@@ -68505,6 +69945,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "institution",
+    "location": "长沙",
+    "deadline": "2026/05/13",
     "tags": [
       "湖南省气象部门（第三轮）",
       "校招",
@@ -68549,6 +69992,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "security",
+    "companyType": "state",
+    "location": "北京、天津、哈尔滨、上海、淄博",
+    "deadline": "尽快投递",
     "tags": [
       "中国化学天辰",
       "校招",
@@ -68573,6 +70019,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "上海",
+    "deadline": "尽快投递",
     "tags": [
       "中国航发商发",
       "校招",
@@ -68595,6 +70044,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
+    "companyType": "private",
+    "location": "上海、青岛",
+    "deadline": "尽快投递",
     "tags": [
       "海尔消金",
       "实习",
@@ -68616,6 +70068,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "全国多地",
+    "deadline": "尽快投递",
     "tags": [
       "神农集团",
       "校招",
@@ -68635,6 +70090,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "foreign",
+    "companyType": "foreign",
+    "location": "杭州",
+    "deadline": "尽快投递",
     "tags": [
       "液化空气",
       "校招",
@@ -68656,6 +70114,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "auto_ic",
+    "companyType": "foreign",
+    "location": "上海、常州、广州、杭州、济南、西安、郑州",
+    "deadline": "尽快投递",
     "tags": [
       "梅特勒托利多",
       "实习",
@@ -68679,6 +70140,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "game",
+    "companyType": "private",
+    "location": "上海",
+    "deadline": "2027/04/30",
     "tags": [
       "拼多多集团-PDD",
       "实习",
@@ -68699,6 +70163,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "bank",
+    "location": "南京,无锡,徐州,南通,连云港,扬州,镇江",
+    "deadline": "2026/05/06",
     "tags": [
       "恒丰银行南京分行",
       "校招",
@@ -68745,6 +70212,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "private",
+    "location": "福州",
+    "deadline": "尽快投递",
     "tags": [
       "新大陆支付技术",
       "校招",
@@ -115472,6 +116942,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "上海",
+    "deadline": "2026/06/30",
     "tags": [
       "中国东方航空物流",
       "校招",
@@ -115494,6 +116967,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "北京、南宁、崇左、柳州、桂林、梧州、河池、玉林、百色、贺州、钦州、防城港",
+    "deadline": "2026/05/14",
     "tags": [
       "国海证券分支机构",
       "校招",
@@ -115518,6 +116994,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "private",
+    "location": "北京、天津、沈阳、上海、南京、常州、苏州、杭州、宁波、绍兴、合肥、南昌、济南、青岛、武汉、长沙、广州",
+    "deadline": "尽快投递",
     "tags": [
       "龙湖集团",
       "校招",
@@ -115540,6 +117019,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "重庆、海外、成都",
+    "deadline": "2026/05/15",
     "tags": [
       "西南油气田",
       "校招",
@@ -115563,6 +117045,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "上海、兰州、北京、南京、南宁、南昌、合肥、哈尔滨、广州、昆明、武汉、济南、海口、福州、藏族自治州、郑",
+    "deadline": "2026/05/10",
     "tags": [
       "中国东方",
       "校招",
@@ -115587,6 +117072,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "上海、北京、南京、南阳、合肥、呼和浩特、广州、成都、株洲、武汉、济南、深圳、西安、贵阳、郑州、长沙",
+    "deadline": "尽快投递",
     "tags": [
       "中国电子",
       "校招",
@@ -138747,6 +140235,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "private",
+    "location": "福州",
+    "deadline": "尽快投递",
     "tags": [
       "宝宝巴士",
       "实习",
@@ -138766,6 +140257,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "other",
+    "companyType": "private",
+    "location": "上海、厦门",
+    "deadline": "2026/06/20",
     "tags": [
       "斐乐FILA（不限专业）",
       "实习",
@@ -138809,6 +140303,9 @@
     "sourceHandle": "@deepoffer",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "乌鲁木齐",
+    "deadline": "2026/05/21",
     "tags": [
       "国能新疆甘泉堡综合能源",
       "校招",
