@@ -122,31 +122,6 @@
     "createdAt": "2026-05-14T06:20:04.000Z"
   },
   {
-    "id": "deepoffer-16842",
-    "title": "南平绿发集团 — 26届春招 | 招采服务部职员 信息技术部职员 投资运营部职员 贸易发展部职员",
-    "summary": "招聘类型：26届春招。行业：能源/化工/环保。企业性质：央国企。工作地点：南平。截止日期：2026/05/18。岗位：招采服务部职员 信息技术部职员 投资运营部职员 贸易发展部职员。",
-    "url": "https://mp.weixin.qq.com/s/1GyTkJiQMRZngk3AgQbzow",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "finance",
-    "companyType": "state",
-    "location": "南平",
-    "deadline": "2026/05/18",
-    "tags": [
-      "南平绿发集团",
-      "校招",
-      "春招",
-      "金融",
-      "央国企",
-      "能源/化工/环保",
-      "南平"
-    ],
-    "score": 82,
-    "featured": true,
-    "createdAt": "2026-05-14T06:20:04.000Z"
-  },
-  {
     "id": "deepoffer-16841",
     "title": "阿斯利康中国 — 实习 | 医学代表实习生",
     "summary": "招聘类型：实习。行业：生物/医疗/医药/制药。企业性质：外企。工作地点：全国多地。岗位：医学代表实习生。",
@@ -312,6 +287,31 @@
       "武汉"
     ],
     "score": 78,
+    "featured": false,
+    "createdAt": "2026-05-14T06:20:04.000Z"
+  },
+  {
+    "id": "deepoffer-16842",
+    "title": "南平绿发集团 — 26届春招 | 招采服务部职员 信息技术部职员 投资运营部职员 贸易发展部职员",
+    "summary": "招聘类型：26届春招。行业：能源/化工/环保。企业性质：央国企。工作地点：南平。截止日期：2026/05/18。岗位：招采服务部职员 信息技术部职员 投资运营部职员 贸易发展部职员。",
+    "url": "https://mp.weixin.qq.com/s/1GyTkJiQMRZngk3AgQbzow",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "state",
+    "location": "南平",
+    "deadline": "2026/05/18",
+    "tags": [
+      "南平绿发集团",
+      "校招",
+      "春招",
+      "金融",
+      "央国企",
+      "能源/化工/环保",
+      "南平"
+    ],
+    "score": 77,
     "featured": false,
     "createdAt": "2026-05-14T06:20:04.000Z"
   },
@@ -1446,8 +1446,8 @@
       "上海",
       "深圳"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-12T10:20:00.000Z"
   },
   {
@@ -1473,8 +1473,8 @@
       "杭州",
       "全国多地"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-12T10:20:00.000Z"
   },
   {
@@ -1497,8 +1497,8 @@
       "IT/互联网/游戏/电商",
       "广州"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-12T10:20:00.000Z"
   },
   {
@@ -1521,8 +1521,8 @@
       "交通/物流/出行",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-12T10:20:00.000Z"
   },
   {
@@ -1544,7 +1544,7 @@
       "快消/零售/消费品",
       "宁波"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-12T10:20:00.000Z"
   },
@@ -1568,7 +1568,7 @@
       "上海",
       "北京"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-12T10:20:00.000Z"
   },
@@ -1594,7 +1594,7 @@
       "汕尾",
       "深圳"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-12T10:20:00.000Z"
   },
@@ -1618,7 +1618,7 @@
       "汽车/新能源",
       "上海"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-12T10:20:00.000Z"
   },
@@ -1641,7 +1641,7 @@
       "金融/银行/保险",
       "深圳"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-12T10:20:00.000Z"
   },
@@ -1666,7 +1666,7 @@
       "北京",
       "深圳"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-12T10:20:00.000Z"
   },
@@ -1689,7 +1689,7 @@
       "通信/电子/半导体",
       "成都"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-12T10:20:00.000Z"
   },
@@ -1742,32 +1742,7 @@
       "北京",
       "厦门"
     ],
-    "score": 79,
-    "featured": false,
-    "createdAt": "2026-05-12T06:19:49.000Z"
-  },
-  {
-    "id": "deepoffer-16771",
-    "title": "河南资本集团 — 26届春招 | 战略与投资岗，财务分析及资本运作岗，党建岗，管培生（财务管理方向），管培生...",
-    "summary": "招聘类型：26届春招。行业：金融/银行/保险。企业性质：央国企。工作地点：郑州。截止日期：2026/05/12。岗位：战略与投资岗，财务分析及资本运作岗，党建岗，管培生（财务管理方向），管培生（投资运营方向），投资经理岗，合规风控岗（企业管理，管理科学与工程，经济学，战略...。",
-    "url": "https://hnzbfzjh.hersingdat.com/",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "finance",
-    "companyType": "state",
-    "location": "郑州",
-    "deadline": "2026/05/12",
-    "tags": [
-      "河南资本集团",
-      "校招",
-      "春招",
-      "金融",
-      "央国企",
-      "金融/银行/保险",
-      "郑州"
-    ],
-    "score": 78,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-12T06:19:49.000Z"
   },
@@ -1793,6 +1768,31 @@
       "乌海"
     ],
     "score": 74,
+    "featured": false,
+    "createdAt": "2026-05-12T06:19:49.000Z"
+  },
+  {
+    "id": "deepoffer-16771",
+    "title": "河南资本集团 — 26届春招 | 战略与投资岗，财务分析及资本运作岗，党建岗，管培生（财务管理方向），管培生...",
+    "summary": "招聘类型：26届春招。行业：金融/银行/保险。企业性质：央国企。工作地点：郑州。截止日期：2026/05/12。岗位：战略与投资岗，财务分析及资本运作岗，党建岗，管培生（财务管理方向），管培生（投资运营方向），投资经理岗，合规风控岗（企业管理，管理科学与工程，经济学，战略...。",
+    "url": "https://hnzbfzjh.hersingdat.com/",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "state",
+    "location": "郑州",
+    "deadline": "2026/05/12",
+    "tags": [
+      "河南资本集团",
+      "校招",
+      "春招",
+      "金融",
+      "央国企",
+      "金融/银行/保险",
+      "郑州"
+    ],
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-12T06:19:49.000Z"
   },
@@ -2642,31 +2642,6 @@
     "createdAt": "2026-05-12T06:19:47.000Z"
   },
   {
-    "id": "deepoffer-16736",
-    "title": "中国科学院空间应用工程与技术中心 — 实习 | 航空航天类 航空宇航科学与技术类 计算机科学与技术类 管理科学与工程类 信...",
-    "summary": "招聘类型：实习。行业：通信/电子/半导体。企业性质：事业单位。工作地点：北京,南昌。岗位：航空航天类 航空宇航科学与技术类 计算机科学与技术类 管理科学与工程类 信息与通信工程类 电子信息类 电子科学与技术类 控制科学与工程类 仪器科学与技术类...。",
-    "url": "https://csu.zhiye.com/Alljob",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "auto_ic",
-    "companyType": "institution",
-    "location": "北京,南昌",
-    "deadline": "尽快投递",
-    "tags": [
-      "中国科学院空间应用工程与技术中心",
-      "实习",
-      "车企/IC",
-      "事业单位",
-      "通信/电子/半导体",
-      "北京",
-      "南昌"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-05-12T06:19:47.000Z"
-  },
-  {
     "id": "deepoffer-16741",
     "title": "江西省军工控股集团 — 26届春招 | 兵器类、航空航天类、船舶工程、机械类、电子信息类、环境与安全类、材料与化学...",
     "summary": "招聘类型：26届春招。行业：机械/制造/设备。企业性质：央国企。工作地点：南昌。岗位：兵器类、航空航天类、船舶工程、机械类、电子信息类、环境与安全类、材料与化学类、大气科学类、经济管理等。",
@@ -2810,6 +2785,31 @@
       "深圳"
     ],
     "score": 72,
+    "featured": false,
+    "createdAt": "2026-05-12T06:19:47.000Z"
+  },
+  {
+    "id": "deepoffer-16736",
+    "title": "中国科学院空间应用工程与技术中心 — 实习 | 航空航天类 航空宇航科学与技术类 计算机科学与技术类 管理科学与工程类 信...",
+    "summary": "招聘类型：实习。行业：通信/电子/半导体。企业性质：事业单位。工作地点：北京,南昌。岗位：航空航天类 航空宇航科学与技术类 计算机科学与技术类 管理科学与工程类 信息与通信工程类 电子信息类 电子科学与技术类 控制科学与工程类 仪器科学与技术类...。",
+    "url": "https://csu.zhiye.com/Alljob",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "auto_ic",
+    "companyType": "institution",
+    "location": "北京,南昌",
+    "deadline": "尽快投递",
+    "tags": [
+      "中国科学院空间应用工程与技术中心",
+      "实习",
+      "车企/IC",
+      "事业单位",
+      "通信/电子/半导体",
+      "北京",
+      "南昌"
+    ],
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-12T06:19:47.000Z"
   },
@@ -3942,30 +3942,6 @@
     "createdAt": "2026-05-09T14:19:45.000Z"
   },
   {
-    "id": "deepoffer-16681",
-    "title": "天桂食品 — 26届春招 | 销售区域经理、编导剪辑、产品助理、采购、品控",
-    "summary": "招聘类型：26届春招。行业：快消/零售/消费品。企业性质：民企。工作地点：厦门、莆田。岗位：销售区域经理、编导剪辑、产品助理、采购、品控。",
-    "url": "https://mp.weixin.qq.com/s/whOdENH_mtN0_4hRSaCSAw",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "private",
-    "location": "厦门、莆田",
-    "deadline": "尽快投递",
-    "tags": [
-      "天桂食品",
-      "校招",
-      "春招",
-      "快消/零售/消费品",
-      "厦门",
-      "莆田"
-    ],
-    "score": 73,
-    "featured": false,
-    "createdAt": "2026-05-08T06:19:54.000Z"
-  },
-  {
     "id": "deepoffer-16682",
     "title": "江西峰山抽水蓄能 — 26届春招 | 6个岗位（详见附件岗位表）",
     "summary": "招聘类型：26届春招。行业：能源/化工/环保。企业性质：央国企。工作地点：赣州。截止日期：2026/05/12。岗位：6个岗位（详见附件岗位表）。",
@@ -3990,6 +3966,30 @@
     "createdAt": "2026-05-08T06:19:54.000Z"
   },
   {
+    "id": "deepoffer-16681",
+    "title": "天桂食品 — 26届春招 | 销售区域经理、编导剪辑、产品助理、采购、品控",
+    "summary": "招聘类型：26届春招。行业：快消/零售/消费品。企业性质：民企。工作地点：厦门、莆田。岗位：销售区域经理、编导剪辑、产品助理、采购、品控。",
+    "url": "https://mp.weixin.qq.com/s/whOdENH_mtN0_4hRSaCSAw",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "private",
+    "location": "厦门、莆田",
+    "deadline": "尽快投递",
+    "tags": [
+      "天桂食品",
+      "校招",
+      "春招",
+      "快消/零售/消费品",
+      "厦门",
+      "莆田"
+    ],
+    "score": 68,
+    "featured": false,
+    "createdAt": "2026-05-08T06:19:54.000Z"
+  },
+  {
     "id": "deepoffer-16678",
     "title": "IntelliPro英特利普集团 — 实习 | 人力资源顾问(应届/实习、高端猎头、IT&BPO、RPO)",
     "summary": "招聘类型：实习。行业：广告/咨询/服务。企业性质：外企。工作地点：上海、北京、南京、大连、常州、成都、杭州、武汉、深圳、苏州、西安、长沙、青岛、香港。岗位：人力资源顾问(应届/实习、高端猎头、IT&BPO、RPO)。",
@@ -4010,8 +4010,8 @@
       "北京",
       "南京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
   {
@@ -4035,8 +4035,8 @@
       "北京",
       "南京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
   {
@@ -4061,7 +4061,7 @@
       "东莞",
       "北京"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -4086,7 +4086,7 @@
       "机械/制造/设备",
       "天津"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -4109,7 +4109,7 @@
       "生物/医疗/医药/制药",
       "广州"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -4134,7 +4134,7 @@
       "能源/化工/环保",
       "广州"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -4159,7 +4159,7 @@
       "上海",
       "北京"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -4185,7 +4185,7 @@
       "南通",
       "宁波"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -4209,7 +4209,7 @@
       "房地产/建筑/物业",
       "南昌"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -4236,7 +4236,7 @@
       "北京",
       "南京"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -4263,7 +4263,7 @@
       "上饶",
       "九江"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -4287,7 +4287,7 @@
       "农业/林业/其他",
       "北京"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -4311,7 +4311,7 @@
       "其他",
       "广州"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -4336,7 +4336,7 @@
       "北京",
       "广州"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -4360,7 +4360,7 @@
       "南宁",
       "合肥"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -4384,7 +4384,7 @@
       "教育/培训",
       "绍兴"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -4407,7 +4407,7 @@
       "汽车/新能源",
       "北京"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -4433,7 +4433,7 @@
       "深圳",
       "青岛"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -4458,7 +4458,7 @@
       "佛山",
       "南京"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -4483,7 +4483,7 @@
       "金融/银行/保险",
       "上海"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-08T06:19:52.000Z"
   },
@@ -4506,7 +4506,7 @@
       "金融/银行/保险",
       "上海"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-08T06:19:52.000Z"
   },
@@ -4532,7 +4532,7 @@
       "四平",
       "杭州"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-08T06:19:52.000Z"
   },
@@ -5335,32 +5335,6 @@
     "createdAt": "2026-05-08T02:19:37.000Z"
   },
   {
-    "id": "deepoffer-16622",
-    "title": "福鼎恒兴村镇银行 — 26届春招 | 综合柜员岗",
-    "summary": "招聘类型：26届春招。行业：金融/银行/保险。企业性质：银行。工作地点：宁德、全国多地。截止日期：2026/05/26。岗位：综合柜员岗。",
-    "url": "https://mp.weixin.qq.com/s/225D05RM2hYOviUJe51FBA",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "finance",
-    "companyType": "bank",
-    "location": "宁德、全国多地",
-    "deadline": "2026/05/26",
-    "tags": [
-      "福鼎恒兴村镇银行",
-      "校招",
-      "春招",
-      "金融",
-      "银行",
-      "金融/银行/保险",
-      "宁德",
-      "全国多地"
-    ],
-    "score": 73,
-    "featured": false,
-    "createdAt": "2026-05-08T02:19:37.000Z"
-  },
-  {
     "id": "deepoffer-16627",
     "title": "重庆机电控股集团动力科技 — 26届春招 | 装配电工",
     "summary": "招聘类型：26届春招。行业：机械/制造/设备。企业性质：央国企。工作地点：重庆。截止日期：2026/05/30。岗位：装配电工。",
@@ -5588,6 +5562,32 @@
       "苏州"
     ],
     "score": 69,
+    "featured": false,
+    "createdAt": "2026-05-08T02:19:37.000Z"
+  },
+  {
+    "id": "deepoffer-16622",
+    "title": "福鼎恒兴村镇银行 — 26届春招 | 综合柜员岗",
+    "summary": "招聘类型：26届春招。行业：金融/银行/保险。企业性质：银行。工作地点：宁德、全国多地。截止日期：2026/05/26。岗位：综合柜员岗。",
+    "url": "https://mp.weixin.qq.com/s/225D05RM2hYOviUJe51FBA",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "bank",
+    "location": "宁德、全国多地",
+    "deadline": "2026/05/26",
+    "tags": [
+      "福鼎恒兴村镇银行",
+      "校招",
+      "春招",
+      "金融",
+      "银行",
+      "金融/银行/保险",
+      "宁德",
+      "全国多地"
+    ],
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-08T02:19:37.000Z"
   },
@@ -18574,7 +18574,7 @@
       "北京",
       "南京"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-04-13T06:19:31.000Z"
   },
@@ -21961,7 +21961,7 @@
       "快消/零售/消费品",
       "福州"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-04-08T06:18:56.000Z"
   },
@@ -39680,8 +39680,8 @@
       "昆明",
       "全国多地"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-03-23T06:18:51.000Z"
   },
   {
@@ -69810,7 +69810,7 @@
       "北京",
       "广州"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-03-01T15:33:26.000Z"
   },
@@ -69887,8 +69887,8 @@
       "汕头",
       "汕尾"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-03-01T14:52:42.000Z"
   },
   {
@@ -140244,7 +140244,7 @@
       "教育/培训",
       "福州"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-02-28T14:51:56.000Z"
   },
