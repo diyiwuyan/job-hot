@@ -1371,20 +1371,21 @@
   {
     "id": "deepoffer-16832",
     "title": "金诚同达 — 实习 | 校园品牌推广大使",
-    "summary": "招聘类型：实习。行业：金融/银行/保险。企业性质：民企。工作地点：全国多地。岗位：校园品牌推广大使。",
+    "summary": "招聘类型：实习。行业：金融/银行/保险。企业性质：民企。工作地点：北京|上海|深圳|合肥|杭州|南京|广州|青岛|成都|重庆西安|沈阳|济南|大连|郑州|香港|东京|。岗位：校园品牌推广大使。",
     "url": "https://jinchengtongdahr.mikecrm.com/EK47cMC",
     "source": "DeepOffer",
     "sourceHandle": "@deepoffer",
     "channel": "intern",
     "category": "finance",
     "companyType": "private",
-    "location": "全国多地",
+    "location": "北京|上海|深圳|合肥|杭州|南京|广州|青岛|成都|重庆西安|沈阳|济南|大连|郑州|香港|东京|",
     "deadline": "尽快投递",
     "tags": [
       "金诚同达",
       "实习",
       "金融",
-      "金融/银行/保险"
+      "金融/银行/保险",
+      "北京|上海|深圳|合肥|杭州|南京|广州|青岛|成都|重庆西安|沈阳|济南|大连|郑州|香港|东京|"
     ],
     "score": 76,
     "featured": false,
@@ -1889,82 +1890,6 @@
     "createdAt": "2026-05-13T10:19:52.000Z"
   },
   {
-    "id": "deepoffer-16804",
-    "title": "陕西省烟草专卖局（公司） — 26届春招 | 管理类、业务类岗位、详见官方公告及投递方式附件",
-    "summary": "招聘类型：26届春招。行业：快消/零售/消费品。企业性质：央国企。工作地点：咸阳、商洛、安康、宝鸡、延安、榆林、汉中、渭南、西安、铜川、全国多地。截止日期：2026/05/20。岗位：管理类、业务类岗位、详见官方公告及投递方式附件。",
-    "url": "https://c.exam-sp.com/sntobacco2026",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "咸阳、商洛、安康、宝鸡、延安、榆林、汉中、渭南、西安、铜川、全国多地",
-    "deadline": "2026/05/20",
-    "tags": [
-      "陕西省烟草专卖局（公司）",
-      "校招",
-      "春招",
-      "央国企",
-      "快消/零售/消费品",
-      "咸阳",
-      "商洛",
-      "安康"
-    ],
-    "score": 82,
-    "featured": true,
-    "createdAt": "2026-05-13T10:19:52.000Z"
-  },
-  {
-    "id": "deepoffer-16802",
-    "title": "海信集团 — 实习 | 软件算法类、硬件研发类、光学及显示类、芯片类、仿真研发类、暖通制冷类、技术...",
-    "summary": "招聘类型：实习。行业：房地产/建筑/物业。企业性质：央国企。工作地点：青岛、深圳、武汉、上海、杭州、西安、顺德、江门、黄岛、平度、扬州、成都、湖州、贵阳、全国各地。岗位：软件算法类、硬件研发类、光学及显示类、芯片类、仿真研发类、暖通制冷类、技术工艺类、技术类、营销类、运营类、质量类、制造工艺类、生产制造类、供应链管理类。",
-    "url": "https://jobs.hisense.com/7/jobs",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "青岛、深圳、武汉、上海、杭州、西安、顺德、江门、黄岛、平度、扬州、成都、湖州、贵阳、全国各地",
-    "deadline": "尽快投递",
-    "tags": [
-      "海信集团",
-      "实习",
-      "车企/IC",
-      "央国企",
-      "房地产/建筑/物业",
-      "青岛",
-      "深圳",
-      "武汉"
-    ],
-    "score": 82,
-    "featured": true,
-    "createdAt": "2026-05-13T10:19:52.000Z"
-  },
-  {
-    "id": "deepoffer-16803",
-    "title": "燥梦者汽车科技 — 26届春招 | 工业造型设计师、平面运营设计师、C4D建模渲染设计师",
-    "summary": "招聘类型：26届春招。行业：汽车/新能源。企业性质：民企。工作地点：武汉。岗位：工业造型设计师、平面运营设计师、C4D建模渲染设计师。",
-    "url": "http://469914173@qq.com",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "private",
-    "location": "武汉",
-    "deadline": "尽快投递",
-    "tags": [
-      "燥梦者汽车科技",
-      "校招",
-      "春招",
-      "车企/IC",
-      "汽车/新能源",
-      "武汉"
-    ],
-    "score": 80,
-    "featured": true,
-    "createdAt": "2026-05-13T10:19:52.000Z"
-  },
-  {
     "id": "deepoffer-16806",
     "title": "金山区区属国企 — 26届春招 | 审计稽查 人力资源 资产运管 财务管理 网络信息技术 桥梁施工 项目管理 ...",
     "summary": "招聘类型：26届春招。行业：房地产/建筑/物业。企业性质：央国企。工作地点：上海。截止日期：2026/05/15。岗位：审计稽查 人力资源 资产运管 财务管理 网络信息技术 桥梁施工 项目管理 技术员 营销运营专员 物业运营专员 合规管理（审计学、金融审计、财务管理、管理科...。",
@@ -1990,6 +1915,82 @@
     "createdAt": "2026-05-13T10:19:52.000Z"
   },
   {
+    "id": "deepoffer-16804",
+    "title": "陕西省烟草专卖局（公司） — 26届春招 | 管理类、业务类岗位、详见官方公告及投递方式附件",
+    "summary": "招聘类型：26届春招。行业：快消/零售/消费品。企业性质：央国企。工作地点：咸阳、商洛、安康、宝鸡、延安、榆林、汉中、渭南、西安、铜川、全国多地。截止日期：2026/05/20。岗位：管理类、业务类岗位、详见官方公告及投递方式附件。",
+    "url": "https://c.exam-sp.com/sntobacco2026",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "咸阳、商洛、安康、宝鸡、延安、榆林、汉中、渭南、西安、铜川、全国多地",
+    "deadline": "2026/05/20",
+    "tags": [
+      "陕西省烟草专卖局（公司）",
+      "校招",
+      "春招",
+      "央国企",
+      "快消/零售/消费品",
+      "咸阳",
+      "商洛",
+      "安康"
+    ],
+    "score": 77,
+    "featured": false,
+    "createdAt": "2026-05-13T10:19:52.000Z"
+  },
+  {
+    "id": "deepoffer-16802",
+    "title": "海信集团 — 实习 | 软件算法类、硬件研发类、光学及显示类、芯片类、仿真研发类、暖通制冷类、技术...",
+    "summary": "招聘类型：实习。行业：房地产/建筑/物业。企业性质：央国企。工作地点：青岛、深圳、武汉、上海、杭州、西安、顺德、江门、黄岛、平度、扬州、成都、湖州、贵阳、全国各地。岗位：软件算法类、硬件研发类、光学及显示类、芯片类、仿真研发类、暖通制冷类、技术工艺类、技术类、营销类、运营类、质量类、制造工艺类、生产制造类、供应链管理类。",
+    "url": "https://jobs.hisense.com/7/jobs",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "青岛、深圳、武汉、上海、杭州、西安、顺德、江门、黄岛、平度、扬州、成都、湖州、贵阳、全国各地",
+    "deadline": "尽快投递",
+    "tags": [
+      "海信集团",
+      "实习",
+      "车企/IC",
+      "央国企",
+      "房地产/建筑/物业",
+      "青岛",
+      "深圳",
+      "武汉"
+    ],
+    "score": 77,
+    "featured": false,
+    "createdAt": "2026-05-13T10:19:52.000Z"
+  },
+  {
+    "id": "deepoffer-16803",
+    "title": "燥梦者汽车科技 — 26届春招 | 工业造型设计师、平面运营设计师、C4D建模渲染设计师",
+    "summary": "招聘类型：26届春招。行业：汽车/新能源。企业性质：民企。工作地点：武汉。岗位：工业造型设计师、平面运营设计师、C4D建模渲染设计师。",
+    "url": "http://469914173@qq.com",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "private",
+    "location": "武汉",
+    "deadline": "尽快投递",
+    "tags": [
+      "燥梦者汽车科技",
+      "校招",
+      "春招",
+      "车企/IC",
+      "汽车/新能源",
+      "武汉"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-05-13T10:19:52.000Z"
+  },
+  {
     "id": "deepoffer-16790",
     "title": "博世智能驾控 — 实习 | 嵌入式软件开发学员、AI座舱大模型应用学员、AI Security(座舱/...",
     "summary": "招聘类型：实习。行业：汽车/新能源。企业性质：外企。工作地点：上海、苏州。岗位：嵌入式软件开发学员、AI座舱大模型应用学员、AI Security(座舱/ADAS方向)、ADAS软件架构及集成学员、AI Agent、ADAS领域AI安...。",
@@ -2010,7 +2011,7 @@
       "上海",
       "苏州"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-05-13T10:19:51.000Z"
   },
@@ -2036,8 +2037,8 @@
       "北京",
       "聊城"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-13T10:19:51.000Z"
   },
   {
@@ -2061,8 +2062,8 @@
       "机械/制造/设备",
       "济南"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-13T10:19:51.000Z"
   },
   {
@@ -2085,8 +2086,8 @@
       "交通/物流/出行",
       "重庆"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-13T10:19:51.000Z"
   },
   {
@@ -2110,8 +2111,8 @@
       "机械/制造/设备",
       "济南"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-13T10:19:51.000Z"
   },
   {
@@ -2136,8 +2137,8 @@
       "常州",
       "苏州"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T10:19:51.000Z"
   },
   {
@@ -2160,177 +2161,7 @@
       "农业/林业/其他",
       "南昌"
     ],
-    "score": 82,
-    "featured": true,
-    "createdAt": "2026-05-13T10:19:51.000Z"
-  },
-  {
-    "id": "deepoffer-16796",
-    "title": "济南黄河路桥建设集团 — 26届春招 | 工程技术，出纳，文秘，技术员，造价员，试验员（土木类，建筑类，机械类，地质...",
-    "summary": "招聘类型：26届春招。行业：房地产/建筑/物业。企业性质：央国企。工作地点：济南。截止日期：2026/05/20。岗位：工程技术，出纳，文秘，技术员，造价员，试验员（土木类，建筑类，机械类，地质类，水利类，交通运输类，电气类，经济学类，金融学类，工商管理类，文学类，新闻传播...。",
-    "url": "https://jngzw.jinan.gov.cn/col/col23870/art/2026/art_d31f8c193c8c4a05acd33762a287fd30.html",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "finance",
-    "companyType": "state",
-    "location": "济南",
-    "deadline": "2026/05/20",
-    "tags": [
-      "济南黄河路桥建设集团",
-      "校招",
-      "春招",
-      "金融",
-      "央国企",
-      "房地产/建筑/物业",
-      "济南"
-    ],
-    "score": 81,
-    "featured": true,
-    "createdAt": "2026-05-13T10:19:51.000Z"
-  },
-  {
-    "id": "deepoffer-16801",
-    "title": "豪迈 — 实习 | 数控操作工 设备工程师NDT工程师装配钳工装配电工质检员;",
-    "summary": "招聘类型：实习。行业：机械/制造/设备。企业性质：民企。工作地点：潍坊、威海、日照、启东。岗位：数控操作工 设备工程师NDT工程师装配钳工装配电工质检员;。",
-    "url": "https://himile1.zhiye.com/social/jobs?queryId=233c90a5-d4e1-4201-bdee-3c9951ea7998",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "auto_ic",
-    "companyType": "private",
-    "location": "潍坊、威海、日照、启东",
-    "deadline": "尽快投递",
-    "tags": [
-      "豪迈",
-      "实习",
-      "车企/IC",
-      "机械/制造/设备",
-      "潍坊",
-      "威海",
-      "日照"
-    ],
-    "score": 80,
-    "featured": true,
-    "createdAt": "2026-05-13T10:19:51.000Z"
-  },
-  {
-    "id": "deepoffer-16794",
-    "title": "国家中医药管理局直属事业单位 — 26届春招 | 专业技术岗，综合岗（历史学，中医学，中医，中西医结合，中药学，中药，设计学...",
-    "summary": "招聘类型：26届春招。行业：生物/医疗/医药/制药。企业性质：事业单位。工作地点：北京。截止日期：2026/05/19。岗位：专业技术岗，综合岗（历史学，中医学，中医，中西医结合，中药学，中药，设计学，设计，管理科学与工程，工商管理，公共管理，电子信息，计算机，智能科学与技术，控...。",
-    "url": "https://cstdccm.51trust.com/stdc/web/talentpool/#/login",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "institution",
-    "location": "北京",
-    "deadline": "2026/05/19",
-    "tags": [
-      "国家中医药管理局直属事业单位",
-      "校招",
-      "春招",
-      "车企/IC",
-      "事业单位",
-      "生物/医疗/医药/制药",
-      "北京"
-    ],
-    "score": 80,
-    "featured": true,
-    "createdAt": "2026-05-13T10:19:51.000Z"
-  },
-  {
-    "id": "deepoffer-16791",
-    "title": "多益网络 — 26届春招 | 程序类策划类艺术类职能类",
-    "summary": "招聘类型：26届春招。行业：IT/互联网/游戏/电商。企业性质：民企。工作地点：广州、武汉、苏州、杭州。截止日期：2026/06/30。岗位：程序类策划类艺术类职能类。",
-    "url": "https://xz.duoyi.com/v40/#/",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "game",
-    "companyType": "private",
-    "location": "广州、武汉、苏州、杭州",
-    "deadline": "2026/06/30",
-    "tags": [
-      "多益网络",
-      "校招",
-      "春招",
-      "游戏",
-      "IT/互联网/游戏/电商",
-      "广州",
-      "武汉",
-      "苏州"
-    ],
-    "score": 80,
-    "featured": true,
-    "createdAt": "2026-05-13T10:19:51.000Z"
-  },
-  {
-    "id": "deepoffer-16792",
-    "title": "航天一院 北京航天万源科技 — 实习 | 信息安全设计、软件设计、电源电路设计、系统集成设计、微波设计、电路设计、嵌...",
-    "summary": "招聘类型：实习。行业：机械/制造/设备。企业性质：民企。工作地点：北京。岗位：信息安全设计、软件设计、电源电路设计、系统集成设计、微波设计、电路设计、嵌入式软件设计、工艺设计、智能防务。",
-    "url": "https://mp.weixin.qq.com/s/Xogx5UgrAGrKjcWP4-Usow",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "auto_ic",
-    "companyType": "private",
-    "location": "北京",
-    "deadline": "尽快投递",
-    "tags": [
-      "航天一院 北京航天万源科技",
-      "实习",
-      "车企/IC",
-      "机械/制造/设备",
-      "北京"
-    ],
-    "score": 79,
-    "featured": false,
-    "createdAt": "2026-05-13T10:19:51.000Z"
-  },
-  {
-    "id": "deepoffer-16797",
-    "title": "元气创品 — 26届春招 | 品牌运营、校园市场运营、新媒体创作、社群运营",
-    "summary": "招聘类型：26届春招。行业：快消/零售/消费品。企业性质：民企。工作地点：成都。岗位：品牌运营、校园市场运营、新媒体创作、社群运营。",
-    "url": "https://mp.weixin.qq.com/s/T1kVNHocI1ci81cWJaMTow",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "private",
-    "location": "成都",
-    "deadline": "尽快投递",
-    "tags": [
-      "元气创品",
-      "校招",
-      "春招",
-      "快消/零售/消费品",
-      "成都"
-    ],
-    "score": 78,
-    "featured": false,
-    "createdAt": "2026-05-13T10:19:51.000Z"
-  },
-  {
-    "id": "deepoffer-16795",
-    "title": "蒙玺投资 — 实习 | 量化策略研究员、AI算法研究员、算法开发工程师",
-    "summary": "招聘类型：实习。行业：金融/银行/保险。企业性质：民企。工作地点：上海。岗位：量化策略研究员、AI算法研究员、算法开发工程师。",
-    "url": "https://mp.weixin.qq.com/s/RurKwsEjAx-MdqdWwuuGZg",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "finance",
-    "companyType": "private",
-    "location": "上海",
-    "deadline": "尽快投递",
-    "tags": [
-      "蒙玺投资",
-      "实习",
-      "金融",
-      "金融/银行/保险",
-      "上海"
-    ],
-    "score": 78,
+    "score": 77,
     "featured": false,
     "createdAt": "2026-05-13T10:19:51.000Z"
   },
@@ -2359,6 +2190,176 @@
     "createdAt": "2026-05-13T10:19:51.000Z"
   },
   {
+    "id": "deepoffer-16796",
+    "title": "济南黄河路桥建设集团 — 26届春招 | 工程技术，出纳，文秘，技术员，造价员，试验员（土木类，建筑类，机械类，地质...",
+    "summary": "招聘类型：26届春招。行业：房地产/建筑/物业。企业性质：央国企。工作地点：济南。截止日期：2026/05/20。岗位：工程技术，出纳，文秘，技术员，造价员，试验员（土木类，建筑类，机械类，地质类，水利类，交通运输类，电气类，经济学类，金融学类，工商管理类，文学类，新闻传播...。",
+    "url": "https://jngzw.jinan.gov.cn/col/col23870/art/2026/art_d31f8c193c8c4a05acd33762a287fd30.html",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "state",
+    "location": "济南",
+    "deadline": "2026/05/20",
+    "tags": [
+      "济南黄河路桥建设集团",
+      "校招",
+      "春招",
+      "金融",
+      "央国企",
+      "房地产/建筑/物业",
+      "济南"
+    ],
+    "score": 76,
+    "featured": false,
+    "createdAt": "2026-05-13T10:19:51.000Z"
+  },
+  {
+    "id": "deepoffer-16801",
+    "title": "豪迈 — 实习 | 数控操作工 设备工程师NDT工程师装配钳工装配电工质检员;",
+    "summary": "招聘类型：实习。行业：机械/制造/设备。企业性质：民企。工作地点：潍坊、威海、日照、启东。岗位：数控操作工 设备工程师NDT工程师装配钳工装配电工质检员;。",
+    "url": "https://himile1.zhiye.com/social/jobs?queryId=233c90a5-d4e1-4201-bdee-3c9951ea7998",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "auto_ic",
+    "companyType": "private",
+    "location": "潍坊、威海、日照、启东",
+    "deadline": "尽快投递",
+    "tags": [
+      "豪迈",
+      "实习",
+      "车企/IC",
+      "机械/制造/设备",
+      "潍坊",
+      "威海",
+      "日照"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-05-13T10:19:51.000Z"
+  },
+  {
+    "id": "deepoffer-16794",
+    "title": "国家中医药管理局直属事业单位 — 26届春招 | 专业技术岗，综合岗（历史学，中医学，中医，中西医结合，中药学，中药，设计学...",
+    "summary": "招聘类型：26届春招。行业：生物/医疗/医药/制药。企业性质：事业单位。工作地点：北京。截止日期：2026/05/19。岗位：专业技术岗，综合岗（历史学，中医学，中医，中西医结合，中药学，中药，设计学，设计，管理科学与工程，工商管理，公共管理，电子信息，计算机，智能科学与技术，控...。",
+    "url": "https://cstdccm.51trust.com/stdc/web/talentpool/#/login",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "institution",
+    "location": "北京",
+    "deadline": "2026/05/19",
+    "tags": [
+      "国家中医药管理局直属事业单位",
+      "校招",
+      "春招",
+      "车企/IC",
+      "事业单位",
+      "生物/医疗/医药/制药",
+      "北京"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-05-13T10:19:51.000Z"
+  },
+  {
+    "id": "deepoffer-16791",
+    "title": "多益网络 — 26届春招 | 程序类策划类艺术类职能类",
+    "summary": "招聘类型：26届春招。行业：IT/互联网/游戏/电商。企业性质：民企。工作地点：广州、武汉、苏州、杭州。截止日期：2026/06/30。岗位：程序类策划类艺术类职能类。",
+    "url": "https://xz.duoyi.com/v40/#/",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "game",
+    "companyType": "private",
+    "location": "广州、武汉、苏州、杭州",
+    "deadline": "2026/06/30",
+    "tags": [
+      "多益网络",
+      "校招",
+      "春招",
+      "游戏",
+      "IT/互联网/游戏/电商",
+      "广州",
+      "武汉",
+      "苏州"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-05-13T10:19:51.000Z"
+  },
+  {
+    "id": "deepoffer-16792",
+    "title": "航天一院 北京航天万源科技 — 实习 | 信息安全设计、软件设计、电源电路设计、系统集成设计、微波设计、电路设计、嵌...",
+    "summary": "招聘类型：实习。行业：机械/制造/设备。企业性质：民企。工作地点：北京。岗位：信息安全设计、软件设计、电源电路设计、系统集成设计、微波设计、电路设计、嵌入式软件设计、工艺设计、智能防务。",
+    "url": "https://mp.weixin.qq.com/s/Xogx5UgrAGrKjcWP4-Usow",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "auto_ic",
+    "companyType": "private",
+    "location": "北京",
+    "deadline": "尽快投递",
+    "tags": [
+      "航天一院 北京航天万源科技",
+      "实习",
+      "车企/IC",
+      "机械/制造/设备",
+      "北京"
+    ],
+    "score": 74,
+    "featured": false,
+    "createdAt": "2026-05-13T10:19:51.000Z"
+  },
+  {
+    "id": "deepoffer-16797",
+    "title": "元气创品 — 26届春招 | 品牌运营、校园市场运营、新媒体创作、社群运营",
+    "summary": "招聘类型：26届春招。行业：快消/零售/消费品。企业性质：民企。工作地点：成都。岗位：品牌运营、校园市场运营、新媒体创作、社群运营。",
+    "url": "https://mp.weixin.qq.com/s/T1kVNHocI1ci81cWJaMTow",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "private",
+    "location": "成都",
+    "deadline": "尽快投递",
+    "tags": [
+      "元气创品",
+      "校招",
+      "春招",
+      "快消/零售/消费品",
+      "成都"
+    ],
+    "score": 73,
+    "featured": false,
+    "createdAt": "2026-05-13T10:19:51.000Z"
+  },
+  {
+    "id": "deepoffer-16795",
+    "title": "蒙玺投资 — 实习 | 量化策略研究员、AI算法研究员、算法开发工程师",
+    "summary": "招聘类型：实习。行业：金融/银行/保险。企业性质：民企。工作地点：上海。岗位：量化策略研究员、AI算法研究员、算法开发工程师。",
+    "url": "https://mp.weixin.qq.com/s/RurKwsEjAx-MdqdWwuuGZg",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "finance",
+    "companyType": "private",
+    "location": "上海",
+    "deadline": "尽快投递",
+    "tags": [
+      "蒙玺投资",
+      "实习",
+      "金融",
+      "金融/银行/保险",
+      "上海"
+    ],
+    "score": 73,
+    "featured": false,
+    "createdAt": "2026-05-13T10:19:51.000Z"
+  },
+  {
     "id": "deepoffer-16787",
     "title": "重庆新华书店 — 26届春招 | 图书传媒文秘岗，设计文创岗，财务资产岗，法务岗，计算机岗，播音主持岗，策划...",
     "summary": "招聘类型：26届春招。行业：文化/传媒/出版。企业性质：事业单位。工作地点：重庆。截止日期：2026/05/18。岗位：图书传媒文秘岗，设计文创岗，财务资产岗，法务岗，计算机岗，播音主持岗，策划运营岗，工程项目岗。",
@@ -2378,7 +2379,7 @@
       "文化/传媒/出版",
       "重庆"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-13T10:19:51.000Z"
   },
@@ -2401,7 +2402,7 @@
       "通信/电子/半导体",
       "深圳"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-13T10:19:51.000Z"
   },
@@ -4383,7 +4384,7 @@
       "游戏",
       "IT/互联网/游戏/电商"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-09T18:19:34.000Z"
   },
@@ -4408,8 +4409,8 @@
       "北京",
       "深圳"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-09T14:19:46.000Z"
   },
   {
@@ -4435,7 +4436,7 @@
       "云南",
       "北京"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-09T14:19:46.000Z"
   },
@@ -4459,7 +4460,7 @@
       "金融/银行/保险",
       "深圳"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-09T14:19:46.000Z"
   },
@@ -4485,7 +4486,7 @@
       "北京",
       "哈尔滨"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-09T14:19:46.000Z"
   },
@@ -4507,7 +4508,7 @@
       "车企/IC",
       "通信/电子/半导体"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-09T14:19:46.000Z"
   },
@@ -4530,7 +4531,7 @@
       "生物/医疗/医药/制药",
       "宁波"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-09T14:19:46.000Z"
   },
@@ -4553,7 +4554,7 @@
       "文化/传媒/出版",
       "广州"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-09T14:19:46.000Z"
   },
@@ -4579,8 +4580,8 @@
       "北京",
       "深圳"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-09T14:19:45.000Z"
   },
   {
@@ -4603,129 +4604,7 @@
       "北京",
       "杭州"
     ],
-    "score": 80,
-    "featured": true,
-    "createdAt": "2026-05-09T14:19:45.000Z"
-  },
-  {
-    "id": "deepoffer-16694",
-    "title": "沃尔沃汽车 — 实习 | Digital AI Coding Intern Program/数字化A...",
-    "summary": "招聘类型：实习。行业：汽车/新能源。企业性质：外企。工作地点：上海。岗位：Digital AI Coding Intern Program/数字化AI Coding 实习生项目。",
-    "url": "https://app.mokahr.com/social-recruitment/volvocars/67891#/job/4afd8324-80b9-4586-966c-5e9e27a83484?from=qrcode",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "auto_ic",
-    "companyType": "foreign",
-    "location": "上海",
-    "deadline": "尽快投递",
-    "tags": [
-      "沃尔沃汽车",
-      "实习",
-      "车企/IC",
-      "外企",
-      "汽车/新能源",
-      "上海"
-    ],
-    "score": 78,
-    "featured": false,
-    "createdAt": "2026-05-09T14:19:45.000Z"
-  },
-  {
-    "id": "deepoffer-16684",
-    "title": "凯捷 — 实习 | AI开发工程师、AIGC开发工程师(前端/后端)、数据开发工程师、SAP ...",
-    "summary": "招聘类型：实习。行业：IT/互联网/游戏/电商。企业性质：外企。工作地点：上海、北京、大连、沈阳。岗位：AI开发工程师、AIGC开发工程师(前端/后端)、数据开发工程师、SAP Basis顾问、SAP实施顾问、微软云开发工程师、运维工程师、软件开发工程师、项...。",
-    "url": "https://v.wjx.cn/vm/ryU3Kv3.aspx",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "game",
-    "companyType": "foreign",
-    "location": "上海、北京、大连、沈阳",
-    "deadline": "尽快投递",
-    "tags": [
-      "凯捷",
-      "实习",
-      "游戏",
-      "外企",
-      "IT/互联网/游戏/电商",
-      "上海",
-      "北京",
-      "大连"
-    ],
-    "score": 78,
-    "featured": false,
-    "createdAt": "2026-05-09T14:19:45.000Z"
-  },
-  {
-    "id": "deepoffer-16696",
-    "title": "索迪斯 — 实习 | 精英发展项目校园招聘：2027届法语相关专业的应届毕业生",
-    "summary": "招聘类型：实习。行业：广告/咨询/服务。企业性质：外企。工作地点：上海、北京、南京、广州、杭州、深圳、苏州、西安。截止日期：2026/12/31。岗位：精英发展项目校园招聘：2027届法语相关专业的应届毕业生。",
-    "url": "https://mp.weixin.qq.com/s/-V8jae9KwOy0xv9NfURBvw",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "foreign",
-    "companyType": "foreign",
-    "location": "上海、北京、南京、广州、杭州、深圳、苏州、西安",
-    "deadline": "2026/12/31",
-    "tags": [
-      "索迪斯",
-      "实习",
-      "外企",
-      "广告/咨询/服务",
-      "上海",
-      "北京",
-      "南京"
-    ],
-    "score": 77,
-    "featured": false,
-    "createdAt": "2026-05-09T14:19:45.000Z"
-  },
-  {
-    "id": "deepoffer-16692",
-    "title": "科赴 — 实习 | 销售 电商 市场 研发 供应链等岗位",
-    "summary": "招聘类型：实习。行业：IT/互联网/游戏/电商。企业性质：外企。工作地点：上海。截止日期：2026/06/05。岗位：销售 电商 市场 研发 供应链等岗位。",
-    "url": "https://jntl.tupu360.com/pageQrCode?targetUrl=a7f4739eb94ec9efcb7462b6f485e33058491525617ecd6f1ba43730c4832cfce8afafc011dbcc6086f6090b46e7a1ede670f8eef63ed11211edd8621e78944eecdd08eff1dc8266b2ebc00387c4026f",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "game",
-    "companyType": "foreign",
-    "location": "上海",
-    "deadline": "2026/06/05",
-    "tags": [
-      "科赴",
-      "实习",
-      "游戏",
-      "外企",
-      "IT/互联网/游戏/电商",
-      "上海"
-    ],
-    "score": 77,
-    "featured": false,
-    "createdAt": "2026-05-09T14:19:45.000Z"
-  },
-  {
-    "id": "deepoffer-16687",
-    "title": "百多力医疗 — 实习 | 暑期实习计划：专业不限、医学、生物工程、管理类优先",
-    "summary": "招聘类型：实习。行业：生物/医疗/医药/制药。企业性质：外企。工作地点：北京。岗位：暑期实习计划：专业不限、医学、生物工程、管理类优先。",
-    "url": "https://mp.weixin.qq.com/s/vOWMPnehQXu2beGh878FRg",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "foreign",
-    "companyType": "foreign",
-    "location": "北京",
-    "deadline": "尽快投递",
-    "tags": [
-      "百多力医疗",
-      "实习",
-      "外企",
-      "生物/医疗/医药/制药",
-      "北京"
-    ],
-    "score": 76,
+    "score": 75,
     "featured": false,
     "createdAt": "2026-05-09T14:19:45.000Z"
   },
@@ -4752,6 +4631,128 @@
     "createdAt": "2026-05-09T14:19:45.000Z"
   },
   {
+    "id": "deepoffer-16694",
+    "title": "沃尔沃汽车 — 实习 | Digital AI Coding Intern Program/数字化A...",
+    "summary": "招聘类型：实习。行业：汽车/新能源。企业性质：外企。工作地点：上海。岗位：Digital AI Coding Intern Program/数字化AI Coding 实习生项目。",
+    "url": "https://app.mokahr.com/social-recruitment/volvocars/67891#/job/4afd8324-80b9-4586-966c-5e9e27a83484?from=qrcode",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "auto_ic",
+    "companyType": "foreign",
+    "location": "上海",
+    "deadline": "尽快投递",
+    "tags": [
+      "沃尔沃汽车",
+      "实习",
+      "车企/IC",
+      "外企",
+      "汽车/新能源",
+      "上海"
+    ],
+    "score": 73,
+    "featured": false,
+    "createdAt": "2026-05-09T14:19:45.000Z"
+  },
+  {
+    "id": "deepoffer-16684",
+    "title": "凯捷 — 实习 | AI开发工程师、AIGC开发工程师(前端/后端)、数据开发工程师、SAP ...",
+    "summary": "招聘类型：实习。行业：IT/互联网/游戏/电商。企业性质：外企。工作地点：上海、北京、大连、沈阳。岗位：AI开发工程师、AIGC开发工程师(前端/后端)、数据开发工程师、SAP Basis顾问、SAP实施顾问、微软云开发工程师、运维工程师、软件开发工程师、项...。",
+    "url": "https://v.wjx.cn/vm/ryU3Kv3.aspx",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "game",
+    "companyType": "foreign",
+    "location": "上海、北京、大连、沈阳",
+    "deadline": "尽快投递",
+    "tags": [
+      "凯捷",
+      "实习",
+      "游戏",
+      "外企",
+      "IT/互联网/游戏/电商",
+      "上海",
+      "北京",
+      "大连"
+    ],
+    "score": 73,
+    "featured": false,
+    "createdAt": "2026-05-09T14:19:45.000Z"
+  },
+  {
+    "id": "deepoffer-16696",
+    "title": "索迪斯 — 实习 | 精英发展项目校园招聘：2027届法语相关专业的应届毕业生",
+    "summary": "招聘类型：实习。行业：广告/咨询/服务。企业性质：外企。工作地点：上海、北京、南京、广州、杭州、深圳、苏州、西安。截止日期：2026/12/31。岗位：精英发展项目校园招聘：2027届法语相关专业的应届毕业生。",
+    "url": "https://mp.weixin.qq.com/s/-V8jae9KwOy0xv9NfURBvw",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "foreign",
+    "companyType": "foreign",
+    "location": "上海、北京、南京、广州、杭州、深圳、苏州、西安",
+    "deadline": "2026/12/31",
+    "tags": [
+      "索迪斯",
+      "实习",
+      "外企",
+      "广告/咨询/服务",
+      "上海",
+      "北京",
+      "南京"
+    ],
+    "score": 72,
+    "featured": false,
+    "createdAt": "2026-05-09T14:19:45.000Z"
+  },
+  {
+    "id": "deepoffer-16692",
+    "title": "科赴 — 实习 | 销售 电商 市场 研发 供应链等岗位",
+    "summary": "招聘类型：实习。行业：IT/互联网/游戏/电商。企业性质：外企。工作地点：上海。截止日期：2026/06/05。岗位：销售 电商 市场 研发 供应链等岗位。",
+    "url": "https://jntl.tupu360.com/pageQrCode?targetUrl=a7f4739eb94ec9efcb7462b6f485e33058491525617ecd6f1ba43730c4832cfce8afafc011dbcc6086f6090b46e7a1ede670f8eef63ed11211edd8621e78944eecdd08eff1dc8266b2ebc00387c4026f",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "game",
+    "companyType": "foreign",
+    "location": "上海",
+    "deadline": "2026/06/05",
+    "tags": [
+      "科赴",
+      "实习",
+      "游戏",
+      "外企",
+      "IT/互联网/游戏/电商",
+      "上海"
+    ],
+    "score": 72,
+    "featured": false,
+    "createdAt": "2026-05-09T14:19:45.000Z"
+  },
+  {
+    "id": "deepoffer-16687",
+    "title": "百多力医疗 — 实习 | 暑期实习计划：专业不限、医学、生物工程、管理类优先",
+    "summary": "招聘类型：实习。行业：生物/医疗/医药/制药。企业性质：外企。工作地点：北京。岗位：暑期实习计划：专业不限、医学、生物工程、管理类优先。",
+    "url": "https://mp.weixin.qq.com/s/vOWMPnehQXu2beGh878FRg",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "foreign",
+    "companyType": "foreign",
+    "location": "北京",
+    "deadline": "尽快投递",
+    "tags": [
+      "百多力医疗",
+      "实习",
+      "外企",
+      "生物/医疗/医药/制药",
+      "北京"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-05-09T14:19:45.000Z"
+  },
+  {
     "id": "deepoffer-16697",
     "title": "中国铁路北京局 — 26届春招 | 财务会计 信息技术 法律事务 经营管理 医学检验等岗位",
     "summary": "招聘类型：26届春招。行业：交通/物流/出行。企业性质：央国企。工作地点：保定、北京、唐山、天津、张家口、承德、沧州、石家庄、衡水、邯郸。截止日期：2026/05/14。岗位：财务会计 信息技术 法律事务 经营管理 医学检验等岗位。",
@@ -4774,7 +4775,7 @@
       "北京",
       "唐山"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-09T14:19:45.000Z"
   },
@@ -4796,7 +4797,7 @@
       "教育/培训",
       "武汉"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-09T14:19:45.000Z"
   },
@@ -4821,7 +4822,7 @@
       "交通/物流/出行",
       "兰州"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-09T14:19:45.000Z"
   },
@@ -4844,7 +4845,7 @@
       "金融/银行/保险",
       "泉州"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-09T14:19:45.000Z"
   },
@@ -4867,7 +4868,7 @@
       "通信/电子/半导体",
       "深圳"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-09T14:19:45.000Z"
   },
@@ -4891,7 +4892,7 @@
       "快消/零售/消费品",
       "杭州"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-09T14:19:45.000Z"
   },
@@ -4917,7 +4918,7 @@
       "东莞",
       "北京"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-09T14:19:45.000Z"
   },
@@ -44703,7 +44704,7 @@
       "快消/零售/消费品",
       "北京"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-03-19T06:19:09.000Z"
   },
@@ -49488,8 +49489,8 @@
       "酒旅",
       "哈尔滨"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-03-16T18:18:42.000Z"
   },
   {
@@ -70743,7 +70744,7 @@
       "文化/传媒/出版",
       "长沙"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-03-01T15:33:36.000Z"
   },
@@ -70965,7 +70966,7 @@
       "农业/林业/其他",
       "天津"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-03-01T14:52:41.000Z"
   },
@@ -71183,8 +71184,8 @@
       "IT/互联网/游戏/电商",
       "上海"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-03-01T10:03:37.000Z"
   },
   {
@@ -117949,8 +117950,8 @@
       "交通/物流/出行",
       "上海"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-03-01T05:31:23.000Z"
   },
   {
