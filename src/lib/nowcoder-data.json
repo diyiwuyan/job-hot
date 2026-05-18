@@ -1,5 +1,25 @@
 [
   {
+    "id": "nowcoder-29192",
+    "title": "27届实习交流 — 27届实习 今日收录",
+    "summary": "招聘批次：27届实习 今日收录。工作地点：广州、深圳、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://www.nowcoder.com/my/resume-plugin-intro?channel=xzrc05",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "other",
+    "tags": [
+      "27届实习交流",
+      "实习",
+      "广州",
+      "深圳",
+      "北京"
+    ],
+    "score": 88,
+    "featured": true,
+    "createdAt": "2026-05-18T11:07:36.000Z"
+  },
+  {
     "id": "nowcoder-31998",
     "title": "玫瑰岛集团 — 27届实习",
     "summary": "全卫定制行业龙头，淋浴房销量全国领先，原创设计实力强，智能制造基地完善。招聘批次：27届实习。工作地点：中山。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
@@ -1061,6 +1081,23 @@
     "score": 75,
     "featured": false,
     "createdAt": "2026-04-07T08:34:59.000Z"
+  },
+  {
+    "id": "nowcoder-29073",
+    "title": "27届实习简历 — 网申：未开始",
+    "summary": "招聘批次：网申：未开始。",
+    "url": "https://www.nowcoder.com/enterprise/29073",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "27届实习简历",
+      "校招"
+    ],
+    "score": 62,
+    "featured": false,
+    "createdAt": "2026-04-02T03:14:51.000Z"
   },
   {
     "id": "nowcoder-1503",
