@@ -1021,7 +1021,7 @@
       "外企",
       "快消/零售/消费品"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-05-14T06:20:04.000Z"
   },
@@ -1045,8 +1045,8 @@
       "央国企",
       "机械/制造/设备"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-14T06:20:04.000Z"
   },
   {
@@ -1071,8 +1071,8 @@
       "合肥",
       "天津"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-14T06:20:04.000Z"
   },
   {
@@ -1096,175 +1096,6 @@
       "厦门",
       "福州",
       "郑州"
-    ],
-    "score": 83,
-    "featured": true,
-    "createdAt": "2026-05-14T06:20:04.000Z"
-  },
-  {
-    "id": "deepoffer-16841",
-    "title": "阿斯利康中国 — 实习 | 医学代表实习生",
-    "summary": "招聘类型：实习。行业：生物/医疗/医药/制药。企业性质：外企。工作地点：全国多地。岗位：医学代表实习生。",
-    "url": "https://app.mokahr.com/campus-recruitment/astrazeneca/148833?locale=zh-CN#/",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "foreign",
-    "companyType": "foreign",
-    "location": "全国多地",
-    "deadline": "尽快投递",
-    "tags": [
-      "阿斯利康中国",
-      "实习",
-      "外企",
-      "生物/医疗/医药/制药"
-    ],
-    "score": 81,
-    "featured": true,
-    "createdAt": "2026-05-14T06:20:04.000Z"
-  },
-  {
-    "id": "deepoffer-16831",
-    "title": "吉利 — 26届春招 | IT/互联网类、整车研发类、智能制造类、采购/供应链/质量类、设计类、职能类",
-    "summary": "招聘类型：26届春招。行业：汽车/新能源。企业性质：央国企。工作地点：三亚、上海、上饶、中卫、丽水、乌鲁木齐、兰州、南充、厦门、台州、哈尔滨、嘉兴、大连、宁波、宝鸡、广州。截止日期：2026/06/18。岗位：IT/互联网类、整车研发类、智能制造类、采购/供应链/质量类、设计类、职能类。",
-    "url": "https://app.mokahr.com/campus-recruitment/geely/78436/?sourceToken=7d053743ee8f0da9e2edd496a9d218e7#/jobs?commitment[0]=%E5%85%A8%E8%81%8C&page=1&anchorName=jobsList",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "三亚、上海、上饶、中卫、丽水、乌鲁木齐、兰州、南充、厦门、台州、哈尔滨、嘉兴、大连、宁波、宝鸡、广州",
-    "deadline": "2026/06/18",
-    "tags": [
-      "吉利",
-      "校招",
-      "春招",
-      "车企/IC",
-      "央国企",
-      "汽车/新能源",
-      "三亚",
-      "上海",
-      "上饶"
-    ],
-    "score": 81,
-    "featured": true,
-    "createdAt": "2026-05-14T06:20:04.000Z"
-  },
-  {
-    "id": "deepoffer-16830",
-    "title": "安克创新ANKER — 实习 | 研发技术类、数据开发类、产品与体验类、设计类、市场营销类、采购与供应链类、...",
-    "summary": "招聘类型：实习。行业：通信/电子/半导体。企业性质：民企。工作地点：上海、北京、杭州、深圳、苏州、长沙。岗位：研发技术类、数据开发类、产品与体验类、设计类、市场营销类、采购与供应链类、品质类、职能类、制造类。",
-    "url": "https://career.anker.com.cn/universities/recruitment/new/?channel=internship",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "auto_ic",
-    "companyType": "private",
-    "location": "上海、北京、杭州、深圳、苏州、长沙",
-    "deadline": "尽快投递",
-    "tags": [
-      "安克创新ANKER",
-      "实习",
-      "车企/IC",
-      "通信/电子/半导体",
-      "上海",
-      "北京",
-      "杭州"
-    ],
-    "score": 80,
-    "featured": true,
-    "createdAt": "2026-05-14T06:20:04.000Z"
-  },
-  {
-    "id": "deepoffer-16829",
-    "title": "宁波银行总行金融科技部 — 实习 | 应用研发(后端/数据)、算法工程师、运维(含SRE)、系统测试、安全技术",
-    "summary": "招聘类型：实习。行业：金融/银行/保险。企业性质：银行。工作地点：宁波。岗位：应用研发(后端/数据)、算法工程师、运维(含SRE)、系统测试、安全技术。",
-    "url": "https://zhaopin.nbcb.com.cn/app/?sessionid=#/postDetail?id=5e08c77d06344d18990cd40a4c545bfc&postType=2",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "finance",
-    "companyType": "bank",
-    "location": "宁波",
-    "deadline": "尽快投递",
-    "tags": [
-      "宁波银行总行金融科技部",
-      "实习",
-      "金融",
-      "银行",
-      "金融/银行/保险",
-      "宁波"
-    ],
-    "score": 80,
-    "featured": true,
-    "createdAt": "2026-05-14T06:20:04.000Z"
-  },
-  {
-    "id": "deepoffer-16834",
-    "title": "卫宁健康 — 实习 | 研发工程师(AI应用方向)、研发工程师(技术专家方向)、算法工程师(大模型...",
-    "summary": "招聘类型：实习。行业：生物/医疗/医药/制药。企业性质：民企。工作地点：上海。岗位：研发工程师(AI应用方向)、研发工程师(技术专家方向)、算法工程师(大模型工程方向)、数据工程师(数据分析方向)、产品经理(AI应用方向)、业务顾问(业务...。",
-    "url": "https://mp.weixin.qq.com/s/ulfbeXte8r2KHogOpBTN7g",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "internet",
-    "companyType": "private",
-    "location": "上海",
-    "deadline": "尽快投递",
-    "tags": [
-      "卫宁健康",
-      "实习",
-      "互联网/AI",
-      "生物/医疗/医药/制药",
-      "上海"
-    ],
-    "score": 79,
-    "featured": false,
-    "createdAt": "2026-05-14T06:20:04.000Z"
-  },
-  {
-    "id": "deepoffer-16827",
-    "title": "文化和旅游部恭王府博物馆 — 26届春招 | 数字技术 人力资源 资产管理 法务",
-    "summary": "招聘类型：26届春招。行业：文化/传媒/出版。企业性质：事业单位。工作地点：北京。岗位：数字技术 人力资源 资产管理 法务。",
-    "url": "https://xyzp.51job.com/gwf2026/jobs.html",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "institution",
-    "location": "北京",
-    "deadline": "尽快投递",
-    "tags": [
-      "文化和旅游部恭王府博物馆",
-      "校招",
-      "春招",
-      "事业单位",
-      "文化/传媒/出版",
-      "北京"
-    ],
-    "score": 79,
-    "featured": false,
-    "createdAt": "2026-05-14T06:20:04.000Z"
-  },
-  {
-    "id": "deepoffer-16833",
-    "title": "惠之美生活服务集团 — 实习 | 惠星生（客服条线）、匠星生（工程条线）",
-    "summary": "招聘类型：实习。行业：房地产/建筑/物业。企业性质：民企。工作地点：北京、成都、武汉、西安。岗位：惠星生（客服条线）、匠星生（工程条线）。",
-    "url": "https://v.wjx.cn/vm/Pb5YxkP.aspx",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "other",
-    "companyType": "private",
-    "location": "北京、成都、武汉、西安",
-    "deadline": "尽快投递",
-    "tags": [
-      "惠之美生活服务集团",
-      "实习",
-      "房地产/建筑/物业",
-      "北京",
-      "成都",
-      "武汉"
     ],
     "score": 78,
     "featured": false,
@@ -1296,6 +1127,175 @@
     "createdAt": "2026-05-14T06:20:04.000Z"
   },
   {
+    "id": "deepoffer-16841",
+    "title": "阿斯利康中国 — 实习 | 医学代表实习生",
+    "summary": "招聘类型：实习。行业：生物/医疗/医药/制药。企业性质：外企。工作地点：全国多地。岗位：医学代表实习生。",
+    "url": "https://app.mokahr.com/campus-recruitment/astrazeneca/148833?locale=zh-CN#/",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "foreign",
+    "companyType": "foreign",
+    "location": "全国多地",
+    "deadline": "尽快投递",
+    "tags": [
+      "阿斯利康中国",
+      "实习",
+      "外企",
+      "生物/医疗/医药/制药"
+    ],
+    "score": 76,
+    "featured": false,
+    "createdAt": "2026-05-14T06:20:04.000Z"
+  },
+  {
+    "id": "deepoffer-16831",
+    "title": "吉利 — 26届春招 | IT/互联网类、整车研发类、智能制造类、采购/供应链/质量类、设计类、职能类",
+    "summary": "招聘类型：26届春招。行业：汽车/新能源。企业性质：央国企。工作地点：三亚、上海、上饶、中卫、丽水、乌鲁木齐、兰州、南充、厦门、台州、哈尔滨、嘉兴、大连、宁波、宝鸡、广州。截止日期：2026/06/18。岗位：IT/互联网类、整车研发类、智能制造类、采购/供应链/质量类、设计类、职能类。",
+    "url": "https://app.mokahr.com/campus-recruitment/geely/78436/?sourceToken=7d053743ee8f0da9e2edd496a9d218e7#/jobs?commitment[0]=%E5%85%A8%E8%81%8C&page=1&anchorName=jobsList",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "三亚、上海、上饶、中卫、丽水、乌鲁木齐、兰州、南充、厦门、台州、哈尔滨、嘉兴、大连、宁波、宝鸡、广州",
+    "deadline": "2026/06/18",
+    "tags": [
+      "吉利",
+      "校招",
+      "春招",
+      "车企/IC",
+      "央国企",
+      "汽车/新能源",
+      "三亚",
+      "上海",
+      "上饶"
+    ],
+    "score": 76,
+    "featured": false,
+    "createdAt": "2026-05-14T06:20:04.000Z"
+  },
+  {
+    "id": "deepoffer-16830",
+    "title": "安克创新ANKER — 实习 | 研发技术类、数据开发类、产品与体验类、设计类、市场营销类、采购与供应链类、...",
+    "summary": "招聘类型：实习。行业：通信/电子/半导体。企业性质：民企。工作地点：上海、北京、杭州、深圳、苏州、长沙。岗位：研发技术类、数据开发类、产品与体验类、设计类、市场营销类、采购与供应链类、品质类、职能类、制造类。",
+    "url": "https://career.anker.com.cn/universities/recruitment/new/?channel=internship",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "auto_ic",
+    "companyType": "private",
+    "location": "上海、北京、杭州、深圳、苏州、长沙",
+    "deadline": "尽快投递",
+    "tags": [
+      "安克创新ANKER",
+      "实习",
+      "车企/IC",
+      "通信/电子/半导体",
+      "上海",
+      "北京",
+      "杭州"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-05-14T06:20:04.000Z"
+  },
+  {
+    "id": "deepoffer-16829",
+    "title": "宁波银行总行金融科技部 — 实习 | 应用研发(后端/数据)、算法工程师、运维(含SRE)、系统测试、安全技术",
+    "summary": "招聘类型：实习。行业：金融/银行/保险。企业性质：银行。工作地点：宁波。岗位：应用研发(后端/数据)、算法工程师、运维(含SRE)、系统测试、安全技术。",
+    "url": "https://zhaopin.nbcb.com.cn/app/?sessionid=#/postDetail?id=5e08c77d06344d18990cd40a4c545bfc&postType=2",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "finance",
+    "companyType": "bank",
+    "location": "宁波",
+    "deadline": "尽快投递",
+    "tags": [
+      "宁波银行总行金融科技部",
+      "实习",
+      "金融",
+      "银行",
+      "金融/银行/保险",
+      "宁波"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-05-14T06:20:04.000Z"
+  },
+  {
+    "id": "deepoffer-16834",
+    "title": "卫宁健康 — 实习 | 研发工程师(AI应用方向)、研发工程师(技术专家方向)、算法工程师(大模型...",
+    "summary": "招聘类型：实习。行业：生物/医疗/医药/制药。企业性质：民企。工作地点：上海。岗位：研发工程师(AI应用方向)、研发工程师(技术专家方向)、算法工程师(大模型工程方向)、数据工程师(数据分析方向)、产品经理(AI应用方向)、业务顾问(业务...。",
+    "url": "https://mp.weixin.qq.com/s/ulfbeXte8r2KHogOpBTN7g",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "internet",
+    "companyType": "private",
+    "location": "上海",
+    "deadline": "尽快投递",
+    "tags": [
+      "卫宁健康",
+      "实习",
+      "互联网/AI",
+      "生物/医疗/医药/制药",
+      "上海"
+    ],
+    "score": 74,
+    "featured": false,
+    "createdAt": "2026-05-14T06:20:04.000Z"
+  },
+  {
+    "id": "deepoffer-16827",
+    "title": "文化和旅游部恭王府博物馆 — 26届春招 | 数字技术 人力资源 资产管理 法务",
+    "summary": "招聘类型：26届春招。行业：文化/传媒/出版。企业性质：事业单位。工作地点：北京。岗位：数字技术 人力资源 资产管理 法务。",
+    "url": "https://xyzp.51job.com/gwf2026/jobs.html",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "institution",
+    "location": "北京",
+    "deadline": "尽快投递",
+    "tags": [
+      "文化和旅游部恭王府博物馆",
+      "校招",
+      "春招",
+      "事业单位",
+      "文化/传媒/出版",
+      "北京"
+    ],
+    "score": 74,
+    "featured": false,
+    "createdAt": "2026-05-14T06:20:04.000Z"
+  },
+  {
+    "id": "deepoffer-16833",
+    "title": "惠之美生活服务集团 — 实习 | 惠星生（客服条线）、匠星生（工程条线）",
+    "summary": "招聘类型：实习。行业：房地产/建筑/物业。企业性质：民企。工作地点：北京、成都、武汉、西安。岗位：惠星生（客服条线）、匠星生（工程条线）。",
+    "url": "https://v.wjx.cn/vm/Pb5YxkP.aspx",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "other",
+    "companyType": "private",
+    "location": "北京、成都、武汉、西安",
+    "deadline": "尽快投递",
+    "tags": [
+      "惠之美生活服务集团",
+      "实习",
+      "房地产/建筑/物业",
+      "北京",
+      "成都",
+      "武汉"
+    ],
+    "score": 73,
+    "featured": false,
+    "createdAt": "2026-05-14T06:20:04.000Z"
+  },
+  {
     "id": "deepoffer-16838",
     "title": "内蒙古万联易达 — 26届春招 | 财务管理类、人力行政类、营销管理类、运营管理类、业务统计类",
     "summary": "招聘类型：26届春招。行业：交通/物流/出行。企业性质：民企。工作地点：乌海、包头、呼伦贝尔、呼和浩特、巴彦淖尔、赤峰、通辽、鄂尔多斯、锡林郭勒盟、阿拉善盟。岗位：财务管理类、人力行政类、营销管理类、运营管理类、业务统计类。",
@@ -1316,7 +1316,7 @@
       "包头",
       "呼伦贝尔"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-14T06:20:04.000Z"
   },
@@ -1340,7 +1340,7 @@
       "生物/医疗/医药/制药",
       "杭州"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-14T06:20:04.000Z"
   },
@@ -1364,7 +1364,7 @@
       "广州",
       "成都"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-14T06:20:04.000Z"
   },
@@ -1387,7 +1387,7 @@
       "金融/银行/保险",
       "北京|上海|深圳|合肥|杭州|南京|广州|青岛|成都|重庆西安|沈阳|济南|大连|郑州|香港|东京|"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-14T06:20:04.000Z"
   },
@@ -1413,8 +1413,8 @@
       "徐州",
       "苏州"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-14T06:20:03.000Z"
   },
   {
@@ -1435,8 +1435,8 @@
       "外企",
       "文化/传媒/出版"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-14T06:20:03.000Z"
   },
   {
@@ -1459,8 +1459,8 @@
       "通信/电子/半导体",
       "苏州"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-14T06:20:03.000Z"
   },
   {
@@ -1484,8 +1484,8 @@
       "能源/化工/环保",
       "北京"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-14T06:20:03.000Z"
   },
   {
@@ -1508,8 +1508,8 @@
       "文化/传媒/出版",
       "北京"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-14T06:20:03.000Z"
   },
   {
@@ -1532,8 +1532,8 @@
       "机械/制造/设备",
       "宁波"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-14T06:20:03.000Z"
   },
   {
@@ -1555,8 +1555,8 @@
       "文化/传媒/出版",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-14T06:20:03.000Z"
   },
   {
@@ -1578,8 +1578,8 @@
       "IT/互联网/游戏/电商",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-14T06:20:03.000Z"
   },
   {
@@ -1599,7 +1599,7 @@
       "实习",
       "教育/培训"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-14T06:20:03.000Z"
   },
@@ -1623,7 +1623,7 @@
       "上海",
       "北京"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-14T06:20:03.000Z"
   },
@@ -1645,7 +1645,7 @@
       "文化/传媒/出版",
       "上海"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-14T06:20:03.000Z"
   },
@@ -1671,7 +1671,7 @@
       "南昌",
       "济南"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-14T06:20:03.000Z"
   },
@@ -1695,7 +1695,7 @@
       "房地产/建筑/物业",
       "中山"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-14T06:20:03.000Z"
   },
@@ -1720,7 +1720,7 @@
       "北京",
       "南京"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-14T06:20:03.000Z"
   },
@@ -1744,7 +1744,7 @@
       "广州",
       "沈阳"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-14T06:20:03.000Z"
   },
@@ -1767,7 +1767,7 @@
       "金融/银行/保险",
       "上海"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-14T06:20:03.000Z"
   },
@@ -1790,7 +1790,7 @@
       "文化/传媒/出版",
       "长沙"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-14T06:20:03.000Z"
   },
@@ -1814,7 +1814,7 @@
       "杭州",
       "深圳"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-14T06:20:03.000Z"
   },
@@ -1837,8 +1837,8 @@
       "教育/培训",
       "合肥"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-14T06:20:02.000Z"
   },
   {
@@ -1860,7 +1860,7 @@
       "人工智能/机器人",
       "北京"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-14T06:20:02.000Z"
   },
@@ -2166,30 +2166,6 @@
     "createdAt": "2026-05-13T10:19:51.000Z"
   },
   {
-    "id": "deepoffer-16786",
-    "title": "隆基绿能丨中研院材料研发 — 26届春招 | 中研院研发高级工程师（材料合成）",
-    "summary": "招聘类型：26届春招。行业：汽车/新能源。企业性质：民企。工作地点：咸阳。岗位：中研院研发高级工程师（材料合成）。",
-    "url": "https://wecruit.hotjob.cn/SU649d30920dcad4644b43e39b/mc/detail?postId=513016&recruitType=campus",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "private",
-    "location": "咸阳",
-    "deadline": "尽快投递",
-    "tags": [
-      "隆基绿能丨中研院材料研发",
-      "校招",
-      "春招",
-      "车企/IC",
-      "汽车/新能源",
-      "咸阳"
-    ],
-    "score": 77,
-    "featured": false,
-    "createdAt": "2026-05-13T10:19:51.000Z"
-  },
-  {
     "id": "deepoffer-16796",
     "title": "济南黄河路桥建设集团 — 26届春招 | 工程技术，出纳，文秘，技术员，造价员，试验员（土木类，建筑类，机械类，地质...",
     "summary": "招聘类型：26届春招。行业：房地产/建筑/物业。企业性质：央国企。工作地点：济南。截止日期：2026/05/20。岗位：工程技术，出纳，文秘，技术员，造价员，试验员（土木类，建筑类，机械类，地质类，水利类，交通运输类，电气类，经济学类，金融学类，工商管理类，文学类，新闻传播...。",
@@ -2356,6 +2332,30 @@
       "上海"
     ],
     "score": 73,
+    "featured": false,
+    "createdAt": "2026-05-13T10:19:51.000Z"
+  },
+  {
+    "id": "deepoffer-16786",
+    "title": "隆基绿能丨中研院材料研发 — 26届春招 | 中研院研发高级工程师（材料合成）",
+    "summary": "招聘类型：26届春招。行业：汽车/新能源。企业性质：民企。工作地点：咸阳。岗位：中研院研发高级工程师（材料合成）。",
+    "url": "https://wecruit.hotjob.cn/SU649d30920dcad4644b43e39b/mc/detail?postId=513016&recruitType=campus",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "private",
+    "location": "咸阳",
+    "deadline": "尽快投递",
+    "tags": [
+      "隆基绿能丨中研院材料研发",
+      "校招",
+      "春招",
+      "车企/IC",
+      "汽车/新能源",
+      "咸阳"
+    ],
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-13T10:19:51.000Z"
   },
@@ -3321,31 +3321,6 @@
     "createdAt": "2026-05-12T06:19:48.000Z"
   },
   {
-    "id": "deepoffer-16732",
-    "title": "帆一尚行 — 实习 | 工业大脑Ai Infra岗、知识体系/本体岗、模型管理岗、智能体平台岗、数...",
-    "summary": "招聘类型：实习。行业：文化/传媒/出版。企业性质：央国企。工作地点：上海、南京。岗位：工业大脑Ai Infra岗、知识体系/本体岗、模型管理岗、智能体平台岗、数据平台岗、AI安全治理岗、具身AI算法岗、具身推理平台岗、具身开发平台岗、机器人...。",
-    "url": "https://saic-recruit.saicmotor.com/recruit/pc/#/collegeRecruit",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "上海、南京",
-    "deadline": "尽快投递",
-    "tags": [
-      "帆一尚行",
-      "实习",
-      "车企/IC",
-      "央国企",
-      "文化/传媒/出版",
-      "上海",
-      "南京"
-    ],
-    "score": 83,
-    "featured": true,
-    "createdAt": "2026-05-12T06:19:47.000Z"
-  },
-  {
     "id": "deepoffer-16734",
     "title": "丝绸之路大数据 — 26届春招 | 安全运维、软件开发、市场营销",
     "summary": "招聘类型：26届春招。行业：IT/互联网/游戏/电商。企业性质：央国企。工作地点：兰州。岗位：安全运维、软件开发、市场营销。",
@@ -3391,6 +3366,31 @@
       "上海"
     ],
     "score": 79,
+    "featured": false,
+    "createdAt": "2026-05-12T06:19:47.000Z"
+  },
+  {
+    "id": "deepoffer-16732",
+    "title": "帆一尚行 — 实习 | 工业大脑Ai Infra岗、知识体系/本体岗、模型管理岗、智能体平台岗、数...",
+    "summary": "招聘类型：实习。行业：文化/传媒/出版。企业性质：央国企。工作地点：上海、南京。岗位：工业大脑Ai Infra岗、知识体系/本体岗、模型管理岗、智能体平台岗、数据平台岗、AI安全治理岗、具身AI算法岗、具身推理平台岗、具身开发平台岗、机器人...。",
+    "url": "https://saic-recruit.saicmotor.com/recruit/pc/#/collegeRecruit",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "上海、南京",
+    "deadline": "尽快投递",
+    "tags": [
+      "帆一尚行",
+      "实习",
+      "车企/IC",
+      "央国企",
+      "文化/传媒/出版",
+      "上海",
+      "南京"
+    ],
+    "score": 78,
     "featured": false,
     "createdAt": "2026-05-12T06:19:47.000Z"
   },
@@ -7247,29 +7247,6 @@
     "createdAt": "2026-05-06T06:20:11.000Z"
   },
   {
-    "id": "deepoffer-16578",
-    "title": "泉果基金 — 实习 | 投资中国训练营实习生（投研方向）",
-    "summary": "招聘类型：实习。行业：金融/银行/保险。企业性质：民企。工作地点：上海。截止日期：2026/06/30。岗位：投资中国训练营实习生（投研方向）。",
-    "url": "https://qgfund.zhiye.com/campus/detail?jobAdId=a2a9397c-bc5c-4e8d-8884-d31e8db47af2",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "finance",
-    "companyType": "private",
-    "location": "上海",
-    "deadline": "2026/06/30",
-    "tags": [
-      "泉果基金",
-      "实习",
-      "金融",
-      "金融/银行/保险",
-      "上海"
-    ],
-    "score": 80,
-    "featured": true,
-    "createdAt": "2026-05-06T06:20:10.000Z"
-  },
-  {
     "id": "deepoffer-16575",
     "title": "快手 — 实习 | 【留用实习】多模态内容理解算法工程师、【留用实习】音视频联合生成大模型算法...",
     "summary": "招聘类型：实习。行业：IT/互联网/游戏/电商。企业性质：民企。工作地点：上海、北京、广州、杭州、深圳。岗位：【留用实习】多模态内容理解算法工程师、【留用实习】音视频联合生成大模型算法工程师、【留用实习】广告大模型算法工程师、【留用实习】推荐模型算法工程师、【留用...。",
@@ -7291,6 +7268,29 @@
       "广州"
     ],
     "score": 76,
+    "featured": false,
+    "createdAt": "2026-05-06T06:20:10.000Z"
+  },
+  {
+    "id": "deepoffer-16578",
+    "title": "泉果基金 — 实习 | 投资中国训练营实习生（投研方向）",
+    "summary": "招聘类型：实习。行业：金融/银行/保险。企业性质：民企。工作地点：上海。截止日期：2026/06/30。岗位：投资中国训练营实习生（投研方向）。",
+    "url": "https://qgfund.zhiye.com/campus/detail?jobAdId=a2a9397c-bc5c-4e8d-8884-d31e8db47af2",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "finance",
+    "companyType": "private",
+    "location": "上海",
+    "deadline": "2026/06/30",
+    "tags": [
+      "泉果基金",
+      "实习",
+      "金融",
+      "金融/银行/保险",
+      "上海"
+    ],
+    "score": 75,
     "featured": false,
     "createdAt": "2026-05-06T06:20:10.000Z"
   },
@@ -30170,8 +30170,8 @@
       "南京",
       "无锡"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-03-31T10:19:00.000Z"
   },
   {
@@ -55822,7 +55822,7 @@
       "南昌",
       "宜宾"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-03-12T06:19:00.000Z"
   },
@@ -70796,8 +70796,8 @@
       "北京",
       "香港"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-03-01T15:33:31.000Z"
   },
   {
@@ -141336,8 +141336,8 @@
       "能源/化工/环保",
       "乌鲁木齐"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-02-28T14:51:53.000Z"
   },
   {
