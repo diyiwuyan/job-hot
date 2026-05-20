@@ -206,6 +206,90 @@
     "createdAt": "2026-05-19T12:03:28.000Z"
   },
   {
+    "id": "nowcoder-4159",
+    "title": "中海地产 — 27届实习 今日收录",
+    "summary": "央企背景品牌房企，项目开发品质优良，布局范围广阔，物业服务体系完善。。招聘批次：27届实习 今日收录。工作地点：大连、哈尔滨、南京、杭州、厦门、济南、武汉、长沙、广州、西安、北京、上海、重庆、天津。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://coli688.zhiye.com/intern/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "other",
+    "tags": [
+      "中海地产",
+      "实习",
+      "大连",
+      "哈尔滨",
+      "南京",
+      "房地产"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-05-19T12:00:41.000Z"
+  },
+  {
+    "id": "nowcoder-248563",
+    "title": "中建西南咨询顾问有限公司 — 27届实习 今日收录",
+    "summary": "工程咨询行业新锐，央企背景，资质齐全，数字化能力强，重大项目经验丰富。。招聘批次：27届实习 今日收录。工作地点：雄安新区、苏州、广州、佛山、成都。招聘岗位：项目、管理、财务审计、房地产、设计装修与市政建设。",
+    "url": "https://recruit.cscec.com/recruit#/portal_job_list?job_class=campus&filter_dict=%7B%22select_depart%22:null%7D&company_id=1873&contract_unit=32049809",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "other",
+    "tags": [
+      "中建西南咨询顾问有限公司",
+      "实习",
+      "雄安新区",
+      "苏州",
+      "广州"
+    ],
+    "score": 88,
+    "featured": true,
+    "createdAt": "2026-05-19T12:00:29.000Z"
+  },
+  {
+    "id": "nowcoder-1915",
+    "title": "上海农商银行 — 27届实习 今日收录",
+    "summary": "本土区域性商业银行，深耕城乡金融市场，普惠业务扎实，本土客户根基稳固。。招聘批次：27届实习 今日收录。工作地点：昆山、嘉兴、湘潭、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://shrcb.zhiye.com/campus/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "finance",
+    "tags": [
+      "上海农商银行",
+      "实习",
+      "金融",
+      "昆山",
+      "嘉兴",
+      "湘潭",
+      "银行"
+    ],
+    "score": 95,
+    "featured": true,
+    "createdAt": "2026-05-19T12:00:05.000Z"
+  },
+  {
+    "id": "nowcoder-814",
+    "title": "搜狐畅游 — 27届实习 今日收录",
+    "summary": "老牌游戏研发运营企业，自研 IP 底蕴深厚，产品线丰富，行业运营经验充足。。招聘批次：27届实习 今日收录。工作地点：福州、北京、重庆。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://app.mokahr.com/campus-recruitment/cyou-inc/42233#/jobs?page=1&anchorName=jobsList&project0=100120066",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "game",
+    "tags": [
+      "搜狐畅游",
+      "实习",
+      "游戏",
+      "福州",
+      "北京",
+      "重庆"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-05-19T11:59:52.000Z"
+  },
+  {
     "id": "nowcoder-32020",
     "title": "27届网申信息 — 网申：未开始",
     "summary": "招聘批次：网申：未开始。",
@@ -307,47 +391,6 @@
     "createdAt": "2026-05-18T13:07:10.000Z"
   },
   {
-    "id": "nowcoder-4159",
-    "title": "中海地产 — 27届实习 今日收录",
-    "summary": "央企背景品牌房企，项目开发品质优良，布局范围广阔，物业服务体系完善。。招聘批次：27届实习 今日收录。工作地点：大连、哈尔滨、南京、杭州、厦门、济南、武汉、长沙、广州、西安、北京、上海、重庆、天津。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
-    "url": "https://coli688.zhiye.com/intern/jobs",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "intern",
-    "category": "other",
-    "tags": [
-      "中海地产",
-      "实习",
-      "大连",
-      "哈尔滨",
-      "南京",
-      "房地产"
-    ],
-    "score": 92,
-    "featured": true,
-    "createdAt": "2026-05-18T13:06:14.000Z"
-  },
-  {
-    "id": "nowcoder-248563",
-    "title": "中建西南咨询顾问有限公司 — 27届实习 今日收录",
-    "summary": "工程咨询行业头部机构，项目咨询经验充足，专业资质齐全，全流程服务能力强。。招聘批次：27届实习 今日收录。工作地点：雄安新区、苏州、广州、佛山、成都。招聘岗位：项目、管理、财务审计、房地产、设计装修与市政建设。",
-    "url": "https://recruit.cscec.com/recruit#/portal_job_list?job_class=campus&filter_dict=%7B%22select_depart%22:null%7D&company_id=1873&contract_unit=32049809",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "intern",
-    "category": "other",
-    "tags": [
-      "中建西南咨询顾问有限公司",
-      "实习",
-      "雄安新区",
-      "苏州",
-      "广州"
-    ],
-    "score": 88,
-    "featured": true,
-    "createdAt": "2026-05-18T13:03:15.000Z"
-  },
-  {
     "id": "nowcoder-31448",
     "title": "上海通怡投资管理有限公司 — 27届实习 今日收录",
     "summary": "规范化私募投资机构，专注权益类资产配置，投研框架成熟，风控体系完备。。招聘批次：27届实习 今日收录。工作地点：上海。招聘岗位：数据、人工智能/算法、产品、投融资、市场/营销等。",
@@ -365,28 +408,6 @@
     "score": 95,
     "featured": true,
     "createdAt": "2026-05-18T13:01:30.000Z"
-  },
-  {
-    "id": "nowcoder-1915",
-    "title": "上海农商银行 — 27届实习 今日收录",
-    "summary": "本土区域性商业银行，深耕城乡金融市场，普惠业务扎实，本土客户根基稳固。。招聘批次：27届实习 今日收录。工作地点：昆山、嘉兴、湘潭、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
-    "url": "https://shrcb.zhiye.com/campus/jobs",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "intern",
-    "category": "finance",
-    "tags": [
-      "上海农商银行",
-      "实习",
-      "金融",
-      "昆山",
-      "嘉兴",
-      "湘潭",
-      "银行"
-    ],
-    "score": 95,
-    "featured": true,
-    "createdAt": "2026-05-18T13:00:09.000Z"
   },
   {
     "id": "nowcoder-28913",
