@@ -1,5 +1,25 @@
 [
   {
+    "id": "nowcoder-29192",
+    "title": "27届实习交流 — 27届实习",
+    "summary": "招聘批次：27届实习。工作地点：广州、深圳、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://www.nowcoder.com/my/resume-plugin-intro?channel=xzrc05",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "other",
+    "tags": [
+      "27届实习交流",
+      "实习",
+      "广州",
+      "深圳",
+      "北京"
+    ],
+    "score": 88,
+    "featured": true,
+    "createdAt": "2026-05-20T09:33:21.000Z"
+  },
+  {
     "id": "nowcoder-32014",
     "title": "广州塔 — 26春招 今日收录",
     "summary": "城市地标文旅综合体，文旅资源丰富，运营模式成熟，品牌影响力大，城市名片效应显著。。招聘批次：26春招 今日收录。工作地点：广州。招聘岗位：市场/营销、销售类、客服、管理、翻译相关等。",
@@ -447,26 +467,6 @@
     "score": 91,
     "featured": true,
     "createdAt": "2026-05-18T12:50:01.000Z"
-  },
-  {
-    "id": "nowcoder-29192",
-    "title": "27届实习交流 — 27届实习",
-    "summary": "招聘批次：27届实习。工作地点：广州、深圳、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
-    "url": "https://www.nowcoder.com/my/resume-plugin-intro?channel=xzrc05",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "intern",
-    "category": "other",
-    "tags": [
-      "27届实习交流",
-      "实习",
-      "广州",
-      "深圳",
-      "北京"
-    ],
-    "score": 88,
-    "featured": true,
-    "createdAt": "2026-05-18T11:07:36.000Z"
   },
   {
     "id": "nowcoder-31998",
