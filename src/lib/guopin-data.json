@@ -41,6 +41,91 @@
     "createdAt": "2026-06-01T00:00:00.000Z"
   },
   {
+    "id": "guopin-190082857966766559",
+    "title": "酒泉钢铁（集团）有限责任公司 — 三甲医院医师",
+    "summary": "企业性质：国企。行业：制造业。工作地点：嘉峪关。薪资：7300-8800元/月。学历：硕士。规模：30000人以上。",
+    "url": "https://www.iguopin.com/job/detail?id=190082857966766559",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "酒泉钢铁（集团）有限责任公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "制造业",
+      "嘉峪关"
+    ],
+    "score": 86,
+    "featured": true,
+    "createdAt": "2026-05-21T18:48:08.000Z"
+  },
+  {
+    "id": "guopin-196130785495879354",
+    "title": "酒泉钢铁（集团）有限责任公司 — 高校教师",
+    "summary": "企业性质：国企。行业：制造业。工作地点：嘉峪关。薪资：7000-8500元/月。学历：硕士。规模：30000人以上。",
+    "url": "https://www.iguopin.com/job/detail?id=196130785495879354",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "酒泉钢铁（集团）有限责任公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "制造业",
+      "嘉峪关"
+    ],
+    "score": 85,
+    "featured": true,
+    "createdAt": "2026-05-21T18:48:08.000Z"
+  },
+  {
+    "id": "guopin-190082746700270047",
+    "title": "酒泉钢铁（集团）有限责任公司 — 工艺工程师（冶金）",
+    "summary": "企业性质：国企。行业：制造业。工作地点：嘉峪关、兰州-榆中县。薪资：6800-9300元/月。学历：本科。规模：30000人以上。",
+    "url": "https://www.iguopin.com/job/detail?id=190082746700270047",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "酒泉钢铁（集团）有限责任公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "制造业",
+      "嘉峪关",
+      "兰州"
+    ],
+    "score": 83,
+    "featured": true,
+    "createdAt": "2026-05-21T18:48:08.000Z"
+  },
+  {
+    "id": "guopin-190082803524700649",
+    "title": "酒泉钢铁（集团）有限责任公司 — 电气工程师",
+    "summary": "企业性质：国企。行业：制造业。工作地点：嘉峪关。薪资：6800-9300元/月。学历：本科。规模：30000人以上。",
+    "url": "https://www.iguopin.com/job/detail?id=190082803524700649",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "酒泉钢铁（集团）有限责任公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "制造业",
+      "嘉峪关"
+    ],
+    "score": 81,
+    "featured": true,
+    "createdAt": "2026-05-21T18:48:08.000Z"
+  },
+  {
     "id": "guopin-201399753647325513",
     "title": "海南农垦科技集团有限公司 — 管理培训生",
     "summary": "企业性质：国企。行业：专业技术服务业。工作地点：海口-龙华区。薪资：6000-7999元/月。学历：本科。规模：100-300人。",
@@ -809,6 +894,29 @@
     "createdAt": "2026-05-21T00:00:00.000Z"
   },
   {
+    "id": "guopin-201403756875612481",
+    "title": "国家电投集团广西电力有限公司 — 水利水电工程类相关专业技术岗位",
+    "summary": "企业性质：国企。行业：电力、热力、燃气及水生产和供应业。工作地点：梧州、桂林、钦州。薪资面议。学历：本科。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=201403756875612481",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "国家电投集团广西电力有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "电力、热力、燃气及水生产和供应业",
+      "梧州",
+      "桂林",
+      "钦州"
+    ],
+    "score": 81,
+    "featured": true,
+    "createdAt": "2026-05-21T00:00:00.000Z"
+  },
+  {
     "id": "guopin-201354817971421513",
     "title": "国药集团新疆制药有限公司 — 销售员",
     "summary": "企业性质：国企。行业：医药制造业。工作地点：乌鲁木齐-头屯河区。薪资面议。学历：本科。规模：300-500人。",
@@ -866,6 +974,29 @@
       "长沙"
     ],
     "score": 79,
+    "featured": false,
+    "createdAt": "2026-05-21T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-201403894583001417",
+    "title": "国家电投集团广西电力有限公司 — 气象类相关专业技术岗位",
+    "summary": "企业性质：国企。行业：电力、热力、燃气及水生产和供应业。工作地点：梧州、桂林、钦州。薪资面议。学历：本科。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=201403894583001417",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "国家电投集团广西电力有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "电力、热力、燃气及水生产和供应业",
+      "梧州",
+      "桂林",
+      "钦州"
+    ],
+    "score": 78,
     "featured": false,
     "createdAt": "2026-05-21T00:00:00.000Z"
   },
@@ -7488,7 +7619,7 @@
       "专业技术服务业",
       "北京"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-05-13T12:11:11.000Z"
   },
@@ -7509,8 +7640,8 @@
       "其他",
       "珠海市"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-13T12:01:48.000Z"
   },
   {
@@ -7529,8 +7660,8 @@
       "其他",
       "珠海市"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T11:52:00.000Z"
   },
   {
@@ -7549,7 +7680,7 @@
       "土木工程建筑业",
       "中国"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-05-13T11:30:10.000Z"
   },
@@ -7569,7 +7700,7 @@
       "其他",
       "珠海市"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-05-13T11:24:55.000Z"
   },
@@ -7590,8 +7721,8 @@
       "医药制造业",
       "楚雄"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -7610,8 +7741,8 @@
       "卫生",
       "兰州"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -7630,8 +7761,8 @@
       "卫生",
       "临高"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -7650,8 +7781,8 @@
       "卫生",
       "成都"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -7671,8 +7802,8 @@
       "医药制造业",
       "白银"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -7691,8 +7822,8 @@
       "卫生",
       "襄阳"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -7711,8 +7842,8 @@
       "卫生",
       "临高"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -7732,8 +7863,8 @@
       "医药制造业",
       "徐州"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -7752,8 +7883,8 @@
       "卫生",
       "黄冈"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -7772,8 +7903,8 @@
       "卫生",
       "宜春"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -7793,8 +7924,8 @@
       "医药制造业",
       "中卫"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -7813,8 +7944,8 @@
       "卫生",
       "荆州"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -7834,8 +7965,8 @@
       "医药制造业",
       "盐城"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -7855,8 +7986,8 @@
       "医药制造业",
       "苏州"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -7875,8 +8006,8 @@
       "卫生",
       "四川"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -7895,8 +8026,8 @@
       "卫生",
       "荆州"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -7916,8 +8047,8 @@
       "医药制造业",
       "白银"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -7936,8 +8067,8 @@
       "卫生",
       "襄阳"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -7956,8 +8087,8 @@
       "卫生",
       "荆州"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -7976,8 +8107,8 @@
       "卫生",
       "岳阳"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -7997,8 +8128,8 @@
       "医药制造业",
       "资阳"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -8017,8 +8148,8 @@
       "卫生",
       "德阳"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -8037,8 +8168,8 @@
       "卫生",
       "眉山"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -8058,8 +8189,8 @@
       "医药制造业",
       "巴中"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -8078,8 +8209,8 @@
       "卫生",
       "昭通"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -8098,8 +8229,8 @@
       "卫生",
       "宜宾"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -8118,8 +8249,8 @@
       "卫生",
       "十堰"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -8138,8 +8269,8 @@
       "卫生",
       "十堰"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -8158,8 +8289,8 @@
       "卫生",
       "十堰"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -8178,8 +8309,8 @@
       "卫生",
       "黄冈"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -8199,8 +8330,8 @@
       "医药制造业",
       "盐城"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -8219,8 +8350,8 @@
       "卫生",
       "陇南"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -8239,8 +8370,8 @@
       "卫生",
       "襄阳"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-13T11:11:11.000Z"
   },
   {
@@ -8261,8 +8392,8 @@
       "天津",
       "成都"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-13T11:08:04.000Z"
   },
   {
@@ -8282,7 +8413,7 @@
       "信息传输、软件和信息技术服务业",
       "北京"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-05-13T10:41:02.000Z"
   },
@@ -8303,8 +8434,8 @@
       "制造业",
       "湖南"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-13T10:00:00.000Z"
   },
   {
@@ -18012,7 +18143,7 @@
       "批发和零售业",
       "南京"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-06T12:00:00.000Z"
   },
@@ -18033,8 +18164,8 @@
       "石油和天然气开采业",
       "北京"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-06T11:22:15.000Z"
   },
   {
@@ -18054,7 +18185,7 @@
       "石油和天然气开采业",
       "北京"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-06T11:18:15.000Z"
   },
@@ -18075,7 +18206,7 @@
       "批发/零售",
       "北京"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-06T11:02:13.000Z"
   },
@@ -18096,7 +18227,7 @@
       "专用设备制造业",
       "德阳"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-06T10:42:39.000Z"
   },
@@ -18117,7 +18248,7 @@
       "专用设备制造业",
       "德阳"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-06T10:42:17.000Z"
   },
@@ -18138,7 +18269,7 @@
       "专用设备制造业",
       "德阳"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-06T10:41:54.000Z"
   },
@@ -18159,7 +18290,7 @@
       "专用设备制造业",
       "德阳"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-06T10:41:35.000Z"
   },
@@ -18181,7 +18312,7 @@
       "德阳",
       "成都市"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-06T10:41:09.000Z"
   },
@@ -18201,7 +18332,7 @@
       "群众团体、社会团体和其他成员组织",
       "北京"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-06T10:09:21.000Z"
   },
@@ -18222,7 +18353,7 @@
       "电信、广播电视和卫星传输服务",
       "重庆"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-06T10:00:43.000Z"
   },
@@ -18243,8 +18374,8 @@
       "食品制造业",
       "上海"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-06T10:00:00.000Z"
   },
   {
@@ -30815,7 +30946,7 @@
       "物业服务",
       "深圳"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-04-20T12:01:19.000Z"
   },
@@ -30918,7 +31049,7 @@
       "通用设备制造业",
       "北京"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-04-20T09:59:23.000Z"
   },
@@ -34598,27 +34729,6 @@
     "score": 68,
     "featured": false,
     "createdAt": "2026-04-15T10:09:59.000Z"
-  },
-  {
-    "id": "guopin-196130785495879354",
-    "title": "酒泉钢铁（集团）有限责任公司 — 高校教师",
-    "summary": "企业性质：国企。行业：制造业。工作地点：嘉峪关。薪资：7000-8500元/月。学历：硕士。规模：30000人以上。",
-    "url": "https://www.iguopin.com/job/detail?id=196130785495879354",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "酒泉钢铁（集团）有限责任公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "制造业",
-      "嘉峪关"
-    ],
-    "score": 70,
-    "featured": false,
-    "createdAt": "2026-04-15T09:04:04.000Z"
   },
   {
     "id": "guopin-196126844309737132",
@@ -104646,70 +104756,6 @@
     "score": 67,
     "featured": false,
     "createdAt": "2026-03-04T15:59:59.000Z"
-  },
-  {
-    "id": "guopin-190082857966766559",
-    "title": "酒泉钢铁（集团）有限责任公司 — 三甲医院医师",
-    "summary": "企业性质：国企。行业：制造业。工作地点：嘉峪关。薪资：7300-8800元/月。学历：硕士。规模：30000人以上。",
-    "url": "https://www.iguopin.com/job/detail?id=190082857966766559",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "酒泉钢铁（集团）有限责任公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "制造业",
-      "嘉峪关"
-    ],
-    "score": 71,
-    "featured": false,
-    "createdAt": "2026-03-04T15:43:19.000Z"
-  },
-  {
-    "id": "guopin-190082803524700649",
-    "title": "酒泉钢铁（集团）有限责任公司 — 电气工程师",
-    "summary": "企业性质：国企。行业：制造业。工作地点：嘉峪关。薪资：6800-9300元/月。学历：本科。规模：30000人以上。",
-    "url": "https://www.iguopin.com/job/detail?id=190082803524700649",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "酒泉钢铁（集团）有限责任公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "制造业",
-      "嘉峪关"
-    ],
-    "score": 66,
-    "featured": false,
-    "createdAt": "2026-03-04T15:42:48.000Z"
-  },
-  {
-    "id": "guopin-190082746700270047",
-    "title": "酒泉钢铁（集团）有限责任公司 — 工艺工程师（冶金）",
-    "summary": "企业性质：国企。行业：制造业。工作地点：嘉峪关、兰州-榆中县。薪资：6800-9300元/月。学历：本科。规模：30000人以上。",
-    "url": "https://www.iguopin.com/job/detail?id=190082746700270047",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "酒泉钢铁（集团）有限责任公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "制造业",
-      "嘉峪关",
-      "兰州"
-    ],
-    "score": 68,
-    "featured": false,
-    "createdAt": "2026-03-04T15:42:11.000Z"
   },
   {
     "id": "guopin-190103321254562379",
