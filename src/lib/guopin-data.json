@@ -6787,8 +6787,8 @@
       "电力、热力生产和供应业",
       "广州"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-15T19:29:34.000Z"
   },
   {
@@ -6808,8 +6808,8 @@
       "电力、热力生产和供应业",
       "中国"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-15T19:28:51.000Z"
   },
   {
@@ -6829,8 +6829,8 @@
       "电力、热力生产和供应业",
       "深圳"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-15T19:27:48.000Z"
   },
   {
@@ -6850,8 +6850,8 @@
       "电力、热力生产和供应业",
       "东莞"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-15T19:26:46.000Z"
   },
   {
@@ -6871,8 +6871,8 @@
       "电力、热力生产和供应业",
       "广州"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-15T19:25:27.000Z"
   },
   {
@@ -6892,8 +6892,8 @@
       "电力、热力生产和供应业",
       "汕头"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-15T19:24:29.000Z"
   },
   {
@@ -6913,8 +6913,8 @@
       "电力、热力生产和供应业",
       "珠海"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-15T19:23:35.000Z"
   },
   {
@@ -6934,8 +6934,8 @@
       "电力、热力生产和供应业",
       "广州"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-15T19:20:39.000Z"
   },
   {
@@ -6955,8 +6955,8 @@
       "电力、热力生产和供应业",
       "佛山"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-15T19:18:06.000Z"
   },
   {
@@ -6975,7 +6975,7 @@
       "批发业",
       "图木舒克"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-05-15T19:00:00.000Z"
   },
@@ -6996,7 +6996,7 @@
       "批发业",
       "乌鲁木齐"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-05-15T19:00:00.000Z"
   },
@@ -7016,8 +7016,8 @@
       "批发业",
       "阿勒泰"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-15T19:00:00.000Z"
   },
   {
@@ -7036,8 +7036,8 @@
       "批发业",
       "新疆"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-15T19:00:00.000Z"
   },
   {
@@ -7057,8 +7057,8 @@
       "批发业",
       "乌鲁木齐"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-15T19:00:00.000Z"
   },
   {
@@ -7099,7 +7099,7 @@
       "专业技术服务业",
       "上海"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-05-15T18:10:44.000Z"
   },
@@ -7120,8 +7120,8 @@
       "其他",
       "北京"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-15T16:59:07.000Z"
   },
   {
@@ -7181,7 +7181,7 @@
       "通用设备制造业",
       "秦皇岛"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-05-15T16:19:30.000Z"
   },
@@ -7201,7 +7201,7 @@
       "零售业",
       "北京"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-05-15T16:04:13.000Z"
   },
@@ -7222,7 +7222,7 @@
       "专用设备制造业",
       "重庆"
     ],
-    "score": 91,
+    "score": 86,
     "featured": true,
     "createdAt": "2026-05-15T13:53:15.000Z"
   },
@@ -7242,7 +7242,7 @@
       "生态保护和环境治理业",
       "北京"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-15T13:28:44.000Z"
   },
@@ -7262,8 +7262,8 @@
       "农、林、牧、渔业",
       "北京"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-15T13:17:30.000Z"
   },
   {
@@ -15356,7 +15356,7 @@
       "制造业",
       "洛阳"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-08T17:51:40.000Z"
   },
@@ -15377,7 +15377,7 @@
       "制造业",
       "洛阳"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-08T17:49:38.000Z"
   },
@@ -15398,7 +15398,7 @@
       "制造业",
       "洛阳"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-08T17:47:51.000Z"
   },
@@ -15419,7 +15419,7 @@
       "制造业",
       "洛阳"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-08T17:45:34.000Z"
   },
@@ -15440,7 +15440,7 @@
       "制造业",
       "洛阳"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-08T17:43:46.000Z"
   },
@@ -15461,7 +15461,7 @@
       "制造业",
       "洛阳"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-08T17:41:59.000Z"
   },
@@ -15482,7 +15482,7 @@
       "制造业",
       "洛阳"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-08T17:40:03.000Z"
   },
@@ -15503,7 +15503,7 @@
       "制造业",
       "洛阳"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-08T17:37:41.000Z"
   },
@@ -15524,7 +15524,7 @@
       "制造业",
       "洛阳"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-08T17:35:13.000Z"
   },
@@ -15545,7 +15545,7 @@
       "制造业",
       "南京"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-08T17:33:32.000Z"
   },
@@ -15566,7 +15566,7 @@
       "制造业",
       "南京"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-08T17:30:54.000Z"
   },
@@ -15586,7 +15586,7 @@
       "批发业",
       "山西"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-08T17:29:00.000Z"
   },
@@ -15607,7 +15607,7 @@
       "信息传输、软件和信息技术服务业",
       "烟台"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-08T17:26:08.000Z"
   },
@@ -15630,7 +15630,7 @@
       "上海",
       "广东"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-08T16:57:23.000Z"
   },
@@ -15651,7 +15651,7 @@
       "资本市场服务",
       "北京"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-08T16:54:55.000Z"
   },
@@ -15672,7 +15672,7 @@
       "资本市场服务",
       "北京"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-08T16:52:06.000Z"
   },
@@ -15693,7 +15693,7 @@
       "资本市场服务",
       "深圳"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-08T16:49:59.000Z"
   },
@@ -15714,7 +15714,7 @@
       "资本市场服务",
       "深圳"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-08T16:48:27.000Z"
   },
@@ -15735,7 +15735,7 @@
       "资本市场服务",
       "深圳"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-08T16:46:48.000Z"
   },
@@ -15756,7 +15756,7 @@
       "资本市场服务",
       "深圳"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-08T16:44:04.000Z"
   },
@@ -15779,7 +15779,7 @@
       "上海",
       "广东"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-08T16:38:16.000Z"
   },
@@ -15802,7 +15802,7 @@
       "上海",
       "广东"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-08T16:32:48.000Z"
   },
@@ -15823,7 +15823,7 @@
       "资本市场服务",
       "深圳"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-08T16:30:20.000Z"
   },
@@ -15846,7 +15846,7 @@
       "上海",
       "广东"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-08T16:28:26.000Z"
   },
@@ -15867,7 +15867,7 @@
       "资本市场服务",
       "深圳"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-08T16:26:31.000Z"
   },
@@ -15888,7 +15888,7 @@
       "资本市场服务",
       "深圳"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-08T16:24:32.000Z"
   },
@@ -15909,7 +15909,7 @@
       "资本市场服务",
       "深圳"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-08T16:22:31.000Z"
   },
@@ -15930,7 +15930,7 @@
       "资本市场服务",
       "深圳"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-08T16:20:29.000Z"
   },
@@ -15951,7 +15951,7 @@
       "资本市场服务",
       "深圳"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-08T16:18:36.000Z"
   },
@@ -15992,7 +15992,7 @@
       "资本市场服务",
       "深圳"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-08T16:16:29.000Z"
   },
@@ -16013,7 +16013,7 @@
       "资本市场服务",
       "深圳"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-08T16:14:23.000Z"
   },
@@ -16034,7 +16034,7 @@
       "资本市场服务",
       "深圳"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-08T16:11:17.000Z"
   },
@@ -16055,7 +16055,7 @@
       "资本市场服务",
       "深圳"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-08T16:07:17.000Z"
   },
@@ -16076,8 +16076,8 @@
       "电力、热力生产和供应业",
       "烟台"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-08T15:48:30.000Z"
   },
   {
@@ -16118,7 +16118,7 @@
       "资本市场服务",
       "深圳"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-08T15:40:07.000Z"
   },
@@ -16139,7 +16139,7 @@
       "资本市场服务",
       "深圳"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-08T15:32:38.000Z"
   },
@@ -16160,7 +16160,7 @@
       "资本市场服务",
       "深圳"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-08T15:30:35.000Z"
   },
@@ -16181,7 +16181,7 @@
       "资本市场服务",
       "深圳"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-08T15:24:11.000Z"
   },
@@ -16202,7 +16202,7 @@
       "资本市场服务",
       "深圳"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-08T15:20:40.000Z"
   },
@@ -16223,7 +16223,7 @@
       "资本市场服务",
       "深圳"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-08T15:14:09.000Z"
   },
@@ -16244,7 +16244,7 @@
       "资本市场服务",
       "深圳"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-08T15:03:28.000Z"
   },
@@ -16265,7 +16265,7 @@
       "资本市场服务",
       "深圳"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-08T14:59:47.000Z"
   },
@@ -16286,7 +16286,7 @@
       "资本市场服务",
       "深圳"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-08T14:56:51.000Z"
   },
@@ -16306,7 +16306,7 @@
       "商务服务业",
       "北京"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-08T14:53:47.000Z"
   },
@@ -16327,7 +16327,7 @@
       "资本市场服务",
       "深圳"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-08T14:52:35.000Z"
   },
@@ -16350,7 +16350,7 @@
       "上海",
       "广东"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-08T14:48:42.000Z"
   },
@@ -16370,7 +16370,7 @@
       "商务服务业",
       "北京"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-08T14:46:24.000Z"
   },
@@ -16390,8 +16390,8 @@
       "商务服务业",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-08T14:31:58.000Z"
   },
   {
@@ -16410,8 +16410,8 @@
       "商务服务业",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-08T14:12:56.000Z"
   },
   {
@@ -16433,7 +16433,7 @@
       "上海",
       "广东"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-08T13:47:23.000Z"
   },
@@ -16454,7 +16454,7 @@
       "资本市场服务",
       "深圳"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-08T13:40:09.000Z"
   },
@@ -16474,8 +16474,8 @@
       "商务服务业",
       "北京"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-08T13:38:04.000Z"
   },
   {
@@ -16517,7 +16517,7 @@
       "科学研究和技术服务业",
       "天津"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-08T12:00:00.000Z"
   },
@@ -16538,7 +16538,7 @@
       "医药制造业",
       "湖北"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-08T11:34:35.000Z"
   },
@@ -16559,8 +16559,8 @@
       "非金属矿物制品业",
       "杭州"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-08T11:22:23.000Z"
   },
   {
@@ -29013,7 +29013,7 @@
       "土木工程建筑业",
       "惠州"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-04-22T18:00:00.000Z"
   },
@@ -29036,7 +29036,7 @@
       "上海",
       "苏州"
     ],
-    "score": 61,
+    "score": 56,
     "featured": false,
     "createdAt": "2026-04-22T17:25:43.000Z"
   },
@@ -29057,7 +29057,7 @@
       "制造业",
       "邢台"
     ],
-    "score": 66,
+    "score": 61,
     "featured": false,
     "createdAt": "2026-04-22T16:57:27.000Z"
   },
@@ -29078,7 +29078,7 @@
       "科学研究和技术服务业",
       "北京"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-04-22T16:13:32.000Z"
   },
@@ -29098,7 +29098,7 @@
       "科学研究和技术服务业",
       "北京"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-04-22T16:13:02.000Z"
   },
@@ -29119,7 +29119,7 @@
       "电信、广播电视和卫星传输服务",
       "上海"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-04-22T15:49:11.000Z"
   },
@@ -29139,7 +29139,7 @@
       "商务服务业",
       "北京"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-04-22T14:49:31.000Z"
   },
@@ -29162,7 +29162,7 @@
       "天津",
       "河北"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-04-22T11:20:07.000Z"
   },
