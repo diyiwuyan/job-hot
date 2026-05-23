@@ -7282,8 +7282,8 @@
       "建筑业",
       "广州"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-15T11:12:05.000Z"
   },
   {
@@ -7302,8 +7302,8 @@
       "建筑业",
       "广州"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-15T11:11:32.000Z"
   },
   {
@@ -16579,7 +16579,7 @@
       "土木工程建筑业",
       "天津"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-08T10:56:23.000Z"
   },
@@ -16600,7 +16600,7 @@
       "科学研究和技术服务业",
       "天津"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-08T10:00:00.000Z"
   },
@@ -16621,7 +16621,7 @@
       "科学研究和技术服务业",
       "天津"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-08T10:00:00.000Z"
   },
@@ -16642,7 +16642,7 @@
       "科学研究和技术服务业",
       "天津"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-08T10:00:00.000Z"
   },
@@ -16663,7 +16663,7 @@
       "专用设备制造业",
       "成都"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-08T09:58:37.000Z"
   },
@@ -16684,7 +16684,7 @@
       "专用设备制造业",
       "成都"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-08T09:58:04.000Z"
   },
@@ -16705,7 +16705,7 @@
       "专用设备制造业",
       "成都"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-08T09:56:07.000Z"
   },
@@ -29183,7 +29183,7 @@
       "制造业",
       "南阳"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-04-22T10:50:59.000Z"
   },
@@ -29203,7 +29203,7 @@
       "其他",
       "北京"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-04-22T10:46:10.000Z"
   },
