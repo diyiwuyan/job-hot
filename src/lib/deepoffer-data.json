@@ -434,8 +434,8 @@
       "宜昌",
       "襄阳"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-21T10:19:15.000Z"
   },
   {
@@ -1624,7 +1624,7 @@
       "佛山",
       "宿迁"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-19T10:19:18.000Z"
   },
@@ -1649,7 +1649,7 @@
       "通信/电子/半导体",
       "太原"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-19T10:19:18.000Z"
   },
@@ -1672,7 +1672,7 @@
       "快消/零售/消费品",
       "深圳"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-19T10:19:18.000Z"
   },
@@ -1697,8 +1697,8 @@
       "交通/物流/出行",
       "太原"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:17.000Z"
   },
   {
@@ -1722,8 +1722,8 @@
       "上海",
       "深圳"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:17.000Z"
   },
   {
@@ -1746,8 +1746,8 @@
       "交通/物流/出行",
       "哈尔滨"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:17.000Z"
   },
   {
@@ -1771,8 +1771,8 @@
       "金融/银行/保险",
       "南京"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:17.000Z"
   },
   {
@@ -1797,8 +1797,8 @@
       "北京",
       "深圳"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:17.000Z"
   },
   {
@@ -1823,8 +1823,8 @@
       "吕梁",
       "大同"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:17.000Z"
   },
   {
@@ -1848,8 +1848,8 @@
       "上海",
       "重庆"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:17.000Z"
   },
   {
@@ -1871,8 +1871,8 @@
       "金融/银行/保险",
       "上海"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:17.000Z"
   },
   {
@@ -1894,8 +1894,8 @@
       "教育/培训",
       "珠海"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:17.000Z"
   },
   {
@@ -1918,7 +1918,7 @@
       "IT/互联网/游戏/电商",
       "成都"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-19T10:19:17.000Z"
   },
@@ -1943,7 +1943,7 @@
       "佛山",
       "保定"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-19T10:19:17.000Z"
   },
@@ -1968,7 +1968,7 @@
       "上海",
       "南京"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-19T10:19:17.000Z"
   },
@@ -1992,7 +1992,7 @@
       "济南",
       "西安"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-19T10:19:17.000Z"
   },
@@ -2015,7 +2015,7 @@
       "游戏",
       "IT/互联网/游戏/电商"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-19T10:19:17.000Z"
   },
@@ -2039,7 +2039,7 @@
       "北京",
       "南通"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-19T10:19:17.000Z"
   },
@@ -2064,7 +2064,7 @@
       "武汉",
       "南京"
     ],
-    "score": 89,
+    "score": 84,
     "featured": true,
     "createdAt": "2026-05-19T10:19:16.000Z"
   },
@@ -2089,8 +2089,8 @@
       "能源/化工/环保",
       "乌鲁木齐"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:16.000Z"
   },
   {
@@ -2114,8 +2114,8 @@
       "北京",
       "成都"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:16.000Z"
   },
   {
@@ -2141,8 +2141,8 @@
       "郴州",
       "长沙"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:16.000Z"
   },
   {
@@ -2166,8 +2166,8 @@
       "能源/化工/环保",
       "太原"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:16.000Z"
   },
   {
@@ -2191,8 +2191,8 @@
       "北京",
       "沈阳"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:16.000Z"
   },
   {
@@ -2216,8 +2216,8 @@
       "佛山",
       "常州"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:16.000Z"
   },
   {
@@ -2239,8 +2239,8 @@
       "IT/互联网/游戏/电商",
       "上海"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:16.000Z"
   },
   {
@@ -2264,8 +2264,8 @@
       "北京",
       "武威"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:16.000Z"
   },
   {
@@ -2288,8 +2288,8 @@
       "生物/医疗/医药/制药",
       "上海"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:16.000Z"
   },
   {
@@ -2315,8 +2315,8 @@
       "天津",
       "太原"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:16.000Z"
   },
   {
@@ -2339,8 +2339,8 @@
       "合肥",
       "深圳"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:16.000Z"
   },
   {
@@ -2362,8 +2362,8 @@
       "金融/银行/保险",
       "广州"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:16.000Z"
   },
   {
@@ -2386,8 +2386,8 @@
       "金融/银行/保险",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:16.000Z"
   },
   {
@@ -2410,7 +2410,7 @@
       "上海",
       "北京"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-19T10:19:16.000Z"
   },
@@ -2435,7 +2435,7 @@
       "能源/化工/环保",
       "广州"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-19T10:19:16.000Z"
   },
@@ -2459,7 +2459,7 @@
       "佛山",
       "南京"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-19T10:19:16.000Z"
   },
@@ -2484,7 +2484,7 @@
       "上海",
       "成都"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-19T10:19:16.000Z"
   },
@@ -2506,7 +2506,7 @@
       "生物/医疗/医药/制药",
       "上海"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-19T10:19:16.000Z"
   },
@@ -2531,8 +2531,8 @@
       "通信/电子/半导体",
       "桂林"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:15.000Z"
   },
   {
@@ -2558,8 +2558,8 @@
       "北京",
       "天津"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:15.000Z"
   },
   {
@@ -2581,8 +2581,8 @@
       "央国企",
       "通信/电子/半导体"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:15.000Z"
   },
   {
@@ -2606,8 +2606,8 @@
       "交通/物流/出行",
       "石家庄"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:15.000Z"
   },
   {
@@ -2631,8 +2631,8 @@
       "IT/互联网/游戏/电商",
       "太原"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:15.000Z"
   },
   {
@@ -2656,8 +2656,8 @@
       "北京",
       "香港"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:15.000Z"
   },
   {
@@ -2680,8 +2680,8 @@
       "能源/化工/环保",
       "长沙"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:15.000Z"
   },
   {
@@ -2734,28 +2734,6 @@
     "createdAt": "2026-05-18T10:18:57.000Z"
   },
   {
-    "id": "deepoffer-16917",
-    "title": "英孚教育 — 26届春招 | 英语老师、学习管理师、学习规划师",
-    "summary": "招聘类型：26届春招。行业：教育/培训。企业性质：民企。工作地点：全国多地。截止日期：2026/05/21。岗位：英语老师、学习管理师、学习规划师。",
-    "url": "https://wddxczlx.jsjform.com/f/DoEqA3",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "private",
-    "location": "全国多地",
-    "deadline": "2026/05/21",
-    "tags": [
-      "英孚教育",
-      "校招",
-      "春招",
-      "教育/培训"
-    ],
-    "score": 74,
-    "featured": false,
-    "createdAt": "2026-05-18T10:18:57.000Z"
-  },
-  {
     "id": "deepoffer-16915",
     "title": "欣旺达 — 实习 | 品牌宣传官、人才引荐官、活动运营官（校园大使）",
     "summary": "招聘类型：实习。行业：汽车/新能源。企业性质：民企。工作地点：全国多地。岗位：品牌宣传官、人才引荐官、活动运营官（校园大使）。",
@@ -2798,6 +2776,28 @@
       "宜宾"
     ],
     "score": 72,
+    "featured": false,
+    "createdAt": "2026-05-18T10:18:57.000Z"
+  },
+  {
+    "id": "deepoffer-16917",
+    "title": "英孚教育 — 26届春招 | 英语老师、学习管理师、学习规划师",
+    "summary": "招聘类型：26届春招。行业：教育/培训。企业性质：民企。工作地点：全国多地。截止日期：2026/05/21。岗位：英语老师、学习管理师、学习规划师。",
+    "url": "https://wddxczlx.jsjform.com/f/DoEqA3",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "private",
+    "location": "全国多地",
+    "deadline": "2026/05/21",
+    "tags": [
+      "英孚教育",
+      "校招",
+      "春招",
+      "教育/培训"
+    ],
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-18T10:18:57.000Z"
   },
@@ -3572,7 +3572,7 @@
       "农业/林业/其他",
       "石家庄"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-16T22:18:53.000Z"
   },
@@ -3596,7 +3596,7 @@
       "机械/制造/设备",
       "北京"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-16T22:18:53.000Z"
   },
@@ -3622,7 +3622,7 @@
       "郑州",
       "福州"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-16T22:18:53.000Z"
   },
@@ -3649,7 +3649,7 @@
       "广西",
       "宁夏"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-16T22:18:53.000Z"
   },
@@ -3674,7 +3674,7 @@
       "能源/化工/环保",
       "宁波"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-16T22:18:53.000Z"
   },
@@ -3700,7 +3700,7 @@
       "沈阳",
       "深圳"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-16T22:18:53.000Z"
   },
@@ -3726,7 +3726,7 @@
       "长沙",
       "常德"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-16T22:18:53.000Z"
   },
@@ -3750,7 +3750,7 @@
       "机械/制造/设备",
       "青岛"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-16T22:18:53.000Z"
   },
@@ -3774,7 +3774,7 @@
       "金融/银行/保险",
       "北京"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-16T22:18:53.000Z"
   },
@@ -3796,7 +3796,7 @@
       "快消/零售/消费品",
       "全国各地"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-16T22:18:53.000Z"
   },
@@ -3819,7 +3819,7 @@
       "文化/传媒/出版",
       "北京"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-16T22:18:53.000Z"
   },
@@ -3844,7 +3844,7 @@
       "房地产/建筑/物业",
       "上海"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-16T22:18:53.000Z"
   },
@@ -3869,7 +3869,7 @@
       "农业/林业/其他",
       "北京"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-16T22:18:53.000Z"
   },
@@ -3893,7 +3893,7 @@
       "北京",
       "深圳"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-16T22:18:53.000Z"
   },
@@ -3918,7 +3918,7 @@
       "北京",
       "上海"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-16T22:18:53.000Z"
   },
@@ -3944,7 +3944,7 @@
       "河源",
       "深圳"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-16T22:18:53.000Z"
   },
@@ -3970,7 +3970,7 @@
       "济南",
       "青岛"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-16T22:18:52.000Z"
   },
@@ -3995,7 +3995,7 @@
       "南京",
       "合肥"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-16T22:18:52.000Z"
   },
@@ -4020,7 +4020,7 @@
       "生物/医疗/医药/制药",
       "苏州"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-16T22:18:52.000Z"
   },
@@ -4044,7 +4044,7 @@
       "广告/咨询/服务",
       "北京"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-16T22:18:52.000Z"
   },
@@ -4068,7 +4068,7 @@
       "交通/物流/出行",
       "石家庄"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-16T22:18:52.000Z"
   },
@@ -4093,7 +4093,7 @@
       "能源/化工/环保",
       "宁波"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-16T22:18:52.000Z"
   },
@@ -4117,7 +4117,7 @@
       "快消/零售/消费品",
       "重庆"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-16T22:18:52.000Z"
   },
@@ -4140,7 +4140,7 @@
       "快消/零售/消费品",
       "中山"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-16T22:18:52.000Z"
   },
@@ -4167,7 +4167,7 @@
       "汉川",
       "咸宁"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-16T22:18:52.000Z"
   },
@@ -4191,7 +4191,7 @@
       "锦州",
       "牡丹江"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-16T22:18:52.000Z"
   },
@@ -4213,7 +4213,7 @@
       "快消/零售/消费品",
       "厦门"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-16T22:18:52.000Z"
   },
@@ -4235,7 +4235,7 @@
       "广告/咨询/服务",
       "北京"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-16T22:18:52.000Z"
   },
@@ -4257,7 +4257,7 @@
       "广告/咨询/服务",
       "唐山"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-16T22:18:52.000Z"
   },
@@ -4279,7 +4279,7 @@
       "教育/培训",
       "河南"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-16T22:18:52.000Z"
   },
@@ -4304,7 +4304,7 @@
       "北京",
       "上海"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-16T22:18:52.000Z"
   },
@@ -4328,7 +4328,7 @@
       "IT/互联网/游戏/电商",
       "广州"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-16T22:18:52.000Z"
   },
@@ -4353,7 +4353,7 @@
       "北京",
       "深圳"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-16T22:18:52.000Z"
   },
@@ -4377,7 +4377,7 @@
       "金融/银行/保险",
       "上海"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-16T22:18:52.000Z"
   },
@@ -4401,7 +4401,7 @@
       "房地产/建筑/物业",
       "福州"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-16T22:18:51.000Z"
   },
@@ -4428,7 +4428,7 @@
       "青岛",
       "全国多地"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-16T22:18:51.000Z"
   },
@@ -4454,7 +4454,7 @@
       "北京",
       "厦门"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-16T22:18:51.000Z"
   },
@@ -4479,7 +4479,7 @@
       "农业/林业/其他",
       "孝感"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-16T22:18:51.000Z"
   },
@@ -4502,7 +4502,7 @@
       "快消/零售/消费品",
       "江门"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-16T22:18:51.000Z"
   },
@@ -4526,7 +4526,7 @@
       "唐山",
       "苏州"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-16T22:18:51.000Z"
   },
@@ -6274,32 +6274,7 @@
       "北京",
       "厦门"
     ],
-    "score": 74,
-    "featured": false,
-    "createdAt": "2026-05-12T06:19:49.000Z"
-  },
-  {
-    "id": "deepoffer-16771",
-    "title": "河南资本集团 — 26届春招 | 战略与投资岗，财务分析及资本运作岗，党建岗，管培生（财务管理方向），管培生...",
-    "summary": "招聘类型：26届春招。行业：金融/银行/保险。企业性质：央国企。工作地点：郑州。截止日期：2026/05/12。岗位：战略与投资岗，财务分析及资本运作岗，党建岗，管培生（财务管理方向），管培生（投资运营方向），投资经理岗，合规风控岗（企业管理，管理科学与工程，经济学，战略...。",
-    "url": "https://hnzbfzjh.hersingdat.com/",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "finance",
-    "companyType": "state",
-    "location": "郑州",
-    "deadline": "2026/05/12",
-    "tags": [
-      "河南资本集团",
-      "校招",
-      "春招",
-      "金融",
-      "央国企",
-      "金融/银行/保险",
-      "郑州"
-    ],
-    "score": 73,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-12T06:19:49.000Z"
   },
@@ -6325,6 +6300,31 @@
       "乌海"
     ],
     "score": 69,
+    "featured": false,
+    "createdAt": "2026-05-12T06:19:49.000Z"
+  },
+  {
+    "id": "deepoffer-16771",
+    "title": "河南资本集团 — 26届春招 | 战略与投资岗，财务分析及资本运作岗，党建岗，管培生（财务管理方向），管培生...",
+    "summary": "招聘类型：26届春招。行业：金融/银行/保险。企业性质：央国企。工作地点：郑州。截止日期：2026/05/12。岗位：战略与投资岗，财务分析及资本运作岗，党建岗，管培生（财务管理方向），管培生（投资运营方向），投资经理岗，合规风控岗（企业管理，管理科学与工程，经济学，战略...。",
+    "url": "https://hnzbfzjh.hersingdat.com/",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "state",
+    "location": "郑州",
+    "deadline": "2026/05/12",
+    "tags": [
+      "河南资本集团",
+      "校招",
+      "春招",
+      "金融",
+      "央国企",
+      "金融/银行/保险",
+      "郑州"
+    ],
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-12T06:19:49.000Z"
   },
@@ -7420,33 +7420,6 @@
     "createdAt": "2026-05-12T06:19:46.000Z"
   },
   {
-    "id": "deepoffer-16721",
-    "title": "国能销售集团 — 26届春招 | 销售专责（华北公司）,安全专责（海进江营销理货中心）,销售专责（海拉尔营销...",
-    "summary": "招聘类型：26届春招。行业：能源/化工/环保。企业性质：央国企。工作地点：北京,呼伦贝尔,锡林浩特,苏州。岗位：销售专责（华北公司）,安全专责（海进江营销理货中心）,销售专责（海拉尔营销中心）,调运专责（锡林浩特营销中心）。",
-    "url": "http://zhaopin.chnenergy.com.cn/",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "security",
-    "companyType": "state",
-    "location": "北京,呼伦贝尔,锡林浩特,苏州",
-    "deadline": "尽快投递",
-    "tags": [
-      "国能销售集团",
-      "校招",
-      "春招",
-      "安全/云服务",
-      "央国企",
-      "能源/化工/环保",
-      "北京",
-      "呼伦贝尔",
-      "锡林浩特"
-    ],
-    "score": 80,
-    "featured": true,
-    "createdAt": "2026-05-12T06:19:46.000Z"
-  },
-  {
     "id": "deepoffer-16709",
     "title": "蔚来 — 26届春招 | 数字技术类、智能制造类、工程技术类、用户与服务类、职能与支持类、动力电池类...",
     "summary": "招聘类型：26届春招。行业：汽车/新能源。企业性质：民企。工作地点：北京、上海、深圳、合肥、武汉、南京、滁州、全国各地。岗位：数字技术类、智能制造类、工程技术类、用户与服务类、职能与支持类、动力电池类、产品类、项目类、设计类。",
@@ -7469,6 +7442,33 @@
       "深圳"
     ],
     "score": 76,
+    "featured": false,
+    "createdAt": "2026-05-12T06:19:46.000Z"
+  },
+  {
+    "id": "deepoffer-16721",
+    "title": "国能销售集团 — 26届春招 | 销售专责（华北公司）,安全专责（海进江营销理货中心）,销售专责（海拉尔营销...",
+    "summary": "招聘类型：26届春招。行业：能源/化工/环保。企业性质：央国企。工作地点：北京,呼伦贝尔,锡林浩特,苏州。岗位：销售专责（华北公司）,安全专责（海进江营销理货中心）,销售专责（海拉尔营销中心）,调运专责（锡林浩特营销中心）。",
+    "url": "http://zhaopin.chnenergy.com.cn/",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "security",
+    "companyType": "state",
+    "location": "北京,呼伦贝尔,锡林浩特,苏州",
+    "deadline": "尽快投递",
+    "tags": [
+      "国能销售集团",
+      "校招",
+      "春招",
+      "安全/云服务",
+      "央国企",
+      "能源/化工/环保",
+      "北京",
+      "呼伦贝尔",
+      "锡林浩特"
+    ],
+    "score": 75,
     "featured": false,
     "createdAt": "2026-05-12T06:19:46.000Z"
   },
@@ -8473,30 +8473,6 @@
     "createdAt": "2026-05-09T14:19:45.000Z"
   },
   {
-    "id": "deepoffer-16681",
-    "title": "天桂食品 — 26届春招 | 销售区域经理、编导剪辑、产品助理、采购、品控",
-    "summary": "招聘类型：26届春招。行业：快消/零售/消费品。企业性质：民企。工作地点：厦门、莆田。岗位：销售区域经理、编导剪辑、产品助理、采购、品控。",
-    "url": "https://mp.weixin.qq.com/s/whOdENH_mtN0_4hRSaCSAw",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "private",
-    "location": "厦门、莆田",
-    "deadline": "尽快投递",
-    "tags": [
-      "天桂食品",
-      "校招",
-      "春招",
-      "快消/零售/消费品",
-      "厦门",
-      "莆田"
-    ],
-    "score": 68,
-    "featured": false,
-    "createdAt": "2026-05-08T06:19:54.000Z"
-  },
-  {
     "id": "deepoffer-16682",
     "title": "江西峰山抽水蓄能 — 26届春招 | 6个岗位（详见附件岗位表）",
     "summary": "招聘类型：26届春招。行业：能源/化工/环保。企业性质：央国企。工作地点：赣州。截止日期：2026/05/12。岗位：6个岗位（详见附件岗位表）。",
@@ -8521,6 +8497,30 @@
     "createdAt": "2026-05-08T06:19:54.000Z"
   },
   {
+    "id": "deepoffer-16681",
+    "title": "天桂食品 — 26届春招 | 销售区域经理、编导剪辑、产品助理、采购、品控",
+    "summary": "招聘类型：26届春招。行业：快消/零售/消费品。企业性质：民企。工作地点：厦门、莆田。岗位：销售区域经理、编导剪辑、产品助理、采购、品控。",
+    "url": "https://mp.weixin.qq.com/s/whOdENH_mtN0_4hRSaCSAw",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "private",
+    "location": "厦门、莆田",
+    "deadline": "尽快投递",
+    "tags": [
+      "天桂食品",
+      "校招",
+      "春招",
+      "快消/零售/消费品",
+      "厦门",
+      "莆田"
+    ],
+    "score": 63,
+    "featured": false,
+    "createdAt": "2026-05-08T06:19:54.000Z"
+  },
+  {
     "id": "deepoffer-16678",
     "title": "IntelliPro英特利普集团 — 实习 | 人力资源顾问(应届/实习、高端猎头、IT&BPO、RPO)",
     "summary": "招聘类型：实习。行业：广告/咨询/服务。企业性质：外企。工作地点：上海、北京、南京、大连、常州、成都、杭州、武汉、深圳、苏州、西安、长沙、青岛、香港。岗位：人力资源顾问(应届/实习、高端猎头、IT&BPO、RPO)。",
@@ -8541,7 +8541,7 @@
       "北京",
       "南京"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -8566,7 +8566,7 @@
       "北京",
       "南京"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -8592,7 +8592,7 @@
       "东莞",
       "北京"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -8617,7 +8617,7 @@
       "机械/制造/设备",
       "天津"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -8640,7 +8640,7 @@
       "生物/医疗/医药/制药",
       "广州"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -8665,7 +8665,7 @@
       "能源/化工/环保",
       "广州"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -8690,7 +8690,7 @@
       "上海",
       "北京"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -8716,7 +8716,7 @@
       "南通",
       "宁波"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -8740,7 +8740,7 @@
       "房地产/建筑/物业",
       "南昌"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -8767,7 +8767,7 @@
       "北京",
       "南京"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -8794,7 +8794,7 @@
       "上饶",
       "九江"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -8818,7 +8818,7 @@
       "农业/林业/其他",
       "北京"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -8842,7 +8842,7 @@
       "其他",
       "广州"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -8867,7 +8867,7 @@
       "北京",
       "广州"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -8891,7 +8891,7 @@
       "南宁",
       "合肥"
     ],
-    "score": 69,
+    "score": 64,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -8915,7 +8915,7 @@
       "教育/培训",
       "绍兴"
     ],
-    "score": 69,
+    "score": 64,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -8938,7 +8938,7 @@
       "汽车/新能源",
       "北京"
     ],
-    "score": 68,
+    "score": 63,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -8964,7 +8964,7 @@
       "深圳",
       "青岛"
     ],
-    "score": 66,
+    "score": 61,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -8989,7 +8989,7 @@
       "佛山",
       "南京"
     ],
-    "score": 66,
+    "score": 61,
     "featured": false,
     "createdAt": "2026-05-08T06:19:53.000Z"
   },
@@ -9014,7 +9014,7 @@
       "金融/银行/保险",
       "上海"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-08T06:19:52.000Z"
   },
@@ -9037,7 +9037,7 @@
       "金融/银行/保险",
       "上海"
     ],
-    "score": 69,
+    "score": 64,
     "featured": false,
     "createdAt": "2026-05-08T06:19:52.000Z"
   },
@@ -9063,7 +9063,7 @@
       "四平",
       "杭州"
     ],
-    "score": 67,
+    "score": 62,
     "featured": false,
     "createdAt": "2026-05-08T06:19:52.000Z"
   },
@@ -9866,32 +9866,6 @@
     "createdAt": "2026-05-08T02:19:37.000Z"
   },
   {
-    "id": "deepoffer-16622",
-    "title": "福鼎恒兴村镇银行 — 26届春招 | 综合柜员岗",
-    "summary": "招聘类型：26届春招。行业：金融/银行/保险。企业性质：银行。工作地点：宁德、全国多地。截止日期：2026/05/26。岗位：综合柜员岗。",
-    "url": "https://mp.weixin.qq.com/s/225D05RM2hYOviUJe51FBA",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "finance",
-    "companyType": "bank",
-    "location": "宁德、全国多地",
-    "deadline": "2026/05/26",
-    "tags": [
-      "福鼎恒兴村镇银行",
-      "校招",
-      "春招",
-      "金融",
-      "银行",
-      "金融/银行/保险",
-      "宁德",
-      "全国多地"
-    ],
-    "score": 68,
-    "featured": false,
-    "createdAt": "2026-05-08T02:19:37.000Z"
-  },
-  {
     "id": "deepoffer-16627",
     "title": "重庆机电控股集团动力科技 — 26届春招 | 装配电工",
     "summary": "招聘类型：26届春招。行业：机械/制造/设备。企业性质：央国企。工作地点：重庆。截止日期：2026/05/30。岗位：装配电工。",
@@ -10119,6 +10093,32 @@
       "苏州"
     ],
     "score": 64,
+    "featured": false,
+    "createdAt": "2026-05-08T02:19:37.000Z"
+  },
+  {
+    "id": "deepoffer-16622",
+    "title": "福鼎恒兴村镇银行 — 26届春招 | 综合柜员岗",
+    "summary": "招聘类型：26届春招。行业：金融/银行/保险。企业性质：银行。工作地点：宁德、全国多地。截止日期：2026/05/26。岗位：综合柜员岗。",
+    "url": "https://mp.weixin.qq.com/s/225D05RM2hYOviUJe51FBA",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "bank",
+    "location": "宁德、全国多地",
+    "deadline": "2026/05/26",
+    "tags": [
+      "福鼎恒兴村镇银行",
+      "校招",
+      "春招",
+      "金融",
+      "银行",
+      "金融/银行/保险",
+      "宁德",
+      "全国多地"
+    ],
+    "score": 63,
     "featured": false,
     "createdAt": "2026-05-08T02:19:37.000Z"
   },
@@ -10392,7 +10392,7 @@
       "北京",
       "广州"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-06T06:20:11.000Z"
   },
@@ -20942,8 +20942,8 @@
       "长春",
       "上海"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-04-15T14:19:08.000Z"
   },
   {
@@ -23107,7 +23107,7 @@
       "北京",
       "南京"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-04-13T06:19:31.000Z"
   },
@@ -29525,7 +29525,7 @@
       "上海",
       "宁波"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-04-03T06:18:55.000Z"
   },
@@ -56739,7 +56739,7 @@
       "机械/制造/设备",
       "无锡"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-03-13T06:19:08.000Z"
   },
@@ -73948,7 +73948,7 @@
       "能源/化工/环保",
       "温州"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-03-01T15:33:57.000Z"
   },
@@ -73971,7 +73971,7 @@
       "IT/互联网/游戏/电商",
       "济南"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-03-01T15:33:57.000Z"
   },
@@ -74458,7 +74458,7 @@
       "北京",
       "广州"
     ],
-    "score": 66,
+    "score": 61,
     "featured": false,
     "createdAt": "2026-03-01T15:33:26.000Z"
   },
@@ -74513,30 +74513,6 @@
     "createdAt": "2026-03-01T14:52:46.000Z"
   },
   {
-    "id": "deepoffer-12306",
-    "title": "晋华集成电路 — 实习 | IC设计类实习生（数字设计岗、模拟设计岗、版图设计岗）、研发整合类实习生（...",
-    "summary": "招聘类型：实习。行业：通信/电子/半导体。企业性质：民企。工作地点：上海、泉州。岗位：IC设计类实习生（数字设计岗、模拟设计岗、版图设计岗）、研发整合类实习生（研发整合岗、研发器件岗、研发缺陷管理岗、SPICE Model岗）、产品系统类实...。",
-    "url": "https://www.jhicc.com/Recruiting/Campus/Index",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "auto_ic",
-    "companyType": "private",
-    "location": "上海、泉州",
-    "deadline": "尽快投递",
-    "tags": [
-      "晋华集成电路",
-      "实习",
-      "车企/IC",
-      "通信/电子/半导体",
-      "上海",
-      "泉州"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-03-01T14:52:45.000Z"
-  },
-  {
     "id": "deepoffer-12302",
     "title": "上海农商银行 — 实习 | 新锐生|总行实习生、新锐生|分支行实习生",
     "summary": "招聘类型：实习。行业：金融/银行/保险。企业性质：银行。工作地点：上海、唐山、湘潭。截止日期：2026/06/05。岗位：新锐生|总行实习生、新锐生|分支行实习生。",
@@ -74559,6 +74535,30 @@
       "湘潭"
     ],
     "score": 75,
+    "featured": false,
+    "createdAt": "2026-03-01T14:52:45.000Z"
+  },
+  {
+    "id": "deepoffer-12306",
+    "title": "晋华集成电路 — 实习 | IC设计类实习生（数字设计岗、模拟设计岗、版图设计岗）、研发整合类实习生（...",
+    "summary": "招聘类型：实习。行业：通信/电子/半导体。企业性质：民企。工作地点：上海、泉州。岗位：IC设计类实习生（数字设计岗、模拟设计岗、版图设计岗）、研发整合类实习生（研发整合岗、研发器件岗、研发缺陷管理岗、SPICE Model岗）、产品系统类实...。",
+    "url": "https://www.jhicc.com/Recruiting/Campus/Index",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "auto_ic",
+    "companyType": "private",
+    "location": "上海、泉州",
+    "deadline": "尽快投递",
+    "tags": [
+      "晋华集成电路",
+      "实习",
+      "车企/IC",
+      "通信/电子/半导体",
+      "上海",
+      "泉州"
+    ],
+    "score": 71,
     "featured": false,
     "createdAt": "2026-03-01T14:52:45.000Z"
   },
@@ -74802,7 +74802,7 @@
       "金融/银行/保险",
       "南京"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-03-01T13:54:08.000Z"
   },
@@ -144902,7 +144902,7 @@
       "上海",
       "苏州"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-02-28T14:51:54.000Z"
   },
@@ -144950,7 +144950,7 @@
       "北京",
       "深圳"
     ],
-    "score": 92,
+    "score": 87,
     "featured": true,
     "createdAt": "2026-02-28T14:51:53.000Z"
   },
@@ -144977,7 +144977,7 @@
       "乌海",
       "包头"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-02-28T14:51:53.000Z"
   },
