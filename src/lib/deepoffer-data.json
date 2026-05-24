@@ -1181,8 +1181,8 @@
       "房地产/建筑/物业",
       "苏州"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-20T10:19:21.000Z"
   },
   {
@@ -1206,8 +1206,8 @@
       "金融/银行/保险",
       "成都"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-20T06:19:19.000Z"
   },
   {
@@ -1233,8 +1233,8 @@
       "大连",
       "鞍山"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-20T06:19:19.000Z"
   },
   {
@@ -1257,8 +1257,8 @@
       "金融/银行/保险",
       "广州"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-20T06:19:19.000Z"
   },
   {
@@ -1281,8 +1281,8 @@
       "房地产/建筑/物业",
       "宁波"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-20T06:19:19.000Z"
   },
   {
@@ -1305,8 +1305,8 @@
       "文化/传媒/出版",
       "南昌"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-20T06:19:19.000Z"
   },
   {
@@ -1330,8 +1330,8 @@
       "快消/零售/消费品",
       "汾阳"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-20T06:19:19.000Z"
   },
   {
@@ -1355,8 +1355,8 @@
       "金融/银行/保险",
       "宁波"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-20T06:19:19.000Z"
   },
   {
@@ -1380,8 +1380,8 @@
       "金融/银行/保险",
       "长沙"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-20T06:19:19.000Z"
   },
   {
@@ -1406,8 +1406,8 @@
       "南宁",
       "全国多地"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-20T06:19:19.000Z"
   },
   {
@@ -1430,8 +1430,8 @@
       "通信/电子/半导体",
       "全国各地"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-20T06:19:19.000Z"
   },
   {
@@ -1455,8 +1455,8 @@
       "玉林",
       "衢州"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-20T06:19:19.000Z"
   },
   {
@@ -1479,7 +1479,7 @@
       "汽车/新能源",
       "天津"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-20T06:19:19.000Z"
   },
@@ -1503,7 +1503,7 @@
       "人工智能/机器人",
       "杭州"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-20T06:19:19.000Z"
   },
@@ -1527,7 +1527,7 @@
       "金融/银行/保险",
       "苏州"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-20T06:19:19.000Z"
   },
@@ -1551,7 +1551,7 @@
       "金融/银行/保险",
       "宁波"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-20T06:19:19.000Z"
   },
@@ -1576,7 +1576,7 @@
       "上海",
       "苏州"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-20T06:19:19.000Z"
   },
@@ -1600,8 +1600,8 @@
       "快消/零售/消费品",
       "重庆"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-19T10:19:18.000Z"
   },
   {
@@ -7934,7 +7934,7 @@
       "游戏",
       "IT/互联网/游戏/电商"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-09T18:19:34.000Z"
   },
@@ -7959,7 +7959,7 @@
       "北京",
       "深圳"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-09T14:19:46.000Z"
   },
@@ -7986,7 +7986,7 @@
       "云南",
       "北京"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-09T14:19:46.000Z"
   },
@@ -8010,7 +8010,7 @@
       "金融/银行/保险",
       "深圳"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-09T14:19:46.000Z"
   },
@@ -8036,7 +8036,7 @@
       "北京",
       "哈尔滨"
     ],
-    "score": 69,
+    "score": 64,
     "featured": false,
     "createdAt": "2026-05-09T14:19:46.000Z"
   },
@@ -8058,7 +8058,7 @@
       "车企/IC",
       "通信/电子/半导体"
     ],
-    "score": 68,
+    "score": 63,
     "featured": false,
     "createdAt": "2026-05-09T14:19:46.000Z"
   },
@@ -8081,7 +8081,7 @@
       "生物/医疗/医药/制药",
       "宁波"
     ],
-    "score": 68,
+    "score": 63,
     "featured": false,
     "createdAt": "2026-05-09T14:19:46.000Z"
   },
@@ -8104,7 +8104,7 @@
       "文化/传媒/出版",
       "广州"
     ],
-    "score": 67,
+    "score": 62,
     "featured": false,
     "createdAt": "2026-05-09T14:19:46.000Z"
   },
@@ -8130,7 +8130,7 @@
       "北京",
       "深圳"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-09T14:19:45.000Z"
   },
@@ -8154,129 +8154,7 @@
       "北京",
       "杭州"
     ],
-    "score": 75,
-    "featured": false,
-    "createdAt": "2026-05-09T14:19:45.000Z"
-  },
-  {
-    "id": "deepoffer-16694",
-    "title": "沃尔沃汽车 — 实习 | Digital AI Coding Intern Program/数字化A...",
-    "summary": "招聘类型：实习。行业：汽车/新能源。企业性质：外企。工作地点：上海。岗位：Digital AI Coding Intern Program/数字化AI Coding 实习生项目。",
-    "url": "https://app.mokahr.com/social-recruitment/volvocars/67891#/job/4afd8324-80b9-4586-966c-5e9e27a83484?from=qrcode",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "auto_ic",
-    "companyType": "foreign",
-    "location": "上海",
-    "deadline": "尽快投递",
-    "tags": [
-      "沃尔沃汽车",
-      "实习",
-      "车企/IC",
-      "外企",
-      "汽车/新能源",
-      "上海"
-    ],
-    "score": 73,
-    "featured": false,
-    "createdAt": "2026-05-09T14:19:45.000Z"
-  },
-  {
-    "id": "deepoffer-16684",
-    "title": "凯捷 — 实习 | AI开发工程师、AIGC开发工程师(前端/后端)、数据开发工程师、SAP ...",
-    "summary": "招聘类型：实习。行业：IT/互联网/游戏/电商。企业性质：外企。工作地点：上海、北京、大连、沈阳。岗位：AI开发工程师、AIGC开发工程师(前端/后端)、数据开发工程师、SAP Basis顾问、SAP实施顾问、微软云开发工程师、运维工程师、软件开发工程师、项...。",
-    "url": "https://v.wjx.cn/vm/ryU3Kv3.aspx",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "game",
-    "companyType": "foreign",
-    "location": "上海、北京、大连、沈阳",
-    "deadline": "尽快投递",
-    "tags": [
-      "凯捷",
-      "实习",
-      "游戏",
-      "外企",
-      "IT/互联网/游戏/电商",
-      "上海",
-      "北京",
-      "大连"
-    ],
-    "score": 73,
-    "featured": false,
-    "createdAt": "2026-05-09T14:19:45.000Z"
-  },
-  {
-    "id": "deepoffer-16696",
-    "title": "索迪斯 — 实习 | 精英发展项目校园招聘：2027届法语相关专业的应届毕业生",
-    "summary": "招聘类型：实习。行业：广告/咨询/服务。企业性质：外企。工作地点：上海、北京、南京、广州、杭州、深圳、苏州、西安。截止日期：2026/12/31。岗位：精英发展项目校园招聘：2027届法语相关专业的应届毕业生。",
-    "url": "https://mp.weixin.qq.com/s/-V8jae9KwOy0xv9NfURBvw",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "foreign",
-    "companyType": "foreign",
-    "location": "上海、北京、南京、广州、杭州、深圳、苏州、西安",
-    "deadline": "2026/12/31",
-    "tags": [
-      "索迪斯",
-      "实习",
-      "外企",
-      "广告/咨询/服务",
-      "上海",
-      "北京",
-      "南京"
-    ],
-    "score": 72,
-    "featured": false,
-    "createdAt": "2026-05-09T14:19:45.000Z"
-  },
-  {
-    "id": "deepoffer-16692",
-    "title": "科赴 — 实习 | 销售 电商 市场 研发 供应链等岗位",
-    "summary": "招聘类型：实习。行业：IT/互联网/游戏/电商。企业性质：外企。工作地点：上海。截止日期：2026/06/05。岗位：销售 电商 市场 研发 供应链等岗位。",
-    "url": "https://jntl.tupu360.com/pageQrCode?targetUrl=a7f4739eb94ec9efcb7462b6f485e33058491525617ecd6f1ba43730c4832cfce8afafc011dbcc6086f6090b46e7a1ede670f8eef63ed11211edd8621e78944eecdd08eff1dc8266b2ebc00387c4026f",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "game",
-    "companyType": "foreign",
-    "location": "上海",
-    "deadline": "2026/06/05",
-    "tags": [
-      "科赴",
-      "实习",
-      "游戏",
-      "外企",
-      "IT/互联网/游戏/电商",
-      "上海"
-    ],
-    "score": 72,
-    "featured": false,
-    "createdAt": "2026-05-09T14:19:45.000Z"
-  },
-  {
-    "id": "deepoffer-16687",
-    "title": "百多力医疗 — 实习 | 暑期实习计划：专业不限、医学、生物工程、管理类优先",
-    "summary": "招聘类型：实习。行业：生物/医疗/医药/制药。企业性质：外企。工作地点：北京。岗位：暑期实习计划：专业不限、医学、生物工程、管理类优先。",
-    "url": "https://mp.weixin.qq.com/s/vOWMPnehQXu2beGh878FRg",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "foreign",
-    "companyType": "foreign",
-    "location": "北京",
-    "deadline": "尽快投递",
-    "tags": [
-      "百多力医疗",
-      "实习",
-      "外企",
-      "生物/医疗/医药/制药",
-      "北京"
-    ],
-    "score": 71,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-09T14:19:45.000Z"
   },
@@ -8303,6 +8181,128 @@
     "createdAt": "2026-05-09T14:19:45.000Z"
   },
   {
+    "id": "deepoffer-16694",
+    "title": "沃尔沃汽车 — 实习 | Digital AI Coding Intern Program/数字化A...",
+    "summary": "招聘类型：实习。行业：汽车/新能源。企业性质：外企。工作地点：上海。岗位：Digital AI Coding Intern Program/数字化AI Coding 实习生项目。",
+    "url": "https://app.mokahr.com/social-recruitment/volvocars/67891#/job/4afd8324-80b9-4586-966c-5e9e27a83484?from=qrcode",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "auto_ic",
+    "companyType": "foreign",
+    "location": "上海",
+    "deadline": "尽快投递",
+    "tags": [
+      "沃尔沃汽车",
+      "实习",
+      "车企/IC",
+      "外企",
+      "汽车/新能源",
+      "上海"
+    ],
+    "score": 68,
+    "featured": false,
+    "createdAt": "2026-05-09T14:19:45.000Z"
+  },
+  {
+    "id": "deepoffer-16684",
+    "title": "凯捷 — 实习 | AI开发工程师、AIGC开发工程师(前端/后端)、数据开发工程师、SAP ...",
+    "summary": "招聘类型：实习。行业：IT/互联网/游戏/电商。企业性质：外企。工作地点：上海、北京、大连、沈阳。岗位：AI开发工程师、AIGC开发工程师(前端/后端)、数据开发工程师、SAP Basis顾问、SAP实施顾问、微软云开发工程师、运维工程师、软件开发工程师、项...。",
+    "url": "https://v.wjx.cn/vm/ryU3Kv3.aspx",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "game",
+    "companyType": "foreign",
+    "location": "上海、北京、大连、沈阳",
+    "deadline": "尽快投递",
+    "tags": [
+      "凯捷",
+      "实习",
+      "游戏",
+      "外企",
+      "IT/互联网/游戏/电商",
+      "上海",
+      "北京",
+      "大连"
+    ],
+    "score": 68,
+    "featured": false,
+    "createdAt": "2026-05-09T14:19:45.000Z"
+  },
+  {
+    "id": "deepoffer-16696",
+    "title": "索迪斯 — 实习 | 精英发展项目校园招聘：2027届法语相关专业的应届毕业生",
+    "summary": "招聘类型：实习。行业：广告/咨询/服务。企业性质：外企。工作地点：上海、北京、南京、广州、杭州、深圳、苏州、西安。截止日期：2026/12/31。岗位：精英发展项目校园招聘：2027届法语相关专业的应届毕业生。",
+    "url": "https://mp.weixin.qq.com/s/-V8jae9KwOy0xv9NfURBvw",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "foreign",
+    "companyType": "foreign",
+    "location": "上海、北京、南京、广州、杭州、深圳、苏州、西安",
+    "deadline": "2026/12/31",
+    "tags": [
+      "索迪斯",
+      "实习",
+      "外企",
+      "广告/咨询/服务",
+      "上海",
+      "北京",
+      "南京"
+    ],
+    "score": 67,
+    "featured": false,
+    "createdAt": "2026-05-09T14:19:45.000Z"
+  },
+  {
+    "id": "deepoffer-16692",
+    "title": "科赴 — 实习 | 销售 电商 市场 研发 供应链等岗位",
+    "summary": "招聘类型：实习。行业：IT/互联网/游戏/电商。企业性质：外企。工作地点：上海。截止日期：2026/06/05。岗位：销售 电商 市场 研发 供应链等岗位。",
+    "url": "https://jntl.tupu360.com/pageQrCode?targetUrl=a7f4739eb94ec9efcb7462b6f485e33058491525617ecd6f1ba43730c4832cfce8afafc011dbcc6086f6090b46e7a1ede670f8eef63ed11211edd8621e78944eecdd08eff1dc8266b2ebc00387c4026f",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "game",
+    "companyType": "foreign",
+    "location": "上海",
+    "deadline": "2026/06/05",
+    "tags": [
+      "科赴",
+      "实习",
+      "游戏",
+      "外企",
+      "IT/互联网/游戏/电商",
+      "上海"
+    ],
+    "score": 67,
+    "featured": false,
+    "createdAt": "2026-05-09T14:19:45.000Z"
+  },
+  {
+    "id": "deepoffer-16687",
+    "title": "百多力医疗 — 实习 | 暑期实习计划：专业不限、医学、生物工程、管理类优先",
+    "summary": "招聘类型：实习。行业：生物/医疗/医药/制药。企业性质：外企。工作地点：北京。岗位：暑期实习计划：专业不限、医学、生物工程、管理类优先。",
+    "url": "https://mp.weixin.qq.com/s/vOWMPnehQXu2beGh878FRg",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "foreign",
+    "companyType": "foreign",
+    "location": "北京",
+    "deadline": "尽快投递",
+    "tags": [
+      "百多力医疗",
+      "实习",
+      "外企",
+      "生物/医疗/医药/制药",
+      "北京"
+    ],
+    "score": 66,
+    "featured": false,
+    "createdAt": "2026-05-09T14:19:45.000Z"
+  },
+  {
     "id": "deepoffer-16697",
     "title": "中国铁路北京局 — 26届春招 | 财务会计 信息技术 法律事务 经营管理 医学检验等岗位",
     "summary": "招聘类型：26届春招。行业：交通/物流/出行。企业性质：央国企。工作地点：保定、北京、唐山、天津、张家口、承德、沧州、石家庄、衡水、邯郸。截止日期：2026/05/14。岗位：财务会计 信息技术 法律事务 经营管理 医学检验等岗位。",
@@ -8325,7 +8325,7 @@
       "北京",
       "唐山"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-05-09T14:19:45.000Z"
   },
@@ -8347,7 +8347,7 @@
       "教育/培训",
       "武汉"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-05-09T14:19:45.000Z"
   },
@@ -8372,7 +8372,7 @@
       "交通/物流/出行",
       "兰州"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-05-09T14:19:45.000Z"
   },
@@ -8395,7 +8395,7 @@
       "金融/银行/保险",
       "泉州"
     ],
-    "score": 69,
+    "score": 64,
     "featured": false,
     "createdAt": "2026-05-09T14:19:45.000Z"
   },
@@ -8418,7 +8418,7 @@
       "通信/电子/半导体",
       "深圳"
     ],
-    "score": 68,
+    "score": 63,
     "featured": false,
     "createdAt": "2026-05-09T14:19:45.000Z"
   },
@@ -8442,7 +8442,7 @@
       "快消/零售/消费品",
       "杭州"
     ],
-    "score": 67,
+    "score": 62,
     "featured": false,
     "createdAt": "2026-05-09T14:19:45.000Z"
   },
@@ -8468,7 +8468,7 @@
       "东莞",
       "北京"
     ],
-    "score": 67,
+    "score": 62,
     "featured": false,
     "createdAt": "2026-05-09T14:19:45.000Z"
   },
@@ -48260,7 +48260,7 @@
       "上海",
       "杭州"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-03-19T06:19:09.000Z"
   },
@@ -74240,7 +74240,7 @@
       "深圳",
       "长沙"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-03-01T15:33:43.000Z"
   },
@@ -74311,7 +74311,7 @@
       "教育/培训",
       "北京"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-03-01T15:33:42.000Z"
   },
@@ -74358,7 +74358,7 @@
       "文化/传媒/出版",
       "长沙"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-03-01T15:33:36.000Z"
   },
@@ -74482,8 +74482,8 @@
       "金融/银行/保险",
       "上海"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-03-01T14:52:46.000Z"
   },
   {
@@ -74655,8 +74655,8 @@
       "张掖",
       "平凉"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-03-01T14:52:41.000Z"
   },
   {
@@ -74922,7 +74922,7 @@
       "IT/互联网/游戏/电商",
       "上海"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-03-01T10:03:37.000Z"
   },

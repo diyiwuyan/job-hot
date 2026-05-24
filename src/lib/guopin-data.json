@@ -6566,47 +6566,6 @@
     "createdAt": "2026-05-16T17:21:26.000Z"
   },
   {
-    "id": "guopin-200709357988479052",
-    "title": "中色卢安夏铜业有限公司 — 选矿工程师",
-    "summary": "企业性质：国企。行业：有色金属矿采选业。工作地点：赞比亚。薪资：25000-30000元/月。学历：硕士。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=200709357988479052",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "中色卢安夏铜业有限公司",
-      "校招",
-      "国企",
-      "有色金属矿采选业",
-      "赞比亚"
-    ],
-    "score": 87,
-    "featured": true,
-    "createdAt": "2026-05-16T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-200675186490474545",
-    "title": "中国电建集团山东电力建设有限公司 — 市场开发工程师（法语-校招）",
-    "summary": "企业性质：国企。行业：建筑业。工作地点：阿联酋。薪资：10000-13000元/月。学历：本科。规模：5000-10000人。",
-    "url": "https://www.iguopin.com/job/detail?id=200675186490474545",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "中国电建集团山东电力建设有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "建筑业",
-      "阿联酋"
-    ],
-    "score": 86,
-    "featured": true,
-    "createdAt": "2026-05-16T00:00:00.000Z"
-  },
-  {
     "id": "guopin-200710443658903628",
     "title": "中色卢安夏铜业有限公司 — 机械工程师",
     "summary": "企业性质：国企。行业：有色金属矿采选业。工作地点：赞比亚。薪资：25000-30000元/月。学历：硕士。规模：1000-2000人。",
@@ -6628,6 +6587,47 @@
     "createdAt": "2026-05-16T00:00:00.000Z"
   },
   {
+    "id": "guopin-200709357988479052",
+    "title": "中色卢安夏铜业有限公司 — 选矿工程师",
+    "summary": "企业性质：国企。行业：有色金属矿采选业。工作地点：赞比亚。薪资：25000-30000元/月。学历：硕士。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=200709357988479052",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "中色卢安夏铜业有限公司",
+      "校招",
+      "国企",
+      "有色金属矿采选业",
+      "赞比亚"
+    ],
+    "score": 82,
+    "featured": true,
+    "createdAt": "2026-05-16T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-200675186490474545",
+    "title": "中国电建集团山东电力建设有限公司 — 市场开发工程师（法语-校招）",
+    "summary": "企业性质：国企。行业：建筑业。工作地点：阿联酋。薪资：10000-13000元/月。学历：本科。规模：5000-10000人。",
+    "url": "https://www.iguopin.com/job/detail?id=200675186490474545",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "中国电建集团山东电力建设有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "建筑业",
+      "阿联酋"
+    ],
+    "score": 81,
+    "featured": true,
+    "createdAt": "2026-05-16T00:00:00.000Z"
+  },
+  {
     "id": "guopin-200627404442435656",
     "title": "临沂华东材料有限公司 — 试验员（施工服务工程师）",
     "summary": "企业性质：国企。行业：其他制造业。工作地点：临沂。薪资：6000-6500元/月。学历：本科。规模：不公开。",
@@ -6644,7 +6644,7 @@
       "其他制造业",
       "临沂"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-05-16T00:00:00.000Z"
   },
@@ -6664,7 +6664,7 @@
       "有色金属矿采选业",
       "赞比亚"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-05-16T00:00:00.000Z"
   },
@@ -6684,7 +6684,7 @@
       "有色金属矿采选业",
       "赞比亚"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-05-16T00:00:00.000Z"
   },
@@ -6705,8 +6705,8 @@
       "租赁业",
       "北京"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-16T00:00:00.000Z"
   },
   {
@@ -6725,8 +6725,8 @@
       "有色金属矿采选业",
       "赞比亚"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-16T00:00:00.000Z"
   },
   {
@@ -6746,8 +6746,8 @@
       "其他制造业",
       "临沂"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-16T00:00:00.000Z"
   },
   {
@@ -6766,8 +6766,8 @@
       "非金属矿物制品业",
       "北京"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-16T00:00:00.000Z"
   },
   {
@@ -14760,49 +14760,6 @@
     "createdAt": "2026-05-09T09:00:25.000Z"
   },
   {
-    "id": "guopin-199661925557076154",
-    "title": "中国建筑第六工程局有限公司福州分公司 — 商务管理岗【中建六局四建公司2026届校园招聘简章】",
-    "summary": "企业性质：国企。行业：土木工程建筑业。工作地点：浙江、福建、广东。薪资：6000-10000元/月。学历：本科。规模：300-500人。",
-    "url": "https://www.iguopin.com/job/detail?id=199661925557076154",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "中国建筑第六工程局有限公司福州分公司",
-      "校招",
-      "国企",
-      "土木工程建筑业",
-      "浙江",
-      "福建",
-      "广东"
-    ],
-    "score": 87,
-    "featured": true,
-    "createdAt": "2026-05-09T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-199654182385352896",
-    "title": "中国建筑第二工程局有限公司北方分公司 — 机械（塔吊、电梯）管理工程师",
-    "summary": "企业性质：国企。行业：土木工程建筑业。工作地点：中国。薪资：7000-8000元/月。学历：本科。规模：2000-5000人。",
-    "url": "https://www.iguopin.com/job/detail?id=199654182385352896",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "中国建筑第二工程局有限公司北方分公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "土木工程建筑业",
-      "中国"
-    ],
-    "score": 84,
-    "featured": true,
-    "createdAt": "2026-05-09T00:00:00.000Z"
-  },
-  {
     "id": "guopin-199648028032762044",
     "title": "上海益诺思生物技术股份有限公司 — 科研专员",
     "summary": "企业性质：国企。行业：科技推广和应用服务业。工作地点：南通-海门区。薪资面议。学历：硕士。规模：500-1000人。",
@@ -14824,6 +14781,49 @@
     "createdAt": "2026-05-09T00:00:00.000Z"
   },
   {
+    "id": "guopin-199661925557076154",
+    "title": "中国建筑第六工程局有限公司福州分公司 — 商务管理岗【中建六局四建公司2026届校园招聘简章】",
+    "summary": "企业性质：国企。行业：土木工程建筑业。工作地点：浙江、福建、广东。薪资：6000-10000元/月。学历：本科。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=199661925557076154",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "中国建筑第六工程局有限公司福州分公司",
+      "校招",
+      "国企",
+      "土木工程建筑业",
+      "浙江",
+      "福建",
+      "广东"
+    ],
+    "score": 82,
+    "featured": true,
+    "createdAt": "2026-05-09T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-199654182385352896",
+    "title": "中国建筑第二工程局有限公司北方分公司 — 机械（塔吊、电梯）管理工程师",
+    "summary": "企业性质：国企。行业：土木工程建筑业。工作地点：中国。薪资：7000-8000元/月。学历：本科。规模：2000-5000人。",
+    "url": "https://www.iguopin.com/job/detail?id=199654182385352896",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "中国建筑第二工程局有限公司北方分公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "土木工程建筑业",
+      "中国"
+    ],
+    "score": 79,
+    "featured": false,
+    "createdAt": "2026-05-09T00:00:00.000Z"
+  },
+  {
     "id": "guopin-199655430727663806",
     "title": "易普力股份有限公司 — 国际市场开发(英语)",
     "summary": "企业性质：国企。行业：其他采矿业。工作地点：长沙-岳麓区。薪资：7000-12000元/月。学历：本科。规模：5000-10000人。",
@@ -14839,8 +14839,8 @@
       "其他采矿业",
       "长沙"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-09T00:00:00.000Z"
   },
   {
@@ -14860,8 +14860,8 @@
       "卫生",
       "南京"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-09T00:00:00.000Z"
   },
   {
@@ -14881,131 +14881,7 @@
       "信息传输、软件和信息技术服务业",
       "深圳"
     ],
-    "score": 82,
-    "featured": true,
-    "createdAt": "2026-05-09T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-195004946943315566",
-    "title": "中国十九冶集团有限公司工业工程分公司 — 财务管理岗",
-    "summary": "企业性质：国企。行业：土木工程建筑业。工作地点：成都-郫都区。薪资：6000-9000元/月。学历：本科。规模：500-1000人。",
-    "url": "https://www.iguopin.com/job/detail?id=195004946943315566",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "中国十九冶集团有限公司工业工程分公司",
-      "校招",
-      "国企",
-      "土木工程建筑业",
-      "成都"
-    ],
-    "score": 80,
-    "featured": true,
-    "createdAt": "2026-05-09T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-199659598842429629",
-    "title": "中核矿业科技集团有限公司 — 工程设计岗（给排水科学与工程、市政工程相关专业）",
-    "summary": "企业性质：国企。行业：科技推广和应用服务业。工作地点：石家庄-裕华区。薪资面议。学历：硕士。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=199659598842429629",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "中核矿业科技集团有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "科技推广和应用服务业",
-      "石家庄"
-    ],
-    "score": 79,
-    "featured": false,
-    "createdAt": "2026-05-09T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-199657343061852349",
-    "title": "中核矿业科技集团有限公司 — 暖通设计岗",
-    "summary": "企业性质：国企。行业：科技推广和应用服务业。工作地点：石家庄-裕华区。薪资面议。学历：硕士。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=199657343061852349",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "中核矿业科技集团有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "科技推广和应用服务业",
-      "石家庄"
-    ],
-    "score": 79,
-    "featured": false,
-    "createdAt": "2026-05-09T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-199619452742926533",
-    "title": "中国电建集团华中电力设计研究院有限公司 — 风/光资源工程师",
-    "summary": "企业性质：国企。行业：电力、热力生产和供应业。工作地点：中国。薪资面议。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=199619452742926533",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "中国电建集团华中电力设计研究院有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "电力、热力生产和供应业",
-      "中国"
-    ],
-    "score": 79,
-    "featured": false,
-    "createdAt": "2026-05-09T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-199612644833886398",
-    "title": "中建一局集团东南建设有限公司 — 中建一局东南公司2026届校园招聘市场营销岗",
-    "summary": "企业性质：国企。行业：房屋建筑业。工作地点：厦门-翔安区。薪资：7000-10000元/月。学历：硕士。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=199612644833886398",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "中建一局集团东南建设有限公司",
-      "校招",
-      "国企",
-      "房屋建筑业",
-      "厦门"
-    ],
-    "score": 78,
-    "featured": false,
-    "createdAt": "2026-05-09T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-193996957193079947",
-    "title": "中国电建集团华中电力设计研究院有限公司 — 总图工程师-海南院",
-    "summary": "企业性质：国企。行业：电力、热力生产和供应业。工作地点：中国。薪资面议。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=193996957193079947",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "中国电建集团华中电力设计研究院有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "电力、热力生产和供应业",
-      "中国"
-    ],
-    "score": 78,
+    "score": 77,
     "featured": false,
     "createdAt": "2026-05-09T00:00:00.000Z"
   },
@@ -15030,6 +14906,130 @@
     "createdAt": "2026-05-09T00:00:00.000Z"
   },
   {
+    "id": "guopin-195004946943315566",
+    "title": "中国十九冶集团有限公司工业工程分公司 — 财务管理岗",
+    "summary": "企业性质：国企。行业：土木工程建筑业。工作地点：成都-郫都区。薪资：6000-9000元/月。学历：本科。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=195004946943315566",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "中国十九冶集团有限公司工业工程分公司",
+      "校招",
+      "国企",
+      "土木工程建筑业",
+      "成都"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-05-09T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-199659598842429629",
+    "title": "中核矿业科技集团有限公司 — 工程设计岗（给排水科学与工程、市政工程相关专业）",
+    "summary": "企业性质：国企。行业：科技推广和应用服务业。工作地点：石家庄-裕华区。薪资面议。学历：硕士。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=199659598842429629",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "中核矿业科技集团有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "科技推广和应用服务业",
+      "石家庄"
+    ],
+    "score": 74,
+    "featured": false,
+    "createdAt": "2026-05-09T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-199657343061852349",
+    "title": "中核矿业科技集团有限公司 — 暖通设计岗",
+    "summary": "企业性质：国企。行业：科技推广和应用服务业。工作地点：石家庄-裕华区。薪资面议。学历：硕士。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=199657343061852349",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "中核矿业科技集团有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "科技推广和应用服务业",
+      "石家庄"
+    ],
+    "score": 74,
+    "featured": false,
+    "createdAt": "2026-05-09T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-199619452742926533",
+    "title": "中国电建集团华中电力设计研究院有限公司 — 风/光资源工程师",
+    "summary": "企业性质：国企。行业：电力、热力生产和供应业。工作地点：中国。薪资面议。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=199619452742926533",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "中国电建集团华中电力设计研究院有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "电力、热力生产和供应业",
+      "中国"
+    ],
+    "score": 74,
+    "featured": false,
+    "createdAt": "2026-05-09T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-199612644833886398",
+    "title": "中建一局集团东南建设有限公司 — 中建一局东南公司2026届校园招聘市场营销岗",
+    "summary": "企业性质：国企。行业：房屋建筑业。工作地点：厦门-翔安区。薪资：7000-10000元/月。学历：硕士。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=199612644833886398",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "中建一局集团东南建设有限公司",
+      "校招",
+      "国企",
+      "房屋建筑业",
+      "厦门"
+    ],
+    "score": 73,
+    "featured": false,
+    "createdAt": "2026-05-09T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-193996957193079947",
+    "title": "中国电建集团华中电力设计研究院有限公司 — 总图工程师-海南院",
+    "summary": "企业性质：国企。行业：电力、热力生产和供应业。工作地点：中国。薪资面议。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=193996957193079947",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "中国电建集团华中电力设计研究院有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "电力、热力生产和供应业",
+      "中国"
+    ],
+    "score": 73,
+    "featured": false,
+    "createdAt": "2026-05-09T00:00:00.000Z"
+  },
+  {
     "id": "guopin-199657537123909824",
     "title": "中核矿业科技集团有限公司 — 工艺设计岗（核科学与技术、化学工程与技术相关专业）",
     "summary": "企业性质：国企。行业：科技推广和应用服务业。工作地点：石家庄-裕华区。薪资面议。学历：硕士。规模：1000-2000人。",
@@ -15046,7 +15046,7 @@
       "科技推广和应用服务业",
       "石家庄"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-09T00:00:00.000Z"
   },
@@ -15067,7 +15067,7 @@
       "医药制造业",
       "武汉"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-09T00:00:00.000Z"
   },
@@ -15087,7 +15087,7 @@
       "卫生",
       "宜春"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-09T00:00:00.000Z"
   },
@@ -15107,7 +15107,7 @@
       "卫生",
       "宜春"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-09T00:00:00.000Z"
   },
@@ -15128,7 +15128,7 @@
       "电力、热力生产和供应业",
       "中国"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-09T00:00:00.000Z"
   },
@@ -15149,7 +15149,7 @@
       "医药制造业",
       "武汉"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-09T00:00:00.000Z"
   },
@@ -15169,7 +15169,7 @@
       "其他",
       "武汉"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-09T00:00:00.000Z"
   },
@@ -15189,7 +15189,7 @@
       "其他",
       "武汉"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-09T00:00:00.000Z"
   },
@@ -15210,7 +15210,7 @@
       "化学原料和化学制品制造业",
       "上海"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-09T00:00:00.000Z"
   },
@@ -15231,7 +15231,7 @@
       "水上运输业",
       "上海"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-09T00:00:00.000Z"
   },
@@ -15251,7 +15251,7 @@
       "商务服务业",
       "雄安新区"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-09T00:00:00.000Z"
   },
@@ -15272,7 +15272,7 @@
       "电力、热力生产和供应业",
       "中国"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-09T00:00:00.000Z"
   },
@@ -15293,7 +15293,7 @@
       "医药制造业",
       "武汉"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-09T00:00:00.000Z"
   },
@@ -15314,7 +15314,7 @@
       "医药制造业",
       "武汉"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-09T00:00:00.000Z"
   },
@@ -15335,7 +15335,7 @@
       "医药制造业",
       "武汉"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-09T00:00:00.000Z"
   },
@@ -28713,188 +28713,6 @@
     "createdAt": "2026-04-23T09:00:00.000Z"
   },
   {
-    "id": "guopin-197369743169032028",
-    "title": "中国有色集团刚果矿业有限公司 — 冶金工程师",
-    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：刚果(金)。薪资：35000-40000元/月。学历：硕士。规模：500-1000人。",
-    "url": "https://www.iguopin.com/job/detail?id=197369743169032028",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "中国有色集团刚果矿业有限公司",
-      "校招",
-      "国企",
-      "有色金属冶炼和压延加工业",
-      "刚果(金)"
-    ],
-    "score": 77,
-    "featured": false,
-    "createdAt": "2026-04-23T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-197369590026604368",
-    "title": "中国有色集团刚果矿业有限公司 — 法务",
-    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：刚果(金)。薪资：35000-40000元/月。学历：硕士。规模：500-1000人。",
-    "url": "https://www.iguopin.com/job/detail?id=197369590026604368",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "中国有色集团刚果矿业有限公司",
-      "校招",
-      "国企",
-      "有色金属冶炼和压延加工业",
-      "刚果(金)"
-    ],
-    "score": 77,
-    "featured": false,
-    "createdAt": "2026-04-23T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-197369206801436495",
-    "title": "中国有色集团刚果矿业有限公司 — 选矿工程师",
-    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：刚果(金)。薪资：35000-40000元/月。学历：硕士。规模：500-1000人。",
-    "url": "https://www.iguopin.com/job/detail?id=197369206801436495",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "中国有色集团刚果矿业有限公司",
-      "校招",
-      "国企",
-      "有色金属冶炼和压延加工业",
-      "刚果(金)"
-    ],
-    "score": 77,
-    "featured": false,
-    "createdAt": "2026-04-23T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-197319498057912146",
-    "title": "北京金隅混凝土有限公司 — 法务专员",
-    "summary": "企业性质：国企。行业：其他制造业。工作地点：北京-丰台区。薪资：6000-9000元/月。学历：本科。规模：300-500人。",
-    "url": "https://www.iguopin.com/job/detail?id=197319498057912146",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "北京金隅混凝土有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "其他制造业",
-      "北京"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-04-23T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-197322812950581073",
-    "title": "北京世源希达工程技术有限公司 — 技术工程师（管培生）",
-    "summary": "企业性质：国企。行业：建筑安装业。工作地点：中国。薪资：8000-8000元/月。学历：本科。规模：300-500人。",
-    "url": "https://www.iguopin.com/job/detail?id=197322812950581073",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "北京世源希达工程技术有限公司",
-      "校招",
-      "国企",
-      "建筑安装业",
-      "中国"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-04-23T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-197298161029484370",
-    "title": "北京世源希达工程技术有限公司 — BIM工程师",
-    "summary": "企业性质：国企。行业：建筑安装业。工作地点：北京。薪资：8000-9000元/月。学历：本科。规模：300-500人。",
-    "url": "https://www.iguopin.com/job/detail?id=197298161029484370",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "北京世源希达工程技术有限公司",
-      "校招",
-      "国企",
-      "建筑安装业",
-      "北京"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-04-23T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-197286300510850899",
-    "title": "中冶沈勘工程技术有限公司 — 法务专员",
-    "summary": "企业性质：国企。行业：建筑业。工作地点：沈阳-浑南区。薪资：6000-8000元/月。学历：本科。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=197286300510850899",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "中冶沈勘工程技术有限公司",
-      "校招",
-      "国企",
-      "建筑业",
-      "沈阳"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-04-23T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-197334759016238932",
-    "title": "风神轮胎(太原)有限公司 — 安全专员",
-    "summary": "企业性质：国企。行业：化学原料和化学制品制造业。工作地点：太原-清徐县。薪资：4000-6000元/月。学历：本科。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=197334759016238932",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "风神轮胎(太原)有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "化学原料和化学制品制造业",
-      "太原"
-    ],
-    "score": 75,
-    "featured": false,
-    "createdAt": "2026-04-23T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-197338536607747920",
-    "title": "国药控股兰州盛原医药有限公司 — 商务专员",
-    "summary": "企业性质：国企。行业：卫生。工作地点：兰州-城关区。薪资：8000-10000元/月。学历：本科。规模：50人以下。",
-    "url": "https://www.iguopin.com/job/detail?id=197338536607747920",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "国药控股兰州盛原医药有限公司",
-      "校招",
-      "国企",
-      "卫生",
-      "兰州"
-    ],
-    "score": 75,
-    "featured": false,
-    "createdAt": "2026-04-23T00:00:00.000Z"
-  },
-  {
     "id": "guopin-197302563974942543",
     "title": "楚雄滇中有色金属有限责任公司 — 技术员（冶金）",
     "summary": "企业性质：国企。行业：制造业。工作地点：楚雄-楚雄市。薪资：8000-12000元/月。学历：本科。规模：1000-2000人。",
@@ -28916,6 +28734,188 @@
     "createdAt": "2026-04-23T00:00:00.000Z"
   },
   {
+    "id": "guopin-197369743169032028",
+    "title": "中国有色集团刚果矿业有限公司 — 冶金工程师",
+    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：刚果(金)。薪资：35000-40000元/月。学历：硕士。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=197369743169032028",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "中国有色集团刚果矿业有限公司",
+      "校招",
+      "国企",
+      "有色金属冶炼和压延加工业",
+      "刚果(金)"
+    ],
+    "score": 72,
+    "featured": false,
+    "createdAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-197369590026604368",
+    "title": "中国有色集团刚果矿业有限公司 — 法务",
+    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：刚果(金)。薪资：35000-40000元/月。学历：硕士。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=197369590026604368",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "中国有色集团刚果矿业有限公司",
+      "校招",
+      "国企",
+      "有色金属冶炼和压延加工业",
+      "刚果(金)"
+    ],
+    "score": 72,
+    "featured": false,
+    "createdAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-197369206801436495",
+    "title": "中国有色集团刚果矿业有限公司 — 选矿工程师",
+    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：刚果(金)。薪资：35000-40000元/月。学历：硕士。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=197369206801436495",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "中国有色集团刚果矿业有限公司",
+      "校招",
+      "国企",
+      "有色金属冶炼和压延加工业",
+      "刚果(金)"
+    ],
+    "score": 72,
+    "featured": false,
+    "createdAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-197319498057912146",
+    "title": "北京金隅混凝土有限公司 — 法务专员",
+    "summary": "企业性质：国企。行业：其他制造业。工作地点：北京-丰台区。薪资：6000-9000元/月。学历：本科。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=197319498057912146",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "北京金隅混凝土有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "其他制造业",
+      "北京"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-197322812950581073",
+    "title": "北京世源希达工程技术有限公司 — 技术工程师（管培生）",
+    "summary": "企业性质：国企。行业：建筑安装业。工作地点：中国。薪资：8000-8000元/月。学历：本科。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=197322812950581073",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "北京世源希达工程技术有限公司",
+      "校招",
+      "国企",
+      "建筑安装业",
+      "中国"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-197298161029484370",
+    "title": "北京世源希达工程技术有限公司 — BIM工程师",
+    "summary": "企业性质：国企。行业：建筑安装业。工作地点：北京。薪资：8000-9000元/月。学历：本科。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=197298161029484370",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "北京世源希达工程技术有限公司",
+      "校招",
+      "国企",
+      "建筑安装业",
+      "北京"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-197286300510850899",
+    "title": "中冶沈勘工程技术有限公司 — 法务专员",
+    "summary": "企业性质：国企。行业：建筑业。工作地点：沈阳-浑南区。薪资：6000-8000元/月。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=197286300510850899",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "中冶沈勘工程技术有限公司",
+      "校招",
+      "国企",
+      "建筑业",
+      "沈阳"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-197334759016238932",
+    "title": "风神轮胎(太原)有限公司 — 安全专员",
+    "summary": "企业性质：国企。行业：化学原料和化学制品制造业。工作地点：太原-清徐县。薪资：4000-6000元/月。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=197334759016238932",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "风神轮胎(太原)有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "化学原料和化学制品制造业",
+      "太原"
+    ],
+    "score": 70,
+    "featured": false,
+    "createdAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-197338536607747920",
+    "title": "国药控股兰州盛原医药有限公司 — 商务专员",
+    "summary": "企业性质：国企。行业：卫生。工作地点：兰州-城关区。薪资：8000-10000元/月。学历：本科。规模：50人以下。",
+    "url": "https://www.iguopin.com/job/detail?id=197338536607747920",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "国药控股兰州盛原医药有限公司",
+      "校招",
+      "国企",
+      "卫生",
+      "兰州"
+    ],
+    "score": 70,
+    "featured": false,
+    "createdAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
     "id": "guopin-197369344357830476",
     "title": "中国有色集团刚果矿业有限公司 — 机械电气工程师",
     "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：刚果(金)。薪资：35000-40000元/月。学历：硕士。规模：500-1000人。",
@@ -28932,7 +28932,7 @@
       "有色金属冶炼和压延加工业",
       "刚果(金)"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-04-23T00:00:00.000Z"
   },
@@ -28952,7 +28952,7 @@
       "其他",
       "天津"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-04-23T00:00:00.000Z"
   },
@@ -28972,7 +28972,7 @@
       "纺织服装/服饰业",
       "杭州"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-04-23T00:00:00.000Z"
   },
@@ -28993,7 +28993,7 @@
       "科技推广和应用服务业",
       "石家庄"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-04-23T00:00:00.000Z"
   },
