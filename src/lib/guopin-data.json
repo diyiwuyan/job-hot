@@ -41,6 +41,483 @@
     "createdAt": "2026-06-01T00:00:00.000Z"
   },
   {
+    "id": "guopin-192989175597763741",
+    "title": "北京长城电子装备有限责任公司 — 试验工程师",
+    "summary": "企业性质：国企。行业：专用设备制造业。工作地点：北京-海淀区。薪资面议。学历：硕士。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=192989175597763741",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "北京长城电子装备有限责任公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "专用设备制造业",
+      "北京"
+    ],
+    "score": 83,
+    "featured": true,
+    "createdAt": "2026-05-25T10:59:21.000Z"
+  },
+  {
+    "id": "guopin-201934365171647091",
+    "title": "广州发展集团股份有限公司 — 纪检岗",
+    "summary": "企业性质：国企。行业：电力、热力生产和供应业。工作地点：广州。薪资面议。学历：本科。规模：5000-10000人。",
+    "url": "https://www.iguopin.com/job/detail?id=201934365171647091",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "广州发展集团股份有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "电力、热力生产和供应业",
+      "广州"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-05-25T09:57:21.000Z"
+  },
+  {
+    "id": "guopin-201930834557534839",
+    "title": "国药集团山西有限公司 — 医学信息沟通专员-晋中",
+    "summary": "企业性质：国企。行业：批发业。工作地点：晋中。薪资：3000-4000元/月。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=201930834557534839",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "国药集团山西有限公司",
+      "校招",
+      "国企",
+      "批发业",
+      "晋中"
+    ],
+    "score": 83,
+    "featured": true,
+    "createdAt": "2026-05-25T09:24:00.000Z"
+  },
+  {
+    "id": "guopin-201930747198571127",
+    "title": "国投人力上海分公司 — 施工员-央企派遣",
+    "summary": "企业性质：国企。行业：租赁和商务服务业。工作地点：上海。薪资：7500-10000元/月。学历：本科。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=201930747198571127",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "国投人力上海分公司",
+      "校招",
+      "国企",
+      "租赁和商务服务业",
+      "上海"
+    ],
+    "score": 86,
+    "featured": true,
+    "createdAt": "2026-05-25T09:21:46.000Z"
+  },
+  {
+    "id": "guopin-201928034423407226",
+    "title": "上海电气集团上海电机厂有限公司 — 电机工艺工程师",
+    "summary": "企业性质：国企。行业：制造业。工作地点：上海-闵行区。薪资面议。学历：本科。规模：2000-5000人。",
+    "url": "https://www.iguopin.com/job/detail?id=201928034423407226",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "上海电气集团上海电机厂有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "制造业",
+      "上海"
+    ],
+    "score": 80,
+    "featured": true,
+    "createdAt": "2026-05-25T08:54:42.000Z"
+  },
+  {
+    "id": "guopin-201927136087376502",
+    "title": "陕西煤田地质实业发展有限责任公司 — 生产技术员",
+    "summary": "企业性质：国企。行业：其他制造业。工作地点：渭南。薪资：4500-6500元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=201927136087376502",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "陕西煤田地质实业发展有限责任公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "其他制造业",
+      "渭南"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-05-25T08:45:21.000Z"
+  },
+  {
+    "id": "guopin-201926413761118220",
+    "title": "中交一航局第二工程有限公司 — 土木工程师",
+    "summary": "企业性质：国企。行业：建筑业。工作地点：海外。薪资：16000-30000元/月。学历：大专。规模：2000-5000人。",
+    "url": "https://www.iguopin.com/job/detail?id=201926413761118220",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "中交一航局第二工程有限公司",
+      "校招",
+      "国企",
+      "建筑业",
+      "海外"
+    ],
+    "score": 86,
+    "featured": true,
+    "createdAt": "2026-05-25T08:38:33.000Z"
+  },
+  {
+    "id": "guopin-201937633071334013",
+    "title": "中国建筑第七工程局有限公司西南公司 — 中建七局西南建设有限责任公司2025届校园招聘（财务管理岗）",
+    "summary": "企业性质：国企。行业：房地产业。工作地点：河南、湖北、重庆。薪资：6000-8000元/月。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=201937633071334013",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "中国建筑第七工程局有限公司西南公司",
+      "校招",
+      "国企",
+      "房地产业",
+      "河南",
+      "湖北",
+      "重庆"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-05-25T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-201924208211526264",
+    "title": "苏州中材建设有限公司 — 法务专员",
+    "summary": "企业性质：国企。行业：工程施工。工作地点：苏州-昆山市。薪资：6500-7500元/月。学历：本科。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=201924208211526264",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "苏州中材建设有限公司",
+      "校招",
+      "国企",
+      "工程施工",
+      "苏州"
+    ],
+    "score": 86,
+    "featured": true,
+    "createdAt": "2026-05-25T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-201828137628074459",
+    "title": "中国机械工业集团有限公司 — 科研设计",
+    "summary": "企业性质：国企。行业：其他制造业。工作地点：西安。薪资面议。学历：硕士。规模：30000人以上。",
+    "url": "https://www.iguopin.com/job/detail?id=201828137628074459",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "中国机械工业集团有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "其他制造业",
+      "西安"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-05-25T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-201832434054988411",
+    "title": "中国机械工业集团有限公司 — 项目执行/市场开发",
+    "summary": "企业性质：国企。行业：其他制造业。工作地点：海外。薪资面议。学历：硕士。规模：30000人以上。",
+    "url": "https://www.iguopin.com/job/detail?id=201832434054988411",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "中国机械工业集团有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "其他制造业",
+      "海外"
+    ],
+    "score": 82,
+    "featured": true,
+    "createdAt": "2026-05-25T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-201831558049432187",
+    "title": "中国机械工业集团有限公司 — 人力资源管理（人力资源部）",
+    "summary": "企业性质：国企。行业：其他制造业。工作地点：德阳。薪资面议。学历：硕士。规模：30000人以上。",
+    "url": "https://www.iguopin.com/job/detail?id=201831558049432187",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "中国机械工业集团有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "其他制造业",
+      "德阳"
+    ],
+    "score": 82,
+    "featured": true,
+    "createdAt": "2026-05-25T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-201862284195136115",
+    "title": "中国机械工业集团有限公司 — 无损检测员",
+    "summary": "企业性质：国企。行业：其他制造业。工作地点：德阳。薪资面议。学历：大专。规模：30000人以上。",
+    "url": "https://www.iguopin.com/job/detail?id=201862284195136115",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "中国机械工业集团有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "其他制造业",
+      "德阳"
+    ],
+    "score": 81,
+    "featured": true,
+    "createdAt": "2026-05-25T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-201829565369156059",
+    "title": "中国机械工业集团有限公司 — 流体系统设计工程师",
+    "summary": "企业性质：国企。行业：其他制造业。工作地点：成都。薪资面议。学历：硕士。规模：30000人以上。",
+    "url": "https://www.iguopin.com/job/detail?id=201829565369156059",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "中国机械工业集团有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "其他制造业",
+      "成都"
+    ],
+    "score": 81,
+    "featured": true,
+    "createdAt": "2026-05-25T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-201863290324779634",
+    "title": "中国机械工业集团有限公司 — 机电维修工",
+    "summary": "企业性质：国企。行业：其他制造业。工作地点：德阳。薪资面议。学历：大专。规模：30000人以上。",
+    "url": "https://www.iguopin.com/job/detail?id=201863290324779634",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "中国机械工业集团有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "其他制造业",
+      "德阳"
+    ],
+    "score": 80,
+    "featured": true,
+    "createdAt": "2026-05-25T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-201820930253521526",
+    "title": "福建平潭大唐海上风电有限责任公司 — 运维员",
+    "summary": "企业性质：国企。行业：电力、热力生产和供应业。工作地点：福州-平潭县。薪资：5000-10000元/月。学历：本科。规模：50人以下。",
+    "url": "https://www.iguopin.com/job/detail?id=201820930253521526",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "福建平潭大唐海上风电有限责任公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "电力、热力生产和供应业",
+      "福州"
+    ],
+    "score": 86,
+    "featured": true,
+    "createdAt": "2026-05-24T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-193266759032114311",
+    "title": "中青旅博汇（北京）会展运营管理有限公司 — 项目策划（研学科普）",
+    "summary": "企业性质：其他。行业：商务服务业。工作地点：北京-东城区、深圳-光明区。薪资：7000-10000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=193266759032114311",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "中青旅博汇（北京）会展运营管理有限公司",
+      "校招",
+      "国企",
+      "商务服务业",
+      "北京",
+      "深圳"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-05-24T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-201787898532463229",
+    "title": "中青旅博汇（北京）会展运营管理有限公司 — 品牌宣传岗（应届生）",
+    "summary": "企业性质：其他。行业：商务服务业。工作地点：北京-东城区、深圳-光明区。薪资面议。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=201787898532463229",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "中青旅博汇（北京）会展运营管理有限公司",
+      "校招",
+      "国企",
+      "商务服务业",
+      "北京",
+      "深圳"
+    ],
+    "score": 73,
+    "featured": false,
+    "createdAt": "2026-05-24T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-192863461166812298",
+    "title": "中青旅博汇（北京）会展运营管理有限公司 — 活动策划组织【科普类】（应届）",
+    "summary": "企业性质：其他。行业：商务服务业。工作地点：深圳-光明区。薪资面议。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=192863461166812298",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "中青旅博汇（北京）会展运营管理有限公司",
+      "校招",
+      "国企",
+      "商务服务业",
+      "深圳"
+    ],
+    "score": 72,
+    "featured": false,
+    "createdAt": "2026-05-24T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-201787829896872573",
+    "title": "中青旅博汇（北京）会展运营管理有限公司 — 活动及展览策划（应届）",
+    "summary": "企业性质：其他。行业：商务服务业。工作地点：北京-东城区、深圳-光明区。薪资面议。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=201787829896872573",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "中青旅博汇（北京）会展运营管理有限公司",
+      "校招",
+      "国企",
+      "商务服务业",
+      "北京",
+      "深圳"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-05-24T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-192864423759580300",
+    "title": "中青旅博汇（北京）会展运营管理有限公司 — 研学策划【科教科普类】（应届）",
+    "summary": "企业性质：其他。行业：商务服务业。工作地点：深圳-光明区。薪资面议。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=192864423759580300",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "中青旅博汇（北京）会展运营管理有限公司",
+      "校招",
+      "国企",
+      "商务服务业",
+      "深圳"
+    ],
+    "score": 70,
+    "featured": false,
+    "createdAt": "2026-05-24T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-201640327717585522",
+    "title": "中国葛洲坝集团第三工程有限公司 — 英语翻译",
+    "summary": "企业性质：国企。行业：建筑业。工作地点：巴基斯坦。薪资面议。学历：本科。规模：2000-5000人。",
+    "url": "https://www.iguopin.com/job/detail?id=201640327717585522",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "中国葛洲坝集团第三工程有限公司",
+      "校招",
+      "国企",
+      "建筑业",
+      "巴基斯坦"
+    ],
+    "score": 81,
+    "featured": true,
+    "createdAt": "2026-05-23T09:16:27.000Z"
+  },
+  {
+    "id": "guopin-201682502417384056",
+    "title": "中煤科工集团唐山研究院有限公司 — 科研岗（博士）",
+    "summary": "企业性质：国企。行业：制造业。工作地点：唐山-路北区。薪资面议。学历：博士。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=201682502417384056",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "中煤科工集团唐山研究院有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "制造业",
+      "唐山"
+    ],
+    "score": 79,
+    "featured": false,
+    "createdAt": "2026-05-23T00:00:00.000Z"
+  },
+  {
     "id": "guopin-201546718972478077",
     "title": "中国建筑第六工程局有限公司华南分公司 — 职能管理岗（人力）",
     "summary": "企业性质：国企。行业：建筑业。工作地点：深圳。薪资面议。学历：硕士。规模：1000-2000人。",
@@ -749,6 +1226,26 @@
     "createdAt": "2026-05-22T00:00:00.000Z"
   },
   {
+    "id": "guopin-201561268694286967",
+    "title": "中国五矿集团（黑龙江）石墨产业有限公司 — 法务岗",
+    "summary": "企业性质：国企。行业：非金属矿采选业。工作地点：鹤岗-萝北县。薪资：5000-8000元/月。学历：硕士。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=201561268694286967",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "中国五矿集团（黑龙江）石墨产业有限公司",
+      "校招",
+      "国企",
+      "非金属矿采选业",
+      "鹤岗"
+    ],
+    "score": 85,
+    "featured": true,
+    "createdAt": "2026-05-22T00:00:00.000Z"
+  },
+  {
     "id": "guopin-201495074758984106",
     "title": "东莞证券股份有限公司中山小榄升平中路证券营业部 — 投资顾问",
     "summary": "企业性质：国企。行业：资本市场服务。工作地点：中山-中山。薪资：6000-12000元/月。学历：本科。规模：50人以下。",
@@ -1078,6 +1575,26 @@
       "车企/IC",
       "其他制造业",
       "南京"
+    ],
+    "score": 83,
+    "featured": true,
+    "createdAt": "2026-05-22T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-201549245805756891",
+    "title": "国药集团新疆新特药业有限公司 — 图木舒克公司 医药采购员",
+    "summary": "企业性质：国企。行业：批发业。工作地点：图木舒克。薪资：5000-6500元/月。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=201549245805756891",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "国药集团新疆新特药业有限公司",
+      "校招",
+      "国企",
+      "批发业",
+      "图木舒克"
     ],
     "score": 83,
     "featured": true,
@@ -13276,7 +13793,7 @@
   {
     "id": "guopin-199932737455390906",
     "title": "唐钢国际工程技术有限公司 — 工程预算",
-    "summary": "企业性质：国企。行业：专业技术服务业。工作地点：唐山-路北区。薪资：4000-6000元/月。学历：本科。规模：500-1000人。",
+    "summary": "企业性质：国企。行业：专业技术服务业。工作地点：唐山-路北区。薪资：4000-6000元/月。学历：硕士。规模：500-1000人。",
     "url": "https://www.iguopin.com/job/detail?id=199932737455390906",
     "source": "国聘",
     "sourceHandle": "@guopin",
@@ -68878,27 +69395,6 @@
     "createdAt": "2026-03-25T16:00:00.000Z"
   },
   {
-    "id": "guopin-193266759032114311",
-    "title": "中青旅博汇（北京）会展运营管理有限公司 — 项目策划（研学科普）",
-    "summary": "企业性质：其他。行业：商务服务业。工作地点：北京-东城区、深圳-光明区。薪资：6000-8000元/月。学历：本科。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=193266759032114311",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "中青旅博汇（北京）会展运营管理有限公司",
-      "校招",
-      "国企",
-      "商务服务业",
-      "北京",
-      "深圳"
-    ],
-    "score": 60,
-    "featured": false,
-    "createdAt": "2026-03-25T16:00:00.000Z"
-  },
-  {
     "id": "guopin-193275546853969051",
     "title": "深圳深浦电气有限公司 — 销售工程师",
     "summary": "企业性质：民营企业。行业：计算机、通信和其他电子设备制造业。工作地点：深圳-南山区、长沙-芙蓉区、中国。薪资：8000-12000元/月。学历：大专。规模：100-300人。",
@@ -69166,6 +69662,26 @@
     "createdAt": "2026-03-25T09:41:37.000Z"
   },
   {
+    "id": "guopin-193089454729071755",
+    "title": "中国医药集团联合工程有限公司 — 计划工程师",
+    "summary": "企业性质：国企。行业：专业技术服务业。工作地点：武汉市-武汉东湖新技术开发区。薪资面议。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=193089454729071755",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "中国医药集团联合工程有限公司",
+      "校招",
+      "国企",
+      "专业技术服务业",
+      "武汉市"
+    ],
+    "score": 65,
+    "featured": false,
+    "createdAt": "2026-03-25T09:29:01.000Z"
+  },
+  {
     "id": "guopin-193087657469807773",
     "title": "中国医药集团联合工程有限公司 — 环保工程师",
     "summary": "企业性质：国企。行业：专业技术服务业。工作地点：武汉市-武汉东湖新技术开发区。薪资面议。学历：硕士。规模：1000-2000人。",
@@ -69184,6 +69700,26 @@
     "score": 65,
     "featured": false,
     "createdAt": "2026-03-25T09:13:09.000Z"
+  },
+  {
+    "id": "guopin-193087262232153245",
+    "title": "中国医药集团联合工程有限公司 — 自控工程师",
+    "summary": "企业性质：国企。行业：专业技术服务业。工作地点：武汉市-武汉东湖新技术开发区。薪资面议。学历：硕士。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=193087262232153245",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "中国医药集团联合工程有限公司",
+      "校招",
+      "国企",
+      "专业技术服务业",
+      "武汉市"
+    ],
+    "score": 64,
+    "featured": false,
+    "createdAt": "2026-03-25T09:09:04.000Z"
   },
   {
     "id": "guopin-193134184682753166",
@@ -69225,6 +69761,26 @@
     "score": 68,
     "featured": false,
     "createdAt": "2026-03-25T08:53:59.000Z"
+  },
+  {
+    "id": "guopin-193086097138388107",
+    "title": "中国医药集团联合工程有限公司 — 制药工艺工程师",
+    "summary": "企业性质：国企。行业：专业技术服务业。工作地点：武汉市-武汉东湖新技术开发区。薪资面议。学历：硕士。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=193086097138388107",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "中国医药集团联合工程有限公司",
+      "校招",
+      "国企",
+      "专业技术服务业",
+      "武汉市"
+    ],
+    "score": 67,
+    "featured": false,
+    "createdAt": "2026-03-25T08:50:50.000Z"
   },
   {
     "id": "guopin-193275292930804875",
@@ -70036,26 +70592,6 @@
     "createdAt": "2026-03-25T02:10:29.000Z"
   },
   {
-    "id": "guopin-193089454729071755",
-    "title": "中国医药集团联合工程有限公司 — 计划工程师",
-    "summary": "企业性质：国企。行业：专业技术服务业。工作地点：武汉市-武汉东湖新技术开发区。薪资面议。学历：本科。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=193089454729071755",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "中国医药集团联合工程有限公司",
-      "校招",
-      "国企",
-      "专业技术服务业",
-      "武汉市"
-    ],
-    "score": 65,
-    "featured": false,
-    "createdAt": "2026-03-25T01:29:01.000Z"
-  },
-  {
     "id": "guopin-193088370920918155",
     "title": "广东水电二局股份有限公司 — 产业研究岗 （计算机类）",
     "summary": "企业性质：国企。行业：土木工程建筑业。工作地点：广州-增城区。薪资面议。学历：硕士。规模：2000-5000人。",
@@ -70221,26 +70757,6 @@
     "createdAt": "2026-03-25T01:09:41.000Z"
   },
   {
-    "id": "guopin-193087262232153245",
-    "title": "中国医药集团联合工程有限公司 — 自控工程师",
-    "summary": "企业性质：国企。行业：专业技术服务业。工作地点：武汉市-武汉东湖新技术开发区。薪资面议。学历：硕士。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=193087262232153245",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "中国医药集团联合工程有限公司",
-      "校招",
-      "国企",
-      "专业技术服务业",
-      "武汉市"
-    ],
-    "score": 64,
-    "featured": false,
-    "createdAt": "2026-03-25T01:09:04.000Z"
-  },
-  {
     "id": "guopin-193086630519639179",
     "title": "国药集团威奇达药业有限公司 — 财务专员",
     "summary": "企业性质：国企。行业：医药制造业。工作地点：大同-云州区。薪资面议。学历：硕士。规模：2000-5000人。",
@@ -70260,26 +70776,6 @@
     "score": 65,
     "featured": false,
     "createdAt": "2026-03-25T01:01:34.000Z"
-  },
-  {
-    "id": "guopin-193086097138388107",
-    "title": "中国医药集团联合工程有限公司 — 制药工艺工程师",
-    "summary": "企业性质：国企。行业：专业技术服务业。工作地点：武汉市-武汉东湖新技术开发区。薪资面议。学历：硕士。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=193086097138388107",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "中国医药集团联合工程有限公司",
-      "校招",
-      "国企",
-      "专业技术服务业",
-      "武汉市"
-    ],
-    "score": 67,
-    "featured": false,
-    "createdAt": "2026-03-25T00:50:50.000Z"
   },
   {
     "id": "guopin-193082419136433307",
@@ -71928,27 +72424,6 @@
     "score": 65,
     "featured": false,
     "createdAt": "2026-03-24T08:56:47.000Z"
-  },
-  {
-    "id": "guopin-192989175597763741",
-    "title": "北京长城电子装备有限责任公司 — 试验工程师",
-    "summary": "企业性质：国企。行业：专用设备制造业。工作地点：北京-海淀区。薪资面议。学历：硕士。规模：500-1000人。",
-    "url": "https://www.iguopin.com/job/detail?id=192989175597763741",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "北京长城电子装备有限责任公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "专用设备制造业",
-      "北京"
-    ],
-    "score": 68,
-    "featured": false,
-    "createdAt": "2026-03-24T08:55:09.000Z"
   },
   {
     "id": "guopin-192989058006256777",
@@ -77031,26 +77506,6 @@
     "createdAt": "2026-03-22T16:00:00.000Z"
   },
   {
-    "id": "guopin-192863461166812298",
-    "title": "中青旅博汇（北京）会展运营管理有限公司 — 活动策划组织【科普类】（应届）",
-    "summary": "企业性质：其他。行业：商务服务业。工作地点：深圳-光明区。薪资面议。学历：本科。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=192863461166812298",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "中青旅博汇（北京）会展运营管理有限公司",
-      "校招",
-      "国企",
-      "商务服务业",
-      "深圳"
-    ],
-    "score": 57,
-    "featured": false,
-    "createdAt": "2026-03-22T16:00:00.000Z"
-  },
-  {
     "id": "guopin-192829239186164876",
     "title": "国药集团动物保健股份有限公司 — 技术服务经理",
     "summary": "企业性质：股份制企业。行业：医药制造业。工作地点：中国。薪资面议。学历：本科。规模：300-500人。",
@@ -77068,26 +77523,6 @@
       "中国"
     ],
     "score": 57,
-    "featured": false,
-    "createdAt": "2026-03-22T16:00:00.000Z"
-  },
-  {
-    "id": "guopin-192864423759580300",
-    "title": "中青旅博汇（北京）会展运营管理有限公司 — 研学策划【科教科普类】（应届）",
-    "summary": "企业性质：其他。行业：商务服务业。工作地点：深圳-光明区。薪资面议。学历：本科。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=192864423759580300",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "中青旅博汇（北京）会展运营管理有限公司",
-      "校招",
-      "国企",
-      "商务服务业",
-      "深圳"
-    ],
-    "score": 55,
     "featured": false,
     "createdAt": "2026-03-22T16:00:00.000Z"
   },
@@ -82667,6 +83102,89 @@
     "createdAt": "2026-03-18T10:51:21.000Z"
   },
   {
+    "id": "guopin-192081494724840311",
+    "title": "中国电科发展战略研究中心 — 系统运维岗",
+    "summary": "企业性质：国企。行业：其他。工作地点：北京。薪资面议。学历：硕士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=192081494724840311",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "中国电科发展战略研究中心",
+      "校招",
+      "国企",
+      "其他",
+      "北京"
+    ],
+    "score": 66,
+    "featured": false,
+    "createdAt": "2026-03-18T10:38:03.000Z"
+  },
+  {
+    "id": "guopin-192081191308888961",
+    "title": "中国电科发展战略研究中心 — 智算运营岗",
+    "summary": "企业性质：国企。行业：其他。工作地点：北京。薪资面议。学历：硕士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=192081191308888961",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "tags": [
+      "中国电科发展战略研究中心",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "其他",
+      "北京"
+    ],
+    "score": 64,
+    "featured": false,
+    "createdAt": "2026-03-18T10:35:02.000Z"
+  },
+  {
+    "id": "guopin-192080780820745079",
+    "title": "中国电科发展战略研究中心 — 数据安全岗",
+    "summary": "企业性质：国企。行业：其他。工作地点：北京。薪资面议。学历：硕士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=192080780820745079",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "security",
+    "tags": [
+      "中国电科发展战略研究中心",
+      "校招",
+      "国企",
+      "安全/云服务",
+      "其他",
+      "北京"
+    ],
+    "score": 66,
+    "featured": false,
+    "createdAt": "2026-03-18T10:30:56.000Z"
+  },
+  {
+    "id": "guopin-192080387227257722",
+    "title": "中国电科发展战略研究中心 — 规划设计岗（网络安全方向）",
+    "summary": "企业性质：国企。行业：其他。工作地点：北京。薪资面议。学历：硕士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=192080387227257722",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "security",
+    "tags": [
+      "中国电科发展战略研究中心",
+      "校招",
+      "国企",
+      "安全/云服务",
+      "其他",
+      "北京"
+    ],
+    "score": 64,
+    "featured": false,
+    "createdAt": "2026-03-18T10:26:37.000Z"
+  },
+  {
     "id": "guopin-192108118052703099",
     "title": "浙江交工集团股份有限公司 — 项目安全管理",
     "summary": "企业性质：国企。行业：建筑业。工作地点：杭州。薪资：7500-12000元/月。学历：本科。规模：5000-10000人。",
@@ -82686,6 +83204,26 @@
     "score": 71,
     "featured": false,
     "createdAt": "2026-03-18T09:44:21.000Z"
+  },
+  {
+    "id": "guopin-192075114920020856",
+    "title": "中国电科发展战略研究中心 — 总体设计岗",
+    "summary": "企业性质：国企。行业：其他。工作地点：北京。薪资面议。学历：硕士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=192075114920020856",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "中国电科发展战略研究中心",
+      "校招",
+      "国企",
+      "其他",
+      "北京"
+    ],
+    "score": 67,
+    "featured": false,
+    "createdAt": "2026-03-18T09:32:44.000Z"
   },
   {
     "id": "guopin-192407055829568667",
@@ -82893,109 +83431,6 @@
     "score": 63,
     "featured": false,
     "createdAt": "2026-03-18T03:11:11.000Z"
-  },
-  {
-    "id": "guopin-192081494724840311",
-    "title": "中国电科发展战略研究中心 — 系统运维岗",
-    "summary": "企业性质：国企。行业：其他。工作地点：北京。薪资面议。学历：硕士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=192081494724840311",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "中国电科发展战略研究中心",
-      "校招",
-      "国企",
-      "其他",
-      "北京"
-    ],
-    "score": 66,
-    "featured": false,
-    "createdAt": "2026-03-18T02:38:03.000Z"
-  },
-  {
-    "id": "guopin-192081191308888961",
-    "title": "中国电科发展战略研究中心 — 智算运营岗",
-    "summary": "企业性质：国企。行业：其他。工作地点：北京。薪资面议。学历：硕士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=192081191308888961",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "tags": [
-      "中国电科发展战略研究中心",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "其他",
-      "北京"
-    ],
-    "score": 64,
-    "featured": false,
-    "createdAt": "2026-03-18T02:35:02.000Z"
-  },
-  {
-    "id": "guopin-192080780820745079",
-    "title": "中国电科发展战略研究中心 — 数据安全岗",
-    "summary": "企业性质：国企。行业：其他。工作地点：北京。薪资面议。学历：硕士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=192080780820745079",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "security",
-    "tags": [
-      "中国电科发展战略研究中心",
-      "校招",
-      "国企",
-      "安全/云服务",
-      "其他",
-      "北京"
-    ],
-    "score": 66,
-    "featured": false,
-    "createdAt": "2026-03-18T02:30:56.000Z"
-  },
-  {
-    "id": "guopin-192080387227257722",
-    "title": "中国电科发展战略研究中心 — 规划设计岗（网络安全方向）",
-    "summary": "企业性质：国企。行业：其他。工作地点：北京。薪资面议。学历：硕士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=192080387227257722",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "security",
-    "tags": [
-      "中国电科发展战略研究中心",
-      "校招",
-      "国企",
-      "安全/云服务",
-      "其他",
-      "北京"
-    ],
-    "score": 64,
-    "featured": false,
-    "createdAt": "2026-03-18T02:26:37.000Z"
-  },
-  {
-    "id": "guopin-192075114920020856",
-    "title": "中国电科发展战略研究中心 — 总体设计岗",
-    "summary": "企业性质：国企。行业：其他。工作地点：北京。薪资面议。学历：硕士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=192075114920020856",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "中国电科发展战略研究中心",
-      "校招",
-      "国企",
-      "其他",
-      "北京"
-    ],
-    "score": 67,
-    "featured": false,
-    "createdAt": "2026-03-18T01:32:44.000Z"
   },
   {
     "id": "guopin-192074679266052984",
