@@ -164,8 +164,8 @@
   },
   {
     "id": "nowcoder-6749",
-    "title": "天风证券 — 27届实习 今日收录",
-    "summary": "湖北属上市券商，全牌照经营，固收投行强势，研究实力突出。。招聘批次：27届实习 今日收录。工作地点：武汉、广州、深圳、北京、上海。招聘岗位：后端开发、数据、人工智能/算法、运营、风控等。",
+    "title": "天风证券 — 27届实习",
+    "summary": "湖北属上市券商，全牌照经营，固收投行强势，研究实力突出。。招聘批次：27届实习。工作地点：武汉、广州、深圳、北京、上海。招聘岗位：后端开发、数据、人工智能/算法、运营、风控等。",
     "url": "https://wecruit.hotjob.cn/SU6114cab40dcad4106ffc953b/pb/interns.html",
     "source": "牛客网",
     "sourceHandle": "@nowcoder",
@@ -185,8 +185,8 @@
   },
   {
     "id": "nowcoder-715",
-    "title": "小红书 — 27届实习 今日收录",
-    "summary": "互联网社区标杆平台，年轻用户聚集，内容生态丰富，成长空间广阔。。招聘批次：27届实习 今日收录。工作地点：北京、上海。招聘岗位：运营、市场/营销。",
+    "title": "小红书 — 27届实习",
+    "summary": "互联网社区标杆平台，年轻用户聚集，内容生态丰富，成长空间广阔。。招聘批次：27届实习。工作地点：北京、上海。招聘岗位：运营、市场/营销。",
     "url": "https://job.xiaohongshu.com/campus/position?positionName=&jobProjects=madang_trainee",
     "source": "牛客网",
     "sourceHandle": "@nowcoder",
@@ -207,8 +207,8 @@
   },
   {
     "id": "nowcoder-4708",
-    "title": "九机科技 — 27届实习 今日收录",
-    "summary": "西南 3C 零售龙头，线上线下融合，数字化能力强，会员规模庞大。。招聘批次：27届实习 今日收录。工作地点：昆明。招聘岗位：后端开发、前端开发、测试、数据、运维等。",
+    "title": "九机科技 — 27届实习",
+    "summary": "西南 3C 零售龙头，线上线下融合，数字化能力强，会员规模庞大。。招聘批次：27届实习。工作地点：昆明。招聘岗位：后端开发、前端开发、测试、数据、运维等。",
     "url": "https://www.9ji.com/job/list/2?workTypes=3",
     "source": "牛客网",
     "sourceHandle": "@nowcoder",
@@ -226,6 +226,25 @@
     "createdAt": "2026-05-22T13:02:17.000Z"
   },
   {
+    "id": "nowcoder-32026",
+    "title": "信银理财 — 27届实习",
+    "summary": "银行系专业理财子公司，股东实力雄厚，产品体系丰富，资金运作风格稳健。。招聘批次：27届实习。工作地点：上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://campus.51job.com/citic-wealth2027/job.html",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "finance",
+    "tags": [
+      "信银理财",
+      "实习",
+      "金融",
+      "上海"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-05-22T12:56:29.000Z"
+  },
+  {
     "id": "nowcoder-32099",
     "title": "27届网申助手 — 网申：未开始",
     "summary": "招聘批次：网申：未开始。",
@@ -241,25 +260,6 @@
     "score": 81,
     "featured": true,
     "createdAt": "2026-05-22T09:27:38.000Z"
-  },
-  {
-    "id": "nowcoder-32026",
-    "title": "信银理财 — 27届实习 今日收录",
-    "summary": "银行系专业理财子公司，股东实力雄厚，产品体系丰富，资金运作风格稳健。。招聘批次：27届实习 今日收录。工作地点：上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
-    "url": "https://campus.51job.com/citic-wealth2027/job.html",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "intern",
-    "category": "finance",
-    "tags": [
-      "信银理财",
-      "实习",
-      "金融",
-      "上海"
-    ],
-    "score": 91,
-    "featured": true,
-    "createdAt": "2026-05-21T14:38:36.000Z"
   },
   {
     "id": "nowcoder-32025",
