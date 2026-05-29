@@ -1,5 +1,126 @@
 [
   {
+    "id": "nowcoder-2426",
+    "title": "欧莱雅 — 27届实习 今日收录",
+    "summary": "全球美妆行业龙头，品牌矩阵完善，研发实力雄厚，全球市场占有率领先。。招聘批次：27届实习 今日收录。工作地点：上海。招聘岗位：运营、市场/营销、销售类、商务。",
+    "url": "https://mp.weixin.qq.com/s/es6bMVi688gROxEEYhxbbQ",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "other",
+    "tags": [
+      "欧莱雅",
+      "实习",
+      "上海",
+      "快消"
+    ],
+    "score": 89,
+    "featured": true,
+    "createdAt": "2026-05-28T15:01:06.000Z"
+  },
+  {
+    "id": "nowcoder-929",
+    "title": "微众银行 — 27届实习 今日收录",
+    "summary": "全球领先数字银行，民营互联网银行标杆，自研科技实力雄厚，普惠金融服务覆盖广。。招聘批次：27届实习 今日收录。工作地点：深圳。招聘岗位：后端开发、前端开发、数据、运维、销售技术支持等。",
+    "url": "https://v.wjx.cn/vm/wdFw2J1.aspx",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "finance",
+    "tags": [
+      "微众银行",
+      "实习",
+      "金融",
+      "深圳",
+      "银行"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-05-28T15:00:06.000Z"
+  },
+  {
+    "id": "nowcoder-1247",
+    "title": "保融科技 — 27届实习 今日收录",
+    "summary": "国内金融科技领域专精特新企业，技术研发扎实，金融行业解决方案适配性强。。招聘批次：27届实习 今日收录。工作地点：杭州。招聘岗位：后端开发、运维、销售技术支持、通信、技术支持等。",
+    "url": "https://campus.fingard.com/campus_apply/baorong/25901/?sessionid=#/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "finance",
+    "tags": [
+      "保融科技",
+      "实习",
+      "金融",
+      "杭州",
+      "互联网"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-05-28T14:57:52.000Z"
+  },
+  {
+    "id": "nowcoder-1633",
+    "title": "华硕 — 27届实习 今日收录",
+    "summary": "全球电脑硬件行业龙头，技术研发实力雄厚，产品矩阵完善，全球市场占有率领先。。招聘批次：27届实习 今日收录。工作地点：广州、西安、乌鲁木齐、北京、上海、重庆。招聘岗位：运营、市场/营销、销售类、商务、影视媒体等。",
+    "url": "https://asus.zhiye.com/Intern",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "auto_ic",
+    "tags": [
+      "华硕",
+      "实习",
+      "车企/IC",
+      "广州",
+      "西安",
+      "乌鲁木齐",
+      "硬件"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-05-28T14:56:39.000Z"
+  },
+  {
+    "id": "nowcoder-5100",
+    "title": "建发房产 — 27届实习 今日收录",
+    "summary": "厦门国企核心地产平台，产品品质突出，全国化布局完善，抗周期能力强。。招聘批次：27届实习 今日收录。工作地点：南京、杭州、厦门、广州、成都、北京、上海、重庆。招聘岗位：数据、人工智能/算法、研发工程师、投融资、咨询/调研等。",
+    "url": "https://chinacdc.zhiye.com/fcjxszwlb2024",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "internet",
+    "tags": [
+      "建发房产",
+      "实习",
+      "互联网/AI",
+      "南京",
+      "杭州",
+      "厦门",
+      "房地产"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-05-28T14:54:38.000Z"
+  },
+  {
+    "id": "nowcoder-8965",
+    "title": "康尼机电 — 27届实习 今日收录",
+    "summary": "国内轨道交通门系统领域龙头，技术研发领先，产品覆盖全场景，行业认可度高。。招聘批次：27届实习 今日收录。工作地点：南京。招聘岗位：后端开发、人工智能/算法、研发工程师、硬件工程师、电子/半导体等。",
+    "url": "https://kangni.zhiye.com/intern/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "other",
+    "tags": [
+      "康尼机电",
+      "实习",
+      "南京"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-05-28T14:52:51.000Z"
+  },
+  {
     "id": "nowcoder-5320",
     "title": "雅迪科技 — 27届实习 今日收录",
     "summary": "全球电动两轮车行业龙头，产能规模庞大，技术研发领先，全球销售渠道完善。。招聘批次：27届实习 今日收录。工作地点：无锡。招聘岗位：测试、运维、硬件工程师、管理、咨询/调研等。",
@@ -16,7 +137,112 @@
     ],
     "score": 91,
     "featured": true,
-    "createdAt": "2026-05-27T12:03:43.000Z"
+    "createdAt": "2026-05-28T14:50:27.000Z"
+  },
+  {
+    "id": "nowcoder-2352",
+    "title": "东风日产 — 27届实习 今日收录",
+    "summary": "合资车企核心造型设计机构，设计能力突出，本土化适配经验丰富，全流程设计体系完善。。招聘批次：27届实习 今日收录。工作地点：广州。招聘岗位：交互/设计、工业类设计。",
+    "url": "https://dongfengnissan1.zhiye.com/intern/jobs?sessionid=",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "auto_ic",
+    "tags": [
+      "东风日产",
+      "实习",
+      "车企/IC",
+      "广州",
+      "汽车制造"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-05-28T14:50:17.000Z"
+  },
+  {
+    "id": "nowcoder-26419",
+    "title": "谷雨 — 27届实习 今日收录",
+    "summary": "国内新锐护肤品牌，主打温和安全修护，产品研发扎实，用户口碑表现优异。。招聘批次：27届实习 今日收录。工作地点：长沙、广州。招聘岗位：运营、市场/营销、采编/写作/出版、影视媒体。",
+    "url": "https://grainrain.zhiye.com/intern/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "security",
+    "tags": [
+      "谷雨",
+      "实习",
+      "安全/云服务",
+      "长沙",
+      "广州"
+    ],
+    "score": 90,
+    "featured": true,
+    "createdAt": "2026-05-28T14:50:07.000Z"
+  },
+  {
+    "id": "nowcoder-9135",
+    "title": "三井住友银行 — 27届实习 今日收录",
+    "summary": "日资银行在华旗舰，深耕中国市场多年，跨境金融服务专业，风控体系完善。。招聘批次：27届实习 今日收录。工作地点：广州、上海。招聘岗位：后端开发、保险、前端开发、客户端开发、测试等。",
+    "url": "https://smbccn.zhiye.com/intern/jobs?memory=%7B%7D&silence=1",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "finance",
+    "tags": [
+      "三井住友银行",
+      "实习",
+      "金融",
+      "广州",
+      "上海",
+      "银行"
+    ],
+    "score": 95,
+    "featured": true,
+    "createdAt": "2026-05-28T14:49:55.000Z"
+  },
+  {
+    "id": "nowcoder-2124",
+    "title": "锐明技术 — 27届实习 今日收录",
+    "summary": "商用车智能化解决方案领军者，提供智能车载技术研发与系统集成的平台。。招聘批次：27届实习 今日收录。工作地点：深圳、成都、重庆。招聘岗位：后端开发、客户端开发、测试、人工智能/算法、硬件工程师等。",
+    "url": "https://streamax.zhiye.com/intern/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "auto_ic",
+    "tags": [
+      "锐明技术",
+      "实习",
+      "车企/IC",
+      "深圳",
+      "成都",
+      "重庆",
+      "硬件",
+      "数据服务"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-05-28T14:49:45.000Z"
+  },
+  {
+    "id": "nowcoder-156267",
+    "title": "国泰君安期货 — 27届实习 今日收录",
+    "summary": "头部券商系期货公司，资本雄厚，全牌照经营，市场份额与行业评级稳居前列。。招聘批次：27届实习 今日收录。工作地点：杭州、宁波、广州、深圳、北京、上海。招聘岗位：后端开发、数据、商务、人工智能/算法、运营等。",
+    "url": "https://app.mokahr.com/campus-recruitment/gtjaqh/136276#/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "finance",
+    "tags": [
+      "国泰君安期货",
+      "实习",
+      "金融",
+      "杭州",
+      "宁波",
+      "广州"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-05-28T14:49:35.000Z"
   },
   {
     "id": "nowcoder-23250",
@@ -38,26 +264,6 @@
     "score": 92,
     "featured": true,
     "createdAt": "2026-05-27T12:02:23.000Z"
-  },
-  {
-    "id": "nowcoder-2352",
-    "title": "东风日产 — 27届实习 今日收录",
-    "summary": "合资车企核心造型设计机构，设计能力突出，本土化适配经验丰富，全流程设计体系完善。。招聘批次：27届实习 今日收录。工作地点：广州。招聘岗位：交互/设计、工业类设计。",
-    "url": "https://dongfengnissan1.zhiye.com/intern/jobs?sessionid=",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "intern",
-    "category": "auto_ic",
-    "tags": [
-      "东风日产",
-      "实习",
-      "车企/IC",
-      "广州",
-      "汽车制造"
-    ],
-    "score": 92,
-    "featured": true,
-    "createdAt": "2026-05-27T11:49:42.000Z"
   },
   {
     "id": "nowcoder-2972",
@@ -98,26 +304,6 @@
     "score": 95,
     "featured": true,
     "createdAt": "2026-05-27T11:46:03.000Z"
-  },
-  {
-    "id": "nowcoder-26419",
-    "title": "谷雨 — 27届实习 今日收录",
-    "summary": "国内新锐护肤品牌，主打温和安全修护，产品研发扎实，用户口碑表现优异。。招聘批次：27届实习 今日收录。工作地点：长沙、广州。招聘岗位：运营、市场/营销、采编/写作/出版、影视媒体。",
-    "url": "https://grainrain.zhiye.com/intern/jobs",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "intern",
-    "category": "security",
-    "tags": [
-      "谷雨",
-      "实习",
-      "安全/云服务",
-      "长沙",
-      "广州"
-    ],
-    "score": 90,
-    "featured": true,
-    "createdAt": "2026-05-27T11:44:29.000Z"
   },
   {
     "id": "nowcoder-5602",
