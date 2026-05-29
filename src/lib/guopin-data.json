@@ -10996,8 +10996,8 @@
       "土木工程建筑业",
       "广东"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-21T11:56:40.000Z"
   },
   {
@@ -11058,7 +11058,7 @@
       "专用设备制造业",
       "德阳"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-05-21T11:29:21.000Z"
   },
@@ -17763,7 +17763,7 @@
       "专业技术服务业",
       "北京"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-14T11:29:14.000Z"
   },
@@ -17784,8 +17784,8 @@
       "制造业",
       "西安"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-14T11:11:11.000Z"
   },
   {
@@ -17805,8 +17805,8 @@
       "制造业",
       "西安"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-14T11:11:11.000Z"
   },
   {
@@ -17826,8 +17826,8 @@
       "制造业",
       "西安"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-14T11:11:11.000Z"
   },
   {
@@ -17847,7 +17847,7 @@
       "其他制造业",
       "苏州"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-14T10:35:14.000Z"
   },
@@ -17868,7 +17868,7 @@
       "其他制造业",
       "苏州"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-14T10:35:14.000Z"
   },
@@ -34622,7 +34622,7 @@
       "建筑业",
       "天津"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-04-28T11:32:26.000Z"
   },
@@ -34663,7 +34663,7 @@
       "资本市场服务",
       "雄安新区"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-04-28T10:51:03.000Z"
   },
@@ -34684,7 +34684,7 @@
       "资本市场服务",
       "雄安新区"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-04-28T10:50:35.000Z"
   },
@@ -34705,7 +34705,7 @@
       "科学研究和技术服务业",
       "上海"
     ],
-    "score": 63,
+    "score": 58,
     "featured": false,
     "createdAt": "2026-04-28T10:17:53.000Z"
   },
@@ -34725,7 +34725,7 @@
       "科学研究和技术服务业",
       "西安"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-04-28T10:00:03.000Z"
   },
@@ -34745,7 +34745,7 @@
       "科学研究和技术服务业",
       "西安"
     ],
-    "score": 68,
+    "score": 63,
     "featured": false,
     "createdAt": "2026-04-28T09:59:39.000Z"
   },
@@ -34765,7 +34765,7 @@
       "科学研究和技术服务业",
       "西安"
     ],
-    "score": 69,
+    "score": 64,
     "featured": false,
     "createdAt": "2026-04-28T09:59:16.000Z"
   },
@@ -34786,7 +34786,7 @@
       "科学研究和技术服务业",
       "西安"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-04-28T09:58:53.000Z"
   },
