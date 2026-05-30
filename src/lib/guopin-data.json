@@ -9764,8 +9764,8 @@
       "其他服务业",
       "甘孜"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-22T11:22:43.000Z"
   },
   {
@@ -9785,8 +9785,8 @@
       "专用设备制造业",
       "德阳"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-22T10:54:36.000Z"
   },
   {
@@ -9806,7 +9806,7 @@
       "有色金属冶炼和压延加工业",
       "聊城"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-05-22T10:10:39.000Z"
   },
@@ -17024,7 +17024,7 @@
       "建筑业",
       "广州"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-15T11:12:05.000Z"
   },
@@ -33018,7 +33018,7 @@
       "批发业",
       "广州"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-04-29T11:39:53.000Z"
   },
@@ -33039,8 +33039,8 @@
       "建筑业",
       "中国"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-04-29T10:57:40.000Z"
   },
   {
@@ -33060,8 +33060,8 @@
       "建筑业",
       "无锡"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-04-29T10:51:49.000Z"
   },
   {
@@ -33081,7 +33081,7 @@
       "研究和试验发展",
       "长沙"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-04-29T10:34:44.000Z"
   },
@@ -33102,7 +33102,7 @@
       "研究和试验发展",
       "长沙"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-04-29T10:34:19.000Z"
   },
@@ -33123,7 +33123,7 @@
       "研究和试验发展",
       "长沙"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-04-29T10:33:49.000Z"
   },
@@ -33144,7 +33144,7 @@
       "研究和试验发展",
       "长沙"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-04-29T10:33:26.000Z"
   },
@@ -33165,7 +33165,7 @@
       "研究和试验发展",
       "长沙"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-04-29T10:32:58.000Z"
   },
@@ -33186,7 +33186,7 @@
       "研究和试验发展",
       "长沙"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-04-29T10:32:18.000Z"
   },
@@ -33207,7 +33207,7 @@
       "研究和试验发展",
       "长沙"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-04-29T10:30:43.000Z"
   },
@@ -33228,7 +33228,7 @@
       "研究和试验发展",
       "长沙"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-04-29T10:30:10.000Z"
   },
@@ -33249,7 +33249,7 @@
       "研究和试验发展",
       "长沙"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-04-29T10:29:25.000Z"
   },
@@ -33270,7 +33270,7 @@
       "研究和试验发展",
       "长沙"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-04-29T10:28:18.000Z"
   },
@@ -33291,7 +33291,7 @@
       "研究和试验发展",
       "长沙"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-04-29T10:27:49.000Z"
   },
