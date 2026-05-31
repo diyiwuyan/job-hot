@@ -9493,8 +9493,8 @@
       "建筑业",
       "巴基斯坦"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-23T09:16:27.000Z"
   },
   {
@@ -31602,7 +31602,7 @@
       "信息传输、软件和信息技术服务业",
       "北京"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-04-30T10:47:11.000Z"
   },
@@ -31622,7 +31622,7 @@
       "建筑业",
       "长沙"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-04-30T09:19:09.000Z"
   },
@@ -31642,7 +31642,7 @@
       "土木工程建筑业",
       "天津"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-04-30T09:14:32.000Z"
   },
@@ -31684,7 +31684,7 @@
       "天津",
       "雄安新区"
     ],
-    "score": 69,
+    "score": 64,
     "featured": false,
     "createdAt": "2026-04-30T09:01:20.000Z"
   },
