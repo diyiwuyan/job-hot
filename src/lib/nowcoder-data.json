@@ -1,5 +1,251 @@
 [
   {
+    "id": "nowcoder-898",
+    "title": "快手 — 27提前批 今日收录",
+    "summary": "头部短视频平台核心人才项目，成长体系完善，技术资源倾斜，发展空间大。。招聘批次：27提前批 今日收录。工作地点：杭州、深圳、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://campus.kuaishou.cn/recruit/campus/e/#/campus/jobs?pageNum=1&positionLabel=kstar&positionNatureCode=fulltime&recruitSubProjectCodes=20271779425607",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "tags": [
+      "快手",
+      "校招",
+      "提前批",
+      "互联网/AI",
+      "杭州",
+      "深圳",
+      "北京",
+      "视频直播"
+    ],
+    "score": 99,
+    "featured": true,
+    "createdAt": "2026-06-01T13:17:57.000Z"
+  },
+  {
+    "id": "nowcoder-1002",
+    "title": "宁波银行 — 27届实习 今日收录",
+    "summary": "国内上市城商行龙头，长三角区域优势显著，经营稳健，财富管理行业领先。。招聘批次：27届实习 今日收录。工作地点：南京、无锡、苏州、杭州、宁波、温州、衢州、深圳、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://zhaopin.nbcb.com.cn/#/internship-recruitment",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "finance",
+    "tags": [
+      "宁波银行",
+      "实习",
+      "金融",
+      "南京",
+      "无锡",
+      "苏州",
+      "银行"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-06-01T13:17:41.000Z"
+  },
+  {
+    "id": "nowcoder-1118",
+    "title": "宇通 — 27届实习 今日收录",
+    "summary": "驱动宇通集团价值创造的战略性财经体系，涵盖财务、金融、投资三大专业板块。招聘批次：27届实习 今日收录。工作地点：郑州。招聘岗位：财务审计。",
+    "url": "https://wecruit.hotjob.cn/SU64a37a4dbef57c3af71c2478/pb/posDetail.html?postId=6a16c2b3e791100f0a0a005a&postType=overseas",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "finance",
+    "tags": [
+      "宇通",
+      "实习",
+      "金融",
+      "郑州",
+      "零售"
+    ],
+    "score": 89,
+    "featured": true,
+    "createdAt": "2026-06-01T13:15:31.000Z"
+  },
+  {
+    "id": "nowcoder-2294",
+    "title": "广电运通 — 27届实习 今日收录",
+    "summary": "国内金融科技领域龙头，银行智能设备领域领先，全产业链服务能力突出。。招聘批次：27届实习 今日收录。工作地点：广州、深圳、西安、北京。招聘岗位：后端开发、前端开发、测试、数据、人工智能/算法等。",
+    "url": "https://app.mokahr.com/campus-recruitment/grgbanking/39448?sessionid=#/jobs?zhineng0=150841&keyword=&page=1&anchorName=jobsList",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "finance",
+    "tags": [
+      "广电运通",
+      "实习",
+      "金融",
+      "广州",
+      "深圳",
+      "西安"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-06-01T13:12:51.000Z"
+  },
+  {
+    "id": "nowcoder-4804",
+    "title": "上海电气 — 27届实习 今日收录",
+    "summary": "国内高端装备制造龙头，产业链完善，核心技术自主可控，行业地位突出。。招聘批次：27届实习 今日收录。工作地点：无锡、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://sec.hotjob.cn/",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "auto_ic",
+    "tags": [
+      "上海电气",
+      "实习",
+      "车企/IC",
+      "无锡",
+      "上海",
+      "机械制造",
+      "能源"
+    ],
+    "score": 95,
+    "featured": true,
+    "createdAt": "2026-06-01T13:10:52.000Z"
+  },
+  {
+    "id": "nowcoder-30646",
+    "title": "南方电网数字电网集团有限公司 — 27届实习 今日收录",
+    "summary": "电力数字化领域龙头，技术领先，方案成熟，行业核心地位突出。。招聘批次：27届实习 今日收录。工作地点：广州、深圳。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://mp.weixin.qq.com/s/wlKyGTsyJEw-sKT83vV6sg",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "other",
+    "tags": [
+      "南方电网数字电网集团有限公司",
+      "实习",
+      "广州",
+      "深圳"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-06-01T13:07:56.000Z"
+  },
+  {
+    "id": "nowcoder-4848",
+    "title": "东北证券股份有限公司 — 27届实习 今日收录",
+    "summary": "国内全牌照综合券商，区域资源优势突出，投研与资管能力行业领先。。招聘批次：27届实习 今日收录。工作地点：呼和浩特、长春、宁波、嘉兴、福州、厦门、莆田、泉州、武汉、长沙、广州、韶关、深圳、桂林、兰州、北京、上海、重庆。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://nesc.zhiye.com/intern/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "finance",
+    "tags": [
+      "东北证券股份有限公司",
+      "实习",
+      "金融",
+      "呼和浩特",
+      "长春",
+      "宁波",
+      "证券",
+      "投资机构"
+    ],
+    "score": 95,
+    "featured": true,
+    "createdAt": "2026-06-01T13:05:07.000Z"
+  },
+  {
+    "id": "nowcoder-23136",
+    "title": "工业和信息化部电子第五研究所 — 27届实习 今日收录",
+    "summary": "国家级电子信息科研机构，技术权威，检测认证突出，行业标准制定核心。。招聘批次：27届实习 今日收录。工作地点：广州。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://mp.weixin.qq.com/s/U5qjspC_abzroUdWRcuRMw",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "other",
+    "tags": [
+      "工业和信息化部电子第五研究所",
+      "实习",
+      "广州"
+    ],
+    "score": 94,
+    "featured": true,
+    "createdAt": "2026-06-01T13:01:30.000Z"
+  },
+  {
+    "id": "nowcoder-152631",
+    "title": "希望学 — 27届实习 今日收录",
+    "summary": "国内领先的在线教育机构，教研体系完善，师资实力雄厚，课程品类齐全。。招聘批次：27届实习 今日收录。工作地点：北京。招聘岗位：运营、市场/营销、采编/写作/出版、影视媒体。",
+    "url": "http://mp.weixin.qq.com/s/pXbcMvHh7Y7HiUn-fsmbYg",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "other",
+    "tags": [
+      "希望学",
+      "实习",
+      "北京"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-06-01T12:59:57.000Z"
+  },
+  {
+    "id": "nowcoder-9819",
+    "title": "认养一头牛 — 27届实习 今日收录",
+    "summary": "国内乳业新锐龙头，全产业链布局完善，奶源品质优异，品牌口碑突出。。招聘批次：27届实习 今日收录。工作地点：杭州。招聘岗位：运营、市场/营销、影视媒体、人事、供应链等。",
+    "url": "https://ryytn.zhiye.com/intern/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "other",
+    "tags": [
+      "认养一头牛",
+      "实习",
+      "杭州",
+      "消费生活"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-06-01T12:59:46.000Z"
+  },
+  {
+    "id": "nowcoder-254477",
+    "title": "黑翼资产 — 27届实习 今日收录",
+    "summary": "国内头部量化私募，投研团队资深，策略体系完善，业绩穿越周期表现稳健。。招聘批次：27届实习 今日收录。工作地点：成都、北京、上海。招聘岗位：后端开发、投融资、数据、人工智能/算法、研发工程师。",
+    "url": "https://mp.weixin.qq.com/s/ej-CTDYPdnJK90L02J0bbA",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "other",
+    "tags": [
+      "黑翼资产",
+      "实习",
+      "成都",
+      "北京",
+      "上海"
+    ],
+    "score": 88,
+    "featured": true,
+    "createdAt": "2026-06-01T12:58:03.000Z"
+  },
+  {
+    "id": "nowcoder-739",
+    "title": "七牛云 — 27提前批 今日收录",
+    "summary": "国内领先云服务与音视频技术服务商，研发实力扎实，行业解决方案成熟。。招聘批次：27提前批 今日收录。工作地点：上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://hr.qiniu.com/?utm_campaign=XEngineer&utm_source=niucode&utm_medium=cpm&utm_term=no_1&utm_content=2026_0525&_channel_track_key=PybgmnUt#roles",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "tags": [
+      "七牛云",
+      "校招",
+      "提前批",
+      "互联网/AI",
+      "上海",
+      "企业服务"
+    ],
+    "score": 95,
+    "featured": true,
+    "createdAt": "2026-06-01T12:24:09.000Z"
+  },
+  {
     "id": "nowcoder-2197",
     "title": "平安产险科技中心 — 26春招",
     "summary": "保险行业标杆，综合金融实践平台。。招聘批次：26春招。工作地点：唐山、长春、白山、松原、福州、长沙、深圳、海口、兰州。招聘岗位：后端开发、前端开发、测试、数据、人工智能/算法等。",
@@ -241,29 +487,6 @@
     "score": 94,
     "featured": true,
     "createdAt": "2026-05-29T13:19:29.000Z"
-  },
-  {
-    "id": "nowcoder-898",
-    "title": "快手 — 27提前批",
-    "summary": "头部短视频平台核心人才项目，成长体系完善，技术资源倾斜，发展空间大。。招聘批次：27提前批。工作地点：杭州、深圳、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
-    "url": "https://campus.kuaishou.cn/recruit/campus/e/#/campus/jobs?pageNum=1&positionLabel=kstar&positionNatureCode=fulltime&recruitSubProjectCodes=20271779425607",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "campus",
-    "category": "internet",
-    "tags": [
-      "快手",
-      "校招",
-      "提前批",
-      "互联网/AI",
-      "杭州",
-      "深圳",
-      "北京",
-      "视频直播"
-    ],
-    "score": 99,
-    "featured": true,
-    "createdAt": "2026-05-29T12:11:06.000Z"
   },
   {
     "id": "nowcoder-32099",
