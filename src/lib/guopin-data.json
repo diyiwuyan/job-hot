@@ -12047,7 +12047,7 @@
       "制造业",
       "无锡"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-05-25T14:36:29.000Z"
   },
@@ -12068,8 +12068,8 @@
       "专用设备制造业",
       "成都"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-25T13:43:51.000Z"
   },
   {
@@ -12089,8 +12089,8 @@
       "其他制造业",
       "苏州"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-25T11:27:24.000Z"
   },
   {
@@ -12109,8 +12109,8 @@
       "广告/公关/会展",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-25T11:00:00.000Z"
   },
   {
@@ -12130,8 +12130,8 @@
       "专用设备制造业",
       "北京"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-25T10:59:21.000Z"
   },
   {
@@ -19126,7 +19126,7 @@
       "青岛",
       "西安"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-18T13:59:38.000Z"
   },
@@ -19146,7 +19146,7 @@
       "房屋建筑业",
       "中国"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-18T11:41:34.000Z"
   },
@@ -19167,7 +19167,7 @@
       "科技推广和应用服务业",
       "北京"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-18T11:33:47.000Z"
   },
@@ -19210,8 +19210,8 @@
       "杭州",
       "湖州"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-18T11:17:06.000Z"
   },
   {
