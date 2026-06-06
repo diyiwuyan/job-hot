@@ -14616,8 +14616,8 @@
       "建筑业",
       "广州"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-29T10:03:25.000Z"
   },
   {
@@ -14636,8 +14636,8 @@
       "其他",
       "深圳"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-29T09:17:50.000Z"
   },
   {
@@ -14658,8 +14658,8 @@
       "海外",
       "北京"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-29T09:07:40.000Z"
   },
   {
@@ -14679,7 +14679,7 @@
       "软件和信息技术服务业",
       "武汉"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-05-29T09:01:31.000Z"
   },
@@ -14700,7 +14700,7 @@
       "软件和信息技术服务业",
       "哈尔滨"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-05-29T08:00:00.000Z"
   },
@@ -19839,7 +19839,7 @@
       "通用设备制造业",
       "中国"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-22T09:56:32.000Z"
   },
@@ -19860,7 +19860,7 @@
       "通用设备制造业",
       "宝鸡"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-22T09:56:01.000Z"
   },
