@@ -14364,8 +14364,8 @@
       "建筑业",
       "合肥"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-30T11:11:11.000Z"
   },
   {
@@ -19505,7 +19505,7 @@
       "建筑业",
       "巴基斯坦"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-23T09:16:27.000Z"
   },
@@ -38366,27 +38366,6 @@
     "createdAt": "2026-05-07T00:00:00.000Z"
   },
   {
-    "id": "guopin-199353116301197504",
-    "title": "国药励展展览有限责任公司 — 市场专员",
-    "summary": "企业性质：国企。行业：医药制造业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=199353116301197504",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "国药励展展览有限责任公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "医药制造业",
-      "北京"
-    ],
-    "score": 68,
-    "featured": false,
-    "createdAt": "2026-05-07T00:00:00.000Z"
-  },
-  {
     "id": "guopin-199381440570327233",
     "title": "中建数字科技有限公司 — 中建数科2026届数据工程师",
     "summary": "企业性质：国企。行业：信息传输、软件和信息技术服务业。工作地点：北京。薪资面议。学历：硕士。规模：300-500人。",
@@ -38425,6 +38404,27 @@
       "北京"
     ],
     "score": 67,
+    "featured": false,
+    "createdAt": "2026-05-07T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-199353116301197504",
+    "title": "国药励展展览有限责任公司 — 市场专员",
+    "summary": "企业性质：国企。行业：医药制造业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=199353116301197504",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "国药励展展览有限责任公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "医药制造业",
+      "北京"
+    ],
+    "score": 63,
     "featured": false,
     "createdAt": "2026-05-07T00:00:00.000Z"
   },
