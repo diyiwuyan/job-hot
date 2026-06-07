@@ -14387,7 +14387,7 @@
       "阳江",
       "怀化"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-05-30T00:00:00.000Z"
   },
@@ -14407,7 +14407,7 @@
       "有色金属冶炼和压延加工业",
       "刚果(金)"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-05-30T00:00:00.000Z"
   },
@@ -14430,7 +14430,7 @@
       "阳江",
       "怀化"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-05-30T00:00:00.000Z"
   },
@@ -14453,8 +14453,8 @@
       "阳江",
       "怀化"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-30T00:00:00.000Z"
   },
   {
@@ -14495,8 +14495,8 @@
       "居民服务、修理和其他服务业",
       "杭州"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-29T15:33:39.000Z"
   },
   {
@@ -14516,8 +14516,8 @@
       "有色金属冶炼和压延加工业",
       "黄石"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-29T15:32:14.000Z"
   },
   {
@@ -19526,7 +19526,7 @@
       "制造业",
       "唐山"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-23T00:00:00.000Z"
   },
@@ -19546,7 +19546,7 @@
       "建筑业",
       "深圳"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-05-22T17:46:36.000Z"
   },
@@ -19567,7 +19567,7 @@
       "制造业",
       "杭州"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-22T16:32:00.000Z"
   },
@@ -19588,7 +19588,7 @@
       "铁路运输业",
       "北京"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-22T16:21:10.000Z"
   },
@@ -19610,7 +19610,7 @@
       "三门峡",
       "襄阳"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-05-22T16:14:01.000Z"
   },
@@ -19651,7 +19651,7 @@
       "电力、热力、燃气及水生产和供应业",
       "烟台"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-22T15:04:23.000Z"
   },
@@ -19693,8 +19693,8 @@
       "石油和天然气开采业",
       "东营"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-05-22T13:57:26.000Z"
   },
   {
@@ -19716,7 +19716,7 @@
       "深圳",
       "海口"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-22T13:46:10.000Z"
   },
@@ -19756,8 +19756,8 @@
       "科学研究和技术服务业",
       "昆明"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-22T13:31:12.000Z"
   },
   {
@@ -37809,27 +37809,6 @@
     "createdAt": "2026-05-07T00:00:00.000Z"
   },
   {
-    "id": "guopin-199372603608006853",
-    "title": "江西彩虹光伏有限公司 — 工艺技术研发",
-    "summary": "企业性质：国企。行业：非金属矿物制品业。工作地点：上饶-广丰区。薪资：7500-10000元/月。学历：硕士。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=199372603608006853",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "江西彩虹光伏有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "非金属矿物制品业",
-      "上饶"
-    ],
-    "score": 75,
-    "featured": false,
-    "createdAt": "2026-05-07T00:00:00.000Z"
-  },
-  {
     "id": "guopin-199366664892973248",
     "title": "国药集团（天津）医疗器械有限公司 — 商务专员",
     "summary": "企业性质：国企。行业：批发业。工作地点：天津。薪资：3500-4500元/月。学历：本科。规模：300-500人。",
@@ -37844,27 +37823,6 @@
       "国企",
       "批发业",
       "天津"
-    ],
-    "score": 75,
-    "featured": false,
-    "createdAt": "2026-05-07T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-199365782210085061",
-    "title": "中国化工集团曙光橡胶工业研究设计院有限公司 — 产品与基础研发工程师",
-    "summary": "企业性质：国企。行业：制造业。工作地点：桂林-七星区。薪资：18000-25000元/月。学历：博士。规模：500-1000人。",
-    "url": "https://www.iguopin.com/job/detail?id=199365782210085061",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "中国化工集团曙光橡胶工业研究设计院有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "制造业",
-      "桂林"
     ],
     "score": 75,
     "featured": false,
@@ -37933,88 +37891,6 @@
     "createdAt": "2026-05-07T00:00:00.000Z"
   },
   {
-    "id": "guopin-199372603792556229",
-    "title": "江西彩虹光伏有限公司 — 检验技术",
-    "summary": "企业性质：国企。行业：非金属矿物制品业。工作地点：上饶-广丰区。薪资：5000-10000元/月。学历：本科。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=199372603792556229",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "江西彩虹光伏有限公司",
-      "校招",
-      "国企",
-      "非金属矿物制品业",
-      "上饶"
-    ],
-    "score": 74,
-    "featured": false,
-    "createdAt": "2026-05-07T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-199367490432663741",
-    "title": "中远海运科技股份有限公司 — 操作系统研发工程师（船端）",
-    "summary": "企业性质：国企。行业：水上运输业。工作地点：上海。薪资面议。学历：硕士。规模：500-1000人。",
-    "url": "https://www.iguopin.com/job/detail?id=199367490432663741",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "tags": [
-      "中远海运科技股份有限公司",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "水上运输业",
-      "上海"
-    ],
-    "score": 74,
-    "featured": false,
-    "createdAt": "2026-05-07T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-199365707736023237",
-    "title": "中国化工集团曙光橡胶工业研究设计院有限公司 — 力学与仿真研究岗",
-    "summary": "企业性质：国企。行业：制造业。工作地点：桂林-七星区。薪资：7000-9000元/月。学历：硕士。规模：500-1000人。",
-    "url": "https://www.iguopin.com/job/detail?id=199365707736023237",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "中国化工集团曙光橡胶工业研究设计院有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "制造业",
-      "桂林"
-    ],
-    "score": 74,
-    "featured": false,
-    "createdAt": "2026-05-07T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-199332083225592004",
-    "title": "中国城市发展规划设计咨询有限公司 — 助理规划师",
-    "summary": "企业性质：国企。行业：建筑业。工作地点：北京-西城区。薪资：7000-8000元/月。学历：硕士。规模：300-500人。",
-    "url": "https://www.iguopin.com/job/detail?id=199332083225592004",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "中国城市发展规划设计咨询有限公司",
-      "校招",
-      "国企",
-      "建筑业",
-      "北京"
-    ],
-    "score": 74,
-    "featured": false,
-    "createdAt": "2026-05-07T00:00:00.000Z"
-  },
-  {
     "id": "guopin-199350952728199358",
     "title": "建筑材料工业技术情报研究所 — 研发与推广",
     "summary": "企业性质：其他。行业：科技推广和应用服务业。工作地点：北京-朝阳区、安庆-潜山市。薪资面议。学历：硕士。规模：100-300人。",
@@ -38037,88 +37913,6 @@
     "createdAt": "2026-05-07T00:00:00.000Z"
   },
   {
-    "id": "guopin-199372603691892933",
-    "title": "江西彩虹光伏有限公司 — 装备技术",
-    "summary": "企业性质：国企。行业：非金属矿物制品业。工作地点：上饶-广丰区。薪资：5000-10000元/月。学历：本科。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=199372603691892933",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "江西彩虹光伏有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "非金属矿物制品业",
-      "上饶"
-    ],
-    "score": 73,
-    "featured": false,
-    "createdAt": "2026-05-07T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-199372603507343557",
-    "title": "江西彩虹光伏有限公司 — 工艺技术",
-    "summary": "企业性质：国企。行业：非金属矿物制品业。工作地点：上饶-广丰区。薪资：5000-10000元/月。学历：本科。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=199372603507343557",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "江西彩虹光伏有限公司",
-      "校招",
-      "国企",
-      "非金属矿物制品业",
-      "上饶"
-    ],
-    "score": 73,
-    "featured": false,
-    "createdAt": "2026-05-07T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-199372606678237381",
-    "title": "中国黄金集团江西金山矿业有限公司 — 工程技术人员",
-    "summary": "企业性质：国企。行业：有色金属矿采选业。工作地点：上饶-德兴市。薪资：8333-12500元/月。学历：本科。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=199372606678237381",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "中国黄金集团江西金山矿业有限公司",
-      "校招",
-      "国企",
-      "有色金属矿采选业",
-      "上饶"
-    ],
-    "score": 73,
-    "featured": false,
-    "createdAt": "2026-05-07T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-199365746524946624",
-    "title": "中国化工集团曙光橡胶工业研究设计院有限公司 — 橡胶研发岗",
-    "summary": "企业性质：国企。行业：制造业。工作地点：桂林-七星区。薪资：7000-9000元/月。学历：硕士。规模：500-1000人。",
-    "url": "https://www.iguopin.com/job/detail?id=199365746524946624",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "中国化工集团曙光橡胶工业研究设计院有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "制造业",
-      "桂林"
-    ],
-    "score": 73,
-    "featured": false,
-    "createdAt": "2026-05-07T00:00:00.000Z"
-  },
-  {
     "id": "guopin-162949539144141895",
     "title": "广州中远海运航空物流有限公司 — 进口部客服岗",
     "summary": "企业性质：国企。行业：航空运输业。工作地点：广州-花都区。薪资：6000-8000元/月。学历：本科。规模：300-500人。",
@@ -38136,48 +37930,6 @@
       "广州"
     ],
     "score": 73,
-    "featured": false,
-    "createdAt": "2026-05-07T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-199381440570327233",
-    "title": "中建数字科技有限公司 — 中建数科2026届数据工程师",
-    "summary": "企业性质：国企。行业：信息传输、软件和信息技术服务业。工作地点：北京。薪资面议。学历：硕士。规模：300-500人。",
-    "url": "https://www.iguopin.com/job/detail?id=199381440570327233",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "tags": [
-      "中建数字科技有限公司",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "信息传输、软件和信息技术服务业",
-      "北京"
-    ],
-    "score": 72,
-    "featured": false,
-    "createdAt": "2026-05-07T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-199381382655377601",
-    "title": "中建数字科技有限公司 — 中建数科2026届开发工程师",
-    "summary": "企业性质：国企。行业：信息传输、软件和信息技术服务业。工作地点：北京。薪资面议。学历：硕士。规模：300-500人。",
-    "url": "https://www.iguopin.com/job/detail?id=199381382655377601",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "tags": [
-      "中建数字科技有限公司",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "信息传输、软件和信息技术服务业",
-      "北京"
-    ],
-    "score": 72,
     "featured": false,
     "createdAt": "2026-05-07T00:00:00.000Z"
   },
@@ -38347,6 +38099,48 @@
     "createdAt": "2026-05-07T00:00:00.000Z"
   },
   {
+    "id": "guopin-199372603608006853",
+    "title": "江西彩虹光伏有限公司 — 工艺技术研发",
+    "summary": "企业性质：国企。行业：非金属矿物制品业。工作地点：上饶-广丰区。薪资：7500-10000元/月。学历：硕士。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=199372603608006853",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "江西彩虹光伏有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "非金属矿物制品业",
+      "上饶"
+    ],
+    "score": 70,
+    "featured": false,
+    "createdAt": "2026-05-07T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-199365782210085061",
+    "title": "中国化工集团曙光橡胶工业研究设计院有限公司 — 产品与基础研发工程师",
+    "summary": "企业性质：国企。行业：制造业。工作地点：桂林-七星区。薪资：18000-25000元/月。学历：博士。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=199365782210085061",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "中国化工集团曙光橡胶工业研究设计院有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "制造业",
+      "桂林"
+    ],
+    "score": 70,
+    "featured": false,
+    "createdAt": "2026-05-07T00:00:00.000Z"
+  },
+  {
     "id": "guopin-199326835580862653",
     "title": "中航天建设工程集团有限公司 — 造价员/预算员",
     "summary": "企业性质：国企。行业：建筑业。工作地点：中国。薪资面议。学历：本科。规模：2000-5000人。",
@@ -38408,6 +38202,170 @@
     "createdAt": "2026-05-07T00:00:00.000Z"
   },
   {
+    "id": "guopin-199372603792556229",
+    "title": "江西彩虹光伏有限公司 — 检验技术",
+    "summary": "企业性质：国企。行业：非金属矿物制品业。工作地点：上饶-广丰区。薪资：5000-10000元/月。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=199372603792556229",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "江西彩虹光伏有限公司",
+      "校招",
+      "国企",
+      "非金属矿物制品业",
+      "上饶"
+    ],
+    "score": 69,
+    "featured": false,
+    "createdAt": "2026-05-07T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-199367490432663741",
+    "title": "中远海运科技股份有限公司 — 操作系统研发工程师（船端）",
+    "summary": "企业性质：国企。行业：水上运输业。工作地点：上海。薪资面议。学历：硕士。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=199367490432663741",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "tags": [
+      "中远海运科技股份有限公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "水上运输业",
+      "上海"
+    ],
+    "score": 69,
+    "featured": false,
+    "createdAt": "2026-05-07T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-199365707736023237",
+    "title": "中国化工集团曙光橡胶工业研究设计院有限公司 — 力学与仿真研究岗",
+    "summary": "企业性质：国企。行业：制造业。工作地点：桂林-七星区。薪资：7000-9000元/月。学历：硕士。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=199365707736023237",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "中国化工集团曙光橡胶工业研究设计院有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "制造业",
+      "桂林"
+    ],
+    "score": 69,
+    "featured": false,
+    "createdAt": "2026-05-07T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-199332083225592004",
+    "title": "中国城市发展规划设计咨询有限公司 — 助理规划师",
+    "summary": "企业性质：国企。行业：建筑业。工作地点：北京-西城区。薪资：7000-8000元/月。学历：硕士。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=199332083225592004",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "中国城市发展规划设计咨询有限公司",
+      "校招",
+      "国企",
+      "建筑业",
+      "北京"
+    ],
+    "score": 69,
+    "featured": false,
+    "createdAt": "2026-05-07T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-199372603691892933",
+    "title": "江西彩虹光伏有限公司 — 装备技术",
+    "summary": "企业性质：国企。行业：非金属矿物制品业。工作地点：上饶-广丰区。薪资：5000-10000元/月。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=199372603691892933",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "江西彩虹光伏有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "非金属矿物制品业",
+      "上饶"
+    ],
+    "score": 68,
+    "featured": false,
+    "createdAt": "2026-05-07T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-199372603507343557",
+    "title": "江西彩虹光伏有限公司 — 工艺技术",
+    "summary": "企业性质：国企。行业：非金属矿物制品业。工作地点：上饶-广丰区。薪资：5000-10000元/月。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=199372603507343557",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "江西彩虹光伏有限公司",
+      "校招",
+      "国企",
+      "非金属矿物制品业",
+      "上饶"
+    ],
+    "score": 68,
+    "featured": false,
+    "createdAt": "2026-05-07T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-199372606678237381",
+    "title": "中国黄金集团江西金山矿业有限公司 — 工程技术人员",
+    "summary": "企业性质：国企。行业：有色金属矿采选业。工作地点：上饶-德兴市。薪资：8333-12500元/月。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=199372606678237381",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "中国黄金集团江西金山矿业有限公司",
+      "校招",
+      "国企",
+      "有色金属矿采选业",
+      "上饶"
+    ],
+    "score": 68,
+    "featured": false,
+    "createdAt": "2026-05-07T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-199365746524946624",
+    "title": "中国化工集团曙光橡胶工业研究设计院有限公司 — 橡胶研发岗",
+    "summary": "企业性质：国企。行业：制造业。工作地点：桂林-七星区。薪资：7000-9000元/月。学历：硕士。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=199365746524946624",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "tags": [
+      "中国化工集团曙光橡胶工业研究设计院有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "制造业",
+      "桂林"
+    ],
+    "score": 68,
+    "featured": false,
+    "createdAt": "2026-05-07T00:00:00.000Z"
+  },
+  {
     "id": "guopin-199353116301197504",
     "title": "国药励展展览有限责任公司 — 市场专员",
     "summary": "企业性质：国企。行业：医药制造业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：100-300人。",
@@ -38425,6 +38383,48 @@
       "北京"
     ],
     "score": 68,
+    "featured": false,
+    "createdAt": "2026-05-07T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-199381440570327233",
+    "title": "中建数字科技有限公司 — 中建数科2026届数据工程师",
+    "summary": "企业性质：国企。行业：信息传输、软件和信息技术服务业。工作地点：北京。薪资面议。学历：硕士。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=199381440570327233",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "tags": [
+      "中建数字科技有限公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "信息传输、软件和信息技术服务业",
+      "北京"
+    ],
+    "score": 67,
+    "featured": false,
+    "createdAt": "2026-05-07T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-199381382655377601",
+    "title": "中建数字科技有限公司 — 中建数科2026届开发工程师",
+    "summary": "企业性质：国企。行业：信息传输、软件和信息技术服务业。工作地点：北京。薪资面议。学历：硕士。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=199381382655377601",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "tags": [
+      "中建数字科技有限公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "信息传输、软件和信息技术服务业",
+      "北京"
+    ],
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-07T00:00:00.000Z"
   },
@@ -38547,7 +38547,7 @@
       "水上运输业",
       "营口"
     ],
-    "score": 68,
+    "score": 63,
     "featured": false,
     "createdAt": "2026-05-06T16:36:52.000Z"
   },
@@ -38568,7 +38568,7 @@
       "水上运输业",
       "大连"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-06T16:36:17.000Z"
   },
@@ -38589,7 +38589,7 @@
       "水上运输业",
       "营口"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-06T16:19:03.000Z"
   },
@@ -38610,7 +38610,7 @@
       "水上运输业",
       "大连"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-05-06T16:17:27.000Z"
   },
