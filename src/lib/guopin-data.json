@@ -15596,8 +15596,8 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-31T11:18:18.000Z"
   },
   {
@@ -15617,7 +15617,7 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-05-31T11:17:58.000Z"
   },
@@ -15638,7 +15638,7 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-05-31T11:17:41.000Z"
   },
@@ -15659,8 +15659,8 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-31T11:15:55.000Z"
   },
   {
@@ -15680,7 +15680,7 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-05-31T11:15:35.000Z"
   },
@@ -15701,8 +15701,8 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-31T11:15:12.000Z"
   },
   {
@@ -15722,8 +15722,8 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-05-31T11:14:54.000Z"
   },
   {
@@ -15743,7 +15743,7 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-05-31T11:14:31.000Z"
   },
@@ -37440,7 +37440,7 @@
       "上海",
       "广东"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-08T14:48:42.000Z"
   },
