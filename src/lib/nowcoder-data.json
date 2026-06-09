@@ -258,6 +258,64 @@
     "createdAt": "2026-06-08T14:32:55.000Z"
   },
   {
+    "id": "nowcoder-24155",
+    "title": "策马翻译 — 27届实习 今日收录",
+    "summary": "国内翻译与语言服务领域龙头，全链条服务能力突出，行业资质齐全。。招聘批次：27届实习 今日收录。工作地点：上海。招聘岗位：数据、人工智能/算法、运营、市场/营销、商务等。",
+    "url": "https://mp.weixin.qq.com/s/1LxE4zT9lBpWyYJ6BmSGVg",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "other",
+    "tags": [
+      "策马翻译",
+      "实习",
+      "上海"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-06-08T14:26:16.000Z"
+  },
+  {
+    "id": "nowcoder-27288",
+    "title": "江苏辖区农商银行 — 27届实习 今日收录",
+    "summary": "江苏县域金融服务核心体系，网点覆盖广，普惠金融服务能力突出。。招聘批次：27届实习 今日收录。工作地点：南京、无锡、徐州、常州、苏州、南通、连云港、淮安、盐城、扬州、镇江、泰州、宿迁。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://campus.51job.com/jsnxzp2026sxs/p1.html?addrName=0",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "finance",
+    "tags": [
+      "江苏辖区农商银行",
+      "实习",
+      "金融",
+      "南京",
+      "无锡",
+      "徐州"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-06-08T14:23:47.000Z"
+  },
+  {
+    "id": "nowcoder-2769",
+    "title": "曼伦商贸 — 27届实习 今日收录",
+    "summary": "国内全渠道品牌运营领域龙头，服务体系完善，品牌孵化能力突出。。招聘批次：27届实习 今日收录。工作地点：上海。招聘岗位：人事。",
+    "url": "https://app.mokahr.com/campus-recruitment/manon/94861?sessionid=&sourceToken=e5e68a70a1dc9dca8c0011e86699568c#/job/7d846946-b885-479d-8ed4-8d7126a47576?from=qrcode",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "other",
+    "tags": [
+      "曼伦商贸",
+      "实习",
+      "上海",
+      "消费生活"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-06-08T14:23:25.000Z"
+  },
+  {
     "id": "nowcoder-260058",
     "title": "南银理财 — 27届实习 今日收录",
     "summary": "国内头部银行系理财子公司，投研体系成熟，财富管理能力行业领先。。招聘批次：27届实习 今日收录。工作地点：南京。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
@@ -472,27 +530,6 @@
     "createdAt": "2026-06-05T12:12:51.000Z"
   },
   {
-    "id": "nowcoder-27288",
-    "title": "江苏辖区农商银行 — 27届实习",
-    "summary": "江苏县域金融服务核心体系，网点覆盖广，普惠金融服务能力突出。。招聘批次：27届实习。工作地点：南京、无锡、徐州、常州、苏州、南通、连云港、淮安、盐城、扬州、镇江、泰州、宿迁。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
-    "url": "https://campus.51job.com/jsnxzp2026sxs/p1.html?addrName=0",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "intern",
-    "category": "finance",
-    "tags": [
-      "江苏辖区农商银行",
-      "实习",
-      "金融",
-      "南京",
-      "无锡",
-      "徐州"
-    ],
-    "score": 93,
-    "featured": true,
-    "createdAt": "2026-06-05T11:17:49.000Z"
-  },
-  {
     "id": "nowcoder-8910",
     "title": "上海国际集团 — 27届实习",
     "summary": "上海市属金融控股龙头国企，全牌照布局，金融资源整合能力突出。。招聘批次：27届实习。工作地点：上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
@@ -529,25 +566,6 @@
     "score": 94,
     "featured": true,
     "createdAt": "2026-06-05T11:09:31.000Z"
-  },
-  {
-    "id": "nowcoder-2769",
-    "title": "曼伦商贸 — 27届实习",
-    "summary": "国内全渠道品牌运营领域龙头，服务体系完善，品牌孵化能力突出。。招聘批次：27届实习。工作地点：上海。招聘岗位：人事。",
-    "url": "https://app.mokahr.com/campus-recruitment/manon/94861?sessionid=&sourceToken=e5e68a70a1dc9dca8c0011e86699568c#/job/7d846946-b885-479d-8ed4-8d7126a47576?from=qrcode",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "intern",
-    "category": "other",
-    "tags": [
-      "曼伦商贸",
-      "实习",
-      "上海",
-      "消费生活"
-    ],
-    "score": 91,
-    "featured": true,
-    "createdAt": "2026-06-05T11:05:51.000Z"
   },
   {
     "id": "nowcoder-27165",
