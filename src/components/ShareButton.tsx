@@ -47,11 +47,14 @@ export function ShareButton({ item, variant = 'icon' }: ShareButtonProps) {
   const shareText = buildShareText(item);
 
   useEffect(() => {
-    const coarse = typeof window !== 'undefined' && window.matchMedia
-      ? window.matchMedia('(pointer: coarse)').matches
-      : false;
+    // 仅在“真正的移动端”才弹面板：窄屏 + 主指针为粗(触屏) + 不存在精细指针 + 支持原生分享。
+    // 触屏 Windows 笔记本等桌面设备一律走一键复制，绝不弹面板。
+    const mm = typeof window !== 'undefined' && window.matchMedia ? window.matchMedia.bind(window) : null;
+    const coarse = mm ? mm('(pointer: coarse)').matches : false;
+    const noFine = mm ? mm('(any-pointer: fine)').matches === false : false;
+    const narrow = typeof window !== 'undefined' ? window.innerWidth <= 768 : false;
     const canShare = typeof navigator !== 'undefined' && typeof navigator.share === 'function';
-    setIsMobile(coarse && canShare);
+    setIsMobile(narrow && coarse && noFine && canShare);
   }, []);
 
   const showToast = useCallback((msg: string) => {
