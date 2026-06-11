@@ -4,18 +4,17 @@ import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { Suspense, useEffect, useState } from 'react';
 import { FeedItem } from '@/lib/types';
-import { ShareButton } from '@/components/ShareButton';
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '/job-hot';
 
-interface ColumnarShard {
+// 详情桶结构：d 为 { id: [字段...] } 的映射，按 id 前缀分桶。
+interface DetailBucket {
   k: string[];
   u: Record<string, string>;
   s: Record<string, string>;
   c: Record<string, string>;
   g: Record<string, string>;
-  m?: Record<string, string>;
-  d: (string | number)[][];
+  d: Record<string, (string | number)[]>;
 }
 
 function restoreUrl(compact: string, urlMap: Record<string, string>): string {
@@ -24,25 +23,36 @@ function restoreUrl(compact: string, urlMap: Record<string, string>): string {
   return compact;
 }
 
-let shardPromise: Promise<ColumnarShard | null> | null = null;
-function loadAllShard(): Promise<ColumnarShard | null> {
-  if (!shardPromise) {
-    shardPromise = fetch(`${basePath}/api/feed/search-all.json`)
+// 由 id 推断所属详情桶（djb2 哈希，必须与构建脚本 detailBucketOf 完全一致）
+const DETAIL_BUCKET_COUNT = 64;
+function bucketOf(id: string): string {
+  let h = 5381;
+  for (let i = 0; i < id.length; i++) h = ((h << 5) + h + id.charCodeAt(i)) & 0xffffffff;
+  const idx = Math.abs(h) % DETAIL_BUCKET_COUNT;
+  return `b${idx}`;
+}
+
+const bucketCache = new Map<string, Promise<DetailBucket | null>>();
+function loadBucket(bucket: string): Promise<DetailBucket | null> {
+  let p = bucketCache.get(bucket);
+  if (!p) {
+    p = fetch(`${basePath}/api/feed/detail/${bucket}.json`)
       .then(r => (r.ok ? r.json() : null))
       .catch(() => null);
+    bucketCache.set(bucket, p);
   }
-  return shardPromise;
+  return p;
 }
 
 async function findItemById(id: string): Promise<FeedItem | null> {
-  const shard = await loadAllShard();
-  if (!shard) return null;
-  const { k: fields, u: urlMap, s: srcMap, c: chMap, g: catMap, d: rows } = shard;
+  const bucket = await loadBucket(bucketOf(id));
+  if (!bucket) return null;
+  const { k: fields, u: urlMap, s: srcMap, c: chMap, g: catMap, d: map } = bucket;
+  const row = map[id];
+  if (!row) return null;
+
   const idx: Record<string, number> = {};
   fields.forEach((f, i) => { idx[f] = i; });
-
-  const row = rows.find(r => (r[idx.id] as string) === id);
-  if (!row) return null;
 
   const srcCode = row[idx.source] as string;
   const chCode = row[idx.channel] as string;
@@ -50,7 +60,7 @@ async function findItemById(id: string): Promise<FeedItem | null> {
   const dateStr = row[idx.createdAt] as string;
 
   return {
-    id: row[idx.id] as string,
+    id,
     title: row[idx.title] as string,
     summary: row[idx.summary] as string,
     url: restoreUrl(row[idx.url] as string, urlMap),
@@ -167,8 +177,8 @@ function ItemContent() {
               </div>
             )}
 
-            <div className="item-actions">
-              {item.url && (
+            {item.url && (
+              <div className="item-actions">
                 <a
                   href={item.url}
                   target="_blank"
@@ -178,9 +188,8 @@ function ItemContent() {
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                   查看原岗位详情
                 </a>
-              )}
-              <ShareButton item={item} variant="full" />
-            </div>
+              </div>
+            )}
           </article>
 
           {/* JOBHOT 介绍 */}

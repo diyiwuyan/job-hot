@@ -255,9 +255,11 @@ function AllPageContent() {
     try { localStorage.setItem('jobhot-viewmode', mode); } catch {}
   }
 
+  // 仅在用户真正发起搜索/筛选时才预热搜索包，避免移动端一进页面就空载下载 9MB
+  const willSearch = !!query || cities.length > 0 || companyType !== 'all' || major !== 'all';
   useEffect(() => {
-    prefetchSearchShard(channel);
-  }, [channel]);
+    if (willSearch) prefetchSearchShard(channel);
+  }, [channel, willSearch]);
 
   const loadData = useCallback(async () => {
     setLoading(true);

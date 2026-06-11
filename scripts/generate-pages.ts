@@ -362,11 +362,60 @@ for (const [ch, items] of Object.entries(channelShards)) {
   console.log(`  search-${ch}.json: ${(size / 1024 / 1024).toFixed(1)} MB (${items.length} items)`);
 }
 
-// Keep backward-compatible search-index.json (copy of search-all.json)
-fs.copyFileSync(
-  path.join(outDir, 'search-all.json'),
-  path.join(outDir, 'search-index.json')
-);
+// 注：已移除冗余的 search-index.json（曾是 search-all.json 的完整拷贝，约 9MB）。
+// 前端不再引用该文件，删除可减少仓库体积与构建产物。
+
+// ─── 详情页轻量索引（按 id 哈希分桶）────────────────────────────
+// 详情页 /item?id=xxx 只需按 id 查一条，过去要整包下载 9MB 的 search-all.json。
+// 这里按 id 的哈希均匀分散到 64 个小桶，详情页只需下载对应桶（每桶通常 <50KB）。
+// 字段顺序固定，summary 截断到 80 字（详情页展示足够）。
+const detailFields = ['title', 'summary', 'url', 'source', 'channel', 'category', 'tags', 'createdAt', 'companyType', 'location', 'deadline'];
+
+const DETAIL_BUCKET_COUNT = 64;
+// 简单稳定哈希（djb2），与客户端 bucketOf 保持完全一致。
+function detailBucketOf(id: string): string {
+  let h = 5381;
+  for (let i = 0; i < id.length; i++) h = ((h << 5) + h + id.charCodeAt(i)) & 0xffffffff;
+  const idx = Math.abs(h) % DETAIL_BUCKET_COUNT;
+  return `b${idx}`;
+}
+
+const detailBuckets: Record<string, { k: string[]; u: Record<string, string>; s: Record<string, string>; c: Record<string, string>; g: Record<string, string>; d: Record<string, (string | number)[]> }> = {};
+
+for (const item of feedItems) {
+  const bucket = detailBucketOf(item.id);
+  if (!detailBuckets[bucket]) {
+    detailBuckets[bucket] = {
+      k: detailFields,
+      u: urlReverseMap,
+      s: sourceReverseMap,
+      c: channelReverseMap,
+      g: categoryReverseMap,
+      d: {},
+    };
+  }
+  detailBuckets[bucket].d[item.id] = [
+    item.title,
+    item.summary.length > 80 ? item.summary.slice(0, 80) + '…' : item.summary,
+    compactUrl(item.url),
+    sourceCodeMap[item.source] || item.source,
+    channelCodeMap[item.channel] || item.channel,
+    categoryCodeMap[item.category] || item.category,
+    item.tags.join('|'),
+    compactDate(item.createdAt),
+    item.companyType || '',
+    item.location || '',
+    item.deadline || '',
+  ];
+}
+
+const detailDir = path.join(outDir, 'detail');
+if (!fs.existsSync(detailDir)) fs.mkdirSync(detailDir, { recursive: true });
+for (const [bucket, data] of Object.entries(detailBuckets)) {
+  fs.writeFileSync(path.join(detailDir, `${bucket}.json`), JSON.stringify(data), 'utf8');
+  const kb = (fs.statSync(path.join(detailDir, `${bucket}.json`)).size / 1024).toFixed(0);
+  console.log(`  detail/${bucket}.json: ${kb} KB (${Object.keys(data.d).length} items)`);
+}
 
 // ─── Generate daily digest JSON ─────────────────────────────────────
 const dailyGrouped = new Map<string, FeedItem[]>();
