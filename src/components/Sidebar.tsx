@@ -42,6 +42,16 @@ const navItems: { href: string; label: string; icon: React.ReactNode; external?:
     ),
   },
   {
+    href: '/nav',
+    label: '求职导航',
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="12" cy="12" r="10" />
+        <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" />
+      </svg>
+    ),
+  },
+  {
     href: 'https://ai-resume-9wy.pages.dev/',
     label: 'AI简历',
     external: true,
