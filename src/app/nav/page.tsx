@@ -1,24 +1,58 @@
-import type { Metadata } from 'next';
+'use client';
+
 import { NAV_DATA, formatNavUrl } from '@/lib/nav-data';
 
-export const metadata: Metadata = {
-  title: '求职导航 - JOBHOT',
-  description:
-    '一站式求职网址导航，精选官方招聘平台、国央企与公务员、互联网大厂、地方人才社保、求职工具与资源，快速直达常用求职网站。',
-};
+function slugify(s: string): string {
+  return 'cat-' + s.replace(/[^\u4e00-\u9fa5a-zA-Z0-9]/g, '');
+}
 
 export default function NavPage() {
   const totalSites = NAV_DATA.reduce((sum, c) => sum + c.sites.length, 0);
+
+  function scrollTo(id: string) {
+    const el = document.getElementById(id);
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
 
   return (
     <div className="page">
       <div className="page-header">
         <h1>求职导航</h1>
-        <p>精选 {totalSites} 个常用求职网站，按分类直达，告别四处搜索</p>
+        <p>
+          精选 {totalSites}+ 个常用求职网站，覆盖官方平台、央企、银行、文化企业、选调事业单位与求职工具，按分类直达
+        </p>
+      </div>
+
+      {/* 分类快捷跳转条 */}
+      <div
+        style={{
+          display: 'flex',
+          flexWrap: 'wrap',
+          gap: '0.5rem',
+          margin: '1.25rem 0',
+          position: 'sticky',
+          top: 0,
+          zIndex: 10,
+          background: 'var(--bg)',
+          paddingTop: '0.5rem',
+          paddingBottom: '0.5rem',
+        }}
+      >
+        {NAV_DATA.map((g) => (
+          <button
+            key={g.category}
+            onClick={() => scrollTo(slugify(g.category))}
+            className="tag"
+            style={{ cursor: 'pointer', border: 'none', fontSize: '0.8rem' }}
+          >
+            {g.category}
+            <span style={{ opacity: 0.6, marginLeft: 4 }}>{g.sites.length}</span>
+          </button>
+        ))}
       </div>
 
       {NAV_DATA.map((group) => (
-        <section key={group.category} style={{ marginTop: '2rem' }}>
+        <section key={group.category} id={slugify(group.category)} style={{ marginTop: '2rem', scrollMarginTop: '4rem' }}>
           <div
             style={{
               display: 'flex',
@@ -47,16 +81,17 @@ export default function NavPage() {
           >
             {group.sites.map((site) => (
               <a
-                key={site.name}
+                key={site.url}
                 href={site.url}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="timeline-card"
                 style={{ display: 'block', textDecoration: 'none' }}
+                title={site.desc || site.name}
               >
                 <div
                   style={{
-                    fontSize: '0.95rem',
+                    fontSize: '0.9rem',
                     fontWeight: 600,
                     color: 'var(--text)',
                     marginBottom: '0.35rem',
@@ -69,14 +104,14 @@ export default function NavPage() {
                 </div>
                 <div
                   style={{
-                    fontSize: '0.75rem',
+                    fontSize: '0.72rem',
                     color: 'var(--text-muted)',
                     whiteSpace: 'nowrap',
                     overflow: 'hidden',
                     textOverflow: 'ellipsis',
                   }}
                 >
-                  {formatNavUrl(site.url)}
+                  {site.desc || formatNavUrl(site.url)}
                 </div>
               </a>
             ))}

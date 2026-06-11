@@ -31,13 +31,12 @@ const navItems: { href: string; label: string; icon: React.ReactNode; external?:
   },
   {
     href: '/tools',
-    label: '工具推荐',
+    label: '职业服务',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M12 22v-5" />
-        <path d="M9 8V2" />
-        <path d="M15 8V2" />
-        <path d="M18 8v3a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3V8h12Z" />
+        <circle cx="12" cy="12" r="10" />
+        <circle cx="12" cy="12" r="6" />
+        <circle cx="12" cy="12" r="2" />
       </svg>
     ),
   },
