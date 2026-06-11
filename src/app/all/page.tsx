@@ -2,7 +2,7 @@
 
 import { useSearchParams } from 'next/navigation';
 import { Suspense, useEffect, useState, useCallback, useRef } from 'react';
-import { PaginatedFeed, Channel, Category, CompanyType, FeedItem, FeedDay } from '@/lib/types';
+import { PaginatedFeed, Channel, Category, CompanyType, Major, FeedItem, FeedDay } from '@/lib/types';
 import { Timeline } from '@/components/Timeline';
 import { Pagination } from '@/components/Pagination';
 import { FeedToolbar } from '@/components/FeedToolbar';
@@ -18,8 +18,17 @@ interface ColumnarShard {
   s: Record<string, string>;
   c: Record<string, string>;
   g: Record<string, string>;
+  m?: Record<string, string>;
   d: string[][];
 }
+
+// 专业大类全名 → short code（与 generate-pages.ts 中 majorCodeMap 一致）
+const majorCodeMap: Record<string, string> = {
+  unlimited: 'X', cs: 'cs', ee: 'ee', auto: 'au', mech: 'me', civil: 'ci',
+  material: 'ma', math: 'mt', physics: 'ph', bio: 'bi', medical: 'md',
+  finance: 'fi', management: 'mg', law: 'la', literature: 'li', art: 'ar',
+  agri: 'ag', education: 'ed',
+};
 
 function restoreUrl(compact: string, urlMap: Record<string, string>): string {
   const code = compact[0];
@@ -65,7 +74,11 @@ async function loadSearchShard(channel: Channel): Promise<FeedItem[]> {
       sourceAvatar: '',
       sourceHandle: '',
       images: [],
-    };
+      // 专业大类短码列表（可能不存在于旧分片）
+      majors: idx.majors !== undefined
+        ? ((row[idx.majors] as string) || '').split('|').filter(Boolean)
+        : [],
+    } as FeedItem & { majors: string[] };
   });
 
   searchCache.set(shardKey, items);
@@ -79,6 +92,7 @@ async function searchFeed(
   page: number,
   cities: string[] = [],
   companyType: CompanyType = 'all',
+  major: Major = 'all',
 ): Promise<PaginatedFeed> {
   const ITEMS_PER_PAGE = 30;
 
@@ -88,6 +102,15 @@ async function searchFeed(
   items = items.filter(i => i.createdAt <= now);
 
   if (category !== 'all') items = items.filter(i => i.category === category);
+
+  // 专业大类过滤（majors 列存的是短码）
+  if (major !== 'all') {
+    const code = majorCodeMap[major] || major;
+    items = items.filter(i => {
+      const ms = (i as FeedItem & { majors?: string[] }).majors || [];
+      return ms.includes(code);
+    });
+  }
 
   // Company type filter
   if (companyType !== 'all') {
@@ -210,6 +233,7 @@ function AllPageContent() {
   const channel = (searchParams.get('channel') || 'all') as Channel;
   const category = (searchParams.get('category') || 'all') as Category;
   const companyType = (searchParams.get('companyType') || 'all') as CompanyType;
+  const major = (searchParams.get('major') || 'all') as Major;
   const query = searchParams.get('q') || '';
   const citiesParam = searchParams.get('cities') || '';
   const cities = citiesParam ? citiesParam.split(',').filter(Boolean) : [];
@@ -238,8 +262,8 @@ function AllPageContent() {
   const loadData = useCallback(async () => {
     setLoading(true);
     try {
-      if (query || cities.length > 0 || companyType !== 'all') {
-        const result = await searchFeed(query, channel, category, page, cities, companyType);
+      if (query || cities.length > 0 || companyType !== 'all' || major !== 'all') {
+        const result = await searchFeed(query, channel, category, page, cities, companyType, major);
         setFeed(result);
       } else {
         const filename = `${channel}-${category}-${page}.json`;
@@ -261,7 +285,7 @@ function AllPageContent() {
     }
     setLoading(false);
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [page, channel, category, companyType, query, citiesParam]);
+  }, [page, channel, category, companyType, major, query, citiesParam]);
 
   useEffect(() => {
     loadData();
@@ -271,6 +295,7 @@ function AllPageContent() {
   if (channel !== 'all') paginationParams.channel = channel;
   if (category !== 'all') paginationParams.category = category;
   if (companyType !== 'all') paginationParams.companyType = companyType;
+  if (major !== 'all') paginationParams.major = major;
   if (query) paginationParams.q = query;
   if (cities.length > 0) paginationParams.cities = cities.join(',');
 
@@ -282,6 +307,7 @@ function AllPageContent() {
         currentQuery={query}
         currentCities={cities}
         currentCompanyType={companyType}
+        currentMajor={major}
         basePath="/all"
         viewMode={viewMode}
         onViewModeChange={handleViewModeChange}
@@ -291,7 +317,7 @@ function AllPageContent() {
       {loading ? (
         <div className="empty-state">
           <div className="empty-state-title">
-            {(query || cities.length > 0 || companyType !== 'all') ? '搜索数据加载中，首次稍慢…' : '加载中…'}
+            {(query || cities.length > 0 || companyType !== 'all' || major !== 'all') ? '搜索数据加载中，首次稍慢…' : '加载中…'}
           </div>
         </div>
       ) : feed ? (

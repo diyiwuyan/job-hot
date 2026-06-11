@@ -3,7 +3,8 @@
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { useEffect, useState, useRef } from 'react';
-import { Channel, Category, CompanyType } from '@/lib/types';
+import { Channel, Category, CompanyType, Major } from '@/lib/types';
+import { MAJOR_OPTIONS } from '@/lib/majors';
 
 interface FeedToolbarProps {
   currentChannel: Channel;
@@ -11,6 +12,7 @@ interface FeedToolbarProps {
   currentQuery: string;
   currentCities?: string[];
   currentCompanyType?: CompanyType;
+  currentMajor?: Major;
   basePath: string;
   viewMode?: 'detail' | 'compact';
   onViewModeChange?: (mode: 'detail' | 'compact') => void;
@@ -50,6 +52,7 @@ function buildFilterUrl(
   category: Category,
   cities?: string[],
   companyType?: CompanyType,
+  major?: Major,
 ): string {
   const params = new URLSearchParams();
   params.set('page', '1');
@@ -57,7 +60,63 @@ function buildFilterUrl(
   if (category !== 'all') params.set('category', category);
   if (cities && cities.length > 0) params.set('cities', cities.join(','));
   if (companyType && companyType !== 'all') params.set('companyType', companyType);
+  if (major && major !== 'all') params.set('major', major);
   return `${basePath}/?${params.toString()}`;
+}
+
+/* ── Single-select major dropdown ────────────────────────────── */
+function MajorDropdown({
+  selected,
+  onSelect,
+}: {
+  selected: Major;
+  onSelect: (m: Major) => void;
+}) {
+  const [open, setOpen] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function handleClick(e: MouseEvent) {
+      if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false);
+    }
+    document.addEventListener('mousedown', handleClick);
+    return () => document.removeEventListener('mousedown', handleClick);
+  }, []);
+
+  const current = MAJOR_OPTIONS.find(o => o.value === selected) || MAJOR_OPTIONS[0];
+  const label = selected === 'all' ? '不限' : current.label;
+
+  return (
+    <div className="filter-dropdown" ref={ref}>
+      <button
+        type="button"
+        className={`filter-dropdown-btn${selected !== 'all' ? ' filter-dropdown-btn-active' : ''}`}
+        onClick={() => setOpen(!open)}
+      >
+        <span className="filter-dropdown-label">专业</span>
+        <span className="filter-dropdown-value">{label}</span>
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ transform: open ? 'rotate(180deg)' : 'none', transition: 'transform 0.2s' }}>
+          <polyline points="6 9 12 15 18 9" />
+        </svg>
+      </button>
+      {open && (
+        <div className="filter-dropdown-panel city-panel">
+          <div className="city-grid">
+            {MAJOR_OPTIONS.map(opt => (
+              <button
+                type="button"
+                key={opt.value}
+                className={`city-chip${selected === opt.value ? ' city-chip-active' : ''}`}
+                onClick={() => { onSelect(opt.value); setOpen(false); }}
+              >
+                {opt.label}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  );
 }
 
 /* ── Multi-select city dropdown ─────────────────────────────────── */
@@ -136,6 +195,7 @@ export function FeedToolbar({
   currentQuery,
   currentCities = [],
   currentCompanyType = 'all',
+  currentMajor = 'all',
   basePath,
   viewMode = 'detail',
   onViewModeChange,
@@ -164,8 +224,21 @@ export function FeedToolbar({
     if (currentChannel !== 'all') params.set('channel', currentChannel);
     if (currentCategory !== 'all') params.set('category', currentCategory);
     if (currentCompanyType !== 'all') params.set('companyType', currentCompanyType);
+    if (currentMajor !== 'all') params.set('major', currentMajor);
     if (currentQuery) params.set('q', currentQuery);
     if (next.length > 0) params.set('cities', next.join(','));
+    router.push(`${basePath}/?${params.toString()}`);
+  }
+
+  function selectMajor(major: Major) {
+    const params = new URLSearchParams();
+    params.set('page', '1');
+    if (currentChannel !== 'all') params.set('channel', currentChannel);
+    if (currentCategory !== 'all') params.set('category', currentCategory);
+    if (currentCompanyType !== 'all') params.set('companyType', currentCompanyType);
+    if (major !== 'all') params.set('major', major);
+    if (currentQuery) params.set('q', currentQuery);
+    if (selectedCities.length > 0) params.set('cities', selectedCities.join(','));
     router.push(`${basePath}/?${params.toString()}`);
   }
 
@@ -192,12 +265,13 @@ export function FeedToolbar({
     if (currentChannel !== 'all') params.set('channel', currentChannel);
     if (currentCategory !== 'all') params.set('category', currentCategory);
     if (currentCompanyType !== 'all') params.set('companyType', currentCompanyType);
+    if (currentMajor !== 'all') params.set('major', currentMajor);
     if (selectedCities.length > 0) params.set('cities', selectedCities.join(','));
     router.push(`${basePath}/?${params.toString()}`);
   }
 
   // Check if any filter is active
-  const hasActiveFilters = currentChannel !== 'all' || currentCategory !== 'all' || currentCompanyType !== 'all' || selectedCities.length > 0 || currentQuery;
+  const hasActiveFilters = currentChannel !== 'all' || currentCategory !== 'all' || currentCompanyType !== 'all' || currentMajor !== 'all' || selectedCities.length > 0 || currentQuery;
 
   function resetFilters() {
     setSelectedCities([]);
@@ -259,7 +333,7 @@ export function FeedToolbar({
             {channels.map((ch) => (
               <Link
                 key={ch.value}
-                href={buildFilterUrl(basePath, ch.value, currentCategory, selectedCities, currentCompanyType)}
+                href={buildFilterUrl(basePath, ch.value, currentCategory, selectedCities, currentCompanyType, currentMajor)}
                 className={`seg-item${currentChannel === ch.value ? ' seg-item-active' : ''}`}
                 aria-current={currentChannel === ch.value ? 'page' : undefined}
               >
@@ -276,7 +350,7 @@ export function FeedToolbar({
             {categories.map((cat) => (
               <Link
                 key={cat.value}
-                href={buildFilterUrl(basePath, currentChannel, cat.value, selectedCities, currentCompanyType)}
+                href={buildFilterUrl(basePath, currentChannel, cat.value, selectedCities, currentCompanyType, currentMajor)}
                 className={`seg-item${currentCategory === cat.value ? ' seg-item-active' : ''}`}
                 aria-current={currentCategory === cat.value ? 'page' : undefined}
               >
@@ -293,7 +367,7 @@ export function FeedToolbar({
             {companyTypes.map((ct) => (
               <Link
                 key={ct.value}
-                href={buildFilterUrl(basePath, currentChannel, currentCategory, selectedCities, ct.value)}
+                href={buildFilterUrl(basePath, currentChannel, currentCategory, selectedCities, ct.value, currentMajor)}
                 className={`seg-item${currentCompanyType === ct.value ? ' seg-item-active' : ''}`}
                 aria-current={currentCompanyType === ct.value ? 'page' : undefined}
               >
@@ -303,7 +377,13 @@ export function FeedToolbar({
           </div>
         </div>
 
-        {/* Row 4: 城市 */}
+        {/* Row 4: 专业 + 城市 */}
+        <div className="filter-labeled-row">
+          <span className="filter-label">专业</span>
+          <MajorDropdown selected={currentMajor} onSelect={selectMajor} />
+        </div>
+
+        {/* Row 5: 城市 */}
         {cityList.length > 0 && (
           <div className="filter-labeled-row">
             <span className="filter-label">城市</span>

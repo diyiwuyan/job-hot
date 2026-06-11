@@ -16,6 +16,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import type { FeedItem, FeedDay, Channel, Category } from '../src/lib/types';
+import { inferMajors } from '../src/lib/majors';
 
 // ─── Import and merge data (same logic as data.ts) ──────────────────
 const dataDir = path.join(__dirname, '..', 'src', 'lib');
@@ -295,8 +296,16 @@ function compactDate(iso: string): string {
   return iso.slice(0, 10);
 }
 
+// 专业大类 → 短码（用于压缩搜索分片体积）
+const majorCodeMap: Record<string, string> = {
+  unlimited: 'X', cs: 'cs', ee: 'ee', auto: 'au', mech: 'me', civil: 'ci',
+  material: 'ma', math: 'mt', physics: 'ph', bio: 'bi', medical: 'md',
+  finance: 'fi', management: 'mg', law: 'la', literature: 'li', art: 'ar',
+  agri: 'ag', education: 'ed',
+};
+
 // Field order in columnar data rows
-const searchFields = ['id', 'title', 'summary', 'url', 'source', 'channel', 'category', 'tags', 'createdAt', 'companyType', 'location', 'deadline'];
+const searchFields = ['id', 'title', 'summary', 'url', 'source', 'channel', 'category', 'tags', 'createdAt', 'companyType', 'location', 'deadline', 'majors'];
 
 const channelShards: Record<string, typeof feedItems> = {
   all: feedItems,
@@ -310,6 +319,7 @@ const sourceReverseMap = Object.fromEntries(Object.entries(sourceCodeMap).map(([
 const channelReverseMap = Object.fromEntries(Object.entries(channelCodeMap).map(([k, v]) => [v, k]));
 const categoryReverseMap = Object.fromEntries(Object.entries(categoryCodeMap).map(([k, v]) => [v, k]));
 const urlReverseMap = Object.fromEntries(Object.entries(urlPrefixMap).map(([k, v]) => [v, k]));
+const majorReverseMap = Object.fromEntries(Object.entries(majorCodeMap).map(([k, v]) => [v, k]));
 
 for (const [ch, items] of Object.entries(channelShards)) {
   const rows = items.map(item => [
@@ -326,6 +336,10 @@ for (const [ch, items] of Object.entries(channelShards)) {
     item.companyType || '',
     item.location || '',
     item.deadline || '',
+    // 专业大类：管道分隔的短码（构建时推断）
+    inferMajors(item.title, item.summary, item.tags)
+      .map(m => majorCodeMap[m] || m)
+      .join('|'),
   ]);
 
   const shard = {
@@ -334,6 +348,7 @@ for (const [ch, items] of Object.entries(channelShards)) {
     s: sourceReverseMap,
     c: channelReverseMap,
     g: categoryReverseMap,
+    m: majorReverseMap, // major code → full name
     d: rows,
   };
 
