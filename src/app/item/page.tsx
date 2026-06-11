@@ -132,7 +132,15 @@ function ItemContent() {
               <span className="item-date">{formatDate(item.createdAt)}</span>
             </div>
 
-            <h1 className="item-title">{item.title}</h1>
+            <h1 className="item-title">
+              {item.url ? (
+                <a href={item.url} target="_blank" rel="noopener noreferrer" className="item-title-link">
+                  {item.title}
+                </a>
+              ) : (
+                item.title
+              )}
+            </h1>
 
             {item.summary && <p className="timeline-summary item-summary">{item.summary}</p>}
 
@@ -160,6 +168,17 @@ function ItemContent() {
             )}
 
             <div className="item-actions">
+              {item.url && (
+                <a
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="item-origin-btn"
+                >
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  查看原岗位详情
+                </a>
+              )}
               <ShareButton item={item} variant="full" />
             </div>
           </article>

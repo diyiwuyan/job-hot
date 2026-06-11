@@ -2026,11 +2026,23 @@ a:focus-visible {
 }
 
 .item-title {
-  font-size: 1.35rem;
-  font-weight: 700;
-  line-height: 1.4;
-  margin: 0.5rem 0 0.4rem;
-  color: var(--text);
+font-size: 1.35rem;
+font-weight: 700;
+line-height: 1.4;
+margin: 0.5rem 0 0.4rem;
+color: var(--text);
+}
+
+.item-title-link {
+color: inherit;
+text-decoration: none;
+transition: color 0.15s ease;
+}
+
+.item-title-link:hover {
+color: var(--accent, #3b82f6);
+text-decoration: underline;
+text-underline-offset: 3px;
 }
 
 .item-summary {
@@ -2039,9 +2051,34 @@ a:focus-visible {
 }
 
 .item-actions {
-  margin-top: 1rem;
-  padding-top: 0.9rem;
-  border-top: 1px solid var(--border);
+margin-top: 1rem;
+padding-top: 0.9rem;
+border-top: 1px solid var(--border);
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+gap: 0.6rem;
+}
+
+.item-origin-btn {
+display: inline-flex;
+align-items: center;
+gap: 0.4rem;
+padding: 0.5rem 0.9rem;
+border-radius: 0.55rem;
+font-size: 0.875rem;
+font-weight: 600;
+color: var(--accent, #3b82f6);
+background: transparent;
+border: 1px solid var(--accent, #3b82f6);
+text-decoration: none;
+cursor: pointer;
+transition: background 0.15s ease, color 0.15s ease;
+}
+
+.item-origin-btn:hover {
+background: var(--accent, #3b82f6);
+color: #fff;
 }
 
 .item-about-title {
