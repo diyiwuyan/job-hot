@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { Suspense, useEffect, useState } from 'react';
 import { FeedItem } from '@/lib/types';
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '/job-hot';
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 
 // 详情桶结构：d 为 { id: [字段...] } 的映射，按 id 前缀分桶。
 interface DetailBucket {

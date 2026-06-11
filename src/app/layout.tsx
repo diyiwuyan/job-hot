@@ -17,6 +17,8 @@ const geistMono = Geist_Mono({
   subsets: ['latin'],
 });
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
+
 export const metadata: Metadata = {
   title: {
     default: 'JOBHOT - 大学生求职热点',
@@ -26,7 +28,7 @@ export const metadata: Metadata = {
   keywords: ['校招', '实习', '求职', '大学生', '招聘', 'JOBHOT', '校招避雷', '求职工具'],
   alternates: {
     types: {
-      'application/rss+xml': '/job-hot/feed.xml',
+      'application/rss+xml': `${basePath}/feed.xml`,
     },
   },
 };

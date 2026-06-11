@@ -187,7 +187,7 @@ function CityDropdown({
   );
 }
 
-const basePath_api = process.env.NEXT_PUBLIC_BASE_PATH || '/job-hot';
+const basePath_api = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 
 export function FeedToolbar({
   currentChannel,

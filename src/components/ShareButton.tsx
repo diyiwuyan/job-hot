@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { FeedItem } from '@/lib/types';
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '/job-hot';
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 
 /** 构造某条岗位的站内分享详情页绝对链接 */
 export function buildShareUrl(item: FeedItem): string {

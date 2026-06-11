@@ -7,7 +7,7 @@ import { Timeline } from '@/components/Timeline';
 import { Pagination } from '@/components/Pagination';
 import { FeedToolbar } from '@/components/FeedToolbar';
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '/job-hot';
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 
 // ─── Search index cache ─────────────────────────────────────────────
 const searchCache = new Map<string, FeedItem[]>();

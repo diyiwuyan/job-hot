@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import { FeedItem } from '@/lib/types';
 import { DailyAccordion } from '@/components/DailyAccordion';
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '/job-hot';
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 
 const dataSources = [
   { name: '国聘', color: '#e53935' },

@@ -97,12 +97,14 @@ const navItems: { href: string; label: string; icon: React.ReactNode; external?:
   },
 ];
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
+
 export function Sidebar() {
   const pathname = usePathname();
   const { close } = useSidebar();
 
-  // Normalize pathname: remove basePath prefix if present
-  const normalizedPath = pathname.replace(/^\/job-hot/, '') || '/';
+  // Normalize pathname: remove basePath prefix if present（basePath 为空时无操作）
+  const normalizedPath = (basePath ? pathname.replace(new RegExp(`^${basePath}`), '') : pathname) || '/';
 
   function isActive(href: string): boolean {
     if (href === '/') return normalizedPath === '/';
