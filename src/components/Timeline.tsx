@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { FeedDay, FeedItem } from '@/lib/types';
+import { ShareButton } from '@/components/ShareButton';
 
 function getScoreClass(score: number): string {
   if (score >= 80) return 'score-high';
@@ -73,6 +74,7 @@ function TimelineCard({ item, bookmarked, onToggleBookmark }: { item: FeedItem; 
           </button>
           {item.featured && <span className="timeline-selected-badge">精选</span>}
           <span className={`timeline-score ${getScoreClass(item.score)}`} title="AI 推荐分">{item.score}</span>
+          <ShareButton item={item} variant="icon" />
         </div>
       </div>
 
@@ -134,6 +136,7 @@ function CompactRow({ item, bookmarked, onToggleBookmark }: { item: FeedItem; bo
       {item.deadline && <span className="compact-deadline">{item.deadline}</span>}
       <span className="compact-source">{item.source}</span>
       <span className={`timeline-score timeline-score-sm ${getScoreClass(item.score)}`}>{item.score}</span>
+      <ShareButton item={item} variant="icon" />
       <button
         type="button"
         className={`bookmark-btn bookmark-btn-sm${bookmarked ? ' bookmarked' : ''}`}
