@@ -8972,8 +8972,8 @@
       "电力、热力、燃气及水生产和供应业",
       "北京"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-06-04T13:49:43.000Z"
   },
   {
@@ -8993,7 +8993,7 @@
       "电力、热力、燃气及水生产和供应业",
       "北京"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-06-04T13:46:22.000Z"
   },
@@ -9034,8 +9034,8 @@
       "水利、环境和公共设施管理业",
       "北京"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-06-04T12:53:37.000Z"
   },
   {
@@ -9054,8 +9054,8 @@
       "道路运输业",
       "东莞"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-06-04T12:00:00.000Z"
   },
   {
@@ -9075,7 +9075,7 @@
       "投资/融资",
       "昌江"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-06-04T11:33:47.000Z"
   },
@@ -9096,8 +9096,8 @@
       "医药制造业",
       "成都"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-06-04T11:12:44.000Z"
   },
   {
@@ -9117,8 +9117,8 @@
       "研究和试验发展",
       "长沙"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-06-04T10:48:45.000Z"
   },
   {
@@ -21832,7 +21832,7 @@
       "其他制造业",
       "北京"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-28T13:50:42.000Z"
   },
@@ -21853,7 +21853,7 @@
       "制造业",
       "北京"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-05-28T13:19:48.000Z"
   },
@@ -36580,7 +36580,7 @@
       "建筑业",
       "北京"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-12T13:33:11.000Z"
   },
@@ -36685,7 +36685,7 @@
       "信息传输、软件和信息技术服务业",
       "安徽"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-12T11:19:58.000Z"
   },
