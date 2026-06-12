@@ -42,17 +42,19 @@ export default function ToolsPage() {
                 display: 'inline-flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                width: 40,
-                height: 40,
-                borderRadius: 10,
+                width: 44,
+                height: 44,
+                borderRadius: 12,
                 background: 'linear-gradient(135deg, var(--gradient-start), var(--gradient-end))',
                 color: '#fff',
-                fontWeight: 800,
-                fontSize: '0.85rem',
                 flexShrink: 0,
               }}
             >
-              R<span style={{ opacity: 0.7 }}>IASEC</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="12" cy="12" r="9" />
+                <circle cx="12" cy="12" r="5" />
+                <circle cx="12" cy="12" r="1.5" />
+              </svg>
             </span>
             <div>
               <div style={{ fontSize: '1rem', fontWeight: 600, color: 'var(--text)' }}>
@@ -103,13 +105,14 @@ export default function ToolsPage() {
 
         <div
           style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))',
+            display: 'flex',
+            flexWrap: 'wrap',
+            justifyContent: 'center',
             gap: '1rem',
           }}
         >
           {/* 公众号 */}
-          <div className="timeline-card" style={{ textAlign: 'center', padding: '1.5rem 1.125rem' }}>
+          <div className="timeline-card" style={{ textAlign: 'center', padding: '1.5rem 1.125rem', flex: '1 1 260px', maxWidth: 360 }}>
             <div style={{ fontSize: '0.95rem', fontWeight: 600, marginBottom: '0.25rem' }}>
               关注公众号
             </div>
@@ -135,7 +138,7 @@ export default function ToolsPage() {
           </div>
 
           {/* 个人微信 */}
-          <div className="timeline-card" style={{ textAlign: 'center', padding: '1.5rem 1.125rem' }}>
+          <div className="timeline-card" style={{ textAlign: 'center', padding: '1.5rem 1.125rem', flex: '1 1 260px', maxWidth: 360 }}>
             <div style={{ fontSize: '0.95rem', fontWeight: 600, marginBottom: '0.25rem' }}>
               添加辅导老师
             </div>
