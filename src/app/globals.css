@@ -147,6 +147,13 @@ a:hover {
   overflow-x: hidden;
 }
 
+@supports selector(:has(*)) {
+  .app-main:has(.soe-delivery-page) {
+    max-width: 1380px;
+    padding: 1rem 1.25rem;
+  }
+}
+
 /* ============================================
    Sidebar Styles
    ============================================ */

@@ -1,6 +1,10 @@
 const $ = (selector) => document.querySelector(selector);
 const $$ = (selector) => [...document.querySelectorAll(selector)];
 
+if (new URLSearchParams(window.location.search).get("embed") === "jobhot") {
+  document.body.classList.add("embed-mode");
+}
+
 const industryRoles = {
   能源电力: ["电气工程", "新能源开发", "生产运维", "安全环保", "项目管理", "财务审计"],
   通信与电子信息: ["软件开发", "网络优化", "信息安全", "数据分析", "产品运营", "技术支持"],

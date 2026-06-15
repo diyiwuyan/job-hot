@@ -1431,3 +1431,136 @@ h1 {
     padding: 14px;
   }
 }
+
+body.embed-mode {
+  overflow: auto;
+  background:
+    linear-gradient(90deg, rgba(71, 108, 155, 0.06), transparent 34%, rgba(199, 109, 91, 0.06)),
+    var(--bg);
+}
+
+body.embed-mode .app-shell {
+  width: 100%;
+  max-width: none;
+  padding: 10px;
+}
+
+body.embed-mode .topbar {
+  display: none;
+}
+
+body.embed-mode .workspace {
+  grid-template-columns: minmax(236px, 270px) minmax(0, 1fr);
+  gap: 10px;
+}
+
+body.embed-mode .control-panel,
+body.embed-mode .content-area {
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+body.embed-mode .control-panel {
+  top: 10px;
+  max-height: calc(100vh - 20px);
+  overflow: auto;
+  padding: 12px;
+}
+
+body.embed-mode .panel-head h2 {
+  font-size: 18px;
+}
+
+body.embed-mode .field {
+  gap: 5px;
+  margin-top: 11px;
+}
+
+body.embed-mode .field input,
+body.embed-mode .field select,
+body.embed-mode .compact-search {
+  min-height: 38px;
+  padding: 0 10px;
+}
+
+body.embed-mode .checkbox-group {
+  padding: 10px;
+}
+
+body.embed-mode .checkbox-group label {
+  margin-top: 7px;
+}
+
+body.embed-mode .tabs {
+  gap: 4px;
+  padding: 8px;
+}
+
+body.embed-mode .tab {
+  min-height: 34px;
+  border-radius: 7px;
+  padding: 0 10px;
+  font-size: 13px;
+}
+
+body.embed-mode .view {
+  padding: 14px;
+}
+
+body.embed-mode .advisor-strip {
+  margin-bottom: 12px;
+  padding: 12px;
+}
+
+body.embed-mode .advisor-strip h2,
+body.embed-mode .section-head h2 {
+  font-size: 18px;
+}
+
+body.embed-mode .advisor-strip p,
+body.embed-mode .section-head p,
+body.embed-mode .notice-line {
+  font-size: 12px;
+}
+
+body.embed-mode .summary-grid {
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+body.embed-mode .metric-block {
+  min-height: 88px;
+  padding: 12px;
+}
+
+body.embed-mode .metric-block strong {
+  font-size: 26px;
+}
+
+body.embed-mode .tier-columns {
+  gap: 10px;
+}
+
+body.embed-mode .company-card {
+  padding: 12px;
+}
+
+body.embed-mode .company-card h4 {
+  font-size: 15px;
+}
+
+body.embed-mode .score-badge {
+  min-width: 50px;
+  min-height: 38px;
+}
+
+@media (max-width: 680px) {
+  body.embed-mode .workspace {
+    grid-template-columns: 1fr;
+  }
+
+  body.embed-mode .control-panel {
+    position: static;
+    max-height: none;
+  }
+}
