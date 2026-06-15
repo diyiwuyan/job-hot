@@ -144,6 +144,51 @@ export default function ToolsPage() {
             <span className="tag">打开工具 →</span>
           </div>
         </Link>
+
+        <Link
+          href="/services/soe-job-nav"
+          className="timeline-card"
+          style={{ display: 'block', textDecoration: 'none', marginTop: '1rem' }}
+        >
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem' }}>
+            <span
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                width: 44,
+                height: 44,
+                borderRadius: 12,
+                background: 'linear-gradient(135deg, var(--accent), var(--success))',
+                color: '#fff',
+                flexShrink: 0,
+              }}
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 8v8" />
+                <path d="M8 12h8" />
+              </svg>
+            </span>
+            <div>
+              <div style={{ fontSize: '1rem', fontWeight: 600, color: 'var(--text)' }}>
+                央国企求职导航
+              </div>
+              <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
+                专业推荐 · 岗位方向 · 面经准备
+              </div>
+            </div>
+          </div>
+          <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)', lineHeight: 1.7, marginBottom: '0.5rem' }}>
+            输入专业后，匹配央国企和省属国企样本，查看岗位方向、学历门槛、招聘节奏、投递建议和面试准备要点。
+          </p>
+          <div className="timeline-tags" style={{ marginTop: 0 }}>
+            <span className="tag">专业匹配</span>
+            <span className="tag">求职导航</span>
+            <span className="tag">央国企</span>
+            <span className="tag">开始匹配 →</span>
+          </div>
+        </Link>
       </section>
 
       {/* ============ 模块三：大学生求职辅导训练营 ============ */}
