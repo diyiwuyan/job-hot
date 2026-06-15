@@ -67,6 +67,10 @@ const navItems: NavItem[] = [
         href: '/services/soe-delivery',
         label: '投递导航',
       },
+      {
+        href: '/services/soe-job-nav',
+        label: '求职导航',
+      },
     ],
   },
   {
