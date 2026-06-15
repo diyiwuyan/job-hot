@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>央国企投递导航台</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">职路同行社 · 内部咨询工具</p>
+          <h1>央国企投递导航台</h1>
+          <p class="lede">
+            输入学生画像，快速筛出可投企业、岗位方向、投递档位与备考资料线索。
+          </p>
+        </div>
+        <div class="source-pill">
+          <span>数据口径</span>
+          <strong>央企 100 家 · 财政部央企名录 · 地方国企样例池</strong>
+        </div>
+      </header>
+
+      <main class="workspace">
+        <aside class="control-panel" aria-label="学生画像输入">
+          <div class="panel-head">
+            <h2>学生画像</h2>
+            <button class="icon-button" id="resetBtn" title="重置筛选" aria-label="重置筛选">
+              ↺
+            </button>
+          </div>
+
+          <label class="field">
+            <span>专业/方向</span>
+            <input id="majorInput" type="search" placeholder="如：电气工程、会计、计算机、法学" value="电气工程" />
+          </label>
+
+          <div class="grid-fields">
+            <label class="field">
+              <span>学历</span>
+              <select id="degreeInput">
+                <option value="master">硕士</option>
+                <option value="bachelor">本科</option>
+                <option value="doctor">博士</option>
+                <option value="college">专科</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span>院校层次</span>
+              <select id="schoolInput">
+                <option value="985">985/强双一流</option>
+                <option value="211">211/双一流</option>
+                <option value="first">普通一本/省重点</option>
+                <option value="second">二本/普通本科</option>
+                <option value="overseas">海外院校</option>
+              </select>
+            </label>
+          </div>
+
+          <label class="field">
+            <span>城市偏好</span>
+            <input id="cityInput" type="text" placeholder="如：北京、上海、广州、成都、南京" value="北京" />
+          </label>
+
+          <label class="field">
+            <span>求职优先级</span>
+            <select id="priorityInput">
+              <option value="stable">求稳与编制感</option>
+              <option value="salary">薪酬与平台</option>
+              <option value="growth">技术成长</option>
+              <option value="hukou">户口/城市资源</option>
+              <option value="light">低强度与可持续</option>
+            </select>
+          </label>
+
+          <fieldset class="field checkbox-group">
+            <legend>企业范围</legend>
+            <label><input type="checkbox" name="scope" value="实业类央企" checked /> 实业类央企</label>
+            <label><input type="checkbox" name="scope" value="中央金融企业" checked /> 中央金融企业</label>
+            <label><input type="checkbox" name="scope" value="中央文化企业" checked /> 中央文化企业</label>
+            <label><input type="checkbox" name="scope" value="行政/财政部出资企业" checked /> 行政/财政部出资企业</label>
+            <label><input type="checkbox" name="scope" value="地方国企" checked /> 地方国企样例池</label>
+          </fieldset>
+
+          <fieldset class="field checkbox-group">
+            <legend>行业筛选</legend>
+            <label><input type="checkbox" name="industry" value="all" checked /> 全部行业</label>
+            <label><input type="checkbox" name="industry" value="能源电力" /> 能源电力</label>
+            <label><input type="checkbox" name="industry" value="通信与电子信息" /> 通信与电子信息</label>
+            <label><input type="checkbox" name="industry" value="军工航天" /> 军工航天</label>
+            <label><input type="checkbox" name="industry" value="金融投资" /> 金融投资</label>
+            <label><input type="checkbox" name="industry" value="建筑基建" /> 建筑基建</label>
+            <label><input type="checkbox" name="industry" value="交通运输" /> 交通运输</label>
+            <label><input type="checkbox" name="industry" value="文化传媒" /> 文化传媒</label>
+          </fieldset>
+        </aside>
+
+        <section class="content-area">
+          <nav class="tabs" aria-label="页面视图">
+            <button class="tab active" data-view="recommend">智能推荐</button>
+            <button class="tab" data-view="recruit2026">26届招聘库</button>
+            <button class="tab" data-view="evidence">学生证据表</button>
+            <button class="tab" data-view="library">企业地图</button>
+            <button class="tab" data-view="region">地域图谱</button>
+            <button class="tab" data-view="prep">备考档案</button>
+            <button class="tab" data-view="sources">数据来源</button>
+          </nav>
+
+          <section class="view active" id="recommendView">
+            <div class="summary-grid">
+              <article class="metric-block">
+                <span>推荐企业</span>
+                <strong id="totalMatches">0</strong>
+                <small>按当前画像排序</small>
+              </article>
+              <article class="metric-block">
+                <span>冲刺</span>
+                <strong id="stretchCount">0</strong>
+                <small>高平台或高竞争</small>
+              </article>
+              <article class="metric-block">
+                <span>重点</span>
+                <strong id="coreCount">0</strong>
+                <small>匹配度与可达性均衡</small>
+              </article>
+              <article class="metric-block">
+                <span>补充</span>
+                <strong id="backupCount">0</strong>
+                <small>扩大机会池</small>
+              </article>
+            </div>
+
+            <div class="advisor-strip">
+              <div>
+                <h2 id="profileTitle">电气工程 · 硕士 · 985/强双一流</h2>
+                <p id="profileAdvice"></p>
+              </div>
+              <button id="exportBtn" class="primary-button">复制咨询摘要</button>
+            </div>
+
+            <div class="notice-line">
+              <strong>阅读提示：</strong>卡片右上角为“匹配分”，用于排序，不等于录取概率；下方每档先展示前 7 家，完整企业池可在「企业库」检索。
+            </div>
+
+            <div class="tier-columns">
+              <section>
+                <h3>冲刺企业</h3>
+                <div id="stretchList" class="result-list"></div>
+              </section>
+              <section>
+                <h3>重点投递</h3>
+                <div id="coreList" class="result-list"></div>
+              </section>
+              <section>
+                <h3>补充机会</h3>
+                <div id="backupList" class="result-list"></div>
+              </section>
+            </div>
+          </section>
+
+          <section class="view" id="mapView">
+            <div class="section-head">
+              <div>
+                <h2>行业地图</h2>
+                <p>看这个学生的机会主要落在哪些行业，以及每个行业适合切入的岗位方向。</p>
+              </div>
+            </div>
+            <div id="industryMap" class="industry-map"></div>
+          </section>
+
+          <section class="view" id="libraryView">
+            <div class="section-head">
+              <div>
+                <h2>企业地图</h2>
+                <p>把央企、中央金融/文化企业和地方国企放在同一张咨询地图里，少翻页，先看能不能投。</p>
+              </div>
+              <input id="librarySearch" class="compact-search" type="search" placeholder="搜索企业名称或行业" />
+            </div>
+            <div class="filter-row">
+              <select id="libraryMode" class="compact-search">
+                <option value="recommended">当前学生推荐池</option>
+                <option value="all">全部企业</option>
+                <option value="central">央企/中央企业</option>
+                <option value="local">地方国企</option>
+                <option value="recruit2026">有26届招聘记录</option>
+              </select>
+              <select id="libraryIndustryFilter" class="compact-search"></select>
+            </div>
+            <div id="enterpriseStats" class="summary-grid compact"></div>
+            <div id="libraryList" class="library-table"></div>
+            <div class="section-subhead">
+              <h3>地方国企入口</h3>
+              <p>省市样例池和官方国资委入口放在这里，作为区域补充机会使用。</p>
+            </div>
+            <div id="localSoeMap" class="local-map compact"></div>
+          </section>
+
+          <section class="view" id="prepView">
+            <div class="section-head">
+              <div>
+                <h2>备考档案</h2>
+                <p>给咨询老师看的企业备考资料包：题型线索、面试形式、可追问点和全网检索入口。</p>
+              </div>
+              <select id="prepCompanySelect" class="compact-search"></select>
+            </div>
+            <div id="prepPanel" class="prep-panel"></div>
+          </section>
+
+          <section class="view" id="recruit2026View">
+            <div class="section-head">
+              <div>
+                <h2>26届招聘库</h2>
+                <p>用于复盘 2026 届央国企招聘市场：规模、时间、阶段、专业方向、岗位地点和录用节奏。笔试面试准备单独放在备考档案。</p>
+              </div>
+              <input id="recruitSearch" class="compact-search" type="search" placeholder="搜索企业、岗位、城市、专业" />
+            </div>
+            <div id="recruitOverview" class="summary-grid compact"></div>
+            <div class="section-subhead">
+              <h3>招聘平台入口</h3>
+              <p>这些是查漏补缺入口，不计入企业招聘记录。</p>
+            </div>
+            <div id="recruitPortals" class="portal-grid"></div>
+            <div class="filter-row">
+              <select id="recruitIndustryFilter" class="compact-search"></select>
+              <select id="recruitSourceFilter" class="compact-search">
+                <option value="all">全部来源状态</option>
+                <option value="官方核验">官方核验</option>
+                <option value="第三方整理">第三方整理</option>
+                <option value="待复核">待复核</option>
+              </select>
+            </div>
+            <div class="section-subhead">
+              <h3>已精修招聘复盘表</h3>
+              <p>参考咨询时最常用的表格口径整理；人数和岗位数只写公开披露或可核验口径，不把分批招聘强行汇总成精确总量。</p>
+            </div>
+            <div id="recruitList" class="recruit-list"></div>
+            <div class="section-subhead">
+              <h3>全量企业待补齐底表</h3>
+              <p>覆盖企业地图里的全部企业；这里是补录任务池，不等同于已经精修完成的招聘复盘记录。</p>
+            </div>
+            <div class="filter-row">
+              <select id="coverageStatusFilter" class="compact-search">
+                <option value="all">全部覆盖状态</option>
+                <option value="已整理详情">已整理详情</option>
+                <option value="待检索核验">待检索核验</option>
+              </select>
+            </div>
+            <div id="recruitCoverageList" class="coverage-list"></div>
+          </section>
+
+          <section class="view" id="regionView">
+            <div class="section-head">
+              <div>
+                <h2>地域图谱</h2>
+                <p>按城市/省份查看可投央国企：央企总部、央企主要招聘城市、中央金融和地方国企一起看。</p>
+              </div>
+              <input id="regionSearch" class="compact-search" type="search" placeholder="搜索北京、上海、企业、行业" />
+            </div>
+            <div id="regionCatalog" class="region-catalog"></div>
+          </section>
+
+          <section class="view" id="evidenceView">
+            <div class="section-head">
+              <div>
+                <h2>学生证据表</h2>
+                <p>上传或粘贴简历文本，先自动初评，再由咨询师微调，辅助判断“能不能投、投哪一档”。</p>
+              </div>
+              <button id="resetEvidenceBtn" class="primary-button">重置评分</button>
+            </div>
+            <div class="resume-analyzer">
+              <div>
+                <h3>简历文本评估</h3>
+                <p>支持粘贴简历正文，或上传 txt/md 文件。PDF/Word 可先复制文字粘贴进来。</p>
+              </div>
+              <label class="file-button">
+                上传简历文本
+                <input id="resumeFileInput" type="file" accept=".txt,.md,.text" />
+              </label>
+              <textarea id="resumeText" placeholder="把学生简历正文粘贴到这里，例如教育背景、实习经历、项目经历、证书、求职意向等。"></textarea>
+              <div class="resume-actions">
+                <button id="analyzeResumeBtn" class="primary-button">自动评分</button>
+                <button id="clearResumeBtn" class="ghost-button">清空文本</button>
+              </div>
+            </div>
+            <div class="evidence-layout">
+              <div id="evidenceForm" class="evidence-form"></div>
+              <aside id="evidenceResult" class="evidence-result"></aside>
+            </div>
+          </section>
+
+          <section class="view" id="sourcesView">
+            <div class="section-head">
+              <div>
+                <h2>数据来源与使用边界</h2>
+                <p>用于内部咨询辅助，不替代当年校招公告、岗位 JD 和企业官方招聘要求。</p>
+              </div>
+            </div>
+            <div class="source-list" id="sourceList"></div>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <script src="./data.js?v=20260613-recruit-recap-v7"></script>
+    <script src="./app.js?v=20260613-recruit-recap-v7"></script>
+  </body>
+</html>

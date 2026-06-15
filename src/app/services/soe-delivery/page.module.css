@@ -1,0 +1,23 @@
+.toolShell {
+  overflow: hidden;
+  min-height: 1220px;
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  background: var(--bg-card);
+}
+
+.toolFrame {
+  display: block;
+  width: 100%;
+  min-height: 1220px;
+  border: 0;
+  background: #eef4f0;
+}
+
+@media (max-width: 768px) {
+  .toolShell,
+  .toolFrame {
+    min-height: 1420px;
+    border-radius: 0.75rem;
+  }
+}

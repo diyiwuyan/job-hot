@@ -78,7 +78,75 @@ export default function ToolsPage() {
         </Link>
       </section>
 
-      {/* ============ 模块二：大学生求职辅导训练营 ============ */}
+      {/* ============ 模块二：央国企服务 ============ */}
+      <section style={{ marginTop: '2rem' }}>
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '0.5rem',
+            fontSize: '1.05rem',
+            fontWeight: 700,
+            paddingBottom: '0.6rem',
+            marginBottom: '1rem',
+            borderBottom: '2px solid var(--border)',
+          }}
+        >
+          <span>🏢</span> 央国企服务
+        </div>
+
+        <Link
+          href="/services/soe-delivery"
+          className="timeline-card timeline-card-featured"
+          style={{ display: 'block', textDecoration: 'none' }}
+        >
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem' }}>
+            <span
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                width: 44,
+                height: 44,
+                borderRadius: 12,
+                background: 'linear-gradient(135deg, var(--gradient-start), var(--gradient-end))',
+                color: '#fff',
+                flexShrink: 0,
+              }}
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round">
+                <rect x="4" y="3" width="16" height="18" rx="2" />
+                <path d="M9 7h1" />
+                <path d="M14 7h1" />
+                <path d="M9 11h1" />
+                <path d="M14 11h1" />
+                <path d="M9 15h1" />
+                <path d="M14 15h1" />
+              </svg>
+            </span>
+            <div>
+              <div style={{ fontSize: '1rem', fontWeight: 600, color: 'var(--text)' }}>
+                央国企投递导航
+              </div>
+              <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
+                企业地图 · 岗位方向 · 26届招聘复盘
+              </div>
+            </div>
+          </div>
+          <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)', lineHeight: 1.7, marginBottom: '0.5rem' }}>
+            面向咨询场景的央国企投递工具，可按学生专业、学历、院校层次和城市偏好，快速定位可投企业、
+            常见岗位、冲刺/匹配/补充机会，并查看26届招聘复盘和备考档案。
+          </p>
+          <div className="timeline-tags" style={{ marginTop: 0 }}>
+            <span className="tag">央国企</span>
+            <span className="tag">投递导航</span>
+            <span className="tag">咨询工具</span>
+            <span className="tag">打开工具 →</span>
+          </div>
+        </Link>
+      </section>
+
+      {/* ============ 模块三：大学生求职辅导训练营 ============ */}
       <section style={{ marginTop: '2rem' }}>
         <div
           style={{
