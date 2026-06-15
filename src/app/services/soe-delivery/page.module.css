@@ -1,6 +1,55 @@
+.page {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.compactHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 3.5rem;
+  border: 1px solid var(--border);
+  border-radius: 0.875rem;
+  background: var(--bg-card);
+  padding: 0.8rem 1rem;
+}
+
+.compactHeader div {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  min-width: 0;
+}
+
+.compactHeader span {
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.compactHeader h1 {
+  margin: 0;
+  color: var(--text);
+  font-size: clamp(1.35rem, 2vw, 1.75rem);
+  line-height: 1.1;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.compactHeader p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.86rem;
+  line-height: 1.5;
+  text-align: right;
+}
+
 .toolShell {
   overflow: hidden;
-  min-height: 1220px;
+  height: calc(100vh - 6.25rem);
+  min-height: 760px;
   border: 1px solid var(--border);
   border-radius: 1rem;
   background: var(--bg-card);
@@ -9,15 +58,44 @@
 .toolFrame {
   display: block;
   width: 100%;
-  min-height: 1220px;
+  height: 100%;
   border: 0;
   background: #eef4f0;
 }
 
 @media (max-width: 768px) {
+  .compactHeader {
+    min-height: 3rem;
+    padding: 0.65rem 0.85rem;
+  }
+
+  .compactHeader p {
+    display: none;
+  }
+
   .toolShell,
   .toolFrame {
-    min-height: 1420px;
+    height: calc(100vh - 5.5rem);
+    min-height: 760px;
+    border-radius: 0.75rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .compactHeader {
+    display: grid;
+    min-height: auto;
+  }
+
+  .compactHeader p {
+    display: block;
+    text-align: left;
+  }
+
+  .toolShell,
+  .toolFrame {
+    height: calc(100vh - 8rem);
+    min-height: 780px;
     border-radius: 0.75rem;
   }
 }
