@@ -270,8 +270,34 @@ export default function DipaiPage() {
         </div>
       )}
 
+      {/* 公众号引导 - 关注留存 */}
+      <div className="card" style={{ textAlign: 'center', padding: '1.5rem', marginBottom: '1.25rem' }}>
+        <div style={{ fontSize: '1.25rem', marginBottom: '0.5rem' }}>🚀</div>
+        <h3 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '0.4rem' }}>想进一步提升？</h3>
+        <p style={{ fontSize: '0.82rem', color: 'var(--text-muted)', lineHeight: 1.7, marginBottom: '1rem' }}>
+          关注「职路同行社」，获取针对性的求职策略、面试技巧和职业规划干货，持续提升你的求职底牌。
+        </p>
+        <img
+          src="/images/qr-official.jpeg"
+          alt="职路同行社 公众号二维码"
+          style={{
+            display: 'block',
+            margin: '0 auto',
+            width: 160,
+            height: 160,
+            borderRadius: 12,
+            background: '#fff',
+            padding: 8,
+            objectFit: 'contain',
+          }}
+        />
+        <div style={{ fontSize: '0.72rem', color: 'var(--text-muted)', marginTop: '0.5rem' }}>
+          微信扫码关注 · 解锁更多求职干货
+        </div>
+      </div>
+
       {/* 行动按钮 */}
-      <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap', marginTop: '1.5rem' }}>
+      <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
         <button
           onClick={restart}
           style={{

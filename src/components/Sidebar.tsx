@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { ThemeToggle } from './ThemeToggle';
@@ -154,6 +155,7 @@ const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 export function Sidebar() {
   const pathname = usePathname();
   const { close } = useSidebar();
+  const [expanded, setExpanded] = useState<Record<string, boolean>>({});
 
   // Normalize pathname: remove basePath prefix if present（basePath 为空时无操作）
   const normalizedPath = (basePath ? pathname.replace(new RegExp(`^${basePath}`), '') : pathname) || '/';
@@ -167,31 +169,53 @@ export function Sidebar() {
     return isActive(item.href) || Boolean(item.children?.some((child) => isActive(child.href)));
   }
 
+  function toggleGroup(label: string) {
+    setExpanded((prev) => ({ ...prev, [label]: !prev[label] }));
+  }
+
   function renderNavItem(item: NavItem) {
     if (item.children?.length) {
       const groupActive = isGroupActive(item);
+      const isOpen = expanded[item.label] ?? groupActive;
       return (
         <div key={item.label} className={`side-group ${groupActive ? 'side-group-active' : ''}`}>
-          <Link
-            href={item.href}
+          <button
+            type="button"
             className={`side-link ${groupActive ? 'side-link-active' : ''}`}
-            onClick={close}
+            onClick={() => toggleGroup(item.label)}
+            style={{ background: 'none', border: 'none', width: '100%', cursor: 'pointer', textAlign: 'left' }}
           >
             {item.icon}
             <span>{item.label}</span>
-          </Link>
-          <div className="side-subnav">
-            {item.children.map((child) => (
-              <Link
-                key={child.href}
-                href={child.href}
-                className={`side-sublink ${isActive(child.href) ? 'side-sublink-active' : ''}`}
-                onClick={close}
-              >
-                {child.label}
-              </Link>
-            ))}
-          </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              style={{ marginLeft: 'auto', opacity: 0.4, transition: 'transform 0.2s', transform: isOpen ? 'rotate(90deg)' : 'rotate(0deg)' }}
+            >
+              <polyline points="9 18 15 12 9 6" />
+            </svg>
+          </button>
+          {isOpen && (
+            <div className="side-subnav">
+              {item.children.map((child) => (
+                <Link
+                  key={child.href}
+                  href={child.href}
+                  className={`side-sublink ${isActive(child.href) ? 'side-sublink-active' : ''}`}
+                  onClick={close}
+                >
+                  {child.label}
+                </Link>
+              ))}
+            </div>
+          )}
         </div>
       );
     }

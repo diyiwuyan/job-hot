@@ -309,16 +309,44 @@ export default function HollandPage() {
         );
       })}
 
+{/* 公众号引导 - 关注留存 */}
+<div
+className="card"
+style={{ marginTop: '0.5rem', marginBottom: '1.25rem', textAlign: 'center', padding: '1.5rem' }}
+>
+<div style={{ fontSize: '1.25rem', marginBottom: '0.5rem' }}>🚀</div>
+<h3 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '0.4rem' }}>想了解更多职业方向？</h3>
+<p style={{ fontSize: '0.82rem', color: 'var(--text-muted)', lineHeight: 1.7, marginBottom: '1rem' }}>
+关注「职路同行社」，获取更多职业测评解读、行业分析和求职策略，助你找到最适合的发展路径。
+</p>
+        <img
+          src="/images/qr-official.jpeg"
+          alt="职路同行社 公众号二维码"
+          style={{
+            display: 'block',
+            margin: '0 auto',
+            width: 160,
+            height: 160,
+            borderRadius: 12,
+            background: '#fff',
+            padding: 8,
+            objectFit: 'contain',
+          }}
+        />
+        <div style={{ fontSize: '0.72rem', color: 'var(--text-muted)', marginTop: '0.5rem' }}>
+          微信扫码关注 · 免费获取报告
+        </div>
+      </div>
+
       <div
         className="card"
-        style={{ marginTop: '0.5rem', marginBottom: '1.25rem', background: 'var(--accent-muted)', borderColor: 'var(--accent)' }}
+        style={{ marginBottom: '1.25rem', background: 'var(--accent-muted)', borderColor: 'var(--accent)' }}
       >
         <p style={{ fontSize: '0.85rem', color: 'var(--text)', lineHeight: 1.8 }}>
-          想根据测评结果做更系统的职业规划？欢迎加入「大学生求职辅导训练营」，关注公众号、添加职业 coach
-          获取一对一指导。
+          想根据测评结果做更系统的职业规划？欢迎加入「大学生求职辅导训练营」，获取一对一指导。
         </p>
-        <Link href="/tools" className="btn" style={{ marginTop: '0.75rem', display: 'inline-flex' }}>
-          查看求职辅导训练营 →
+        <Link href="/tools/coaching" className="btn" style={{ marginTop: '0.75rem', display: 'inline-flex' }}>
+          了解求职辅导 →
         </Link>
       </div>
 

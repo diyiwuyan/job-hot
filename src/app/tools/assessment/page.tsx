@@ -1,34 +1,12 @@
-'use client';
-
-import { useState } from 'react';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 
-type FormData = {
-  wechat: string;
-  phone: string;
+export const metadata: Metadata = {
+  title: '职业测评 - JOBHOT',
+  description: '免费职业测评工具：霍兰德兴趣测试、MBTI性格测试、求职底牌自测表，帮你找到适合的方向。',
 };
 
 export default function AssessmentPage() {
-  const [form, setForm] = useState<FormData>({ wechat: '', phone: '' });
-  const [unlocked, setUnlocked] = useState(false);
-  const [error, setError] = useState('');
-
-  function handleUnlock(e: React.FormEvent) {
-    e.preventDefault();
-    if (!form.wechat.trim() || !form.phone.trim()) {
-      setError('请填写完整信息后开始测评');
-      return;
-    }
-    if (!/^1\d{10}$/.test(form.phone.trim())) {
-      setError('请输入正确的11位手机号');
-      return;
-    }
-    setError('');
-    setUnlocked(true);
-    // 存储到 localStorage 以便后续测评页面读取
-    localStorage.setItem('jobhot_user_info', JSON.stringify(form));
-  }
-
   return (
     <div className="page">
       <div className="page-header">
@@ -36,95 +14,24 @@ export default function AssessmentPage() {
         <p>科学测评工具，帮你找到适合的方向</p>
       </div>
 
-      {/* 信息采集门槛 */}
-      {!unlocked && (
-        <section className="card" style={{ maxWidth: 480, margin: '0 auto 2rem' }}>
-          <div style={{ textAlign: 'center', marginBottom: '1.25rem' }}>
-            <span style={{ fontSize: '2.5rem' }}>🔓</span>
-            <h2 style={{ fontSize: '1.1rem', fontWeight: 700, marginTop: '0.5rem' }}>
-              全部测评 <span style={{ color: 'var(--accent)' }}>免费</span> 使用
-            </h2>
-            <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '0.4rem', lineHeight: 1.6 }}>
-              填写联系方式即可解锁所有测评工具，我们会在测评完成后将详细报告发送给你
-            </p>
-          </div>
-
-          <form onSubmit={handleUnlock} style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-            <div>
-              <label style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginBottom: '0.25rem', display: 'block' }}>
-                微信号 *
-              </label>
-              <input
-                type="text"
-                placeholder="用于发送测评报告"
-                value={form.wechat}
-                onChange={(e) => setForm({ ...form, wechat: e.target.value })}
-                style={{
-                  width: '100%',
-                  padding: '0.65rem 0.9rem',
-                  borderRadius: '0.5rem',
-                  border: '1px solid var(--border)',
-                  background: 'var(--bg-card)',
-                  color: 'var(--text)',
-                  fontSize: '0.9rem',
-                  outline: 'none',
-                  transition: 'border-color 0.2s',
-                }}
-              />
-            </div>
-            <div>
-              <label style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginBottom: '0.25rem', display: 'block' }}>
-                手机号 *
-              </label>
-              <input
-                type="tel"
-                placeholder="用于接收开营通知"
-                value={form.phone}
-                onChange={(e) => setForm({ ...form, phone: e.target.value })}
-                style={{
-                  width: '100%',
-                  padding: '0.65rem 0.9rem',
-                  borderRadius: '0.5rem',
-                  border: '1px solid var(--border)',
-                  background: 'var(--bg-card)',
-                  color: 'var(--text)',
-                  fontSize: '0.9rem',
-                  outline: 'none',
-                  transition: 'border-color 0.2s',
-                }}
-              />
-            </div>
-
-            {error && (
-              <p style={{ fontSize: '0.8rem', color: '#f87171', margin: 0 }}>{error}</p>
-            )}
-
-            <button
-              type="submit"
-              style={{
-                marginTop: '0.5rem',
-                padding: '0.7rem',
-                borderRadius: '0.5rem',
-                border: 'none',
-                background: 'linear-gradient(135deg, var(--gradient-start), var(--gradient-end))',
-                color: '#fff',
-                fontSize: '0.95rem',
-                fontWeight: 600,
-                cursor: 'pointer',
-                transition: 'opacity 0.2s',
-              }}
-            >
-              解锁全部测评（免费）
-            </button>
-            <p style={{ fontSize: '0.72rem', color: 'var(--text-muted)', textAlign: 'center', margin: 0 }}>
-              信息仅用于发送报告，不会外泄
-            </p>
-          </form>
-        </section>
-      )}
+      {/* 免费说明 */}
+      <div
+        className="card"
+        style={{
+          textAlign: 'center',
+          padding: '1.25rem',
+          marginBottom: '1.5rem',
+          borderLeft: '4px solid var(--accent)',
+        }}
+      >
+        <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)', lineHeight: 1.7, margin: 0 }}>
+以下所有测评均 <strong style={{ color: 'var(--accent)' }}>完全免费</strong>，无需注册即可开始，测完即时出结果。
+关注公众号「职路同行社」还可获取更多求职干货与职业规划内容。
+        </p>
+      </div>
 
       {/* 测评列表 */}
-      <section style={{ opacity: unlocked ? 1 : 0.5, pointerEvents: unlocked ? 'auto' : 'none', transition: 'opacity 0.3s' }}>
+      <section>
         <div
           style={{
             display: 'flex',
@@ -182,54 +89,9 @@ export default function AssessmentPage() {
             <div className="timeline-tags" style={{ marginTop: '0.5rem' }}>
               <span className="tag">职业兴趣</span>
               <span className="tag">方向探索</span>
-              <span className="tag">免费</span>
+              <span className="tag" style={{ background: 'rgba(16, 185, 129, 0.12)', color: '#10b981' }}>免费</span>
             </div>
           </Link>
-
-          {/* MBTI */}
-          <div
-            className="timeline-card timeline-card-featured"
-            style={{ display: 'block', position: 'relative' }}
-          >
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem' }}>
-              <span
-                style={{
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  width: 44,
-                  height: 44,
-                  borderRadius: 12,
-                  background: 'linear-gradient(135deg, #f59e0b, #ef4444)',
-                  color: '#fff',
-                  flexShrink: 0,
-                }}
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M12 2a10 10 0 1 0 10 10H12V2z" />
-                  <path d="M12 2a10 10 0 0 1 10 10" />
-                  <path d="M12 12l7-7" />
-                </svg>
-              </span>
-              <div>
-                <div style={{ fontSize: '1rem', fontWeight: 600, color: 'var(--text)' }}>
-                  MBTI 性格类型测试
-                </div>
-                <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
-                  16型人格 · 70 题 · 约 10 分钟
-                </div>
-              </div>
-            </div>
-            <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.7, margin: 0 }}>
-              识别你的认知功能偏好（外向/内向、感觉/直觉、思维/情感、判断/知觉），找到与性格匹配的工作环境和团队角色。
-            </p>
-            <div className="timeline-tags" style={{ marginTop: '0.5rem' }}>
-              <span className="tag">性格分析</span>
-              <span className="tag">团队适配</span>
-              <span className="tag">免费</span>
-              <span className="tag" style={{ background: 'rgba(245, 158, 11, 0.15)', color: '#f59e0b' }}>即将上线</span>
-            </div>
-          </div>
 
           {/* 求职底牌自测 */}
           <Link
@@ -279,17 +141,67 @@ export default function AssessmentPage() {
             <div className="timeline-tags" style={{ marginTop: '0.5rem' }}>
               <span className="tag">求职诊断</span>
               <span className="tag">短板识别</span>
-              <span className="tag">免费</span>
+              <span className="tag" style={{ background: 'rgba(16, 185, 129, 0.12)', color: '#10b981' }}>免费</span>
             </div>
           </Link>
+
+          {/* MBTI */}
+          <div
+            className="timeline-card timeline-card-featured"
+            style={{ display: 'block', position: 'relative', opacity: 0.7 }}
+          >
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem' }}>
+              <span
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  width: 44,
+                  height: 44,
+                  borderRadius: 12,
+                  background: 'linear-gradient(135deg, #f59e0b, #ef4444)',
+                  color: '#fff',
+                  flexShrink: 0,
+                }}
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M12 2a10 10 0 1 0 10 10H12V2z" />
+                  <path d="M12 2a10 10 0 0 1 10 10" />
+                  <path d="M12 12l7-7" />
+                </svg>
+              </span>
+              <div>
+                <div style={{ fontSize: '1rem', fontWeight: 600, color: 'var(--text)' }}>
+                  MBTI 性格类型测试
+                </div>
+                <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
+                  16型人格 · 70 题 · 约 10 分钟
+                </div>
+              </div>
+            </div>
+            <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.7, margin: 0 }}>
+              识别你的认知功能偏好（外向/内向、感觉/直觉、思维/情感、判断/知觉），找到与性格匹配的工作环境和团队角色。
+            </p>
+            <div className="timeline-tags" style={{ marginTop: '0.5rem' }}>
+              <span className="tag">性格分析</span>
+              <span className="tag">团队适配</span>
+              <span className="tag" style={{ background: 'rgba(16, 185, 129, 0.12)', color: '#10b981' }}>免费</span>
+              <span className="tag" style={{ background: 'rgba(245, 158, 11, 0.15)', color: '#f59e0b' }}>即将上线</span>
+            </div>
+          </div>
         </div>
       </section>
 
-      {!unlocked && (
-        <p style={{ fontSize: '0.78rem', color: 'var(--text-muted)', textAlign: 'center', marginTop: '1.5rem' }}>
-          ↑ 填写信息后即可解锁上方全部测评
-        </p>
-      )}
+      {/* 报告获取说明 */}
+      <section style={{ marginTop: '2rem' }}>
+        <div className="card" style={{ textAlign: 'center', padding: '1.5rem' }}>
+          <div style={{ fontSize: '1.5rem', marginBottom: '0.5rem' }}>📬</div>
+          <h3 style={{ fontSize: '0.95rem', fontWeight: 600, marginBottom: '0.4rem' }}>如何获取详细报告？</h3>
+          <p style={{ fontSize: '0.82rem', color: 'var(--text-muted)', lineHeight: 1.7, margin: 0 }}>
+            完成任一测评后，页面会显示公众号二维码。关注「职路同行社」并回复你的测评编号，即可收到一份包含详细解读与职业建议的专属报告。
+          </p>
+        </div>
+      </section>
     </div>
   );
 }

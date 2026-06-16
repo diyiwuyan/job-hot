@@ -75,6 +75,8 @@ export default function CoachingPage() {
               src="/images/qr-official.jpeg"
               alt="职路同行社 公众号二维码"
               style={{
+                display: 'block',
+                margin: '0 auto',
                 width: 180,
                 height: 180,
                 maxWidth: '100%',
@@ -101,6 +103,8 @@ export default function CoachingPage() {
               src="/images/qr-coach.jpeg"
               alt="职业coach 小仙 微信二维码"
               style={{
+                display: 'block',
+                margin: '0 auto',
                 width: 180,
                 height: 180,
                 maxWidth: '100%',
