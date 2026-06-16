@@ -47,6 +47,16 @@ const navItems: NavItem[] = [
         <circle cx="12" cy="12" r="2" />
       </svg>
     ),
+    children: [
+      {
+        href: '/tools/assessment',
+        label: '职业测评',
+      },
+      {
+        href: '/tools/coaching',
+        label: '求职辅导',
+      },
+    ],
   },
   {
     href: '/services/soe-delivery',
