@@ -3819,3 +3819,12 @@ color: #fff;
 .item-about-link:hover {
   text-decoration: underline;
 }
+
+.qr-card {
+  transition: all 0.25s ease;
+}
+.qr-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--accent);
+  box-shadow: 0 8px 24px rgba(88, 166, 255, 0.12);
+}
