@@ -14,22 +14,6 @@ export default function AssessmentPage() {
         <p>科学测评工具，帮你找到适合的方向</p>
       </div>
 
-      {/* 免费说明 */}
-      <div
-        className="card"
-        style={{
-          textAlign: 'center',
-          padding: '1.25rem',
-          marginBottom: '1.5rem',
-          borderLeft: '4px solid var(--accent)',
-        }}
-      >
-        <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)', lineHeight: 1.7, margin: 0 }}>
-以下所有测评均 <strong style={{ color: 'var(--accent)' }}>完全免费</strong>，无需注册即可开始，测完即时出结果。
-关注公众号「职路同行社」还可获取更多求职干货与职业规划内容。
-        </p>
-      </div>
-
       {/* 测评列表 */}
       <section>
         <div
@@ -192,16 +176,6 @@ export default function AssessmentPage() {
         </div>
       </section>
 
-      {/* 报告获取说明 */}
-      <section style={{ marginTop: '2rem' }}>
-        <div className="card" style={{ textAlign: 'center', padding: '1.5rem' }}>
-          <div style={{ fontSize: '1.5rem', marginBottom: '0.5rem' }}>📬</div>
-          <h3 style={{ fontSize: '0.95rem', fontWeight: 600, marginBottom: '0.4rem' }}>如何获取详细报告？</h3>
-          <p style={{ fontSize: '0.82rem', color: 'var(--text-muted)', lineHeight: 1.7, margin: 0 }}>
-            完成任一测评后，页面会显示公众号二维码。关注「职路同行社」并回复你的测评编号，即可收到一份包含详细解读与职业建议的专属报告。
-          </p>
-        </div>
-      </section>
     </div>
   );
 }
