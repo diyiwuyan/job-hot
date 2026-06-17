@@ -3991,3 +3991,41 @@ color: #fff;
     padding: 0.4rem 0.35rem;
   }
 }
+
+/* ============================================
+   Donate Page
+   ============================================ */
+.donate-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+@media (max-width: 640px) {
+  .donate-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.donate-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+}
+
+.donate-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.donate-qr {
+  width: 100%;
+  max-width: 240px;
+  border-radius: 0.5rem;
+}
