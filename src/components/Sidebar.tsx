@@ -11,7 +11,7 @@ type NavItem = {
   label: string;
   icon?: React.ReactNode;
   external?: boolean;
-  children?: { href: string; label: string }[];
+  children?: { href: string; label: string; external?: boolean }[];
 };
 
 const navItems: NavItem[] = [
@@ -57,6 +57,11 @@ const navItems: NavItem[] = [
         href: '/tools/coaching',
         label: '求职辅导',
       },
+      {
+        href: 'https://ai-resume-9wy.pages.dev/',
+        label: 'AI简历',
+        external: true,
+      },
     ],
   },
   {
@@ -86,25 +91,11 @@ const navItems: NavItem[] = [
   },
   {
     href: '/nav',
-    label: '求职导航',
+    label: '常用网址',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="12" cy="12" r="10" />
         <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" />
-      </svg>
-    ),
-  },
-  {
-    href: 'https://ai-resume-9wy.pages.dev/',
-    label: 'AI简历',
-    external: true,
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-        <polyline points="14 2 14 8 20 8" />
-        <line x1="16" y1="13" x2="8" y2="13" />
-        <line x1="16" y1="17" x2="8" y2="17" />
-        <polyline points="10 9 9 9 8 9" />
       </svg>
     ),
   },
@@ -204,16 +195,34 @@ export function Sidebar() {
           </button>
           {isOpen && (
             <div className="side-subnav">
-              {item.children.map((child) => (
-                <Link
-                  key={child.href}
-                  href={child.href}
-                  className={`side-sublink ${isActive(child.href) ? 'side-sublink-active' : ''}`}
-                  onClick={close}
-                >
-                  {child.label}
-                </Link>
-              ))}
+              {item.children.map((child) =>
+                child.external ? (
+                  <a
+                    key={child.href}
+                    href={child.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="side-sublink"
+                    onClick={close}
+                  >
+                    {child.label}
+                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginLeft: '0.25rem', opacity: 0.5 }}>
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                      <polyline points="15 3 21 3 21 9" />
+                      <line x1="10" y1="14" x2="21" y2="3" />
+                    </svg>
+                  </a>
+                ) : (
+                  <Link
+                    key={child.href}
+                    href={child.href}
+                    className={`side-sublink ${isActive(child.href) ? 'side-sublink-active' : ''}`}
+                    onClick={close}
+                  >
+                    {child.label}
+                  </Link>
+                )
+              )}
             </div>
           )}
         </div>
@@ -262,6 +271,7 @@ export function Sidebar() {
         <span className="orbit-dot" aria-hidden="true"></span>
         <span className="brand-hot">HOT</span>
       </Link>
+      <span className="brand-slogan">更好用的大学生求职站</span>
 
       <div className="divider" />
 

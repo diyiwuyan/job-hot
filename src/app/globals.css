@@ -282,6 +282,15 @@ a:hover {
   }
 }
 
+.brand-slogan {
+  display: block;
+  font-size: 0.6875rem;
+  color: var(--text-muted);
+  padding: 0 0.75rem;
+  margin-top: -0.25rem;
+  letter-spacing: 0.02em;
+}
+
 /* Theme Toggle - 3 Segment */
 .theme-toggle {
   display: flex;

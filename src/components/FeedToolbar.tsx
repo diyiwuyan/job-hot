@@ -14,8 +14,8 @@ interface FeedToolbarProps {
   currentCompanyType?: CompanyType;
   currentMajor?: Major;
   basePath: string;
-  viewMode?: 'detail' | 'compact' | 'table';
-  onViewModeChange?: (mode: 'detail' | 'compact' | 'table') => void;
+  viewMode?: 'detail' | 'table';
+  onViewModeChange?: (mode: 'detail' | 'table') => void;
   onExportCSV?: () => void;
 }
 
@@ -297,16 +297,6 @@ export function FeedToolbar({
               >
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <rect x="3" y="3" width="7" height="7" /><rect x="14" y="3" width="7" height="7" /><rect x="3" y="14" width="7" height="7" /><rect x="14" y="14" width="7" height="7" />
-                </svg>
-              </button>
-              <button
-                type="button"
-                className={`view-toggle-btn${viewMode === 'compact' ? ' view-toggle-btn-active' : ''}`}
-                onClick={() => onViewModeChange('compact')}
-                title="紧凑视图"
-              >
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <line x1="3" y1="6" x2="21" y2="6" /><line x1="3" y1="12" x2="21" y2="12" /><line x1="3" y1="18" x2="21" y2="18" />
                 </svg>
               </button>
               <button

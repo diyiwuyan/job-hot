@@ -240,17 +240,17 @@ function AllPageContent() {
 
   const [feed, setFeed] = useState<PaginatedFeed | null>(null);
   const [loading, setLoading] = useState(true);
-  const [viewMode, setViewMode] = useState<'detail' | 'compact' | 'table'>('detail');
+  const [viewMode, setViewMode] = useState<'detail' | 'table'>('detail');
 
   // Read saved view mode preference
   useEffect(() => {
     try {
       const saved = localStorage.getItem('jobhot-viewmode');
-      if (saved === 'compact' || saved === 'detail' || saved === 'table') setViewMode(saved);
+      if (saved === 'detail' || saved === 'table') setViewMode(saved);
     } catch {}
   }, []);
 
-  function handleViewModeChange(mode: 'detail' | 'compact' | 'table') {
+  function handleViewModeChange(mode: 'detail' | 'table') {
     setViewMode(mode);
     try { localStorage.setItem('jobhot-viewmode', mode); } catch {}
   }

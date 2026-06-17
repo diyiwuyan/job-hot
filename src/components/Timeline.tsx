@@ -295,7 +295,7 @@ function TableView({ days, bookmarks, onToggle }: { days: FeedDay[]; bookmarks: 
 }
 
 /* ── Main Timeline Component ────────────────────────────────────── */
-export function Timeline({ days, viewMode = 'detail' }: { days: FeedDay[]; viewMode?: 'detail' | 'compact' | 'table' }) {
+export function Timeline({ days, viewMode = 'detail' }: { days: FeedDay[]; viewMode?: 'detail' | 'table' }) {
   const [bookmarks, setBookmarks] = useState<Set<string>>(new Set());
 
   useEffect(() => {
@@ -320,28 +320,6 @@ export function Timeline({ days, viewMode = 'detail' }: { days: FeedDay[]; viewM
 
   if (viewMode === 'table') {
     return <TableView days={days} bookmarks={bookmarks} onToggle={handleToggle} />;
-  }
-
-  if (viewMode === 'compact') {
-    return (
-      <section className="compact-list">
-        {days.map((day) => (
-          <div key={day.date} className="compact-day">
-            <div className="timeline-day-head">
-              <div className="timeline-date">{day.date}</div>
-            </div>
-            {day.items.map((item) => (
-              <CompactRow
-                key={item.id}
-                item={item}
-                bookmarked={bookmarks.has(item.id)}
-                onToggleBookmark={() => handleToggle(item.id)}
-              />
-            ))}
-          </div>
-        ))}
-      </section>
-    );
   }
 
   return (

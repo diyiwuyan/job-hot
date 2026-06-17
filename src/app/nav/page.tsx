@@ -17,7 +17,7 @@ export default function NavPage() {
   return (
     <div className="page">
       <div className="page-header">
-        <h1>求职导航</h1>
+        <h1>常用网址</h1>
         <p>
           精选 {totalSites}+ 个常用求职网站，覆盖官方平台、央企、银行、文化企业、选调事业单位与求职工具，按分类直达
         </p>
