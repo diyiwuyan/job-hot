@@ -165,8 +165,137 @@ function TimelineItem({ item, bookmarked, onToggleBookmark }: { item: FeedItem; 
   );
 }
 
+/* ── Helper maps for table view ──────────────────────────────────── */
+const channelLabel: Record<string, string> = {
+  campus: '校招', intern: '实习', talk: '宣讲会', all: '全部',
+};
+const categoryLabel: Record<string, string> = {
+  internet: '互联网/AI', foreign: '外企', game: '游戏', auto_ic: '车企/IC',
+  finance: '金融/国企', security: '安全/云', other: '其他', all: '全部',
+};
+const companyTypeLabel: Record<string, string> = {
+  foreign: '外企', state: '央国企', private: '民企', bank: '银行', institution: '事业单位',
+};
+
+function extractCompanyAndPosition(item: FeedItem): { company: string; position: string } {
+  const company = item.tags[0] || '';
+  // title 格式通常是 "公司名 — 招聘类型 | 岗位" 或 "公司名 — 岗位"
+  let position = item.title;
+  if (company) {
+    position = position.replace(`${company} — `, '').replace(`${company}—`, '').replace(company, '').trim();
+  }
+  // 去掉招聘类型前缀
+  position = position.replace(/^(校招|实习|2026届|2025届|秋招|春招|补录)\s*\|\s*/, '').trim();
+  return { company: company || '—', position: position || item.title };
+}
+
+function extractIndustry(item: FeedItem): string {
+  // 优先取 tags 里的行业标签（通常是第3-4个 tag，含"/"的）
+  const industryTag = item.tags.find((t, i) => i > 0 && t.includes('/') && !['央国企', '外企', '银行', '事业单位'].includes(t));
+  if (industryTag) return industryTag;
+  return categoryLabel[item.category] || '—';
+}
+
+function formatDate(dateStr: string): string {
+  const d = new Date(new Date(dateStr).getTime() + 8 * 3600000);
+  const m = (d.getUTCMonth() + 1).toString().padStart(2, '0');
+  const day = d.getUTCDate().toString().padStart(2, '0');
+  const h = d.getUTCHours().toString().padStart(2, '0');
+  const min = d.getUTCMinutes().toString().padStart(2, '0');
+  return `${m}-${day} ${h}:${min}`;
+}
+
+/* ── Table View ─────────────────────────────────────────────────── */
+function TableView({ days, bookmarks, onToggle }: { days: FeedDay[]; bookmarks: Set<string>; onToggle: (id: string) => void }) {
+  const allItems = days.flatMap(d => d.items);
+
+  if (allItems.length === 0) {
+    return (
+      <div className="empty-state">
+        <svg className="empty-state-icon" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+          <circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" />
+        </svg>
+        <div className="empty-state-title">暂无相关内容</div>
+        <div className="empty-state-desc">试试调整筛选条件或搜索关键词</div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="feed-table-wrap">
+      <table className="feed-table">
+        <thead>
+          <tr>
+            <th className="feed-th-time">更新时间</th>
+            <th className="feed-th-company">企业名称</th>
+            <th className="feed-th-type">企业性质</th>
+            <th className="feed-th-industry">行业</th>
+            <th className="feed-th-channel">招聘类型</th>
+            <th className="feed-th-position">招聘岗位</th>
+            <th className="feed-th-location">工作地点</th>
+            <th className="feed-th-deadline">截止时间</th>
+            <th className="feed-th-source">来源</th>
+            <th className="feed-th-score">推荐</th>
+            <th className="feed-th-actions">操作</th>
+          </tr>
+        </thead>
+        <tbody>
+          {allItems.map(item => {
+            const { company, position } = extractCompanyAndPosition(item);
+            const bookmarked = bookmarks.has(item.id);
+            return (
+              <tr key={item.id} className={item.featured ? 'feed-tr-featured' : ''}>
+                <td className="feed-td-time">{formatDate(item.createdAt)}</td>
+                <td className="feed-td-company">
+                  <CompanyTypeBadge type={item.companyType} />
+                  {company}
+                </td>
+                <td className="feed-td-type">{companyTypeLabel[item.companyType || ''] || '民企'}</td>
+                <td className="feed-td-industry">{extractIndustry(item)}</td>
+                <td className="feed-td-channel">
+                  <span className={`feed-channel-tag feed-channel-${item.channel}`}>
+                    {channelLabel[item.channel] || item.channel}
+                  </span>
+                </td>
+                <td className="feed-td-position">
+                  <a href={item.url} target="_blank" rel="noopener noreferrer" title={item.title}>
+                    {position}
+                  </a>
+                </td>
+                <td className="feed-td-location">{item.location || '—'}</td>
+                <td className="feed-td-deadline">{item.deadline || '—'}</td>
+                <td className="feed-td-source">{item.source}</td>
+                <td className="feed-td-score">
+                  <span className={`timeline-score timeline-score-sm ${getScoreClass(item.score)}`}>{item.score}</span>
+                </td>
+                <td className="feed-td-actions">
+                  <a href={item.url} target="_blank" rel="noopener noreferrer" className="feed-table-link" title="查看详情">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /><polyline points="15 3 21 3 21 9" /><line x1="10" y1="14" x2="21" y2="3" />
+                    </svg>
+                  </a>
+                  <button
+                    type="button"
+                    className={`bookmark-btn bookmark-btn-sm${bookmarked ? ' bookmarked' : ''}`}
+                    onClick={() => onToggle(item.id)}
+                    title={bookmarked ? '取消收藏' : '收藏'}
+                  >
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill={bookmarked ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+                    </svg>
+                  </button>
+                </td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
 /* ── Main Timeline Component ────────────────────────────────────── */
-export function Timeline({ days, viewMode = 'detail' }: { days: FeedDay[]; viewMode?: 'detail' | 'compact' }) {
+export function Timeline({ days, viewMode = 'detail' }: { days: FeedDay[]; viewMode?: 'detail' | 'compact' | 'table' }) {
   const [bookmarks, setBookmarks] = useState<Set<string>>(new Set());
 
   useEffect(() => {
@@ -187,6 +316,10 @@ export function Timeline({ days, viewMode = 'detail' }: { days: FeedDay[]; viewM
         <div className="empty-state-desc">试试调整筛选条件或搜索关键词</div>
       </div>
     );
+  }
+
+  if (viewMode === 'table') {
+    return <TableView days={days} bookmarks={bookmarks} onToggle={handleToggle} />;
   }
 
   if (viewMode === 'compact') {

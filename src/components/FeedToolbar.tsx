@@ -14,8 +14,8 @@ interface FeedToolbarProps {
   currentCompanyType?: CompanyType;
   currentMajor?: Major;
   basePath: string;
-  viewMode?: 'detail' | 'compact';
-  onViewModeChange?: (mode: 'detail' | 'compact') => void;
+  viewMode?: 'detail' | 'compact' | 'table';
+  onViewModeChange?: (mode: 'detail' | 'compact' | 'table') => void;
   onExportCSV?: () => void;
 }
 
@@ -282,7 +282,7 @@ export function FeedToolbar({
     <div className="page-header">
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1rem', gap: '1rem', flexWrap: 'wrap' }}>
         <div>
-          <h1>全部求职动态</h1>
+          <h1>求职信息</h1>
           <p>大学生求职相关资讯全量信息流</p>
         </div>
         <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center', flexShrink: 0 }}>
@@ -307,6 +307,16 @@ export function FeedToolbar({
               >
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <line x1="3" y1="6" x2="21" y2="6" /><line x1="3" y1="12" x2="21" y2="12" /><line x1="3" y1="18" x2="21" y2="18" />
+                </svg>
+              </button>
+              <button
+                type="button"
+                className={`view-toggle-btn${viewMode === 'table' ? ' view-toggle-btn-active' : ''}`}
+                onClick={() => onViewModeChange('table')}
+                title="表格视图"
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <rect x="3" y="3" width="18" height="18" rx="2" /><line x1="3" y1="9" x2="21" y2="9" /><line x1="3" y1="15" x2="21" y2="15" /><line x1="9" y1="3" x2="9" y2="21" /><line x1="15" y1="3" x2="15" y2="21" />
                 </svg>
               </button>
             </div>

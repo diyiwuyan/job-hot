@@ -3828,3 +3828,157 @@ color: #fff;
   border-color: var(--accent);
   box-shadow: 0 8px 24px rgba(88, 166, 255, 0.12);
 }
+
+/* ── Feed Table View ─────────────────────────────────────────────── */
+.feed-table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  background: var(--card-bg);
+}
+.feed-table {
+  width: 100%;
+  min-width: 900px;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+.feed-table thead {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--sidebar-bg);
+}
+.feed-table th {
+  padding: 0.6rem 0.5rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  border-bottom: 2px solid var(--border);
+  white-space: nowrap;
+  letter-spacing: 0.03em;
+}
+.feed-table td {
+  padding: 0.5rem 0.5rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: middle;
+  color: var(--text);
+}
+.feed-table tbody tr:hover {
+  background: rgba(99, 102, 241, 0.04);
+}
+.feed-tr-featured {
+  background: rgba(99, 102, 241, 0.03);
+}
+.feed-td-time {
+  white-space: nowrap;
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+}
+.feed-td-company {
+  font-weight: 600;
+  white-space: nowrap;
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.feed-td-company .company-badge {
+  margin-right: 0.3rem;
+}
+.feed-td-type {
+  font-size: 0.75rem;
+  white-space: nowrap;
+}
+.feed-td-industry {
+  font-size: 0.75rem;
+  max-width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.feed-td-channel {
+  white-space: nowrap;
+}
+.feed-channel-tag {
+  display: inline-block;
+  padding: 0.1rem 0.4rem;
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+.feed-channel-campus {
+  background: rgba(99, 102, 241, 0.12);
+  color: #6366f1;
+}
+.feed-channel-intern {
+  background: rgba(16, 185, 129, 0.12);
+  color: #10b981;
+}
+.feed-channel-talk {
+  background: rgba(245, 158, 11, 0.15);
+  color: #f59e0b;
+}
+.feed-td-position {
+  max-width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.feed-td-position a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.feed-td-position a:hover {
+  text-decoration: underline;
+}
+.feed-td-location,
+.feed-td-deadline,
+.feed-td-source {
+  font-size: 0.75rem;
+  white-space: nowrap;
+  color: var(--text-muted);
+}
+.feed-td-deadline {
+  color: #ef4444;
+  font-weight: 500;
+}
+.feed-td-score {
+  text-align: center;
+}
+.feed-td-actions {
+  white-space: nowrap;
+}
+.feed-td-actions > * {
+  display: inline-flex;
+  vertical-align: middle;
+}
+.feed-table-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 0.35rem;
+  color: var(--text-muted);
+  transition: color 0.15s, background 0.15s;
+}
+.feed-table-link:hover {
+  color: var(--accent);
+  background: rgba(99, 102, 241, 0.08);
+}
+@media (max-width: 768px) {
+  .feed-table-wrap {
+    border-radius: 0.5rem;
+    margin: 0 -0.5rem;
+  }
+  .feed-table {
+    font-size: 0.75rem;
+  }
+  .feed-table th,
+  .feed-table td {
+    padding: 0.4rem 0.35rem;
+  }
+}

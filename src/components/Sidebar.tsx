@@ -26,7 +26,7 @@ const navItems: NavItem[] = [
   },
   {
     href: '/all',
-    label: '全部求职动态',
+    label: '求职信息',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <line x1="8" y1="6" x2="21" y2="6" />
