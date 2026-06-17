@@ -6,6 +6,7 @@ import { MobileBar } from '@/components/MobileBar';
 import { ThemeScript } from '@/components/ThemeScript';
 import { SidebarProvider } from '@/components/SidebarContext';
 import { AppShell } from '@/components/AppShell';
+import { AuthProvider } from '@/components/AuthContext';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -45,15 +46,17 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`} arco-theme="dark">
-        <SidebarProvider>
-          <AppShell>
-            <Sidebar />
-            <main className="app-main">
-              <MobileBar />
-              {children}
-            </main>
-          </AppShell>
-        </SidebarProvider>
+        <AuthProvider>
+          <SidebarProvider>
+            <AppShell>
+              <Sidebar />
+              <main className="app-main">
+                <MobileBar />
+                {children}
+              </main>
+            </AppShell>
+          </SidebarProvider>
+        </AuthProvider>
       </body>
     </html>
   );

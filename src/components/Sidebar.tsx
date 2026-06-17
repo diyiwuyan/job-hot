@@ -5,6 +5,8 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { ThemeToggle } from './ThemeToggle';
 import { useSidebar } from './SidebarContext';
+import { useAuth } from './AuthContext';
+import { supabase } from '@/lib/supabase';
 
 type NavItem = {
   href: string;
@@ -111,15 +113,11 @@ const navItems: NavItem[] = [
     ),
   },
   {
-    href: '/donate',
-    label: '打赏',
+    href: '/bookmarks',
+    label: '我的收藏',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M18 8h1a4 4 0 0 1 0 8h-1" />
-        <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z" />
-        <line x1="6" y1="1" x2="6" y2="4" />
-        <line x1="10" y1="1" x2="10" y2="4" />
-        <line x1="14" y1="1" x2="14" y2="4" />
+        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
       </svg>
     ),
   },
@@ -132,26 +130,6 @@ const navItems: NavItem[] = [
       </svg>
     ),
   },
-  {
-    href: '/changelog',
-    label: '更新日志',
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M3 12a9 9 0 1 0 3-6.7L3 8" />
-        <path d="M3 3v5h5" />
-        <path d="M12 7v5l3 2" />
-      </svg>
-    ),
-  },
-  {
-    href: '/feedback',
-    label: '反馈',
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
-      </svg>
-    ),
-  },
 ];
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
@@ -159,6 +137,7 @@ const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 export function Sidebar() {
   const pathname = usePathname();
   const { close } = useSidebar();
+  const { user } = useAuth();
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
 
   // Normalize pathname: remove basePath prefix if present（basePath 为空时无操作）
@@ -293,21 +272,44 @@ export function Sidebar() {
         {navItems.map(renderNavItem)}
       </nav>
 
-      {/* Footer with Theme Toggle and Login */}
+      {/* Footer with Theme Toggle and Auth */}
       <div className="sidebar-footer">
         <ThemeToggle />
-        <Link
-          href="/login"
-          className={`side-link ${isActive('/login') ? 'side-link-active' : ''}`}
-          onClick={close}
-        >
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4" />
-            <polyline points="10 17 15 12 10 7" />
-            <line x1="15" y1="12" x2="3" y2="12" />
-          </svg>
-          <span>登录</span>
-        </Link>
+        {user ? (
+          <div className="sidebar-user">
+            <Link href="/login" className="sidebar-user-info" onClick={close}>
+              <span className="sidebar-avatar">{user.email?.charAt(0).toUpperCase()}</span>
+              <span className="sidebar-email" title={user.email ?? ''}>{user.email}</span>
+            </Link>
+            <button
+              type="button"
+              className="sidebar-logout"
+              title="退出登录"
+              onClick={async () => {
+                await supabase.auth.signOut();
+              }}
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" />
+                <polyline points="16 17 21 12 16 7" />
+                <line x1="21" y1="12" x2="9" y2="12" />
+              </svg>
+            </button>
+          </div>
+        ) : (
+          <Link
+            href="/login"
+            className={`side-link ${isActive('/login') ? 'side-link-active' : ''}`}
+            onClick={close}
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4" />
+              <polyline points="10 17 15 12 10 7" />
+              <line x1="15" y1="12" x2="3" y2="12" />
+            </svg>
+            <span>登录</span>
+          </Link>
+        )}
       </div>
     </aside>
   );

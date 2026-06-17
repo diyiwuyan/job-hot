@@ -1,76 +1,160 @@
 'use client';
 
+import { useState } from 'react';
+import { useRouter } from 'next/navigation';
+import { supabase } from '@/lib/supabase';
+import { useAuth } from '@/components/AuthContext';
+
 export default function LoginPage() {
-  return (
-    <div className="page" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '60vh' }}>
-      <div className="timeline-card" style={{ maxWidth: '440px', width: '100%', textAlign: 'center', padding: '2rem' }}>
-        <div style={{ marginBottom: '1.5rem' }}>
-          <span style={{ fontSize: '1.5rem', fontWeight: 800 }}>
-            <span>JOB</span>
-            <span
-              style={{
-                background: 'linear-gradient(135deg, var(--gradient-start), var(--gradient-end))',
-                WebkitBackgroundClip: 'text',
-                WebkitTextFillColor: 'transparent',
+  const router = useRouter();
+  const { user } = useAuth();
+  const [mode, setMode] = useState<'login' | 'register'>('login');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [message, setMessage] = useState('');
+  const [error, setError] = useState('');
+
+  // If already logged in, show account info
+  if (user) {
+    return (
+      <div className="page" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '60vh' }}>
+        <div className="timeline-card" style={{ maxWidth: '440px', width: '100%', textAlign: 'center', padding: '2rem' }}>
+          <div style={{ marginBottom: '1rem' }}>
+            <div style={{ width: '48px', height: '48px', borderRadius: '50%', background: 'var(--accent)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto', fontSize: '1.25rem', color: 'white', fontWeight: 700 }}>
+              {user.email?.charAt(0).toUpperCase()}
+            </div>
+          </div>
+          <h2 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.25rem' }}>已登录</h2>
+          <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)', marginBottom: '1.5rem' }}>{user.email}</p>
+          <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center' }}>
+            <a href="/bookmarks" className="btn" style={{ flex: 1, justifyContent: 'center' }}>我的收藏</a>
+            <button
+              type="button"
+              className="btn btn-secondary"
+              style={{ flex: 1, justifyContent: 'center' }}
+              onClick={async () => {
+                await supabase.auth.signOut();
+                router.push('/');
               }}
             >
-              HOT
-            </span>
+              退出登录
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    setLoading(true);
+    setError('');
+    setMessage('');
+
+    if (mode === 'register') {
+      const { error } = await supabase.auth.signUp({ email, password });
+      if (error) {
+        setError(error.message);
+      } else {
+        setMessage('注册成功！请查收验证邮件，点击链接后即可登录。');
+      }
+    } else {
+      const { error } = await supabase.auth.signInWithPassword({ email, password });
+      if (error) {
+        if (error.message.includes('Email not confirmed')) {
+          setError('邮箱尚未验证，请先查收验证邮件并点击链接。');
+        } else if (error.message.includes('Invalid login credentials')) {
+          setError('邮箱或密码错误');
+        } else {
+          setError(error.message);
+        }
+      } else {
+        router.push('/');
+      }
+    }
+
+    setLoading(false);
+  }
+
+  return (
+    <div className="page" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '60vh' }}>
+      <div className="timeline-card" style={{ maxWidth: '420px', width: '100%', padding: '2rem' }}>
+        {/* Logo */}
+        <div style={{ textAlign: 'center', marginBottom: '1.5rem' }}>
+          <span style={{ fontSize: '1.5rem', fontWeight: 800 }}>
+            <span>JOB</span>
+            <span style={{ background: 'linear-gradient(135deg, var(--gradient-start), var(--gradient-end))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>HOT</span>
           </span>
         </div>
 
-        <h2 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.5rem' }}>个性化功能即将上线</h2>
-        <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)', marginBottom: '1.5rem' }}>
-          我们正在开发以下功能，敬请期待
-        </p>
+        {/* Tabs */}
+        <div className="segmented" style={{ marginBottom: '1.5rem' }}>
+          <button
+            type="button"
+            className={`seg-item${mode === 'login' ? ' seg-item-active' : ''}`}
+            onClick={() => { setMode('login'); setError(''); setMessage(''); }}
+          >
+            登录
+          </button>
+          <button
+            type="button"
+            className={`seg-item${mode === 'register' ? ' seg-item-active' : ''}`}
+            onClick={() => { setMode('register'); setError(''); setMessage(''); }}
+          >
+            注册
+          </button>
+        </div>
 
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', textAlign: 'left' }}>
-          {[
-            { icon: '⭐', title: '收藏职位', desc: '一键收藏感兴趣的校招/实习信息，随时查看' },
-            { icon: '🔔', title: '订阅推送', desc: '设置关键词和行业偏好，新岗位第一时间通知' },
-            { icon: '📊', title: '求职看板', desc: '跟踪投递进度，管理你的求职流程' },
-            { icon: '🎯', title: '智能推荐', desc: '基于你的偏好和浏览历史，推荐最匹配的岗位' },
-          ].map((feature) => (
-            <div
-              key={feature.title}
-              style={{
-                display: 'flex',
-                gap: '0.75rem',
-                padding: '0.75rem',
-                background: 'var(--bg-elevated)',
-                borderRadius: '0.5rem',
-              }}
-            >
-              <span style={{ fontSize: '1.25rem' }}>{feature.icon}</span>
-              <div>
-                <div style={{ fontSize: '0.875rem', fontWeight: 600, color: 'var(--text)' }}>{feature.title}</div>
-                <div style={{ fontSize: '0.8125rem', color: 'var(--text-muted)', marginTop: '0.125rem' }}>{feature.desc}</div>
-              </div>
+        {/* Form */}
+        <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+          <div>
+            <label style={{ fontSize: '0.8125rem', color: 'var(--text-muted)', display: 'block', marginBottom: '0.25rem' }}>邮箱</label>
+            <input
+              type="email"
+              className="field"
+              placeholder="请输入邮箱"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+          </div>
+          <div>
+            <label style={{ fontSize: '0.8125rem', color: 'var(--text-muted)', display: 'block', marginBottom: '0.25rem' }}>密码</label>
+            <input
+              type="password"
+              className="field"
+              placeholder={mode === 'register' ? '至少 6 位密码' : '请输入密码'}
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              required
+              minLength={6}
+            />
+          </div>
+
+          {error && (
+            <div style={{ fontSize: '0.8125rem', color: '#ef4444', background: 'rgba(239,68,68,0.1)', padding: '0.5rem 0.75rem', borderRadius: '0.375rem' }}>
+              {error}
             </div>
-          ))}
-        </div>
+          )}
 
-        <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '1.25rem', lineHeight: 1.6 }}>
-          目前所有功能均可免登录使用。你也可以通过 RSS 订阅获取最新动态。
+          {message && (
+            <div style={{ fontSize: '0.8125rem', color: '#22c55e', background: 'rgba(34,197,94,0.1)', padding: '0.5rem 0.75rem', borderRadius: '0.375rem' }}>
+              {message}
+            </div>
+          )}
+
+          <button type="submit" className="btn" style={{ width: '100%', justifyContent: 'center' }} disabled={loading}>
+            {loading ? '处理中...' : mode === 'login' ? '登录' : '注册'}
+          </button>
+        </form>
+
+        <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '1.25rem', textAlign: 'center', lineHeight: 1.6 }}>
+          {mode === 'register'
+            ? '注册后需要验证邮箱才能登录。登录后可以使用收藏功能，跨设备同步。'
+            : '登录后可以收藏职位信息，数据云端同步，多设备通用。'
+          }
         </p>
-
-        <div style={{ display: 'flex', gap: '0.75rem', marginTop: '1.25rem', justifyContent: 'center' }}>
-          <a
-            href="/"
-            className="btn"
-            style={{ flex: 1, justifyContent: 'center' }}
-          >
-            返回首页
-          </a>
-          <a
-            href="/feed.xml"
-            className="btn btn-secondary"
-            style={{ flex: 1, justifyContent: 'center' }}
-            target="_blank"
-          >
-            RSS 订阅
-          </a>
-        </div>
       </div>
     </div>
   );

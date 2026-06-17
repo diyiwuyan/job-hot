@@ -1,8 +1,9 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import React from 'react';
 import { FeedDay, FeedItem } from '@/lib/types';
 import { ShareButton } from '@/components/ShareButton';
+import { useBookmarks } from '@/hooks/useBookmarks';
 
 function getScoreClass(score: number): string {
   if (score >= 80) return 'score-high';
@@ -18,21 +19,20 @@ function formatTime(dateString: string): string {
   return `${hours}:${minutes}`;
 }
 
-/* ── Bookmark helpers (localStorage) ────────────────────────────── */
-function getBookmarks(): Set<string> {
-  if (typeof window === 'undefined') return new Set();
-  try {
-    const raw = localStorage.getItem('jobhot-bookmarks');
-    return raw ? new Set(JSON.parse(raw)) : new Set();
-  } catch { return new Set(); }
-}
-
-function toggleBookmark(id: string): Set<string> {
-  const bm = getBookmarks();
-  if (bm.has(id)) bm.delete(id);
-  else bm.add(id);
-  localStorage.setItem('jobhot-bookmarks', JSON.stringify([...bm]));
-  return bm;
+/* ── Login prompt toast (simple) ────────────────────────────────── */
+function showLoginToast() {
+  // Brief non-blocking notification
+  if (typeof window !== 'undefined') {
+    const existing = document.getElementById('login-toast');
+    if (existing) existing.remove();
+    const toast = document.createElement('div');
+    toast.id = 'login-toast';
+    toast.className = 'login-toast';
+    toast.textContent = '请先登录后再收藏';
+    toast.onclick = () => { window.location.href = '/login'; toast.remove(); };
+    document.body.appendChild(toast);
+    setTimeout(() => toast.remove(), 3000);
+  }
 }
 
 /* ── Company type badge ─────────────────────────────────────────── */
@@ -206,7 +206,7 @@ function formatDate(dateStr: string): string {
 }
 
 /* ── Table View ─────────────────────────────────────────────────── */
-function TableView({ days, bookmarks, onToggle }: { days: FeedDay[]; bookmarks: Set<string>; onToggle: (id: string) => void }) {
+function TableView({ days, bookmarks, onToggle }: { days: FeedDay[]; bookmarks: Set<string>; onToggle: (item: FeedItem) => void }) {
   const allItems = days.flatMap(d => d.items);
 
   if (allItems.length === 0) {
@@ -277,7 +277,7 @@ function TableView({ days, bookmarks, onToggle }: { days: FeedDay[]; bookmarks: 
                   <button
                     type="button"
                     className={`bookmark-btn bookmark-btn-sm${bookmarked ? ' bookmarked' : ''}`}
-                    onClick={() => onToggle(item.id)}
+                    onClick={() => onToggle(item)}
                     title={bookmarked ? '取消收藏' : '收藏'}
                   >
                     <svg width="12" height="12" viewBox="0 0 24 24" fill={bookmarked ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -296,14 +296,13 @@ function TableView({ days, bookmarks, onToggle }: { days: FeedDay[]; bookmarks: 
 
 /* ── Main Timeline Component ────────────────────────────────────── */
 export function Timeline({ days, viewMode = 'detail' }: { days: FeedDay[]; viewMode?: 'detail' | 'table' }) {
-  const [bookmarks, setBookmarks] = useState<Set<string>>(new Set());
+  const { bookmarkIds: bookmarks, toggle } = useBookmarks();
 
-  useEffect(() => {
-    setBookmarks(getBookmarks());
-  }, []);
-
-  function handleToggle(id: string) {
-    setBookmarks(new Set(toggleBookmark(id)));
+  async function handleToggle(item: FeedItem) {
+    const result = await toggle(item);
+    if (result === 'login') {
+      showLoginToast();
+    }
   }
 
   if (days.length === 0) {
@@ -335,7 +334,7 @@ export function Timeline({ days, viewMode = 'detail' }: { days: FeedDay[]; viewM
                 key={item.id}
                 item={item}
                 bookmarked={bookmarks.has(item.id)}
-                onToggleBookmark={() => handleToggle(item.id)}
+                onToggleBookmark={() => handleToggle(item)}
               />
             ))}
           </div>
