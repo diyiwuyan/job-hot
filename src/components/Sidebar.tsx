@@ -286,7 +286,7 @@ export function Sidebar() {
               className="sidebar-logout"
               title="退出登录"
               onClick={async () => {
-                await supabase.auth.signOut();
+                await supabase?.auth.signOut();
               }}
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">

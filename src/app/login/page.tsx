@@ -34,7 +34,7 @@ export default function LoginPage() {
               className="btn btn-secondary"
               style={{ flex: 1, justifyContent: 'center' }}
               onClick={async () => {
-                await supabase.auth.signOut();
+                await supabase?.auth.signOut();
                 router.push('/');
               }}
             >
@@ -48,6 +48,10 @@ export default function LoginPage() {
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
+    if (!supabase) {
+      setError('登录服务暂时不可用，请稍后再试。');
+      return;
+    }
     setLoading(true);
     setError('');
     setMessage('');

@@ -42,8 +42,6 @@ jobs:
           npx tsx scripts/parse-guopin.ts
           npx tsx scripts/parse-yingjiesheng.ts
           npx tsx scripts/generate-pages.ts
-          npx tsx scripts/generate-rss.ts
-
       - name: Commit updated data (accumulate entries across builds)
         run: |
           git config user.name "github-actions[bot]"
@@ -53,6 +51,9 @@ jobs:
           git push || true
 
       - name: Build
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
         run: npx next build
 
       - name: Add .nojekyll

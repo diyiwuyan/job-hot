@@ -22,13 +22,13 @@ export default function BookmarksPage() {
 
   useEffect(() => {
     if (authLoading) return;
-    if (!user) {
+    if (!user || !supabase) {
       setLoading(false);
       return;
     }
 
     async function fetchBookmarks() {
-      const { data, error } = await supabase
+      const { data, error } = await supabase!
         .from('bookmarks')
         .select('*')
         .order('created_at', { ascending: false });
@@ -43,6 +43,7 @@ export default function BookmarksPage() {
   }, [user, authLoading]);
 
   async function removeBookmark(id: string) {
+    if (!supabase) return;
     setRemoving((prev) => new Set(prev).add(id));
     const { error } = await supabase.from('bookmarks').delete().eq('id', id);
     if (!error) {

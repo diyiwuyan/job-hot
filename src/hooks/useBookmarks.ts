@@ -19,14 +19,14 @@ export function useBookmarks() {
   useEffect(() => {
     if (authLoading) return;
 
-    if (!user) {
+    if (!user || !supabase) {
       setBookmarkIds(new Set());
       setLoadingBookmarks(false);
       return;
     }
 
     async function fetchIds() {
-      const { data } = await supabase
+      const { data } = await supabase!
         .from('bookmarks')
         .select('feed_item_id');
 
@@ -44,7 +44,7 @@ export function useBookmarks() {
    */
   const toggle = useCallback(
     async (item: FeedItem): Promise<boolean | 'login'> => {
-      if (!user) return 'login';
+      if (!user || !supabase) return 'login';
 
       const isCurrentlyBookmarked = bookmarkIds.has(item.id);
 
