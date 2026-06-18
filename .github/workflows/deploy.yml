@@ -50,6 +50,12 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: update recruitment data [skip ci]"
           git push || true
 
+      - name: Match subscriptions
+        env:
+          SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: npx tsx scripts/match-subscriptions.ts
+
       - name: Build
         env:
           NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}

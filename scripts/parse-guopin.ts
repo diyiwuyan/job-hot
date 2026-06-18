@@ -60,6 +60,8 @@ interface FeedItem {
   sourceHandle?: string;
   channel: Channel;
   category: Category;
+  location?: string;
+  deadline?: string;
   tags: string[];
   score: number;
   featured?: boolean;
@@ -268,6 +270,15 @@ function convertToFeedItem(job: GuopinJob): FeedItem {
   const category = detectCategory(job);
   const score = computeScore(job);
 
+  // Extract location from district_list
+  const locations = job.district_list?.map(d => d.area_cn).filter(Boolean);
+  const location = locations?.length ? locations.join('、') : undefined;
+
+  // Extract deadline from end_time (format: "2026-05-30" or ISO string)
+  const deadline = job.end_time
+    ? job.end_time.substring(0, 10).replace(/-/g, '/')
+    : undefined;
+
   return {
     id: `guopin-${job.job_id}`,
     title: `${job.company_name} — ${job.job_name}`,
@@ -277,6 +288,8 @@ function convertToFeedItem(job: GuopinJob): FeedItem {
     sourceHandle: '@guopin',
     channel,
     category,
+    location,
+    deadline,
     tags: generateTags(job, channel, category),
     score,
     featured: score >= 80,

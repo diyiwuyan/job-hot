@@ -52,6 +52,8 @@ interface FeedItem {
   sourceHandle?: string;
   channel: Channel;
   category: Category;
+  location?: string;
+  deadline?: string;
   tags: string[];
   score: number;
   featured?: boolean;
@@ -332,6 +334,17 @@ async function main() {
       const score = computeScore(company);
       const statusLabel = extractStatusLabel(company);
 
+      // Extract location from cityList
+      const location = company.cityList?.length ? company.cityList.join('、') : undefined;
+
+      // Extract deadline from wangshenEndDate (millisecond timestamp)
+      const deadline = company.wangshenEndDate
+        ? (() => {
+            const d = new Date(company.wangshenEndDate!);
+            return `${d.getFullYear()}/${String(d.getMonth() + 1).padStart(2, '0')}/${String(d.getDate()).padStart(2, '0')}`;
+          })()
+        : undefined;
+
       return {
         id: `nowcoder-${company.companyId}`,
         title: `${company.name} — ${statusLabel}`,
@@ -341,6 +354,8 @@ async function main() {
         sourceHandle: '@nowcoder',
         channel,
         category,
+        location,
+        deadline,
         tags: generateTags(company, channel, category),
         score,
         featured: score >= 80,

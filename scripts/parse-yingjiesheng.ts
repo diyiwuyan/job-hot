@@ -24,6 +24,8 @@ interface FeedItem {
   sourceHandle?: string;
   channel: Channel;
   category: Category;
+  location?: string;
+  deadline?: string;
   tags: string[];
   score: number;
   featured?: boolean;
@@ -256,6 +258,13 @@ function convertToFeedItem(item: XuanjianghuiItem, index: number): FeedItem {
   if (item.location) summaryParts.push(`地点：${item.location}`);
   summaryParts.push(`学校：${item.school}`);
 
+  // Extract location (city from the career fair listing)
+  const location = item.city || undefined;
+
+  // Extract deadline (event date as the deadline — after this date the event has passed)
+  const dateMatch = item.date.match(/(\d{4}-\d{2}-\d{2})/);
+  const deadline = dateMatch ? dateMatch[1].replace(/-/g, '/') : undefined;
+
   return {
     id,
     title,
@@ -267,6 +276,8 @@ function convertToFeedItem(item: XuanjianghuiItem, index: number): FeedItem {
     sourceHandle: '@yingjiesheng',
     channel: 'campus' as Channel,
     category,
+    location,
+    deadline,
     tags: generateTags(item, category),
     score,
     featured: score >= 80,
