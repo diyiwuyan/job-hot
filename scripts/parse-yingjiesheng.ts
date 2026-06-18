@@ -13,7 +13,8 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
-import type { Category, Channel } from '../src/lib/types';
+import type { Category, Channel, CompanyType } from '../src/lib/types';
+import { inferCompanyType } from './infer-company-type';
 
 interface FeedItem {
   id: string;
@@ -24,6 +25,7 @@ interface FeedItem {
   sourceHandle?: string;
   channel: Channel;
   category: Category;
+  companyType?: CompanyType;
   location?: string;
   deadline?: string;
   tags: string[];
@@ -265,6 +267,8 @@ function convertToFeedItem(item: XuanjianghuiItem, index: number): FeedItem {
   const dateMatch = item.date.match(/(\d{4}-\d{2}-\d{2})/);
   const deadline = dateMatch ? dateMatch[1].replace(/-/g, '/') : undefined;
 
+  const companyType = inferCompanyType(item.company);
+
   return {
     id,
     title,
@@ -274,8 +278,9 @@ function convertToFeedItem(item: XuanjianghuiItem, index: number): FeedItem {
       : `${BASE_URL}/xuanjianghui.html`,
     source: '应届生求职网',
     sourceHandle: '@yingjiesheng',
-    channel: 'campus' as Channel,
+    channel: 'talk' as Channel,
     category,
+    companyType,
     location,
     deadline,
     tags: generateTags(item, category),

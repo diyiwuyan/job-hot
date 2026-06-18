@@ -248,7 +248,7 @@ function TableView({ days, bookmarks, onToggle }: { days: FeedDay[]; bookmarks: 
                   <CompanyTypeBadge type={item.companyType} />
                   {company}
                 </td>
-                <td className="feed-td-type">{companyTypeLabel[item.companyType || ''] || '民企'}</td>
+                <td className="feed-td-type">{item.companyType ? (companyTypeLabel[item.companyType] || '—') : '—'}</td>
                 <td className="feed-td-industry">{extractIndustry(item)}</td>
                 <td className="feed-td-channel">
                   <span className={`feed-channel-tag feed-channel-${item.channel}`}>

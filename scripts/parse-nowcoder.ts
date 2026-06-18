@@ -15,7 +15,8 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
-import type { Category, Channel } from '../src/lib/types';
+import type { Category, Channel, CompanyType } from '../src/lib/types';
+import { inferCompanyType } from './infer-company-type';
 
 // ─── Raw types from Nowcoder __INITIAL_STATE__ ───────────────────────
 interface NowcoderCompany {
@@ -52,6 +53,7 @@ interface FeedItem {
   sourceHandle?: string;
   channel: Channel;
   category: Category;
+  companyType?: CompanyType;
   location?: string;
   deadline?: string;
   tags: string[];
@@ -345,6 +347,8 @@ async function main() {
           })()
         : undefined;
 
+      const companyType = inferCompanyType(company.name);
+
       return {
         id: `nowcoder-${company.companyId}`,
         title: `${company.name} — ${statusLabel}`,
@@ -354,6 +358,7 @@ async function main() {
         sourceHandle: '@nowcoder',
         channel,
         category,
+        companyType,
         location,
         deadline,
         tags: generateTags(company, channel, category),

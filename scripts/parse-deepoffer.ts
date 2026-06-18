@@ -22,6 +22,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import type { Category, Channel, CompanyType } from '../src/lib/types';
+import { inferCompanyType } from './infer-company-type';
 
 // ─── Raw types from DeepOffer API ────────────────────────────────────
 interface DeepOfferJob {
@@ -407,7 +408,7 @@ function convertToFeedItem(job: DeepOfferJob): FeedItem {
     '合资': 'foreign',
     '上市公司': 'private',
   };
-  const companyType = companyTypeMap[job.company_type] || 'private';
+  const companyType = companyTypeMap[job.company_type] || inferCompanyType(job.company_name);
 
   // Extract location
   const location = job.location_city && job.location_city !== '全国多地'

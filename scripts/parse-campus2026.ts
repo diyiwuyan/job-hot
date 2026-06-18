@@ -6,6 +6,8 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
+import type { CompanyType } from '../src/lib/types';
+import { inferCompanyType } from './infer-company-type';
 
 // ─── Types ───────────────────────────────────────────────────────────
 interface RawEntry {
@@ -29,6 +31,7 @@ interface FeedItem {
   sourceHandle?: string;
   channel: 'campus' | 'intern' | 'info';
   category: string;
+  companyType?: CompanyType;
   tags: string[];
   score: number;
   featured?: boolean;
@@ -341,6 +344,8 @@ async function main() {
 let feedItems: FeedItem[] = entries.map((entry, index) => {
     const score = computeScore(entry);
 
+    const companyType = inferCompanyType(entry.company);
+
     return {
       id: `campus2026-${index + 1}`,
       title: `${entry.company} — ${entry.status}`,
@@ -350,6 +355,7 @@ let feedItems: FeedItem[] = entries.map((entry, index) => {
       sourceHandle: '@namewyf/Campus2026',
       channel: entry.section,
       category: entry.category,
+      companyType,
       tags: generateTags(entry),
       score,
       featured: score >= 82,

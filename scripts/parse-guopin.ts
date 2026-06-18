@@ -14,7 +14,8 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
-import type { Category, Channel } from '../src/lib/types';
+import type { Category, Channel, CompanyType } from '../src/lib/types';
+import { inferCompanyType } from './infer-company-type';
 
 // ─── Raw types from 国聘 API ────────────────────────────────────────
 interface GuopinJob {
@@ -60,6 +61,7 @@ interface FeedItem {
   sourceHandle?: string;
   channel: Channel;
   category: Category;
+  companyType?: CompanyType;
   location?: string;
   deadline?: string;
   tags: string[];
@@ -279,6 +281,17 @@ function convertToFeedItem(job: GuopinJob): FeedItem {
     ? job.end_time.substring(0, 10).replace(/-/g, '/')
     : undefined;
 
+  // 国聘平台主要是国企，但也有部分民企。优先用 API 字段，回退到名称推断
+  const natureCn = job.company_info?.nature_cn || '';
+  let companyType: CompanyType | undefined;
+  if (/央企|中央/.test(natureCn)) companyType = 'state';
+  else if (/国企|国有/.test(natureCn)) companyType = 'state';
+  else if (/外资|外企/.test(natureCn)) companyType = 'foreign';
+  else if (/事业单位/.test(natureCn)) companyType = 'institution';
+  else companyType = inferCompanyType(job.company_name);
+  // 国聘平台上的企业大概率是央国企，若无法推断则默认为 state
+  if (!companyType) companyType = 'state';
+
   return {
     id: `guopin-${job.job_id}`,
     title: `${job.company_name} — ${job.job_name}`,
@@ -288,6 +301,7 @@ function convertToFeedItem(job: GuopinJob): FeedItem {
     sourceHandle: '@guopin',
     channel,
     category,
+    companyType,
     location,
     deadline,
     tags: generateTags(job, channel, category),
