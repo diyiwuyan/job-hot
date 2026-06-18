@@ -141,7 +141,7 @@ a:hover {
 .app-main {
   grid-column: 2;
   padding: 1.5rem 2rem;
-  max-width: 1100px;
+  max-width: 1400px;
   width: 100%;
   min-width: 0;
   overflow-x: hidden;
@@ -1480,7 +1480,7 @@ a:focus-visible {
    ============================================ */
 
 .page {
-  max-width: 900px;
+  max-width: 1200px;
 }
 
 /* ============================================
@@ -3148,7 +3148,7 @@ a:focus-visible {
    ============================================ */
 
 .page {
-  max-width: 900px;
+  max-width: 1200px;
 }
 
 /* ============================================
@@ -3950,11 +3950,11 @@ color: #fff;
   font-variant-numeric: tabular-nums;
 }
 .feed-td-company {
-  font-weight: 600;
-  white-space: nowrap;
-  max-width: 160px;
-  overflow: hidden;
-  text-overflow: ellipsis;
+font-weight: 600;
+white-space: nowrap;
+max-width: 220px;
+overflow: hidden;
+text-overflow: ellipsis;
 }
 .feed-td-company .company-badge {
   margin-right: 0.3rem;
@@ -3993,10 +3993,10 @@ color: #fff;
   color: #f59e0b;
 }
 .feed-td-position {
-  max-width: 220px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+max-width: 320px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
 }
 .feed-td-position a {
   color: var(--accent);

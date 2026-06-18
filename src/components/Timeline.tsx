@@ -134,7 +134,6 @@ function CompactRow({ item, bookmarked, onToggleBookmark }: { item: FeedItem; bo
       </a>
       {item.location && <span className="compact-location">{item.location}</span>}
       {item.deadline && <span className="compact-deadline">{item.deadline}</span>}
-      <span className="compact-source">{item.source}</span>
       <span className={`timeline-score timeline-score-sm ${getScoreClass(item.score)}`}>{item.score}</span>
       <ShareButton item={item} variant="icon" />
       <button
@@ -234,7 +233,6 @@ function TableView({ days, bookmarks, onToggle }: { days: FeedDay[]; bookmarks: 
             <th className="feed-th-position">招聘岗位</th>
             <th className="feed-th-location">工作地点</th>
             <th className="feed-th-deadline">截止时间</th>
-            <th className="feed-th-source">来源</th>
             <th className="feed-th-score">推荐</th>
             <th className="feed-th-actions">操作</th>
           </tr>
@@ -264,7 +262,6 @@ function TableView({ days, bookmarks, onToggle }: { days: FeedDay[]; bookmarks: 
                 </td>
                 <td className="feed-td-location">{item.location || '—'}</td>
                 <td className="feed-td-deadline">{item.deadline || '—'}</td>
-                <td className="feed-td-source">{item.source}</td>
                 <td className="feed-td-score">
                   <span className={`timeline-score timeline-score-sm ${getScoreClass(item.score)}`}>{item.score}</span>
                 </td>
