@@ -54,6 +54,26 @@ export default function ToolsPage() {
             <span className="tag">社群答疑</span>
           </div>
         </Link>
+
+        {/* 笔试训练 */}
+        <Link
+          href="/tools/exam"
+          className="timeline-card timeline-card-featured"
+          style={{ display: 'block', textDecoration: 'none', padding: '1.5rem' }}
+        >
+          <div style={{ fontSize: '2rem', marginBottom: '0.75rem' }}>📝</div>
+          <h2 style={{ fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.5rem', color: 'var(--text)' }}>
+            笔试训练
+          </h2>
+          <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.7, margin: 0 }}>
+            5 套行测类通用笔试题库，涵盖数量关系、言语理解、逻辑推理、资料分析、常识判断，在线答题并记录成绩。
+          </p>
+          <div className="timeline-tags" style={{ marginTop: '0.75rem' }}>
+            <span className="tag">5套题库</span>
+            <span className="tag">100道题</span>
+            <span className="tag">成绩记录</span>
+          </div>
+        </Link>
       </div>
     </div>
   );

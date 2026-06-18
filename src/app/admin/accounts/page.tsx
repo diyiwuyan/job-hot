@@ -56,6 +56,12 @@ export default function AccountsPage() {
   const [sortField, setSortField] = useState<SortField>('created_at');
   const [sortDir, setSortDir] = useState<SortDir>('desc');
 
+  // Add account modal
+  const [showAddModal, setShowAddModal] = useState(false);
+  const [newEmail, setNewEmail] = useState('');
+  const [newPassword, setNewPassword] = useState('');
+  const [addLoading, setAddLoading] = useState(false);
+
   // Confirm modal
   const [confirmAction, setConfirmAction] = useState<{
     type: 'set_admin' | 'remove_admin' | 'delete_user';
@@ -188,6 +194,45 @@ export default function AccountsPage() {
     setConfirmAction(null);
   }
 
+  // ── Add account ──────────────────────────────────────────────
+  async function handleAddAccount(e: React.FormEvent) {
+    e.preventDefault();
+    if (!supabase || !newEmail.trim()) return;
+
+    // Validate email format
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(newEmail.trim())) {
+      setError('请输入有效的邮箱地址');
+      return;
+    }
+
+    setAddLoading(true);
+    setError('');
+    setSuccess('');
+
+    // Use Supabase auth.signUp to create a new user
+    const password = newPassword.trim() || (Math.random().toString(36).slice(2) + Math.random().toString(36).slice(2));
+    const { error: signUpErr } = await supabase.auth.signUp({
+      email: newEmail.trim(),
+      password,
+      options: {
+        // Skip email confirmation for admin-created accounts
+        data: { created_by_admin: true },
+      },
+    });
+
+    if (signUpErr) {
+      setError(`添加账号失败: ${signUpErr.message}`);
+    } else {
+      setSuccess(`账号 ${newEmail.trim()} 已创建成功${newPassword.trim() ? '' : '（随机密码，用户需通过重置密码登录）'}`);
+      setNewEmail('');
+      setNewPassword('');
+      setShowAddModal(false);
+      fetchUsers();
+    }
+    setAddLoading(false);
+  }
+
   // ── Auth guards ────────────────────────────────────────────
   if (authLoading || adminLoading) {
     return (
@@ -220,6 +265,11 @@ export default function AccountsPage() {
           <p>管理注册用户 · 共 {users.length} 个账号</p>
         </div>
         <div className="admin-header-actions">
+          {isSuperAdmin && (
+            <button type="button" className="btn" onClick={() => setShowAddModal(true)}>
+              + 添加账号
+            </button>
+          )}
           <button type="button" className="btn btn-secondary" onClick={fetchUsers} disabled={loading}>
             {loading ? '加载中...' : '刷新'}
           </button>
@@ -378,6 +428,56 @@ export default function AccountsPage() {
                 确认
               </button>
             </div>
+          </div>
+        </div>
+      )}
+
+      {/* Add account modal */}
+      {showAddModal && (
+        <div className="admin-modal-overlay" onClick={() => setShowAddModal(false)}>
+          <div className="admin-modal" onClick={e => e.stopPropagation()}>
+            <h3 className="admin-modal-title">添加账号</h3>
+            <form onSubmit={handleAddAccount}>
+              <div style={{ marginBottom: '1rem' }}>
+                <label style={{ display: 'block', fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '0.4rem' }}>
+                  邮箱地址 <span style={{ color: 'var(--accent)' }}>*</span>
+                </label>
+                <input
+                  type="email"
+                  className="field"
+                  placeholder="user@example.com"
+                  value={newEmail}
+                  onChange={e => setNewEmail(e.target.value)}
+                  required
+                  autoFocus
+                  style={{ width: '100%' }}
+                />
+              </div>
+              <div style={{ marginBottom: '1.25rem' }}>
+                <label style={{ display: 'block', fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '0.4rem' }}>
+                  初始密码（留空则随机生成）
+                </label>
+                <input
+                  type="text"
+                  className="field"
+                  placeholder="留空自动生成随机密码"
+                  value={newPassword}
+                  onChange={e => setNewPassword(e.target.value)}
+                  style={{ width: '100%' }}
+                />
+                <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '0.3rem' }}>
+                  如留空，用户需通过「忘记密码」功能自行设置密码
+                </p>
+              </div>
+              <div className="admin-modal-actions">
+                <button type="button" className="btn btn-secondary" onClick={() => setShowAddModal(false)}>
+                  取消
+                </button>
+                <button type="submit" className="btn" disabled={addLoading || !newEmail.trim()}>
+                  {addLoading ? '创建中...' : '创建账号'}
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       )}

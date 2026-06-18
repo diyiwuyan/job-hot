@@ -4,6 +4,7 @@ import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { Suspense, useEffect, useState } from 'react';
 import { FeedItem } from '@/lib/types';
+import { TalkReminder } from '@/components/TalkReminder';
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 
@@ -189,6 +190,17 @@ function ItemContent() {
                   查看原岗位详情
                 </a>
               </div>
+            )}
+
+            {/* 宣讲会预约提醒 */}
+            {item.channel === 'talk' && (
+              <TalkReminder
+                title={item.title}
+                company={item.source}
+                date={item.deadline || item.createdAt}
+                location={item.location}
+                url={item.url}
+              />
             )}
           </article>
 
