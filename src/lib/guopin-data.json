@@ -23,6 +23,29 @@
     "createdAt": "2026-06-29T16:00:00.000Z"
   },
   {
+    "id": "guopin-180767567235777266",
+    "title": "中国东方电气集团有限公司 — 应用技术（AI方向）",
+    "summary": "企业性质：国企。行业：专用设备制造业。工作地点：成都-金牛区。薪资面议。学历：本科。规模：10000-30000人。",
+    "url": "https://www.iguopin.com/job/detail?id=180767567235777266",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "成都-金牛区",
+    "deadline": "2026/06/25",
+    "tags": [
+      "中国东方电气集团有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "专用设备制造业",
+      "成都"
+    ],
+    "score": 82,
+    "featured": true,
+    "createdAt": "2026-06-18T02:42:30.000Z"
+  },
+  {
     "id": "guopin-205409778938151693",
     "title": "海南省水利水务发展集团有限公司 — 海南水发管培生",
     "summary": "企业性质：国企。行业：电力、热力、燃气及水生产和供应业。工作地点：海口-美兰区。薪资面议。学历：硕士。规模：500-1000人。",
@@ -44,6 +67,72 @@
     "score": 83,
     "featured": true,
     "createdAt": "2026-06-18T01:00:00.000Z"
+  },
+  {
+    "id": "guopin-205412266009428756",
+    "title": "苏州中材建设有限公司 — 供应链管理（驻海外）",
+    "summary": "企业性质：国企。行业：工程施工。工作地点：海外。薪资：14000-18000元/月。学历：本科。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=205412266009428756",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "location": "海外",
+    "deadline": "2026/09/15",
+    "tags": [
+      "苏州中材建设有限公司",
+      "校招",
+      "国企",
+      "工程施工",
+      "海外"
+    ],
+    "score": 85,
+    "featured": true,
+    "createdAt": "2026-06-17T16:00:00.000Z"
+  },
+  {
+    "id": "guopin-205412848212378528",
+    "title": "江苏港口集装箱集团有限公司 — 货代操作",
+    "summary": "企业性质：国企。行业：水上运输业。工作地点：苏州-太仓市。薪资：5000-10000元/月。学历：本科。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=205412848212378528",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "location": "苏州-太仓市",
+    "deadline": "2026/07/03",
+    "tags": [
+      "江苏港口集装箱集团有限公司",
+      "校招",
+      "国企",
+      "水上运输业",
+      "苏州"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-06-17T16:00:00.000Z"
+  },
+  {
+    "id": "guopin-205412736258016158",
+    "title": "诚通融资租赁有限公司 — 财务助理",
+    "summary": "企业性质：国企。行业：租赁和商务服务业。工作地点：北京-海淀区。薪资面议。学历：本科。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=205412736258016158",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "location": "北京-海淀区",
+    "deadline": "2026/09/16",
+    "tags": [
+      "诚通融资租赁有限公司",
+      "校招",
+      "国企",
+      "租赁和商务服务业",
+      "北京"
+    ],
+    "score": 81,
+    "featured": true,
+    "createdAt": "2026-06-17T16:00:00.000Z"
   },
   {
     "id": "guopin-205408059407729424",
@@ -4600,27 +4689,6 @@
     "createdAt": "2026-06-12T00:00:00.000Z"
   },
   {
-    "id": "guopin-180767567235777266",
-    "title": "中国东方电气集团有限公司 — 应用技术（AI方向）",
-    "summary": "企业性质：国企。行业：专用设备制造业。工作地点：成都-金牛区。薪资面议。学历：本科。规模：10000-30000人。",
-    "url": "https://www.iguopin.com/job/detail?id=180767567235777266",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "中国东方电气集团有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "专用设备制造业",
-      "成都"
-    ],
-    "score": 82,
-    "featured": true,
-    "createdAt": "2026-06-11T17:05:34.000Z"
-  },
-  {
     "id": "guopin-201218078460084500",
     "title": "核工业湖南矿冶局 — 中核勘探-技术钻探岗(J28043)",
     "summary": "企业性质：其他。行业：采矿业。工作地点：中国。薪资面议。学历：本科。规模：50人以下。",
@@ -6758,8 +6826,8 @@
       "农、林、牧、渔专业及辅助性活动",
       "北京"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-06-10T02:44:12.000Z"
   },
   {
@@ -6782,8 +6850,8 @@
       "天津",
       "青岛"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-06-10T02:36:26.000Z"
   },
   {
@@ -6804,8 +6872,8 @@
       "农、林、牧、渔专业及辅助性活动",
       "北京"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-06-10T02:33:21.000Z"
   },
   {
@@ -17226,8 +17294,8 @@
       "制造业",
       "芜湖"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-06-03T03:00:00.000Z"
   },
   {
@@ -17249,7 +17317,7 @@
       "制造业",
       "芜湖"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-06-03T03:00:00.000Z"
   },
@@ -17272,7 +17340,7 @@
       "医药制造业",
       "上海"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-06-03T02:30:54.000Z"
   },
@@ -17294,7 +17362,7 @@
       "专业技术服务业",
       "云南"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-06-03T02:30:00.000Z"
   },
@@ -17317,7 +17385,7 @@
       "专用设备制造业",
       "洛阳"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-06-03T02:01:32.000Z"
   },
@@ -17340,8 +17408,8 @@
       "专用设备制造业",
       "洛阳"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-06-03T01:57:51.000Z"
   },
   {
@@ -17363,8 +17431,8 @@
       "专用设备制造业",
       "洛阳"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-03T01:54:36.000Z"
   },
   {
@@ -17386,8 +17454,8 @@
       "专用设备制造业",
       "洛阳"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-03T01:45:15.000Z"
   },
   {
@@ -19111,27 +19179,6 @@
       "金融",
       "水利、环境和公共设施管理业",
       "哈尔滨"
-    ],
-    "score": 75,
-    "featured": false,
-    "createdAt": "2026-06-03T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-203245980420670272",
-    "title": "西南药业股份有限公司 — 医药营销岗",
-    "summary": "企业性质：国企。行业：医药制造业。工作地点：重庆-沙坪坝区。薪资面议。学历：本科。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=203245980420670272",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "西南药业股份有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "医药制造业",
-      "重庆"
     ],
     "score": 75,
     "featured": false,
@@ -20905,6 +20952,29 @@
       "沈阳"
     ],
     "score": 71,
+    "featured": false,
+    "createdAt": "2026-06-02T16:00:00.000Z"
+  },
+  {
+    "id": "guopin-203245980420670272",
+    "title": "西南药业股份有限公司 — 医药营销岗",
+    "summary": "企业性质：国企。行业：医药制造业。工作地点：重庆-沙坪坝区。薪资面议。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=203245980420670272",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "重庆-沙坪坝区",
+    "deadline": "2026/06/22",
+    "tags": [
+      "西南药业股份有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "医药制造业",
+      "重庆"
+    ],
+    "score": 70,
     "featured": false,
     "createdAt": "2026-06-02T16:00:00.000Z"
   },
@@ -37803,7 +37873,7 @@
       "文化艺术业",
       "北京"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-18T02:01:02.000Z"
   },

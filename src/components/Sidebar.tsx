@@ -6,6 +6,7 @@ import { usePathname } from 'next/navigation';
 import { ThemeToggle } from './ThemeToggle';
 import { useSidebar } from './SidebarContext';
 import { useAuth } from './AuthContext';
+import { useAdmin } from '@/hooks/useAdmin';
 import { supabase } from '@/lib/supabase';
 
 type NavItem = {
@@ -148,6 +149,7 @@ export function Sidebar() {
   const pathname = usePathname();
   const { close } = useSidebar();
   const { user } = useAuth();
+  const { isAdmin } = useAdmin();
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
 
   // Normalize pathname: remove basePath prefix if present（basePath 为空时无操作）
@@ -280,6 +282,26 @@ export function Sidebar() {
       {/* Navigation */}
       <nav className="side-nav">
         {navItems.map(renderNavItem)}
+
+        {/* Admin entry — only visible to admins */}
+        {isAdmin && (
+          <>
+            <div className="side-divider" />
+            <Link
+              href="/admin"
+              className={`side-link ${isActive('/admin') ? 'side-link-active' : ''}`}
+              onClick={close}
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M3 3v18h18" />
+                <path d="M18 17V9" />
+                <path d="M13 17V5" />
+                <path d="M8 17v-3" />
+              </svg>
+              <span>数据统计</span>
+            </Link>
+          </>
+        )}
       </nav>
 
       {/* Footer with Theme Toggle and Auth */}

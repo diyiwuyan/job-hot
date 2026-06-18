@@ -7,6 +7,7 @@ import { ThemeScript } from '@/components/ThemeScript';
 import { SidebarProvider } from '@/components/SidebarContext';
 import { AppShell } from '@/components/AppShell';
 import { AuthProvider } from '@/components/AuthContext';
+import { AnalyticsTracker } from '@/components/AnalyticsTracker';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -48,6 +49,7 @@ export default function RootLayout({
                 {children}
               </main>
             </AppShell>
+            <AnalyticsTracker />
           </SidebarProvider>
         </AuthProvider>
       </body>
