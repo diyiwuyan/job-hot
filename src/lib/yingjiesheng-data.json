@@ -1,27 +1,5 @@
 [
   {
-    "id": "yjs-iw9mco",
-    "title": "系列 宣讲会 — 南方医科大学",
-    "summary": "城市：广州。时间：2027-03-28(周日)。地点：南方医科大学校本部。学校：南方医科大学。",
-    "url": "https://my.yingjiesheng.com/xjh-006-228-647.html",
-    "source": "应届生求职网",
-    "sourceHandle": "@yingjiesheng",
-    "channel": "talk",
-    "category": "other",
-    "location": "广州",
-    "deadline": "2027/03/28",
-    "tags": [
-      "宣讲会",
-      "校招",
-      "系列",
-      "南方医科大学",
-      "广州"
-    ],
-    "score": 72,
-    "featured": false,
-    "createdAt": "2026-06-18T03:59:25.469Z"
-  },
-  {
     "id": "yjs-j11f6h",
     "title": "恒动（常州）新能源科技有限公司 宣讲会 — 常州工学院",
     "summary": "城市：常州。时间：2027-05-07(周五)。地点：文化艺术中心B304。学校：常州工学院。",
@@ -42,51 +20,7 @@
     ],
     "score": 71,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.469Z"
-  },
-  {
-    "id": "yjs-d54rdi",
-    "title": "蜜雪冰城股份有限公司 宣讲会 — 南京邮电大学",
-    "summary": "城市：南京。时间：2026-10-24(周六)。地点：无线楼1号教室。学校：南京邮电大学。",
-    "url": "https://my.yingjiesheng.com/xjh-006-182-134.html",
-    "source": "应届生求职网",
-    "sourceHandle": "@yingjiesheng",
-    "channel": "talk",
-    "category": "other",
-    "location": "南京",
-    "deadline": "2026/10/24",
-    "tags": [
-      "宣讲会",
-      "校招",
-      "蜜雪冰城股份有限公司",
-      "南京邮电大学",
-      "南京"
-    ],
-    "score": 71,
-    "featured": false,
-    "createdAt": "2026-06-18T03:59:25.469Z"
-  },
-  {
-    "id": "yjs-1ry63p",
-    "title": "传音控股 宣讲会 — 南京艺术学院",
-    "summary": "城市：南京。时间：2026-10-16(周五)。地点：工业设计学院101。学校：南京艺术学院。",
-    "url": "https://my.yingjiesheng.com/xjh-006-176-384.html",
-    "source": "应届生求职网",
-    "sourceHandle": "@yingjiesheng",
-    "channel": "talk",
-    "category": "other",
-    "location": "南京",
-    "deadline": "2026/10/16",
-    "tags": [
-      "宣讲会",
-      "校招",
-      "传音控股",
-      "南京艺术学院",
-      "南京"
-    ],
-    "score": 71,
-    "featured": false,
-    "createdAt": "2026-06-18T03:59:25.469Z"
+    "createdAt": "2026-06-18T05:56:44.907Z"
   },
   {
     "id": "yjs-q537c4",
@@ -110,53 +44,29 @@
     ],
     "score": 70,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.469Z"
+    "createdAt": "2026-06-18T05:56:44.907Z"
   },
   {
-    "id": "yjs-fdh72x",
-    "title": "上海七十迈数字科技有限公司 宣讲会 — 武汉理工大学",
-    "summary": "城市：武汉。时间：2026-11-06(周五)。地点：马房山校区，东院就业大楼六号厅。学校：武汉理工大学。",
-    "url": "https://my.yingjiesheng.com/xjh-006-205-212.html",
+    "id": "yjs-iw9mco",
+    "title": "系列 宣讲会 — 南方医科大学",
+    "summary": "城市：广州。时间：2027-03-28(周日)。地点：南方医科大学校本部。学校：南方医科大学。",
+    "url": "https://my.yingjiesheng.com/xjh-006-228-647.html",
     "source": "应届生求职网",
     "sourceHandle": "@yingjiesheng",
     "channel": "talk",
-    "category": "internet",
-    "location": "武汉",
-    "deadline": "2026/11/06",
+    "category": "other",
+    "location": "广州",
+    "deadline": "2027/03/28",
     "tags": [
       "宣讲会",
       "校招",
-      "上海七十迈数字科技有限公司",
-      "武汉理工大学",
-      "武汉",
-      "互联网/AI"
+      "系列",
+      "南方医科大学",
+      "广州"
     ],
-    "score": 70,
+    "score": 72,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.469Z"
-  },
-  {
-    "id": "yjs-l8ymzs",
-    "title": "东实汽车科技集团股份有限公司 宣讲会 — 青岛理工大学",
-    "summary": "城市：青岛。时间：2026-10-15(周四)。地点：黄岛校区主教学楼B125。学校：青岛理工大学。",
-    "url": "https://my.yingjiesheng.com/xjh-006-172-362.html",
-    "source": "应届生求职网",
-    "sourceHandle": "@yingjiesheng",
-    "channel": "talk",
-    "category": "auto_ic",
-    "location": "青岛",
-    "deadline": "2026/10/15",
-    "tags": [
-      "宣讲会",
-      "校招",
-      "东实汽车科技集团股份有限公司",
-      "青岛理工大学",
-      "青岛",
-      "车企/IC"
-    ],
-    "score": 69,
-    "featured": false,
-    "createdAt": "2026-06-18T03:59:25.469Z"
+    "createdAt": "2026-06-18T05:56:44.906Z"
   },
   {
     "id": "yjs-2th5m",
@@ -178,7 +88,7 @@
     ],
     "score": 72,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.468Z"
+    "createdAt": "2026-06-18T05:56:44.906Z"
   },
   {
     "id": "yjs-8c6klz",
@@ -201,7 +111,7 @@
     ],
     "score": 72,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.468Z"
+    "createdAt": "2026-06-18T05:56:44.906Z"
   },
   {
     "id": "yjs-2sm0c0",
@@ -223,7 +133,7 @@
     ],
     "score": 72,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.468Z"
+    "createdAt": "2026-06-18T05:56:44.906Z"
   },
   {
     "id": "yjs-awwvgt",
@@ -243,7 +153,7 @@
     ],
     "score": 72,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.468Z"
+    "createdAt": "2026-06-18T05:56:44.906Z"
   },
   {
     "id": "yjs-lq05x3",
@@ -266,7 +176,140 @@
     ],
     "score": 72,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.468Z"
+    "createdAt": "2026-06-18T05:56:44.906Z"
+  },
+  {
+    "id": "yjs-1p6duw",
+    "title": "（多家企业） 宣讲会 — 东莞理工学院",
+    "summary": "城市：东莞。时间：2026-07-02(周四)。地点：松山湖校区游泳馆一楼。学校：东莞理工学院。",
+    "url": "https://my.yingjiesheng.com/xjh-006-267-964.html",
+    "source": "应届生求职网",
+    "sourceHandle": "@yingjiesheng",
+    "channel": "talk",
+    "category": "other",
+    "location": "东莞",
+    "deadline": "2026/07/02",
+    "tags": [
+      "宣讲会",
+      "校招",
+      "（多家企业）",
+      "东莞理工学院",
+      "东莞"
+    ],
+    "score": 72,
+    "featured": false,
+    "createdAt": "2026-06-18T05:56:44.906Z"
+  },
+  {
+    "id": "yjs-71kixr",
+    "title": "（多家企业） 宣讲会 — 苏州百年职业学院",
+    "summary": "城市：苏州。时间：2026-06-29(周一)。地点：润德堂。学校：苏州百年职业学院。",
+    "url": "https://my.yingjiesheng.com/xjh-006-268-409.html",
+    "source": "应届生求职网",
+    "sourceHandle": "@yingjiesheng",
+    "channel": "talk",
+    "category": "other",
+    "location": "苏州",
+    "deadline": "2026/06/29",
+    "tags": [
+      "宣讲会",
+      "校招",
+      "（多家企业）",
+      "苏州百年职业学院",
+      "苏州"
+    ],
+    "score": 72,
+    "featured": false,
+    "createdAt": "2026-06-18T05:56:44.906Z"
+  },
+  {
+    "id": "yjs-d54rdi",
+    "title": "蜜雪冰城股份有限公司 宣讲会 — 南京邮电大学",
+    "summary": "城市：南京。时间：2026-10-24(周六)。地点：无线楼1号教室。学校：南京邮电大学。",
+    "url": "https://my.yingjiesheng.com/xjh-006-182-134.html",
+    "source": "应届生求职网",
+    "sourceHandle": "@yingjiesheng",
+    "channel": "talk",
+    "category": "other",
+    "location": "南京",
+    "deadline": "2026/10/24",
+    "tags": [
+      "宣讲会",
+      "校招",
+      "蜜雪冰城股份有限公司",
+      "南京邮电大学",
+      "南京"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-06-18T05:56:44.906Z"
+  },
+  {
+    "id": "yjs-1ry63p",
+    "title": "传音控股 宣讲会 — 南京艺术学院",
+    "summary": "城市：南京。时间：2026-10-16(周五)。地点：工业设计学院101。学校：南京艺术学院。",
+    "url": "https://my.yingjiesheng.com/xjh-006-176-384.html",
+    "source": "应届生求职网",
+    "sourceHandle": "@yingjiesheng",
+    "channel": "talk",
+    "category": "other",
+    "location": "南京",
+    "deadline": "2026/10/16",
+    "tags": [
+      "宣讲会",
+      "校招",
+      "传音控股",
+      "南京艺术学院",
+      "南京"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-06-18T05:56:44.906Z"
+  },
+  {
+    "id": "yjs-qg9j2x",
+    "title": "浙江天正电气股份有限公司 宣讲会 — 中国矿业大学",
+    "summary": "城市：徐州。时间：2026-09-09(周三)。地点：南湖校区博一B101。学校：中国矿业大学。",
+    "url": "https://my.yingjiesheng.com/xjh-006-169-603.html",
+    "source": "应届生求职网",
+    "sourceHandle": "@yingjiesheng",
+    "channel": "talk",
+    "category": "other",
+    "location": "徐州",
+    "deadline": "2026/09/09",
+    "tags": [
+      "宣讲会",
+      "校招",
+      "浙江天正电气股份有限公司",
+      "中国矿业大学",
+      "徐州"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-06-18T05:56:44.906Z"
+  },
+  {
+    "id": "yjs-fdh72x",
+    "title": "上海七十迈数字科技有限公司 宣讲会 — 武汉理工大学",
+    "summary": "城市：武汉。时间：2026-11-06(周五)。地点：马房山校区，东院就业大楼六号厅。学校：武汉理工大学。",
+    "url": "https://my.yingjiesheng.com/xjh-006-205-212.html",
+    "source": "应届生求职网",
+    "sourceHandle": "@yingjiesheng",
+    "channel": "talk",
+    "category": "internet",
+    "location": "武汉",
+    "deadline": "2026/11/06",
+    "tags": [
+      "宣讲会",
+      "校招",
+      "上海七十迈数字科技有限公司",
+      "武汉理工大学",
+      "武汉",
+      "互联网/AI"
+    ],
+    "score": 70,
+    "featured": false,
+    "createdAt": "2026-06-18T05:56:44.906Z"
   },
   {
     "id": "yjs-mhh4ym",
@@ -288,7 +331,50 @@
     ],
     "score": 70,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.468Z"
+    "createdAt": "2026-06-18T05:56:44.906Z"
+  },
+  {
+    "id": "yjs-7ezerg",
+    "title": "（多家企业） 宣讲会 — 神木职业技术学院",
+    "summary": "时间：2026-07-03(周五)。地点：图书馆一楼。学校：神木职业技术学院。",
+    "url": "https://my.yingjiesheng.com/xjh-006-268-510.html",
+    "source": "应届生求职网",
+    "sourceHandle": "@yingjiesheng",
+    "channel": "talk",
+    "category": "other",
+    "deadline": "2026/07/03",
+    "tags": [
+      "宣讲会",
+      "校招",
+      "（多家企业）",
+      "神木职业技术学院"
+    ],
+    "score": 70,
+    "featured": false,
+    "createdAt": "2026-06-18T05:56:44.906Z"
+  },
+  {
+    "id": "yjs-l8ymzs",
+    "title": "东实汽车科技集团股份有限公司 宣讲会 — 青岛理工大学",
+    "summary": "城市：青岛。时间：2026-10-15(周四)。地点：黄岛校区主教学楼B125。学校：青岛理工大学。",
+    "url": "https://my.yingjiesheng.com/xjh-006-172-362.html",
+    "source": "应届生求职网",
+    "sourceHandle": "@yingjiesheng",
+    "channel": "talk",
+    "category": "auto_ic",
+    "location": "青岛",
+    "deadline": "2026/10/15",
+    "tags": [
+      "宣讲会",
+      "校招",
+      "东实汽车科技集团股份有限公司",
+      "青岛理工大学",
+      "青岛",
+      "车企/IC"
+    ],
+    "score": 69,
+    "featured": false,
+    "createdAt": "2026-06-18T05:56:44.906Z"
   },
   {
     "id": "yjs-rknovo",
@@ -310,7 +396,7 @@
     ],
     "score": 69,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.468Z"
+    "createdAt": "2026-06-18T05:56:44.906Z"
   },
   {
     "id": "yjs-3h4ma3",
@@ -332,7 +418,29 @@
     ],
     "score": 69,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.468Z"
+    "createdAt": "2026-06-18T05:56:44.906Z"
+  },
+  {
+    "id": "yjs-qf2v4u",
+    "title": "（多家企业） 宣讲会 — 滁州城市职业学院",
+    "summary": "城市：滁州。时间：2026-07-04(周六)。地点：体育馆。学校：滁州城市职业学院。",
+    "url": "https://my.yingjiesheng.com/xjh-006-268-191.html",
+    "source": "应届生求职网",
+    "sourceHandle": "@yingjiesheng",
+    "channel": "talk",
+    "category": "other",
+    "location": "滁州",
+    "deadline": "2026/07/04",
+    "tags": [
+      "宣讲会",
+      "校招",
+      "（多家企业）",
+      "滁州城市职业学院",
+      "滁州"
+    ],
+    "score": 68,
+    "featured": false,
+    "createdAt": "2026-06-18T05:56:44.906Z"
   },
   {
     "id": "yjs-1gzyi0",
@@ -354,7 +462,7 @@
     ],
     "score": 79,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
     "id": "yjs-baov4w",
@@ -376,7 +484,7 @@
     ],
     "score": 77,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
     "id": "yjs-1acv8h",
@@ -398,7 +506,7 @@
     ],
     "score": 77,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
     "id": "yjs-e27y2g",
@@ -420,7 +528,7 @@
     ],
     "score": 77,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
     "id": "yjs-tnwffb",
@@ -442,7 +550,7 @@
     ],
     "score": 77,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
     "id": "yjs-x8yokk",
@@ -465,7 +573,7 @@
     ],
     "score": 77,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
     "id": "yjs-1863nu",
@@ -487,51 +595,7 @@
     ],
     "score": 77,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
-  },
-  {
-    "id": "yjs-7hqnmw",
-    "title": "（多家企业） 宣讲会 — 晋城职业技术学院",
-    "summary": "城市：晋城。时间：2026-06-24(周三)。地点：诚明阁前。学校：晋城职业技术学院。",
-    "url": "https://my.yingjiesheng.com/xjh-006-267-394.html",
-    "source": "应届生求职网",
-    "sourceHandle": "@yingjiesheng",
-    "channel": "talk",
-    "category": "other",
-    "location": "晋城",
-    "deadline": "2026/06/24",
-    "tags": [
-      "宣讲会",
-      "校招",
-      "（多家企业）",
-      "晋城职业技术学院",
-      "晋城"
-    ],
-    "score": 77,
-    "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
-  },
-  {
-    "id": "yjs-fj5pas",
-    "title": "（多家企业） 宣讲会 — 贺州学院",
-    "summary": "城市：贺州。时间：2026-06-24(周三)。地点：西校区地方民族文化研究中心。学校：贺州学院。",
-    "url": "https://my.yingjiesheng.com/xjh-006-267-260.html",
-    "source": "应届生求职网",
-    "sourceHandle": "@yingjiesheng",
-    "channel": "talk",
-    "category": "other",
-    "location": "贺州",
-    "deadline": "2026/06/24",
-    "tags": [
-      "宣讲会",
-      "校招",
-      "（多家企业）",
-      "贺州学院",
-      "贺州"
-    ],
-    "score": 77,
-    "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
     "id": "yjs-goc0bg",
@@ -553,7 +617,7 @@
     ],
     "score": 76,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
     "id": "yjs-czkpfz",
@@ -576,7 +640,7 @@
     ],
     "score": 76,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
     "id": "yjs-ldzzia",
@@ -599,7 +663,7 @@
     ],
     "score": 76,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
     "id": "yjs-reas2h",
@@ -621,7 +685,7 @@
     ],
     "score": 76,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
     "id": "yjs-uc3twh",
@@ -643,7 +707,7 @@
     ],
     "score": 76,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
     "id": "yjs-t41bl6",
@@ -666,7 +730,7 @@
     ],
     "score": 76,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
     "id": "yjs-reasyn",
@@ -688,51 +752,29 @@
     ],
     "score": 76,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
-    "id": "yjs-fipowj",
-    "title": "（多家企业） 宣讲会 — 苏州健雄职业技术学院",
-    "summary": "城市：苏州。时间：2026-06-24(周三)。地点：A楼-健雄大道。学校：苏州健雄职业技术学院。",
-    "url": "https://my.yingjiesheng.com/xjh-006-266-770.html",
+    "id": "yjs-37rz8v",
+    "title": "烟台杰瑞集团 宣讲会 — 河北工业大学",
+    "summary": "城市：天津。时间：2026-06-26(周五)。地点：北辰校区教学楼12-A103。学校：河北工业大学。",
+    "url": "https://my.yingjiesheng.com/xjh-006-268-527.html",
     "source": "应届生求职网",
     "sourceHandle": "@yingjiesheng",
     "channel": "talk",
     "category": "other",
-    "location": "苏州",
-    "deadline": "2026/06/24",
+    "location": "天津",
+    "deadline": "2026/06/26",
     "tags": [
       "宣讲会",
       "校招",
-      "（多家企业）",
-      "苏州健雄职业技术学院",
-      "苏州"
+      "烟台杰瑞集团",
+      "河北工业大学",
+      "天津"
     ],
     "score": 76,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
-  },
-  {
-    "id": "yjs-2md6u3",
-    "title": "（多家企业） 宣讲会 — 漯河医学高等专科学校",
-    "summary": "城市：漯河。时间：2026-06-24(周三)。地点：源汇校区  2号楼北区。学校：漯河医学高等专科学校。",
-    "url": "https://my.yingjiesheng.com/xjh-006-267-401.html",
-    "source": "应届生求职网",
-    "sourceHandle": "@yingjiesheng",
-    "channel": "talk",
-    "category": "other",
-    "location": "漯河",
-    "deadline": "2026/06/24",
-    "tags": [
-      "宣讲会",
-      "校招",
-      "（多家企业）",
-      "漯河医学高等专科学校",
-      "漯河"
-    ],
-    "score": 75,
-    "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
     "id": "yjs-7ub03r",
@@ -755,7 +797,7 @@
     ],
     "score": 74,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
     "id": "yjs-s3yo10",
@@ -777,7 +819,7 @@
     ],
     "score": 74,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
     "id": "yjs-55iw1z",
@@ -800,7 +842,7 @@
     ],
     "score": 74,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
     "id": "yjs-7x2nx0",
@@ -822,7 +864,7 @@
     ],
     "score": 74,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
     "id": "yjs-fprtfj",
@@ -844,7 +886,7 @@
     ],
     "score": 74,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
     "id": "yjs-c7jr01",
@@ -866,7 +908,7 @@
     ],
     "score": 74,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
     "id": "yjs-9sar2a",
@@ -888,30 +930,51 @@
     ],
     "score": 74,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
-    "id": "yjs-r1vkza",
-    "title": "（多家企业） 宣讲会 — 广州科技职业技术大学",
-    "summary": "城市：广州。时间：2026-06-24(周三)。地点：广州校区图书馆架空层。学校：广州科技职业技术大学。",
-    "url": "https://my.yingjiesheng.com/xjh-006-257-959.html",
+    "id": "yjs-9i90tu",
+    "title": "南京新东方文化艺术发展有限公司 宣讲会 — 空中宣讲会",
+    "summary": "城市：全国。时间：2026-06-24(周三)。学校：空中宣讲会。",
+    "url": "https://my.yingjiesheng.com/xjh-006-268-543.html",
     "source": "应届生求职网",
     "sourceHandle": "@yingjiesheng",
     "channel": "talk",
-    "category": "internet",
-    "location": "广州",
+    "category": "other",
+    "location": "全国",
     "deadline": "2026/06/24",
     "tags": [
       "宣讲会",
       "校招",
-      "（多家企业）",
-      "广州科技职业技术大学",
-      "广州",
-      "互联网/AI"
+      "南京新东方文化艺术发展有限公司",
+      "空中宣讲会",
+      "全国"
     ],
     "score": 74,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
+  },
+  {
+    "id": "yjs-m18pe4",
+    "title": "山东金拱门食品有限公司 宣讲会 — 山东大学",
+    "summary": "城市：济南。时间：2026-06-26(周五)。地点：中心校区歌尔报告厅（就业中心第一报告厅）（18号楼西连廊A216）。学校：山东大学。",
+    "url": "https://my.yingjiesheng.com/xjh-006-268-538.html",
+    "source": "应届生求职网",
+    "sourceHandle": "@yingjiesheng",
+    "channel": "talk",
+    "category": "other",
+    "location": "济南",
+    "deadline": "2026/06/26",
+    "tags": [
+      "宣讲会",
+      "校招",
+      "山东金拱门食品有限公司",
+      "山东大学",
+      "济南"
+    ],
+    "score": 74,
+    "featured": false,
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
     "id": "yjs-xa0d2b",
@@ -934,7 +997,7 @@
     ],
     "score": 73,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
     "id": "yjs-97alfc",
@@ -957,73 +1020,30 @@
     ],
     "score": 73,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
-    "id": "yjs-iy5yzn",
-    "title": "（多家企业） 宣讲会 — 南京工程学院",
-    "summary": "城市：南京。时间：2026-06-24(周三)。地点：北区大学生活动中心二楼。学校：南京工程学院。",
-    "url": "https://my.yingjiesheng.com/xjh-006-267-078.html",
+    "id": "yjs-t2dvyr",
+    "title": "广州联通 宣讲会 — 广东水利电力职业技术学院",
+    "summary": "城市：广州。时间：2026-06-24(周三)。地点：A3水电中心105。学校：广东水利电力职业技术学院。",
+    "url": "https://my.yingjiesheng.com/xjh-006-268-539.html",
     "source": "应届生求职网",
     "sourceHandle": "@yingjiesheng",
     "channel": "talk",
-    "category": "other",
-    "location": "南京",
+    "category": "auto_ic",
+    "location": "广州",
     "deadline": "2026/06/24",
     "tags": [
       "宣讲会",
       "校招",
-      "（多家企业）",
-      "南京工程学院",
-      "南京"
+      "广州联通",
+      "广东水利电力职业技术学院",
+      "广州",
+      "车企/IC"
     ],
     "score": 73,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
-  },
-  {
-    "id": "yjs-tuo3oa",
-    "title": "（多家企业） 宣讲会 — 常州机电职业技术学院",
-    "summary": "城市：常州。时间：2026-06-24(周三)。地点：溧阳基地思行楼1楼。学校：常州机电职业技术学院。",
-    "url": "https://my.yingjiesheng.com/xjh-006-268-216.html",
-    "source": "应届生求职网",
-    "sourceHandle": "@yingjiesheng",
-    "channel": "talk",
-    "category": "other",
-    "location": "常州",
-    "deadline": "2026/06/24",
-    "tags": [
-      "宣讲会",
-      "校招",
-      "（多家企业）",
-      "常州机电职业技术学院",
-      "常州"
-    ],
-    "score": 73,
-    "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
-  },
-  {
-    "id": "yjs-ehx46n",
-    "title": "（多家企业） 宣讲会 — 北京城市学院",
-    "summary": "城市：北京。时间：2026-06-24(周三)。地点：航天城校区 综合楼一层报告厅。学校：北京城市学院。",
-    "url": "https://my.yingjiesheng.com/xjh-006-268-436.html",
-    "source": "应届生求职网",
-    "sourceHandle": "@yingjiesheng",
-    "channel": "talk",
-    "category": "other",
-    "location": "北京",
-    "deadline": "2026/06/24",
-    "tags": [
-      "宣讲会",
-      "校招",
-      "（多家企业）",
-      "北京城市学院",
-      "北京"
-    ],
-    "score": 73,
-    "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
     "id": "yjs-mhsru9",
@@ -1045,73 +1065,7 @@
     ],
     "score": 72,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
-  },
-  {
-    "id": "yjs-1p6duw",
-    "title": "（多家企业） 宣讲会 — 东莞理工学院",
-    "summary": "城市：东莞。时间：2026-07-02(周四)。地点：松山湖校区游泳馆一楼。学校：东莞理工学院。",
-    "url": "https://my.yingjiesheng.com/xjh-006-267-964.html",
-    "source": "应届生求职网",
-    "sourceHandle": "@yingjiesheng",
-    "channel": "talk",
-    "category": "other",
-    "location": "东莞",
-    "deadline": "2026/07/02",
-    "tags": [
-      "宣讲会",
-      "校招",
-      "（多家企业）",
-      "东莞理工学院",
-      "东莞"
-    ],
-    "score": 72,
-    "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
-  },
-  {
-    "id": "yjs-71kixr",
-    "title": "（多家企业） 宣讲会 — 苏州百年职业学院",
-    "summary": "城市：苏州。时间：2026-06-29(周一)。地点：润德堂。学校：苏州百年职业学院。",
-    "url": "https://my.yingjiesheng.com/xjh-006-268-409.html",
-    "source": "应届生求职网",
-    "sourceHandle": "@yingjiesheng",
-    "channel": "talk",
-    "category": "other",
-    "location": "苏州",
-    "deadline": "2026/06/29",
-    "tags": [
-      "宣讲会",
-      "校招",
-      "（多家企业）",
-      "苏州百年职业学院",
-      "苏州"
-    ],
-    "score": 72,
-    "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
-  },
-  {
-    "id": "yjs-qg9j2x",
-    "title": "浙江天正电气股份有限公司 宣讲会 — 中国矿业大学",
-    "summary": "城市：徐州。时间：2026-09-09(周三)。地点：南湖校区博一B101。学校：中国矿业大学。",
-    "url": "https://my.yingjiesheng.com/xjh-006-169-603.html",
-    "source": "应届生求职网",
-    "sourceHandle": "@yingjiesheng",
-    "channel": "talk",
-    "category": "other",
-    "location": "徐州",
-    "deadline": "2026/09/09",
-    "tags": [
-      "宣讲会",
-      "校招",
-      "浙江天正电气股份有限公司",
-      "中国矿业大学",
-      "徐州"
-    ],
-    "score": 71,
-    "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
     "id": "yjs-w990sl",
@@ -1133,116 +1087,29 @@
     ],
     "score": 71,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
-    "id": "yjs-7ezerg",
-    "title": "（多家企业） 宣讲会 — 神木职业技术学院",
-    "summary": "时间：2026-07-03(周五)。地点：图书馆一楼。学校：神木职业技术学院。",
-    "url": "https://my.yingjiesheng.com/xjh-006-268-510.html",
+    "id": "yjs-fjt76k",
+    "title": "（多家企业） 宣讲会 — 安徽工商职业学院",
+    "summary": "城市：合肥。时间：2026-06-27(周六)。地点：教学中心ABCD座。学校：安徽工商职业学院。",
+    "url": "https://my.yingjiesheng.com/xjh-006-268-540.html",
     "source": "应届生求职网",
     "sourceHandle": "@yingjiesheng",
     "channel": "talk",
     "category": "other",
-    "deadline": "2026/07/03",
+    "location": "合肥",
+    "deadline": "2026/06/27",
     "tags": [
       "宣讲会",
       "校招",
       "（多家企业）",
-      "神木职业技术学院"
+      "安徽工商职业学院",
+      "合肥"
     ],
     "score": 70,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
-  },
-  {
-    "id": "yjs-qf2v4u",
-    "title": "（多家企业） 宣讲会 — 滁州城市职业学院",
-    "summary": "城市：滁州。时间：2026-07-04(周六)。地点：体育馆。学校：滁州城市职业学院。",
-    "url": "https://my.yingjiesheng.com/xjh-006-268-191.html",
-    "source": "应届生求职网",
-    "sourceHandle": "@yingjiesheng",
-    "channel": "talk",
-    "category": "other",
-    "location": "滁州",
-    "deadline": "2026/07/04",
-    "tags": [
-      "宣讲会",
-      "校招",
-      "（多家企业）",
-      "滁州城市职业学院",
-      "滁州"
-    ],
-    "score": 68,
-    "featured": false,
-    "createdAt": "2026-06-18T03:59:25.463Z"
-  },
-  {
-    "id": "yjs-7cm402",
-    "title": "新能源科技有限公司 宣讲会 — 湖南师范大学",
-    "summary": "城市：长沙。时间：2026-06-22(周一)。地点：湖南师范大学 至善楼108。学校：湖南师范大学。",
-    "url": "https://my.yingjiesheng.com/xjh-006-268-310.html",
-    "source": "应届生求职网",
-    "sourceHandle": "@yingjiesheng",
-    "channel": "talk",
-    "category": "auto_ic",
-    "location": "长沙",
-    "deadline": "2026/06/22",
-    "tags": [
-      "宣讲会",
-      "校招",
-      "新能源科技有限公司",
-      "湖南师范大学",
-      "长沙",
-      "车企/IC"
-    ],
-    "score": 81,
-    "featured": true,
-    "createdAt": "2026-06-18T03:59:25.462Z"
-  },
-  {
-    "id": "yjs-c0ltmm",
-    "title": "东北师范大学盘龙实验学校 宣讲会 — 东北师范大学",
-    "summary": "城市：长春。时间：2026-06-21(周日)。地点：本部校区就业中心多功能厅（二）。学校：东北师范大学。",
-    "url": "https://my.yingjiesheng.com/xjh-006-268-353.html",
-    "source": "应届生求职网",
-    "sourceHandle": "@yingjiesheng",
-    "channel": "talk",
-    "category": "other",
-    "location": "长春",
-    "deadline": "2026/06/21",
-    "tags": [
-      "宣讲会",
-      "校招",
-      "东北师范大学盘龙实验学校",
-      "东北师范大学",
-      "长春"
-    ],
-    "score": 80,
-    "featured": true,
-    "createdAt": "2026-06-18T03:59:25.462Z"
-  },
-  {
-    "id": "yjs-siwyug",
-    "title": "系列 宣讲会 — 上海商学院",
-    "summary": "城市：上海。时间：2026-06-20(周六)。地点：毕业申。学校：上海商学院。",
-    "url": "https://my.yingjiesheng.com/xjh-006-268-470.html",
-    "source": "应届生求职网",
-    "sourceHandle": "@yingjiesheng",
-    "channel": "talk",
-    "category": "other",
-    "location": "上海",
-    "deadline": "2026/06/20",
-    "tags": [
-      "宣讲会",
-      "校招",
-      "系列",
-      "上海商学院",
-      "上海"
-    ],
-    "score": 80,
-    "featured": true,
-    "createdAt": "2026-06-18T03:59:25.462Z"
+    "createdAt": "2026-06-18T05:56:44.898Z"
   },
   {
     "id": "yjs-qrwuls",
@@ -1264,96 +1131,51 @@
     ],
     "score": 79,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.462Z"
+    "createdAt": "2026-06-18T05:56:44.897Z"
   },
   {
-    "id": "yjs-h6kl1p",
-    "title": "（多家企业） 宣讲会 — 吉林职业技术学院",
-    "summary": "城市：延边。时间：2026-06-20(周六)。地点：足球场。学校：吉林职业技术学院。",
-    "url": "https://my.yingjiesheng.com/xjh-006-266-018.html",
+    "id": "yjs-7hqnmw",
+    "title": "（多家企业） 宣讲会 — 晋城职业技术学院",
+    "summary": "城市：晋城。时间：2026-06-24(周三)。地点：诚明阁前。学校：晋城职业技术学院。",
+    "url": "https://my.yingjiesheng.com/xjh-006-267-394.html",
     "source": "应届生求职网",
     "sourceHandle": "@yingjiesheng",
     "channel": "talk",
     "category": "other",
-    "location": "延边",
-    "deadline": "2026/06/20",
+    "location": "晋城",
+    "deadline": "2026/06/24",
     "tags": [
       "宣讲会",
       "校招",
       "（多家企业）",
-      "吉林职业技术学院",
-      "延边"
+      "晋城职业技术学院",
+      "晋城"
     ],
-    "score": 79,
+    "score": 77,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.462Z"
+    "createdAt": "2026-06-18T05:56:44.897Z"
   },
   {
-    "id": "yjs-1xrmon",
-    "title": "（多家企业） 宣讲会 — 吉林建筑大学",
-    "summary": "城市：吉林。时间：2026-06-21(周日)。地点：土木教学馆一楼。学校：吉林建筑大学。",
-    "url": "https://my.yingjiesheng.com/xjh-006-265-264.html",
+    "id": "yjs-fj5pas",
+    "title": "（多家企业） 宣讲会 — 贺州学院",
+    "summary": "城市：贺州。时间：2026-06-24(周三)。地点：西校区地方民族文化研究中心。学校：贺州学院。",
+    "url": "https://my.yingjiesheng.com/xjh-006-267-260.html",
     "source": "应届生求职网",
     "sourceHandle": "@yingjiesheng",
     "channel": "talk",
     "category": "other",
-    "location": "吉林",
-    "deadline": "2026/06/21",
+    "location": "贺州",
+    "deadline": "2026/06/24",
     "tags": [
       "宣讲会",
       "校招",
       "（多家企业）",
-      "吉林建筑大学",
-      "吉林"
+      "贺州学院",
+      "贺州"
     ],
-    "score": 78,
+    "score": 77,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.462Z"
-  },
-  {
-    "id": "yjs-4snheu",
-    "title": "水利部淮河水利委员会 宣讲会 — 河海大学",
-    "summary": "城市：南京。时间：2026-06-22(周一)。地点：水文楼2044会议室\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t(更新)。学校：河海大学。",
-    "url": "https://my.yingjiesheng.com/xjh-006-267-779.html",
-    "source": "应届生求职网",
-    "sourceHandle": "@yingjiesheng",
-    "channel": "talk",
-    "category": "other",
-    "location": "南京",
-    "deadline": "2026/06/22",
-    "tags": [
-      "宣讲会",
-      "校招",
-      "水利部淮河水利委员会",
-      "河海大学",
-      "南京"
-    ],
-    "score": 78,
-    "featured": false,
-    "createdAt": "2026-06-18T03:59:25.462Z"
-  },
-  {
-    "id": "yjs-qvizvk",
-    "title": "浙江双环传动机械股份有限公司 宣讲会 — 空中宣讲会",
-    "summary": "城市：全国。时间：2026-06-22(周一)。学校：空中宣讲会。",
-    "url": "https://my.yingjiesheng.com/xjh-006-268-328.html",
-    "source": "应届生求职网",
-    "sourceHandle": "@yingjiesheng",
-    "channel": "talk",
-    "category": "auto_ic",
-    "location": "全国",
-    "deadline": "2026/06/22",
-    "tags": [
-      "宣讲会",
-      "校招",
-      "浙江双环传动机械股份有限公司",
-      "空中宣讲会",
-      "全国",
-      "车企/IC"
-    ],
-    "score": 78,
-    "featured": false,
-    "createdAt": "2026-06-18T03:59:25.462Z"
+    "createdAt": "2026-06-18T05:56:44.897Z"
   },
   {
     "id": "yjs-jo3mth",
@@ -1373,7 +1195,51 @@
     ],
     "score": 77,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.462Z"
+    "createdAt": "2026-06-18T05:56:44.897Z"
+  },
+  {
+    "id": "yjs-y3erwl",
+    "title": "（多家企业） 宣讲会 — 江苏工程职业技术学院",
+    "summary": "城市：太仓。时间：2026-06-24(周三)。地点：海门大学生活动中心。学校：江苏工程职业技术学院。",
+    "url": "https://my.yingjiesheng.com/xjh-006-268-520.html",
+    "source": "应届生求职网",
+    "sourceHandle": "@yingjiesheng",
+    "channel": "talk",
+    "category": "other",
+    "location": "太仓",
+    "deadline": "2026/06/24",
+    "tags": [
+      "宣讲会",
+      "校招",
+      "（多家企业）",
+      "江苏工程职业技术学院",
+      "太仓"
+    ],
+    "score": 77,
+    "featured": false,
+    "createdAt": "2026-06-18T05:56:44.897Z"
+  },
+  {
+    "id": "yjs-fipowj",
+    "title": "（多家企业） 宣讲会 — 苏州健雄职业技术学院",
+    "summary": "城市：苏州。时间：2026-06-24(周三)。地点：A楼-健雄大道。学校：苏州健雄职业技术学院。",
+    "url": "https://my.yingjiesheng.com/xjh-006-266-770.html",
+    "source": "应届生求职网",
+    "sourceHandle": "@yingjiesheng",
+    "channel": "talk",
+    "category": "other",
+    "location": "苏州",
+    "deadline": "2026/06/24",
+    "tags": [
+      "宣讲会",
+      "校招",
+      "（多家企业）",
+      "苏州健雄职业技术学院",
+      "苏州"
+    ],
+    "score": 76,
+    "featured": false,
+    "createdAt": "2026-06-18T05:56:44.897Z"
   },
   {
     "id": "yjs-j9mpll",
@@ -1395,7 +1261,7 @@
     ],
     "score": 76,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.462Z"
+    "createdAt": "2026-06-18T05:56:44.897Z"
   },
   {
     "id": "yjs-tdv5xm",
@@ -1418,7 +1284,7 @@
     ],
     "score": 76,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.462Z"
+    "createdAt": "2026-06-18T05:56:44.897Z"
   },
   {
     "id": "yjs-3pvxyl",
@@ -1440,7 +1306,7 @@
     ],
     "score": 76,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.462Z"
+    "createdAt": "2026-06-18T05:56:44.897Z"
   },
   {
     "id": "yjs-d61eje",
@@ -1462,7 +1328,51 @@
     ],
     "score": 76,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.462Z"
+    "createdAt": "2026-06-18T05:56:44.897Z"
+  },
+  {
+    "id": "yjs-reapu6",
+    "title": "（多家企业） 宣讲会 — 南通师范高等专科学校",
+    "summary": "城市：南通。时间：2026-06-23(周二)。地点：体育学院阶梯教室104。学校：南通师范高等专科学校。",
+    "url": "https://my.yingjiesheng.com/xjh-006-268-528.html",
+    "source": "应届生求职网",
+    "sourceHandle": "@yingjiesheng",
+    "channel": "talk",
+    "category": "other",
+    "location": "南通",
+    "deadline": "2026/06/23",
+    "tags": [
+      "宣讲会",
+      "校招",
+      "（多家企业）",
+      "南通师范高等专科学校",
+      "南通"
+    ],
+    "score": 76,
+    "featured": false,
+    "createdAt": "2026-06-18T05:56:44.897Z"
+  },
+  {
+    "id": "yjs-2md6u3",
+    "title": "（多家企业） 宣讲会 — 漯河医学高等专科学校",
+    "summary": "城市：漯河。时间：2026-06-24(周三)。地点：源汇校区  2号楼北区。学校：漯河医学高等专科学校。",
+    "url": "https://my.yingjiesheng.com/xjh-006-267-401.html",
+    "source": "应届生求职网",
+    "sourceHandle": "@yingjiesheng",
+    "channel": "talk",
+    "category": "other",
+    "location": "漯河",
+    "deadline": "2026/06/24",
+    "tags": [
+      "宣讲会",
+      "校招",
+      "（多家企业）",
+      "漯河医学高等专科学校",
+      "漯河"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-06-18T05:56:44.897Z"
   },
   {
     "id": "yjs-dogoph",
@@ -1486,7 +1396,7 @@
     ],
     "score": 75,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.462Z"
+    "createdAt": "2026-06-18T05:56:44.897Z"
   },
   {
     "id": "yjs-5l4ej6",
@@ -1510,7 +1420,7 @@
     ],
     "score": 75,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.462Z"
+    "createdAt": "2026-06-18T05:56:44.897Z"
   },
   {
     "id": "yjs-h1u1b3",
@@ -1533,7 +1443,30 @@
     ],
     "score": 75,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.462Z"
+    "createdAt": "2026-06-18T05:56:44.897Z"
+  },
+  {
+    "id": "yjs-r1vkza",
+    "title": "（多家企业） 宣讲会 — 广州科技职业技术大学",
+    "summary": "城市：广州。时间：2026-06-24(周三)。地点：广州校区图书馆架空层。学校：广州科技职业技术大学。",
+    "url": "https://my.yingjiesheng.com/xjh-006-257-959.html",
+    "source": "应届生求职网",
+    "sourceHandle": "@yingjiesheng",
+    "channel": "talk",
+    "category": "internet",
+    "location": "广州",
+    "deadline": "2026/06/24",
+    "tags": [
+      "宣讲会",
+      "校招",
+      "（多家企业）",
+      "广州科技职业技术大学",
+      "广州",
+      "互联网/AI"
+    ],
+    "score": 74,
+    "featured": false,
+    "createdAt": "2026-06-18T05:56:44.897Z"
   },
   {
     "id": "yjs-g4fixb",
@@ -1555,7 +1488,7 @@
     ],
     "score": 74,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.462Z"
+    "createdAt": "2026-06-18T05:56:44.897Z"
   },
   {
     "id": "yjs-dd6uc9",
@@ -1578,7 +1511,7 @@
     ],
     "score": 74,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.462Z"
+    "createdAt": "2026-06-18T05:56:44.897Z"
   },
   {
     "id": "yjs-cmpju2",
@@ -1601,7 +1534,7 @@
     ],
     "score": 74,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.462Z"
+    "createdAt": "2026-06-18T05:56:44.897Z"
   },
   {
     "id": "yjs-puoqli",
@@ -1623,7 +1556,7 @@
     ],
     "score": 74,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.462Z"
+    "createdAt": "2026-06-18T05:56:44.897Z"
   },
   {
     "id": "yjs-m6yyo8",
@@ -1645,7 +1578,73 @@
     ],
     "score": 74,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.462Z"
+    "createdAt": "2026-06-18T05:56:44.897Z"
+  },
+  {
+    "id": "yjs-iy5yzn",
+    "title": "（多家企业） 宣讲会 — 南京工程学院",
+    "summary": "城市：南京。时间：2026-06-24(周三)。地点：北区大学生活动中心二楼。学校：南京工程学院。",
+    "url": "https://my.yingjiesheng.com/xjh-006-267-078.html",
+    "source": "应届生求职网",
+    "sourceHandle": "@yingjiesheng",
+    "channel": "talk",
+    "category": "other",
+    "location": "南京",
+    "deadline": "2026/06/24",
+    "tags": [
+      "宣讲会",
+      "校招",
+      "（多家企业）",
+      "南京工程学院",
+      "南京"
+    ],
+    "score": 73,
+    "featured": false,
+    "createdAt": "2026-06-18T05:56:44.897Z"
+  },
+  {
+    "id": "yjs-tuo3oa",
+    "title": "（多家企业） 宣讲会 — 常州机电职业技术学院",
+    "summary": "城市：常州。时间：2026-06-24(周三)。地点：溧阳基地思行楼1楼。学校：常州机电职业技术学院。",
+    "url": "https://my.yingjiesheng.com/xjh-006-268-216.html",
+    "source": "应届生求职网",
+    "sourceHandle": "@yingjiesheng",
+    "channel": "talk",
+    "category": "other",
+    "location": "常州",
+    "deadline": "2026/06/24",
+    "tags": [
+      "宣讲会",
+      "校招",
+      "（多家企业）",
+      "常州机电职业技术学院",
+      "常州"
+    ],
+    "score": 73,
+    "featured": false,
+    "createdAt": "2026-06-18T05:56:44.897Z"
+  },
+  {
+    "id": "yjs-ehx46n",
+    "title": "（多家企业） 宣讲会 — 北京城市学院",
+    "summary": "城市：北京。时间：2026-06-24(周三)。地点：航天城校区 综合楼一层报告厅。学校：北京城市学院。",
+    "url": "https://my.yingjiesheng.com/xjh-006-268-436.html",
+    "source": "应届生求职网",
+    "sourceHandle": "@yingjiesheng",
+    "channel": "talk",
+    "category": "other",
+    "location": "北京",
+    "deadline": "2026/06/24",
+    "tags": [
+      "宣讲会",
+      "校招",
+      "（多家企业）",
+      "北京城市学院",
+      "北京"
+    ],
+    "score": 73,
+    "featured": false,
+    "createdAt": "2026-06-18T05:56:44.897Z"
   },
   {
     "id": "yjs-ggnua5",
@@ -1667,7 +1666,186 @@
     ],
     "score": 73,
     "featured": false,
-    "createdAt": "2026-06-18T03:59:25.462Z"
+    "createdAt": "2026-06-18T05:56:44.897Z"
+  },
+  {
+    "id": "yjs-n0o8um",
+    "title": "国防大学 宣讲会 — 中国传媒大学",
+    "summary": "城市：北京。时间：2026-06-24(周三)。地点：中传学术中心V05。学校：中国传媒大学。",
+    "url": "https://my.yingjiesheng.com/xjh-006-268-522.html",
+    "source": "应届生求职网",
+    "sourceHandle": "@yingjiesheng",
+    "channel": "talk",
+    "category": "other",
+    "companyType": "institution",
+    "location": "北京",
+    "deadline": "2026/06/24",
+    "tags": [
+      "宣讲会",
+      "校招",
+      "国防大学",
+      "中国传媒大学",
+      "北京"
+    ],
+    "score": 73,
+    "featured": false,
+    "createdAt": "2026-06-18T05:56:44.897Z"
+  },
+  {
+    "id": "yjs-7cm402",
+    "title": "新能源科技有限公司 宣讲会 — 湖南师范大学",
+    "summary": "城市：长沙。时间：2026-06-22(周一)。地点：湖南师范大学 至善楼108。学校：湖南师范大学。",
+    "url": "https://my.yingjiesheng.com/xjh-006-268-310.html",
+    "source": "应届生求职网",
+    "sourceHandle": "@yingjiesheng",
+    "channel": "talk",
+    "category": "auto_ic",
+    "location": "长沙",
+    "deadline": "2026/06/22",
+    "tags": [
+      "宣讲会",
+      "校招",
+      "新能源科技有限公司",
+      "湖南师范大学",
+      "长沙",
+      "车企/IC"
+    ],
+    "score": 81,
+    "featured": true,
+    "createdAt": "2026-06-18T05:56:44.896Z"
+  },
+  {
+    "id": "yjs-c0ltmm",
+    "title": "东北师范大学盘龙实验学校 宣讲会 — 东北师范大学",
+    "summary": "城市：长春。时间：2026-06-21(周日)。地点：本部校区就业中心多功能厅（二）。学校：东北师范大学。",
+    "url": "https://my.yingjiesheng.com/xjh-006-268-353.html",
+    "source": "应届生求职网",
+    "sourceHandle": "@yingjiesheng",
+    "channel": "talk",
+    "category": "other",
+    "location": "长春",
+    "deadline": "2026/06/21",
+    "tags": [
+      "宣讲会",
+      "校招",
+      "东北师范大学盘龙实验学校",
+      "东北师范大学",
+      "长春"
+    ],
+    "score": 80,
+    "featured": true,
+    "createdAt": "2026-06-18T05:56:44.896Z"
+  },
+  {
+    "id": "yjs-siwyug",
+    "title": "系列 宣讲会 — 上海商学院",
+    "summary": "城市：上海。时间：2026-06-20(周六)。地点：毕业申。学校：上海商学院。",
+    "url": "https://my.yingjiesheng.com/xjh-006-268-470.html",
+    "source": "应届生求职网",
+    "sourceHandle": "@yingjiesheng",
+    "channel": "talk",
+    "category": "other",
+    "location": "上海",
+    "deadline": "2026/06/20",
+    "tags": [
+      "宣讲会",
+      "校招",
+      "系列",
+      "上海商学院",
+      "上海"
+    ],
+    "score": 80,
+    "featured": true,
+    "createdAt": "2026-06-18T05:56:44.896Z"
+  },
+  {
+    "id": "yjs-h6kl1p",
+    "title": "（多家企业） 宣讲会 — 吉林职业技术学院",
+    "summary": "城市：延边。时间：2026-06-20(周六)。地点：足球场。学校：吉林职业技术学院。",
+    "url": "https://my.yingjiesheng.com/xjh-006-266-018.html",
+    "source": "应届生求职网",
+    "sourceHandle": "@yingjiesheng",
+    "channel": "talk",
+    "category": "other",
+    "location": "延边",
+    "deadline": "2026/06/20",
+    "tags": [
+      "宣讲会",
+      "校招",
+      "（多家企业）",
+      "吉林职业技术学院",
+      "延边"
+    ],
+    "score": 79,
+    "featured": false,
+    "createdAt": "2026-06-18T05:56:44.896Z"
+  },
+  {
+    "id": "yjs-1xrmon",
+    "title": "（多家企业） 宣讲会 — 吉林建筑大学",
+    "summary": "城市：吉林。时间：2026-06-21(周日)。地点：土木教学馆一楼。学校：吉林建筑大学。",
+    "url": "https://my.yingjiesheng.com/xjh-006-265-264.html",
+    "source": "应届生求职网",
+    "sourceHandle": "@yingjiesheng",
+    "channel": "talk",
+    "category": "other",
+    "location": "吉林",
+    "deadline": "2026/06/21",
+    "tags": [
+      "宣讲会",
+      "校招",
+      "（多家企业）",
+      "吉林建筑大学",
+      "吉林"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-06-18T05:56:44.896Z"
+  },
+  {
+    "id": "yjs-4snheu",
+    "title": "水利部淮河水利委员会 宣讲会 — 河海大学",
+    "summary": "城市：南京。时间：2026-06-22(周一)。地点：水文楼2044会议室\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t(更新)。学校：河海大学。",
+    "url": "https://my.yingjiesheng.com/xjh-006-267-779.html",
+    "source": "应届生求职网",
+    "sourceHandle": "@yingjiesheng",
+    "channel": "talk",
+    "category": "other",
+    "location": "南京",
+    "deadline": "2026/06/22",
+    "tags": [
+      "宣讲会",
+      "校招",
+      "水利部淮河水利委员会",
+      "河海大学",
+      "南京"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-06-18T05:56:44.896Z"
+  },
+  {
+    "id": "yjs-qvizvk",
+    "title": "浙江双环传动机械股份有限公司 宣讲会 — 空中宣讲会",
+    "summary": "城市：全国。时间：2026-06-22(周一)。学校：空中宣讲会。",
+    "url": "https://my.yingjiesheng.com/xjh-006-268-328.html",
+    "source": "应届生求职网",
+    "sourceHandle": "@yingjiesheng",
+    "channel": "talk",
+    "category": "auto_ic",
+    "location": "全国",
+    "deadline": "2026/06/22",
+    "tags": [
+      "宣讲会",
+      "校招",
+      "浙江双环传动机械股份有限公司",
+      "空中宣讲会",
+      "全国",
+      "车企/IC"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-06-18T05:56:44.896Z"
   },
   {
     "id": "yjs-gqrth6",
