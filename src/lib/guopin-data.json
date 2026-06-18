@@ -7590,7 +7590,7 @@
       "其他金融业",
       "天津"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-06-10T14:46:12.000Z"
   },
@@ -7614,8 +7614,8 @@
       "其他金融业",
       "天津"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-06-10T14:45:16.000Z"
   },
   {
@@ -16563,7 +16563,7 @@
       "文化、体育和娱乐业",
       "北京"
     ],
-    "score": 67,
+    "score": 62,
     "featured": false,
     "createdAt": "2026-06-03T14:30:34.000Z"
   },
