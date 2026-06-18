@@ -1,0 +1,386 @@
+'use client';
+
+import { useEffect, useState, useCallback } from 'react';
+import { useAuth } from '@/components/AuthContext';
+import { useAdmin } from '@/hooks/useAdmin';
+import { supabase } from '@/lib/supabase';
+import Link from 'next/link';
+
+// ── Types ───────────────────────────────────────────────────
+interface AccountUser {
+  user_id: string;
+  email: string;
+  created_at: string;
+  last_sign_in_at: string | null;
+  email_confirmed: boolean;
+  admin_role: string | null;
+  page_view_count: number;
+  last_active_at: string | null;
+}
+
+type SortField = 'email' | 'created_at' | 'last_sign_in_at' | 'page_view_count' | 'admin_role';
+type SortDir = 'asc' | 'desc';
+
+// ── Helpers ─────────────────────────────────────────────────
+function fmtDateTime(iso: string | null): string {
+  if (!iso) return '—';
+  const d = new Date(iso);
+  return d.toLocaleDateString('zh-CN') + ' ' + d.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' });
+}
+
+function roleName(role: string | null): string {
+  if (role === 'super_admin') return '超级管理员';
+  if (role === 'admin') return '管理员';
+  return '普通用户';
+}
+
+function roleClass(role: string | null): string {
+  if (role === 'super_admin') return 'admin-role-super_admin';
+  if (role === 'admin') return 'admin-role-admin';
+  return '';
+}
+
+// ── Main Page ───────────────────────────────────────────────
+export default function AccountsPage() {
+  const { user, loading: authLoading } = useAuth();
+  const { isAdmin, role, loading: adminLoading } = useAdmin();
+
+  const [users, setUsers] = useState<AccountUser[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState('');
+  const [success, setSuccess] = useState('');
+  const [actionLoading, setActionLoading] = useState<string | null>(null);
+
+  // Search & sort
+  const [search, setSearch] = useState('');
+  const [sortField, setSortField] = useState<SortField>('created_at');
+  const [sortDir, setSortDir] = useState<SortDir>('desc');
+
+  // Confirm modal
+  const [confirmAction, setConfirmAction] = useState<{
+    type: 'set_admin' | 'remove_admin' | 'delete_user';
+    userId: string;
+    email: string;
+  } | null>(null);
+
+  // ── Fetch user list via RPC ────────────────────────────────
+  const fetchUsers = useCallback(async () => {
+    if (!supabase || !isAdmin) return;
+    setLoading(true);
+    setError('');
+
+    const { data, error: err } = await supabase.rpc('admin_list_users_safe');
+
+    if (err) {
+      setError(`加载用户列表失败: ${err.message}`);
+      setUsers([]);
+    } else {
+      setUsers((data ?? []) as AccountUser[]);
+    }
+    setLoading(false);
+  }, [isAdmin]);
+
+  useEffect(() => {
+    if (!adminLoading && isAdmin) fetchUsers();
+  }, [adminLoading, isAdmin, fetchUsers]);
+
+  // ── Sort & filter ──────────────────────────────────────────
+  function handleSort(field: SortField) {
+    if (sortField === field) {
+      setSortDir(d => d === 'asc' ? 'desc' : 'asc');
+    } else {
+      setSortField(field);
+      setSortDir('desc');
+    }
+  }
+
+  const sortIndicator = (field: SortField) => {
+    if (sortField !== field) return '';
+    return sortDir === 'asc' ? ' ↑' : ' ↓';
+  };
+
+  const filteredUsers = users
+    .filter(u => {
+      if (!search.trim()) return true;
+      const q = search.trim().toLowerCase();
+      return u.email.toLowerCase().includes(q) || roleName(u.admin_role).includes(q);
+    })
+    .sort((a, b) => {
+      const dir = sortDir === 'asc' ? 1 : -1;
+      switch (sortField) {
+        case 'email':
+          return dir * a.email.localeCompare(b.email);
+        case 'created_at':
+          return dir * (new Date(a.created_at).getTime() - new Date(b.created_at).getTime());
+        case 'last_sign_in_at':
+          return dir * ((a.last_sign_in_at ? new Date(a.last_sign_in_at).getTime() : 0) - (b.last_sign_in_at ? new Date(b.last_sign_in_at).getTime() : 0));
+        case 'page_view_count':
+          return dir * (a.page_view_count - b.page_view_count);
+        case 'admin_role': {
+          const rank = (r: string | null) => r === 'super_admin' ? 2 : r === 'admin' ? 1 : 0;
+          return dir * (rank(a.admin_role) - rank(b.admin_role));
+        }
+        default:
+          return 0;
+      }
+    });
+
+  // ── Actions ────────────────────────────────────────────────
+  async function setAdminRole(userId: string) {
+    if (!supabase) return;
+    setActionLoading(userId);
+    setError('');
+    setSuccess('');
+
+    const { data, error: err } = await supabase.rpc('admin_set_role', {
+      target_user_id: userId,
+      target_role: 'admin',
+    });
+
+    if (err) {
+      setError(`设置管理员失败: ${err.message}`);
+    } else {
+      setSuccess(`已设置为管理员 (${data})`);
+      fetchUsers();
+    }
+    setActionLoading(null);
+    setConfirmAction(null);
+  }
+
+  async function removeAdminRole(userId: string) {
+    if (!supabase) return;
+    setActionLoading(userId);
+    setError('');
+    setSuccess('');
+
+    const { data, error: err } = await supabase.rpc('admin_set_role', {
+      target_user_id: userId,
+      target_role: null,
+    });
+
+    if (err) {
+      setError(`移除管理员失败: ${err.message}`);
+    } else {
+      setSuccess(`已移除管理员权限 (${data})`);
+      fetchUsers();
+    }
+    setActionLoading(null);
+    setConfirmAction(null);
+  }
+
+  async function deleteUser(userId: string) {
+    if (!supabase) return;
+    setActionLoading(userId);
+    setError('');
+    setSuccess('');
+
+    const { error: err } = await supabase.rpc('admin_delete_user', {
+      target_user_id: userId,
+    });
+
+    if (err) {
+      setError(`删除用户失败: ${err.message}`);
+    } else {
+      setSuccess('用户已删除');
+      fetchUsers();
+    }
+    setActionLoading(null);
+    setConfirmAction(null);
+  }
+
+  // ── Auth guards ────────────────────────────────────────────
+  if (authLoading || adminLoading) {
+    return (
+      <div className="page admin-page">
+        <div className="admin-loading">验证权限中...</div>
+      </div>
+    );
+  }
+
+  if (!user || !isAdmin) {
+    return (
+      <div className="page admin-page">
+        <div className="admin-auth-guard">
+          <h2>权限不足</h2>
+          <p>需要管理员权限才能访问此页面。</p>
+          <Link href="/login" className="btn">去登录</Link>
+        </div>
+      </div>
+    );
+  }
+
+  const isSuperAdmin = role === 'super_admin';
+
+  // ── Render ─────────────────────────────────────────────────
+  return (
+    <div className="page admin-page">
+      <div className="admin-header">
+        <div>
+          <h1>账号管理</h1>
+          <p>管理注册用户 · 共 {users.length} 个账号</p>
+        </div>
+        <div className="admin-header-actions">
+          <button type="button" className="btn btn-secondary" onClick={fetchUsers} disabled={loading}>
+            {loading ? '加载中...' : '刷新'}
+          </button>
+        </div>
+      </div>
+
+      {/* Messages */}
+      {error && <div className="admin-msg admin-msg-error">{error}</div>}
+      {success && <div className="admin-msg admin-msg-success">{success}</div>}
+
+      {/* Search bar */}
+      <div className="admin-section">
+        <div className="admin-search-bar">
+          <input
+            type="text"
+            className="field"
+            placeholder="搜索邮箱或角色..."
+            value={search}
+            onChange={e => setSearch(e.target.value)}
+          />
+          {search && (
+            <span className="admin-search-count">
+              {filteredUsers.length} / {users.length}
+            </span>
+          )}
+        </div>
+      </div>
+
+      {/* User table */}
+      <div className="admin-section">
+        {loading ? (
+          <div className="admin-loading">加载用户数据中...</div>
+        ) : (
+          <div className="admin-table-wrap">
+            <table className="admin-table">
+              <thead>
+                <tr>
+                  <th className="admin-th-sort" onClick={() => handleSort('email')}>
+                    邮箱{sortIndicator('email')}
+                  </th>
+                  <th className="admin-th-sort" onClick={() => handleSort('admin_role')}>
+                    角色{sortIndicator('admin_role')}
+                  </th>
+                  <th className="admin-th-sort" onClick={() => handleSort('created_at')}>
+                    注册时间{sortIndicator('created_at')}
+                  </th>
+                  <th className="admin-th-sort" onClick={() => handleSort('last_sign_in_at')}>
+                    最后登录{sortIndicator('last_sign_in_at')}
+                  </th>
+                  <th className="admin-th-sort" onClick={() => handleSort('page_view_count')}>
+                    访问次数{sortIndicator('page_view_count')}
+                  </th>
+                  {isSuperAdmin && <th>操作</th>}
+                </tr>
+              </thead>
+              <tbody>
+                {filteredUsers.length === 0 ? (
+                  <tr>
+                    <td colSpan={isSuperAdmin ? 6 : 5} style={{ textAlign: 'center', padding: '2rem', color: 'var(--text-muted)' }}>
+                      {search ? '没有匹配的用户' : '暂无注册用户'}
+                    </td>
+                  </tr>
+                ) : (
+                  filteredUsers.map(u => {
+                    const isCurrentUser = u.user_id === user.id;
+                    const isProcessing = actionLoading === u.user_id;
+                    return (
+                      <tr key={u.user_id} className={isCurrentUser ? 'admin-row-self' : ''}>
+                        <td>
+                          {u.email}
+                          {isCurrentUser && <span className="admin-you-badge">（你）</span>}
+                        </td>
+                        <td>
+                          <span className={`admin-role-badge ${roleClass(u.admin_role)}`}>
+                            {roleName(u.admin_role)}
+                          </span>
+                        </td>
+                        <td>{fmtDateTime(u.created_at)}</td>
+                        <td>{fmtDateTime(u.last_sign_in_at)}</td>
+                        <td>{u.page_view_count}</td>
+                        {isSuperAdmin && (
+                          <td className="admin-actions-cell">
+                            {isCurrentUser ? (
+                              <span className="admin-text-muted">—</span>
+                            ) : u.admin_role === 'super_admin' ? (
+                              <span className="admin-text-muted">不可操作</span>
+                            ) : isProcessing ? (
+                              <span className="admin-text-muted">处理中...</span>
+                            ) : (
+                              <div className="admin-btn-group">
+                                {u.admin_role === 'admin' ? (
+                                  <button
+                                    type="button"
+                                    className="btn-sm btn-secondary"
+                                    onClick={() => setConfirmAction({ type: 'remove_admin', userId: u.user_id, email: u.email })}
+                                  >
+                                    取消管理员
+                                  </button>
+                                ) : (
+                                  <button
+                                    type="button"
+                                    className="btn-sm"
+                                    onClick={() => setConfirmAction({ type: 'set_admin', userId: u.user_id, email: u.email })}
+                                  >
+                                    设为管理员
+                                  </button>
+                                )}
+                                <button
+                                  type="button"
+                                  className="btn-sm btn-danger"
+                                  onClick={() => setConfirmAction({ type: 'delete_user', userId: u.user_id, email: u.email })}
+                                >
+                                  删除
+                                </button>
+                              </div>
+                            )}
+                          </td>
+                        )}
+                      </tr>
+                    );
+                  })
+                )}
+              </tbody>
+            </table>
+          </div>
+        )}
+      </div>
+
+      {/* Confirm dialog */}
+      {confirmAction && (
+        <div className="admin-modal-overlay" onClick={() => setConfirmAction(null)}>
+          <div className="admin-modal" onClick={e => e.stopPropagation()}>
+            <h3 className="admin-modal-title">
+              {confirmAction.type === 'set_admin' && '设置管理员'}
+              {confirmAction.type === 'remove_admin' && '取消管理员'}
+              {confirmAction.type === 'delete_user' && '删除用户'}
+            </h3>
+            <p className="admin-modal-text">
+              {confirmAction.type === 'set_admin' && `确定将 ${confirmAction.email} 设为管理员？该用户将可以访问管理后台。`}
+              {confirmAction.type === 'remove_admin' && `确定取消 ${confirmAction.email} 的管理员权限？`}
+              {confirmAction.type === 'delete_user' && `确定删除用户 ${confirmAction.email} 吗？此操作不可恢复，该用户的所有数据将被清除。`}
+            </p>
+            <div className="admin-modal-actions">
+              <button type="button" className="btn btn-secondary" onClick={() => setConfirmAction(null)}>
+                取消
+              </button>
+              <button
+                type="button"
+                className={`btn ${confirmAction.type === 'delete_user' ? 'btn-danger' : ''}`}
+                onClick={() => {
+                  if (confirmAction.type === 'set_admin') setAdminRole(confirmAction.userId);
+                  if (confirmAction.type === 'remove_admin') removeAdminRole(confirmAction.userId);
+                  if (confirmAction.type === 'delete_user') deleteUser(confirmAction.userId);
+                }}
+              >
+                确认
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}

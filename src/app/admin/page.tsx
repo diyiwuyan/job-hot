@@ -249,33 +249,37 @@ export default function AdminPage() {
 
       if (modules) setModuleClicks(modules as ModuleClick[]);
 
-      // User stats
+      // User stats (distinct user_id counts)
       const now = new Date();
       const todayStr = now.toISOString().slice(0, 10);
       const weekAgoStr = new Date(now.getTime() - 7 * 86400000).toISOString().slice(0, 10);
 
       const [
-        { count: totalUsers },
-        { count: activeTodayCount },
-        { count: activeWeekCount },
+        allUsersRes,
+        todayUsersRes,
+        weekUsersRes,
         { count: totalSubs },
         { count: activeSubs },
         { count: totalMatches },
         { count: pushedMatches },
       ] = await Promise.all([
-        supabase.from('page_views').select('user_id', { count: 'exact', head: true }).not('user_id', 'is', null),
-        supabase.from('page_views').select('user_id', { count: 'exact', head: true }).not('user_id', 'is', null).gte('created_at', todayStr),
-        supabase.from('page_views').select('user_id', { count: 'exact', head: true }).not('user_id', 'is', null).gte('created_at', weekAgoStr),
+        supabase.from('page_views').select('user_id').not('user_id', 'is', null),
+        supabase.from('page_views').select('user_id').not('user_id', 'is', null).gte('created_at', todayStr),
+        supabase.from('page_views').select('user_id').not('user_id', 'is', null).gte('created_at', weekAgoStr),
         supabase.from('subscriptions').select('*', { count: 'exact', head: true }),
         supabase.from('subscriptions').select('*', { count: 'exact', head: true }).eq('is_active', true),
         supabase.from('subscription_matches').select('*', { count: 'exact', head: true }),
         supabase.from('subscription_matches').select('*', { count: 'exact', head: true }).eq('is_pushed', true),
       ]);
 
+      // Deduplicate user_ids in frontend
+      const distinctCount = (res: { data: { user_id: string }[] | null }) =>
+        new Set(res.data?.map(r => r.user_id) ?? []).size;
+
       setUserStats({
-        total_users: totalUsers ?? 0,
-        active_users_today: activeTodayCount ?? 0,
-        active_users_7d: activeWeekCount ?? 0,
+        total_users: distinctCount(allUsersRes as { data: { user_id: string }[] | null }),
+        active_users_today: distinctCount(todayUsersRes as { data: { user_id: string }[] | null }),
+        active_users_7d: distinctCount(weekUsersRes as { data: { user_id: string }[] | null }),
         total_subscriptions: totalSubs ?? 0,
         active_subscriptions: activeSubs ?? 0,
         total_matches: totalMatches ?? 0,
@@ -373,7 +377,7 @@ export default function AdminPage() {
             {loading ? '加载中...' : '刷新数据'}
           </button>
           {role === 'super_admin' && (
-            <Link href="/admin/users" className="btn">管理员管理</Link>
+            <Link href="/admin/accounts" className="btn">账号管理</Link>
           )}
         </div>
       </div>

@@ -283,25 +283,64 @@ export function Sidebar() {
       <nav className="side-nav">
         {navItems.map(renderNavItem)}
 
-        {/* Admin entry — only visible to admins */}
-        {isAdmin && (
-          <>
-            <div className="side-divider" />
-            <Link
-              href="/admin"
-              className={`side-link ${isActive('/admin') ? 'side-link-active' : ''}`}
-              onClick={close}
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M3 3v18h18" />
-                <path d="M18 17V9" />
-                <path d="M13 17V5" />
-                <path d="M8 17v-3" />
-              </svg>
-              <span>数据统计</span>
-            </Link>
-          </>
-        )}
+        {/* Admin panel — only visible to admins */}
+        {isAdmin && (() => {
+          const adminActive = isActive('/admin');
+          const adminOpen = expanded['管理后台'] ?? adminActive;
+          return (
+            <>
+              <div className="side-divider" />
+              <div className={`side-group ${adminActive ? 'side-group-active' : ''}`}>
+                <button
+                  type="button"
+                  className={`side-link ${adminActive ? 'side-link-active' : ''}`}
+                  onClick={() => toggleGroup('管理后台')}
+                  style={{ background: 'none', border: 'none', width: '100%', cursor: 'pointer', textAlign: 'left' }}
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                    <rect x="3" y="3" width="7" height="7" rx="1" />
+                    <rect x="14" y="3" width="7" height="7" rx="1" />
+                    <rect x="3" y="14" width="7" height="7" rx="1" />
+                    <rect x="14" y="14" width="7" height="7" rx="1" />
+                  </svg>
+                  <span>管理后台</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    style={{ marginLeft: 'auto', opacity: 0.4, transition: 'transform 0.2s', transform: adminOpen ? 'rotate(90deg)' : 'rotate(0deg)' }}
+                  >
+                    <polyline points="9 18 15 12 9 6" />
+                  </svg>
+                </button>
+                {adminOpen && (
+                  <div className="side-subnav">
+                    <Link
+                      href="/admin"
+                      className={`side-sublink ${normalizedPath === '/admin' ? 'side-sublink-active' : ''}`}
+                      onClick={close}
+                    >
+                      数据统计
+                    </Link>
+                    <Link
+                      href="/admin/accounts"
+                      className={`side-sublink ${isActive('/admin/accounts') ? 'side-sublink-active' : ''}`}
+                      onClick={close}
+                    >
+                      账号管理
+                    </Link>
+                  </div>
+                )}
+              </div>
+            </>
+          );
+        })()}
       </nav>
 
       {/* Footer with Theme Toggle and Auth */}

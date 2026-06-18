@@ -2,56 +2,59 @@
 
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
-import { FeedItem } from '@/lib/types';
-import { DailyAccordion } from '@/components/DailyAccordion';
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 
-const dataSources = [
-  { name: '国聘', color: '#e53935' },
-  { name: '牛客网', color: '#00c853' },
-  { name: 'DeepOffer', color: '#6366f1' },
-  { name: '应届生求职网', color: '#ff9800' },
-  { name: 'Campus2026', color: '#2196f3' },
-];
-
 interface HomeData {
-  featuredItems: FeedItem[];
   totalItems: number;
   campusCount: number;
   internCount: number;
   talkCount?: number;
   companyCount?: number;
-  sourceCount?: number;
   todayCount?: number;
 }
 
-interface DailyDay {
-  date: string;
-  label: string;
-  items: FeedItem[];
-}
+const features = [
+  {
+    icon: '🔄',
+    title: '每日自动更新',
+    desc: '全网校招信息自动采集，每天更新，不错过任何机会',
+  },
+  {
+    icon: '🎯',
+    title: '精准筛选',
+    desc: '按行业、城市、岗位类型快速过滤，找到最匹配的职位',
+  },
+  {
+    icon: '⭐',
+    title: '智能评分',
+    desc: '基于岗位质量、企业规模、时效性等维度综合打分排序',
+  },
+  {
+    icon: '🔔',
+    title: '订阅推送',
+    desc: '设置关键词订阅，新岗位第一时间邮件通知你',
+  },
+  {
+    icon: '📌',
+    title: '收藏管理',
+    desc: '一键收藏心仪岗位，云端同步，随时查看',
+  },
+  {
+    icon: '🧭',
+    title: '求职导航',
+    desc: '精选50+求职网站分类导航，一站直达各大招聘平台',
+  },
+];
 
 export default function HomePage() {
   const [homeData, setHomeData] = useState<HomeData | null>(null);
-  const [dailyDays, setDailyDays] = useState<DailyDay[]>([]);
-  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    Promise.all([
-      fetch(`${basePath}/api/feed/home.json`).then(r => r.ok ? r.json() : null),
-      fetch(`${basePath}/api/feed/daily-digest.json`).then(r => r.ok ? r.json() : []),
-    ]).then(([home, daily]) => {
-      if (home) setHomeData(home);
-      // Filter future items
-      const nowStr = new Date().toISOString();
-      const filtered = (daily as DailyDay[]).map(day => ({
-        ...day,
-        items: day.items.filter((item: FeedItem) => item.createdAt <= nowStr),
-      })).filter(day => day.items.length > 0);
-      setDailyDays(filtered);
-      setLoading(false);
-    }).catch(() => setLoading(false));
+    fetch(`${basePath}/api/feed/home.json`)
+      .then(r => r.ok ? r.json() : null)
+      .then(home => { if (home) setHomeData(home); })
+      .catch(() => {});
   }, []);
 
   const totalItems = homeData?.totalItems || 0;
@@ -70,8 +73,8 @@ export default function HomePage() {
           <span className="orbit-dot" aria-hidden="true"></span>
           <span className="brand-hot" style={{ background: 'linear-gradient(135deg, var(--gradient-start), var(--gradient-end))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>HOT</span>
         </h1>
-        <p className="hero-subtitle">聚合 {dataSources.length} 大平台，每日自动更新校招信息</p>
-        <p className="hero-desc">大学生求职信息一站式聚合平台</p>
+        <p className="hero-subtitle">更好用的大学生求职站</p>
+        <p className="hero-desc">校招 · 实习 · 宣讲会，每日自动更新，一站搞定</p>
       </div>
 
       {/* Stats Grid */}
@@ -102,20 +105,6 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* Data Sources */}
-      <div className="sources-section">
-        <div className="sources-label">数据来源</div>
-        <div className="sources-list">
-          {dataSources.map(src => (
-            <span key={src.name} className="source-badge" style={{ borderColor: src.color, color: src.color }}>
-              {src.name}
-            </span>
-          ))}
-        </div>
-      </div>
-
-      <div className="divider" />
-
       {/* CTA Buttons */}
       <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center', margin: '1.5rem 0' }}>
         <Link href="/all" className="btn btn-lg">
@@ -132,27 +121,33 @@ export default function HomePage() {
 
       <div className="divider" />
 
-      {/* Daily Featured Section (merged from daily page) */}
-      <div style={{ marginTop: '1.5rem' }}>
-        <h2 style={{ fontSize: '1.25rem', fontWeight: 700, marginBottom: '1rem' }}>
-          <span className="text-gradient">每日精选</span>
-          <span style={{ fontSize: '0.8125rem', color: 'var(--text-muted)', fontWeight: 400, marginLeft: '0.5rem' }}>
-            近 {dailyDays.length} 天
-          </span>
+      {/* Features Section */}
+      <div className="features-section">
+        <h2 className="features-title">
+          <span className="text-gradient">为什么选择 JOBHOT</span>
         </h2>
-
-        {loading ? (
-          <div className="empty-state" style={{ marginTop: '1rem' }}>
-            <div className="empty-state-title">加载中...</div>
-          </div>
-        ) : (
-          <DailyAccordion days={dailyDays} />
-        )}
+        <div className="features-grid">
+          {features.map(f => (
+            <div key={f.title} className="feature-card">
+              <div className="feature-icon">{f.icon}</div>
+              <div className="feature-content">
+                <div className="feature-name">{f.title}</div>
+                <div className="feature-desc">{f.desc}</div>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
 
-      <div style={{ textAlign: 'center', marginTop: '2rem' }}>
-        <Link href="/all" className="btn">
-          查看全部动态 →
+      <div className="divider" />
+
+      {/* Bottom CTA */}
+      <div style={{ textAlign: 'center', padding: '1.5rem 0' }}>
+        <p style={{ fontSize: '0.9375rem', color: 'var(--text-muted)', marginBottom: '1rem' }}>
+          立即开始，发现适合你的校招机会
+        </p>
+        <Link href="/all" className="btn btn-lg">
+          浏览全部岗位 →
         </Link>
       </div>
     </div>

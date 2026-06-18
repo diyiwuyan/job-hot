@@ -189,7 +189,7 @@ export default function AdminUsersPage() {
         <div className="admin-auth-guard">
           <h2>权限不足</h2>
           <p>只有超级管理员才能管理管理员账号。</p>
-          <Link href="/admin" className="btn">返回统计</Link>
+          <Link href="/admin/accounts" className="btn">返回账号管理</Link>
         </div>
       </div>
     );
@@ -202,7 +202,7 @@ export default function AdminUsersPage() {
           <h1>管理员管理</h1>
           <p>添加或移除管理员权限</p>
         </div>
-        <Link href="/admin" className="btn btn-secondary">← 返回统计</Link>
+        <Link href="/admin/accounts" className="btn btn-secondary">← 返回账号管理</Link>
       </div>
 
       {/* Add admin form */}
