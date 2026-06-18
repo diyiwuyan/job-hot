@@ -1,51 +1,5 @@
 [
   {
-    "id": "yjs-j11f6h",
-    "title": "恒动（常州）新能源科技有限公司 宣讲会 — 常州工学院",
-    "summary": "城市：常州。时间：2027-05-07(周五)。地点：文化艺术中心B304。学校：常州工学院。",
-    "url": "https://my.yingjiesheng.com/xjh-006-260-358.html",
-    "source": "应届生求职网",
-    "sourceHandle": "@yingjiesheng",
-    "channel": "campus",
-    "category": "auto_ic",
-    "location": "常州",
-    "deadline": "2027/05/07",
-    "tags": [
-      "宣讲会",
-      "校招",
-      "恒动（常州）新能源科技有限公司",
-      "常州工学院",
-      "常州",
-      "车企/IC"
-    ],
-    "score": 71,
-    "featured": false,
-    "createdAt": "2026-06-18T03:37:37.751Z"
-  },
-  {
-    "id": "yjs-q537c4",
-    "title": "中海石油 宣讲会 — 中国地质大学(北京)",
-    "summary": "城市：北京。时间：2027-04-16(周五)。地点：测试。学校：中国地质大学(北京)。",
-    "url": "https://my.yingjiesheng.com/xjh-006-257-638.html",
-    "source": "应届生求职网",
-    "sourceHandle": "@yingjiesheng",
-    "channel": "campus",
-    "category": "auto_ic",
-    "location": "北京",
-    "deadline": "2027/04/16",
-    "tags": [
-      "宣讲会",
-      "校招",
-      "中海石油",
-      "中国地质大学(北京)",
-      "北京",
-      "车企/IC"
-    ],
-    "score": 70,
-    "featured": false,
-    "createdAt": "2026-06-18T03:37:37.751Z"
-  },
-  {
     "id": "yjs-iw9mco",
     "title": "系列 宣讲会 — 南方医科大学",
     "summary": "城市：广州。时间：2027-03-28(周日)。地点：南方医科大学校本部。学校：南方医科大学。",
@@ -65,7 +19,7 @@
     ],
     "score": 72,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.750Z"
+    "createdAt": "2026-06-18T03:40:40.496Z"
   },
   {
     "id": "yjs-2th5m",
@@ -87,7 +41,7 @@
     ],
     "score": 72,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.750Z"
+    "createdAt": "2026-06-18T03:40:40.496Z"
   },
   {
     "id": "yjs-8c6klz",
@@ -110,7 +64,7 @@
     ],
     "score": 72,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.750Z"
+    "createdAt": "2026-06-18T03:40:40.496Z"
   },
   {
     "id": "yjs-2sm0c0",
@@ -132,7 +86,7 @@
     ],
     "score": 72,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.750Z"
+    "createdAt": "2026-06-18T03:40:40.496Z"
   },
   {
     "id": "yjs-awwvgt",
@@ -152,7 +106,7 @@
     ],
     "score": 72,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.750Z"
+    "createdAt": "2026-06-18T03:40:40.496Z"
   },
   {
     "id": "yjs-lq05x3",
@@ -175,7 +129,30 @@
     ],
     "score": 72,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.750Z"
+    "createdAt": "2026-06-18T03:40:40.496Z"
+  },
+  {
+    "id": "yjs-j11f6h",
+    "title": "恒动（常州）新能源科技有限公司 宣讲会 — 常州工学院",
+    "summary": "城市：常州。时间：2027-05-07(周五)。地点：文化艺术中心B304。学校：常州工学院。",
+    "url": "https://my.yingjiesheng.com/xjh-006-260-358.html",
+    "source": "应届生求职网",
+    "sourceHandle": "@yingjiesheng",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "常州",
+    "deadline": "2027/05/07",
+    "tags": [
+      "宣讲会",
+      "校招",
+      "恒动（常州）新能源科技有限公司",
+      "常州工学院",
+      "常州",
+      "车企/IC"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-06-18T03:40:40.496Z"
   },
   {
     "id": "yjs-d54rdi",
@@ -197,7 +174,7 @@
     ],
     "score": 71,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.750Z"
+    "createdAt": "2026-06-18T03:40:40.496Z"
   },
   {
     "id": "yjs-1ry63p",
@@ -219,7 +196,30 @@
     ],
     "score": 71,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.750Z"
+    "createdAt": "2026-06-18T03:40:40.496Z"
+  },
+  {
+    "id": "yjs-q537c4",
+    "title": "中海石油 宣讲会 — 中国地质大学(北京)",
+    "summary": "城市：北京。时间：2027-04-16(周五)。地点：测试。学校：中国地质大学(北京)。",
+    "url": "https://my.yingjiesheng.com/xjh-006-257-638.html",
+    "source": "应届生求职网",
+    "sourceHandle": "@yingjiesheng",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "北京",
+    "deadline": "2027/04/16",
+    "tags": [
+      "宣讲会",
+      "校招",
+      "中海石油",
+      "中国地质大学(北京)",
+      "北京",
+      "车企/IC"
+    ],
+    "score": 70,
+    "featured": false,
+    "createdAt": "2026-06-18T03:40:40.496Z"
   },
   {
     "id": "yjs-fdh72x",
@@ -242,7 +242,7 @@
     ],
     "score": 70,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.750Z"
+    "createdAt": "2026-06-18T03:40:40.496Z"
   },
   {
     "id": "yjs-mhh4ym",
@@ -264,7 +264,7 @@
     ],
     "score": 70,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.750Z"
+    "createdAt": "2026-06-18T03:40:40.496Z"
   },
   {
     "id": "yjs-l8ymzs",
@@ -287,7 +287,7 @@
     ],
     "score": 69,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.750Z"
+    "createdAt": "2026-06-18T03:40:40.496Z"
   },
   {
     "id": "yjs-rknovo",
@@ -309,7 +309,7 @@
     ],
     "score": 69,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.750Z"
+    "createdAt": "2026-06-18T03:40:40.496Z"
   },
   {
     "id": "yjs-3h4ma3",
@@ -331,7 +331,7 @@
     ],
     "score": 69,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.750Z"
+    "createdAt": "2026-06-18T03:40:40.496Z"
   },
   {
     "id": "yjs-1gzyi0",
@@ -353,7 +353,7 @@
     ],
     "score": 79,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-baov4w",
@@ -375,7 +375,7 @@
     ],
     "score": 77,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-1acv8h",
@@ -397,7 +397,7 @@
     ],
     "score": 77,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-e27y2g",
@@ -419,7 +419,7 @@
     ],
     "score": 77,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-tnwffb",
@@ -441,7 +441,7 @@
     ],
     "score": 77,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-x8yokk",
@@ -464,7 +464,7 @@
     ],
     "score": 77,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-7hqnmw",
@@ -486,7 +486,7 @@
     ],
     "score": 77,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-fj5pas",
@@ -508,7 +508,7 @@
     ],
     "score": 77,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-1863nu",
@@ -530,7 +530,7 @@
     ],
     "score": 77,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-goc0bg",
@@ -552,7 +552,7 @@
     ],
     "score": 76,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-czkpfz",
@@ -575,7 +575,7 @@
     ],
     "score": 76,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-ldzzia",
@@ -598,7 +598,7 @@
     ],
     "score": 76,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-reas2h",
@@ -620,7 +620,7 @@
     ],
     "score": 76,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-fipowj",
@@ -642,7 +642,7 @@
     ],
     "score": 76,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-uc3twh",
@@ -664,7 +664,7 @@
     ],
     "score": 76,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-t41bl6",
@@ -686,7 +686,7 @@
     ],
     "score": 76,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-reasyn",
@@ -708,7 +708,7 @@
     ],
     "score": 76,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-2md6u3",
@@ -730,7 +730,7 @@
     ],
     "score": 75,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-dogoph",
@@ -753,7 +753,7 @@
     ],
     "score": 75,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-5l4ej6",
@@ -776,7 +776,7 @@
     ],
     "score": 75,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-7ub03r",
@@ -799,7 +799,7 @@
     ],
     "score": 74,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-s3yo10",
@@ -821,7 +821,7 @@
     ],
     "score": 74,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-9sar2a",
@@ -843,7 +843,7 @@
     ],
     "score": 74,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-55iw1z",
@@ -866,7 +866,7 @@
     ],
     "score": 74,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-7x2nx0",
@@ -888,7 +888,7 @@
     ],
     "score": 74,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-fprtfj",
@@ -910,7 +910,7 @@
     ],
     "score": 74,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-g4fixb",
@@ -932,7 +932,7 @@
     ],
     "score": 74,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-r1vkza",
@@ -955,7 +955,7 @@
     ],
     "score": 74,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-dd6uc9",
@@ -978,7 +978,7 @@
     ],
     "score": 74,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-c7jr01",
@@ -1000,7 +1000,7 @@
     ],
     "score": 74,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-cmpju2",
@@ -1023,7 +1023,7 @@
     ],
     "score": 74,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-97alfc",
@@ -1046,7 +1046,7 @@
     ],
     "score": 73,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-iy5yzn",
@@ -1068,7 +1068,7 @@
     ],
     "score": 73,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-xa0d2b",
@@ -1091,7 +1091,7 @@
     ],
     "score": 73,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-tuo3oa",
@@ -1113,7 +1113,7 @@
     ],
     "score": 73,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-ggnua5",
@@ -1135,7 +1135,7 @@
     ],
     "score": 73,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-ehx46n",
@@ -1157,7 +1157,7 @@
     ],
     "score": 73,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-mhsru9",
@@ -1179,7 +1179,7 @@
     ],
     "score": 72,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-1p6duw",
@@ -1201,7 +1201,7 @@
     ],
     "score": 72,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-71kixr",
@@ -1223,7 +1223,7 @@
     ],
     "score": 72,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-qg9j2x",
@@ -1245,7 +1245,7 @@
     ],
     "score": 71,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-w990sl",
@@ -1267,7 +1267,7 @@
     ],
     "score": 71,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-7ezerg",
@@ -1287,7 +1287,7 @@
     ],
     "score": 70,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-qf2v4u",
@@ -1309,7 +1309,7 @@
     ],
     "score": 68,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.739Z"
+    "createdAt": "2026-06-18T03:40:40.494Z"
   },
   {
     "id": "yjs-7cm402",
@@ -1332,7 +1332,7 @@
     ],
     "score": 81,
     "featured": true,
-    "createdAt": "2026-06-18T03:37:37.738Z"
+    "createdAt": "2026-06-18T03:40:40.493Z"
   },
   {
     "id": "yjs-c0ltmm",
@@ -1354,7 +1354,7 @@
     ],
     "score": 80,
     "featured": true,
-    "createdAt": "2026-06-18T03:37:37.738Z"
+    "createdAt": "2026-06-18T03:40:40.493Z"
   },
   {
     "id": "yjs-siwyug",
@@ -1376,7 +1376,7 @@
     ],
     "score": 80,
     "featured": true,
-    "createdAt": "2026-06-18T03:37:37.738Z"
+    "createdAt": "2026-06-18T03:40:40.493Z"
   },
   {
     "id": "yjs-qrwuls",
@@ -1398,7 +1398,7 @@
     ],
     "score": 79,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.738Z"
+    "createdAt": "2026-06-18T03:40:40.493Z"
   },
   {
     "id": "yjs-h6kl1p",
@@ -1420,7 +1420,7 @@
     ],
     "score": 79,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.738Z"
+    "createdAt": "2026-06-18T03:40:40.493Z"
   },
   {
     "id": "yjs-1xrmon",
@@ -1442,7 +1442,7 @@
     ],
     "score": 78,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.738Z"
+    "createdAt": "2026-06-18T03:40:40.493Z"
   },
   {
     "id": "yjs-4snheu",
@@ -1464,7 +1464,7 @@
     ],
     "score": 78,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.738Z"
+    "createdAt": "2026-06-18T03:40:40.493Z"
   },
   {
     "id": "yjs-qvizvk",
@@ -1487,7 +1487,7 @@
     ],
     "score": 78,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.738Z"
+    "createdAt": "2026-06-18T03:40:40.493Z"
   },
   {
     "id": "yjs-jo3mth",
@@ -1507,7 +1507,7 @@
     ],
     "score": 77,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.738Z"
+    "createdAt": "2026-06-18T03:40:40.493Z"
   },
   {
     "id": "yjs-3pvxyl",
@@ -1529,7 +1529,7 @@
     ],
     "score": 76,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.738Z"
+    "createdAt": "2026-06-18T03:40:40.493Z"
   },
   {
     "id": "yjs-d61eje",
@@ -1551,7 +1551,7 @@
     ],
     "score": 76,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.738Z"
+    "createdAt": "2026-06-18T03:40:40.493Z"
   },
   {
     "id": "yjs-j9mpll",
@@ -1573,7 +1573,7 @@
     ],
     "score": 76,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.738Z"
+    "createdAt": "2026-06-18T03:40:40.493Z"
   },
   {
     "id": "yjs-tdv5xm",
@@ -1596,7 +1596,7 @@
     ],
     "score": 76,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.738Z"
+    "createdAt": "2026-06-18T03:40:40.493Z"
   },
   {
     "id": "yjs-h1u1b3",
@@ -1619,7 +1619,7 @@
     ],
     "score": 75,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.738Z"
+    "createdAt": "2026-06-18T03:40:40.493Z"
   },
   {
     "id": "yjs-puoqli",
@@ -1641,7 +1641,7 @@
     ],
     "score": 74,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.738Z"
+    "createdAt": "2026-06-18T03:40:40.493Z"
   },
   {
     "id": "yjs-m6yyo8",
@@ -1663,7 +1663,7 @@
     ],
     "score": 74,
     "featured": false,
-    "createdAt": "2026-06-18T03:37:37.738Z"
+    "createdAt": "2026-06-18T03:40:40.493Z"
   },
   {
     "id": "yjs-gqrth6",
