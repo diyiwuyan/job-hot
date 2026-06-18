@@ -280,7 +280,7 @@ export function FeedToolbar({
 
   return (
     <div className="page-header">
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1rem', gap: '1rem', flexWrap: 'wrap' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem', gap: '0.75rem', flexWrap: 'wrap' }}>
         <div>
           <h1>求职信息</h1>
           <p>大学生求职相关资讯全量信息流</p>
@@ -325,10 +325,10 @@ export function FeedToolbar({
 
       <div className="divider" />
 
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-        {/* Row 1: 招聘类型 */}
+      <div className="filter-rows">
+        {/* Row 1: 招聘类型 + 行业 */}
         <div className="filter-labeled-row">
-          <span className="filter-label">招聘类型</span>
+          <span className="filter-label">类型</span>
           <div className="segmented" aria-label="招聘类型">
             {channels.map((ch) => (
               <Link
@@ -341,10 +341,7 @@ export function FeedToolbar({
               </Link>
             ))}
           </div>
-        </div>
-
-        {/* Row 2: 行业 */}
-        <div className="filter-labeled-row">
+          <span className="filter-sep" />
           <span className="filter-label">行业</span>
           <div className="segmented segmented-wrap" aria-label="行业筛选">
             {categories.map((cat) => (
@@ -360,9 +357,9 @@ export function FeedToolbar({
           </div>
         </div>
 
-        {/* Row 3: 公司性质 */}
+        {/* Row 2: 公司性质 + 专业 + 城市 */}
         <div className="filter-labeled-row">
-          <span className="filter-label">公司性质</span>
+          <span className="filter-label">性质</span>
           <div className="segmented" aria-label="公司性质">
             {companyTypes.map((ct) => (
               <Link
@@ -375,28 +372,19 @@ export function FeedToolbar({
               </Link>
             ))}
           </div>
-        </div>
-
-        {/* Row 4: 专业 + 城市 */}
-        <div className="filter-labeled-row">
-          <span className="filter-label">专业</span>
+          <span className="filter-sep" />
           <MajorDropdown selected={currentMajor} onSelect={selectMajor} />
-        </div>
-
-        {/* Row 5: 城市 */}
-        {cityList.length > 0 && (
-          <div className="filter-labeled-row">
-            <span className="filter-label">城市</span>
+          {cityList.length > 0 && (
             <CityDropdown
               cities={cityList}
               selected={selectedCities}
               onToggle={toggleCity}
               onClear={clearCities}
             />
-          </div>
-        )}
+          )}
+        </div>
 
-        {/* Row 5: 搜索 + 重置 */}
+        {/* Row 3: 搜索 + 重置 */}
         <form className="filter-form" onSubmit={handleSearch}>
           <input
             type="text"
@@ -408,7 +396,7 @@ export function FeedToolbar({
           <button type="submit" className="btn">搜索</button>
           {hasActiveFilters && (
             <button type="button" className="btn btn-secondary" onClick={resetFilters}>
-              重置筛选
+              重置
             </button>
           )}
         </form>

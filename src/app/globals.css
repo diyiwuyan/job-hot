@@ -141,7 +141,7 @@ a:hover {
 .app-main {
   grid-column: 2;
   padding: 1.5rem 2rem;
-  max-width: 1400px;
+  max-width: 1600px;
   width: 100%;
   min-width: 0;
   overflow-x: hidden;
@@ -674,18 +674,18 @@ a:hover {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 0.75rem;
-  padding: 1.25rem 1.5rem;
-  margin-bottom: 1.5rem;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
 }
 
 .page-header h1 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 700;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.15rem;
 }
 
 .page-header p {
-  font-size: 0.875rem;
+  font-size: 0.8rem;
   color: var(--text-muted);
 }
 
@@ -727,21 +727,38 @@ a:hover {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
+/* Filter rows container */
+.filter-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
 /* Filter labeled row (标签 + 筛选项) */
 .filter-labeled-row {
   display: flex;
-  gap: 0.75rem;
+  gap: 0.5rem;
   align-items: center;
   flex-wrap: wrap;
 }
 
+/* Filter separator (vertical bar between groups) */
+.filter-sep {
+  width: 1px;
+  height: 16px;
+  background: var(--border);
+  margin: 0 0.15rem;
+  flex-shrink: 0;
+  opacity: 0.5;
+}
+
 .filter-label {
-  font-size: 0.8125rem;
+  font-size: 0.75rem;
   font-weight: 500;
   color: var(--text-muted);
   white-space: nowrap;
   flex-shrink: 0;
-  min-width: 3.5em;
+  min-width: 2.5em;
 }
 
 .segmented-wrap {
@@ -3910,9 +3927,9 @@ color: #fff;
 }
 .feed-table {
   width: 100%;
-  min-width: 900px;
+  min-width: 1000px;
   border-collapse: collapse;
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   line-height: 1.5;
 }
 .feed-table thead {
@@ -3950,11 +3967,11 @@ color: #fff;
   font-variant-numeric: tabular-nums;
 }
 .feed-td-company {
-font-weight: 600;
-white-space: nowrap;
-max-width: 220px;
-overflow: hidden;
-text-overflow: ellipsis;
+  font-weight: 600;
+  white-space: nowrap;
+  max-width: 170px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .feed-td-company .company-badge {
   margin-right: 0.3rem;
@@ -3964,8 +3981,8 @@ text-overflow: ellipsis;
   white-space: nowrap;
 }
 .feed-td-industry {
-  font-size: 0.75rem;
-  max-width: 120px;
+  font-size: 0.72rem;
+  max-width: 85px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -3993,10 +4010,10 @@ text-overflow: ellipsis;
   color: #f59e0b;
 }
 .feed-td-position {
-max-width: 320px;
-overflow: hidden;
-text-overflow: ellipsis;
-white-space: nowrap;
+  max-width: 240px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .feed-td-position a {
   color: var(--accent);
