@@ -236,8 +236,8 @@
       "农业/林业/其他",
       "上海"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-06-15T06:20:07.000Z"
   },
   {
@@ -259,8 +259,8 @@
       "房地产/建筑/物业",
       "全国项目所在地"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-15T06:20:07.000Z"
   },
   {
@@ -284,7 +284,7 @@
       "江苏",
       "南通"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-06-15T06:20:07.000Z"
   },
@@ -307,7 +307,7 @@
       "房地产/建筑/物业",
       "济南"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-06-15T06:20:07.000Z"
   },
@@ -331,7 +331,7 @@
       "广告/咨询/服务",
       "广州"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-06-15T06:20:07.000Z"
   },
@@ -354,7 +354,7 @@
       "通信/电子/半导体",
       "长沙"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-06-15T06:20:07.000Z"
   },
@@ -379,7 +379,7 @@
       "通信/电子/半导体",
       "成都"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-06-15T06:20:07.000Z"
   },
