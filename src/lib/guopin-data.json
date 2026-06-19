@@ -6391,8 +6391,8 @@
       "专用设备制造业",
       "广州"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-06-11T10:56:56.000Z"
   },
   {
@@ -6415,8 +6415,8 @@
       "专用设备制造业",
       "广州"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-11T10:56:35.000Z"
   },
   {
@@ -6439,8 +6439,8 @@
       "专用设备制造业",
       "广州"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-06-11T10:56:22.000Z"
   },
   {
@@ -6463,8 +6463,8 @@
       "专用设备制造业",
       "广州"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-06-11T10:56:10.000Z"
   },
   {
@@ -6487,8 +6487,8 @@
       "专用设备制造业",
       "广州"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-06-11T10:55:53.000Z"
   },
   {
@@ -6511,8 +6511,8 @@
       "专用设备制造业",
       "广州"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-06-11T10:54:52.000Z"
   },
   {
@@ -6534,8 +6534,8 @@
       "农、林、牧、渔业",
       "北京"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-06-11T08:56:16.000Z"
   },
   {
@@ -15234,7 +15234,7 @@
       "医药制造业",
       "成都"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-06-04T11:12:44.000Z"
   },
@@ -15258,7 +15258,7 @@
       "研究和试验发展",
       "长沙"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-06-04T10:48:45.000Z"
   },
@@ -15304,7 +15304,7 @@
       "软件和信息技术服务业",
       "杭州"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-06-04T09:42:11.000Z"
   },
@@ -15328,8 +15328,8 @@
       "制造业",
       "深圳"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-04T09:29:49.000Z"
   },
   {
@@ -15352,8 +15352,8 @@
       "制造业",
       "深圳"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-04T09:24:33.000Z"
   },
   {
@@ -15375,8 +15375,8 @@
       "房屋建筑业",
       "天津"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-06-04T09:11:10.000Z"
   },
   {
@@ -15398,7 +15398,7 @@
       "非金属矿物制品业",
       "宜昌"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-06-04T09:08:19.000Z"
   },
@@ -37815,7 +37815,7 @@
       "化学原料和化学制品制造业",
       "福州"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-19T10:58:50.000Z"
   },
@@ -37858,7 +37858,7 @@
       "有色金属冶炼和压延加工业",
       "东营"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-19T10:45:49.000Z"
   },
@@ -37881,7 +37881,7 @@
       "有色金属冶炼和压延加工业",
       "东营"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-19T10:43:24.000Z"
   },
@@ -37905,7 +37905,7 @@
       "有色金属冶炼和压延加工业",
       "东营"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-19T10:41:00.000Z"
   },
@@ -37928,7 +37928,7 @@
       "有色金属冶炼和压延加工业",
       "东营"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-19T10:39:34.000Z"
   },
@@ -37952,7 +37952,7 @@
       "专用设备制造业",
       "常州"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-19T10:38:59.000Z"
   },
@@ -37976,7 +37976,7 @@
       "专用设备制造业",
       "常州"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-19T10:38:15.000Z"
   },
@@ -38000,7 +38000,7 @@
       "专用设备制造业",
       "常州"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-19T10:37:33.000Z"
   },
@@ -38024,7 +38024,7 @@
       "有色金属冶炼和压延加工业",
       "东营"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-19T10:29:47.000Z"
   },
@@ -38047,7 +38047,7 @@
       "有色金属冶炼和压延加工业",
       "东营"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-19T10:26:50.000Z"
   },
@@ -38071,7 +38071,7 @@
       "制造业",
       "泸州"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-19T10:12:09.000Z"
   },
@@ -38094,7 +38094,7 @@
       "交通运输、仓储和邮政业",
       "鞍山"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-19T10:03:53.000Z"
   },
@@ -38117,7 +38117,7 @@
       "交通运输、仓储和邮政业",
       "鞍山"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-19T10:03:17.000Z"
   },
@@ -38140,7 +38140,7 @@
       "交通运输、仓储和邮政业",
       "鞍山"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-19T10:02:17.000Z"
   },
@@ -38163,7 +38163,7 @@
       "交通运输、仓储和邮政业",
       "鞍山"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-19T10:01:51.000Z"
   },
@@ -38187,7 +38187,7 @@
       "交通运输、仓储和邮政业",
       "鞍山"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-19T10:01:17.000Z"
   },
@@ -38211,8 +38211,8 @@
       "建筑业",
       "无锡"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-05-19T09:35:20.000Z"
   },
   {
@@ -38235,7 +38235,7 @@
       "软件和信息技术服务业",
       "北京"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-19T09:22:31.000Z"
   },
@@ -38259,7 +38259,7 @@
       "软件和信息技术服务业",
       "北京"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-19T09:14:43.000Z"
   },
@@ -38402,7 +38402,7 @@
       "房屋建筑业",
       "北京"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-19T09:00:00.000Z"
   },
@@ -38426,7 +38426,7 @@
       "居民服务、修理和其他服务业",
       "杭州"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-19T08:59:17.000Z"
   },
@@ -41762,6 +41762,9 @@
     "sourceHandle": "@guopin",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "合肥-瑶海区",
+    "deadline": "2026/06/30",
     "tags": [
       "合肥乐凯科技产业有限公司",
       "校招",
