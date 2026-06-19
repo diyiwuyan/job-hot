@@ -15443,8 +15443,8 @@
       "铁路、船舶、航空航天和其他运输设备制造业",
       "遵义"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-06-04T04:00:00.000Z"
   },
   {
@@ -41775,6 +41775,30 @@
     "createdAt": "2026-05-14T18:00:00.000Z"
   },
   {
+    "id": "guopin-200390121642524858",
+    "title": "合肥乐凯科技产业有限公司 — 机械/电气/暖通技术员",
+    "summary": "企业性质：国企。行业：其他制造业。工作地点：合肥-瑶海区。薪资面议。学历：本科。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=200390121642524858",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "合肥-瑶海区",
+    "deadline": "2026/06/30",
+    "tags": [
+      "合肥乐凯科技产业有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "其他制造业",
+      "合肥"
+    ],
+    "score": 66,
+    "featured": false,
+    "createdAt": "2026-05-14T18:00:00.000Z"
+  },
+  {
     "id": "guopin-196179066716425900",
     "title": "国务院国资委直属机构 — 规划处业务规划岗",
     "summary": "企业性质：事业单位。行业：其他。工作地点：北京-西城区。薪资面议。学历：硕士。规模：100-300人。",
@@ -42063,29 +42087,6 @@
     "score": 63,
     "featured": false,
     "createdAt": "2026-05-14T10:35:14.000Z"
-  },
-  {
-    "id": "guopin-200390121642524858",
-    "title": "合肥乐凯科技产业有限公司 — 机械/电气/暖通技术员",
-    "summary": "企业性质：国企。行业：其他制造业。工作地点：合肥-瑶海区。薪资面议。学历：本科。规模：500-1000人。",
-    "url": "https://www.iguopin.com/job/detail?id=200390121642524858",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "location": "合肥-瑶海区",
-    "deadline": "2026/06/30",
-    "tags": [
-      "合肥乐凯科技产业有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "其他制造业",
-      "合肥"
-    ],
-    "score": 66,
-    "featured": false,
-    "createdAt": "2026-05-14T10:00:00.000Z"
   },
   {
     "id": "guopin-200335895432265924",
