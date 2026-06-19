@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 // ============ Types ============
 type Mode = 'practice' | 'review'; // 做题模式 / 背题模式
-type QuizStage = 'quiz' | 'result';
+type QuizStage = 'ready' | 'quiz' | 'result';
 
 interface QuestionState {
   answered: boolean;
@@ -23,7 +23,7 @@ export default function ExamPage() {
   // 分类选择（tab 切换，不离开页面）
   const [activeCategory, setActiveCategory] = useState(0);
   const [mode, setMode] = useState<Mode>('practice');
-  const [stage, setStage] = useState<QuizStage>('quiz');
+  const [stage, setStage] = useState<QuizStage>('ready');
   const [current, setCurrent] = useState(0);
   const [questionStates, setQuestionStates] = useState<QuestionState[]>([]);
   const [showCard, setShowCard] = useState(false);
@@ -37,7 +37,7 @@ export default function ExamPage() {
   const questions = exam.questions;
   const totalQuestions = questions.length;
 
-  // 初始化/重置题目状态
+  // 初始化/重置题目状态（回到说明页）
   const initStates = useCallback(() => {
     setQuestionStates(
       Array.from({ length: totalQuestions }, () => ({
@@ -47,17 +47,27 @@ export default function ExamPage() {
       }))
     );
     setCurrent(0);
-    setStage('quiz');
+    setStage('ready');
     setSaved(false);
     savingRef.current = false;
-    setStartTime(Date.now());
     setElapsed(0);
   }, [totalQuestions]);
 
-  // 切换分类时重置
+  // 切换分类时回到 ready
   useEffect(() => {
-    initStates();
-  }, [activeCategory, initStates]);
+    setStage('ready');
+    setQuestionStates(
+      Array.from({ length: totalQuestions }, () => ({
+        answered: false,
+        selected: null,
+        correct: null,
+      }))
+    );
+    setCurrent(0);
+    setSaved(false);
+    savingRef.current = false;
+    setElapsed(0);
+  }, [activeCategory, totalQuestions]);
 
   // 计时器
   useEffect(() => {
@@ -126,6 +136,23 @@ export default function ExamPage() {
     }
   };
 
+  // 开始考试
+  const handleStart = () => {
+    setQuestionStates(
+      Array.from({ length: totalQuestions }, () => ({
+        answered: false,
+        selected: null,
+        correct: null,
+      }))
+    );
+    setCurrent(0);
+    setSaved(false);
+    savingRef.current = false;
+    setStartTime(Date.now());
+    setElapsed(0);
+    setStage('quiz');
+  };
+
   // 格式化时间
   const formatTime = (s: number) => {
     const m = Math.floor(s / 60);
@@ -140,6 +167,125 @@ export default function ExamPage() {
         <div className="page-header">
           <h1>笔试训练</h1>
           <p>加载中...</p>
+        </div>
+      </div>
+    );
+  }
+
+  // ============ Ready Stage (考试说明页) ============
+  if (stage === 'ready') {
+    return (
+      <div className="page">
+        <div className="page-header">
+          <h1>📝 笔试训练</h1>
+          <p>行测类通用笔试题训练，模拟真实考试环境</p>
+        </div>
+
+        {/* 选择题库 */}
+        <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1.5rem' }}>
+          {EXAM_SETS.map((set, idx) => (
+            <button
+              key={set.id}
+              onClick={() => setActiveCategory(idx)}
+              style={{
+                padding: '0.5rem 1rem',
+                fontSize: '0.8125rem',
+                borderRadius: '1rem',
+                border: idx === activeCategory ? '1px solid var(--accent)' : '1px solid var(--border)',
+                background: idx === activeCategory ? 'var(--accent-muted)' : 'transparent',
+                color: idx === activeCategory ? 'var(--accent)' : 'var(--text-muted)',
+                cursor: 'pointer',
+                fontWeight: idx === activeCategory ? 600 : 400,
+                transition: 'all 0.15s ease',
+              }}
+            >
+              {set.icon} {set.title}
+            </button>
+          ))}
+        </div>
+
+        {/* 考试信息卡片 */}
+        <div className="card" style={{ padding: '1.75rem', marginBottom: '1.25rem' }}>
+          <h2 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--text)', marginBottom: '1.25rem' }}>
+            {exam.icon} {exam.title}
+          </h2>
+          <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)', lineHeight: 1.7, marginBottom: '1.5rem' }}>
+            {exam.description}
+          </p>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
+            <div style={{ padding: '1rem', background: 'var(--bg-elevated)', borderRadius: '0.75rem', textAlign: 'center' }}>
+              <div style={{ fontSize: '1.5rem', fontWeight: 800, color: 'var(--accent)', marginBottom: '0.25rem' }}>
+                {totalQuestions}
+              </div>
+              <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>题目数量</div>
+            </div>
+            <div style={{ padding: '1rem', background: 'var(--bg-elevated)', borderRadius: '0.75rem', textAlign: 'center' }}>
+              <div style={{ fontSize: '1.5rem', fontWeight: 800, color: 'var(--warning)', marginBottom: '0.25rem' }}>
+                不限时
+              </div>
+              <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>答题时间</div>
+            </div>
+            <div style={{ padding: '1rem', background: 'var(--bg-elevated)', borderRadius: '0.75rem', textAlign: 'center' }}>
+              <div style={{ fontSize: '1.5rem', fontWeight: 800, color: 'var(--success)', marginBottom: '0.25rem' }}>
+                {totalQuestions}分
+              </div>
+              <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>满分</div>
+            </div>
+          </div>
+
+          <div style={{ fontSize: '0.8125rem', color: 'var(--text-muted)', lineHeight: 1.9, marginBottom: '1.5rem' }}>
+            <div style={{ fontWeight: 600, color: 'var(--text)', marginBottom: '0.5rem' }}>考试规则</div>
+            <div>• 共 {totalQuestions} 道单选题，每题 1 分，满分 {totalQuestions} 分</div>
+            <div>• 选择答案后即时判定对错，自动跳转下一题</div>
+            <div>• 支持答题卡快速跳转，可随时交卷查看成绩</div>
+            <div>• 答题结束后可查看错题回顾和详细解析</div>
+            {user && <div>• 成绩将自动保存到你的账户</div>}
+          </div>
+
+          <div className="divider" style={{ margin: '1.25rem 0' }} />
+
+          {/* 登录状态 */}
+          {user ? (
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1.25rem' }}>
+              <div style={{
+                width: '32px', height: '32px', borderRadius: '50%',
+                background: 'var(--accent-muted)', display: 'flex', alignItems: 'center', justifyContent: 'center',
+                fontSize: '0.875rem', color: 'var(--accent)', fontWeight: 600,
+              }}>
+                {(user.email || '用')[0].toUpperCase()}
+              </div>
+              <div>
+                <div style={{ fontSize: '0.875rem', fontWeight: 600, color: 'var(--text)' }}>
+                  {user.email || '已登录用户'}
+                </div>
+                <div style={{ fontSize: '0.75rem', color: 'var(--success)' }}>✓ 成绩将自动保存</div>
+              </div>
+            </div>
+          ) : (
+            <div style={{
+              display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+              padding: '0.875rem 1rem', background: 'rgba(210, 153, 34, 0.08)',
+              borderRadius: '0.625rem', border: '1px solid rgba(210, 153, 34, 0.2)',
+              marginBottom: '1.25rem',
+            }}>
+              <div style={{ fontSize: '0.8125rem', color: 'var(--warning)' }}>
+                ⚠ 未登录，答题成绩不会保存
+              </div>
+              <Link href="/login" style={{ fontSize: '0.8125rem', color: 'var(--accent)', fontWeight: 600, textDecoration: 'none' }}>
+                去登录 →
+              </Link>
+            </div>
+          )}
+
+          {/* 开始按钮 */}
+          <button
+            className="btn"
+            style={{ width: '100%', padding: '0.875rem', fontSize: '1rem', fontWeight: 600 }}
+            onClick={handleStart}
+          >
+            开始答题
+          </button>
         </div>
       </div>
     );

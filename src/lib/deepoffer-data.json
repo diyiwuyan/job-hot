@@ -23,7 +23,7 @@
     ],
     "score": 84,
     "featured": true,
-    "createdAt": "2026-06-17T14:19:12.000Z"
+    "createdAt": "2026-06-17T06:19:12.000Z"
   },
   {
     "id": "deepoffer-17438",
@@ -46,7 +46,7 @@
     ],
     "score": 84,
     "featured": true,
-    "createdAt": "2026-06-17T14:19:12.000Z"
+    "createdAt": "2026-06-17T06:19:12.000Z"
   },
   {
     "id": "deepoffer-17437",
@@ -71,7 +71,7 @@
     ],
     "score": 84,
     "featured": true,
-    "createdAt": "2026-06-17T14:19:12.000Z"
+    "createdAt": "2026-06-17T06:19:12.000Z"
   },
   {
     "id": "deepoffer-17441",
@@ -95,7 +95,7 @@
     ],
     "score": 82,
     "featured": true,
-    "createdAt": "2026-06-17T14:19:12.000Z"
+    "createdAt": "2026-06-17T06:19:12.000Z"
   },
   {
     "id": "deepoffer-17439",
@@ -120,7 +120,7 @@
     ],
     "score": 81,
     "featured": true,
-    "createdAt": "2026-06-17T14:19:12.000Z"
+    "createdAt": "2026-06-17T06:19:12.000Z"
   },
   {
     "id": "deepoffer-17436",
@@ -143,7 +143,7 @@
     ],
     "score": 80,
     "featured": true,
-    "createdAt": "2026-06-17T14:19:12.000Z"
+    "createdAt": "2026-06-17T06:19:12.000Z"
   },
   {
     "id": "deepoffer-17442",
@@ -167,7 +167,7 @@
     ],
     "score": 79,
     "featured": false,
-    "createdAt": "2026-06-17T14:19:12.000Z"
+    "createdAt": "2026-06-17T06:19:12.000Z"
   },
   {
     "id": "deepoffer-17444",
@@ -192,7 +192,7 @@
     ],
     "score": 78,
     "featured": false,
-    "createdAt": "2026-06-17T14:19:12.000Z"
+    "createdAt": "2026-06-17T06:19:12.000Z"
   },
   {
     "id": "deepoffer-17443",
@@ -215,7 +215,7 @@
     ],
     "score": 78,
     "featured": false,
-    "createdAt": "2026-06-17T14:19:12.000Z"
+    "createdAt": "2026-06-17T06:19:12.000Z"
   },
   {
     "id": "deepoffer-17433",
@@ -236,9 +236,9 @@
       "农业/林业/其他",
       "上海"
     ],
-    "score": 78,
-    "featured": false,
-    "createdAt": "2026-06-15T06:20:07.000Z"
+    "score": 83,
+    "featured": true,
+    "createdAt": "2026-06-14T22:20:07.000Z"
   },
   {
     "id": "deepoffer-17434",
@@ -259,129 +259,9 @@
       "房地产/建筑/物业",
       "全国项目所在地"
     ],
-    "score": 77,
-    "featured": false,
-    "createdAt": "2026-06-15T06:20:07.000Z"
-  },
-  {
-    "id": "deepoffer-17431",
-    "title": "中国天楹 — 26届春招 | 环保装备工程方向 化工方向 电力方向农业方向安环信息方向数智化设备方向财务...",
-    "summary": "招聘类型：26届春招。行业：能源/化工/环保。企业性质：民企。工作地点：江苏,南通。岗位：环保装备工程方向 化工方向 电力方向农业方向安环信息方向数智化设备方向财务/税务专员人事专员审计专员车辆管理方向。",
-    "url": "https://mp.weixin.qq.com/s/so7zsBb_A0Zy_Qo0VluIIQ",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "finance",
-    "companyType": "private",
-    "location": "江苏,南通",
-    "deadline": "尽快投递",
-    "tags": [
-      "中国天楹",
-      "校招",
-      "春招",
-      "金融",
-      "能源/化工/环保",
-      "江苏",
-      "南通"
-    ],
-    "score": 74,
-    "featured": false,
-    "createdAt": "2026-06-15T06:20:07.000Z"
-  },
-  {
-    "id": "deepoffer-17430",
-    "title": "济南盛景积余城市服务 — 26届春招 | 商业管理专员 工程技术专员",
-    "summary": "招聘类型：26届春招。行业：房地产/建筑/物业。企业性质：民企。工作地点：济南。截止日期：2026/06/22。岗位：商业管理专员 工程技术专员。",
-    "url": "https://mp.weixin.qq.com/s/0I3Dd5YrqxQmnxpZcIiUNQ",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "private",
-    "location": "济南",
-    "deadline": "2026/06/22",
-    "tags": [
-      "济南盛景积余城市服务",
-      "校招",
-      "春招",
-      "房地产/建筑/物业",
-      "济南"
-    ],
-    "score": 74,
-    "featured": false,
-    "createdAt": "2026-06-15T06:20:07.000Z"
-  },
-  {
-    "id": "deepoffer-17428",
-    "title": "因赛集团 — 26届春招 | 客策类(AE、策划)、文案类美术类(视频、平面)、设计类(品牌视觉、3D设...",
-    "summary": "招聘类型：26届春招。行业：广告/咨询/服务。企业性质：民企。工作地点：广州。截止日期：2026/06/19。岗位：客策类(AE、策划)、文案类美术类(视频、平面)、设计类(品牌视觉、3D设计)AI技术(前端、后端、算法、测试、AI产品助理、AI商务助理财务类、人力类、...。",
-    "url": "https://mp.weixin.qq.com/s/49Kn-Ol6OV9wOXG-7Dn3nA",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "finance",
-    "companyType": "private",
-    "location": "广州",
-    "deadline": "2026/06/19",
-    "tags": [
-      "因赛集团",
-      "校招",
-      "春招",
-      "金融",
-      "广告/咨询/服务",
-      "广州"
-    ],
-    "score": 73,
-    "featured": false,
-    "createdAt": "2026-06-15T06:20:07.000Z"
-  },
-  {
-    "id": "deepoffer-17429",
-    "title": "麦米电气 — 实习 | 电气工程、自动化、电子科学与技术、电力电子等相关专业;",
-    "summary": "招聘类型：实习。行业：通信/电子/半导体。企业性质：民企。工作地点：长沙。截止日期：2026/07/10。岗位：电气工程、自动化、电子科学与技术、电力电子等相关专业;。",
-    "url": "https://wecruit.hotjob.cn/SU628dc1272f9d243f296ed241/mc/detail?postId=426901&recruitType=intern&distance=undefined",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "auto_ic",
-    "companyType": "private",
-    "location": "长沙",
-    "deadline": "2026/07/10",
-    "tags": [
-      "麦米电气",
-      "实习",
-      "车企/IC",
-      "通信/电子/半导体",
-      "长沙"
-    ],
-    "score": 72,
-    "featured": false,
-    "createdAt": "2026-06-15T06:20:07.000Z"
-  },
-  {
-    "id": "deepoffer-17432",
-    "title": "中国科学院光电技术研究所 — 26届春招 | 光机类电子与通信类计算机与控制类其它类专业",
-    "summary": "招聘类型：26届春招。行业：通信/电子/半导体。企业性质：事业单位。工作地点：成都。岗位：光机类电子与通信类计算机与控制类其它类专业。",
-    "url": "https://mp.weixin.qq.com/s/ZlSb1jOeyY6ld1NbQwbiZg",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "institution",
-    "location": "成都",
-    "deadline": "尽快投递",
-    "tags": [
-      "中国科学院光电技术研究所",
-      "校招",
-      "春招",
-      "车企/IC",
-      "事业单位",
-      "通信/电子/半导体",
-      "成都"
-    ],
-    "score": 71,
-    "featured": false,
-    "createdAt": "2026-06-15T06:20:07.000Z"
+    "score": 82,
+    "featured": true,
+    "createdAt": "2026-06-14T22:20:07.000Z"
   },
   {
     "id": "deepoffer-17427",
@@ -430,6 +310,126 @@
     ],
     "score": 80,
     "featured": true,
+    "createdAt": "2026-06-14T22:20:07.000Z"
+  },
+  {
+    "id": "deepoffer-17431",
+    "title": "中国天楹 — 26届春招 | 环保装备工程方向 化工方向 电力方向农业方向安环信息方向数智化设备方向财务...",
+    "summary": "招聘类型：26届春招。行业：能源/化工/环保。企业性质：民企。工作地点：江苏,南通。岗位：环保装备工程方向 化工方向 电力方向农业方向安环信息方向数智化设备方向财务/税务专员人事专员审计专员车辆管理方向。",
+    "url": "https://mp.weixin.qq.com/s/so7zsBb_A0Zy_Qo0VluIIQ",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "private",
+    "location": "江苏,南通",
+    "deadline": "尽快投递",
+    "tags": [
+      "中国天楹",
+      "校招",
+      "春招",
+      "金融",
+      "能源/化工/环保",
+      "江苏",
+      "南通"
+    ],
+    "score": 79,
+    "featured": false,
+    "createdAt": "2026-06-14T22:20:07.000Z"
+  },
+  {
+    "id": "deepoffer-17430",
+    "title": "济南盛景积余城市服务 — 26届春招 | 商业管理专员 工程技术专员",
+    "summary": "招聘类型：26届春招。行业：房地产/建筑/物业。企业性质：民企。工作地点：济南。截止日期：2026/06/22。岗位：商业管理专员 工程技术专员。",
+    "url": "https://mp.weixin.qq.com/s/0I3Dd5YrqxQmnxpZcIiUNQ",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "private",
+    "location": "济南",
+    "deadline": "2026/06/22",
+    "tags": [
+      "济南盛景积余城市服务",
+      "校招",
+      "春招",
+      "房地产/建筑/物业",
+      "济南"
+    ],
+    "score": 79,
+    "featured": false,
+    "createdAt": "2026-06-14T22:20:07.000Z"
+  },
+  {
+    "id": "deepoffer-17428",
+    "title": "因赛集团 — 26届春招 | 客策类(AE、策划)、文案类美术类(视频、平面)、设计类(品牌视觉、3D设...",
+    "summary": "招聘类型：26届春招。行业：广告/咨询/服务。企业性质：民企。工作地点：广州。截止日期：2026/06/19。岗位：客策类(AE、策划)、文案类美术类(视频、平面)、设计类(品牌视觉、3D设计)AI技术(前端、后端、算法、测试、AI产品助理、AI商务助理财务类、人力类、...。",
+    "url": "https://mp.weixin.qq.com/s/49Kn-Ol6OV9wOXG-7Dn3nA",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "private",
+    "location": "广州",
+    "deadline": "2026/06/19",
+    "tags": [
+      "因赛集团",
+      "校招",
+      "春招",
+      "金融",
+      "广告/咨询/服务",
+      "广州"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-06-14T22:20:07.000Z"
+  },
+  {
+    "id": "deepoffer-17429",
+    "title": "麦米电气 — 实习 | 电气工程、自动化、电子科学与技术、电力电子等相关专业;",
+    "summary": "招聘类型：实习。行业：通信/电子/半导体。企业性质：民企。工作地点：长沙。截止日期：2026/07/10。岗位：电气工程、自动化、电子科学与技术、电力电子等相关专业;。",
+    "url": "https://wecruit.hotjob.cn/SU628dc1272f9d243f296ed241/mc/detail?postId=426901&recruitType=intern&distance=undefined",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "auto_ic",
+    "companyType": "private",
+    "location": "长沙",
+    "deadline": "2026/07/10",
+    "tags": [
+      "麦米电气",
+      "实习",
+      "车企/IC",
+      "通信/电子/半导体",
+      "长沙"
+    ],
+    "score": 77,
+    "featured": false,
+    "createdAt": "2026-06-14T22:20:07.000Z"
+  },
+  {
+    "id": "deepoffer-17432",
+    "title": "中国科学院光电技术研究所 — 26届春招 | 光机类电子与通信类计算机与控制类其它类专业",
+    "summary": "招聘类型：26届春招。行业：通信/电子/半导体。企业性质：事业单位。工作地点：成都。岗位：光机类电子与通信类计算机与控制类其它类专业。",
+    "url": "https://mp.weixin.qq.com/s/ZlSb1jOeyY6ld1NbQwbiZg",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "institution",
+    "location": "成都",
+    "deadline": "尽快投递",
+    "tags": [
+      "中国科学院光电技术研究所",
+      "校招",
+      "春招",
+      "车企/IC",
+      "事业单位",
+      "通信/电子/半导体",
+      "成都"
+    ],
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-06-14T22:20:07.000Z"
   },
   {
@@ -6232,7 +6232,7 @@
     ],
     "score": 76,
     "featured": false,
-    "createdAt": "2026-05-26T14:19:38.000Z"
+    "createdAt": "2026-05-26T06:19:38.000Z"
   },
   {
     "id": "deepoffer-17057",
@@ -75950,31 +75950,6 @@
     "createdAt": "2026-03-04T06:19:00.000Z"
   },
   {
-    "id": "deepoffer-13893",
-    "title": "科大讯飞 — 实习 | AI 研究算法工程师（多方向）语音大模型方向、认知大模型方向、多模态大模型...",
-    "summary": "招聘类型：实习。行业：人工智能/机器人。企业性质：民企。工作地点：北京、上海、合肥、广州、西安。岗位：AI 研究算法工程师（多方向）语音大模型方向、认知大模型方向、多模态大模型方向、智能语音方向、自然语言处理方向、计算机视觉方向、深度学习框架和平台方向、大...。",
-    "url": "https://iflytek.zhiye.com/4/jobs",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "internet",
-    "companyType": "private",
-    "location": "北京、上海、合肥、广州、西安",
-    "deadline": "尽快投递",
-    "tags": [
-      "科大讯飞",
-      "实习",
-      "互联网/AI",
-      "人工智能/机器人",
-      "北京",
-      "上海",
-      "合肥"
-    ],
-    "score": 77,
-    "featured": false,
-    "createdAt": "2026-03-04T06:18:59.000Z"
-  },
-  {
     "id": "deepoffer-13969",
     "title": "腾讯音乐娱乐 — 26届春招 | 自然语言处理方向 多媒体处理方向 机器学习方向 移动客户端Android ...",
     "summary": "招聘类型：26届春招。行业：IT/互联网/游戏/电商。企业性质：民企。工作地点：北京,上海,广州,深圳。截止日期：2026/03/06。岗位：自然语言处理方向 多媒体处理方向 机器学习方向 移动客户端Android 移动客户端iOS 前端开发方向 后台开发方向 测试开发。",
@@ -77290,6 +77265,31 @@
     "score": 56,
     "featured": false,
     "createdAt": "2026-03-03T22:19:00.000Z"
+  },
+  {
+    "id": "deepoffer-13893",
+    "title": "科大讯飞 — 实习 | AI 研究算法工程师（多方向）语音大模型方向、认知大模型方向、多模态大模型...",
+    "summary": "招聘类型：实习。行业：人工智能/机器人。企业性质：民企。工作地点：北京、上海、合肥、广州、西安。岗位：AI 研究算法工程师（多方向）语音大模型方向、认知大模型方向、多模态大模型方向、智能语音方向、自然语言处理方向、计算机视觉方向、深度学习框架和平台方向、大...。",
+    "url": "https://iflytek.zhiye.com/4/jobs",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "internet",
+    "companyType": "private",
+    "location": "北京、上海、合肥、广州、西安",
+    "deadline": "尽快投递",
+    "tags": [
+      "科大讯飞",
+      "实习",
+      "互联网/AI",
+      "人工智能/机器人",
+      "北京",
+      "上海",
+      "合肥"
+    ],
+    "score": 77,
+    "featured": false,
+    "createdAt": "2026-03-03T22:18:59.000Z"
   },
   {
     "id": "deepoffer-13905",
@@ -81811,30 +81811,6 @@
     "score": 68,
     "featured": false,
     "createdAt": "2026-03-01T13:54:13.000Z"
-  },
-  {
-    "id": "deepoffer-11554",
-    "title": "杰瑞集团 — 实习 | 青年合伙人计划技术研发类销售&技术服务类职能&采购类",
-    "summary": "招聘类型：实习。行业：能源/化工/环保。企业性质：民企。工作地点：北京、成都、天津、烟台、上海、深圳、天水、青岛。岗位：青年合伙人计划技术研发类销售&技术服务类职能&采购类。",
-    "url": "https://jereh.zhiye.com/campus",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "other",
-    "companyType": "private",
-    "location": "北京、成都、天津、烟台、上海、深圳、天水、青岛",
-    "deadline": "尽快投递",
-    "tags": [
-      "杰瑞集团",
-      "实习",
-      "能源/化工/环保",
-      "北京",
-      "成都",
-      "天津"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-03-01T13:54:10.000Z"
   },
   {
     "id": "deepoffer-11549",
@@ -123771,6 +123747,30 @@
     "createdAt": "2026-03-01T05:54:11.000Z"
   },
   {
+    "id": "deepoffer-11554",
+    "title": "杰瑞集团 — 实习 | 青年合伙人计划技术研发类销售&技术服务类职能&采购类",
+    "summary": "招聘类型：实习。行业：能源/化工/环保。企业性质：民企。工作地点：北京、成都、天津、烟台、上海、深圳、天水、青岛。岗位：青年合伙人计划技术研发类销售&技术服务类职能&采购类。",
+    "url": "https://jereh.zhiye.com/campus",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "other",
+    "companyType": "private",
+    "location": "北京、成都、天津、烟台、上海、深圳、天水、青岛",
+    "deadline": "尽快投递",
+    "tags": [
+      "杰瑞集团",
+      "实习",
+      "能源/化工/环保",
+      "北京",
+      "成都",
+      "天津"
+    ],
+    "score": 76,
+    "featured": false,
+    "createdAt": "2026-03-01T05:54:10.000Z"
+  },
+  {
     "id": "deepoffer-11547",
     "title": "小米集团（新零售） — 26届春招 | 新零售校招生计划",
     "summary": "招聘类型：26届春招。行业：通信/电子/半导体。企业性质：民企。工作地点：全国多地。截止日期：2026/05/31。岗位：新零售校招生计划。",
@@ -152003,31 +152003,6 @@
     "createdAt": "2026-02-28T14:51:53.000Z"
   },
   {
-    "id": "deepoffer-9780",
-    "title": "德赛西威 — 实习 | 算法类软件类硬件类测试类产品项目类制造工程类供应链类职能类",
-    "summary": "招聘类型：实习。行业：汽车/新能源。企业性质：民企。工作地点：惠州、成都、上海、南京、深圳。岗位：算法类软件类硬件类测试类产品项目类制造工程类供应链类职能类。",
-    "url": "https://g.h5gdvip.com/p/ectj6wge",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "auto_ic",
-    "companyType": "private",
-    "location": "惠州、成都、上海、南京、深圳",
-    "deadline": "尽快投递",
-    "tags": [
-      "德赛西威",
-      "实习",
-      "车企/IC",
-      "汽车/新能源",
-      "惠州",
-      "成都",
-      "上海"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-02-28T14:51:50.000Z"
-  },
-  {
     "id": "deepoffer-10112",
     "title": "宝洁",
     "summary": "工作地点：多地。",
@@ -158171,6 +158146,31 @@
     "score": 56,
     "featured": false,
     "createdAt": "2026-02-28T06:51:51.000Z"
+  },
+  {
+    "id": "deepoffer-9780",
+    "title": "德赛西威 — 实习 | 算法类软件类硬件类测试类产品项目类制造工程类供应链类职能类",
+    "summary": "招聘类型：实习。行业：汽车/新能源。企业性质：民企。工作地点：惠州、成都、上海、南京、深圳。岗位：算法类软件类硬件类测试类产品项目类制造工程类供应链类职能类。",
+    "url": "https://g.h5gdvip.com/p/ectj6wge",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "auto_ic",
+    "companyType": "private",
+    "location": "惠州、成都、上海、南京、深圳",
+    "deadline": "尽快投递",
+    "tags": [
+      "德赛西威",
+      "实习",
+      "车企/IC",
+      "汽车/新能源",
+      "惠州",
+      "成都",
+      "上海"
+    ],
+    "score": 76,
+    "featured": false,
+    "createdAt": "2026-02-28T06:51:50.000Z"
   },
   {
     "id": "deepoffer-9774",
