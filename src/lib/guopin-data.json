@@ -4647,8 +4647,8 @@
       "科技推广和应用服务业",
       "保定"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-06-13T10:27:20.000Z"
   },
   {
@@ -4671,8 +4671,8 @@
       "科技推广和应用服务业",
       "保定"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-06-13T10:27:07.000Z"
   },
   {
@@ -4695,8 +4695,8 @@
       "科技推广和应用服务业",
       "保定"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-06-13T10:26:54.000Z"
   },
   {
@@ -4719,8 +4719,8 @@
       "科技推广和应用服务业",
       "沧州"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-06-13T10:26:43.000Z"
   },
   {
@@ -4743,8 +4743,8 @@
       "科技推广和应用服务业",
       "沧州"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-06-13T10:26:25.000Z"
   },
   {
@@ -4767,8 +4767,8 @@
       "科技推广和应用服务业",
       "沧州"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-06-13T10:26:14.000Z"
   },
   {
@@ -4791,8 +4791,8 @@
       "科技推广和应用服务业",
       "保定"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-13T10:26:01.000Z"
   },
   {
@@ -4815,8 +4815,8 @@
       "科技推广和应用服务业",
       "保定"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-06-13T10:25:44.000Z"
   },
   {
@@ -4839,8 +4839,8 @@
       "科技推广和应用服务业",
       "北京"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-13T10:25:30.000Z"
   },
   {
@@ -11705,8 +11705,8 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-06T07:45:31.000Z"
   },
   {
@@ -11729,8 +11729,8 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-06-06T07:44:56.000Z"
   },
   {
@@ -11753,7 +11753,7 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-06-06T07:44:17.000Z"
   },
@@ -11777,8 +11777,8 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-06-06T07:43:49.000Z"
   },
   {
@@ -35020,7 +35020,7 @@
       "其他",
       "北京"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-21T09:50:18.000Z"
   },
@@ -35043,7 +35043,7 @@
       "其他",
       "北京"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-21T09:49:01.000Z"
   },
@@ -35067,7 +35067,7 @@
       "其他",
       "北京"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-21T09:48:43.000Z"
   },
