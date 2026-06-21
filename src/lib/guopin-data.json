@@ -4864,8 +4864,8 @@
       "中国",
       "海外"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-06-13T00:00:00.000Z"
   },
   {
@@ -4887,8 +4887,8 @@
       "有色金属矿采选业",
       "赞比亚"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-06-13T00:00:00.000Z"
   },
   {
@@ -4912,8 +4912,8 @@
       "中国",
       "海外"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-13T00:00:00.000Z"
   },
   {
@@ -4937,8 +4937,8 @@
       "中国",
       "海外"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-13T00:00:00.000Z"
   },
   {
@@ -4961,8 +4961,8 @@
       "有色金属矿采选业",
       "赞比亚"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-13T00:00:00.000Z"
   },
   {
@@ -5052,8 +5052,8 @@
       "科学研究和技术服务业",
       "济南市"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-06-12T15:57:43.000Z"
   },
   {
@@ -5097,8 +5097,8 @@
       "其他",
       "珠海市"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-12T14:40:29.000Z"
   },
   {
@@ -5121,7 +5121,7 @@
       "其他制造业",
       "北京"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-06-12T14:40:07.000Z"
   },
@@ -5145,7 +5145,7 @@
       "其他制造业",
       "北京"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-06-12T14:38:14.000Z"
   },
@@ -5168,8 +5168,8 @@
       "其他",
       "珠海市"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-06-12T14:15:44.000Z"
   },
   {
@@ -5192,8 +5192,8 @@
       "化学原料和化学制品制造业",
       "北京"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-06-12T13:22:54.000Z"
   },
   {
@@ -5215,8 +5215,8 @@
       "商务服务业",
       "琼海"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-06-12T11:41:19.000Z"
   },
   {
@@ -11800,8 +11800,8 @@
       "有色金属矿采选业",
       "郴州"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-06T00:00:00.000Z"
   },
   {
@@ -11824,8 +11824,8 @@
       "医药制造业",
       "十堰"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-06T00:00:00.000Z"
   },
   {
@@ -11847,7 +11847,7 @@
       "有色金属矿采选业",
       "郴州"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-06-06T00:00:00.000Z"
   },
@@ -11913,7 +11913,7 @@
       "通用设备制造业",
       "常州"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-06-05T18:00:00.000Z"
   },
@@ -11961,7 +11961,7 @@
       "煤炭开采和洗选业",
       "锡林郭勒"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-06-05T16:46:43.000Z"
   },
@@ -11985,8 +11985,8 @@
       "制造业",
       "九江"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-05T16:30:26.000Z"
   },
   {
@@ -12009,7 +12009,7 @@
       "其他制造业",
       "重庆"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-06-05T16:00:00.000Z"
   },
@@ -12033,7 +12033,7 @@
       "其他制造业",
       "重庆"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-06-05T16:00:00.000Z"
   },
@@ -12057,7 +12057,7 @@
       "其他制造业",
       "重庆"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-06-05T16:00:00.000Z"
   },
@@ -12081,7 +12081,7 @@
       "其他制造业",
       "中国"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-06-05T16:00:00.000Z"
   },
@@ -12105,7 +12105,7 @@
       "其他制造业",
       "重庆"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-06-05T16:00:00.000Z"
   },
@@ -12129,7 +12129,7 @@
       "其他制造业",
       "中国"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-06-05T16:00:00.000Z"
   },
@@ -12153,7 +12153,7 @@
       "其他制造业",
       "重庆"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-06-05T16:00:00.000Z"
   },
@@ -12177,7 +12177,7 @@
       "其他制造业",
       "重庆"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-06-05T16:00:00.000Z"
   },
@@ -12201,7 +12201,7 @@
       "其他制造业",
       "重庆"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-06-05T16:00:00.000Z"
   },
@@ -12225,7 +12225,7 @@
       "其他制造业",
       "重庆"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-06-05T16:00:00.000Z"
   },
@@ -12249,7 +12249,7 @@
       "保险业",
       "金华"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-06-05T15:08:27.000Z"
   },
@@ -12273,7 +12273,7 @@
       "制造业",
       "北京"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-06-05T14:49:53.000Z"
   },
@@ -12297,7 +12297,7 @@
       "电力、热力、燃气及水生产和供应业",
       "衢州"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-06-05T14:39:42.000Z"
   },
@@ -12321,7 +12321,7 @@
       "制造业",
       "北京"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-06-05T14:17:43.000Z"
   },
@@ -12344,8 +12344,8 @@
       "建筑业",
       "中国"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-06-05T12:00:00.000Z"
   },
   {
@@ -12367,8 +12367,8 @@
       "建筑业",
       "武汉"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-06-05T12:00:00.000Z"
   },
   {
@@ -12391,7 +12391,7 @@
       "其他制造业",
       "杭州"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-06-05T12:00:00.000Z"
   },
@@ -12415,7 +12415,7 @@
       "其他制造业",
       "杭州"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-06-05T12:00:00.000Z"
   },
@@ -12439,7 +12439,7 @@
       "其他制造业",
       "杭州"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-06-05T12:00:00.000Z"
   },
@@ -12463,7 +12463,7 @@
       "其他制造业",
       "杭州"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-06-05T12:00:00.000Z"
   },
@@ -12487,7 +12487,7 @@
       "其他制造业",
       "杭州"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-06-05T12:00:00.000Z"
   },
@@ -12511,7 +12511,7 @@
       "其他制造业",
       "杭州"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-06-05T12:00:00.000Z"
   },
@@ -12535,7 +12535,7 @@
       "其他制造业",
       "杭州"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-06-05T12:00:00.000Z"
   },
@@ -12559,7 +12559,7 @@
       "其他制造业",
       "杭州"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-06-05T12:00:00.000Z"
   },
@@ -12583,7 +12583,7 @@
       "其他制造业",
       "杭州"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-06-05T12:00:00.000Z"
   },
@@ -12607,7 +12607,7 @@
       "其他制造业",
       "杭州"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-06-05T12:00:00.000Z"
   },
@@ -12631,7 +12631,7 @@
       "其他制造业",
       "杭州"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-06-05T12:00:00.000Z"
   },
@@ -12655,7 +12655,7 @@
       "其他制造业",
       "杭州"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-06-05T12:00:00.000Z"
   },
@@ -35407,29 +35407,6 @@
     "createdAt": "2026-05-21T00:00:00.000Z"
   },
   {
-    "id": "guopin-201390085860491484",
-    "title": "中能建装配式建筑产业发展有限公司 — 内附件设计岗",
-    "summary": "企业性质：国企。行业：土木工程建筑业。工作地点：深圳-龙岗区。薪资：7000-10000元/月。学历：本科。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=201390085860491484",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "深圳-龙岗区",
-    "deadline": "2026/07/01",
-    "tags": [
-      "中能建装配式建筑产业发展有限公司",
-      "校招",
-      "国企",
-      "土木工程建筑业",
-      "深圳"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-05-21T00:00:00.000Z"
-  },
-  {
     "id": "guopin-201351118511407329",
     "title": "福建省毕业生就业指导中心 — 专业技术人员（土建）【福州市财政投资评审中心 】",
     "summary": "企业性质：其他。行业：其他。工作地点：福州。薪资面议。学历：硕士。规模：50人以下。",
@@ -35445,125 +35422,6 @@
       "金融",
       "其他",
       "福州"
-    ],
-    "score": 75,
-    "featured": false,
-    "createdAt": "2026-05-21T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-201277877642068297",
-    "title": "中色矿用助剂化工（铁岭）有限公司 — 质量技术部-技术管理",
-    "summary": "企业性质：国企。行业：化学原料和化学制品制造业。工作地点：铁岭-调兵山市。薪资：6000-9000元/月。学历：硕士。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=201277877642068297",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "铁岭-调兵山市",
-    "deadline": "2026/06/30",
-    "tags": [
-      "中色矿用助剂化工（铁岭）有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "化学原料和化学制品制造业",
-      "铁岭"
-    ],
-    "score": 75,
-    "featured": false,
-    "createdAt": "2026-05-21T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-201277470089937219",
-    "title": "中色矿用助剂化工（铁岭）有限公司 — 市场营销部-市场拓展",
-    "summary": "企业性质：国企。行业：化学原料和化学制品制造业。工作地点：铁岭-调兵山市。薪资：5000-7000元/月。学历：本科。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=201277470089937219",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "铁岭-调兵山市",
-    "deadline": "2026/06/30",
-    "tags": [
-      "中色矿用助剂化工（铁岭）有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "化学原料和化学制品制造业",
-      "铁岭"
-    ],
-    "score": 75,
-    "featured": false,
-    "createdAt": "2026-05-21T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-201393714537431265",
-    "title": "国药控股江苏有限公司 — 销售员",
-    "summary": "企业性质：国企。行业：卫生。工作地点：泰州-海陵区。薪资：5000-8000元/月。学历：本科。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=201393714537431265",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "泰州-海陵区",
-    "deadline": "2026/06/30",
-    "tags": [
-      "国药控股江苏有限公司",
-      "校招",
-      "国企",
-      "卫生",
-      "泰州"
-    ],
-    "score": 75,
-    "featured": false,
-    "createdAt": "2026-05-21T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-201390897558978780",
-    "title": "浙江盛达铁塔有限公司 — 国内业务员",
-    "summary": "企业性质：国企。行业：制造业。工作地点：杭州-萧山区。薪资：12000-15000元/月。学历：硕士。规模：300-500人。",
-    "url": "https://www.iguopin.com/job/detail?id=201390897558978780",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "杭州-萧山区",
-    "deadline": "2026/07/31",
-    "tags": [
-      "浙江盛达铁塔有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "制造业",
-      "杭州"
-    ],
-    "score": 75,
-    "featured": false,
-    "createdAt": "2026-05-21T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-201390404761813313",
-    "title": "北京碧水源科技股份有限公司 — 采购类",
-    "summary": "企业性质：国企。行业：生态保护和环境治理业。工作地点：北京-海淀区。薪资：10000-12000元/月。学历：硕士。规模：2000-5000人。",
-    "url": "https://www.iguopin.com/job/detail?id=201390404761813313",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "companyType": "state",
-    "location": "北京-海淀区",
-    "deadline": "2026/06/30",
-    "tags": [
-      "北京碧水源科技股份有限公司",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "生态保护和环境治理业",
-      "北京"
     ],
     "score": 75,
     "featured": false,
@@ -35614,6 +35472,148 @@
     "createdAt": "2026-05-21T00:00:00.000Z"
   },
   {
+    "id": "guopin-201390085860491484",
+    "title": "中能建装配式建筑产业发展有限公司 — 内附件设计岗",
+    "summary": "企业性质：国企。行业：土木工程建筑业。工作地点：深圳-龙岗区。薪资：7000-10000元/月。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=201390085860491484",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "深圳-龙岗区",
+    "deadline": "2026/07/01",
+    "tags": [
+      "中能建装配式建筑产业发展有限公司",
+      "校招",
+      "国企",
+      "土木工程建筑业",
+      "深圳"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-05-21T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-201277877642068297",
+    "title": "中色矿用助剂化工（铁岭）有限公司 — 质量技术部-技术管理",
+    "summary": "企业性质：国企。行业：化学原料和化学制品制造业。工作地点：铁岭-调兵山市。薪资：6000-9000元/月。学历：硕士。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=201277877642068297",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "铁岭-调兵山市",
+    "deadline": "2026/06/30",
+    "tags": [
+      "中色矿用助剂化工（铁岭）有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "化学原料和化学制品制造业",
+      "铁岭"
+    ],
+    "score": 70,
+    "featured": false,
+    "createdAt": "2026-05-21T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-201277470089937219",
+    "title": "中色矿用助剂化工（铁岭）有限公司 — 市场营销部-市场拓展",
+    "summary": "企业性质：国企。行业：化学原料和化学制品制造业。工作地点：铁岭-调兵山市。薪资：5000-7000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=201277470089937219",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "铁岭-调兵山市",
+    "deadline": "2026/06/30",
+    "tags": [
+      "中色矿用助剂化工（铁岭）有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "化学原料和化学制品制造业",
+      "铁岭"
+    ],
+    "score": 70,
+    "featured": false,
+    "createdAt": "2026-05-21T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-201393714537431265",
+    "title": "国药控股江苏有限公司 — 销售员",
+    "summary": "企业性质：国企。行业：卫生。工作地点：泰州-海陵区。薪资：5000-8000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=201393714537431265",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "泰州-海陵区",
+    "deadline": "2026/06/30",
+    "tags": [
+      "国药控股江苏有限公司",
+      "校招",
+      "国企",
+      "卫生",
+      "泰州"
+    ],
+    "score": 70,
+    "featured": false,
+    "createdAt": "2026-05-21T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-201390897558978780",
+    "title": "浙江盛达铁塔有限公司 — 国内业务员",
+    "summary": "企业性质：国企。行业：制造业。工作地点：杭州-萧山区。薪资：12000-15000元/月。学历：硕士。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=201390897558978780",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "杭州-萧山区",
+    "deadline": "2026/07/31",
+    "tags": [
+      "浙江盛达铁塔有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "制造业",
+      "杭州"
+    ],
+    "score": 70,
+    "featured": false,
+    "createdAt": "2026-05-21T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-201390404761813313",
+    "title": "北京碧水源科技股份有限公司 — 采购类",
+    "summary": "企业性质：国企。行业：生态保护和环境治理业。工作地点：北京-海淀区。薪资：10000-12000元/月。学历：硕士。规模：2000-5000人。",
+    "url": "https://www.iguopin.com/job/detail?id=201390404761813313",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "北京-海淀区",
+    "deadline": "2026/06/30",
+    "tags": [
+      "北京碧水源科技股份有限公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "生态保护和环境治理业",
+      "北京"
+    ],
+    "score": 70,
+    "featured": false,
+    "createdAt": "2026-05-21T00:00:00.000Z"
+  },
+  {
     "id": "guopin-201354817971421513",
     "title": "国药集团新疆制药有限公司 — 销售员",
     "summary": "企业性质：国企。行业：医药制造业。工作地点：乌鲁木齐-头屯河区。薪资面议。学历：本科。规模：300-500人。",
@@ -35633,7 +35633,7 @@
       "医药制造业",
       "乌鲁木齐"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-05-21T00:00:00.000Z"
   },
@@ -35656,7 +35656,7 @@
       "有色金属矿采选业",
       "长沙"
     ],
-    "score": 69,
+    "score": 64,
     "featured": false,
     "createdAt": "2026-05-21T00:00:00.000Z"
   },
@@ -35679,7 +35679,7 @@
       "有色金属矿采选业",
       "长沙"
     ],
-    "score": 69,
+    "score": 64,
     "featured": false,
     "createdAt": "2026-05-21T00:00:00.000Z"
   },
@@ -35703,7 +35703,7 @@
       "有色金属矿采选业",
       "长沙"
     ],
-    "score": 67,
+    "score": 62,
     "featured": false,
     "createdAt": "2026-05-21T00:00:00.000Z"
   },
@@ -35726,7 +35726,7 @@
       "有色金属矿采选业",
       "长沙"
     ],
-    "score": 65,
+    "score": 60,
     "featured": false,
     "createdAt": "2026-05-21T00:00:00.000Z"
   },
@@ -35750,7 +35750,7 @@
       "铁路、船舶、航空航天和其他运输设备制造业",
       "陕西"
     ],
-    "score": 63,
+    "score": 58,
     "featured": false,
     "createdAt": "2026-05-21T00:00:00.000Z"
   },
@@ -35773,7 +35773,7 @@
       "非金属矿采选业",
       "鹤岗"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-20T20:24:58.000Z"
   },
@@ -42070,6 +42070,9 @@
     "sourceHandle": "@guopin",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "苏州",
+    "deadline": "2026/08/11",
     "tags": [
       "钢研昊普（苏州）创新中心有限公司",
       "校招",
@@ -42091,6 +42094,9 @@
     "sourceHandle": "@guopin",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "苏州",
+    "deadline": "2026/08/07",
     "tags": [
       "钢研昊普（苏州）创新中心有限公司",
       "校招",
@@ -42112,6 +42118,9 @@
     "sourceHandle": "@guopin",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "苏州",
+    "deadline": "2026/08/04",
     "tags": [
       "钢研昊普（苏州）创新中心有限公司",
       "校招",
@@ -42394,6 +42403,9 @@
     "sourceHandle": "@guopin",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "深圳-南山区",
+    "deadline": "2026/08/11",
     "tags": [
       "中国东方电气集团有限公司",
       "校招",
@@ -42592,6 +42604,9 @@
     "sourceHandle": "@guopin",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "江门-江海区",
+    "deadline": "2026/07/01",
     "tags": [
       "东莞证券股份有限公司江门江海证券营业部",
       "校招",
@@ -42613,6 +42628,9 @@
     "sourceHandle": "@guopin",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "成都-武侯区",
+    "deadline": "2026/08/10",
     "tags": [
       "中青博联整合营销顾问股份有限公司",
       "校招",
@@ -42633,6 +42651,9 @@
     "sourceHandle": "@guopin",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "成都-武侯区",
+    "deadline": "2026/08/10",
     "tags": [
       "中青博联整合营销顾问股份有限公司",
       "校招",
@@ -44179,6 +44200,9 @@
     "sourceHandle": "@guopin",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "北京-西城区",
+    "deadline": "2026/08/10",
     "tags": [
       "中国城市建设研究院有限公司",
       "校招",
@@ -44199,6 +44223,9 @@
     "sourceHandle": "@guopin",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "北京-西城区",
+    "deadline": "2026/08/10",
     "tags": [
       "中国城市建设研究院有限公司",
       "校招",
@@ -44219,6 +44246,9 @@
     "sourceHandle": "@guopin",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "北京-西城区",
+    "deadline": "2026/08/10",
     "tags": [
       "中国城市建设研究院有限公司",
       "校招",
@@ -44281,6 +44311,9 @@
     "sourceHandle": "@guopin",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "北京-西城区",
+    "deadline": "2026/08/10",
     "tags": [
       "中国城市建设研究院有限公司",
       "校招",
@@ -44490,6 +44523,9 @@
     "sourceHandle": "@guopin",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "北京-西城区",
+    "deadline": "2026/08/10",
     "tags": [
       "中国城市建设研究院有限公司",
       "校招",
@@ -44510,6 +44546,9 @@
     "sourceHandle": "@guopin",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "北京-西城区",
+    "deadline": "2026/08/10",
     "tags": [
       "中国城市建设研究院有限公司",
       "校招",
@@ -44550,6 +44589,9 @@
     "sourceHandle": "@guopin",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "刚果(金)",
+    "deadline": "2026/08/10",
     "tags": [
       "中国有色集团刚果矿业有限公司",
       "校招",
@@ -44570,6 +44612,9 @@
     "sourceHandle": "@guopin",
     "channel": "campus",
     "category": "auto_ic",
+    "companyType": "state",
+    "location": "北京-西城区",
+    "deadline": "2026/08/10",
     "tags": [
       "中国城市建设研究院有限公司",
       "校招",
@@ -44591,6 +44636,9 @@
     "sourceHandle": "@guopin",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "北京-西城区",
+    "deadline": "2026/08/10",
     "tags": [
       "中国城市建设研究院有限公司",
       "校招",
@@ -44611,6 +44659,9 @@
     "sourceHandle": "@guopin",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "北京-西城区",
+    "deadline": "2026/08/10",
     "tags": [
       "中国城市建设研究院有限公司",
       "校招",
@@ -51649,6 +51700,9 @@
     "sourceHandle": "@guopin",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "山西",
+    "deadline": "2026/07/31",
     "tags": [
       "华润雪花啤酒（中国）有限公司山西分公司",
       "校招",
