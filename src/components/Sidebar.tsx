@@ -288,7 +288,7 @@ export function Sidebar() {
         <span className="orbit-dot" aria-hidden="true"></span>
         <span className="brand-hot">HOT</span>
       </Link>
-      <span className="brand-slogan">更好用的大学生求职站</span>
+      <span className="brand-slogan">更好用的大学生求职网站</span>
 
       <div className="divider" />
 

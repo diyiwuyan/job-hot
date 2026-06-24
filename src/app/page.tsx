@@ -73,7 +73,7 @@ export default function HomePage() {
           <span className="orbit-dot" aria-hidden="true"></span>
           <span className="brand-hot" style={{ background: 'linear-gradient(135deg, var(--gradient-start), var(--gradient-end))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>HOT</span>
         </h1>
-        <p className="hero-subtitle">更好用的大学生求职站</p>
+        <p className="hero-subtitle">更好用的大学生求职网站</p>
         <p className="hero-desc">校招 · 实习 · 宣讲会，每日自动更新，一站搞定</p>
       </div>
 
@@ -105,17 +105,11 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* CTA Buttons */}
+      {/* CTA Button */}
       <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center', margin: '1.5rem 0' }}>
         <Link href="/all" className="btn btn-lg">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
-          全部动态
-        </Link>
-        <Link href="/all/?channel=campus" className="btn btn-secondary btn-lg">
-          校招信息
-        </Link>
-        <Link href="/all/?channel=intern" className="btn btn-secondary btn-lg">
-          实习信息
+          浏览全部岗位
         </Link>
       </div>
 
