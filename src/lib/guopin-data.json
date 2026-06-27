@@ -10282,8 +10282,8 @@
       "制造业",
       "北京"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-06-19T00:00:00.000Z"
   },
   {
@@ -10306,8 +10306,8 @@
       "卫生",
       "上海"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-06-19T00:00:00.000Z"
   },
   {
@@ -10329,7 +10329,7 @@
       "建筑业",
       "杭州"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-06-18T16:12:12.000Z"
   },
@@ -10353,8 +10353,8 @@
       "专用设备制造业",
       "北京"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-06-18T15:57:23.000Z"
   },
   {
@@ -10376,7 +10376,7 @@
       "卫生",
       "大连"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-06-18T15:17:41.000Z"
   },
@@ -10399,8 +10399,8 @@
       "专业技术服务业",
       "太原"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-06-18T15:16:45.000Z"
   },
   {
@@ -10423,8 +10423,8 @@
       "专用设备制造业",
       "成都"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-06-18T14:49:28.000Z"
   },
   {
@@ -10447,8 +10447,8 @@
       "道路运输业",
       "广东"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-18T14:41:42.000Z"
   },
   {
@@ -15741,8 +15741,8 @@
       "黑色金属冶炼和压延加工业",
       "泰州"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-12T00:00:08.000Z"
   },
   {
@@ -15812,8 +15812,8 @@
       "保险业",
       "温州"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-12T00:00:00.000Z"
   },
   {
@@ -15835,8 +15835,8 @@
       "水上运输业",
       "广州"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-12T00:00:00.000Z"
   },
   {
@@ -15858,266 +15858,6 @@
       "金融",
       "科学研究和技术服务业",
       "哈尔滨"
-    ],
-    "score": 81,
-    "featured": true,
-    "createdAt": "2026-06-12T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-204559127748281248",
-    "title": "鞍山钢铁集团有限公司 — 机器人工程师",
-    "summary": "企业性质：国企。行业：金属制品业。工作地点：鞍山-铁西区。薪资：7000-10000元/月。学历：本科。规模：30000人以上。",
-    "url": "https://www.iguopin.com/job/detail?id=204559127748281248",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "鞍山-铁西区",
-    "deadline": "2026/07/29",
-    "tags": [
-      "鞍山钢铁集团有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "金属制品业",
-      "鞍山"
-    ],
-    "score": 80,
-    "featured": true,
-    "createdAt": "2026-06-12T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-204550549775844256",
-    "title": "中华联合财产保险股份有限公司温州中心支公司 — 管培生 (2027年校招）",
-    "summary": "企业性质：国企。行业：保险业。工作地点：温州-龙湾区。薪资：5000-7000元/月。学历：本科。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=204550549775844256",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "finance",
-    "companyType": "state",
-    "location": "温州-龙湾区",
-    "deadline": "2026/09/09",
-    "tags": [
-      "中华联合财产保险股份有限公司温州中心支公司",
-      "校招",
-      "国企",
-      "金融",
-      "保险业",
-      "温州"
-    ],
-    "score": 79,
-    "featured": false,
-    "createdAt": "2026-06-12T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-204546289621271455",
-    "title": "江苏港口集装箱集团有限公司 — 外勤",
-    "summary": "企业性质：国企。行业：水上运输业。工作地点：苏州-太仓市。薪资：5000-10000元/月。学历：本科。规模：500-1000人。",
-    "url": "https://www.iguopin.com/job/detail?id=204546289621271455",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "苏州-太仓市",
-    "deadline": "2026/06/30",
-    "tags": [
-      "江苏港口集装箱集团有限公司",
-      "校招",
-      "国企",
-      "水上运输业",
-      "苏州"
-    ],
-    "score": 79,
-    "featured": false,
-    "createdAt": "2026-06-12T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-204588061214901012",
-    "title": "中远海运（广州）有限公司 — 数字化研发岗",
-    "summary": "企业性质：国企。行业：水上运输业。工作地点：广州-海珠区、广州-黄埔区、广州-番禺区。薪资：12000-15000元/月。学历：硕士。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=204588061214901012",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "companyType": "state",
-    "location": "广州-海珠区、广州-黄埔区、广州-番禺区、深圳-宝安区",
-    "deadline": "2026/09/01",
-    "tags": [
-      "中远海运（广州）有限公司",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "水上运输业",
-      "广州"
-    ],
-    "score": 79,
-    "featured": false,
-    "createdAt": "2026-06-12T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-204587933104079636",
-    "title": "中远海运（广州）有限公司 — 商务核算管理岗",
-    "summary": "企业性质：国企。行业：水上运输业。工作地点：广州-海珠区、广州-黄埔区、广州-番禺区。薪资：9600-15000元/月。学历：硕士。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=204587933104079636",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "广州-海珠区、广州-黄埔区、广州-番禺区、深圳-南山区",
-    "deadline": "2026/09/01",
-    "tags": [
-      "中远海运（广州）有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "水上运输业",
-      "广州"
-    ],
-    "score": 79,
-    "featured": false,
-    "createdAt": "2026-06-12T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-204549565758571280",
-    "title": "中华联合财产保险股份有限公司温州中心支公司 — 管培生 (2026年校招）",
-    "summary": "企业性质：国企。行业：保险业。工作地点：温州-龙湾区。薪资：5000-7000元/月。学历：本科。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=204549565758571280",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "finance",
-    "companyType": "state",
-    "location": "温州-龙湾区",
-    "deadline": "2026/09/09",
-    "tags": [
-      "中华联合财产保险股份有限公司温州中心支公司",
-      "校招",
-      "国企",
-      "金融",
-      "保险业",
-      "温州"
-    ],
-    "score": 78,
-    "featured": false,
-    "createdAt": "2026-06-12T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-204575169031701268",
-    "title": "中国一冶集团有限公司河南分公司 — 人力资源管理",
-    "summary": "企业性质：国企。行业：土木工程建筑业。工作地点：郑州。薪资：10000-12000元/月。学历：本科。规模：300-500人。",
-    "url": "https://www.iguopin.com/job/detail?id=204575169031701268",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "郑州",
-    "deadline": "2026/09/09",
-    "tags": [
-      "中国一冶集团有限公司河南分公司",
-      "校招",
-      "国企",
-      "土木工程建筑业",
-      "郑州"
-    ],
-    "score": 78,
-    "featured": false,
-    "createdAt": "2026-06-12T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-204544311033856784",
-    "title": "中国乡镇企业有限公司 — 子企业食品质量安全专员",
-    "summary": "企业性质：国企。行业：批发业。工作地点：北京。薪资面议。学历：本科。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=204544311033856784",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "security",
-    "companyType": "state",
-    "location": "北京",
-    "deadline": "2026/08/30",
-    "tags": [
-      "中国乡镇企业有限公司",
-      "校招",
-      "国企",
-      "安全/云服务",
-      "批发业",
-      "北京"
-    ],
-    "score": 77,
-    "featured": false,
-    "createdAt": "2026-06-12T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-204586376295875482",
-    "title": "中国乡镇企业有限公司 — 子企业采购专员岗",
-    "summary": "企业性质：国企。行业：批发业。工作地点：北京-大兴区。薪资面议。学历：本科。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=204586376295875482",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-大兴区",
-    "deadline": "2026/08/31",
-    "tags": [
-      "中国乡镇企业有限公司",
-      "校招",
-      "国企",
-      "批发业",
-      "北京"
-    ],
-    "score": 77,
-    "featured": false,
-    "createdAt": "2026-06-12T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-204567212101468948",
-    "title": "中国乡镇企业有限公司 — 法务岗",
-    "summary": "企业性质：国企。行业：批发业。工作地点：北京-朝阳区。薪资面议。学历：本科。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=204567212101468948",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/08/31",
-    "tags": [
-      "中国乡镇企业有限公司",
-      "校招",
-      "国企",
-      "批发业",
-      "北京"
-    ],
-    "score": 77,
-    "featured": false,
-    "createdAt": "2026-06-12T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-204550909227697056",
-    "title": "辽宁出版集团有限公司 — 辽宁科学技术出版社 AI模型运营",
-    "summary": "企业性质：国企。行业：新闻和出版业。工作地点：沈阳-和平区。薪资面议。学历：本科。规模：2000-5000人。",
-    "url": "https://www.iguopin.com/job/detail?id=204550909227697056",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "companyType": "state",
-    "location": "沈阳-和平区",
-    "deadline": "2026/09/09",
-    "tags": [
-      "辽宁出版集团有限公司",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "新闻和出版业",
-      "沈阳"
     ],
     "score": 76,
     "featured": false,
@@ -16147,6 +15887,266 @@
     "createdAt": "2026-06-12T00:00:00.000Z"
   },
   {
+    "id": "guopin-204559127748281248",
+    "title": "鞍山钢铁集团有限公司 — 机器人工程师",
+    "summary": "企业性质：国企。行业：金属制品业。工作地点：鞍山-铁西区。薪资：7000-10000元/月。学历：本科。规模：30000人以上。",
+    "url": "https://www.iguopin.com/job/detail?id=204559127748281248",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "鞍山-铁西区",
+    "deadline": "2026/07/29",
+    "tags": [
+      "鞍山钢铁集团有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "金属制品业",
+      "鞍山"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-06-12T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-204550549775844256",
+    "title": "中华联合财产保险股份有限公司温州中心支公司 — 管培生 (2027年校招）",
+    "summary": "企业性质：国企。行业：保险业。工作地点：温州-龙湾区。薪资：5000-7000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=204550549775844256",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "state",
+    "location": "温州-龙湾区",
+    "deadline": "2026/09/09",
+    "tags": [
+      "中华联合财产保险股份有限公司温州中心支公司",
+      "校招",
+      "国企",
+      "金融",
+      "保险业",
+      "温州"
+    ],
+    "score": 74,
+    "featured": false,
+    "createdAt": "2026-06-12T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-204546289621271455",
+    "title": "江苏港口集装箱集团有限公司 — 外勤",
+    "summary": "企业性质：国企。行业：水上运输业。工作地点：苏州-太仓市。薪资：5000-10000元/月。学历：本科。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=204546289621271455",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "苏州-太仓市",
+    "deadline": "2026/06/30",
+    "tags": [
+      "江苏港口集装箱集团有限公司",
+      "校招",
+      "国企",
+      "水上运输业",
+      "苏州"
+    ],
+    "score": 74,
+    "featured": false,
+    "createdAt": "2026-06-12T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-204588061214901012",
+    "title": "中远海运（广州）有限公司 — 数字化研发岗",
+    "summary": "企业性质：国企。行业：水上运输业。工作地点：广州-海珠区、广州-黄埔区、广州-番禺区。薪资：12000-15000元/月。学历：硕士。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=204588061214901012",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "广州-海珠区、广州-黄埔区、广州-番禺区、深圳-宝安区",
+    "deadline": "2026/09/01",
+    "tags": [
+      "中远海运（广州）有限公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "水上运输业",
+      "广州"
+    ],
+    "score": 74,
+    "featured": false,
+    "createdAt": "2026-06-12T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-204587933104079636",
+    "title": "中远海运（广州）有限公司 — 商务核算管理岗",
+    "summary": "企业性质：国企。行业：水上运输业。工作地点：广州-海珠区、广州-黄埔区、广州-番禺区。薪资：9600-15000元/月。学历：硕士。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=204587933104079636",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "广州-海珠区、广州-黄埔区、广州-番禺区、深圳-南山区",
+    "deadline": "2026/09/01",
+    "tags": [
+      "中远海运（广州）有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "水上运输业",
+      "广州"
+    ],
+    "score": 74,
+    "featured": false,
+    "createdAt": "2026-06-12T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-204549565758571280",
+    "title": "中华联合财产保险股份有限公司温州中心支公司 — 管培生 (2026年校招）",
+    "summary": "企业性质：国企。行业：保险业。工作地点：温州-龙湾区。薪资：5000-7000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=204549565758571280",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "state",
+    "location": "温州-龙湾区",
+    "deadline": "2026/09/09",
+    "tags": [
+      "中华联合财产保险股份有限公司温州中心支公司",
+      "校招",
+      "国企",
+      "金融",
+      "保险业",
+      "温州"
+    ],
+    "score": 73,
+    "featured": false,
+    "createdAt": "2026-06-12T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-204575169031701268",
+    "title": "中国一冶集团有限公司河南分公司 — 人力资源管理",
+    "summary": "企业性质：国企。行业：土木工程建筑业。工作地点：郑州。薪资：10000-12000元/月。学历：本科。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=204575169031701268",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "郑州",
+    "deadline": "2026/09/09",
+    "tags": [
+      "中国一冶集团有限公司河南分公司",
+      "校招",
+      "国企",
+      "土木工程建筑业",
+      "郑州"
+    ],
+    "score": 73,
+    "featured": false,
+    "createdAt": "2026-06-12T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-204544311033856784",
+    "title": "中国乡镇企业有限公司 — 子企业食品质量安全专员",
+    "summary": "企业性质：国企。行业：批发业。工作地点：北京。薪资面议。学历：本科。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=204544311033856784",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "security",
+    "companyType": "state",
+    "location": "北京",
+    "deadline": "2026/08/30",
+    "tags": [
+      "中国乡镇企业有限公司",
+      "校招",
+      "国企",
+      "安全/云服务",
+      "批发业",
+      "北京"
+    ],
+    "score": 72,
+    "featured": false,
+    "createdAt": "2026-06-12T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-204586376295875482",
+    "title": "中国乡镇企业有限公司 — 子企业采购专员岗",
+    "summary": "企业性质：国企。行业：批发业。工作地点：北京-大兴区。薪资面议。学历：本科。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=204586376295875482",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-大兴区",
+    "deadline": "2026/08/31",
+    "tags": [
+      "中国乡镇企业有限公司",
+      "校招",
+      "国企",
+      "批发业",
+      "北京"
+    ],
+    "score": 72,
+    "featured": false,
+    "createdAt": "2026-06-12T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-204567212101468948",
+    "title": "中国乡镇企业有限公司 — 法务岗",
+    "summary": "企业性质：国企。行业：批发业。工作地点：北京-朝阳区。薪资面议。学历：本科。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=204567212101468948",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/08/31",
+    "tags": [
+      "中国乡镇企业有限公司",
+      "校招",
+      "国企",
+      "批发业",
+      "北京"
+    ],
+    "score": 72,
+    "featured": false,
+    "createdAt": "2026-06-12T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-204550909227697056",
+    "title": "辽宁出版集团有限公司 — 辽宁科学技术出版社 AI模型运营",
+    "summary": "企业性质：国企。行业：新闻和出版业。工作地点：沈阳-和平区。薪资面议。学历：本科。规模：2000-5000人。",
+    "url": "https://www.iguopin.com/job/detail?id=204550909227697056",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "沈阳-和平区",
+    "deadline": "2026/09/09",
+    "tags": [
+      "辽宁出版集团有限公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "新闻和出版业",
+      "沈阳"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-06-12T00:00:00.000Z"
+  },
+  {
     "id": "guopin-204574148003889940",
     "title": "山西华冶勘测工程技术有限公司 — 化探工程师",
     "summary": "企业性质：国企。行业：专业技术服务业。工作地点：太原-小店区。薪资面议。学历：本科。规模：100-300人。",
@@ -16165,7 +16165,7 @@
       "专业技术服务业",
       "太原"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-06-12T00:00:00.000Z"
   },
@@ -16189,7 +16189,7 @@
       "专用设备制造业",
       "广州"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-06-12T00:00:00.000Z"
   },
@@ -16213,7 +16213,7 @@
       "专用设备制造业",
       "广州"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-06-12T00:00:00.000Z"
   },
@@ -16237,7 +16237,7 @@
       "有色金属矿采选业",
       "赞比亚"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-06-12T00:00:00.000Z"
   },
@@ -16261,7 +16261,7 @@
       "水利、环境和公共设施管理业",
       "武汉"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-06-12T00:00:00.000Z"
   },
@@ -16284,8 +16284,8 @@
       "专业技术服务业",
       "塔吉克斯坦"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-11T20:11:11.000Z"
   },
   {
@@ -16306,8 +16306,8 @@
       "国企",
       "大连"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-11T19:00:00.000Z"
   },
   {
@@ -16328,7 +16328,7 @@
       "国企",
       "大连"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-06-11T18:00:01.000Z"
   },
@@ -16353,7 +16353,7 @@
       "广州",
       "深圳"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-06-11T17:32:13.000Z"
   },
@@ -16377,7 +16377,7 @@
       "建筑业",
       "广东"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-06-11T17:31:19.000Z"
   },
@@ -16401,7 +16401,7 @@
       "建筑业",
       "广东"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-06-11T17:28:29.000Z"
   },
@@ -16425,7 +16425,7 @@
       "建筑业",
       "广东"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-06-11T17:26:50.000Z"
   },
@@ -16449,8 +16449,8 @@
       "化学原料和化学制品制造业",
       "红河"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-11T17:00:00.000Z"
   },
   {
@@ -16472,7 +16472,7 @@
       "房地产业",
       "天津"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-06-11T16:44:04.000Z"
   },
@@ -16516,8 +16516,8 @@
       "科学研究和技术服务业",
       "西安"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-06-11T16:03:00.000Z"
   },
   {
@@ -16540,7 +16540,7 @@
       "保险业",
       "湖州"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-06-11T15:20:00.000Z"
   },
@@ -16563,8 +16563,8 @@
       "装卸搬运和仓储业",
       "泉州"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-11T15:00:00.000Z"
   },
   {
@@ -40280,6 +40280,26 @@
     "createdAt": "2026-05-27T00:00:00.000Z"
   },
   {
+    "id": "guopin-202219281574789757",
+    "title": "中服（三亚）免税品有限公司 — 资金专员",
+    "summary": "企业性质：国企。行业：批发和零售业。工作地点：三亚-天涯区。薪资面议。学历：本科。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=202219281574789757",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "中服（三亚）免税品有限公司",
+      "校招",
+      "国企",
+      "批发和零售业",
+      "三亚"
+    ],
+    "score": 72,
+    "featured": false,
+    "createdAt": "2026-05-27T00:00:00.000Z"
+  },
+  {
     "id": "guopin-202233607740195446",
     "title": "建科公共设施运营管理有限公司 — 智能硬件及物联网工程师",
     "summary": "企业性质：国企。行业：建筑业。工作地点：北京-西城区。薪资：7000-9000元/月。学历：硕士。规模：100-300人。",
@@ -40298,7 +40318,7 @@
       "建筑业",
       "北京"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-27T00:00:00.000Z"
   },
@@ -40322,7 +40342,7 @@
       "制造业",
       "铜陵"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-27T00:00:00.000Z"
   },
@@ -40346,7 +40366,7 @@
       "其他金融业",
       "肇庆"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-27T00:00:00.000Z"
   },
@@ -40369,7 +40389,7 @@
       "农业",
       "上海"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-27T00:00:00.000Z"
   },
@@ -40393,7 +40413,7 @@
       "专用设备制造业",
       "上海"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-27T00:00:00.000Z"
   },
@@ -40416,7 +40436,7 @@
       "农业",
       "南京"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-27T00:00:00.000Z"
   },
@@ -40439,7 +40459,7 @@
       "农业",
       "广州"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-27T00:00:00.000Z"
   },
@@ -40463,7 +40483,7 @@
       "土木工程建筑业",
       "雄安新区"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-27T00:00:00.000Z"
   },
@@ -40487,7 +40507,7 @@
       "制造业",
       "铜陵"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-27T00:00:00.000Z"
   },
@@ -40510,27 +40530,7 @@
       "土木工程建筑业",
       "厦门"
     ],
-    "score": 73,
-    "featured": false,
-    "createdAt": "2026-05-27T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-202219281574789757",
-    "title": "中服（三亚）免税品有限公司 — 资金专员",
-    "summary": "企业性质：国企。行业：批发和零售业。工作地点：三亚-天涯区。薪资面议。学历：本科。规模：300-500人。",
-    "url": "https://www.iguopin.com/job/detail?id=202219281574789757",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "tags": [
-      "中服（三亚）免税品有限公司",
-      "校招",
-      "国企",
-      "批发和零售业",
-      "三亚"
-    ],
-    "score": 72,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-27T00:00:00.000Z"
   },
@@ -40554,7 +40554,7 @@
       "郑州",
       "成都"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-27T00:00:00.000Z"
   },
@@ -40578,7 +40578,7 @@
       "专业技术服务业",
       "北京"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-27T00:00:00.000Z"
   },
@@ -40603,7 +40603,7 @@
       "成都",
       "重庆"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-27T00:00:00.000Z"
   },
@@ -40627,7 +40627,7 @@
       "电力、热力、燃气及水生产和供应业",
       "海南"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-27T00:00:00.000Z"
   },
@@ -40651,7 +40651,7 @@
       "铁路、船舶、航空航天和其他运输设备制造业",
       "常州"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-05-27T00:00:00.000Z"
   },
@@ -40676,7 +40676,7 @@
       "北京",
       "天津"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-26T15:44:43.000Z"
   },
@@ -40725,7 +40725,7 @@
       "资本市场服务",
       "深圳"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-26T15:34:05.000Z"
   },
@@ -40748,7 +40748,7 @@
       "非金属矿物制品业",
       "杭州"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-26T14:57:38.000Z"
   },
@@ -40772,7 +40772,7 @@
       "贸易/进出口",
       "深圳"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-26T14:45:00.000Z"
   },
