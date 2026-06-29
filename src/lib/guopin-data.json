@@ -14885,8 +14885,8 @@
       "资本市场服务",
       "中山"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-06-14T00:00:08.000Z"
   },
   {
@@ -14909,7 +14909,7 @@
       "土木工程建筑业",
       "中国"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-06-13T17:54:30.000Z"
   },
@@ -14933,7 +14933,7 @@
       "制造业",
       "北京"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-06-13T13:04:16.000Z"
   },
@@ -38254,148 +38254,6 @@
     "createdAt": "2026-05-29T00:00:00.000Z"
   },
   {
-    "id": "guopin-202559920816521843",
-    "title": "中建安装集团有限公司华北分公司 — 财务管理（会计）岗",
-    "summary": "企业性质：国企。行业：建筑安装业。工作地点：北京。薪资：8500-10000元/月。学历：本科。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=202559920816521843",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "finance",
-    "companyType": "state",
-    "location": "北京",
-    "deadline": "2026/06/30",
-    "tags": [
-      "中建安装集团有限公司华北分公司",
-      "校招",
-      "国企",
-      "金融",
-      "建筑安装业",
-      "北京"
-    ],
-    "score": 77,
-    "featured": false,
-    "createdAt": "2026-05-29T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-202513366256714359",
-    "title": "宁波中远海运新拓国际货运有限公司 — 客服部客户服务岗",
-    "summary": "企业性质：国企。行业：多式联运和运输代理业。工作地点：宁波-江北区。薪资：6001-8000元/月。学历：本科。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=202513366256714359",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "宁波-江北区",
-    "deadline": "2026/08/27",
-    "tags": [
-      "宁波中远海运新拓国际货运有限公司",
-      "校招",
-      "国企",
-      "多式联运和运输代理业",
-      "宁波"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-05-29T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-202559996498543226",
-    "title": "中建安装集团有限公司华北分公司 — 造价工程师（土建专业）",
-    "summary": "企业性质：国企。行业：建筑安装业。工作地点：中国。薪资：8500-10000元/月。学历：本科。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=202559996498543226",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "中国",
-    "deadline": "2026/06/30",
-    "tags": [
-      "中建安装集团有限公司华北分公司",
-      "校招",
-      "国企",
-      "建筑安装业",
-      "中国"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-05-29T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-202554678154625656",
-    "title": "青岛华东材料有限公司 — 计算机及信息员",
-    "summary": "企业性质：国企。行业：其他制造业。工作地点：青岛。薪资：5000-8000元/月。学历：本科。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=202554678154625656",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "青岛",
-    "deadline": "2026/06/30",
-    "tags": [
-      "青岛华东材料有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "其他制造业",
-      "青岛"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-05-29T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-202545399666311798",
-    "title": "浙江锦华新材料股份有限公司 — 化工工艺工程师",
-    "summary": "企业性质：国企。行业：化学原料和化学制品制造业。工作地点：衢州-柯城区。薪资：10000-12000元/月。学历：硕士。规模：300-500人。",
-    "url": "https://www.iguopin.com/job/detail?id=202545399666311798",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "衢州-柯城区",
-    "deadline": "2026/08/26",
-    "tags": [
-      "浙江锦华新材料股份有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "化学原料和化学制品制造业",
-      "衢州"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-05-29T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-202545324487606284",
-    "title": "浙江锦华新材料股份有限公司 — 机械工程师",
-    "summary": "企业性质：国企。行业：化学原料和化学制品制造业。工作地点：衢州-柯城区。薪资：10000-12000元/月。学历：本科。规模：300-500人。",
-    "url": "https://www.iguopin.com/job/detail?id=202545324487606284",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "衢州-柯城区",
-    "deadline": "2026/08/26",
-    "tags": [
-      "浙江锦华新材料股份有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "化学原料和化学制品制造业",
-      "衢州"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-05-29T00:00:00.000Z"
-  },
-  {
     "id": "guopin-202521379021521528",
     "title": "中交一公局集团海外分公司 — 财务出纳岗",
     "summary": "企业性质：国企。行业：土木工程建筑业。工作地点：喀麦隆、埃塞俄比亚、刚果(金)。薪资：18000-25000元/月。学历：本科。规模：1000-2000人。",
@@ -38414,170 +38272,6 @@
       "刚果(金)"
     ],
     "score": 75,
-    "featured": false,
-    "createdAt": "2026-05-29T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-202509670772899852",
-    "title": "中化学(北京)建设投资有限公司 — 财务会计岗【校招】",
-    "summary": "企业性质：国企。行业：土木工程建筑业。工作地点：中国。薪资：6000-8000元/月。学历：本科。规模：500-1000人。",
-    "url": "https://www.iguopin.com/job/detail?id=202509670772899852",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "finance",
-    "companyType": "state",
-    "location": "中国",
-    "deadline": "2026/06/30",
-    "tags": [
-      "中化学(北京)建设投资有限公司",
-      "校招",
-      "国企",
-      "金融",
-      "土木工程建筑业",
-      "中国"
-    ],
-    "score": 75,
-    "featured": false,
-    "createdAt": "2026-05-29T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-202559452010775162",
-    "title": "中建安装集团有限公司华北分公司 — 电气工程师(供变电）",
-    "summary": "企业性质：国企。行业：建筑安装业。工作地点：中国。薪资：8500-10000元/月。学历：本科。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=202559452010775162",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "中国",
-    "deadline": "2026/06/30",
-    "tags": [
-      "中建安装集团有限公司华北分公司",
-      "校招",
-      "国企",
-      "建筑安装业",
-      "中国"
-    ],
-    "score": 75,
-    "featured": false,
-    "createdAt": "2026-05-29T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-202554569270493815",
-    "title": "中建安装集团有限公司华北分公司 — 造价工程师（机电专业）",
-    "summary": "企业性质：国企。行业：建筑安装业。工作地点：中国。薪资：8500-10000元/月。学历：本科。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=202554569270493815",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "中国",
-    "deadline": "2026/06/30",
-    "tags": [
-      "中建安装集团有限公司华北分公司",
-      "校招",
-      "国企",
-      "建筑安装业",
-      "中国"
-    ],
-    "score": 75,
-    "featured": false,
-    "createdAt": "2026-05-29T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-202554458238878323",
-    "title": "麒麟软件有限公司 — 售前工程师（重庆）",
-    "summary": "企业性质：国企。行业：信息传输、软件和信息技术服务业。工作地点：重庆-万州区。薪资：8000-12000元/月。学历：本科。规模：2000-5000人。",
-    "url": "https://www.iguopin.com/job/detail?id=202554458238878323",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "companyType": "state",
-    "location": "重庆-万州区",
-    "deadline": "2026/08/26",
-    "tags": [
-      "麒麟软件有限公司",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "信息传输、软件和信息技术服务业",
-      "重庆"
-    ],
-    "score": 75,
-    "featured": false,
-    "createdAt": "2026-05-29T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-202510117264949878",
-    "title": "中化学(北京)建设投资有限公司 — 市场拓展岗【校招】",
-    "summary": "企业性质：国企。行业：土木工程建筑业。工作地点：中国。薪资：6000-8000元/月。学历：本科。规模：500-1000人。",
-    "url": "https://www.iguopin.com/job/detail?id=202510117264949878",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "finance",
-    "companyType": "state",
-    "location": "中国",
-    "deadline": "2026/06/30",
-    "tags": [
-      "中化学(北京)建设投资有限公司",
-      "校招",
-      "国企",
-      "金融",
-      "土木工程建筑业",
-      "中国"
-    ],
-    "score": 74,
-    "featured": false,
-    "createdAt": "2026-05-29T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-202559390086070898",
-    "title": "中建安装集团有限公司华北分公司 — 供应链管理工程师",
-    "summary": "企业性质：国企。行业：建筑安装业。工作地点：中国。薪资：8500-10000元/月。学历：本科。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=202559390086070898",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "中国",
-    "deadline": "2026/06/30",
-    "tags": [
-      "中建安装集团有限公司华北分公司",
-      "校招",
-      "国企",
-      "建筑安装业",
-      "中国"
-    ],
-    "score": 74,
-    "featured": false,
-    "createdAt": "2026-05-29T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-202554316672729715",
-    "title": "中国建筑材料工业地质勘查中心浙江总队 — 地质技术员",
-    "summary": "企业性质：其他。行业：其他服务业。工作地点：杭州-拱墅区。薪资面议。学历：本科。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=202554316672729715",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "杭州-拱墅区",
-    "deadline": "2026/08/26",
-    "tags": [
-      "中国建筑材料工业地质勘查中心浙江总队",
-      "校招",
-      "国企",
-      "其他服务业",
-      "杭州"
-    ],
-    "score": 74,
     "featured": false,
     "createdAt": "2026-05-29T00:00:00.000Z"
   },
@@ -38603,6 +38297,312 @@
     "createdAt": "2026-05-29T00:00:00.000Z"
   },
   {
+    "id": "guopin-202559920816521843",
+    "title": "中建安装集团有限公司华北分公司 — 财务管理（会计）岗",
+    "summary": "企业性质：国企。行业：建筑安装业。工作地点：北京。薪资：8500-10000元/月。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=202559920816521843",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "state",
+    "location": "北京",
+    "deadline": "2026/06/30",
+    "tags": [
+      "中建安装集团有限公司华北分公司",
+      "校招",
+      "国企",
+      "金融",
+      "建筑安装业",
+      "北京"
+    ],
+    "score": 72,
+    "featured": false,
+    "createdAt": "2026-05-29T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-202513366256714359",
+    "title": "宁波中远海运新拓国际货运有限公司 — 客服部客户服务岗",
+    "summary": "企业性质：国企。行业：多式联运和运输代理业。工作地点：宁波-江北区。薪资：6001-8000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=202513366256714359",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "宁波-江北区",
+    "deadline": "2026/08/27",
+    "tags": [
+      "宁波中远海运新拓国际货运有限公司",
+      "校招",
+      "国企",
+      "多式联运和运输代理业",
+      "宁波"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-05-29T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-202559996498543226",
+    "title": "中建安装集团有限公司华北分公司 — 造价工程师（土建专业）",
+    "summary": "企业性质：国企。行业：建筑安装业。工作地点：中国。薪资：8500-10000元/月。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=202559996498543226",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "中国",
+    "deadline": "2026/06/30",
+    "tags": [
+      "中建安装集团有限公司华北分公司",
+      "校招",
+      "国企",
+      "建筑安装业",
+      "中国"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-05-29T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-202554678154625656",
+    "title": "青岛华东材料有限公司 — 计算机及信息员",
+    "summary": "企业性质：国企。行业：其他制造业。工作地点：青岛。薪资：5000-8000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=202554678154625656",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "青岛",
+    "deadline": "2026/06/30",
+    "tags": [
+      "青岛华东材料有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "其他制造业",
+      "青岛"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-05-29T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-202545399666311798",
+    "title": "浙江锦华新材料股份有限公司 — 化工工艺工程师",
+    "summary": "企业性质：国企。行业：化学原料和化学制品制造业。工作地点：衢州-柯城区。薪资：10000-12000元/月。学历：硕士。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=202545399666311798",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "衢州-柯城区",
+    "deadline": "2026/08/26",
+    "tags": [
+      "浙江锦华新材料股份有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "化学原料和化学制品制造业",
+      "衢州"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-05-29T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-202545324487606284",
+    "title": "浙江锦华新材料股份有限公司 — 机械工程师",
+    "summary": "企业性质：国企。行业：化学原料和化学制品制造业。工作地点：衢州-柯城区。薪资：10000-12000元/月。学历：本科。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=202545324487606284",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "衢州-柯城区",
+    "deadline": "2026/08/26",
+    "tags": [
+      "浙江锦华新材料股份有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "化学原料和化学制品制造业",
+      "衢州"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-05-29T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-202509670772899852",
+    "title": "中化学(北京)建设投资有限公司 — 财务会计岗【校招】",
+    "summary": "企业性质：国企。行业：土木工程建筑业。工作地点：中国。薪资：6000-8000元/月。学历：本科。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=202509670772899852",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "state",
+    "location": "中国",
+    "deadline": "2026/06/30",
+    "tags": [
+      "中化学(北京)建设投资有限公司",
+      "校招",
+      "国企",
+      "金融",
+      "土木工程建筑业",
+      "中国"
+    ],
+    "score": 70,
+    "featured": false,
+    "createdAt": "2026-05-29T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-202559452010775162",
+    "title": "中建安装集团有限公司华北分公司 — 电气工程师(供变电）",
+    "summary": "企业性质：国企。行业：建筑安装业。工作地点：中国。薪资：8500-10000元/月。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=202559452010775162",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "中国",
+    "deadline": "2026/06/30",
+    "tags": [
+      "中建安装集团有限公司华北分公司",
+      "校招",
+      "国企",
+      "建筑安装业",
+      "中国"
+    ],
+    "score": 70,
+    "featured": false,
+    "createdAt": "2026-05-29T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-202554569270493815",
+    "title": "中建安装集团有限公司华北分公司 — 造价工程师（机电专业）",
+    "summary": "企业性质：国企。行业：建筑安装业。工作地点：中国。薪资：8500-10000元/月。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=202554569270493815",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "中国",
+    "deadline": "2026/06/30",
+    "tags": [
+      "中建安装集团有限公司华北分公司",
+      "校招",
+      "国企",
+      "建筑安装业",
+      "中国"
+    ],
+    "score": 70,
+    "featured": false,
+    "createdAt": "2026-05-29T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-202554458238878323",
+    "title": "麒麟软件有限公司 — 售前工程师（重庆）",
+    "summary": "企业性质：国企。行业：信息传输、软件和信息技术服务业。工作地点：重庆-万州区。薪资：8000-12000元/月。学历：本科。规模：2000-5000人。",
+    "url": "https://www.iguopin.com/job/detail?id=202554458238878323",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "重庆-万州区",
+    "deadline": "2026/08/26",
+    "tags": [
+      "麒麟软件有限公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "信息传输、软件和信息技术服务业",
+      "重庆"
+    ],
+    "score": 70,
+    "featured": false,
+    "createdAt": "2026-05-29T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-202510117264949878",
+    "title": "中化学(北京)建设投资有限公司 — 市场拓展岗【校招】",
+    "summary": "企业性质：国企。行业：土木工程建筑业。工作地点：中国。薪资：6000-8000元/月。学历：本科。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=202510117264949878",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "state",
+    "location": "中国",
+    "deadline": "2026/06/30",
+    "tags": [
+      "中化学(北京)建设投资有限公司",
+      "校招",
+      "国企",
+      "金融",
+      "土木工程建筑业",
+      "中国"
+    ],
+    "score": 69,
+    "featured": false,
+    "createdAt": "2026-05-29T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-202559390086070898",
+    "title": "中建安装集团有限公司华北分公司 — 供应链管理工程师",
+    "summary": "企业性质：国企。行业：建筑安装业。工作地点：中国。薪资：8500-10000元/月。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=202559390086070898",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "中国",
+    "deadline": "2026/06/30",
+    "tags": [
+      "中建安装集团有限公司华北分公司",
+      "校招",
+      "国企",
+      "建筑安装业",
+      "中国"
+    ],
+    "score": 69,
+    "featured": false,
+    "createdAt": "2026-05-29T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-202554316672729715",
+    "title": "中国建筑材料工业地质勘查中心浙江总队 — 地质技术员",
+    "summary": "企业性质：其他。行业：其他服务业。工作地点：杭州-拱墅区。薪资面议。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=202554316672729715",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "杭州-拱墅区",
+    "deadline": "2026/08/26",
+    "tags": [
+      "中国建筑材料工业地质勘查中心浙江总队",
+      "校招",
+      "国企",
+      "其他服务业",
+      "杭州"
+    ],
+    "score": 69,
+    "featured": false,
+    "createdAt": "2026-05-29T00:00:00.000Z"
+  },
+  {
     "id": "guopin-202521761743372925",
     "title": "中交一公局集团海外分公司 — 行政人力岗（法语翻译）",
     "summary": "企业性质：国企。行业：土木工程建筑业。工作地点：喀麦隆、加蓬、刚果(金)。薪资：20000-25000元/月。学历：本科。规模：1000-2000人。",
@@ -38623,7 +38623,7 @@
       "加蓬",
       "刚果(金)"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-29T00:00:00.000Z"
   },
@@ -38647,7 +38647,7 @@
       "土木工程建筑业",
       "中国"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-29T00:00:00.000Z"
   },
@@ -38671,7 +38671,7 @@
       "其他制造业",
       "青岛"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-29T00:00:00.000Z"
   },
@@ -38695,7 +38695,7 @@
       "信息传输、软件和信息技术服务业",
       "石家庄"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-29T00:00:00.000Z"
   },
@@ -38719,7 +38719,7 @@
       "土木工程建筑业",
       "中国"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-29T00:00:00.000Z"
   },
@@ -38742,7 +38742,7 @@
       "房屋建筑业",
       "海外"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-29T00:00:00.000Z"
   },
@@ -38766,7 +38766,7 @@
       "土木工程建筑业",
       "中国"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-29T00:00:00.000Z"
   },
@@ -38789,7 +38789,7 @@
       "其他服务业",
       "杭州"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-29T00:00:00.000Z"
   },
@@ -38813,7 +38813,7 @@
       "其他",
       "西安"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-05-29T00:00:00.000Z"
   },
@@ -38836,7 +38836,7 @@
       "其他服务业",
       "杭州"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-05-29T00:00:00.000Z"
   },
@@ -38881,7 +38881,7 @@
       "制造业",
       "宜昌"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-28T19:40:09.000Z"
   },
@@ -38904,7 +38904,7 @@
       "其他",
       "珠海市"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-28T18:23:43.000Z"
   },
@@ -38927,7 +38927,7 @@
       "其他",
       "珠海市"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-28T18:20:59.000Z"
   },
@@ -38951,7 +38951,7 @@
       "其他制造业",
       "南京"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-05-28T18:16:16.000Z"
   },
@@ -38975,7 +38975,7 @@
       "其他制造业",
       "南京"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-05-28T18:06:20.000Z"
   },
@@ -38999,7 +38999,7 @@
       "其他制造业",
       "南京"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-05-28T17:59:49.000Z"
   },
@@ -39023,7 +39023,7 @@
       "其他制造业",
       "南京"
     ],
-    "score": 68,
+    "score": 63,
     "featured": false,
     "createdAt": "2026-05-28T17:55:00.000Z"
   },
@@ -39047,8 +39047,8 @@
       "兵器",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-05-28T17:05:38.000Z"
   },
   {
@@ -39071,8 +39071,8 @@
       "兵器",
       "北京"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-05-28T17:03:22.000Z"
   },
   {
@@ -39095,7 +39095,7 @@
       "金融业",
       "北京"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-28T16:53:58.000Z"
   },
@@ -39140,7 +39140,7 @@
       "专用设备制造业",
       "无锡"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-05-28T16:02:44.000Z"
   },
@@ -39209,7 +39209,7 @@
       "其他",
       "海外"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-05-28T14:55:44.000Z"
   },
@@ -39233,7 +39233,7 @@
       "其他制造业",
       "北京"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-28T13:50:42.000Z"
   },
@@ -39257,7 +39257,7 @@
       "制造业",
       "北京"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-28T13:19:48.000Z"
   },
