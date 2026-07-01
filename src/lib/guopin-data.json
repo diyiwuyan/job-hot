@@ -24,6 +24,56 @@
     "createdAt": "2026-07-10T16:22:00.000Z"
   },
   {
+    "id": "guopin-164718561883852426",
+    "title": "中国东方电气集团有限公司 — 结构与仿真工程师",
+    "summary": "企业性质：国企。行业：专用设备制造业。工作地点：成都-金牛区。薪资面议。学历：硕士。规模：10000-30000人。",
+    "url": "https://www.iguopin.com/job/detail?id=164718561883852426",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "成都-金牛区",
+    "deadline": "2026/07/02",
+    "tags": [
+      "中国东方电气集团有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "专用设备制造业",
+      "成都"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-07-01T17:43:47.000Z"
+  },
+  {
+    "id": "guopin-207342638238532372",
+    "title": "广州虹科电子科技有限公司 — 网站服务器运维专员(J10195)",
+    "summary": "企业性质：民营企业。行业：科学研究和技术服务业。工作地点：上海、苏州、广州。薪资面议。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=207342638238532372",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "上海、苏州、广州、成都、西安",
+    "deadline": "2026/09/18",
+    "tags": [
+      "广州虹科电子科技有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "科学研究和技术服务业",
+      "上海",
+      "苏州",
+      "广州"
+    ],
+    "score": 72,
+    "featured": false,
+    "createdAt": "2026-07-01T17:23:46.000Z"
+  },
+  {
     "id": "guopin-207334773901755798",
     "title": "中国牧工商集团有限公司 — 人力资源专员岗",
     "summary": "企业性质：国企。行业：农、林、牧、渔业。工作地点：北京-丰台区。薪资面议。学历：硕士。规模：10000-30000人。",
@@ -787,6 +837,30 @@
     "createdAt": "2026-07-01T09:51:44.000Z"
   },
   {
+    "id": "guopin-207295453459383202",
+    "title": "黑龙江东风南方汽车销售服务有限公司 — 财务管培生",
+    "summary": "企业性质：国企。行业：零售业。工作地点：哈尔滨-道里区。薪资：3000-5000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=207295453459383202",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "state",
+    "location": "哈尔滨-道里区",
+    "deadline": "2026/09/28",
+    "tags": [
+      "黑龙江东风南方汽车销售服务有限公司",
+      "校招",
+      "国企",
+      "金融",
+      "零售业",
+      "哈尔滨"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-07-01T09:35:00.000Z"
+  },
+  {
     "id": "guopin-202511173457805946",
     "title": "邯郸中材建设有限责任公司 — 电气技术员/工程师（驻外）",
     "summary": "企业性质：国企。行业：房屋建筑业。工作地点：海外。薪资：9500-13999元/月。学历：本科。规模：500-1000人。",
@@ -998,6 +1072,30 @@
     "createdAt": "2026-07-01T00:00:00.000Z"
   },
   {
+    "id": "guopin-207346021263475616",
+    "title": "上海天伟生物制药有限公司 — 采购专员",
+    "summary": "企业性质：国企。行业：医药制造业。工作地点：上海-闵行区。薪资：8000-13000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=207346021263475616",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "上海-闵行区",
+    "deadline": "2026/08/31",
+    "tags": [
+      "上海天伟生物制药有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "医药制造业",
+      "上海"
+    ],
+    "score": 85,
+    "featured": true,
+    "createdAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
     "id": "guopin-207342542390297496",
     "title": "新世纪标志（深圳）有限公司 — 技术部产品设计岗",
     "summary": "企业性质：国企。行业：制造业。工作地点：深圳-宝安区。薪资：5000-12000元/月。学历：本科。规模：100-300人。",
@@ -1163,6 +1261,54 @@
     "createdAt": "2026-07-01T00:00:00.000Z"
   },
   {
+    "id": "guopin-207292914613618070",
+    "title": "中国华录信息产业有限公司 — 软件开发人员（Java方向）",
+    "summary": "企业性质：国企。行业：信息传输、软件和信息技术服务业。工作地点：大连-甘井子区。薪资：6000-8000元/月。学历：硕士。规模：50人以下。",
+    "url": "https://www.iguopin.com/job/detail?id=207292914613618070",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "大连-甘井子区",
+    "deadline": "2026/07/31",
+    "tags": [
+      "中国华录信息产业有限公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "信息传输、软件和信息技术服务业",
+      "大连"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207292686376371606",
+    "title": "中国华录信息产业有限公司 — 软件开发人员（人工智能方向）",
+    "summary": "企业性质：国企。行业：信息传输、软件和信息技术服务业。工作地点：大连-甘井子区。薪资：6000-8000元/月。学历：硕士。规模：50人以下。",
+    "url": "https://www.iguopin.com/job/detail?id=207292686376371606",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "大连-甘井子区",
+    "deadline": "2026/07/31",
+    "tags": [
+      "中国华录信息产业有限公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "信息传输、软件和信息技术服务业",
+      "大连"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
     "id": "guopin-207157713002562324",
     "title": "广深珠高速公路有限公司 — 交通工程专业技术人员",
     "summary": "企业性质：国企。行业：道路运输业。工作地点：东莞。薪资：10000-15000元/月。学历：硕士。规模：100-300人。",
@@ -1249,6 +1395,78 @@
       "国企",
       "水上运输业",
       "深圳"
+    ],
+    "score": 83,
+    "featured": true,
+    "createdAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207346270673568671",
+    "title": "上海天伟生物制药有限公司 — 设备工程师",
+    "summary": "企业性质：国企。行业：医药制造业。工作地点：上海-闵行区。薪资：8000-13000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=207346270673568671",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "上海-闵行区",
+    "deadline": "2026/08/31",
+    "tags": [
+      "上海天伟生物制药有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "医药制造业",
+      "上海"
+    ],
+    "score": 83,
+    "featured": true,
+    "createdAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207293348002661272",
+    "title": "北汽福田汽车股份有限公司 — 流程BP",
+    "summary": "企业性质：国企。行业：制造业。工作地点：北京-昌平区。薪资面议。学历：硕士。规模：30000人以上。",
+    "url": "https://www.iguopin.com/job/detail?id=207293348002661272",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "北京-昌平区",
+    "deadline": "2026/08/31",
+    "tags": [
+      "北汽福田汽车股份有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "制造业",
+      "北京"
+    ],
+    "score": 83,
+    "featured": true,
+    "createdAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207344046266385165",
+    "title": "中国联合装备集团有限公司 — 运营管理部(数字化工作办公室)高级专员",
+    "summary": "企业性质：国企。行业：其他制造业。工作地点：北京-西城区。薪资面议。学历：硕士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=207344046266385165",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "北京-西城区",
+    "deadline": "2026/09/28",
+    "tags": [
+      "中国联合装备集团有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "其他制造业",
+      "北京"
     ],
     "score": 83,
     "featured": true,
@@ -1422,6 +1640,30 @@
     "createdAt": "2026-07-01T00:00:00.000Z"
   },
   {
+    "id": "guopin-207293667306636048",
+    "title": "北汽福田汽车股份有限公司 — 数字化项目管理",
+    "summary": "企业性质：国企。行业：制造业。工作地点：北京-昌平区。薪资面议。学历：硕士。规模：30000人以上。",
+    "url": "https://www.iguopin.com/job/detail?id=207293667306636048",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "北京-昌平区",
+    "deadline": "2026/08/31",
+    "tags": [
+      "北汽福田汽车股份有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "制造业",
+      "北京"
+    ],
+    "score": 81,
+    "featured": true,
+    "createdAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
     "id": "guopin-207328990459855629",
     "title": "北矿科技股份有限公司 — 营销经理",
     "summary": "企业性质：上市公司。行业：其他制造业。工作地点：北京-丰台区。薪资面议。学历：本科。规模：500-1000人。",
@@ -1442,6 +1684,52 @@
       "北京"
     ],
     "score": 75,
+    "featured": false,
+    "createdAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207296316512928664",
+    "title": "中国广播电视网络集团有限公司 — 数字化建设管理岗",
+    "summary": "企业性质：事业单位。行业：文化、体育和娱乐业。工作地点：北京。薪资面议。学历：硕士。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=207296316512928664",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "institution",
+    "location": "北京",
+    "deadline": "2026/07/07",
+    "tags": [
+      "中国广播电视网络集团有限公司",
+      "校招",
+      "国企",
+      "文化、体育和娱乐业",
+      "北京"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207296596440777630",
+    "title": "中国广播电视网络集团有限公司 — 算力技术研究岗",
+    "summary": "企业性质：事业单位。行业：文化、体育和娱乐业。工作地点：北京。薪资面议。学历：硕士。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=207296596440777630",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "institution",
+    "location": "北京",
+    "deadline": "2026/07/07",
+    "tags": [
+      "中国广播电视网络集团有限公司",
+      "校招",
+      "国企",
+      "文化、体育和娱乐业",
+      "北京"
+    ],
+    "score": 72,
     "featured": false,
     "createdAt": "2026-07-01T00:00:00.000Z"
   },
@@ -2334,7 +2622,7 @@
   },
   {
     "id": "guopin-207049578107634587",
-    "title": "海南农垦科技集团有限公司 — 管理培训生",
+    "title": "海南农垦科技集团有限公司 — 管理培训生（农业工程方向）",
     "summary": "企业性质：国企。行业：专业技术服务业。工作地点：海口-龙华区。薪资：6000-8000元/月。学历：本科。规模：100-300人。",
     "url": "https://www.iguopin.com/job/detail?id=207049578107634587",
     "source": "国聘",
@@ -2627,7 +2915,7 @@
     "category": "auto_ic",
     "companyType": "state",
     "location": "蚌埠-淮上区",
-    "deadline": "2026/07/03",
+    "deadline": "2026/07/05",
     "tags": [
       "国能生物发电集团（蚌埠）海华绿色能源有限公司",
       "校招",
@@ -16708,7 +16996,7 @@
       "军工行业",
       "孝感"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-06-16T12:24:21.000Z"
   },
@@ -16732,7 +17020,7 @@
       "军工行业",
       "孝感"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-06-16T12:23:59.000Z"
   },
@@ -16756,7 +17044,7 @@
       "军工行业",
       "孝感"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-06-16T12:23:12.000Z"
   },
@@ -16780,8 +17068,8 @@
       "军工行业",
       "孝感"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-16T12:22:17.000Z"
   },
   {
@@ -16804,7 +17092,7 @@
       "军工行业",
       "孝感"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-06-16T12:20:42.000Z"
   },
@@ -16877,8 +17165,8 @@
       "其他采矿业",
       "三门峡"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-16T10:00:00.000Z"
   },
   {
@@ -16900,7 +17188,7 @@
       "其他采矿业",
       "三门峡"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-06-16T10:00:00.000Z"
   },
@@ -41545,7 +41833,7 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-31T11:18:18.000Z"
   },
@@ -41569,7 +41857,7 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-05-31T11:17:58.000Z"
   },
@@ -41593,7 +41881,7 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-31T11:17:41.000Z"
   },
@@ -41617,7 +41905,7 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-31T11:15:55.000Z"
   },
@@ -41641,7 +41929,7 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-05-31T11:15:35.000Z"
   },
@@ -41665,7 +41953,7 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-05-31T11:15:12.000Z"
   },
@@ -41689,7 +41977,7 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-05-31T11:14:54.000Z"
   },
@@ -41713,7 +42001,7 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-05-31T11:14:31.000Z"
   },
@@ -44154,27 +44442,6 @@
     "score": 75,
     "featured": false,
     "createdAt": "2026-05-27T14:12:38.000Z"
-  },
-  {
-    "id": "guopin-164718561883852426",
-    "title": "中国东方电气集团有限公司 — 结构与仿真工程师",
-    "summary": "企业性质：国企。行业：专用设备制造业。工作地点：成都-金牛区。薪资面议。学历：硕士。规模：10000-30000人。",
-    "url": "https://www.iguopin.com/job/detail?id=164718561883852426",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "中国东方电气集团有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "专用设备制造业",
-      "成都"
-    ],
-    "score": 79,
-    "featured": false,
-    "createdAt": "2026-05-27T13:46:11.000Z"
   },
   {
     "id": "guopin-164719139053637255",
@@ -70549,7 +70816,7 @@
     "category": "other",
     "companyType": "state",
     "location": "开封-顺河回族区",
-    "deadline": "2026/07/01",
+    "deadline": "2026/07/13",
     "tags": [
       "中国化学工程第十一建设有限公司",
       "校招",
