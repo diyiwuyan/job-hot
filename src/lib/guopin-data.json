@@ -24,6 +24,30 @@
     "createdAt": "2026-07-10T16:22:00.000Z"
   },
   {
+    "id": "guopin-198340898843656389",
+    "title": "首都实业投资有限公司 — 市场拓展岗",
+    "summary": "企业性质：国企。行业：商务服务业。工作地点：北京-朝阳区。薪资：10000-13000元/月。学历：本科。规模：不公开。",
+    "url": "https://www.iguopin.com/job/detail?id=198340898843656389",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/07/15",
+    "tags": [
+      "首都实业投资有限公司",
+      "校招",
+      "国企",
+      "金融",
+      "商务服务业",
+      "北京"
+    ],
+    "score": 83,
+    "featured": true,
+    "createdAt": "2026-07-02T11:53:23.000Z"
+  },
+  {
     "id": "guopin-202243836171256439",
     "title": "东莞证券股份有限公司东莞横沥中山东路证券营业部 — 【国资】证券理财顾问",
     "summary": "企业性质：国企。行业：资本市场服务。工作地点：东莞。薪资：5000-10000元/月。学历：本科。规模：500-1000人。",
@@ -70978,27 +71002,6 @@
     "createdAt": "2026-04-30T00:00:00.000Z"
   },
   {
-    "id": "guopin-198340898843656389",
-    "title": "首都实业投资有限公司 — 市场拓展岗",
-    "summary": "企业性质：国企。行业：商务服务业。工作地点：北京-朝阳区。薪资：10000-13000元/月。学历：本科。规模：不公开。",
-    "url": "https://www.iguopin.com/job/detail?id=198340898843656389",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "finance",
-    "tags": [
-      "首都实业投资有限公司",
-      "校招",
-      "国企",
-      "金融",
-      "商务服务业",
-      "北京"
-    ],
-    "score": 78,
-    "featured": false,
-    "createdAt": "2026-04-30T00:00:00.000Z"
-  },
-  {
     "id": "guopin-198340898843525317",
     "title": "首都实业投资有限公司 — 投资管理岗",
     "summary": "企业性质：国企。行业：商务服务业。工作地点：北京-朝阳区。薪资：10000-13000元/月。学历：本科。规模：不公开。",
@@ -87000,6 +87003,9 @@
     "sourceHandle": "@guopin",
     "channel": "campus",
     "category": "finance",
+    "companyType": "state",
+    "location": "金华-婺城区",
+    "deadline": "2026/07/13",
     "tags": [
       "中华联合财产保险股份有限公司金华中心支公司",
       "校招",
@@ -169654,6 +169660,9 @@
     "sourceHandle": "@guopin",
     "channel": "campus",
     "category": "other",
+    "companyType": "state",
+    "location": "儋州",
+    "deadline": "2026/12/31",
     "tags": [
       "国投（洋浦）油气储运有限公司",
       "校招",
