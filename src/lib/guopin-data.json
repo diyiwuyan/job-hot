@@ -715,6 +715,29 @@
     "createdAt": "2026-07-03T00:37:00.000Z"
   },
   {
+    "id": "guopin-207645684302611213",
+    "title": "中国化学工程第三建设有限公司 — 土建技术员",
+    "summary": "企业性质：国企。行业：土木工程建筑业。工作地点：中国。薪资：6000-8000元/月。学历：本科。规模：5000-10000人。",
+    "url": "https://www.iguopin.com/job/detail?id=207645684302611213",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "中国",
+    "deadline": "2026/07/10",
+    "tags": [
+      "中国化学工程第三建设有限公司",
+      "校招",
+      "国企",
+      "土木工程建筑业",
+      "中国"
+    ],
+    "score": 81,
+    "featured": true,
+    "createdAt": "2026-07-03T00:00:01.000Z"
+  },
+  {
     "id": "guopin-207629518733575071",
     "title": "合肥水泥研究设计院有限公司 — 研发工程师（无机非金属矿/机械）",
     "summary": "企业性质：国企。行业：专业技术服务业。工作地点：合肥-包河区。薪资：12000-21000元/月。学历：硕士。规模：1000-2000人。",
@@ -1045,6 +1068,29 @@
     "createdAt": "2026-07-03T00:00:00.000Z"
   },
   {
+    "id": "guopin-207639729632445343",
+    "title": "宝武资源有限公司 — 运输调度员（几内亚）",
+    "summary": "企业性质：国企。行业：矿产/地质。工作地点：几内亚。薪资：25000-28000元/月。学历：本科。规模：10000-30000人。",
+    "url": "https://www.iguopin.com/job/detail?id=207639729632445343",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "几内亚",
+    "deadline": "2026/08/30",
+    "tags": [
+      "宝武资源有限公司",
+      "校招",
+      "国企",
+      "矿产/地质",
+      "几内亚"
+    ],
+    "score": 85,
+    "featured": true,
+    "createdAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
     "id": "guopin-163704890495864069",
     "title": "中国东方电气集团有限公司 — 采购策划",
     "summary": "企业性质：国企。行业：专用设备制造业。工作地点：德阳-旌阳区。薪资面议。学历：本科。规模：10000-30000人。",
@@ -1204,6 +1250,30 @@
       "车企/IC",
       "专业技术服务业",
       "合肥"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207639655980466957",
+    "title": "宝武资源有限公司 — 机车维修工程师（几内亚）",
+    "summary": "企业性质：国企。行业：矿产/地质。工作地点：几内亚。薪资：25000-28000元/月。学历：本科。规模：10000-30000人。",
+    "url": "https://www.iguopin.com/job/detail?id=207639655980466957",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "几内亚",
+    "deadline": "2026/08/30",
+    "tags": [
+      "宝武资源有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "矿产/地质",
+      "几内亚"
     ],
     "score": 84,
     "featured": true,
@@ -1396,6 +1466,53 @@
       "专用设备制造业",
       "成都市",
       "成都"
+    ],
+    "score": 81,
+    "featured": true,
+    "createdAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207639596270355213",
+    "title": "宝武资源有限公司 — 铁路信号工程师（几内亚）",
+    "summary": "企业性质：国企。行业：矿产/地质。工作地点：几内亚。薪资：25000-28000元/月。学历：本科。规模：10000-30000人。",
+    "url": "https://www.iguopin.com/job/detail?id=207639596270355213",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "几内亚",
+    "deadline": "2026/08/30",
+    "tags": [
+      "宝武资源有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "矿产/地质",
+      "几内亚"
+    ],
+    "score": 81,
+    "featured": true,
+    "createdAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207641302127346594",
+    "title": "国投人力资源服务有限公司 — 国聘生态专项招聘",
+    "summary": "企业性质：国企。行业：商务服务业。工作地点：北京。薪资面议。学历：硕士。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=207641302127346594",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京",
+    "deadline": "2026/07/31",
+    "tags": [
+      "国投人力资源服务有限公司",
+      "校招",
+      "国企",
+      "商务服务业",
+      "北京"
     ],
     "score": 81,
     "featured": true,
