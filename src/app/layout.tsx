@@ -47,6 +47,11 @@ export default function RootLayout({
               <main className="app-main">
                 <MobileBar />
                 {children}
+                <footer className="site-footer">
+                  <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">
+                    津ICP备2024024694号
+                  </a>
+                </footer>
               </main>
             </AppShell>
             <AnalyticsTracker />

@@ -147,6 +147,23 @@ a:hover {
   overflow-x: hidden;
 }
 
+.site-footer {
+  margin: 3rem 0 0;
+  padding: 1.25rem 0 0.5rem;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.8125rem;
+  text-align: center;
+}
+
+.site-footer a {
+  color: inherit;
+}
+
+.site-footer a:hover {
+  color: var(--accent);
+}
+
 @supports selector(:has(*)) {
   .app-main:has(.soe-delivery-page),
   .app-main:has(.soe-page) {
