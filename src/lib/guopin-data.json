@@ -7727,8 +7727,8 @@
       "专用设备制造业",
       "自贡"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-06-29T15:08:22.000Z"
   },
   {
@@ -7773,7 +7773,7 @@
       "教育",
       "青岛"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-06-29T14:45:53.000Z"
   },
@@ -7797,7 +7797,7 @@
       "教育",
       "青岛"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-06-29T14:45:34.000Z"
   },
@@ -7820,7 +7820,7 @@
       "教育",
       "青岛"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-06-29T14:45:15.000Z"
   },
@@ -7843,7 +7843,7 @@
       "教育",
       "青岛"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-06-29T14:44:38.000Z"
   },
@@ -7867,7 +7867,7 @@
       "信息传输、软件和信息技术服务业",
       "重庆"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-06-29T14:24:12.000Z"
   },
@@ -7891,8 +7891,8 @@
       "信息传输、软件和信息技术服务业",
       "上海"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-06-29T14:23:23.000Z"
   },
   {
@@ -7914,7 +7914,7 @@
       "教育",
       "上海"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-06-29T13:40:24.000Z"
   },
@@ -18466,7 +18466,7 @@
       "房屋建筑业",
       "天津"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-06-22T14:37:16.000Z"
   },
@@ -18490,8 +18490,8 @@
       "医药制造业",
       "广州"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-22T13:45:07.000Z"
   },
   {
