@@ -4960,8 +4960,8 @@
       "专用设备制造业",
       "成都"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-07-03T09:27:10.000Z"
   },
   {
@@ -4986,7 +4986,7 @@
       "深圳",
       "杭州"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-07-03T09:16:29.000Z"
   },
@@ -29134,7 +29134,7 @@
       "电力、热力、燃气及水生产和供应业",
       "北京"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-06-10T09:08:35.000Z"
   },
