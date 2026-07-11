@@ -4390,7 +4390,7 @@
       "科学研究和技术服务业",
       "乌鲁木齐"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-07-03T23:11:00.000Z"
   },
@@ -4413,7 +4413,7 @@
       "房屋建筑业",
       "厦门"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-07-03T16:58:45.000Z"
   },
@@ -4460,8 +4460,8 @@
       "土木工程建筑业",
       "海口"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-03T16:46:09.000Z"
   },
   {
@@ -4484,8 +4484,8 @@
       "土木工程建筑业",
       "海口"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-07-03T16:41:57.000Z"
   },
   {
@@ -4508,8 +4508,8 @@
       "土木工程建筑业",
       "海口"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-07-03T16:39:22.000Z"
   },
   {
@@ -4532,8 +4532,8 @@
       "土木工程建筑业",
       "海口"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-07-03T16:37:08.000Z"
   },
   {
@@ -4556,8 +4556,8 @@
       "土木工程建筑业",
       "海口"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-07-03T16:35:01.000Z"
   },
   {
@@ -4580,8 +4580,8 @@
       "土木工程建筑业",
       "海口"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-07-03T16:32:52.000Z"
   },
   {
@@ -4604,8 +4604,8 @@
       "土木工程建筑业",
       "海口"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-03T16:28:32.000Z"
   },
   {
@@ -4675,8 +4675,8 @@
       "物流/仓储",
       "北京"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-07-03T14:28:31.000Z"
   },
   {
@@ -4699,7 +4699,7 @@
       "有色金属冶炼和压延加工业",
       "聊城"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-07-03T14:05:13.000Z"
   },
@@ -4723,8 +4723,8 @@
       "专用设备制造业",
       "成都"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-07-03T14:03:27.000Z"
   },
   {
@@ -4747,7 +4747,7 @@
       "资本市场服务",
       "珠海"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-07-03T13:47:19.000Z"
   },
@@ -4771,8 +4771,8 @@
       "研究和试验发展",
       "三亚"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-03T12:00:00.000Z"
   },
   {
@@ -4795,8 +4795,8 @@
       "研究和试验发展",
       "三亚"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-07-03T12:00:00.000Z"
   },
   {
@@ -4819,7 +4819,7 @@
       "研究和试验发展",
       "三亚"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-03T12:00:00.000Z"
   },
@@ -11093,8 +11093,8 @@
       "教育",
       "孝感"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-26T12:52:17.000Z"
   },
   {
@@ -28644,7 +28644,7 @@
       "信息传输、软件和信息技术服务业",
       "深圳"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-06-10T16:54:23.000Z"
   },
@@ -28688,7 +28688,7 @@
       "其他",
       "三亚"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-06-10T16:17:40.000Z"
   },
@@ -28735,7 +28735,7 @@
       "其他金融业",
       "天津"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-06-10T14:46:12.000Z"
   },
@@ -28759,7 +28759,7 @@
       "其他金融业",
       "天津"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-06-10T14:45:16.000Z"
   },
@@ -28783,7 +28783,7 @@
       "化学原料和化学制品制造业",
       "北京"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-06-10T14:07:15.000Z"
   },
