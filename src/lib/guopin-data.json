@@ -4877,8 +4877,8 @@
       "资本市场服务",
       "中山"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-07-06T19:26:30.000Z"
   },
   {
@@ -4901,8 +4901,8 @@
       "金属制品、机械和设备修理业",
       "石嘴山"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-06T15:21:01.000Z"
   },
   {
@@ -11206,7 +11206,7 @@
       "教育",
       "乐山"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-06-29T19:17:35.000Z"
   },
@@ -11230,7 +11230,7 @@
       "教育",
       "乐山"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-06-29T19:17:35.000Z"
   },
@@ -11253,7 +11253,7 @@
       "教育",
       "乐山"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-06-29T19:17:35.000Z"
   },
@@ -11276,7 +11276,7 @@
       "教育",
       "乐山"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-06-29T19:17:35.000Z"
   },
@@ -11300,7 +11300,7 @@
       "教育",
       "乐山"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-06-29T19:17:35.000Z"
   },
@@ -11324,7 +11324,7 @@
       "科技推广和应用服务业",
       "保定"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-06-29T15:17:21.000Z"
   },
@@ -11348,7 +11348,7 @@
       "专用设备制造业",
       "自贡"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-06-29T15:08:22.000Z"
   },
@@ -11394,7 +11394,7 @@
       "教育",
       "青岛"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-06-29T14:45:53.000Z"
   },
@@ -11418,7 +11418,7 @@
       "教育",
       "青岛"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-06-29T14:45:34.000Z"
   },
@@ -11441,7 +11441,7 @@
       "教育",
       "青岛"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-06-29T14:45:15.000Z"
   },
@@ -11464,7 +11464,7 @@
       "教育",
       "青岛"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-06-29T14:44:38.000Z"
   },
@@ -11488,8 +11488,8 @@
       "信息传输、软件和信息技术服务业",
       "重庆"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-06-29T14:24:12.000Z"
   },
   {
@@ -11512,7 +11512,7 @@
       "信息传输、软件和信息技术服务业",
       "上海"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-06-29T14:23:23.000Z"
   },
@@ -11535,7 +11535,7 @@
       "教育",
       "上海"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-06-29T13:40:24.000Z"
   },
