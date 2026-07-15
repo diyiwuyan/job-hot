@@ -4307,7 +4307,7 @@
       "制造业",
       "南阳"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-07-07T17:28:51.000Z"
   },
@@ -4330,8 +4330,8 @@
       "土木工程建筑业",
       "重庆"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-07-07T14:29:31.000Z"
   },
   {
@@ -4353,7 +4353,7 @@
       "土木工程建筑业",
       "重庆"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-07-07T14:28:21.000Z"
   },
@@ -4376,7 +4376,7 @@
       "土木工程建筑业",
       "重庆"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-07-07T14:27:30.000Z"
   },
@@ -4399,8 +4399,8 @@
       "土木工程建筑业",
       "重庆"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-07-07T14:24:58.000Z"
   },
   {
@@ -4422,8 +4422,8 @@
       "土木工程建筑业",
       "重庆"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-07-07T14:23:41.000Z"
   },
   {
@@ -4445,7 +4445,7 @@
       "土木工程建筑业",
       "重庆"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-07-07T14:21:38.000Z"
   },
@@ -10369,7 +10369,7 @@
       "资本市场服务",
       "佛山"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-06-30T19:39:29.000Z"
   },
@@ -10416,7 +10416,7 @@
       "交通运输、仓储和邮政业",
       "汕头"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-06-30T17:28:09.000Z"
   },
@@ -10439,8 +10439,8 @@
       "交通运输、仓储和邮政业",
       "汕头"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-06-30T17:27:45.000Z"
   },
   {
@@ -10462,8 +10462,8 @@
       "交通运输、仓储和邮政业",
       "汕头"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-06-30T17:27:25.000Z"
   },
   {
@@ -10485,8 +10485,8 @@
       "交通运输、仓储和邮政业",
       "汕头"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-06-30T17:27:04.000Z"
   },
   {
@@ -10533,7 +10533,7 @@
       "土木工程建筑业",
       "北京"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-06-30T14:09:19.000Z"
   },
@@ -10557,7 +10557,7 @@
       "土木工程建筑业",
       "北京"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-06-30T14:08:58.000Z"
   },
@@ -10581,8 +10581,8 @@
       "土木工程建筑业",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-06-30T14:08:20.000Z"
   },
   {
@@ -10605,7 +10605,7 @@
       "土木工程建筑业",
       "北京"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-06-30T14:07:53.000Z"
   },
@@ -10629,8 +10629,8 @@
       "土木工程建筑业",
       "杭州"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-06-30T13:46:33.000Z"
   },
   {
@@ -10652,7 +10652,7 @@
       "土木工程建筑业",
       "杭州"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-06-30T13:45:03.000Z"
   },
