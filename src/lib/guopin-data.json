@@ -1,5 +1,76 @@
 [
   {
+    "id": "guopin-113856102013075464",
+    "title": "中国东方电气集团有限公司 — 风电运行检修工（劳务派遣）",
+    "summary": "企业性质：国企。行业：专用设备制造业。工作地点：成都。薪资：5000-7500元/月。学历：大专。规模：10000-30000人。",
+    "url": "https://www.iguopin.com/job/detail?id=113856102013075464",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "成都",
+    "deadline": "2026/08/31",
+    "tags": [
+      "中国东方电气集团有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "专用设备制造业",
+      "成都"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-07-16T14:40:19.000Z"
+  },
+  {
+    "id": "guopin-209495716416981239",
+    "title": "北矿检测技术股份有限公司 — 检测岗（江苏徐州）",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：徐州-泉山区。薪资面议。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=209495716416981239",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "徐州-泉山区",
+    "deadline": "2026/10/13",
+    "tags": [
+      "北矿检测技术股份有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "科学研究和技术服务业",
+      "徐州"
+    ],
+    "score": 82,
+    "featured": true,
+    "createdAt": "2026-07-16T13:52:49.000Z"
+  },
+  {
+    "id": "guopin-209497708174510377",
+    "title": "广东省第四建筑工程有限公司 — 预结算岗",
+    "summary": "企业性质：国企。行业：房屋建筑业。工作地点：广东。薪资：6000-7000元/月。学历：本科。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=209497708174510377",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "广东",
+    "deadline": "2026/09/30",
+    "tags": [
+      "广东省第四建筑工程有限公司",
+      "校招",
+      "国企",
+      "房屋建筑业",
+      "广东"
+    ],
+    "score": 86,
+    "featured": true,
+    "createdAt": "2026-07-16T00:00:00.000Z"
+  },
+  {
     "id": "guopin-209496501288700198",
     "title": "国药控股江苏有限公司 — 药品采购员",
     "summary": "企业性质：国企。行业：卫生。工作地点：南京-鼓楼区。薪资：6000-8000元/月。学历：本科。规模：100-300人。",
@@ -3978,7 +4049,7 @@
       "居民服务业",
       "福州"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-07-08T08:30:00.000Z"
   },
@@ -9381,30 +9452,6 @@
     "createdAt": "2026-07-01T10:43:42.000Z"
   },
   {
-    "id": "guopin-113856102013075464",
-    "title": "中国东方电气集团有限公司 — 风电运行检修工（劳务派遣）",
-    "summary": "企业性质：国企。行业：专用设备制造业。工作地点：成都。薪资：5000-7500元/月。学历：大专。规模：10000-30000人。",
-    "url": "https://www.iguopin.com/job/detail?id=113856102013075464",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "成都",
-    "deadline": "2026/07/10",
-    "tags": [
-      "中国东方电气集团有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "专用设备制造业",
-      "成都"
-    ],
-    "score": 79,
-    "featured": false,
-    "createdAt": "2026-07-01T10:43:10.000Z"
-  },
-  {
     "id": "guopin-207320000908755728",
     "title": "金隅住宅产业化（唐山）有限公司 — 设计专员",
     "summary": "企业性质：国企。行业：房屋建筑业。工作地点：唐山-玉田县。薪资：4000-6000元/月。学历：本科。规模：100-300人。",
@@ -14067,7 +14114,7 @@
     "category": "auto_ic",
     "companyType": "state",
     "location": "北京-房山区",
-    "deadline": "2026/07/16",
+    "deadline": "2026/07/18",
     "tags": [
       "新源智储能源发展（北京）有限公司",
       "校招",
@@ -27275,7 +27322,7 @@
       "南京",
       "南通"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-06-15T09:00:00.000Z"
   },
@@ -27417,8 +27464,8 @@
       "农、林、牧、渔专业及辅助性活动",
       "石嘴山"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-06-15T08:00:00.000Z"
   },
   {
@@ -39078,30 +39125,6 @@
     "createdAt": "2026-06-04T00:00:00.000Z"
   },
   {
-    "id": "guopin-203443522190181136",
-    "title": "新源智储能源发展（北京）有限公司 — 校招补录岗",
-    "summary": "企业性质：国企。行业：电力、热力生产和供应业。工作地点：北京-房山区。薪资面议。学历：硕士。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=203443522190181136",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "北京-房山区",
-    "deadline": "2026/06/30",
-    "tags": [
-      "新源智储能源发展（北京）有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "电力、热力生产和供应业",
-      "北京"
-    ],
-    "score": 74,
-    "featured": false,
-    "createdAt": "2026-06-04T00:00:00.000Z"
-  },
-  {
     "id": "guopin-203375349399028547",
     "title": "卢阿拉巴铜冶炼股份有限公司 — 机械工程技术员",
     "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：中国。薪资面议。学历：本科。规模：1000-2000人。",
@@ -39543,6 +39566,30 @@
       "上海"
     ],
     "score": 70,
+    "featured": false,
+    "createdAt": "2026-06-04T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-203443522190181136",
+    "title": "新源智储能源发展（北京）有限公司 — 校招补录岗",
+    "summary": "企业性质：国企。行业：电力、热力生产和供应业。工作地点：北京-房山区。薪资面议。学历：硕士。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=203443522190181136",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "北京-房山区",
+    "deadline": "2026/07/18",
+    "tags": [
+      "新源智储能源发展（北京）有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "电力、热力生产和供应业",
+      "北京"
+    ],
+    "score": 69,
     "featured": false,
     "createdAt": "2026-06-04T00:00:00.000Z"
   },
@@ -47909,6 +47956,30 @@
       "中国"
     ],
     "score": 68,
+    "featured": false,
+    "createdAt": "2026-06-02T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-209375908102931352",
+    "title": "中电科（北京）物业管理有限公司 — 信息化管理岗位",
+    "summary": "企业性质：国企。行业：房地产业。工作地点：北京-石景山区。薪资面议。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=209375908102931352",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "北京-石景山区",
+    "deadline": "2026/08/30",
+    "tags": [
+      "中电科（北京）物业管理有限公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "房地产业",
+      "北京"
+    ],
+    "score": 66,
     "featured": false,
     "createdAt": "2026-06-02T00:00:00.000Z"
   },
@@ -93118,7 +93189,7 @@
     "category": "other",
     "companyType": "state",
     "location": "天津-滨海新区",
-    "deadline": "2026/07/15",
+    "deadline": "2026/09/01",
     "tags": [
       "天津港集装箱码头有限公司",
       "校招",
@@ -93164,7 +93235,7 @@
     "category": "other",
     "companyType": "state",
     "location": "天津-滨海新区",
-    "deadline": "2026/07/15",
+    "deadline": "2026/09/01",
     "tags": [
       "天津港集装箱码头有限公司",
       "校招",
