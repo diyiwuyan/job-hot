@@ -3630,7 +3630,7 @@
       "卫生",
       "南京"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-07-10T00:00:00.000Z"
   },
@@ -3654,7 +3654,7 @@
       "道路运输业",
       "上海"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-07-10T00:00:00.000Z"
   },
@@ -3678,7 +3678,7 @@
       "制造业",
       "深圳"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-07-10T00:00:00.000Z"
   },
@@ -3701,8 +3701,8 @@
       "建筑业",
       "北京"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-07-10T00:00:00.000Z"
   },
   {
@@ -3724,8 +3724,8 @@
       "居民服务、修理和其他服务业",
       "深圳"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-07-10T00:00:00.000Z"
   },
   {
@@ -3748,8 +3748,8 @@
       "制造业",
       "深圳"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-07-10T00:00:00.000Z"
   },
   {
@@ -3772,8 +3772,8 @@
       "其他金融业",
       "海口"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-07-10T00:00:00.000Z"
   },
   {
@@ -3796,8 +3796,8 @@
       "其他金融业",
       "海口"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-07-10T00:00:00.000Z"
   },
   {
@@ -3819,8 +3819,8 @@
       "批发业",
       "北京"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-10T00:00:00.000Z"
   },
   {
@@ -3842,8 +3842,8 @@
       "卫生",
       "合肥"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-10T00:00:00.000Z"
   },
   {
@@ -3866,8 +3866,8 @@
       "其他金融业",
       "海口"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-10T00:00:00.000Z"
   },
   {
@@ -3889,8 +3889,8 @@
       "居民服务、修理和其他服务业",
       "深圳"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-07-10T00:00:00.000Z"
   },
   {
@@ -8506,146 +8506,6 @@
     "createdAt": "2026-07-03T00:00:00.000Z"
   },
   {
-    "id": "guopin-207629518733575071",
-    "title": "合肥水泥研究设计院有限公司 — 研发工程师（无机非金属矿/机械）",
-    "summary": "企业性质：国企。行业：专业技术服务业。工作地点：合肥-包河区。薪资：12000-21000元/月。学历：硕士。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=207629518733575071",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "合肥-包河区",
-    "deadline": "2026/09/30",
-    "tags": [
-      "合肥水泥研究设计院有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "专业技术服务业",
-      "合肥"
-    ],
-    "score": 82,
-    "featured": true,
-    "createdAt": "2026-07-03T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207591710623007643",
-    "title": "国药控股江苏有限公司 — 法务专员",
-    "summary": "企业性质：国企。行业：卫生。工作地点：南京-浦口区。薪资：5000-8000元/月。学历：本科。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=207591710623007643",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "南京-浦口区",
-    "deadline": "2026/09/30",
-    "tags": [
-      "国药控股江苏有限公司",
-      "校招",
-      "国企",
-      "卫生",
-      "南京"
-    ],
-    "score": 81,
-    "featured": true,
-    "createdAt": "2026-07-03T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207631276465718036",
-    "title": "合肥水泥研究设计院有限公司 — 智能制造研发工程师（精密检测方向）",
-    "summary": "企业性质：国企。行业：专业技术服务业。工作地点：合肥-包河区。薪资：12000-15000元/月。学历：硕士。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=207631276465718036",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "合肥-包河区",
-    "deadline": "2026/09/30",
-    "tags": [
-      "合肥水泥研究设计院有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "专业技术服务业",
-      "合肥"
-    ],
-    "score": 81,
-    "featured": true,
-    "createdAt": "2026-07-03T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207630673643570582",
-    "title": "合肥水泥研究设计院有限公司 — 精密加工工艺工程师",
-    "summary": "企业性质：国企。行业：专业技术服务业。工作地点：合肥-包河区。薪资：12000-15000元/月。学历：硕士。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=207630673643570582",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "合肥-包河区",
-    "deadline": "2026/09/30",
-    "tags": [
-      "合肥水泥研究设计院有限公司",
-      "校招",
-      "国企",
-      "专业技术服务业",
-      "合肥"
-    ],
-    "score": 81,
-    "featured": true,
-    "createdAt": "2026-07-03T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207624224615957408",
-    "title": "南宁产投铝基新材料集团有限责任公司 — 储备研发工程师",
-    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：南宁。薪资：8000-12000元/月。学历：硕士。规模：2000-5000人。",
-    "url": "https://www.iguopin.com/job/detail?id=207624224615957408",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "南宁",
-    "deadline": "2026/08/01",
-    "tags": [
-      "南宁产投铝基新材料集团有限责任公司",
-      "校招",
-      "国企",
-      "有色金属冶炼和压延加工业",
-      "南宁"
-    ],
-    "score": 81,
-    "featured": true,
-    "createdAt": "2026-07-03T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207624165895701408",
-    "title": "南宁产投铝基新材料集团有限责任公司 — 储备研发工程师",
-    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：南宁。薪资：8000-12000元/月。学历：硕士。规模：2000-5000人。",
-    "url": "https://www.iguopin.com/job/detail?id=207624165895701408",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "南宁",
-    "deadline": "2026/08/01",
-    "tags": [
-      "南宁产投铝基新材料集团有限责任公司",
-      "校招",
-      "国企",
-      "有色金属冶炼和压延加工业",
-      "南宁"
-    ],
-    "score": 81,
-    "featured": true,
-    "createdAt": "2026-07-03T00:00:00.000Z"
-  },
-  {
     "id": "guopin-163697705116241157",
     "title": "中国东方电气集团有限公司 — 产品研发工程师",
     "summary": "企业性质：国企。行业：专用设备制造业。工作地点：成都市-天府新区、成都-金牛区。薪资面议。学历：本科。规模：10000-30000人。",
@@ -8667,219 +8527,6 @@
       "成都"
     ],
     "score": 81,
-    "featured": true,
-    "createdAt": "2026-07-03T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207599645960962836",
-    "title": "国药控股宁夏有限公司 — 法务岗",
-    "summary": "企业性质：国企。行业：卫生。工作地点：银川-兴庆区。薪资：5000-7000元/月。学历：本科。规模：300-500人。",
-    "url": "https://www.iguopin.com/job/detail?id=207599645960962836",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "银川-兴庆区",
-    "deadline": "2026/08/01",
-    "tags": [
-      "国药控股宁夏有限公司",
-      "校招",
-      "国企",
-      "卫生",
-      "银川"
-    ],
-    "score": 80,
-    "featured": true,
-    "createdAt": "2026-07-03T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207584871692894996",
-    "title": "中国安能集团第二工程局有限公司上海分公司 — 项目工程会计岗",
-    "summary": "企业性质：国企。行业：房屋建筑业。工作地点：中国。薪资：5500-7500元/月。学历：本科。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=207584871692894996",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "finance",
-    "companyType": "state",
-    "location": "中国",
-    "deadline": "2026/07/31",
-    "tags": [
-      "中国安能集团第二工程局有限公司上海分公司",
-      "校招",
-      "国企",
-      "金融",
-      "房屋建筑业",
-      "中国"
-    ],
-    "score": 80,
-    "featured": true,
-    "createdAt": "2026-07-03T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207584534839952283",
-    "title": "中国安能集团第二工程局有限公司上海分公司 — 项目工程会计岗",
-    "summary": "企业性质：国企。行业：房屋建筑业。工作地点：中国。薪资：5500-7500元/月。学历：本科。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=207584534839952283",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "finance",
-    "companyType": "state",
-    "location": "中国",
-    "deadline": "2026/07/31",
-    "tags": [
-      "中国安能集团第二工程局有限公司上海分公司",
-      "校招",
-      "国企",
-      "金融",
-      "房屋建筑业",
-      "中国"
-    ],
-    "score": 80,
-    "featured": true,
-    "createdAt": "2026-07-03T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207616989055681442",
-    "title": "中国东方电气集团有限公司 — 设计岗",
-    "summary": "企业性质：国企。行业：专用设备制造业。工作地点：成都-金牛区。薪资：5000-12000元/月。学历：本科。规模：10000-30000人。",
-    "url": "https://www.iguopin.com/job/detail?id=207616989055681442",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "成都-金牛区",
-    "deadline": "2026/09/30",
-    "tags": [
-      "中国东方电气集团有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "专用设备制造业",
-      "成都"
-    ],
-    "score": 80,
-    "featured": true,
-    "createdAt": "2026-07-03T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207630661345870754",
-    "title": "惠阳航空螺旋桨有限责任公司 — 销售工程师",
-    "summary": "企业性质：国企。行业：航空。工作地点：保定。薪资：5000-8000元/月。学历：本科。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=207630661345870754",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "保定",
-    "deadline": "2026/09/30",
-    "tags": [
-      "惠阳航空螺旋桨有限责任公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "航空",
-      "保定"
-    ],
-    "score": 80,
-    "featured": true,
-    "createdAt": "2026-07-03T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207630910772741026",
-    "title": "合肥水泥研究设计院有限公司 — 机械结构研发工程师",
-    "summary": "企业性质：国企。行业：专业技术服务业。工作地点：合肥-包河区。薪资：12000-21000元/月。学历：硕士。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=207630910772741026",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "合肥-包河区",
-    "deadline": "2026/09/30",
-    "tags": [
-      "合肥水泥研究设计院有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "专业技术服务业",
-      "合肥"
-    ],
-    "score": 80,
-    "featured": true,
-    "createdAt": "2026-07-03T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207628641251623832",
-    "title": "合肥水泥研究设计院有限公司 — 热化学研发工程师（热化学方向）",
-    "summary": "企业性质：国企。行业：专业技术服务业。工作地点：合肥-包河区。薪资：15000-18000元/月。学历：硕士。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=207628641251623832",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "合肥-包河区",
-    "deadline": "2026/09/30",
-    "tags": [
-      "合肥水泥研究设计院有限公司",
-      "校招",
-      "国企",
-      "专业技术服务业",
-      "合肥"
-    ],
-    "score": 80,
-    "featured": true,
-    "createdAt": "2026-07-03T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207624338231264160",
-    "title": "南宁产投铝基新材料集团有限责任公司 — 储备机械工程师",
-    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：南宁。薪资：5000-7000元/月。学历：本科。规模：2000-5000人。",
-    "url": "https://www.iguopin.com/job/detail?id=207624338231264160",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "南宁",
-    "deadline": "2026/08/01",
-    "tags": [
-      "南宁产投铝基新材料集团有限责任公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "有色金属冶炼和压延加工业",
-      "南宁"
-    ],
-    "score": 80,
-    "featured": true,
-    "createdAt": "2026-07-03T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207639729632445343",
-    "title": "宝武资源有限公司 — 运输调度员（几内亚）",
-    "summary": "企业性质：国企。行业：矿产/地质。工作地点：几内亚。薪资：25000-28000元/月。学历：本科。规模：10000-30000人。",
-    "url": "https://www.iguopin.com/job/detail?id=207639729632445343",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "几内亚",
-    "deadline": "2026/08/30",
-    "tags": [
-      "宝武资源有限公司",
-      "校招",
-      "国企",
-      "矿产/地质",
-      "几内亚"
-    ],
-    "score": 80,
     "featured": true,
     "createdAt": "2026-07-03T00:00:00.000Z"
   },
@@ -8908,6 +8555,359 @@
     "createdAt": "2026-07-03T00:00:00.000Z"
   },
   {
+    "id": "guopin-207629518733575071",
+    "title": "合肥水泥研究设计院有限公司 — 研发工程师（无机非金属矿/机械）",
+    "summary": "企业性质：国企。行业：专业技术服务业。工作地点：合肥-包河区。薪资：12000-21000元/月。学历：硕士。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=207629518733575071",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "合肥-包河区",
+    "deadline": "2026/09/30",
+    "tags": [
+      "合肥水泥研究设计院有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "专业技术服务业",
+      "合肥"
+    ],
+    "score": 77,
+    "featured": false,
+    "createdAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207591710623007643",
+    "title": "国药控股江苏有限公司 — 法务专员",
+    "summary": "企业性质：国企。行业：卫生。工作地点：南京-浦口区。薪资：5000-8000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=207591710623007643",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "南京-浦口区",
+    "deadline": "2026/09/30",
+    "tags": [
+      "国药控股江苏有限公司",
+      "校招",
+      "国企",
+      "卫生",
+      "南京"
+    ],
+    "score": 76,
+    "featured": false,
+    "createdAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207631276465718036",
+    "title": "合肥水泥研究设计院有限公司 — 智能制造研发工程师（精密检测方向）",
+    "summary": "企业性质：国企。行业：专业技术服务业。工作地点：合肥-包河区。薪资：12000-15000元/月。学历：硕士。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=207631276465718036",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "合肥-包河区",
+    "deadline": "2026/09/30",
+    "tags": [
+      "合肥水泥研究设计院有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "专业技术服务业",
+      "合肥"
+    ],
+    "score": 76,
+    "featured": false,
+    "createdAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207630673643570582",
+    "title": "合肥水泥研究设计院有限公司 — 精密加工工艺工程师",
+    "summary": "企业性质：国企。行业：专业技术服务业。工作地点：合肥-包河区。薪资：12000-15000元/月。学历：硕士。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=207630673643570582",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "合肥-包河区",
+    "deadline": "2026/09/30",
+    "tags": [
+      "合肥水泥研究设计院有限公司",
+      "校招",
+      "国企",
+      "专业技术服务业",
+      "合肥"
+    ],
+    "score": 76,
+    "featured": false,
+    "createdAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207624224615957408",
+    "title": "南宁产投铝基新材料集团有限责任公司 — 储备研发工程师",
+    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：南宁。薪资：8000-12000元/月。学历：硕士。规模：2000-5000人。",
+    "url": "https://www.iguopin.com/job/detail?id=207624224615957408",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "南宁",
+    "deadline": "2026/08/01",
+    "tags": [
+      "南宁产投铝基新材料集团有限责任公司",
+      "校招",
+      "国企",
+      "有色金属冶炼和压延加工业",
+      "南宁"
+    ],
+    "score": 76,
+    "featured": false,
+    "createdAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207624165895701408",
+    "title": "南宁产投铝基新材料集团有限责任公司 — 储备研发工程师",
+    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：南宁。薪资：8000-12000元/月。学历：硕士。规模：2000-5000人。",
+    "url": "https://www.iguopin.com/job/detail?id=207624165895701408",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "南宁",
+    "deadline": "2026/08/01",
+    "tags": [
+      "南宁产投铝基新材料集团有限责任公司",
+      "校招",
+      "国企",
+      "有色金属冶炼和压延加工业",
+      "南宁"
+    ],
+    "score": 76,
+    "featured": false,
+    "createdAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207599645960962836",
+    "title": "国药控股宁夏有限公司 — 法务岗",
+    "summary": "企业性质：国企。行业：卫生。工作地点：银川-兴庆区。薪资：5000-7000元/月。学历：本科。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=207599645960962836",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "银川-兴庆区",
+    "deadline": "2026/08/01",
+    "tags": [
+      "国药控股宁夏有限公司",
+      "校招",
+      "国企",
+      "卫生",
+      "银川"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207584871692894996",
+    "title": "中国安能集团第二工程局有限公司上海分公司 — 项目工程会计岗",
+    "summary": "企业性质：国企。行业：房屋建筑业。工作地点：中国。薪资：5500-7500元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=207584871692894996",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "state",
+    "location": "中国",
+    "deadline": "2026/07/31",
+    "tags": [
+      "中国安能集团第二工程局有限公司上海分公司",
+      "校招",
+      "国企",
+      "金融",
+      "房屋建筑业",
+      "中国"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207584534839952283",
+    "title": "中国安能集团第二工程局有限公司上海分公司 — 项目工程会计岗",
+    "summary": "企业性质：国企。行业：房屋建筑业。工作地点：中国。薪资：5500-7500元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=207584534839952283",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "state",
+    "location": "中国",
+    "deadline": "2026/07/31",
+    "tags": [
+      "中国安能集团第二工程局有限公司上海分公司",
+      "校招",
+      "国企",
+      "金融",
+      "房屋建筑业",
+      "中国"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207616989055681442",
+    "title": "中国东方电气集团有限公司 — 设计岗",
+    "summary": "企业性质：国企。行业：专用设备制造业。工作地点：成都-金牛区。薪资：5000-12000元/月。学历：本科。规模：10000-30000人。",
+    "url": "https://www.iguopin.com/job/detail?id=207616989055681442",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "成都-金牛区",
+    "deadline": "2026/09/30",
+    "tags": [
+      "中国东方电气集团有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "专用设备制造业",
+      "成都"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207630661345870754",
+    "title": "惠阳航空螺旋桨有限责任公司 — 销售工程师",
+    "summary": "企业性质：国企。行业：航空。工作地点：保定。薪资：5000-8000元/月。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=207630661345870754",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "保定",
+    "deadline": "2026/09/30",
+    "tags": [
+      "惠阳航空螺旋桨有限责任公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "航空",
+      "保定"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207630910772741026",
+    "title": "合肥水泥研究设计院有限公司 — 机械结构研发工程师",
+    "summary": "企业性质：国企。行业：专业技术服务业。工作地点：合肥-包河区。薪资：12000-21000元/月。学历：硕士。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=207630910772741026",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "合肥-包河区",
+    "deadline": "2026/09/30",
+    "tags": [
+      "合肥水泥研究设计院有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "专业技术服务业",
+      "合肥"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207628641251623832",
+    "title": "合肥水泥研究设计院有限公司 — 热化学研发工程师（热化学方向）",
+    "summary": "企业性质：国企。行业：专业技术服务业。工作地点：合肥-包河区。薪资：15000-18000元/月。学历：硕士。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=207628641251623832",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "合肥-包河区",
+    "deadline": "2026/09/30",
+    "tags": [
+      "合肥水泥研究设计院有限公司",
+      "校招",
+      "国企",
+      "专业技术服务业",
+      "合肥"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207624338231264160",
+    "title": "南宁产投铝基新材料集团有限责任公司 — 储备机械工程师",
+    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：南宁。薪资：5000-7000元/月。学历：本科。规模：2000-5000人。",
+    "url": "https://www.iguopin.com/job/detail?id=207624338231264160",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "南宁",
+    "deadline": "2026/08/01",
+    "tags": [
+      "南宁产投铝基新材料集团有限责任公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "有色金属冶炼和压延加工业",
+      "南宁"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207639729632445343",
+    "title": "宝武资源有限公司 — 运输调度员（几内亚）",
+    "summary": "企业性质：国企。行业：矿产/地质。工作地点：几内亚。薪资：25000-28000元/月。学历：本科。规模：10000-30000人。",
+    "url": "https://www.iguopin.com/job/detail?id=207639729632445343",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "几内亚",
+    "deadline": "2026/08/30",
+    "tags": [
+      "宝武资源有限公司",
+      "校招",
+      "国企",
+      "矿产/地质",
+      "几内亚"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
     "id": "guopin-207599822373389208",
     "title": "国药控股宁夏有限公司 — 营销项目专员",
     "summary": "企业性质：国企。行业：卫生。工作地点：银川-兴庆区。薪资：5000-7000元/月。学历：本科。规模：300-500人。",
@@ -8926,7 +8926,7 @@
       "卫生",
       "银川"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-03T00:00:00.000Z"
   },
@@ -8949,7 +8949,7 @@
       "专业技术服务业",
       "合肥"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-03T00:00:00.000Z"
   },
@@ -8972,7 +8972,7 @@
       "专业技术服务业",
       "合肥"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-03T00:00:00.000Z"
   },
@@ -8996,7 +8996,7 @@
       "专业技术服务业",
       "合肥"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-03T00:00:00.000Z"
   },
@@ -9020,7 +9020,7 @@
       "专业技术服务业",
       "合肥"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-03T00:00:00.000Z"
   },
@@ -9044,7 +9044,7 @@
       "矿产/地质",
       "几内亚"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-03T00:00:00.000Z"
   },
@@ -9068,7 +9068,7 @@
       "研究和试验发展",
       "北京"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-03T00:00:00.000Z"
   },
@@ -9092,7 +9092,7 @@
       "专业技术服务业",
       "合肥"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-03T00:00:00.000Z"
   },
@@ -9115,7 +9115,7 @@
       "有色金属冶炼和压延加工业",
       "南宁"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-03T00:00:00.000Z"
   },
@@ -9139,7 +9139,7 @@
       "航空",
       "保定"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-07-03T00:00:00.000Z"
   },
@@ -9163,7 +9163,7 @@
       "航空",
       "保定"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-07-03T00:00:00.000Z"
   },
@@ -9187,7 +9187,7 @@
       "矿产/地质",
       "几内亚"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-07-03T00:00:00.000Z"
   },
@@ -9210,7 +9210,7 @@
       "商务服务业",
       "北京"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-07-03T00:00:00.000Z"
   },
@@ -9234,7 +9234,7 @@
       "航空",
       "保定"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-07-03T00:00:00.000Z"
   },
@@ -25517,7 +25517,7 @@
       "制造业",
       "北京"
     ],
-    "score": 68,
+    "score": 63,
     "featured": false,
     "createdAt": "2026-06-17T00:00:02.000Z"
   },
@@ -25761,172 +25761,6 @@
     "createdAt": "2026-06-17T00:00:00.000Z"
   },
   {
-    "id": "guopin-205291762950865680",
-    "title": "中国能源建设集团沈阳电力机械总厂有限公司 — 一线技能人员",
-    "summary": "企业性质：国企。行业：其他制造业。工作地点：沈阳-铁西区。薪资：3000-6000元/月。学历：大专。规模：300-500人。",
-    "url": "https://www.iguopin.com/job/detail?id=205291762950865680",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "沈阳-铁西区",
-    "deadline": "2026/09/14",
-    "tags": [
-      "中国能源建设集团沈阳电力机械总厂有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "其他制造业",
-      "沈阳"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-06-17T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-205291339426824976",
-    "title": "中国能源建设集团沈阳电力机械总厂有限公司 — 一线技能工人",
-    "summary": "企业性质：国企。行业：其他制造业。工作地点：沈阳-铁西区。薪资：3000-6000元/月。学历：大专。规模：300-500人。",
-    "url": "https://www.iguopin.com/job/detail?id=205291339426824976",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "沈阳-铁西区",
-    "deadline": "2026/09/14",
-    "tags": [
-      "中国能源建设集团沈阳电力机械总厂有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "其他制造业",
-      "沈阳"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-06-17T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-205267133125362592",
-    "title": "航天新长征大道科技有限公司 — 系统总体工程师",
-    "summary": "企业性质：国企。行业：航天。工作地点：北京-丰台区。薪资：15000-20000元/月。学历：硕士。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=205267133125362592",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "北京-丰台区",
-    "deadline": "2026/07/30",
-    "tags": [
-      "航天新长征大道科技有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "航天",
-      "北京"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-06-17T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-205266725522899872",
-    "title": "航天新长征大道科技有限公司 — 硬件设计工程师",
-    "summary": "企业性质：国企。行业：航天。工作地点：北京-丰台区。薪资：15000-20000元/月。学历：硕士。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=205266725522899872",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "北京-丰台区",
-    "deadline": "2026/07/30",
-    "tags": [
-      "航天新长征大道科技有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "航天",
-      "北京"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-06-17T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-205265755581711263",
-    "title": "中远海运博鳌有限公司 — 校招-炒菜厨师（26年校招）",
-    "summary": "企业性质：国企。行业：住宿和餐饮业。工作地点：琼海。薪资：3000-4000元/月。学历：中专/中技。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=205265755581711263",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "琼海",
-    "deadline": "2026/07/31",
-    "tags": [
-      "中远海运博鳌有限公司",
-      "校招",
-      "国企",
-      "住宿和餐饮业",
-      "琼海"
-    ],
-    "score": 74,
-    "featured": false,
-    "createdAt": "2026-06-17T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-205261027024044816",
-    "title": "上海振华重工（集团）股份有限公司 — 国企法务岗",
-    "summary": "企业性质：国企。行业：制造业。工作地点：上海-浦东新区。薪资：9000-11000元/月。学历：硕士。规模：10000-30000人。",
-    "url": "https://www.iguopin.com/job/detail?id=205261027024044816",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "上海-浦东新区",
-    "deadline": "2026/08/31",
-    "tags": [
-      "上海振华重工（集团）股份有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "制造业",
-      "上海"
-    ],
-    "score": 74,
-    "featured": false,
-    "createdAt": "2026-06-17T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-205308187107132173",
-    "title": "中牧实业股份有限公司武汉华罗分公司 — 业务代表",
-    "summary": "企业性质：国企。行业：畜牧业。工作地点：中国。薪资：3000-8000元/月。学历：大专。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=205308187107132173",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "中国",
-    "deadline": "2026/09/14",
-    "tags": [
-      "中牧实业股份有限公司武汉华罗分公司",
-      "校招",
-      "国企",
-      "畜牧业",
-      "中国"
-    ],
-    "score": 73,
-    "featured": false,
-    "createdAt": "2026-06-17T00:00:00.000Z"
-  },
-  {
     "id": "guopin-206052304737010587",
     "title": "中国科学院西安光学精密机械研究所 — 先进阿秒激光设施（西安部分）工程管理办公室资产及综合主管（劳务派遣）",
     "summary": "企业性质：其他。行业：研究和试验发展。工作地点：西安-长安区。薪资：10000-11600元/月。学历：硕士。规模：1000-2000人。",
@@ -25975,26 +25809,98 @@
     "createdAt": "2026-06-17T00:00:00.000Z"
   },
   {
-    "id": "guopin-205272337669424030",
-    "title": "浙江省环保集团有限公司 — （青田抽蓄）专职安全管理",
-    "summary": "企业性质：国企。行业：生态保护和环境治理业。工作地点：丽水-青田县。薪资面议。学历：本科。规模：300-500人。",
-    "url": "https://www.iguopin.com/job/detail?id=205272337669424030",
+    "id": "guopin-205291762950865680",
+    "title": "中国能源建设集团沈阳电力机械总厂有限公司 — 一线技能人员",
+    "summary": "企业性质：国企。行业：其他制造业。工作地点：沈阳-铁西区。薪资：3000-6000元/月。学历：大专。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=205291762950865680",
     "source": "国聘",
     "sourceHandle": "@guopin",
     "channel": "campus",
-    "category": "security",
+    "category": "auto_ic",
     "companyType": "state",
-    "location": "丽水-青田县",
+    "location": "沈阳-铁西区",
     "deadline": "2026/09/14",
     "tags": [
-      "浙江省环保集团有限公司",
+      "中国能源建设集团沈阳电力机械总厂有限公司",
       "校招",
       "国企",
-      "安全/云服务",
-      "生态保护和环境治理业",
-      "丽水"
+      "车企/IC",
+      "其他制造业",
+      "沈阳"
     ],
-    "score": 70,
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-06-17T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-205291339426824976",
+    "title": "中国能源建设集团沈阳电力机械总厂有限公司 — 一线技能工人",
+    "summary": "企业性质：国企。行业：其他制造业。工作地点：沈阳-铁西区。薪资：3000-6000元/月。学历：大专。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=205291339426824976",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "沈阳-铁西区",
+    "deadline": "2026/09/14",
+    "tags": [
+      "中国能源建设集团沈阳电力机械总厂有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "其他制造业",
+      "沈阳"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-06-17T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-205267133125362592",
+    "title": "航天新长征大道科技有限公司 — 系统总体工程师",
+    "summary": "企业性质：国企。行业：航天。工作地点：北京-丰台区。薪资：15000-20000元/月。学历：硕士。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=205267133125362592",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "北京-丰台区",
+    "deadline": "2026/07/30",
+    "tags": [
+      "航天新长征大道科技有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "航天",
+      "北京"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-06-17T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-205266725522899872",
+    "title": "航天新长征大道科技有限公司 — 硬件设计工程师",
+    "summary": "企业性质：国企。行业：航天。工作地点：北京-丰台区。薪资：15000-20000元/月。学历：硕士。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=205266725522899872",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "北京-丰台区",
+    "deadline": "2026/07/30",
+    "tags": [
+      "航天新长征大道科技有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "航天",
+      "北京"
+    ],
+    "score": 71,
     "featured": false,
     "createdAt": "2026-06-17T00:00:00.000Z"
   },
@@ -26023,6 +25929,100 @@
     "createdAt": "2026-06-17T00:00:00.000Z"
   },
   {
+    "id": "guopin-205265755581711263",
+    "title": "中远海运博鳌有限公司 — 校招-炒菜厨师（26年校招）",
+    "summary": "企业性质：国企。行业：住宿和餐饮业。工作地点：琼海。薪资：3000-4000元/月。学历：中专/中技。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=205265755581711263",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "琼海",
+    "deadline": "2026/07/31",
+    "tags": [
+      "中远海运博鳌有限公司",
+      "校招",
+      "国企",
+      "住宿和餐饮业",
+      "琼海"
+    ],
+    "score": 69,
+    "featured": false,
+    "createdAt": "2026-06-17T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-205261027024044816",
+    "title": "上海振华重工（集团）股份有限公司 — 国企法务岗",
+    "summary": "企业性质：国企。行业：制造业。工作地点：上海-浦东新区。薪资：9000-11000元/月。学历：硕士。规模：10000-30000人。",
+    "url": "https://www.iguopin.com/job/detail?id=205261027024044816",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "上海-浦东新区",
+    "deadline": "2026/08/31",
+    "tags": [
+      "上海振华重工（集团）股份有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "制造业",
+      "上海"
+    ],
+    "score": 69,
+    "featured": false,
+    "createdAt": "2026-06-17T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-205308187107132173",
+    "title": "中牧实业股份有限公司武汉华罗分公司 — 业务代表",
+    "summary": "企业性质：国企。行业：畜牧业。工作地点：中国。薪资：3000-8000元/月。学历：大专。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=205308187107132173",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "中国",
+    "deadline": "2026/09/14",
+    "tags": [
+      "中牧实业股份有限公司武汉华罗分公司",
+      "校招",
+      "国企",
+      "畜牧业",
+      "中国"
+    ],
+    "score": 68,
+    "featured": false,
+    "createdAt": "2026-06-17T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-205272337669424030",
+    "title": "浙江省环保集团有限公司 — （青田抽蓄）专职安全管理",
+    "summary": "企业性质：国企。行业：生态保护和环境治理业。工作地点：丽水-青田县。薪资面议。学历：本科。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=205272337669424030",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "security",
+    "companyType": "state",
+    "location": "丽水-青田县",
+    "deadline": "2026/09/14",
+    "tags": [
+      "浙江省环保集团有限公司",
+      "校招",
+      "国企",
+      "安全/云服务",
+      "生态保护和环境治理业",
+      "丽水"
+    ],
+    "score": 65,
+    "featured": false,
+    "createdAt": "2026-06-17T00:00:00.000Z"
+  },
+  {
     "id": "guopin-205294226232050594",
     "title": "中国乡镇企业有限公司 — 子企业供应链专员岗",
     "summary": "企业性质：国企。行业：批发业。工作地点：上海-静安区。薪资面议。学历：本科。规模：50-100人。",
@@ -26041,7 +26041,7 @@
       "批发业",
       "上海"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-06-17T00:00:00.000Z"
   },
@@ -26065,7 +26065,7 @@
       "生态保护和环境治理业",
       "丽水"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-06-17T00:00:00.000Z"
   },
@@ -26088,7 +26088,7 @@
       "专业技术服务业",
       "北京"
     ],
-    "score": 69,
+    "score": 64,
     "featured": false,
     "createdAt": "2026-06-17T00:00:00.000Z"
   },
@@ -26112,7 +26112,7 @@
       "铁路、船舶、航空航天和其他运输设备制造业",
       "北京"
     ],
-    "score": 66,
+    "score": 61,
     "featured": false,
     "createdAt": "2026-06-17T00:00:00.000Z"
   },
