@@ -3583,8 +3583,8 @@
       "有色金属矿采选业",
       "韶关"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-07-10T08:19:43.000Z"
   },
   {
@@ -3607,7 +3607,7 @@
       "有色金属矿采选业",
       "韶关"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-10T08:19:43.000Z"
   },
@@ -8310,8 +8310,8 @@
       "深圳",
       "杭州"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-07-03T09:16:29.000Z"
   },
   {
@@ -8334,7 +8334,7 @@
       "专用设备制造业",
       "成都"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-07-03T08:30:00.000Z"
   },
