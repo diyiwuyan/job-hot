@@ -3481,7 +3481,7 @@
       "文化、体育和娱乐业",
       "北京"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-07-13T18:55:12.000Z"
   },
@@ -3505,8 +3505,8 @@
       "其他",
       "北京"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-07-13T16:39:03.000Z"
   },
   {
@@ -3529,7 +3529,7 @@
       "软件和信息技术服务业",
       "北京"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-07-13T16:20:18.000Z"
   },
@@ -3553,7 +3553,7 @@
       "制造业",
       "北京"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-07-13T16:09:59.000Z"
   },
@@ -3577,8 +3577,8 @@
       "制造业",
       "北京"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-07-13T16:09:59.000Z"
   },
   {
@@ -3601,8 +3601,8 @@
       "制造业",
       "北京"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-07-13T16:09:59.000Z"
   },
   {
@@ -3625,8 +3625,8 @@
       "制造业",
       "北京"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-07-13T16:09:59.000Z"
   },
   {
@@ -3649,8 +3649,8 @@
       "制造业",
       "北京"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-13T16:09:59.000Z"
   },
   {
@@ -3673,7 +3673,7 @@
       "建筑业",
       "烟台"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-07-13T15:41:51.000Z"
   },
@@ -3697,7 +3697,7 @@
       "建筑业",
       "烟台"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-07-13T15:41:51.000Z"
   },
@@ -3721,7 +3721,7 @@
       "建筑业",
       "烟台"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-07-13T15:20:47.000Z"
   },
@@ -3745,7 +3745,7 @@
       "建筑业",
       "烟台"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-07-13T15:20:47.000Z"
   },
@@ -3769,7 +3769,7 @@
       "制造业",
       "无锡"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-07-13T15:05:13.000Z"
   },
@@ -3793,8 +3793,8 @@
       "建筑业",
       "烟台"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-07-13T15:00:28.000Z"
   },
   {
@@ -3817,8 +3817,8 @@
       "卫生",
       "成都"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-07-13T14:46:42.000Z"
   },
   {
@@ -3841,7 +3841,7 @@
       "软件和信息技术服务业",
       "北京"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-07-13T13:59:55.000Z"
   },
@@ -3889,8 +3889,8 @@
       "专用设备制造业",
       "成都"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-07-13T11:20:51.000Z"
   },
   {
@@ -3913,8 +3913,8 @@
       "专用设备制造业",
       "成都市"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-07-13T11:20:17.000Z"
   },
   {
@@ -7581,7 +7581,7 @@
       "资本市场服务",
       "中山"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-07-06T19:26:30.000Z"
   },
