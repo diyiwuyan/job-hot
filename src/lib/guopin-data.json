@@ -1,5 +1,29 @@
 [
   {
+    "id": "guopin-210225502193977591",
+    "title": "岚图汽车科技股份有限公司 — 追光-端到端算法",
+    "summary": "企业性质：国企。行业：汽车制造业。工作地点：武汉-汉阳区。薪资面议。学历：博士。规模：10000-30000人。",
+    "url": "https://www.iguopin.com/job/detail?id=210225502193977591",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "武汉-汉阳区",
+    "deadline": "2026/10/19",
+    "tags": [
+      "岚图汽车科技股份有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "汽车制造业",
+      "武汉"
+    ],
+    "score": 82,
+    "featured": true,
+    "createdAt": "2026-08-01T00:00:00.000Z"
+  },
+  {
     "id": "guopin-210205306402113682",
     "title": "雄安人才服务有限公司 — 疏解顾问（代招）",
     "summary": "企业性质：国企。行业：商务服务业。工作地点：雄安新区。薪资：3000-4000元/月。学历：本科。规模：50人以下。",
@@ -44,6 +68,29 @@
     "score": 84,
     "featured": true,
     "createdAt": "2026-07-21T09:30:53.000Z"
+  },
+  {
+    "id": "guopin-210199074186463473",
+    "title": "中化学科学技术研究有限公司 — 2026校园招聘-催化剂研发工程师",
+    "summary": "企业性质：国企。行业：研究和试验发展。工作地点：北京-房山区。薪资面议。学历：硕士。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=210199074186463473",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-房山区",
+    "deadline": "2026/10/18",
+    "tags": [
+      "中化学科学技术研究有限公司",
+      "校招",
+      "国企",
+      "研究和试验发展",
+      "北京"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-07-21T00:00:00.000Z"
   },
   {
     "id": "guopin-210140995675752744",
@@ -7323,7 +7370,7 @@
       "电信、广播电视和卫星传输服务",
       "绍兴"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-07-06T08:26:14.000Z"
   },
