@@ -1,7 +1,8 @@
 "use client";
 
-import { useMemo, useState, type CSSProperties } from "react";
-import { familyOrder, roles, type Role } from "./role-data";
+import { useEffect, useMemo, useState, type CSSProperties } from "react";
+import { supabase } from "@/lib/supabase";
+import { familyOrder, getRoleIndustries, industryOrder, roles as seedRoles, type Role } from "./role-data";
 import { marketEvidence, marketEvidenceByRole, salaryMethodology } from "./market-evidence";
 
 type Answers = {
@@ -46,32 +47,61 @@ function scoreRole(role: Role, answers: Answers) {
   if (answers.stage === "在校生" || answers.stage === "毕业0-3年") score += 3;
   return { score: Math.min(score, 96), matchedStrengths, matchedInterest, matchedStyle, keywordHits };
 }
+
+function normalizeDatabaseRole(row: Record<string, unknown>): Role {
+  return {
+    ...(row as unknown as Role),
+    coreSkills: (row.core_skills ?? row.coreSkills ?? []) as string[],
+    workContext: String(row.work_context ?? row.workContext ?? ""),
+  };
+}
+
 export default function Home() {
   const [view, setView] = useState<"home" | "assessment" | "results">("home");
   const [step, setStep] = useState(0);
   const [answers, setAnswers] = useState<Answers>(emptyAnswers);
   const [selectedRole, setSelectedRole] = useState<Role | null>(null);
+  const [catalogRoles, setCatalogRoles] = useState<Role[]>(seedRoles);
+  const [catalogSource, setCatalogSource] = useState<"本地种子" | "Supabase">("本地种子");
   const [roleQuery, setRoleQuery] = useState("");
   const [activeFamily, setActiveFamily] = useState("全部");
+  const [activeIndustry, setActiveIndustry] = useState("全部");
   const [compareSlugs, setCompareSlugs] = useState<string[]>([]);
   const [showComparison, setShowComparison] = useState(false);
   const [activeEvidenceSlug, setActiveEvidenceSlug] = useState(marketEvidence[0].roleSlug);
 
-  const rankedRoles = useMemo(() => roles
+  useEffect(() => {
+    let cancelled = false;
+    if (!supabase) return;
+    supabase
+      .from("career_roles")
+      .select("*")
+      .eq("is_published", true)
+      .order("sort_order", { ascending: true })
+      .then(({ data, error }) => {
+        if (cancelled || error || !data?.length) return;
+        setCatalogRoles(data.map((row) => normalizeDatabaseRole(row as Record<string, unknown>)));
+        setCatalogSource("Supabase");
+      });
+    return () => { cancelled = true; };
+  }, []);
+
+  const rankedRoles = useMemo(() => catalogRoles
     .map((role) => ({ role, ...scoreRole(role, answers) }))
-    .sort((a, b) => b.score - a.score), [answers]);
+    .sort((a, b) => b.score - a.score), [answers, catalogRoles]);
 
   const filteredRoles = useMemo(() => {
     const query = roleQuery.trim().toLowerCase();
-    return roles.filter((role) => {
+    return catalogRoles.filter((role) => {
       const familyMatches = activeFamily === "全部" || role.family === activeFamily;
-      const textMatches = !query || [role.name, role.english, role.family, role.purpose, ...role.coreSkills, ...role.industries]
+      const industryMatches = activeIndustry === "全部" || getRoleIndustries(role).includes(activeIndustry);
+      const textMatches = !query || [role.name, role.english, role.family, role.purpose, ...role.coreSkills, ...getRoleIndustries(role)]
         .join(" ").toLowerCase().includes(query);
-      return familyMatches && textMatches;
+      return familyMatches && industryMatches && textMatches;
     });
-  }, [activeFamily, roleQuery]);
+  }, [activeFamily, activeIndustry, catalogRoles, roleQuery]);
 
-  const comparedRoles = compareSlugs.map((slug) => roles.find((role) => role.slug === slug)).filter(Boolean) as Role[];
+  const comparedRoles = compareSlugs.map((slug) => catalogRoles.find((role) => role.slug === slug)).filter(Boolean) as Role[];
   const activeEvidence = marketEvidence.find((item) => item.roleSlug === activeEvidenceSlug) ?? marketEvidence[0];
 
   function toggleCompare(slug: string) {
@@ -273,7 +303,7 @@ export default function Home() {
       </section>
 
       <section className="trust-strip" id="stats">
-        <div><strong>19</strong><span>首批岗位目录</span></div><div><strong>8</strong><span>岗位族</span></div><div><strong>4</strong><span>市场证据试点</span></div><div><strong>可追溯</strong><span>来源与置信度</span></div>
+        <div><strong>{catalogRoles.length}</strong><span>岗位目录</span></div><div><strong>{familyOrder.length - 1}</strong><span>岗位族</span></div><div><strong>{industryOrder.length - 1}</strong><span>行业方向</span></div><div><strong>{catalogSource}</strong><span>主数据来源</span></div>
       </section>
 
       <section className="how-section" id="how">
@@ -286,7 +316,7 @@ export default function Home() {
       </section>
 
       <section className="roles-section" id="roles">
-        <div className="section-heading split"><div><p className="eyebrow coral">19个岗位 · 8个岗位族</p><h2>先认识工作，再决定方向</h2></div><p>搜索岗位、技能或行业，最多选择3个方向并排比较。每项结论都标注当前置信度。</p></div>
+        <div className="section-heading split"><div><p className="eyebrow coral">{catalogRoles.length}个岗位 · {familyOrder.length - 1}个岗位族 · {industryOrder.length - 1}个行业</p><h2>先认识工作，再决定方向</h2></div><p>先按岗位族和行业缩小范围，再搜索岗位、技能或场景。最多选择3个方向并排比较。</p></div>
         <div className="library-tools">
           <label className="role-search"><span>⌕</span><input value={roleQuery} onChange={(event) => setRoleQuery(event.target.value)} placeholder="搜索岗位、技能或行业" aria-label="搜索岗位" />{roleQuery && <button onClick={() => setRoleQuery("")} aria-label="清空搜索">×</button>}</label>
           <span className="result-count">找到 {filteredRoles.length} 个岗位</span>
@@ -294,12 +324,16 @@ export default function Home() {
         <div className="family-filters" aria-label="岗位族筛选">
           {familyOrder.map((family) => <button key={family} className={activeFamily === family ? "active" : ""} onClick={() => setActiveFamily(family)}>{family}</button>)}
         </div>
+        <div className="industry-filter-heading"><span>行业方向</span><small>{activeIndustry === "全部" ? "全部行业" : activeIndustry}</small></div>
+        <div className="family-filters industry-filters" aria-label="行业筛选">
+          {industryOrder.map((industry) => <button key={industry} className={activeIndustry === industry ? "active" : ""} onClick={() => setActiveIndustry(industry)}>{industry}</button>)}
+        </div>
         <div className="role-card-grid">
           {filteredRoles.map((role) => {
             const compared = compareSlugs.includes(role.slug);
             return (
               <article className="library-card" key={role.slug}>
-                <div className="library-meta"><span>{role.family}</span><span>{role.seniority}</span>{marketEvidenceByRole.has(role.slug) && <span className="evidence-pilot">有市场证据</span>}<i className={`confidence-dot ${role.confidence === "中" ? "medium" : "low"}`} title={`${role.confidence}置信度`} /></div>
+                <div className="library-meta"><span>{role.family}</span><span>{getRoleIndustries(role)[0] ?? "跨行业"}</span><span>{role.seniority}</span>{marketEvidenceByRole.has(role.slug) && <span className="evidence-pilot">有市场证据</span>}<i className={`confidence-dot ${role.confidence === "中" ? "medium" : "low"}`} title={`${role.confidence}置信度`} /></div>
                 <h3>{role.name}</h3><p className="english-name">{role.english}</p><p className="library-purpose">{role.purpose}</p>
                 <div className="core-skill-row">{role.coreSkills.slice(0, 3).map((skill) => <span key={skill}>{skill}</span>)}</div>
                 <div className="library-actions">
@@ -310,7 +344,7 @@ export default function Home() {
             );
           })}
         </div>
-        {!filteredRoles.length && <div className="empty-library"><b>暂时没有匹配岗位</b><p>试试更短的关键词，或切换到“全部”岗位族。</p><button onClick={() => { setRoleQuery(""); setActiveFamily("全部"); }}>清除筛选</button></div>}
+        {!filteredRoles.length && <div className="empty-library"><b>暂时没有匹配岗位</b><p>试试更短的关键词，或切换岗位族与行业筛选。</p><button onClick={() => { setRoleQuery(""); setActiveFamily("全部"); setActiveIndustry("全部"); }}>清除筛选</button></div>}
       </section>
 
       <section className="growth-section" id="growth">
@@ -354,7 +388,7 @@ export default function Home() {
 
       <section className="final-cta"><p>你不需要现在就决定一辈子。</p><h2>先找到一个值得验证的方向。</h2><button className="primary-button light" onClick={startAssessment}>开始我的职业诊断 <span>→</span></button></section>
 
-      <footer><a className="brand" href="#top"><span className="brand-mark">CA</span><span>职业坐标<small>Career Atlas</small></span></a><p>帮助每个人做更有依据的职业选择。</p><span>岗位库 v3 · 19个方向 · 4个证据试点</span></footer>
+      <footer><a className="brand" href="#top"><span className="brand-mark">CA</span><span>职业坐标<small>Career Atlas</small></span></a><p>帮助每个人做更有依据的职业选择。</p><span>岗位库 v4 · {catalogRoles.length}个岗位 · {industryOrder.length - 1}个行业</span></footer>
       {selectedRole && <RoleDetail role={selectedRole} onClose={() => setSelectedRole(null)} />}
       {compareSlugs.length > 0 && !showComparison && <div className="compare-tray"><div><b>岗位对比</b>{comparedRoles.map((role) => <span key={role.slug}>{role.name}<button onClick={() => toggleCompare(role.slug)} aria-label={`移除${role.name}`}>×</button></span>)}</div><button className="primary-button" disabled={compareSlugs.length < 2} onClick={() => setShowComparison(true)}>对比 {compareSlugs.length} 个岗位</button></div>}
       {showComparison && <ComparisonPanel roles={comparedRoles} onClose={() => setShowComparison(false)} />}
