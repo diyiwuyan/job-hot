@@ -109,4 +109,8 @@ footer { width:min(1180px,calc(100% - 48px)); margin:auto; min-height:130px; dis
 @media (max-width:600px){.library-tools{display:grid}.result-count{padding-left:8px}.family-filters{flex-wrap:nowrap;overflow:auto;padding-bottom:5px;margin-right:-16px}.family-filters button{white-space:nowrap}.role-card-grid{grid-template-columns:1fr}.library-card{min-height:320px}.growth-section{width:calc(100% - 32px);padding:35px 24px;margin-bottom:65px}.growth-intro h2{font-size:34px}.compare-tray{display:grid;bottom:10px;padding:13px}.compare-tray>div>b{display:none}.compare-tray .primary-button{width:100%}.comparison-panel{width:820px;padding:28px}.comparison-backdrop{padding:12px}.comparison-heading h2{font-size:32px}.market-section{width:calc(100% - 32px);padding-bottom:78px}.evidence-tabs{display:flex;overflow:auto;margin-right:-16px;padding-bottom:5px}.evidence-tabs button{min-width:170px}.jd-panel,.salary-column{padding:22px}.salary-method-card>div{grid-template-columns:1fr}.panel-topline h3,.salary-column-heading h3{font-size:23px}}
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
 
+.industry-filter-heading { display:flex; align-items:baseline; justify-content:space-between; gap:12px; margin:0 0 10px; font-size:11px; font-weight:800; letter-spacing:.08em; }
+.industry-filter-heading small { font-size:10px; font-weight:600; letter-spacing:0; opacity:.5; }
+.industry-filters { margin-bottom:30px; }
+
 }
