@@ -17,6 +17,7 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
+import { syncCareerAtlas } from './seed-career-atlas';
 
 // ─── Types ───────────────────────────────────────────────────
 interface FeedItem {
@@ -196,6 +197,14 @@ function extractCompanyName(title: string): string {
 // ─── Main ────────────────────────────────────────────────────
 async function main() {
   console.log('=== Subscription Matcher ===\n');
+
+  // Keep the Career Atlas catalog in sync during the existing scheduled job.
+  // This reuses the service-role environment already provided to this workflow.
+  try {
+    await syncCareerAtlas();
+  } catch (error) {
+    console.error('Career Atlas sync skipped:', error instanceof Error ? error.message : error);
+  }
 
   // 1. Load feed items
   const allItems = loadFeedItems();
