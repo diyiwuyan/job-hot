@@ -1,17 +1,6 @@
 import { createClient } from '@supabase/supabase-js';
 import { getRoleIndustries, industryOrder, roles } from '../src/app/tools/career-atlas/role-data';
 
-const supabaseUrl = process.env.SUPABASE_URL ?? process.env.NEXT_PUBLIC_SUPABASE_URL ?? '';
-const serviceKey = process.env.SUPABASE_SERVICE_KEY ?? process.env.SUPABASE_SERVICE_ROLE_KEY ?? '';
-
-if (!supabaseUrl || !serviceKey) {
-  throw new Error('Missing SUPABASE_URL/NEXT_PUBLIC_SUPABASE_URL or SUPABASE_SERVICE_KEY');
-}
-
-const admin = createClient(supabaseUrl, serviceKey, {
-  auth: { autoRefreshToken: false, persistSession: false },
-});
-
 const industryIds: Record<string, string> = {
   '互联网与软件': 'internet-software',
   '金融与保险': 'finance-insurance',
@@ -29,7 +18,17 @@ const industryIds: Record<string, string> = {
   '环保与ESG': 'environment-esg',
 };
 
-async function main() {
+export async function syncCareerAtlas() {
+  const supabaseUrl = process.env.SUPABASE_URL ?? process.env.NEXT_PUBLIC_SUPABASE_URL ?? '';
+  const serviceKey = process.env.SUPABASE_SERVICE_KEY ?? process.env.SUPABASE_SERVICE_ROLE_KEY ?? '';
+  if (!supabaseUrl || !serviceKey) {
+    throw new Error('Missing SUPABASE_URL/NEXT_PUBLIC_SUPABASE_URL or SUPABASE_SERVICE_KEY');
+  }
+
+  const admin = createClient(supabaseUrl, serviceKey, {
+    auth: { autoRefreshToken: false, persistSession: false },
+  });
+
   const industries = industryOrder
     .filter((name) => name !== '全部')
     .map((name, index) => ({
@@ -78,9 +77,12 @@ async function main() {
   if (roleError) throw roleError;
 
   console.log(`Synced ${industries.length} industries and ${roleRows.length} career roles to Supabase.`);
+  return { industryCount: industries.length, roleCount: roleRows.length };
 }
 
-main().catch((error: unknown) => {
-  console.error(error instanceof Error ? error.message : error);
-  process.exitCode = 1;
-});
+if (process.argv[1]?.includes('seed-career-atlas')) {
+  syncCareerAtlas().catch((error: unknown) => {
+    console.error(error instanceof Error ? error.message : error);
+    process.exitCode = 1;
+  });
+}
