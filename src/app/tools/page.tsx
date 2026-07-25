@@ -15,6 +15,26 @@ export default function ToolsPage() {
       </div>
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.25rem', marginTop: '0.5rem' }}>
+        {/* 职业坐标 */}
+        <Link
+          href="/tools/career-atlas"
+          className="timeline-card timeline-card-featured"
+          style={{ display: 'block', textDecoration: 'none', padding: '1.5rem' }}
+        >
+          <div style={{ fontSize: '2rem', marginBottom: '0.75rem' }}>🧭</div>
+          <h2 style={{ fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.5rem', color: 'var(--text)' }}>
+            职业坐标
+          </h2>
+          <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.7, margin: 0 }}>
+            从经历、兴趣和能力出发匹配值得探索的岗位，并查看岗位要求、成长路线、薪资结构和市场证据。
+          </p>
+          <div className="timeline-tags" style={{ marginTop: '0.75rem' }}>
+            <span className="tag">19个岗位</span>
+            <span className="tag">8个岗位族</span>
+            <span className="tag">岗位对比</span>
+          </div>
+        </Link>
+
         {/* 职业测评 */}
         <Link
           href="/tools/assessment"
