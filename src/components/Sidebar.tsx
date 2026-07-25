@@ -53,6 +53,10 @@ const navItems: NavItem[] = [
     ),
     children: [
       {
+        href: '/tools/career-atlas',
+        label: '职业坐标',
+      },
+      {
         href: '/tools/assessment',
         label: '职业测评',
       },
