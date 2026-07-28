@@ -8589,8 +8589,8 @@
       "其他制造业",
       "苏州"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-07-20T11:20:10.000Z"
   },
   {
@@ -11775,7 +11775,7 @@
       "专用设备制造业",
       "成都"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-07-13T11:20:51.000Z"
   },
@@ -11799,7 +11799,7 @@
       "专用设备制造业",
       "成都市"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-13T11:20:17.000Z"
   },
