@@ -8353,7 +8353,7 @@
       "南京",
       "武汉"
     ],
-    "score": 91,
+    "score": 86,
     "featured": true,
     "createdAt": "2026-07-20T17:28:07.000Z"
   },
@@ -8376,7 +8376,7 @@
       "电信、广播电视和卫星传输服务",
       "香港"
     ],
-    "score": 91,
+    "score": 86,
     "featured": true,
     "createdAt": "2026-07-20T17:17:14.000Z"
   },
@@ -8399,8 +8399,8 @@
       "文化艺术业",
       "三亚"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-07-20T17:14:29.000Z"
   },
   {
@@ -8447,8 +8447,8 @@
       "专业技术服务业",
       "湖北"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-07-20T16:36:21.000Z"
   },
   {
@@ -8471,7 +8471,7 @@
       "专业技术服务业",
       "湖北"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-07-20T16:33:22.000Z"
   },
@@ -8494,7 +8494,7 @@
       "商务服务业",
       "北京"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-07-20T15:40:17.000Z"
   },
@@ -8517,7 +8517,7 @@
       "商务服务业",
       "北京"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-07-20T15:33:29.000Z"
   },
@@ -8541,8 +8541,8 @@
       "航天",
       "呼和浩特"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-07-20T15:27:51.000Z"
   },
   {
@@ -8565,8 +8565,8 @@
       "化学原料和化学制品制造业",
       "北京"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-20T14:16:11.000Z"
   },
   {
@@ -11367,7 +11367,7 @@
       "文化、体育和娱乐业",
       "北京"
     ],
-    "score": 68,
+    "score": 63,
     "featured": false,
     "createdAt": "2026-07-13T18:55:12.000Z"
   },
@@ -11391,7 +11391,7 @@
       "其他",
       "北京"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-13T16:39:03.000Z"
   },
@@ -11415,7 +11415,7 @@
       "软件和信息技术服务业",
       "北京"
     ],
-    "score": 69,
+    "score": 64,
     "featured": false,
     "createdAt": "2026-07-13T16:20:18.000Z"
   },
@@ -11439,8 +11439,8 @@
       "制造业",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-07-13T16:09:59.000Z"
   },
   {
@@ -11463,7 +11463,7 @@
       "制造业",
       "北京"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-13T16:09:59.000Z"
   },
@@ -11487,7 +11487,7 @@
       "制造业",
       "北京"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-07-13T16:09:59.000Z"
   },
@@ -11511,7 +11511,7 @@
       "制造业",
       "北京"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-07-13T16:09:59.000Z"
   },
@@ -11535,7 +11535,7 @@
       "制造业",
       "北京"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-07-13T16:09:59.000Z"
   },
@@ -11655,8 +11655,8 @@
       "制造业",
       "无锡"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-13T15:05:13.000Z"
   },
   {
@@ -11727,7 +11727,7 @@
       "软件和信息技术服务业",
       "北京"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-07-13T13:59:55.000Z"
   },
