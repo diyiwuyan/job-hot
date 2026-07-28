@@ -240,6 +240,30 @@
     "createdAt": "2026-08-03T00:00:00.000Z"
   },
   {
+    "id": "guopin-211240169695611520",
+    "title": "安徽江淮汽车集团股份有限公司 — EHS管理",
+    "summary": "企业性质：国企。行业：制造业。工作地点：合肥-包河区。薪资：6000-10000元/月。学历：本科。规模：10000-30000人。",
+    "url": "https://www.iguopin.com/job/detail?id=211240169695611520",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "合肥-包河区",
+    "deadline": "2026/08/31",
+    "tags": [
+      "安徽江淮汽车集团股份有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "制造业",
+      "合肥"
+    ],
+    "score": 81,
+    "featured": true,
+    "createdAt": "2026-08-03T00:00:00.000Z"
+  },
+  {
     "id": "guopin-211090934060812434",
     "title": "太极计算机股份有限公司 — 产品经理（2027届校招岗位）-南昌",
     "summary": "企业性质：国企。行业：软件和信息技术服务业。工作地点：南昌-红谷滩区。薪资面议。学历：硕士。规模：2000-5000人。",
@@ -552,6 +576,29 @@
     "createdAt": "2026-07-29T00:00:00.000Z"
   },
   {
+    "id": "guopin-211251237742447232",
+    "title": "湖南黄金洞矿业有限责任公司 — 人力资源干事",
+    "summary": "企业性质：国企。行业：采矿业。工作地点：岳阳-平江县。薪资：3600-4000元/月。学历：本科。规模：2000-5000人。",
+    "url": "https://www.iguopin.com/job/detail?id=211251237742447232",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "岳阳-平江县",
+    "deadline": "2026/08/21",
+    "tags": [
+      "湖南黄金洞矿业有限责任公司",
+      "校招",
+      "国企",
+      "采矿业",
+      "岳阳"
+    ],
+    "score": 87,
+    "featured": true,
+    "createdAt": "2026-07-29T00:00:00.000Z"
+  },
+  {
     "id": "guopin-211238916437576436",
     "title": "中国航发长春控制科技有限公司 — 工艺岗",
     "summary": "企业性质：国企。行业：制造业。工作地点：长春-宽城区。薪资：8000-13000元/月。学历：本科。规模：500-1000人。",
@@ -574,6 +621,100 @@
     "score": 85,
     "featured": true,
     "createdAt": "2026-07-29T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-211251448715938437",
+    "title": "湖南黄金洞矿业有限责任公司 — 职业卫生",
+    "summary": "企业性质：国企。行业：采矿业。工作地点：岳阳-平江县。薪资：7000-9000元/月。学历：本科。规模：2000-5000人。",
+    "url": "https://www.iguopin.com/job/detail?id=211251448715938437",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "岳阳-平江县",
+    "deadline": "2026/08/21",
+    "tags": [
+      "湖南黄金洞矿业有限责任公司",
+      "校招",
+      "国企",
+      "采矿业",
+      "岳阳"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-07-29T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-211262113035848428",
+    "title": "新疆兵团勘测设计院集团股份有限公司 — 结构设计工程师",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：乌鲁木齐-天山区。薪资：10000-20000元/月。学历：硕士。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=211262113035848428",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "乌鲁木齐-天山区",
+    "deadline": "2026/10/26",
+    "tags": [
+      "新疆兵团勘测设计院集团股份有限公司",
+      "校招",
+      "国企",
+      "科学研究和技术服务业",
+      "乌鲁木齐"
+    ],
+    "score": 86,
+    "featured": true,
+    "createdAt": "2026-07-28T18:20:27.000Z"
+  },
+  {
+    "id": "guopin-211261936589867748",
+    "title": "新疆兵团勘测设计院集团股份有限公司 — 电气工程设计师",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：乌鲁木齐-天山区。薪资：10000-20000元/月。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=211261936589867748",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "乌鲁木齐-天山区",
+    "deadline": "2026/10/26",
+    "tags": [
+      "新疆兵团勘测设计院集团股份有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "科学研究和技术服务业",
+      "乌鲁木齐"
+    ],
+    "score": 87,
+    "featured": true,
+    "createdAt": "2026-07-28T18:18:35.000Z"
+  },
+  {
+    "id": "guopin-211253376921373312",
+    "title": "华中药业股份有限公司 — 工艺技术管理(J13535)",
+    "summary": "企业性质：国企。行业：医药制造业。工作地点：襄阳。薪资：7000-10000元/月。学历：本科。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=211253376921373312",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "襄阳",
+    "deadline": "2026/10/25",
+    "tags": [
+      "华中药业股份有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "医药制造业",
+      "襄阳"
+    ],
+    "score": 86,
+    "featured": true,
+    "createdAt": "2026-07-28T16:53:28.000Z"
   },
   {
     "id": "guopin-211108419275327636",
@@ -600,6 +741,30 @@
     "createdAt": "2026-07-28T16:52:57.000Z"
   },
   {
+    "id": "guopin-211253141839022720",
+    "title": "华中药业股份有限公司 — 会计(J13539)",
+    "summary": "企业性质：国企。行业：医药制造业。工作地点：襄阳。薪资：7500-9000元/月。学历：本科。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=211253141839022720",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "state",
+    "location": "襄阳",
+    "deadline": "2026/10/25",
+    "tags": [
+      "华中药业股份有限公司",
+      "校招",
+      "国企",
+      "金融",
+      "医药制造业",
+      "襄阳"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-07-28T16:51:01.000Z"
+  },
+  {
     "id": "guopin-211107461749278868",
     "title": "北方科技信息研究所 — 咨询研究（北方科技信息研究所）(J13601)",
     "summary": "企业性质：国企。行业：其他制造业。工作地点：北京-海淀区。薪资面议。学历：硕士。规模：1000-2000人。",
@@ -624,6 +789,30 @@
     "createdAt": "2026-07-28T16:43:34.000Z"
   },
   {
+    "id": "guopin-211251874622343924",
+    "title": "华中药业股份有限公司 — 药品销售(J13537)",
+    "summary": "企业性质：国企。行业：医药制造业。工作地点：襄阳。薪资面议。学历：本科。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=211251874622343924",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "襄阳",
+    "deadline": "2026/10/23",
+    "tags": [
+      "华中药业股份有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "医药制造业",
+      "襄阳"
+    ],
+    "score": 83,
+    "featured": true,
+    "createdAt": "2026-07-28T16:38:18.000Z"
+  },
+  {
     "id": "guopin-211106784302074102",
     "title": "北方科技信息研究所 — 综合保障研究 （计算机、网络方向）（北方科技信息研究所）(J13600)",
     "summary": "企业性质：国企。行业：其他制造业。工作地点：北京-海淀区。薪资面议。学历：硕士。规模：1000-2000人。",
@@ -646,6 +835,30 @@
     "score": 83,
     "featured": true,
     "createdAt": "2026-07-28T16:31:12.000Z"
+  },
+  {
+    "id": "guopin-164564142877838981",
+    "title": "中国东方电气集团有限公司 — 电气设计",
+    "summary": "企业性质：国企。行业：专用设备制造业。工作地点：德阳-旌阳区。薪资：8000-12000元/月。学历：硕士。规模：10000-30000人。",
+    "url": "https://www.iguopin.com/job/detail?id=164564142877838981",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "德阳-旌阳区",
+    "deadline": "2026/09/30",
+    "tags": [
+      "中国东方电气集团有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "专用设备制造业",
+      "德阳"
+    ],
+    "score": 85,
+    "featured": true,
+    "createdAt": "2026-07-28T15:44:34.000Z"
   },
   {
     "id": "guopin-211243352048274054",
@@ -1319,6 +1532,30 @@
     "createdAt": "2026-07-28T08:42:59.000Z"
   },
   {
+    "id": "guopin-211242863546075782",
+    "title": "中国化学工程第三建设有限公司 — 财务",
+    "summary": "企业性质：国企。行业：土木工程建筑业。工作地点：中国。薪资：6000-8000元/月。学历：本科。规模：5000-10000人。",
+    "url": "https://www.iguopin.com/job/detail?id=211242863546075782",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "state",
+    "location": "中国",
+    "deadline": "2026/08/30",
+    "tags": [
+      "中国化学工程第三建设有限公司",
+      "校招",
+      "国企",
+      "金融",
+      "土木工程建筑业",
+      "中国"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-07-28T08:00:00.000Z"
+  },
+  {
     "id": "guopin-211236170493856485",
     "title": "中国黄金集团地质有限公司 — 会计专员（2026届应届毕业生）",
     "summary": "企业性质：国企。行业：专业技术服务业。工作地点：北京-顺义区。薪资：10000-12000元/月。学历：硕士。规模：50-100人。",
@@ -1670,6 +1907,195 @@
       "车企/IC",
       "制造业",
       "上海"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-211249968311175808",
+    "title": "中国能源建设集团浙江火电建设有限公司 — 博士后",
+    "summary": "企业性质：国企。行业：建筑业。工作地点：杭州-上城区。薪资面议。学历：博士。规模：5000-10000人。",
+    "url": "https://www.iguopin.com/job/detail?id=211249968311175808",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "杭州-上城区",
+    "deadline": "2026/08/31",
+    "tags": [
+      "中国能源建设集团浙江火电建设有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "建筑业",
+      "杭州"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-211248891834665712",
+    "title": "中国能源建设集团浙江火电建设有限公司 — 博士后",
+    "summary": "企业性质：国企。行业：建筑业。工作地点：杭州-上城区。薪资面议。学历：博士。规模：5000-10000人。",
+    "url": "https://www.iguopin.com/job/detail?id=211248891834665712",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "杭州-上城区",
+    "deadline": "2026/08/31",
+    "tags": [
+      "中国能源建设集团浙江火电建设有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "建筑业",
+      "杭州"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-211254311429081734",
+    "title": "中国能源建设集团浙江火电建设有限公司 — 博士后",
+    "summary": "企业性质：国企。行业：建筑业。工作地点：杭州-上城区。薪资面议。学历：博士。规模：5000-10000人。",
+    "url": "https://www.iguopin.com/job/detail?id=211254311429081734",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "杭州-上城区",
+    "deadline": "2026/08/31",
+    "tags": [
+      "中国能源建设集团浙江火电建设有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "建筑业",
+      "杭州"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-211244993296206572",
+    "title": "雄安人才服务有限公司 — 燃气用户管理岗（代招）",
+    "summary": "企业性质：国企。行业：商务服务业。工作地点：雄安新区。薪资面议。学历：本科。规模：50人以下。",
+    "url": "https://www.iguopin.com/job/detail?id=211244993296206572",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "雄安新区",
+    "deadline": "2026/09/30",
+    "tags": [
+      "雄安人才服务有限公司",
+      "校招",
+      "国企",
+      "商务服务业",
+      "雄安新区"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-211246489924536960",
+    "title": "雄安人才服务有限公司 — 综合能源站运行岗（代招）",
+    "summary": "企业性质：国企。行业：商务服务业。工作地点：雄安新区。薪资面议。学历：本科。规模：50人以下。",
+    "url": "https://www.iguopin.com/job/detail?id=211246489924536960",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "雄安新区",
+    "deadline": "2026/09/30",
+    "tags": [
+      "雄安人才服务有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "商务服务业",
+      "雄安新区"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-211246426875759237",
+    "title": "雄安人才服务有限公司 — 抢险维修岗（代招）",
+    "summary": "企业性质：国企。行业：商务服务业。工作地点：雄安新区。薪资面议。学历：本科。规模：50人以下。",
+    "url": "https://www.iguopin.com/job/detail?id=211246426875759237",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "雄安新区",
+    "deadline": "2026/09/30",
+    "tags": [
+      "雄安人才服务有限公司",
+      "校招",
+      "国企",
+      "商务服务业",
+      "雄安新区"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-211246349700565632",
+    "title": "雄安人才服务有限公司 — 焊工（代招）",
+    "summary": "企业性质：国企。行业：商务服务业。工作地点：雄安新区。薪资面议。学历：本科。规模：50人以下。",
+    "url": "https://www.iguopin.com/job/detail?id=211246349700565632",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "雄安新区",
+    "deadline": "2026/09/30",
+    "tags": [
+      "雄安人才服务有限公司",
+      "校招",
+      "国企",
+      "商务服务业",
+      "雄安新区"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-211245828919003877",
+    "title": "中国航发北京航科发动机控制系统科技有限公司 — 工艺技术（智能机械加工方向）",
+    "summary": "企业性质：国企。行业：制造业。工作地点：北京-昌平区。薪资面议。学历：硕士。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=211245828919003877",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "北京-昌平区",
+    "deadline": "2027/06/30",
+    "tags": [
+      "中国航发北京航科发动机控制系统科技有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "制造业",
+      "北京"
     ],
     "score": 84,
     "featured": true,
@@ -2081,6 +2507,76 @@
     "createdAt": "2026-07-28T00:00:00.000Z"
   },
   {
+    "id": "guopin-211245366656371436",
+    "title": "雄安人才服务有限公司 — 安装工（代招）",
+    "summary": "企业性质：国企。行业：商务服务业。工作地点：雄安新区。薪资面议。学历：本科。规模：50人以下。",
+    "url": "https://www.iguopin.com/job/detail?id=211245366656371436",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "雄安新区",
+    "deadline": "2026/10/25",
+    "tags": [
+      "雄安人才服务有限公司",
+      "校招",
+      "国企",
+      "商务服务业",
+      "雄安新区"
+    ],
+    "score": 82,
+    "featured": true,
+    "createdAt": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-211246653468838629",
+    "title": "雄安人才服务有限公司 — 管网运行岗（代招）",
+    "summary": "企业性质：国企。行业：商务服务业。工作地点：雄安新区。薪资面议。学历：本科。规模：50人以下。",
+    "url": "https://www.iguopin.com/job/detail?id=211246653468838629",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "雄安新区",
+    "deadline": "2026/10/25",
+    "tags": [
+      "雄安人才服务有限公司",
+      "校招",
+      "国企",
+      "商务服务业",
+      "雄安新区"
+    ],
+    "score": 82,
+    "featured": true,
+    "createdAt": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-211245442237729408",
+    "title": "中国航发动力股份有限公司 — 航发动力航空类",
+    "summary": "企业性质：国企。行业：制造业。工作地点：西安-未央区。薪资面议。学历：本科。规模：10000-30000人。",
+    "url": "https://www.iguopin.com/job/detail?id=211245442237729408",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "西安-未央区",
+    "deadline": "2026/10/26",
+    "tags": [
+      "中国航发动力股份有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "制造业",
+      "西安"
+    ],
+    "score": 82,
+    "featured": true,
+    "createdAt": "2026-07-28T00:00:00.000Z"
+  },
+  {
     "id": "guopin-211236595829836422",
     "title": "中国航发北京航科发动机控制系统科技有限公司 — 产品研发设计（研究项目方向）",
     "summary": "企业性质：国企。行业：制造业。工作地点：北京-昌平区。薪资面议。学历：硕士。规模：1000-2000人。",
@@ -2393,6 +2889,100 @@
     "createdAt": "2026-07-28T00:00:00.000Z"
   },
   {
+    "id": "guopin-211248700758952685",
+    "title": "北京达博有色金属焊料有限责任公司 — 设备管理员",
+    "summary": "企业性质：国企。行业：计算机、通信和其他电子设备制造业。工作地点：邢台-任泽区。薪资面议。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=211248700758952685",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "邢台-任泽区",
+    "deadline": "2026/10/25",
+    "tags": [
+      "北京达博有色金属焊料有限责任公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "计算机、通信和其他电子设备制造业",
+      "邢台"
+    ],
+    "score": 81,
+    "featured": true,
+    "createdAt": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-211245276160068224",
+    "title": "雄安人才服务有限公司 — 热源运维岗（代招）",
+    "summary": "企业性质：国企。行业：商务服务业。工作地点：雄安新区。薪资面议。学历：本科。规模：50人以下。",
+    "url": "https://www.iguopin.com/job/detail?id=211245276160068224",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "雄安新区",
+    "deadline": "2026/09/30",
+    "tags": [
+      "雄安人才服务有限公司",
+      "校招",
+      "国企",
+      "商务服务业",
+      "雄安新区"
+    ],
+    "score": 81,
+    "featured": true,
+    "createdAt": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-211246788626090629",
+    "title": "雄安人才服务有限公司 — 能源管家（代招）",
+    "summary": "企业性质：国企。行业：商务服务业。工作地点：雄安新区。薪资面议。学历：本科。规模：50人以下。",
+    "url": "https://www.iguopin.com/job/detail?id=211246788626090629",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "雄安新区",
+    "deadline": "2026/09/30",
+    "tags": [
+      "雄安人才服务有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "商务服务业",
+      "雄安新区"
+    ],
+    "score": 81,
+    "featured": true,
+    "createdAt": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-211246716903492229",
+    "title": "雄安人才服务有限公司 — 热力运行岗（代招）",
+    "summary": "企业性质：国企。行业：商务服务业。工作地点：雄安新区。薪资面议。学历：本科。规模：50人以下。",
+    "url": "https://www.iguopin.com/job/detail?id=211246716903492229",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "雄安新区",
+    "deadline": "2026/10/25",
+    "tags": [
+      "雄安人才服务有限公司",
+      "校招",
+      "国企",
+      "商务服务业",
+      "雄安新区"
+    ],
+    "score": 81,
+    "featured": true,
+    "createdAt": "2026-07-28T00:00:00.000Z"
+  },
+  {
     "id": "guopin-211241802605267692",
     "title": "中国航发北京航科发动机控制系统科技有限公司 — 产业研发设计（成附件方向）",
     "summary": "企业性质：国企。行业：制造业。工作地点：北京-昌平区。薪资面议。学历：硕士。规模：1000-2000人。",
@@ -2483,6 +3073,76 @@
       "车企/IC",
       "行业研究",
       "北京"
+    ],
+    "score": 80,
+    "featured": true,
+    "createdAt": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-211245137227942640",
+    "title": "雄安人才服务有限公司 — 工艺工（代招）",
+    "summary": "企业性质：国企。行业：商务服务业。工作地点：雄安新区。薪资面议。学历：本科。规模：50人以下。",
+    "url": "https://www.iguopin.com/job/detail?id=211245137227942640",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "雄安新区",
+    "deadline": "2026/10/25",
+    "tags": [
+      "雄安人才服务有限公司",
+      "校招",
+      "国企",
+      "商务服务业",
+      "雄安新区"
+    ],
+    "score": 80,
+    "featured": true,
+    "createdAt": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-211246852513729157",
+    "title": "中国航发北京航科发动机控制系统科技有限公司 — 工艺技术（智能装调方向）",
+    "summary": "企业性质：国企。行业：制造业。工作地点：北京-昌平区、北京-顺义区。薪资面议。学历：硕士。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=211246852513729157",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "北京-昌平区、北京-顺义区",
+    "deadline": "2027/06/30",
+    "tags": [
+      "中国航发北京航科发动机控制系统科技有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "制造业",
+      "北京"
+    ],
+    "score": 80,
+    "featured": true,
+    "createdAt": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-211246559214439040",
+    "title": "雄安人才服务有限公司 — 大客户服务岗（代招）",
+    "summary": "企业性质：国企。行业：商务服务业。工作地点：雄安新区。薪资面议。学历：本科。规模：50人以下。",
+    "url": "https://www.iguopin.com/job/detail?id=211246559214439040",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "雄安新区",
+    "deadline": "2026/09/30",
+    "tags": [
+      "雄安人才服务有限公司",
+      "校招",
+      "国企",
+      "商务服务业",
+      "雄安新区"
     ],
     "score": 80,
     "featured": true,
@@ -2580,6 +3240,30 @@
       "株洲"
     ],
     "score": 79,
+    "featured": false,
+    "createdAt": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-211245479214713573",
+    "title": "中国航发动力股份有限公司 — 航发动力材料类",
+    "summary": "企业性质：国企。行业：制造业。工作地点：西安-未央区。薪资面议。学历：本科。规模：10000-30000人。",
+    "url": "https://www.iguopin.com/job/detail?id=211245479214713573",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "西安-未央区",
+    "deadline": "2026/10/26",
+    "tags": [
+      "中国航发动力股份有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "制造业",
+      "西安"
+    ],
+    "score": 78,
     "featured": false,
     "createdAt": "2026-07-28T00:00:00.000Z"
   },
@@ -3428,23 +4112,22 @@
   {
     "id": "guopin-211061157203544309",
     "title": "中国化学工程第十一建设有限公司 — 党务管理岗",
-    "summary": "企业性质：国企。行业：土木工程建筑业。工作地点：青岛、开封、俄罗斯。薪资面议。学历：本科。规模：2000-5000人。",
+    "summary": "企业性质：国企。行业：土木工程建筑业。工作地点：俄罗斯、开封。薪资面议。学历：本科。规模：2000-5000人。",
     "url": "https://www.iguopin.com/job/detail?id=211061157203544309",
     "source": "国聘",
     "sourceHandle": "@guopin",
     "channel": "campus",
     "category": "other",
     "companyType": "state",
-    "location": "青岛、开封、俄罗斯",
+    "location": "俄罗斯、开封",
     "deadline": "2026/08/31",
     "tags": [
       "中国化学工程第十一建设有限公司",
       "校招",
       "国企",
       "土木工程建筑业",
-      "青岛",
-      "开封",
-      "俄罗斯"
+      "俄罗斯",
+      "开封"
     ],
     "score": 83,
     "featured": true,
@@ -7930,7 +8613,7 @@
       "建筑业",
       "无锡"
     ],
-    "score": 95,
+    "score": 90,
     "featured": true,
     "createdAt": "2026-07-20T10:06:50.000Z"
   },
@@ -7954,7 +8637,7 @@
       "建筑业",
       "无锡"
     ],
-    "score": 94,
+    "score": 89,
     "featured": true,
     "createdAt": "2026-07-20T10:05:56.000Z"
   },
@@ -7978,8 +8661,8 @@
       "保险业",
       "郑州"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-20T09:48:00.000Z"
   },
   {
@@ -8002,8 +8685,8 @@
       "保险业",
       "郑州"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-20T09:48:00.000Z"
   },
   {
@@ -8026,7 +8709,7 @@
       "保险业",
       "郑州"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-20T09:48:00.000Z"
   },
@@ -8074,7 +8757,7 @@
       "建筑业",
       "海外"
     ],
-    "score": 91,
+    "score": 86,
     "featured": true,
     "createdAt": "2026-07-20T08:12:40.000Z"
   },
@@ -8458,7 +9141,7 @@
   },
   {
     "id": "guopin-209652859891878183",
-    "title": "联通华盛通信有限公司 — 项目管理岗",
+    "title": "联通华盛通信有限公司 — 联通APP终端AI智能化场景运营岗",
     "summary": "企业性质：国企。行业：信息传输、软件和信息技术服务业。工作地点：北京。薪资面议。规模：300-500人。",
     "url": "https://www.iguopin.com/job/detail?id=209652859891878183",
     "source": "国聘",
@@ -11139,7 +11822,7 @@
       "专业技术服务业",
       "兰州"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-13T08:50:10.000Z"
   },
@@ -22395,7 +23078,7 @@
       "居民服务、修理和其他服务业",
       "文昌"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-06-27T09:00:00.000Z"
   },
@@ -22418,7 +23101,7 @@
       "居民服务、修理和其他服务业",
       "文昌"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-06-27T09:00:00.000Z"
   },
@@ -22441,7 +23124,7 @@
       "居民服务、修理和其他服务业",
       "北京"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-06-27T09:00:00.000Z"
   },
@@ -163947,27 +164630,6 @@
     "title": "中国东方电气集团有限公司 — 行政管理",
     "summary": "企业性质：国企。行业：专用设备制造业。工作地点：德阳-旌阳区。薪资：8000-12000元/月。学历：硕士。规模：10000-30000人。",
     "url": "https://www.iguopin.com/job/detail?id=164425337805999681",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "tags": [
-      "中国东方电气集团有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "专用设备制造业",
-      "德阳"
-    ],
-    "score": 70,
-    "featured": false,
-    "createdAt": "2026-03-11T16:00:00.000Z"
-  },
-  {
-    "id": "guopin-164564142877838981",
-    "title": "中国东方电气集团有限公司 — 电气设计",
-    "summary": "企业性质：国企。行业：专用设备制造业。工作地点：德阳-旌阳区。薪资：8000-12000元/月。学历：硕士。规模：10000-30000人。",
-    "url": "https://www.iguopin.com/job/detail?id=164564142877838981",
     "source": "国聘",
     "sourceHandle": "@guopin",
     "channel": "campus",
