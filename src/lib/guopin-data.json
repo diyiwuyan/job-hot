@@ -600,6 +600,53 @@
     "createdAt": "2026-07-30T15:30:31.000Z"
   },
   {
+    "id": "guopin-211368281238407843",
+    "title": "中化学数智科技有限公司 — 校招-具身智能方向产品经理",
+    "summary": "企业性质：国企。行业：互联网。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=211368281238407843",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/08/31",
+    "tags": [
+      "中化学数智科技有限公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "互联网",
+      "北京"
+    ],
+    "score": 81,
+    "featured": true,
+    "createdAt": "2026-07-29T11:54:48.000Z"
+  },
+  {
+    "id": "guopin-208033306040599456",
+    "title": "国药集团新疆新特药业有限公司 — 智慧供应链中心 采购计划员（应届本科/硕士、药学专业）",
+    "summary": "企业性质：国企。行业：批发业。工作地点：乌鲁木齐。薪资：6000-7000元/月。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=208033306040599456",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "乌鲁木齐",
+    "deadline": "2026/09/30",
+    "tags": [
+      "国药集团新疆新特药业有限公司",
+      "校招",
+      "国企",
+      "批发业",
+      "乌鲁木齐"
+    ],
+    "score": 82,
+    "featured": true,
+    "createdAt": "2026-07-29T11:26:46.000Z"
+  },
+  {
     "id": "guopin-211353717675395851",
     "title": "雄安人才服务有限公司 — 商业运营（代招）",
     "summary": "企业性质：国企。行业：商务服务业。工作地点：雄安新区。薪资面议。学历：本科。规模：50人以下。",
@@ -621,6 +668,29 @@
     "score": 83,
     "featured": true,
     "createdAt": "2026-07-29T09:29:36.000Z"
+  },
+  {
+    "id": "guopin-211355899569113855",
+    "title": "中国建筑技术集团有限公司 — 技术工程师",
+    "summary": "企业性质：国企。行业：房屋建筑业。工作地点：北京-朝阳区。薪资：8000-10000元/月。学历：硕士。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=211355899569113855",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/10/26",
+    "tags": [
+      "中国建筑技术集团有限公司",
+      "校招",
+      "国企",
+      "房屋建筑业",
+      "北京"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-07-29T00:00:00.000Z"
   },
   {
     "id": "guopin-211238231339961069",
@@ -718,6 +788,30 @@
     "createdAt": "2026-07-29T00:00:00.000Z"
   },
   {
+    "id": "guopin-211381344968641291",
+    "title": "国投人力上海分公司 — 高级工程师--智能制造方向或焊接方向（央企代招）",
+    "summary": "企业性质：国企。行业：租赁和商务服务业。工作地点：广州-南沙区。薪资：25000-30000元/月。学历：博士。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=211381344968641291",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "广州-南沙区",
+    "deadline": "2026/10/26",
+    "tags": [
+      "国投人力上海分公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "租赁和商务服务业",
+      "广州"
+    ],
+    "score": 85,
+    "featured": true,
+    "createdAt": "2026-07-29T00:00:00.000Z"
+  },
+  {
     "id": "guopin-211251448715938437",
     "title": "湖南黄金洞矿业有限责任公司 — 职业卫生",
     "summary": "企业性质：国企。行业：采矿业。工作地点：岳阳-平江县。薪资：7000-9000元/月。学历：本科。规模：2000-5000人。",
@@ -737,6 +831,77 @@
       "岳阳"
     ],
     "score": 84,
+    "featured": true,
+    "createdAt": "2026-07-29T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-211367019692427929",
+    "title": "沈阳仪表科学研究院有限公司 — 机械研发岗（博士岗位）",
+    "summary": "企业性质：国企。行业：仪器仪表制造业。工作地点：沈阳。薪资面议。学历：博士。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=211367019692427929",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "沈阳",
+    "deadline": "2026/10/26",
+    "tags": [
+      "沈阳仪表科学研究院有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "仪器仪表制造业",
+      "沈阳"
+    ],
+    "score": 83,
+    "featured": true,
+    "createdAt": "2026-07-29T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-211375746982087427",
+    "title": "中理检验有限公司 — 大宗商品部检验岗",
+    "summary": "企业性质：国企。行业：装卸搬运和仓储业。工作地点：防城港。薪资面议。学历：本科。规模：50人以下。",
+    "url": "https://www.iguopin.com/job/detail?id=211375746982087427",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "防城港",
+    "deadline": "2026/08/31",
+    "tags": [
+      "中理检验有限公司",
+      "校招",
+      "国企",
+      "装卸搬运和仓储业",
+      "防城港"
+    ],
+    "score": 81,
+    "featured": true,
+    "createdAt": "2026-07-29T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-211375371340221187",
+    "title": "中理检验有限公司 — 投资管理专员",
+    "summary": "企业性质：国企。行业：装卸搬运和仓储业。工作地点：北京-西城区。薪资面议。学历：本科。规模：50人以下。",
+    "url": "https://www.iguopin.com/job/detail?id=211375371340221187",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "state",
+    "location": "北京-西城区",
+    "deadline": "2026/08/31",
+    "tags": [
+      "中理检验有限公司",
+      "校招",
+      "国企",
+      "金融",
+      "装卸搬运和仓储业",
+      "北京"
+    ],
+    "score": 81,
     "featured": true,
     "createdAt": "2026-07-29T00:00:00.000Z"
   },
@@ -15378,7 +15543,7 @@
   },
   {
     "id": "guopin-208169824025576205",
-    "title": "国药集团新疆新特药业有限公司 — 风险运营管理专员",
+    "title": "国药集团新疆新特药业有限公司 — 风险运营管理专员（应届本科硕士，经济类/药学类相关专业）",
     "summary": "企业性质：国企。行业：批发业。工作地点：新疆。薪资：6000-6500元/月。学历：硕士。规模：1000-2000人。",
     "url": "https://www.iguopin.com/job/detail?id=208169824025576205",
     "source": "国聘",
@@ -15396,7 +15561,7 @@
       "批发业",
       "新疆"
     ],
-    "score": 76,
+    "score": 77,
     "featured": false,
     "createdAt": "2026-07-07T00:00:00.000Z"
   },
@@ -16254,29 +16419,6 @@
     "title": "国药集团新疆新特药业有限公司 — 党群工作部 党务专员（党员/预备党员、应届硕士、语言/思政/马哲/新闻等专业）",
     "summary": "企业性质：国企。行业：批发业。工作地点：乌鲁木齐。薪资：6000-7000元/月。学历：硕士。规模：1000-2000人。",
     "url": "https://www.iguopin.com/job/detail?id=208030493038347170",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "乌鲁木齐",
-    "deadline": "2026/10/03",
-    "tags": [
-      "国药集团新疆新特药业有限公司",
-      "校招",
-      "国企",
-      "批发业",
-      "乌鲁木齐"
-    ],
-    "score": 77,
-    "featured": false,
-    "createdAt": "2026-07-06T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-208033306040599456",
-    "title": "国药集团新疆新特药业有限公司 — 智慧供应链中心 采购计划员（应届本科/硕士、药学专业）",
-    "summary": "企业性质：国企。行业：批发业。工作地点：乌鲁木齐。薪资：6000-7000元/月。学历：本科。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=208033306040599456",
     "source": "国聘",
     "sourceHandle": "@guopin",
     "channel": "campus",
