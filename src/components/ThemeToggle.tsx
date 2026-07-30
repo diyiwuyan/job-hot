@@ -1,6 +1,6 @@
 'use client';
 
-import { useSyncExternalStore } from 'react';
+import { useEffect, useSyncExternalStore } from 'react';
 
 type ThemeMode = 'dark' | 'light' | 'auto' | 'ocean' | 'mint' | 'warm';
 
@@ -33,9 +33,9 @@ function subscribeTheme(onStoreChange: () => void) {
 }
 
 export function ThemeToggle() {
-  const mode = useSyncExternalStore(subscribeTheme, getThemeSnapshot, () => 'dark');
+  const mode = useSyncExternalStore<ThemeMode>(subscribeTheme, getThemeSnapshot, () => 'dark');
 
-  const applyTheme = (newMode: ThemeMode) => {
+  const applyTheme = (newMode: ThemeMode, persist = true) => {
     const root = document.documentElement;
     let actual: ThemeMode;
 
@@ -48,9 +48,13 @@ export function ThemeToggle() {
     root.setAttribute('data-theme', actual);
     root.setAttribute('data-theme-mode', newMode);
     document.body.setAttribute('arco-theme', actual === 'dark' ? 'dark' : 'light');
-    localStorage.setItem('jobhot-theme', newMode);
+    if (persist) localStorage.setItem('jobhot-theme', newMode);
     window.dispatchEvent(new Event('jobhot-theme-change'));
   };
+
+  useEffect(() => {
+    applyTheme(mode, false);
+  }, [mode]);
 
   const handleChange = (newMode: ThemeMode) => {
     applyTheme(newMode);

@@ -17,6 +17,26 @@ interface ShameEntry {
   type: 'shame' | 'safe';  // 污点 or 无污点
 }
 
+interface SupplementalIssue {
+  number: number;
+  company: string;
+  event: string;
+  year: string;
+  date: string;
+  link: string;
+}
+
+const SUPPLEMENTAL_ISSUES: SupplementalIssue[] = [
+  {
+    number: 22,
+    company: '美团',
+    event: '毁暑期实习 OC。CampusShame issue 中补充了牛客讨论链接，后续评论反馈原帖已不可见。',
+    year: '25届',
+    date: '2024/04/01',
+    link: 'https://github.com/forthespada/CampusShame/issues/22',
+  },
+];
+
 function parseTableRow(line: string): string[] | null {
   const trimmed = line.trim();
   if (!trimmed.startsWith('|')) return null;
@@ -36,16 +56,96 @@ function stripHtml(text: string): string {
   return text.replace(/<[^>]+>/g, '').trim();
 }
 
-async function main() {
-  const README_URL = 'https://raw.githubusercontent.com/forthespada/CampusShame/refs/heads/main/README.md';
+function addSupplementalIssues(entries: ShameEntry[], startIndex: number) {
+  let idx = startIndex;
+  const seen = new Set(entries.map(entry => `${entry.year}|${entry.company}|${entry.link ?? ''}`));
 
-  console.log('Fetching CampusShame README.md...');
-  const response = await fetch(README_URL);
-  if (!response.ok) {
-    throw new Error(`Failed to fetch: ${response.status} ${response.statusText}`);
+  for (const issue of SUPPLEMENTAL_ISSUES) {
+    const key = `${issue.year}|${issue.company}|${issue.link}`;
+    if (seen.has(key)) continue;
+
+    idx++;
+    entries.push({
+      id: `shame-issue-${issue.number}`,
+      company: issue.company,
+      event: issue.event,
+      year: issue.year,
+      date: issue.date,
+      link: issue.link,
+      type: 'shame',
+    });
+    seen.add(key);
   }
-  const markdown = await response.text();
+
+  return idx;
+}
+
+async function fetchTextWithRetry(url: string, retries = 3) {
+  let lastError: unknown;
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      const response = await fetch(url);
+      if (!response.ok) {
+        throw new Error(`Failed to fetch: ${response.status} ${response.statusText}`);
+      }
+      return await response.text();
+    } catch (error) {
+      lastError = error;
+      const message = error instanceof Error ? error.message : String(error);
+      console.warn(`Fetch attempt ${attempt}/${retries} failed: ${message}`);
+      if (attempt < retries) {
+        await new Promise(resolve => setTimeout(resolve, attempt * 1500));
+      }
+    }
+  }
+  throw lastError;
+}
+
+async function fetchCampusShameMarkdown() {
+  const rawUrl = 'https://raw.githubusercontent.com/forthespada/CampusShame/refs/heads/main/README.md';
+  const apiUrl = 'https://api.github.com/repos/forthespada/CampusShame/contents/README.md?ref=main';
+
+  try {
+    return await fetchTextWithRetry(rawUrl);
+  } catch (rawError) {
+    const message = rawError instanceof Error ? rawError.message : String(rawError);
+    console.warn(`Raw README fetch failed, trying GitHub contents API: ${message}`);
+  }
+
+  const apiText = await fetchTextWithRetry(apiUrl);
+  const payload = JSON.parse(apiText) as { content?: string; encoding?: string };
+  if (!payload.content || payload.encoding !== 'base64') {
+    throw new Error('GitHub contents API returned an unexpected README payload');
+  }
+  return Buffer.from(payload.content, 'base64').toString('utf-8');
+}
+
+function loadExistingEntries() {
+  const outputPath = path.join(__dirname, '..', 'src', 'lib', 'shame-data.json');
+  if (!fs.existsSync(outputPath)) return [];
+  return JSON.parse(fs.readFileSync(outputPath, 'utf-8')) as ShameEntry[];
+}
+
+async function main() {
+  console.log('Fetching CampusShame README.md...');
+  let markdown = '';
+  try {
+    markdown = await fetchCampusShameMarkdown();
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    console.warn(`Unable to refresh README, keeping existing records: ${message}`);
+  }
   console.log(`Fetched ${markdown.length} bytes`);
+
+  if (!markdown) {
+    const existing = loadExistingEntries();
+    const nextIndex = existing.length;
+    addSupplementalIssues(existing, nextIndex);
+    const outputPath = path.join(__dirname, '..', 'src', 'lib', 'shame-data.json');
+    fs.writeFileSync(outputPath, JSON.stringify(existing, null, 2), 'utf-8');
+    console.log(`Wrote ${existing.length} existing + supplemental items to ${outputPath}`);
+    return;
+  }
 
   const lines = markdown.split('\n');
   const entries: ShameEntry[] = [];
@@ -171,7 +271,13 @@ async function main() {
     }
   }
 
+  idx = addSupplementalIssues(entries, idx);
+
   console.log(`Parsed ${entries.length} entries (${entries.filter(e => e.type === 'shame').length} shame, ${entries.filter(e => e.type === 'safe').length} safe)`);
+  console.log('By year:', entries.reduce<Record<string, number>>((acc, item) => {
+    acc[item.year] = (acc[item.year] ?? 0) + 1;
+    return acc;
+  }, {}));
 
   // Write output
   const outputPath = path.join(__dirname, '..', 'src', 'lib', 'shame-data.json');
@@ -179,4 +285,7 @@ async function main() {
   console.log(`Wrote ${entries.length} items to ${outputPath}`);
 }
 
-main().catch(console.error);
+main().catch(error => {
+  console.error(error);
+  process.exitCode = 1;
+});

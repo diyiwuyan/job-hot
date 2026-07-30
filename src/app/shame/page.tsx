@@ -14,6 +14,7 @@ interface ShameEntry {
 }
 
 const entries = shameData as ShameEntry[];
+const pinnedYears = ['26届', '25届', '24届', '23届', '22届', '21届'];
 
 /** Render event text, converting markdown links [text](url) to real <a> tags */
 function EventText({ text }: { text: string }) {
@@ -43,7 +44,12 @@ export default function ShamePage() {
 
   const shameEntries = useMemo(() => entries.filter((e) => e.type === 'shame'), []);
   const safeEntries = useMemo(() => entries.filter((e) => e.type === 'safe'), []);
-  const years = useMemo(() => ['all', ...new Set(shameEntries.map((e) => e.year))], [shameEntries]);
+  const years = useMemo(() => {
+    const yearSet = new Set(shameEntries.map((e) => e.year));
+    const ordered = pinnedYears.filter(year => yearSet.has(year) || year === '26届' || year === '25届');
+    const rest = [...yearSet].filter(year => !ordered.includes(year));
+    return ['all', ...ordered, ...rest];
+  }, [shameEntries]);
 
   const currentEntries = tab === 'shame' ? shameEntries : safeEntries;
 
