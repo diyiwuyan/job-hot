@@ -8026,7 +8026,7 @@
       "仪器仪表制造业",
       "沈阳"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-07-22T00:00:00.000Z"
   },
@@ -8049,7 +8049,7 @@
       "有色金属冶炼和压延加工业",
       "南宁"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-07-22T00:00:00.000Z"
   },
@@ -8073,7 +8073,7 @@
       "仪器仪表制造业",
       "沈阳"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-07-22T00:00:00.000Z"
   },
@@ -8097,7 +8097,7 @@
       "医药制造业",
       "乌鲁木齐"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-07-22T00:00:00.000Z"
   },
@@ -8120,7 +8120,7 @@
       "住宿和餐饮业",
       "琼海"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-07-22T00:00:00.000Z"
   },
@@ -8143,7 +8143,7 @@
       "房地产业",
       "北京"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-07-22T00:00:00.000Z"
   },
@@ -8166,7 +8166,7 @@
       "零售业",
       "北京"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-07-22T00:00:00.000Z"
   },
@@ -8190,7 +8190,7 @@
       "零售业",
       "北京"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-07-22T00:00:00.000Z"
   },
@@ -8213,147 +8213,6 @@
       "车企/IC",
       "电力、热力生产和供应业",
       "石河子"
-    ],
-    "score": 85,
-    "featured": true,
-    "createdAt": "2026-07-22T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-210368324788291829",
-    "title": "北方水泥有限公司 — 统计员",
-    "summary": "企业性质：国企。行业：非金属矿物制品业。工作地点：辽源-东辽县。薪资：3500-4500元/月。学历：本科。规模：2000-5000人。",
-    "url": "https://www.iguopin.com/job/detail?id=210368324788291829",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "辽源-东辽县",
-    "deadline": "2026/07/31",
-    "tags": [
-      "北方水泥有限公司",
-      "校招",
-      "国企",
-      "非金属矿物制品业",
-      "辽源"
-    ],
-    "score": 84,
-    "featured": true,
-    "createdAt": "2026-07-22T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-210378880291178794",
-    "title": "北京佳之兴商业有限公司 — 财务管理培训生",
-    "summary": "企业性质：国企。行业：房地产业。工作地点：北京-朝阳区。薪资：6000-8000元/月。学历：本科。规模：不公开。",
-    "url": "https://www.iguopin.com/job/detail?id=210378880291178794",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/10/19",
-    "tags": [
-      "北京佳之兴商业有限公司",
-      "校招",
-      "国企",
-      "房地产业",
-      "北京"
-    ],
-    "score": 83,
-    "featured": true,
-    "createdAt": "2026-07-22T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-210380181917927671",
-    "title": "北京佳之兴商业有限公司 — 供应链管理培训生",
-    "summary": "企业性质：国企。行业：房地产业。工作地点：北京-通州区。薪资：6000-8000元/月。学历：本科。规模：不公开。",
-    "url": "https://www.iguopin.com/job/detail?id=210380181917927671",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-通州区",
-    "deadline": "2026/10/19",
-    "tags": [
-      "北京佳之兴商业有限公司",
-      "校招",
-      "国企",
-      "房地产业",
-      "北京"
-    ],
-    "score": 83,
-    "featured": true,
-    "createdAt": "2026-07-22T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-210225502193977591",
-    "title": "岚图汽车科技股份有限公司 — 追光-端到端算法",
-    "summary": "企业性质：国企。行业：汽车制造业。工作地点：武汉-汉阳区。薪资面议。学历：博士。规模：10000-30000人。",
-    "url": "https://www.iguopin.com/job/detail?id=210225502193977591",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "武汉-汉阳区",
-    "deadline": "2026/10/19",
-    "tags": [
-      "岚图汽车科技股份有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "汽车制造业",
-      "武汉"
-    ],
-    "score": 82,
-    "featured": true,
-    "createdAt": "2026-07-22T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-210347805632366888",
-    "title": "沈阳仪表科学研究院有限公司 — 光学研发岗",
-    "summary": "企业性质：国企。行业：仪器仪表制造业。工作地点：沈阳-浑南区。薪资面议。学历：博士。规模：500-1000人。",
-    "url": "https://www.iguopin.com/job/detail?id=210347805632366888",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "沈阳-浑南区",
-    "deadline": "2026/10/19",
-    "tags": [
-      "沈阳仪表科学研究院有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "仪器仪表制造业",
-      "沈阳"
-    ],
-    "score": 82,
-    "featured": true,
-    "createdAt": "2026-07-22T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-210331647864736038",
-    "title": "中远关西涂料化工（上海）有限公司 — 涉外技术工程师",
-    "summary": "企业性质：国企。行业：化学原料和化学制品制造业。工作地点：上海-金山区。薪资面议。学历：本科。规模：500-1000人。",
-    "url": "https://www.iguopin.com/job/detail?id=210331647864736038",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "上海-金山区",
-    "deadline": "2026/09/01",
-    "tags": [
-      "中远关西涂料化工（上海）有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "化学原料和化学制品制造业",
-      "上海"
     ],
     "score": 80,
     "featured": true,
@@ -8384,6 +8243,147 @@
     "createdAt": "2026-07-22T00:00:00.000Z"
   },
   {
+    "id": "guopin-210368324788291829",
+    "title": "北方水泥有限公司 — 统计员",
+    "summary": "企业性质：国企。行业：非金属矿物制品业。工作地点：辽源-东辽县。薪资：3500-4500元/月。学历：本科。规模：2000-5000人。",
+    "url": "https://www.iguopin.com/job/detail?id=210368324788291829",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "辽源-东辽县",
+    "deadline": "2026/07/31",
+    "tags": [
+      "北方水泥有限公司",
+      "校招",
+      "国企",
+      "非金属矿物制品业",
+      "辽源"
+    ],
+    "score": 79,
+    "featured": false,
+    "createdAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-210378880291178794",
+    "title": "北京佳之兴商业有限公司 — 财务管理培训生",
+    "summary": "企业性质：国企。行业：房地产业。工作地点：北京-朝阳区。薪资：6000-8000元/月。学历：本科。规模：不公开。",
+    "url": "https://www.iguopin.com/job/detail?id=210378880291178794",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/10/19",
+    "tags": [
+      "北京佳之兴商业有限公司",
+      "校招",
+      "国企",
+      "房地产业",
+      "北京"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-210380181917927671",
+    "title": "北京佳之兴商业有限公司 — 供应链管理培训生",
+    "summary": "企业性质：国企。行业：房地产业。工作地点：北京-通州区。薪资：6000-8000元/月。学历：本科。规模：不公开。",
+    "url": "https://www.iguopin.com/job/detail?id=210380181917927671",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-通州区",
+    "deadline": "2026/10/19",
+    "tags": [
+      "北京佳之兴商业有限公司",
+      "校招",
+      "国企",
+      "房地产业",
+      "北京"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-210225502193977591",
+    "title": "岚图汽车科技股份有限公司 — 追光-端到端算法",
+    "summary": "企业性质：国企。行业：汽车制造业。工作地点：武汉-汉阳区。薪资面议。学历：博士。规模：10000-30000人。",
+    "url": "https://www.iguopin.com/job/detail?id=210225502193977591",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "武汉-汉阳区",
+    "deadline": "2026/10/19",
+    "tags": [
+      "岚图汽车科技股份有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "汽车制造业",
+      "武汉"
+    ],
+    "score": 77,
+    "featured": false,
+    "createdAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-210347805632366888",
+    "title": "沈阳仪表科学研究院有限公司 — 光学研发岗",
+    "summary": "企业性质：国企。行业：仪器仪表制造业。工作地点：沈阳-浑南区。薪资面议。学历：博士。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=210347805632366888",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "沈阳-浑南区",
+    "deadline": "2026/10/19",
+    "tags": [
+      "沈阳仪表科学研究院有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "仪器仪表制造业",
+      "沈阳"
+    ],
+    "score": 77,
+    "featured": false,
+    "createdAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-210331647864736038",
+    "title": "中远关西涂料化工（上海）有限公司 — 涉外技术工程师",
+    "summary": "企业性质：国企。行业：化学原料和化学制品制造业。工作地点：上海-金山区。薪资面议。学历：本科。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=210331647864736038",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "上海-金山区",
+    "deadline": "2026/09/01",
+    "tags": [
+      "中远关西涂料化工（上海）有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "化学原料和化学制品制造业",
+      "上海"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-07-22T00:00:00.000Z"
+  },
+  {
     "id": "guopin-210333528506763405",
     "title": "航空工业机关服务中心 — 纪检岗",
     "summary": "企业性质：事业单位。行业：铁路、船舶、航空航天和其他运输设备制造业。工作地点：北京-朝阳区。薪资：8000-10000元/月。学历：硕士。规模：100-300人。",
@@ -8403,7 +8403,7 @@
       "铁路、船舶、航空航天和其他运输设备制造业",
       "北京"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-07-22T00:00:00.000Z"
   },
@@ -8426,8 +8426,8 @@
       "车企/IC",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-07-21T13:04:31.000Z"
   },
   {
@@ -10972,30 +10972,6 @@
     "createdAt": "2026-07-15T00:00:00.000Z"
   },
   {
-    "id": "guopin-209327359872992013",
-    "title": "国药控股江苏有限公司 — 会计专员",
-    "summary": "企业性质：国企。行业：卫生。工作地点：南京-浦口区。薪资：5000-8000元/月。学历：本科。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=209327359872992013",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "finance",
-    "companyType": "state",
-    "location": "南京-浦口区",
-    "deadline": "2026/10/12",
-    "tags": [
-      "国药控股江苏有限公司",
-      "校招",
-      "国企",
-      "金融",
-      "卫生",
-      "南京"
-    ],
-    "score": 82,
-    "featured": true,
-    "createdAt": "2026-07-15T00:00:00.000Z"
-  },
-  {
     "id": "guopin-209359662120698776",
     "title": "中能建深地技术（湖北）有限公司 — 岩土、地质工程岗",
     "summary": "企业性质：国企。行业：研究和试验发展。工作地点：武汉-武昌区。薪资面议。学历：硕士。规模：50-100人。",
@@ -11019,6 +10995,30 @@
     "createdAt": "2026-07-15T00:00:00.000Z"
   },
   {
+    "id": "guopin-209327359872992013",
+    "title": "国药控股江苏有限公司 — 会计专员",
+    "summary": "企业性质：国企。行业：卫生。工作地点：南京-浦口区。薪资：5000-8000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=209327359872992013",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "state",
+    "location": "南京-浦口区",
+    "deadline": "2026/10/12",
+    "tags": [
+      "国药控股江苏有限公司",
+      "校招",
+      "国企",
+      "金融",
+      "卫生",
+      "南京"
+    ],
+    "score": 77,
+    "featured": false,
+    "createdAt": "2026-07-15T00:00:00.000Z"
+  },
+  {
     "id": "guopin-209351404173656984",
     "title": "中国有色集团刚果矿业有限公司 — 机械工程师",
     "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：刚果(金)。薪资：35000-40000元/月。学历：硕士。规模：500-1000人。",
@@ -11038,8 +11038,8 @@
       "有色金属冶炼和压延加工业",
       "刚果(金)"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-15T00:00:00.000Z"
   },
   {
@@ -11062,7 +11062,7 @@
       "制造业",
       "佛山"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-15T00:00:00.000Z"
   },
@@ -11085,7 +11085,7 @@
       "文化、体育和娱乐业",
       "北京"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-15T00:00:00.000Z"
   },
@@ -11109,7 +11109,7 @@
       "其他制造业",
       "中山"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-15T00:00:00.000Z"
   },
@@ -11133,7 +11133,7 @@
       "其他金融业",
       "北京"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-07-15T00:00:00.000Z"
   },
@@ -11157,7 +11157,7 @@
       "铁路、船舶、航空航天和其他运输设备制造业",
       "北京"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-07-15T00:00:00.000Z"
   },
@@ -11180,8 +11180,8 @@
       "电信、广播电视和卫星传输服务",
       "香港"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-07-14T18:39:13.000Z"
   },
   {
@@ -11203,7 +11203,7 @@
       "零售业",
       "许昌"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-07-14T16:25:56.000Z"
   },
@@ -11227,7 +11227,7 @@
       "制造业",
       "邢台"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-07-14T15:46:12.000Z"
   },
@@ -11250,7 +11250,7 @@
       "非金属矿物制品业",
       "杭州"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-14T14:57:38.000Z"
   },
@@ -11274,8 +11274,8 @@
       "专用设备制造业",
       "德阳"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-07-14T12:13:12.000Z"
   },
   {
@@ -23086,30 +23086,6 @@
     "createdAt": "2026-06-29T00:00:00.000Z"
   },
   {
-    "id": "guopin-207035832249352980",
-    "title": "招商局仁和人寿保险股份有限公司 — 管培生（人力资源部）",
-    "summary": "企业性质：国企。行业：金融业。工作地点：深圳-南山区。薪资面议。学历：本科。规模：500-1000人。",
-    "url": "https://www.iguopin.com/job/detail?id=207035832249352980",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "finance",
-    "companyType": "state",
-    "location": "深圳-南山区",
-    "deadline": "2026/08/31",
-    "tags": [
-      "招商局仁和人寿保险股份有限公司",
-      "校招",
-      "国企",
-      "金融",
-      "金融业",
-      "深圳"
-    ],
-    "score": 78,
-    "featured": false,
-    "createdAt": "2026-06-29T00:00:00.000Z"
-  },
-  {
     "id": "guopin-206951425253573528",
     "title": "云南云天化股份有限公司 — 分析检验",
     "summary": "企业性质：国企。行业：化学原料和化学制品制造业。工作地点：西宁-湟中区。薪资：5000-7000元/月。学历：大专。规模：10000-30000人。",
@@ -23134,141 +23110,24 @@
     "createdAt": "2026-06-29T00:00:00.000Z"
   },
   {
-    "id": "guopin-207013340159935390",
-    "title": "建科公共设施运营管理有限公司 — 人工智能工程师",
-    "summary": "企业性质：国企。行业：建筑业。工作地点：北京-西城区。薪资：7000-9000元/月。学历：本科。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=207013340159935390",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "companyType": "state",
-    "location": "北京-西城区",
-    "deadline": "2026/09/26",
-    "tags": [
-      "建科公共设施运营管理有限公司",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "建筑业",
-      "北京"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-06-29T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207040693716124432",
-    "title": "北京辰安信息科技有限公司 — 解决方案工程师-2026校招",
-    "summary": "企业性质：国企。行业：软件和信息技术服务业。工作地点：北京-海淀区。薪资：10000-15000元/月。学历：硕士。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=207040693716124432",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "companyType": "state",
-    "location": "北京-海淀区",
-    "deadline": "2026/08/31",
-    "tags": [
-      "北京辰安信息科技有限公司",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "软件和信息技术服务业",
-      "北京"
-    ],
-    "score": 75,
-    "featured": false,
-    "createdAt": "2026-06-29T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207013434548553110",
-    "title": "建科公共设施运营管理有限公司 — 前端开发工程师",
-    "summary": "企业性质：国企。行业：建筑业。工作地点：北京-西城区。薪资面议。学历：本科。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=207013434548553110",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-西城区",
-    "deadline": "2026/09/26",
-    "tags": [
-      "建科公共设施运营管理有限公司",
-      "校招",
-      "国企",
-      "建筑业",
-      "北京"
-    ],
-    "score": 74,
-    "featured": false,
-    "createdAt": "2026-06-29T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207044650219864987",
-    "title": "国投人力资源服务有限公司人才服务中心 — 财务共享中心会计专员-中国电子工程设计（央企外包）",
-    "summary": "企业性质：国企。行业：商务服务业。工作地点：北京。薪资：10000-15999元/月。学历：本科。规模：300-500人。",
-    "url": "https://www.iguopin.com/job/detail?id=207044650219864987",
+    "id": "guopin-207035832249352980",
+    "title": "招商局仁和人寿保险股份有限公司 — 管培生（人力资源部）",
+    "summary": "企业性质：国企。行业：金融业。工作地点：深圳-南山区。薪资面议。学历：本科。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=207035832249352980",
     "source": "国聘",
     "sourceHandle": "@guopin",
     "channel": "campus",
     "category": "finance",
     "companyType": "state",
-    "location": "北京",
-    "deadline": "2026/09/26",
+    "location": "深圳-南山区",
+    "deadline": "2026/08/31",
     "tags": [
-      "国投人力资源服务有限公司人才服务中心",
+      "招商局仁和人寿保险股份有限公司",
       "校招",
       "国企",
       "金融",
-      "商务服务业",
-      "北京"
-    ],
-    "score": 74,
-    "featured": false,
-    "createdAt": "2026-06-29T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207017717201371924",
-    "title": "中远海运物流发展有限公司 — 职能管理储备（人力资源方向）",
-    "summary": "企业性质：国企。行业：交通运输、仓储和邮政业。工作地点：上海-浦东新区。薪资面议。学历：硕士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=207017717201371924",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "上海-浦东新区",
-    "deadline": "2026/08/28",
-    "tags": [
-      "中远海运物流发展有限公司",
-      "校招",
-      "国企",
-      "交通运输、仓储和邮政业",
-      "上海"
-    ],
-    "score": 73,
-    "featured": false,
-    "createdAt": "2026-06-29T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207013398192325535",
-    "title": "建科公共设施运营管理有限公司 — 后端开发工程师",
-    "summary": "企业性质：国企。行业：建筑业。工作地点：北京-西城区。薪资面议。学历：硕士。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=207013398192325535",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-西城区",
-    "deadline": "2026/09/26",
-    "tags": [
-      "建科公共设施运营管理有限公司",
-      "校招",
-      "国企",
-      "建筑业",
-      "北京"
+      "金融业",
+      "深圳"
     ],
     "score": 73,
     "featured": false,
@@ -23299,25 +23158,97 @@
     "createdAt": "2026-06-29T00:00:00.000Z"
   },
   {
-    "id": "guopin-207037033732899604",
-    "title": "浙江省环保集团有限公司 — （青田抽蓄）合同造价岗",
-    "summary": "企业性质：国企。行业：生态保护和环境治理业。工作地点：丽水-青田县。薪资面议。学历：本科。规模：300-500人。",
-    "url": "https://www.iguopin.com/job/detail?id=207037033732899604",
+    "id": "guopin-207013340159935390",
+    "title": "建科公共设施运营管理有限公司 — 人工智能工程师",
+    "summary": "企业性质：国企。行业：建筑业。工作地点：北京-西城区。薪资：7000-9000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=207013340159935390",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "北京-西城区",
+    "deadline": "2026/09/26",
+    "tags": [
+      "建科公共设施运营管理有限公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "建筑业",
+      "北京"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207040693716124432",
+    "title": "北京辰安信息科技有限公司 — 解决方案工程师-2026校招",
+    "summary": "企业性质：国企。行业：软件和信息技术服务业。工作地点：北京-海淀区。薪资：10000-15000元/月。学历：硕士。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=207040693716124432",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "北京-海淀区",
+    "deadline": "2026/08/31",
+    "tags": [
+      "北京辰安信息科技有限公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "软件和信息技术服务业",
+      "北京"
+    ],
+    "score": 70,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207013434548553110",
+    "title": "建科公共设施运营管理有限公司 — 前端开发工程师",
+    "summary": "企业性质：国企。行业：建筑业。工作地点：北京-西城区。薪资面议。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=207013434548553110",
     "source": "国聘",
     "sourceHandle": "@guopin",
     "channel": "campus",
     "category": "other",
     "companyType": "state",
-    "location": "丽水-青田县",
+    "location": "北京-西城区",
     "deadline": "2026/09/26",
     "tags": [
-      "浙江省环保集团有限公司",
+      "建科公共设施运营管理有限公司",
       "校招",
       "国企",
-      "生态保护和环境治理业",
-      "丽水"
+      "建筑业",
+      "北京"
     ],
-    "score": 72,
+    "score": 69,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207044650219864987",
+    "title": "国投人力资源服务有限公司人才服务中心 — 财务共享中心会计专员-中国电子工程设计（央企外包）",
+    "summary": "企业性质：国企。行业：商务服务业。工作地点：北京。薪资：10000-15999元/月。学历：本科。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=207044650219864987",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "state",
+    "location": "北京",
+    "deadline": "2026/09/26",
+    "tags": [
+      "国投人力资源服务有限公司人才服务中心",
+      "校招",
+      "国企",
+      "金融",
+      "商务服务业",
+      "北京"
+    ],
+    "score": 69,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00.000Z"
   },
@@ -23343,6 +23274,75 @@
       "雄安新区"
     ],
     "score": 69,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207017717201371924",
+    "title": "中远海运物流发展有限公司 — 职能管理储备（人力资源方向）",
+    "summary": "企业性质：国企。行业：交通运输、仓储和邮政业。工作地点：上海-浦东新区。薪资面议。学历：硕士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=207017717201371924",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "上海-浦东新区",
+    "deadline": "2026/08/28",
+    "tags": [
+      "中远海运物流发展有限公司",
+      "校招",
+      "国企",
+      "交通运输、仓储和邮政业",
+      "上海"
+    ],
+    "score": 68,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207013398192325535",
+    "title": "建科公共设施运营管理有限公司 — 后端开发工程师",
+    "summary": "企业性质：国企。行业：建筑业。工作地点：北京-西城区。薪资面议。学历：硕士。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=207013398192325535",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-西城区",
+    "deadline": "2026/09/26",
+    "tags": [
+      "建科公共设施运营管理有限公司",
+      "校招",
+      "国企",
+      "建筑业",
+      "北京"
+    ],
+    "score": 68,
+    "featured": false,
+    "createdAt": "2026-06-29T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207037033732899604",
+    "title": "浙江省环保集团有限公司 — （青田抽蓄）合同造价岗",
+    "summary": "企业性质：国企。行业：生态保护和环境治理业。工作地点：丽水-青田县。薪资面议。学历：本科。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=207037033732899604",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "丽水-青田县",
+    "deadline": "2026/09/26",
+    "tags": [
+      "浙江省环保集团有限公司",
+      "校招",
+      "国企",
+      "生态保护和环境治理业",
+      "丽水"
+    ],
+    "score": 67,
     "featured": false,
     "createdAt": "2026-06-29T00:00:00.000Z"
   },
