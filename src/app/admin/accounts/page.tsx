@@ -10,6 +10,7 @@ import Link from 'next/link';
 interface AccountUser {
   user_id: string;
   email: string;
+  nickname?: string | null;
   created_at: string;
   last_sign_in_at: string | null;
   email_confirmed: boolean;
@@ -18,7 +19,7 @@ interface AccountUser {
   last_active_at: string | null;
 }
 
-type SortField = 'email' | 'created_at' | 'last_sign_in_at' | 'page_view_count' | 'admin_role';
+type SortField = 'email' | 'nickname' | 'created_at' | 'last_sign_in_at' | 'page_view_count' | 'admin_role';
 type SortDir = 'asc' | 'desc';
 
 // ── Helpers ─────────────────────────────────────────────────
@@ -40,6 +41,10 @@ function roleClass(role: string | null): string {
   return '';
 }
 
+function getNickname(user: AccountUser): string {
+  return user.nickname?.trim() || user.email.split('@')[0] || '未命名';
+}
+
 // ── Main Page ───────────────────────────────────────────────
 export default function AccountsPage() {
   const { user, loading: authLoading } = useAuth();
@@ -58,9 +63,18 @@ export default function AccountsPage() {
 
   // Add account modal
   const [showAddModal, setShowAddModal] = useState(false);
+  const [newNickname, setNewNickname] = useState('');
   const [newEmail, setNewEmail] = useState('');
   const [newPassword, setNewPassword] = useState('');
   const [addLoading, setAddLoading] = useState(false);
+
+  // Edit nickname modal
+  const [editingNickname, setEditingNickname] = useState<AccountUser | null>(null);
+  const [nicknameDraft, setNicknameDraft] = useState('');
+
+  // Password reset modal
+  const [passwordUser, setPasswordUser] = useState<AccountUser | null>(null);
+  const [passwordDraft, setPasswordDraft] = useState('');
 
   // Confirm modal
   const [confirmAction, setConfirmAction] = useState<{
@@ -87,7 +101,11 @@ export default function AccountsPage() {
   }, [isAdmin]);
 
   useEffect(() => {
-    if (!adminLoading && isAdmin) fetchUsers();
+    if (adminLoading || !isAdmin) return;
+    const timer = window.setTimeout(() => {
+      fetchUsers();
+    }, 0);
+    return () => window.clearTimeout(timer);
   }, [adminLoading, isAdmin, fetchUsers]);
 
   // ── Sort & filter ──────────────────────────────────────────
@@ -109,13 +127,15 @@ export default function AccountsPage() {
     .filter(u => {
       if (!search.trim()) return true;
       const q = search.trim().toLowerCase();
-      return u.email.toLowerCase().includes(q) || roleName(u.admin_role).includes(q);
+      return u.email.toLowerCase().includes(q) || getNickname(u).toLowerCase().includes(q) || roleName(u.admin_role).includes(q);
     })
     .sort((a, b) => {
       const dir = sortDir === 'asc' ? 1 : -1;
       switch (sortField) {
         case 'email':
           return dir * a.email.localeCompare(b.email);
+        case 'nickname':
+          return dir * getNickname(a).localeCompare(getNickname(b));
         case 'created_at':
           return dir * (new Date(a.created_at).getTime() - new Date(b.created_at).getTime());
         case 'last_sign_in_at':
@@ -194,15 +214,77 @@ export default function AccountsPage() {
     setConfirmAction(null);
   }
 
+  async function updateNickname(e: React.FormEvent) {
+    e.preventDefault();
+    if (!supabase || !editingNickname) return;
+    const nextNickname = nicknameDraft.trim();
+    if (!nextNickname) {
+      setError('昵称不能为空');
+      return;
+    }
+
+    setActionLoading(editingNickname.user_id);
+    setError('');
+    setSuccess('');
+
+    const { error: err } = await supabase.rpc('admin_update_user_nickname', {
+      target_user_id: editingNickname.user_id,
+      target_nickname: nextNickname,
+    });
+
+    if (err) {
+      setError(`修改昵称失败: ${err.message}`);
+    } else {
+      setSuccess(`已更新 ${editingNickname.email} 的昵称`);
+      setEditingNickname(null);
+      setNicknameDraft('');
+      fetchUsers();
+    }
+    setActionLoading(null);
+  }
+
+  async function updatePassword(e: React.FormEvent) {
+    e.preventDefault();
+    if (!supabase || !passwordUser) return;
+    const nextPassword = passwordDraft.trim();
+    if (nextPassword.length < 6) {
+      setError('新密码至少需要 6 位');
+      return;
+    }
+
+    setActionLoading(passwordUser.user_id);
+    setError('');
+    setSuccess('');
+
+    const { error: err } = await supabase.rpc('admin_set_user_password', {
+      target_user_id: passwordUser.user_id,
+      new_password: nextPassword,
+    });
+
+    if (err) {
+      setError(`重置密码失败: ${err.message}`);
+    } else {
+      setSuccess(`已重置 ${passwordUser.email} 的密码`);
+      setPasswordUser(null);
+      setPasswordDraft('');
+    }
+    setActionLoading(null);
+  }
+
   // ── Add account ──────────────────────────────────────────────
   async function handleAddAccount(e: React.FormEvent) {
     e.preventDefault();
-    if (!supabase || !newEmail.trim()) return;
+    if (!supabase || !newEmail.trim() || !newNickname.trim()) return;
 
     // Validate email format
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(newEmail.trim())) {
       setError('请输入有效的邮箱地址');
+      return;
+    }
+
+    if (!newNickname.trim()) {
+      setError('昵称为必填项');
       return;
     }
 
@@ -217,7 +299,7 @@ export default function AccountsPage() {
       password,
       options: {
         // Skip email confirmation for admin-created accounts
-        data: { created_by_admin: true },
+        data: { created_by_admin: true, nickname: newNickname.trim() },
       },
     });
 
@@ -225,6 +307,7 @@ export default function AccountsPage() {
       setError(`添加账号失败: ${signUpErr.message}`);
     } else {
       setSuccess(`账号 ${newEmail.trim()} 已创建成功${newPassword.trim() ? '' : '（随机密码，用户需通过重置密码登录）'}`);
+      setNewNickname('');
       setNewEmail('');
       setNewPassword('');
       setShowAddModal(false);
@@ -286,7 +369,7 @@ export default function AccountsPage() {
           <input
             type="text"
             className="field"
-            placeholder="搜索邮箱或角色..."
+            placeholder="搜索邮箱、昵称或角色..."
             value={search}
             onChange={e => setSearch(e.target.value)}
           />
@@ -310,6 +393,9 @@ export default function AccountsPage() {
                   <th className="admin-th-sort" onClick={() => handleSort('email')}>
                     邮箱{sortIndicator('email')}
                   </th>
+                  <th className="admin-th-sort" onClick={() => handleSort('nickname')}>
+                    昵称{sortIndicator('nickname')}
+                  </th>
                   <th className="admin-th-sort" onClick={() => handleSort('admin_role')}>
                     角色{sortIndicator('admin_role')}
                   </th>
@@ -328,7 +414,7 @@ export default function AccountsPage() {
               <tbody>
                 {filteredUsers.length === 0 ? (
                   <tr>
-                    <td colSpan={isSuperAdmin ? 6 : 5} style={{ textAlign: 'center', padding: '2rem', color: 'var(--text-muted)' }}>
+                    <td colSpan={isSuperAdmin ? 7 : 6} style={{ textAlign: 'center', padding: '2rem', color: 'var(--text-muted)' }}>
                       {search ? '没有匹配的用户' : '暂无注册用户'}
                     </td>
                   </tr>
@@ -342,6 +428,7 @@ export default function AccountsPage() {
                           {u.email}
                           {isCurrentUser && <span className="admin-you-badge">（你）</span>}
                         </td>
+                        <td>{getNickname(u)}</td>
                         <td>
                           <span className={`admin-role-badge ${roleClass(u.admin_role)}`}>
                             {roleName(u.admin_role)}
@@ -352,15 +439,33 @@ export default function AccountsPage() {
                         <td>{u.page_view_count}</td>
                         {isSuperAdmin && (
                           <td className="admin-actions-cell">
-                            {isCurrentUser ? (
-                              <span className="admin-text-muted">—</span>
-                            ) : u.admin_role === 'super_admin' ? (
-                              <span className="admin-text-muted">不可操作</span>
-                            ) : isProcessing ? (
+                            {isProcessing ? (
                               <span className="admin-text-muted">处理中...</span>
                             ) : (
                               <div className="admin-btn-group">
-                                {u.admin_role === 'admin' ? (
+                                <button
+                                  type="button"
+                                  className="btn-sm btn-secondary"
+                                  onClick={() => {
+                                    setEditingNickname(u);
+                                    setNicknameDraft(getNickname(u));
+                                  }}
+                                >
+                                  改昵称
+                                </button>
+                                <button
+                                  type="button"
+                                  className="btn-sm btn-secondary"
+                                  onClick={() => {
+                                    setPasswordUser(u);
+                                    setPasswordDraft('');
+                                  }}
+                                >
+                                  重置密码
+                                </button>
+                                {isCurrentUser || u.admin_role === 'super_admin' ? (
+                                  <span className="admin-text-muted">权限不可改</span>
+                                ) : u.admin_role === 'admin' ? (
                                   <button
                                     type="button"
                                     className="btn-sm btn-secondary"
@@ -440,6 +545,21 @@ export default function AccountsPage() {
             <form onSubmit={handleAddAccount}>
               <div style={{ marginBottom: '1rem' }}>
                 <label style={{ display: 'block', fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '0.4rem' }}>
+                  昵称 <span style={{ color: 'var(--accent)' }}>*</span>
+                </label>
+                <input
+                  type="text"
+                  className="field"
+                  placeholder="例如：小仙"
+                  value={newNickname}
+                  onChange={e => setNewNickname(e.target.value)}
+                  required
+                  autoFocus
+                  style={{ width: '100%' }}
+                />
+              </div>
+              <div style={{ marginBottom: '1rem' }}>
+                <label style={{ display: 'block', fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '0.4rem' }}>
                   邮箱地址 <span style={{ color: 'var(--accent)' }}>*</span>
                 </label>
                 <input
@@ -449,7 +569,6 @@ export default function AccountsPage() {
                   value={newEmail}
                   onChange={e => setNewEmail(e.target.value)}
                   required
-                  autoFocus
                   style={{ width: '100%' }}
                 />
               </div>
@@ -473,8 +592,79 @@ export default function AccountsPage() {
                 <button type="button" className="btn btn-secondary" onClick={() => setShowAddModal(false)}>
                   取消
                 </button>
-                <button type="submit" className="btn" disabled={addLoading || !newEmail.trim()}>
+                <button type="submit" className="btn" disabled={addLoading || !newEmail.trim() || !newNickname.trim()}>
                   {addLoading ? '创建中...' : '创建账号'}
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
+
+      {/* Edit nickname modal */}
+      {editingNickname && (
+        <div className="admin-modal-overlay" onClick={() => setEditingNickname(null)}>
+          <div className="admin-modal" onClick={e => e.stopPropagation()}>
+            <h3 className="admin-modal-title">修改昵称</h3>
+            <p className="admin-modal-text">{editingNickname.email}</p>
+            <form onSubmit={updateNickname}>
+              <div style={{ marginBottom: '1rem' }}>
+                <label style={{ display: 'block', fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '0.4rem' }}>
+                  昵称 <span style={{ color: 'var(--accent)' }}>*</span>
+                </label>
+                <input
+                  type="text"
+                  className="field"
+                  value={nicknameDraft}
+                  onChange={e => setNicknameDraft(e.target.value)}
+                  required
+                  autoFocus
+                  style={{ width: '100%' }}
+                />
+              </div>
+              <div className="admin-modal-actions">
+                <button type="button" className="btn btn-secondary" onClick={() => setEditingNickname(null)}>
+                  取消
+                </button>
+                <button type="submit" className="btn" disabled={!nicknameDraft.trim() || actionLoading === editingNickname.user_id}>
+                  {actionLoading === editingNickname.user_id ? '保存中...' : '保存昵称'}
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
+
+      {/* Password reset modal */}
+      {passwordUser && (
+        <div className="admin-modal-overlay" onClick={() => setPasswordUser(null)}>
+          <div className="admin-modal" onClick={e => e.stopPropagation()}>
+            <h3 className="admin-modal-title">重置密码</h3>
+            <p className="admin-modal-text">
+              Supabase Auth 不保存明文原密码，后台无法查看旧密码。你可以为 {passwordUser.email} 设置一个新密码。
+            </p>
+            <form onSubmit={updatePassword}>
+              <div style={{ marginBottom: '1rem' }}>
+                <label style={{ display: 'block', fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '0.4rem' }}>
+                  新密码 <span style={{ color: 'var(--accent)' }}>*</span>
+                </label>
+                <input
+                  type="text"
+                  className="field"
+                  placeholder="至少 6 位"
+                  value={passwordDraft}
+                  onChange={e => setPasswordDraft(e.target.value)}
+                  required
+                  autoFocus
+                  style={{ width: '100%' }}
+                />
+              </div>
+              <div className="admin-modal-actions">
+                <button type="button" className="btn btn-secondary" onClick={() => setPasswordUser(null)}>
+                  取消
+                </button>
+                <button type="submit" className="btn" disabled={passwordDraft.trim().length < 6 || actionLoading === passwordUser.user_id}>
+                  {actionLoading === passwordUser.user_id ? '重置中...' : '确认重置'}
                 </button>
               </div>
             </form>

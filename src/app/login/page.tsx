@@ -15,6 +15,7 @@ export default function LoginPage() {
   const router = useRouter();
   const { user } = useAuth();
   const [mode, setMode] = useState<'login' | 'register'>('login');
+  const [nickname, setNickname] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
@@ -66,11 +67,24 @@ export default function LoginPage() {
     setMessage('');
 
     if (mode === 'register') {
-      const { error } = await supabase.auth.signUp({ email, password });
+      if (!nickname.trim()) {
+        setError('请输入昵称');
+        setLoading(false);
+        return;
+      }
+
+      const { error } = await supabase.auth.signUp({
+        email,
+        password,
+        options: {
+          data: { nickname: nickname.trim() },
+        },
+      });
       if (error) {
         setError(error.message);
       } else {
         setMessage('注册成功！请查收验证邮件，点击链接后即可登录。');
+        setNickname('');
       }
     } else {
       const { error } = await supabase.auth.signInWithPassword({ email, password });
@@ -121,6 +135,20 @@ export default function LoginPage() {
 
         {/* Form */}
         <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+          {mode === 'register' && (
+            <div>
+              <label style={{ fontSize: '0.8125rem', color: 'var(--text-muted)', display: 'block', marginBottom: '0.25rem' }}>昵称</label>
+              <input
+                type="text"
+                className="field"
+                placeholder="请输入昵称"
+                value={nickname}
+                onChange={(e) => setNickname(e.target.value)}
+                required
+              />
+            </div>
+          )}
+
           <div>
             <label style={{ fontSize: '0.8125rem', color: 'var(--text-muted)', display: 'block', marginBottom: '0.25rem' }}>邮箱</label>
             <input
