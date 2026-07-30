@@ -279,25 +279,51 @@ export default function AdminCareerCampPage() {
         <div style={{ display: 'grid', gap: '1rem' }}>
           <section className="admin-section">
             <h2 className="admin-section-title">创建课程</h2>
-            <form onSubmit={createLesson} className="admin-add-form">
-              <input className="field" value={lessonForm.title} onChange={e => setLessonForm({ ...lessonForm, title: e.target.value })} placeholder="每节课主题" required />
-              <input className="field" type="number" value={lessonForm.sort_order} onChange={e => setLessonForm({ ...lessonForm, sort_order: Number(e.target.value) })} placeholder="排序" />
-              <textarea className="field" rows={3} value={lessonForm.description} onChange={e => setLessonForm({ ...lessonForm, description: e.target.value })} placeholder="课程说明" />
+            <form onSubmit={createLesson} className="camp-admin-form">
+              <label className="camp-field camp-field-title">
+                <span>每节课主题</span>
+                <input className="field" value={lessonForm.title} onChange={e => setLessonForm({ ...lessonForm, title: e.target.value })} placeholder="例如：简历诊断与岗位定位" required />
+              </label>
+              <label className="camp-field camp-field-order">
+                <span>课程顺序</span>
+                <input className="field" type="number" min={1} value={lessonForm.sort_order} onChange={e => setLessonForm({ ...lessonForm, sort_order: Number(e.target.value) })} placeholder="如 1" />
+                <small>数字越小越靠前</small>
+              </label>
+              <label className="camp-field camp-field-desc">
+                <span>课程说明</span>
+                <textarea className="field" rows={3} value={lessonForm.description} onChange={e => setLessonForm({ ...lessonForm, description: e.target.value })} placeholder="这节课讲什么、适合谁、完成后有什么产出" />
+              </label>
               <button className="btn" type="submit">新增课程</button>
             </form>
           </section>
 
           <section className="admin-section">
             <h2 className="admin-section-title">创建课后作业</h2>
-            <form onSubmit={createTask} className="admin-add-form">
-              <select className="field" value={taskForm.lesson_id} onChange={e => setTaskForm({ ...taskForm, lesson_id: e.target.value })} required>
-                <option value="">选择课程</option>
-                {lessons.map(lesson => <option key={lesson.id} value={lesson.id}>{lesson.title}</option>)}
-              </select>
-              <input className="field" value={taskForm.title} onChange={e => setTaskForm({ ...taskForm, title: e.target.value })} placeholder="作业标题" required />
-              <input className="field" type="datetime-local" value={taskForm.due_at} onChange={e => setTaskForm({ ...taskForm, due_at: e.target.value })} />
-              <input className="field" type="number" value={taskForm.sort_order} onChange={e => setTaskForm({ ...taskForm, sort_order: Number(e.target.value) })} placeholder="排序" />
-              <textarea className="field" rows={3} value={taskForm.description} onChange={e => setTaskForm({ ...taskForm, description: e.target.value })} placeholder="作业要求" />
+            <form onSubmit={createTask} className="camp-admin-form camp-task-form">
+              <label className="camp-field">
+                <span>所属课程</span>
+                <select className="field" value={taskForm.lesson_id} onChange={e => setTaskForm({ ...taskForm, lesson_id: e.target.value })} required>
+                  <option value="">选择课程</option>
+                  {lessons.map(lesson => <option key={lesson.id} value={lesson.id}>{lesson.title}</option>)}
+                </select>
+              </label>
+              <label className="camp-field">
+                <span>作业标题</span>
+                <input className="field" value={taskForm.title} onChange={e => setTaskForm({ ...taskForm, title: e.target.value })} placeholder="例如：上传一版简历初稿" required />
+              </label>
+              <label className="camp-field">
+                <span>截止时间</span>
+                <input className="field" type="datetime-local" value={taskForm.due_at} onChange={e => setTaskForm({ ...taskForm, due_at: e.target.value })} />
+              </label>
+              <label className="camp-field camp-field-order">
+                <span>作业顺序</span>
+                <input className="field" type="number" min={1} value={taskForm.sort_order} onChange={e => setTaskForm({ ...taskForm, sort_order: Number(e.target.value) })} placeholder="如 10" />
+                <small>同一节课内排序</small>
+              </label>
+              <label className="camp-field camp-field-desc">
+                <span>作业要求</span>
+                <textarea className="field" rows={3} value={taskForm.description} onChange={e => setTaskForm({ ...taskForm, description: e.target.value })} placeholder="说明提交内容、格式、附件要求等" />
+              </label>
               <button className="btn" type="submit">新增作业</button>
             </form>
           </section>
