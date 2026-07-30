@@ -75,6 +75,26 @@ export default function ToolsPage() {
           </div>
         </Link>
 
+        {/* 求职训练营 */}
+        <Link
+          href="/tools/career-camp"
+          className="timeline-card timeline-card-featured"
+          style={{ display: 'block', textDecoration: 'none', padding: '1.5rem' }}
+        >
+          <div style={{ fontSize: '2rem', marginBottom: '0.75rem' }}>📚</div>
+          <h2 style={{ fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.5rem', color: 'var(--text)' }}>
+            求职训练营
+          </h2>
+          <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.7, margin: 0 }}>
+            登录后跟随课程大纲完成课后作业打卡，老师可查看完成情况和个人累计完成率。
+          </p>
+          <div className="timeline-tags" style={{ marginTop: '0.75rem' }}>
+            <span className="tag">课程大纲</span>
+            <span className="tag">作业打卡</span>
+            <span className="tag">老师反馈</span>
+          </div>
+        </Link>
+
         {/* 笔试训练 */}
         <Link
           href="/tools/exam"

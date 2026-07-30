@@ -65,6 +65,10 @@ const navItems: NavItem[] = [
         label: '求职辅导',
       },
       {
+        href: '/tools/career-camp',
+        label: '求职训练营',
+      },
+      {
         href: '/tools/exam',
         label: '笔试训练',
       },
@@ -351,6 +355,13 @@ export function Sidebar() {
                       onClick={close}
                     >
                       账号管理
+                    </Link>
+                    <Link
+                      href="/admin/career-camp"
+                      className={`side-sublink ${isActive('/admin/career-camp') ? 'side-sublink-active' : ''}`}
+                      onClick={close}
+                    >
+                      训练营管理
                     </Link>
                   </div>
                 )}

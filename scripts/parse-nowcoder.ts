@@ -62,6 +62,11 @@ interface FeedItem {
   createdAt: string;
 }
 
+interface NowcoderInitialState {
+  app?: Record<string, { scheduleData?: { datas?: NowcoderCompany[] } }>;
+  store?: Record<string, { scheduleData?: { datas?: NowcoderCompany[] } }>;
+}
+
 // ─── Category detection ──────────────────────────────────────────────
 function detectCategory(company: NowcoderCompany): Category {
   const industries = company.industryList.join(' ');
@@ -290,7 +295,7 @@ async function main() {
   }
   const jsonStr = html.substring(jsonStart, endIdx + 1); // +1 to include the `}`
 
-  let state: any;
+  let state: NowcoderInitialState;
   try {
     // The JSON uses \u002F for forward slashes (handled natively by JSON.parse)
     state = JSON.parse(jsonStr);
@@ -307,7 +312,7 @@ async function main() {
     console.error('Could not find app["120"] in state');
     console.log('Available app keys:', Object.keys(state?.app || {}));
     // Try alternative paths
-    const altPaths = [state?.store?.['120'], state?.['120']];
+      const altPaths = [state.store?.['120']];
     for (const alt of altPaths) {
       if (alt?.scheduleData?.datas) {
         console.log('Found data at alternative path');
@@ -408,12 +413,12 @@ function mergeWithExisting(newItems: FeedItem[]): FeedItem[] {
 
   console.log(`Merge result: ${newCount} new, ${updatedCount} updated, ${merged.size} total`);
 
-    // Only keep items from 2026-01-01 onwards
-  const cutoff = new Date('2026-01-01T00:00:00Z');
+    // Only keep items from 2026-06-01 onwards
+  const cutoff = new Date('2026-06-01T00:00:00Z');
   const pruned = [...merged.values()].filter(item => new Date(item.createdAt) >= cutoff);
   const prunedCount = merged.size - pruned.length;
   if (prunedCount > 0) {
-    console.log(`Pruned ${prunedCount} items before 2026-01-01`);
+    console.log(`Pruned ${prunedCount} items before 2026-06-01`);
   }
 
   // Sort by date desc, then score desc
@@ -455,4 +460,3 @@ function writeOutput(feedItems: FeedItem[]) {
 }
 
 main().catch(console.error);
-

@@ -1,24 +1,43 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useSyncExternalStore } from 'react';
 
-type ThemeMode = 'dark' | 'auto' | 'light';
+type ThemeMode = 'dark' | 'light' | 'auto' | 'ocean' | 'mint' | 'warm';
+
+const themeOptions: { value: ThemeMode; label: string; swatch: string }[] = [
+  { value: 'dark', label: '深色', swatch: 'linear-gradient(135deg, #111827, #2563eb)' },
+  { value: 'light', label: '浅色', swatch: 'linear-gradient(135deg, #ffffff, #dbeafe)' },
+  { value: 'ocean', label: '海盐', swatch: 'linear-gradient(135deg, #eff6ff, #a7f3d0)' },
+  { value: 'mint', label: '薄荷', swatch: 'linear-gradient(135deg, #f0fdf4, #99f6e4)' },
+  { value: 'warm', label: '暖阳', swatch: 'linear-gradient(135deg, #fff7ed, #fde68a)' },
+  { value: 'auto', label: '自动', swatch: 'linear-gradient(135deg, #111827 0 50%, #ffffff 50% 100%)' },
+];
+
+function isThemeMode(value: string | null): value is ThemeMode {
+  return themeOptions.some(option => option.value === value);
+}
+
+function getThemeSnapshot(): ThemeMode {
+  if (typeof window === 'undefined') return 'dark';
+  const saved = localStorage.getItem('jobhot-theme');
+  return isThemeMode(saved) ? saved : 'dark';
+}
+
+function subscribeTheme(onStoreChange: () => void) {
+  window.addEventListener('storage', onStoreChange);
+  window.addEventListener('jobhot-theme-change', onStoreChange);
+  return () => {
+    window.removeEventListener('storage', onStoreChange);
+    window.removeEventListener('jobhot-theme-change', onStoreChange);
+  };
+}
 
 export function ThemeToggle() {
-  const [mode, setMode] = useState<ThemeMode>('dark');
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-    const saved = localStorage.getItem('jobhot-theme') as ThemeMode | null;
-    if (saved && (saved === 'dark' || saved === 'light' || saved === 'auto')) {
-      setMode(saved);
-    }
-  }, []);
+  const mode = useSyncExternalStore(subscribeTheme, getThemeSnapshot, () => 'dark');
 
   const applyTheme = (newMode: ThemeMode) => {
     const root = document.documentElement;
-    let actual: 'dark' | 'light';
+    let actual: ThemeMode;
 
     if (newMode === 'auto') {
       actual = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
@@ -28,106 +47,29 @@ export function ThemeToggle() {
 
     root.setAttribute('data-theme', actual);
     root.setAttribute('data-theme-mode', newMode);
-    document.body.setAttribute('arco-theme', actual);
+    document.body.setAttribute('arco-theme', actual === 'dark' ? 'dark' : 'light');
     localStorage.setItem('jobhot-theme', newMode);
-    setMode(newMode);
+    window.dispatchEvent(new Event('jobhot-theme-change'));
   };
 
   const handleChange = (newMode: ThemeMode) => {
     applyTheme(newMode);
   };
 
-  if (!mounted) {
-    return (
-      <div className="theme-toggle">
-        <div className="theme-toggle-thumb"></div>
-        <label className="theme-toggle-opt">
-          <input type="radio" name="theme" value="dark" defaultChecked />
-          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
-          </svg>
-          <span className="theme-toggle-label">深色</span>
-        </label>
-        <label className="theme-toggle-opt">
-          <input type="radio" name="theme" value="auto" />
-          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <rect width="20" height="14" x="2" y="3" rx="2" />
-            <line x1="8" x2="16" y1="21" y2="21" />
-            <line x1="12" x2="12" y1="17" y2="21" />
-          </svg>
-          <span className="theme-toggle-label">自动</span>
-        </label>
-        <label className="theme-toggle-opt">
-          <input type="radio" name="theme" value="light" />
-          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <circle cx="12" cy="12" r="4" />
-            <path d="M12 2v2" />
-            <path d="M12 20v2" />
-            <path d="m4.93 4.93 1.41 1.41" />
-            <path d="m17.66 17.66 1.41 1.41" />
-            <path d="M2 12h2" />
-            <path d="M20 12h2" />
-            <path d="m6.34 17.66-1.41 1.41" />
-            <path d="m19.07 4.93-1.41 1.41" />
-          </svg>
-          <span className="theme-toggle-label">浅色</span>
-        </label>
-      </div>
-    );
-  }
-
   return (
     <div className="theme-toggle">
-      <div className="theme-toggle-thumb" data-position={mode === 'dark' ? 'left' : mode === 'auto' ? 'center' : 'right'}></div>
-      <label className={`theme-toggle-opt ${mode === 'dark' ? 'theme-toggle-opt-active' : ''}`}>
-        <input
-          type="radio"
-          name="theme"
-          value="dark"
-          checked={mode === 'dark'}
-          onChange={() => handleChange('dark')}
-        />
-        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
-        </svg>
-        <span className="theme-toggle-label">深色</span>
-      </label>
-      <label className={`theme-toggle-opt ${mode === 'auto' ? 'theme-toggle-opt-active' : ''}`}>
-        <input
-          type="radio"
-          name="theme"
-          value="auto"
-          checked={mode === 'auto'}
-          onChange={() => handleChange('auto')}
-        />
-        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <rect width="20" height="14" x="2" y="3" rx="2" />
-          <line x1="8" x2="16" y1="21" y2="21" />
-          <line x1="12" x2="12" y1="17" y2="21" />
-        </svg>
-        <span className="theme-toggle-label">自动</span>
-      </label>
-      <label className={`theme-toggle-opt ${mode === 'light' ? 'theme-toggle-opt-active' : ''}`}>
-        <input
-          type="radio"
-          name="theme"
-          value="light"
-          checked={mode === 'light'}
-          onChange={() => handleChange('light')}
-        />
-        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <circle cx="12" cy="12" r="4" />
-          <path d="M12 2v2" />
-          <path d="M12 20v2" />
-          <path d="m4.93 4.93 1.41 1.41" />
-          <path d="m17.66 17.66 1.41 1.41" />
-          <path d="M2 12h2" />
-          <path d="M20 12h2" />
-          <path d="m6.34 17.66-1.41 1.41" />
-          <path d="m19.07 4.93-1.41 1.41" />
-        </svg>
-        <span className="theme-toggle-label">浅色</span>
-      </label>
+      {themeOptions.map(option => (
+        <button
+          key={option.value}
+          type="button"
+          className={`theme-toggle-opt ${mode === option.value ? 'theme-toggle-opt-active' : ''}`}
+          title={`切换到${option.label}主题`}
+          onClick={() => handleChange(option.value)}
+        >
+          <span className="theme-swatch" style={{ background: option.swatch }} />
+          <span className="theme-toggle-label">{option.label}</span>
+        </button>
+      ))}
     </div>
   );
 }

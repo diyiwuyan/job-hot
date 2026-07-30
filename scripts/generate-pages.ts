@@ -27,7 +27,7 @@ function loadJson(filename: string): FeedItem[] {
   return JSON.parse(fs.readFileSync(filepath, 'utf8'));
 }
 
-const cutoffDate = new Date('2026-01-01T00:00:00Z');
+const cutoffDate = new Date('2026-06-01T00:00:00Z');
 
 // Filter out items with createdAt in the future
 const now = new Date();

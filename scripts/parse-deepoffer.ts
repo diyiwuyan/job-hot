@@ -312,8 +312,9 @@ async function fetchWithRetry(url: string, retries = MAX_RETRIES): Promise<DeepO
       }
 
       return data;
-    } catch (err: any) {
-      if (err?.message?.includes('429')) {
+    } catch (err: unknown) {
+      const errorMessage = err instanceof Error ? err.message : String(err);
+      if (errorMessage.includes('429')) {
         // Already handled above, but just in case
         const waitTime = RATE_LIMIT_COOLDOWN * attempt;
         console.log(`\n  Rate limited. Waiting ${waitTime / 1000}s...`);
@@ -324,7 +325,7 @@ async function fetchWithRetry(url: string, retries = MAX_RETRIES): Promise<DeepO
         console.log(`\n  Failed after ${retries} attempts: ${url}`);
         return null; // Return null instead of throwing — we'll skip this page
       }
-      console.log(`\n  Retry ${attempt}/${retries}: ${err}`);
+      console.log(`\n  Retry ${attempt}/${retries}: ${errorMessage}`);
       await new Promise(r => setTimeout(r, RETRY_DELAY * attempt));
     }
   }
@@ -469,12 +470,12 @@ function mergeWithExisting(newItems: FeedItem[]): FeedItem[] {
 
   console.log(`Merge result: ${newCount} new, ${updatedCount} updated, ${merged.size} total`);
 
-    // Only keep items from 2026-01-01 onwards
-  const cutoff = new Date('2026-01-01T00:00:00Z');
+    // Only keep items from 2026-06-01 onwards
+  const cutoff = new Date('2026-06-01T00:00:00Z');
   const pruned = [...merged.values()].filter(item => new Date(item.createdAt) >= cutoff);
   const prunedCount = merged.size - pruned.length;
   if (prunedCount > 0) {
-    console.log(`Pruned ${prunedCount} items before 2026-01-01`);
+    console.log(`Pruned ${prunedCount} items before 2026-06-01`);
   }
 
   // Sort by date desc, then score desc
@@ -563,4 +564,3 @@ async function main() {
 }
 
 main().catch(console.error);
-

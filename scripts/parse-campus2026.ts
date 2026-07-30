@@ -370,13 +370,13 @@ let feedItems: FeedItem[] = entries.map((entry, index) => {
     return b.score - a.score;
   });
 
-  // Only keep items from 2026-01-01 onwards
-  const cutoff = new Date('2026-01-01T00:00:00Z');
+  // Only keep items from 2026-06-01 onwards
+  const cutoff = new Date('2026-06-01T00:00:00Z');
   const beforeCount = feedItems.length;
   feedItems = feedItems.filter(item => new Date(item.createdAt) >= cutoff);
   const prunedCount = beforeCount - feedItems.length;
   if (prunedCount > 0) {
-    console.log(`Pruned ${prunedCount} items before 2026-01-01 (cutoff: ${cutoff.toISOString().slice(0, 10)})`);
+    console.log(`Pruned ${prunedCount} items before 2026-06-01 (cutoff: ${cutoff.toISOString().slice(0, 10)})`);
   }
 
   // Write output

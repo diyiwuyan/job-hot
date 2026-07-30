@@ -5,6 +5,12 @@ import { useRouter } from 'next/navigation';
 import { supabase } from '@/lib/supabase';
 import { useAuth } from '@/components/AuthContext';
 
+function getInitialRedirectPath() {
+  if (typeof window === 'undefined') return '/';
+  const value = new URLSearchParams(window.location.search).get('redirect') || '/';
+  return value.startsWith('/') ? value : '/';
+}
+
 export default function LoginPage() {
   const router = useRouter();
   const { user } = useAuth();
@@ -14,6 +20,7 @@ export default function LoginPage() {
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState('');
   const [error, setError] = useState('');
+  const [redirectPath] = useState(getInitialRedirectPath);
 
   // If already logged in, show account info
   if (user) {
@@ -28,7 +35,9 @@ export default function LoginPage() {
           <h2 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.25rem' }}>已登录</h2>
           <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)', marginBottom: '1.5rem' }}>{user.email}</p>
           <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center' }}>
-            <a href="/bookmarks" className="btn" style={{ flex: 1, justifyContent: 'center' }}>我的收藏</a>
+            <a href={redirectPath === '/' ? '/bookmarks' : redirectPath} className="btn" style={{ flex: 1, justifyContent: 'center' }}>
+              {redirectPath === '/' ? '我的收藏' : '返回上一页'}
+            </a>
             <button
               type="button"
               className="btn btn-secondary"
@@ -74,7 +83,7 @@ export default function LoginPage() {
           setError(error.message);
         }
       } else {
-        router.push('/');
+        router.push(redirectPath);
       }
     }
 

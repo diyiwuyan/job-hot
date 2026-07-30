@@ -315,12 +315,12 @@ function mergeWithExisting(newItems: FeedItem[]): FeedItem[] {
   }
   console.log(`Merge: ${newCount} new, ${updatedCount} updated, ${merged.size} total`);
 
-    // Only keep items from 2026-01-01 onwards
-  const cutoff = new Date('2026-01-01T00:00:00Z');
+    // Only keep items from 2026-06-01 onwards
+  const cutoff = new Date('2026-06-01T00:00:00Z');
   const pruned = [...merged.values()].filter(item => new Date(item.createdAt) >= cutoff);
   const prunedCount = merged.size - pruned.length;
   if (prunedCount > 0) {
-    console.log(`Pruned ${prunedCount} items before 2026-01-01`);
+    console.log(`Pruned ${prunedCount} items before 2026-06-01`);
   }
 
   return pruned.sort((a, b) => {

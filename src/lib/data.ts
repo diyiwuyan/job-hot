@@ -5,8 +5,8 @@ import deepofferData from './deepoffer-data.json';
 import guopinData from './guopin-data.json';
 import yingjieshengData from './yingjiesheng-data.json';
 
-// Only keep items from 2026-01-01 onwards
-const cutoffDate = new Date('2026-01-01T00:00:00Z');
+// Only keep items from 2026-06-01 onwards
+const cutoffDate = new Date('2026-06-01T00:00:00Z');
 
 // Filter: only keep items from cutoff to now (exclude future timestamps)
 const now = new Date();

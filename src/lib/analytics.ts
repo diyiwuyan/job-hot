@@ -108,6 +108,7 @@ const MODULE_MAP: Record<string, string> = {
   '/tools/assessment': '职业测评',
   '/tools/coaching': '求职辅导',
   '/tools': '职业服务',
+  '/tools/career-camp': '求职训练营',
   '/services/soe-delivery': '投递导航',
   '/services/soe-job-nav': '求职导航',
   '/nav': '常用网址',
