@@ -8104,7 +8104,7 @@
       "建筑业",
       "天津"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-07-24T16:16:06.000Z"
   },
@@ -8128,7 +8128,7 @@
       "金融业",
       "绍兴"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-24T15:41:46.000Z"
   },
@@ -8152,7 +8152,7 @@
       "其他制造业",
       "北京"
     ],
-    "score": 90,
+    "score": 85,
     "featured": true,
     "createdAt": "2026-07-24T14:12:33.000Z"
   },
@@ -8175,8 +8175,8 @@
       "土木工程建筑业",
       "天津"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-07-24T14:11:54.000Z"
   },
   {
@@ -8199,7 +8199,7 @@
       "其他制造业",
       "北京"
     ],
-    "score": 89,
+    "score": 84,
     "featured": true,
     "createdAt": "2026-07-24T14:08:17.000Z"
   },
@@ -8223,7 +8223,7 @@
       "其他制造业",
       "北京"
     ],
-    "score": 92,
+    "score": 87,
     "featured": true,
     "createdAt": "2026-07-24T14:00:59.000Z"
   },
@@ -8246,8 +8246,8 @@
       "土木工程建筑业",
       "天津"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-07-24T13:59:04.000Z"
   },
   {
@@ -8270,8 +8270,8 @@
       "水上运输业",
       "营口"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-24T13:38:13.000Z"
   },
   {
@@ -12369,7 +12369,7 @@
       "信息传输、软件和信息技术服务业",
       "北京"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-17T15:54:02.000Z"
   },
@@ -12419,7 +12419,7 @@
       "苏州",
       "广州"
     ],
-    "score": 69,
+    "score": 64,
     "featured": false,
     "createdAt": "2026-07-17T11:56:26.000Z"
   },
@@ -12445,7 +12445,7 @@
       "苏州",
       "广州"
     ],
-    "score": 67,
+    "score": 62,
     "featured": false,
     "createdAt": "2026-07-17T11:52:39.000Z"
   },
@@ -12471,7 +12471,7 @@
       "苏州",
       "广州"
     ],
-    "score": 66,
+    "score": 61,
     "featured": false,
     "createdAt": "2026-07-17T11:48:12.000Z"
   },
@@ -22130,7 +22130,7 @@
       "资本市场服务",
       "深圳"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-07-01T18:31:46.000Z"
   },
@@ -22154,7 +22154,7 @@
       "资本市场服务",
       "深圳"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-07-01T18:23:25.000Z"
   },
@@ -22204,7 +22204,7 @@
       "苏州",
       "广州"
     ],
-    "score": 60,
+    "score": 55,
     "featured": false,
     "createdAt": "2026-07-01T17:23:46.000Z"
   },
@@ -22251,8 +22251,8 @@
       "建筑业",
       "中国"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-07-01T15:57:16.000Z"
   },
   {
