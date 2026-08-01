@@ -8223,7 +8223,7 @@
       "科技推广和应用服务业",
       "北京"
     ],
-    "score": 89,
+    "score": 84,
     "featured": true,
     "createdAt": "2026-07-24T00:00:00.000Z"
   },
@@ -8247,7 +8247,7 @@
       "零售业",
       "银川"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-07-24T00:00:00.000Z"
   },
@@ -8270,7 +8270,7 @@
       "交通运输、仓储和邮政业",
       "锦州"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-07-24T00:00:00.000Z"
   },
@@ -8293,7 +8293,7 @@
       "卫生",
       "西安"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-07-24T00:00:00.000Z"
   },
@@ -8317,7 +8317,7 @@
       "化学原料和化学制品制造业",
       "太原"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-07-24T00:00:00.000Z"
   },
@@ -8341,7 +8341,7 @@
       "化学原料和化学制品制造业",
       "太原"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-07-24T00:00:00.000Z"
   },
@@ -8365,7 +8365,7 @@
       "制造业",
       "南通"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-07-24T00:00:00.000Z"
   },
@@ -8390,7 +8390,7 @@
       "桂林",
       "成都"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-07-24T00:00:00.000Z"
   },
@@ -8414,8 +8414,8 @@
       "制造业",
       "大庆"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-07-24T00:00:00.000Z"
   },
   {
@@ -8439,8 +8439,8 @@
       "桂林",
       "成都"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-07-24T00:00:00.000Z"
   },
   {
@@ -8462,8 +8462,8 @@
       "建筑安装业",
       "上海"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-07-24T00:00:00.000Z"
   },
   {
@@ -8486,7 +8486,7 @@
       "制造业",
       "杭州"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-07-24T00:00:00.000Z"
   },
@@ -8510,7 +8510,7 @@
       "医药制造业",
       "襄阳"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-07-23T18:52:28.000Z"
   },
@@ -8533,8 +8533,8 @@
       "科学研究和技术服务业",
       "南京"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-23T16:07:30.000Z"
   },
   {
@@ -8556,7 +8556,7 @@
       "房屋建筑业",
       "中国"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-07-23T15:58:24.000Z"
   },
@@ -8579,8 +8579,8 @@
       "房屋建筑业",
       "中国"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-07-23T15:56:05.000Z"
   },
   {
@@ -8603,8 +8603,8 @@
       "其他制造业",
       "北京"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-07-23T15:54:54.000Z"
   },
   {
@@ -8628,8 +8628,8 @@
       "西安",
       "白银"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-07-23T15:54:53.000Z"
   },
   {
@@ -8652,8 +8652,8 @@
       "其他制造业",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-07-23T15:52:20.000Z"
   },
   {
@@ -8676,8 +8676,8 @@
       "制造业",
       "陕西"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-07-23T14:46:47.000Z"
   },
   {
@@ -8700,8 +8700,8 @@
       "制造业",
       "陕西"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-07-23T14:45:05.000Z"
   },
   {
@@ -8724,8 +8724,8 @@
       "制造业",
       "陕西"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-23T14:42:15.000Z"
   },
   {
@@ -12428,76 +12428,6 @@
     "createdAt": "2026-07-17T10:04:47.000Z"
   },
   {
-    "id": "guopin-209654227671189753",
-    "title": "国药集团新疆新特药业有限公司 — 开票员（应届本科、药学）",
-    "summary": "企业性质：国企。行业：批发业。工作地点：乌鲁木齐。薪资：5600-6500元/月。学历：本科。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=209654227671189753",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "乌鲁木齐",
-    "deadline": "2026/10/14",
-    "tags": [
-      "国药集团新疆新特药业有限公司",
-      "校招",
-      "国企",
-      "批发业",
-      "乌鲁木齐"
-    ],
-    "score": 81,
-    "featured": true,
-    "createdAt": "2026-07-17T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-209620884061685901",
-    "title": "中国医药集团联合工程有限公司广州分公司 — 工艺设计工程师",
-    "summary": "企业性质：国企。行业：专业技术服务业。工作地点：广州-黄埔区。薪资：6000-9000元/月。学历：本科。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=209620884061685901",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "广州-黄埔区",
-    "deadline": "2026/10/14",
-    "tags": [
-      "中国医药集团联合工程有限公司广州分公司",
-      "校招",
-      "国企",
-      "专业技术服务业",
-      "广州"
-    ],
-    "score": 78,
-    "featured": false,
-    "createdAt": "2026-07-17T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-209657564407793962",
-    "title": "中国能源建设集团沈阳电力机械总厂有限公司 — 工艺设计师",
-    "summary": "企业性质：国企。行业：其他制造业。工作地点：沈阳-铁西区。薪资：4000-8000元/月。学历：本科。规模：300-500人。",
-    "url": "https://www.iguopin.com/job/detail?id=209657564407793962",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "沈阳-铁西区",
-    "deadline": "2026/09/01",
-    "tags": [
-      "中国能源建设集团沈阳电力机械总厂有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "其他制造业",
-      "沈阳"
-    ],
-    "score": 78,
-    "featured": false,
-    "createdAt": "2026-07-17T00:00:00.000Z"
-  },
-  {
     "id": "guopin-209678744804133010",
     "title": "中石化中海船舶燃料供应有限公司 — 财务部财务会计岗",
     "summary": "企业性质：国企。行业：水上运输业。工作地点：海口-龙华区。薪资：10000-12000元/月。学历：本科。规模：500-1000人。",
@@ -12522,6 +12452,76 @@
     "createdAt": "2026-07-17T00:00:00.000Z"
   },
   {
+    "id": "guopin-209654227671189753",
+    "title": "国药集团新疆新特药业有限公司 — 开票员（应届本科、药学）",
+    "summary": "企业性质：国企。行业：批发业。工作地点：乌鲁木齐。薪资：5600-6500元/月。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=209654227671189753",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "乌鲁木齐",
+    "deadline": "2026/10/14",
+    "tags": [
+      "国药集团新疆新特药业有限公司",
+      "校招",
+      "国企",
+      "批发业",
+      "乌鲁木齐"
+    ],
+    "score": 76,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-209620884061685901",
+    "title": "中国医药集团联合工程有限公司广州分公司 — 工艺设计工程师",
+    "summary": "企业性质：国企。行业：专业技术服务业。工作地点：广州-黄埔区。薪资：6000-9000元/月。学历：本科。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=209620884061685901",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "广州-黄埔区",
+    "deadline": "2026/10/14",
+    "tags": [
+      "中国医药集团联合工程有限公司广州分公司",
+      "校招",
+      "国企",
+      "专业技术服务业",
+      "广州"
+    ],
+    "score": 73,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-209657564407793962",
+    "title": "中国能源建设集团沈阳电力机械总厂有限公司 — 工艺设计师",
+    "summary": "企业性质：国企。行业：其他制造业。工作地点：沈阳-铁西区。薪资：4000-8000元/月。学历：本科。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=209657564407793962",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "沈阳-铁西区",
+    "deadline": "2026/09/01",
+    "tags": [
+      "中国能源建设集团沈阳电力机械总厂有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "其他制造业",
+      "沈阳"
+    ],
+    "score": 73,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00.000Z"
+  },
+  {
     "id": "guopin-209658246133188902",
     "title": "上海长江轮船有限公司 — 干散货运输经营",
     "summary": "企业性质：国企。行业：水上运输业。工作地点：上海。薪资面议。学历：本科。规模：1000-2000人。",
@@ -12540,7 +12540,7 @@
       "水上运输业",
       "上海"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-07-17T00:00:00.000Z"
   },
@@ -12563,7 +12563,7 @@
       "批发业",
       "乌鲁木齐"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-07-17T00:00:00.000Z"
   },
@@ -12587,8 +12587,8 @@
       "新闻/出版",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-07-16T15:18:04.000Z"
   },
   {
@@ -12611,7 +12611,7 @@
       "专用设备制造业",
       "成都"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-16T14:40:19.000Z"
   },
@@ -12635,7 +12635,7 @@
       "科学研究和技术服务业",
       "徐州"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-07-16T13:52:49.000Z"
   },
@@ -22659,147 +22659,6 @@
     "createdAt": "2026-07-01T00:00:00.000Z"
   },
   {
-    "id": "guopin-207338451098403743",
-    "title": "山东中金岭南铜业有限责任公司 — 电气设备管理",
-    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：东营-东营区。薪资：8000-11000元/月。学历：本科。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=207338451098403743",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "东营-东营区",
-    "deadline": "2026/08/31",
-    "tags": [
-      "山东中金岭南铜业有限责任公司",
-      "校招",
-      "国企",
-      "有色金属冶炼和压延加工业",
-      "东营"
-    ],
-    "score": 77,
-    "featured": false,
-    "createdAt": "2026-07-01T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207341440227870102",
-    "title": "广州五羊城酒店有限公司 — 酒店前台岗",
-    "summary": "企业性质：国企。工作地点：广州-越秀区。薪资：4000-5000元/月。学历：本科。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=207341440227870102",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "广州-越秀区",
-    "deadline": "2026/08/31",
-    "tags": [
-      "广州五羊城酒店有限公司",
-      "校招",
-      "国企",
-      "广州"
-    ],
-    "score": 75,
-    "featured": false,
-    "createdAt": "2026-07-01T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207338567045743512",
-    "title": "山东中金岭南铜业有限责任公司 — 机械设备管理",
-    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：东营-东营区。薪资：8000-11000元/月。学历：本科。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=207338567045743512",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "东营-东营区",
-    "deadline": "2026/08/31",
-    "tags": [
-      "山东中金岭南铜业有限责任公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "有色金属冶炼和压延加工业",
-      "东营"
-    ],
-    "score": 75,
-    "featured": false,
-    "createdAt": "2026-07-01T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207286855941489428",
-    "title": "福建天辰耀隆新材料有限公司 — 化学品商务专员",
-    "summary": "企业性质：国企。行业：化学原料和化学制品制造业。工作地点：福州-福清市。薪资：5000-7000元/月。学历：本科。规模：500-1000人。",
-    "url": "https://www.iguopin.com/job/detail?id=207286855941489428",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "福州-福清市",
-    "deadline": "2026/08/31",
-    "tags": [
-      "福建天辰耀隆新材料有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "化学原料和化学制品制造业",
-      "福州"
-    ],
-    "score": 75,
-    "featured": false,
-    "createdAt": "2026-07-01T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207346021263475616",
-    "title": "上海天伟生物制药有限公司 — 采购专员",
-    "summary": "企业性质：国企。行业：医药制造业。工作地点：上海-闵行区。薪资：8000-13000元/月。学历：本科。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=207346021263475616",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "上海-闵行区",
-    "deadline": "2026/08/31",
-    "tags": [
-      "上海天伟生物制药有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "医药制造业",
-      "上海"
-    ],
-    "score": 75,
-    "featured": false,
-    "createdAt": "2026-07-01T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207294914256438176",
-    "title": "通号信息产业有限公司 — 软件开发工程师",
-    "summary": "企业性质：国企。行业：软件和信息技术服务业。工作地点：北京-丰台区。薪资：8000-12000元/月。学历：硕士。规模：50人以下。",
-    "url": "https://www.iguopin.com/job/detail?id=207294914256438176",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "companyType": "state",
-    "location": "北京-丰台区",
-    "deadline": "2026/09/28",
-    "tags": [
-      "通号信息产业有限公司",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "软件和信息技术服务业",
-      "北京"
-    ],
-    "score": 75,
-    "featured": false,
-    "createdAt": "2026-07-01T00:00:00.000Z"
-  },
-  {
     "id": "guopin-207296316512928664",
     "title": "中国广播电视网络集团有限公司 — 数字化建设管理岗",
     "summary": "企业性质：事业单位。行业：文化、体育和娱乐业。工作地点：北京。薪资面议。学历：硕士。规模：100-300人。",
@@ -22819,171 +22678,6 @@
       "北京"
     ],
     "score": 75,
-    "featured": false,
-    "createdAt": "2026-07-01T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207342542390297496",
-    "title": "新世纪标志（深圳）有限公司 — 技术部产品设计岗",
-    "summary": "企业性质：国企。行业：制造业。工作地点：深圳-宝安区。薪资：5000-12000元/月。学历：本科。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=207342542390297496",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "深圳-宝安区",
-    "deadline": "2026/09/01",
-    "tags": [
-      "新世纪标志（深圳）有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "制造业",
-      "深圳"
-    ],
-    "score": 74,
-    "featured": false,
-    "createdAt": "2026-07-01T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207319630149059480",
-    "title": "国药控股江苏有限公司 — 药品采购员",
-    "summary": "企业性质：国企。行业：卫生。工作地点：南京-鼓楼区。薪资：6000-8000元/月。学历：本科。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=207319630149059480",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "南京-鼓楼区",
-    "deadline": "2026/09/28",
-    "tags": [
-      "国药控股江苏有限公司",
-      "校招",
-      "国企",
-      "卫生",
-      "南京"
-    ],
-    "score": 74,
-    "featured": false,
-    "createdAt": "2026-07-01T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207338498091385616",
-    "title": "山东中金岭南铜业有限责任公司 — 能源管理",
-    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：东营-东营区。薪资：8000-11000元/月。学历：本科。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=207338498091385616",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "东营-东营区",
-    "deadline": "2026/08/31",
-    "tags": [
-      "山东中金岭南铜业有限责任公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "有色金属冶炼和压延加工业",
-      "东营"
-    ],
-    "score": 74,
-    "featured": false,
-    "createdAt": "2026-07-01T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207338304884966160",
-    "title": "山东中金岭南铜业有限责任公司 — 纪律监察",
-    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：东营-东营区。薪资：8000-10000元/月。学历：本科。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=207338304884966160",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "东营-东营区",
-    "deadline": "2026/08/31",
-    "tags": [
-      "山东中金岭南铜业有限责任公司",
-      "校招",
-      "国企",
-      "有色金属冶炼和压延加工业",
-      "东营"
-    ],
-    "score": 74,
-    "featured": false,
-    "createdAt": "2026-07-01T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207338162932941588",
-    "title": "山东中金岭南铜业有限责任公司 — 工艺技术管理",
-    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：东营-东营区。薪资：8000-11000元/月。学历：本科。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=207338162932941588",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "东营-东营区",
-    "deadline": "2026/08/31",
-    "tags": [
-      "山东中金岭南铜业有限责任公司",
-      "校招",
-      "国企",
-      "有色金属冶炼和压延加工业",
-      "东营"
-    ],
-    "score": 74,
-    "featured": false,
-    "createdAt": "2026-07-01T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207334579890029467",
-    "title": "北京北内发动机零部件有限公司 — 党工团专员",
-    "summary": "企业性质：国企。行业：汽车制造业。工作地点：北京-通州区。薪资面议。学历：本科。规模：300-500人。",
-    "url": "https://www.iguopin.com/job/detail?id=207334579890029467",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "北京-通州区",
-    "deadline": "2026/09/28",
-    "tags": [
-      "北京北内发动机零部件有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "汽车制造业",
-      "北京"
-    ],
-    "score": 74,
-    "featured": false,
-    "createdAt": "2026-07-01T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207334221545472920",
-    "title": "中国东方电气集团有限公司 — 玻璃钢工",
-    "summary": "企业性质：国企。行业：专用设备制造业。工作地点：昌吉-木垒哈萨克自治县。薪资：5000-7000元/月。学历：大专。规模：10000-30000人。",
-    "url": "https://www.iguopin.com/job/detail?id=207334221545472920",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "昌吉-木垒哈萨克自治县",
-    "deadline": "2026/09/28",
-    "tags": [
-      "中国东方电气集团有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "专用设备制造业",
-      "昌吉"
-    ],
-    "score": 74,
     "featured": false,
     "createdAt": "2026-07-01T00:00:00.000Z"
   },
@@ -23128,96 +22822,23 @@
     "createdAt": "2026-07-01T00:00:00.000Z"
   },
   {
-    "id": "guopin-207346270673568671",
-    "title": "上海天伟生物制药有限公司 — 设备工程师",
-    "summary": "企业性质：国企。行业：医药制造业。工作地点：上海-闵行区。薪资：8000-13000元/月。学历：本科。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=207346270673568671",
+    "id": "guopin-207338451098403743",
+    "title": "山东中金岭南铜业有限责任公司 — 电气设备管理",
+    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：东营-东营区。薪资：8000-11000元/月。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=207338451098403743",
     "source": "国聘",
     "sourceHandle": "@guopin",
     "channel": "campus",
-    "category": "auto_ic",
+    "category": "other",
     "companyType": "state",
-    "location": "上海-闵行区",
+    "location": "东营-东营区",
     "deadline": "2026/08/31",
     "tags": [
-      "上海天伟生物制药有限公司",
+      "山东中金岭南铜业有限责任公司",
       "校招",
       "国企",
-      "车企/IC",
-      "医药制造业",
-      "上海"
-    ],
-    "score": 73,
-    "featured": false,
-    "createdAt": "2026-07-01T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207293348002661272",
-    "title": "北汽福田汽车股份有限公司 — 流程BP",
-    "summary": "企业性质：国企。行业：制造业。工作地点：北京-昌平区。薪资面议。学历：硕士。规模：30000人以上。",
-    "url": "https://www.iguopin.com/job/detail?id=207293348002661272",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "北京-昌平区",
-    "deadline": "2026/08/31",
-    "tags": [
-      "北汽福田汽车股份有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "制造业",
-      "北京"
-    ],
-    "score": 73,
-    "featured": false,
-    "createdAt": "2026-07-01T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207344046266385165",
-    "title": "中国联合装备集团有限公司 — 运营管理部(数字化工作办公室)高级专员",
-    "summary": "企业性质：国企。行业：其他制造业。工作地点：北京-西城区。薪资面议。学历：硕士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=207344046266385165",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "北京-西城区",
-    "deadline": "2026/09/28",
-    "tags": [
-      "中国联合装备集团有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "其他制造业",
-      "北京"
-    ],
-    "score": 73,
-    "featured": false,
-    "createdAt": "2026-07-01T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-207290432072188832",
-    "title": "合肥乐凯科技产业有限公司 — 研发工程师",
-    "summary": "企业性质：国企。行业：其他制造业。工作地点：合肥-瑶海区。薪资面议。学历：硕士。规模：500-1000人。",
-    "url": "https://www.iguopin.com/job/detail?id=207290432072188832",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "合肥-瑶海区",
-    "deadline": "2026/09/28",
-    "tags": [
-      "合肥乐凯科技产业有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "其他制造业",
-      "合肥"
+      "有色金属冶炼和压延加工业",
+      "东营"
     ],
     "score": 72,
     "featured": false,
@@ -23293,30 +22914,6 @@
     "createdAt": "2026-07-01T00:00:00.000Z"
   },
   {
-    "id": "guopin-207308107204789144",
-    "title": "合肥乐凯科技产业有限公司 — 机械/电气/暖通技术员",
-    "summary": "企业性质：国企。行业：其他制造业。工作地点：合肥-瑶海区。薪资面议。学历：本科。规模：500-1000人。",
-    "url": "https://www.iguopin.com/job/detail?id=207308107204789144",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "合肥-瑶海区",
-    "deadline": "2026/09/28",
-    "tags": [
-      "合肥乐凯科技产业有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "其他制造业",
-      "合肥"
-    ],
-    "score": 71,
-    "featured": false,
-    "createdAt": "2026-07-01T00:00:00.000Z"
-  },
-  {
     "id": "guopin-207320871830815650",
     "title": "国投曹妃甸港口有限公司 — 机械工程师岗",
     "summary": "企业性质：国企。行业：装卸搬运和仓储业。工作地点：唐山-曹妃甸区。薪资面议。学历：本科。规模：500-1000人。",
@@ -23341,6 +22938,409 @@
     "createdAt": "2026-07-01T00:00:00.000Z"
   },
   {
+    "id": "guopin-207341440227870102",
+    "title": "广州五羊城酒店有限公司 — 酒店前台岗",
+    "summary": "企业性质：国企。工作地点：广州-越秀区。薪资：4000-5000元/月。学历：本科。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=207341440227870102",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "广州-越秀区",
+    "deadline": "2026/08/31",
+    "tags": [
+      "广州五羊城酒店有限公司",
+      "校招",
+      "国企",
+      "广州"
+    ],
+    "score": 70,
+    "featured": false,
+    "createdAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207338567045743512",
+    "title": "山东中金岭南铜业有限责任公司 — 机械设备管理",
+    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：东营-东营区。薪资：8000-11000元/月。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=207338567045743512",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "东营-东营区",
+    "deadline": "2026/08/31",
+    "tags": [
+      "山东中金岭南铜业有限责任公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "有色金属冶炼和压延加工业",
+      "东营"
+    ],
+    "score": 70,
+    "featured": false,
+    "createdAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207286855941489428",
+    "title": "福建天辰耀隆新材料有限公司 — 化学品商务专员",
+    "summary": "企业性质：国企。行业：化学原料和化学制品制造业。工作地点：福州-福清市。薪资：5000-7000元/月。学历：本科。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=207286855941489428",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "福州-福清市",
+    "deadline": "2026/08/31",
+    "tags": [
+      "福建天辰耀隆新材料有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "化学原料和化学制品制造业",
+      "福州"
+    ],
+    "score": 70,
+    "featured": false,
+    "createdAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207346021263475616",
+    "title": "上海天伟生物制药有限公司 — 采购专员",
+    "summary": "企业性质：国企。行业：医药制造业。工作地点：上海-闵行区。薪资：8000-13000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=207346021263475616",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "上海-闵行区",
+    "deadline": "2026/08/31",
+    "tags": [
+      "上海天伟生物制药有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "医药制造业",
+      "上海"
+    ],
+    "score": 70,
+    "featured": false,
+    "createdAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207294914256438176",
+    "title": "通号信息产业有限公司 — 软件开发工程师",
+    "summary": "企业性质：国企。行业：软件和信息技术服务业。工作地点：北京-丰台区。薪资：8000-12000元/月。学历：硕士。规模：50人以下。",
+    "url": "https://www.iguopin.com/job/detail?id=207294914256438176",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "北京-丰台区",
+    "deadline": "2026/09/28",
+    "tags": [
+      "通号信息产业有限公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "软件和信息技术服务业",
+      "北京"
+    ],
+    "score": 70,
+    "featured": false,
+    "createdAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207342542390297496",
+    "title": "新世纪标志（深圳）有限公司 — 技术部产品设计岗",
+    "summary": "企业性质：国企。行业：制造业。工作地点：深圳-宝安区。薪资：5000-12000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=207342542390297496",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "深圳-宝安区",
+    "deadline": "2026/09/01",
+    "tags": [
+      "新世纪标志（深圳）有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "制造业",
+      "深圳"
+    ],
+    "score": 69,
+    "featured": false,
+    "createdAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207319630149059480",
+    "title": "国药控股江苏有限公司 — 药品采购员",
+    "summary": "企业性质：国企。行业：卫生。工作地点：南京-鼓楼区。薪资：6000-8000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=207319630149059480",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "南京-鼓楼区",
+    "deadline": "2026/09/28",
+    "tags": [
+      "国药控股江苏有限公司",
+      "校招",
+      "国企",
+      "卫生",
+      "南京"
+    ],
+    "score": 69,
+    "featured": false,
+    "createdAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207338498091385616",
+    "title": "山东中金岭南铜业有限责任公司 — 能源管理",
+    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：东营-东营区。薪资：8000-11000元/月。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=207338498091385616",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "东营-东营区",
+    "deadline": "2026/08/31",
+    "tags": [
+      "山东中金岭南铜业有限责任公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "有色金属冶炼和压延加工业",
+      "东营"
+    ],
+    "score": 69,
+    "featured": false,
+    "createdAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207338304884966160",
+    "title": "山东中金岭南铜业有限责任公司 — 纪律监察",
+    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：东营-东营区。薪资：8000-10000元/月。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=207338304884966160",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "东营-东营区",
+    "deadline": "2026/08/31",
+    "tags": [
+      "山东中金岭南铜业有限责任公司",
+      "校招",
+      "国企",
+      "有色金属冶炼和压延加工业",
+      "东营"
+    ],
+    "score": 69,
+    "featured": false,
+    "createdAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207338162932941588",
+    "title": "山东中金岭南铜业有限责任公司 — 工艺技术管理",
+    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：东营-东营区。薪资：8000-11000元/月。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=207338162932941588",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "东营-东营区",
+    "deadline": "2026/08/31",
+    "tags": [
+      "山东中金岭南铜业有限责任公司",
+      "校招",
+      "国企",
+      "有色金属冶炼和压延加工业",
+      "东营"
+    ],
+    "score": 69,
+    "featured": false,
+    "createdAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207334579890029467",
+    "title": "北京北内发动机零部件有限公司 — 党工团专员",
+    "summary": "企业性质：国企。行业：汽车制造业。工作地点：北京-通州区。薪资面议。学历：本科。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=207334579890029467",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "北京-通州区",
+    "deadline": "2026/09/28",
+    "tags": [
+      "北京北内发动机零部件有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "汽车制造业",
+      "北京"
+    ],
+    "score": 69,
+    "featured": false,
+    "createdAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207334221545472920",
+    "title": "中国东方电气集团有限公司 — 玻璃钢工",
+    "summary": "企业性质：国企。行业：专用设备制造业。工作地点：昌吉-木垒哈萨克自治县。薪资：5000-7000元/月。学历：大专。规模：10000-30000人。",
+    "url": "https://www.iguopin.com/job/detail?id=207334221545472920",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "昌吉-木垒哈萨克自治县",
+    "deadline": "2026/09/28",
+    "tags": [
+      "中国东方电气集团有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "专用设备制造业",
+      "昌吉"
+    ],
+    "score": 69,
+    "featured": false,
+    "createdAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207346270673568671",
+    "title": "上海天伟生物制药有限公司 — 设备工程师",
+    "summary": "企业性质：国企。行业：医药制造业。工作地点：上海-闵行区。薪资：8000-13000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=207346270673568671",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "上海-闵行区",
+    "deadline": "2026/08/31",
+    "tags": [
+      "上海天伟生物制药有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "医药制造业",
+      "上海"
+    ],
+    "score": 68,
+    "featured": false,
+    "createdAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207293348002661272",
+    "title": "北汽福田汽车股份有限公司 — 流程BP",
+    "summary": "企业性质：国企。行业：制造业。工作地点：北京-昌平区。薪资面议。学历：硕士。规模：30000人以上。",
+    "url": "https://www.iguopin.com/job/detail?id=207293348002661272",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "北京-昌平区",
+    "deadline": "2026/08/31",
+    "tags": [
+      "北汽福田汽车股份有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "制造业",
+      "北京"
+    ],
+    "score": 68,
+    "featured": false,
+    "createdAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207344046266385165",
+    "title": "中国联合装备集团有限公司 — 运营管理部(数字化工作办公室)高级专员",
+    "summary": "企业性质：国企。行业：其他制造业。工作地点：北京-西城区。薪资面议。学历：硕士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=207344046266385165",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "北京-西城区",
+    "deadline": "2026/09/28",
+    "tags": [
+      "中国联合装备集团有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "其他制造业",
+      "北京"
+    ],
+    "score": 68,
+    "featured": false,
+    "createdAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207290432072188832",
+    "title": "合肥乐凯科技产业有限公司 — 研发工程师",
+    "summary": "企业性质：国企。行业：其他制造业。工作地点：合肥-瑶海区。薪资面议。学历：硕士。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=207290432072188832",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "合肥-瑶海区",
+    "deadline": "2026/09/28",
+    "tags": [
+      "合肥乐凯科技产业有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "其他制造业",
+      "合肥"
+    ],
+    "score": 67,
+    "featured": false,
+    "createdAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-207308107204789144",
+    "title": "合肥乐凯科技产业有限公司 — 机械/电气/暖通技术员",
+    "summary": "企业性质：国企。行业：其他制造业。工作地点：合肥-瑶海区。薪资面议。学历：本科。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=207308107204789144",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "合肥-瑶海区",
+    "deadline": "2026/09/28",
+    "tags": [
+      "合肥乐凯科技产业有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "其他制造业",
+      "合肥"
+    ],
+    "score": 66,
+    "featured": false,
+    "createdAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
     "id": "guopin-207316469187347358",
     "title": "中材节能股份有限公司 — 分公司设计院机务岗位（博士）",
     "summary": "企业性质：国企。行业：科技推广和应用服务业。工作地点：中国、海外。薪资面议。学历：博士。规模：500-1000人。",
@@ -23361,7 +23361,7 @@
       "中国",
       "海外"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-07-01T00:00:00.000Z"
   },
@@ -23385,7 +23385,7 @@
       "制造业",
       "北京"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-07-01T00:00:00.000Z"
   },
@@ -23409,7 +23409,7 @@
       "其他制造业",
       "北京"
     ],
-    "score": 65,
+    "score": 60,
     "featured": false,
     "createdAt": "2026-07-01T00:00:00.000Z"
   },
@@ -23433,7 +23433,7 @@
       "资本市场服务",
       "佛山"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-06-30T19:39:29.000Z"
   },
