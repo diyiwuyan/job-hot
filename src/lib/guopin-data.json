@@ -432,6 +432,29 @@
     "createdAt": "2026-08-03T00:00:00.000Z"
   },
   {
+    "id": "guopin-211790465702300313",
+    "title": "中国化学工程第三建设有限公司 — 海外安装工程师",
+    "summary": "企业性质：国企。行业：土木工程建筑业。工作地点：海外。薪资：12000-15000元/月。学历：本科。规模：5000-10000人。",
+    "url": "https://www.iguopin.com/job/detail?id=211790465702300313",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "海外",
+    "deadline": "2026/08/10",
+    "tags": [
+      "中国化学工程第三建设有限公司",
+      "校招",
+      "国企",
+      "土木工程建筑业",
+      "海外"
+    ],
+    "score": 83,
+    "featured": true,
+    "createdAt": "2026-08-01T00:00:08.000Z"
+  },
+  {
     "id": "guopin-211669916405730047",
     "title": "中国人民财产保险股份有限公司青岛市分公司 — 产业研究岗",
     "summary": "企业性质：国企。行业：保险业。工作地点：青岛-市南区。薪资：16000-20000元/月。学历：博士。规模：2000-5000人。",
@@ -1221,6 +1244,78 @@
     "score": 78,
     "featured": false,
     "createdAt": "2026-08-01T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-211537795393522431",
+    "title": "中国东方电气集团有限公司 — 电气产品工艺",
+    "summary": "企业性质：国企。行业：专用设备制造业。工作地点：德阳-旌阳区。薪资面议。学历：本科。规模：10000-30000人。",
+    "url": "https://www.iguopin.com/job/detail?id=211537795393522431",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "德阳-旌阳区",
+    "deadline": "2026/10/27",
+    "tags": [
+      "中国东方电气集团有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "专用设备制造业",
+      "德阳"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-07-31T19:04:14.000Z"
+  },
+  {
+    "id": "guopin-211537332963117823",
+    "title": "中国东方电气集团有限公司 — 机械产品工艺",
+    "summary": "企业性质：国企。行业：专用设备制造业。工作地点：德阳-旌阳区。薪资面议。学历：本科。规模：10000-30000人。",
+    "url": "https://www.iguopin.com/job/detail?id=211537332963117823",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "德阳-旌阳区",
+    "deadline": "2026/10/27",
+    "tags": [
+      "中国东方电气集团有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "专用设备制造业",
+      "德阳"
+    ],
+    "score": 82,
+    "featured": true,
+    "createdAt": "2026-07-31T19:02:26.000Z"
+  },
+  {
+    "id": "guopin-211535894249736856",
+    "title": "中国东方电气集团有限公司 — 机械装配",
+    "summary": "企业性质：国企。行业：专用设备制造业。工作地点：德阳-旌阳区。薪资面议。学历：大专。规模：10000-30000人。",
+    "url": "https://www.iguopin.com/job/detail?id=211535894249736856",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "德阳-旌阳区",
+    "deadline": "2026/10/27",
+    "tags": [
+      "中国东方电气集团有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "专用设备制造业",
+      "德阳"
+    ],
+    "score": 81,
+    "featured": true,
+    "createdAt": "2026-07-31T18:40:53.000Z"
   },
   {
     "id": "guopin-210386425206540583",
