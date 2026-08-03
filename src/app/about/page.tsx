@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
+import { ZhiluBrandIntro } from '@/components/ZhiluBrandIntro';
 
 export const metadata: Metadata = {
-  title: '关于 - JOBHOT',
-  description: '了解 JOBHOT 项目背景、数据来源、评分机制，以及联系作者和打赏支持。',
+  title: '关于我们 - JOBHOT × 职路同行社',
+  description: '了解 JOBHOT 与职路同行社的关系、平台定位、职业支持内容、数据来源与联系渠道。',
 };
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
@@ -12,10 +13,9 @@ export default function AboutPage() {
     <div className="page">
       <div className="page-header">
         <h1>
-          关于{' '}
-          <span className="text-gradient">JOBHOT</span>
+          关于 <span className="text-gradient">JOBHOT × 职路同行社</span>
         </h1>
-        <p>为大学生求职者打造的信息聚合平台</p>
+        <p>把求职信息、认识自己和真实行动放在同一条路径上</p>
       </div>
 
       <div style={{ marginTop: '1.5rem', display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
@@ -27,6 +27,8 @@ export default function AboutPage() {
             我们的目标是让每一位大学生都能高效地获取求职信息，不再错过心仪的机会。
           </p>
         </section>
+
+        <ZhiluBrandIntro mode="full" />
 
         <section className="timeline-card">
           <h2 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.75rem' }}>数据来源</h2>
@@ -58,9 +60,9 @@ export default function AboutPage() {
 
         {/* 联系与反馈 */}
         <section className="timeline-card">
-          <h2 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.75rem' }}>联系与反馈</h2>
+          <h2 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.75rem' }}>JOBHOT 网站反馈</h2>
           <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)', lineHeight: 1.8, marginBottom: '1rem' }}>
-            如果你发现了 Bug、有功能建议、或者想推荐新的数据源，欢迎通过以下方式联系我：
+            如果你发现了网站 Bug、有功能建议或想推荐新的招聘数据源，可以通过以下方式联系网站维护者；职业方向、测评解读和求职服务，请扫描上方“职路同行社”公众号二维码了解。
           </p>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', padding: '0.75rem 1rem', background: 'var(--bg-elevated)', borderRadius: '0.5rem' }}>

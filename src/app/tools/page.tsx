@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { ZhiluBrandIntro } from '@/components/ZhiluBrandIntro';
 
 export const metadata: Metadata = {
-  title: '职业服务 - JOBHOT',
-  description: '职业测评与求职辅导，帮你找到方向、走好每一步。',
+  title: '职业服务 - JOBHOT × 职路同行社',
+  description: 'JOBHOT 与职路同行社共同提供职业测评、求职诊断、训练营与行动支持。',
 };
 
 export default function ToolsPage() {
@@ -11,8 +12,10 @@ export default function ToolsPage() {
     <div className="page">
       <div className="page-header">
         <h1>职业服务</h1>
-        <p>测一测适合的方向，再找专业的人陪你走好求职这一程</p>
+        <p>由 JOBHOT 与职路同行社共同提供工具、内容与行动支持</p>
       </div>
+
+      <ZhiluBrandIntro />
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.25rem', marginTop: '0.5rem' }}>
         {/* 职业坐标 */}
@@ -50,7 +53,7 @@ export default function ToolsPage() {
           </p>
           <div className="timeline-tags" style={{ marginTop: '0.75rem' }}>
             <span className="tag">免费</span>
-            <span className="tag">3套测评</span>
+            <span className="tag">4套测评</span>
             <span className="tag">5-10分钟</span>
           </div>
         </Link>
@@ -66,7 +69,7 @@ export default function ToolsPage() {
             求职辅导
           </h2>
           <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.7, margin: 0 }}>
-            大学生求职辅导训练营，覆盖简历优化、岗位定位、笔试面试、offer 选择，资深 coach 一对一带你拿下心仪 offer。
+            由职路同行社提供职业方向、经历梳理、简历面试与行动支持；不承诺录用结果，重点把求职中的关键动作做扎实。
           </p>
           <div className="timeline-tags" style={{ marginTop: '0.75rem' }}>
             <span className="tag">系统辅导</span>

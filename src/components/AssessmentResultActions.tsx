@@ -140,9 +140,9 @@ export function AssessmentResultActions({
 
       <section className="card" style={{ marginBottom: '1rem' }}>
         <div style={{ fontSize: '0.76rem', color: 'var(--accent)', fontWeight: 700, marginBottom: '0.3rem' }}>如果希望有人一起推进</div>
-        <h2 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '0.35rem' }}>让老师结合你的结果补充一条判断</h2>
+        <h2 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '0.35rem' }}>让职路同行社老师结合你的结果补充一条判断</h2>
         <p style={{ color: 'var(--text-muted)', fontSize: '0.82rem', lineHeight: 1.7, marginBottom: '0.75rem' }}>
-          {campFit || summary} 是否进一步了解训练营，由你自己决定。
+          {campFit || summary} 职路同行社提供职业发展内容、测评解读与行动支持；是否进一步了解训练营，由你自己决定。
         </p>
         <div style={{ display: 'flex', gap: '0.65rem', flexWrap: 'wrap' }}>
           <button type="button" className="btn btn-secondary" onClick={revealTeacher}>

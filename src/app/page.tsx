@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
+import { ZhiluBrandIntro } from '@/components/ZhiluBrandIntro';
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 
@@ -112,6 +113,8 @@ export default function HomePage() {
           浏览全部岗位
         </Link>
       </div>
+
+      <ZhiluBrandIntro />
 
       <div className="divider" />
 

@@ -1,10 +1,11 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { AssessmentSourceCapture } from '@/components/AssessmentSourceCapture';
+import { ZhiluBrandIntro } from '@/components/ZhiluBrandIntro';
 
 export const metadata: Metadata = {
-  title: '职业测评与求职诊断 - JOBHOT',
-  description: '免费自我探索与求职诊断工具：27届秋招启动诊断、求职底牌自测、霍兰德职业兴趣测试与MBTI性格类型测试。',
+  title: '职业测评与求职诊断 - JOBHOT × 职路同行社',
+  description: 'JOBHOT 提供免费自我探索与求职诊断工具，职路同行社提供结果解读、行动建议与进一步支持。',
 };
 
 const entryCards = [
@@ -107,6 +108,10 @@ export default function AssessmentPage() {
 
         </div>
       </section>
+
+      <div style={{ marginTop: '1.25rem' }}>
+        <ZhiluBrandIntro />
+      </div>
 
       <p style={{ fontSize: '0.72rem', color: 'var(--text-muted)', lineHeight: 1.7, marginTop: '1.5rem' }}>
         测评工具由JOBHOT提供，结果解读与行动支持由职路同行社提供。所有结果只用于自我探索和行动参考，不构成专业心理诊断或录用结果承诺。

@@ -46,7 +46,7 @@ type Draft = {
 };
 
 const defaultSettings: CampSettings = {
-  intro_title: 'JOBHOT 求职训练营',
+  intro_title: '职路同行社求职训练营',
   intro_body: '系统化完成简历、投递、笔试、面试和 offer 选择训练。登录后可以查看每节课作业，并完成打卡提交。',
   intro_image_url: null,
 };
@@ -209,8 +209,8 @@ export default function CareerCampPage() {
   return (
     <div className="page">
       <div className="page-header">
-        <h1>求职训练营</h1>
-        <p>跟着课程节奏完成作业打卡，把求职动作真正推进下去</p>
+        <h1>职路同行社求职训练营</h1>
+        <p>在 JOBHOT 完成课程与作业打卡，把求职动作真正推进下去</p>
       </div>
 
       {message && <div className="admin-msg admin-msg-success">{message}</div>}
