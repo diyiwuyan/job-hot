@@ -7,9 +7,13 @@ import { marketEvidence, marketEvidenceByRole, salaryMethodology } from "./marke
 
 type Answers = {
   stage: string;
-  interest: string;
+  intent: string;
+  interests: string[];
+  outputs: string[];
   strengths: string[];
-  style: string;
+  styles: string[];
+  industries: string[];
+  constraints: string[];
   experience: string;
 };
 
@@ -23,29 +27,54 @@ const interestOptions = [
   ["推动事情落地", "协调资源，让计划真正发生"],
 ] as const;
 
-const strengthOptions = ["结构化思考", "沟通协调", "数据分析", "文字表达", "逻辑推理", "洞察用户", "表达呈现", "耐心细致", "快速学习"];
+const outputOptions = [
+  ["做出可用的产品或作品", "把想法变成可以被使用、被看见的成果", ["软件与技术", "产品与项目", "设计与研究", "市场与品牌", "制造与工程"]],
+  ["把杂乱信息整理成判断", "通过研究、数据、规则或材料，得出清晰结论", ["数据与分析", "财务与审计", "法务与合规", "公共事务与ESG", "教育与科研"]],
+  ["让项目、流程或现场顺利运转", "协调人、资源和节奏，解决推进中的问题", ["产品与项目", "运营与客户", "供应链与物流", "人力与行政", "制造与工程"]],
+  ["帮助用户或客户解决实际问题", "理解需求、解释方案，并推动服务真正发生", ["运营与客户", "销售与商务", "医疗与医药", "教育与科研", "人力与行政"]],
+  ["把复杂内容讲清楚并产生影响", "用文字、内容、表达或方案，让更多人理解并行动", ["市场与品牌", "教育与科研", "公共事务与ESG", "法务与合规", "销售与商务"]],
+] as const;
+
+const strengthOptions = ["结构化思考", "沟通协调", "数据分析", "文字表达", "逻辑推理", "洞察用户", "表达呈现", "耐心细致", "快速学习", "执行推进", "研究检索", "工具与技术"];
 const styleOptions = [
   ["变化与挑战", "喜欢快速变化、不断解决新问题"],
   ["深度专注", "希望有完整时间钻研一个问题"],
   ["跨团队协作", "从人与人的配合中获得能量"],
   ["清晰有序", "偏好明确目标、稳定节奏和可控流程"],
+  ["自主推进", "希望对自己的节奏和方法有较多掌控"],
+  ["真实现场", "愿意走进客户、项目、工厂、学校或业务一线"],
 ] as const;
 
-const emptyAnswers: Answers = { stage: "", interest: "", strengths: [], style: "", experience: "" };
+const stageOptions = ["大一至大二", "大三至研一", "秋招/毕业求职期", "毕业0—3年", "考虑转方向"];
+const intentOptions = ["我想先看清自己适合探索什么", "我想把已有经历翻译成可投方向", "我已有目标，想验证是否真的匹配", "我在比较稳定、成长、城市等现实选择"];
+const constraintOptions = ["城市与生活半径", "稳定性与明确规则", "收入与成长速度", "工作时间与精力边界", "希望与专业或已有经历相关", "暂时没有明显限制"];
+const styleRoleMap: Record<string, string> = { "自主推进": "深度专注", "真实现场": "跨团队协作" };
+const emptyAnswers: Answers = { stage: "", intent: "", interests: [], outputs: [], strengths: [], styles: [], industries: [], constraints: [], experience: "" };
+
+function toggleMulti(current: string[], value: string, max: number) {
+  if (current.includes(value)) return current.filter((item) => item !== value);
+  return current.length >= max ? current : [...current, value];
+}
 
 function scoreRole(role: Role, answers: Answers) {
-  let score = 54;
-  const matchedInterest = role.interests.includes(answers.interest);
-  if (matchedInterest) score += 18;
+  let score = 18;
+  const matchedInterests = answers.interests.filter((item) => role.interests.includes(item));
+  score += Math.min(matchedInterests.length * 12, 24);
+  const matchedOutputs = answers.outputs.filter((item) => outputOptions.some(([title, , families]) => title === item && (families as readonly string[]).includes(role.family)));
+  score += Math.min(matchedOutputs.length * 7, 14);
   const matchedStrengths = answers.strengths.filter((item) => role.strengths.includes(item));
-  score += Math.min(matchedStrengths.length * 7, 21);
-  const matchedStyle = role.styles.includes(answers.style);
-  if (matchedStyle) score += 10;
+  score += Math.min(matchedStrengths.length * 6, 24);
+  const matchedStyles = answers.styles.filter((item) => role.styles.includes(styleRoleMap[item] ?? item));
+  score += Math.min(matchedStyles.length * 6, 12);
+  const matchedIndustries = answers.industries.filter((item) => getRoleIndustries(role).includes(item));
+  score += Math.min(matchedIndustries.length * 6, 12);
   const normalizedExperience = answers.experience.toLowerCase();
   const keywordHits = role.keywords.filter((keyword) => normalizedExperience.includes(keyword)).length;
-  score += Math.min(keywordHits * 3, 9);
-  if (answers.stage === "在校生" || answers.stage === "毕业0-3年") score += 3;
-  return { score: Math.min(score, 96), matchedStrengths, matchedInterest, matchedStyle, keywordHits };
+  score += Math.min(keywordHits * 2, 8);
+  const juniorStage = ["大一至大二", "大三至研一", "秋招/毕业求职期", "毕业0—3年"].includes(answers.stage);
+  if (juniorStage && ["入门", "初级"].includes(role.seniority)) score += 3;
+  const signalCount = [matchedInterests.length, matchedOutputs.length, matchedStrengths.length, matchedStyles.length, matchedIndustries.length, keywordHits].filter(Boolean).length;
+  return { score, matchedInterests, matchedOutputs, matchedStrengths, matchedStyles, matchedIndustries, keywordHits, signalCount };
 }
 
 function normalizeDatabaseRole(row: Record<string, unknown>): Role {
@@ -118,7 +147,7 @@ export default function Home() {
   }
 
   function nextStep() {
-    if (step < 3) setStep((current) => current + 1);
+    if (step < 6) setStep((current) => current + 1);
     else {
       setView("results");
       window.scrollTo({ top: 0, behavior: "smooth" });
@@ -126,10 +155,13 @@ export default function Home() {
   }
 
   const canContinue = [
-    Boolean(answers.stage),
-    Boolean(answers.interest),
-    answers.strengths.length >= 2,
-    Boolean(answers.style)
+    Boolean(answers.stage) && Boolean(answers.intent),
+    answers.interests.length >= 2,
+    answers.outputs.length >= 2,
+    answers.strengths.length >= 3,
+    answers.experience.trim().length >= 20,
+    answers.styles.length >= 2,
+    answers.industries.length >= 1
   ][step];
 
   if (view === "assessment") {
@@ -140,38 +172,48 @@ export default function Home() {
             <span className="brand-mark">CA</span>
             <span>职业坐标</span>
           </button>
-          <span className="step-label">个人诊断 · {step + 1}/4</span>
+          <span className="step-label">职业探索诊断 · {step + 1}/7</span>
         </header>
 
         <section className="assessment-card" aria-live="polite">
-          <div className="progress-track" aria-label={`诊断进度 ${step + 1}/4`}>
-            <span style={{ width: `${(step + 1) * 25}%` }} />
+          <div className="progress-track" aria-label={`诊断进度 ${step + 1}/7`}>
+            <span style={{ width: `${((step + 1) / 7) * 100}%` }} />
           </div>
 
           {step === 0 && (
             <div className="question-panel">
-              <p className="eyebrow coral">先确定起点</p>
-              <h1>你现在处于哪个阶段？</h1>
-              <p className="question-note">阶段不会决定答案，只帮助我们调整岗位进入难度。</p>
+              <p className="eyebrow coral">先看清你正在解决什么</p>
+              <h1>你现在处在哪个阶段，最想解决什么问题？</h1>
+              <p className="question-note">这两项不会替你决定职业，只帮助我们判断你是在探索、验证，还是准备进入真实求职。</p>
               <div className="option-grid two-columns">
-                {["在校生", "毕业0-3年", "工作3-8年", "考虑转行"].map((item) => (
+                {stageOptions.map((item) => (
                   <button key={item} className={`choice-card ${answers.stage === item ? "selected" : ""}`} onClick={() => setAnswers({ ...answers, stage: item })}>
-                    <span>{item}</span><i>选择</i>
+                    <span>{item}</span><i>{answers.stage === item ? "已选" : "选择"}</i>
                   </button>
                 ))}
+              </div>
+              <div className="question-subgroup">
+                <span>这次诊断，你最想得到什么？</span>
+                <div className="option-grid">
+                  {intentOptions.map((item) => (
+                    <button key={item} className={`choice-card ${answers.intent === item ? "selected" : ""}`} onClick={() => setAnswers({ ...answers, intent: item })}>
+                      <span>{item}</span><i>{answers.intent === item ? "已选" : "选择"}</i>
+                    </button>
+                  ))}
+                </div>
               </div>
             </div>
           )}
 
           {step === 1 && (
             <div className="question-panel">
-              <p className="eyebrow coral">找到兴趣线索</p>
-              <h1>哪类问题最让你愿意投入？</h1>
-              <p className="question-note">不要选“听起来有前途”的，选你会自然产生好奇心的。</p>
+              <p className="eyebrow coral">兴趣不是岗位名，而是你愿意反复面对的问题</p>
+              <h1>哪两类问题，最容易让你愿意投入？</h1>
+              <p className="question-note">请选择 2 项。不要选“听起来有前途”的，选你会自然产生好奇心、愿意多想一步的。</p>
               <div className="option-grid">
                 {interestOptions.map(([title, note]) => (
-                  <button key={title} className={`choice-card choice-with-note ${answers.interest === title ? "selected" : ""}`} onClick={() => setAnswers({ ...answers, interest: title })}>
-                    <span>{title}</span><small>{note}</small>
+                  <button key={title} className={`choice-card choice-with-note ${answers.interests.includes(title) ? "selected" : ""}`} onClick={() => setAnswers({ ...answers, interests: toggleMulti(answers.interests, title, 2) })}>
+                    <span>{title}</span><small>{note}</small><i>{answers.interests.includes(title) ? "已选" : "最多选2项"}</i>
                   </button>
                 ))}
               </div>
@@ -180,46 +222,94 @@ export default function Home() {
 
           {step === 2 && (
             <div className="question-panel">
-              <p className="eyebrow coral">识别可迁移能力</p>
-              <h1>哪些能力已经有人认可你？</h1>
-              <p className="question-note">至少选2项。证据比自我感觉更重要：想想同学、同事通常因为什么来找你。</p>
-              <div className="skill-cloud">
-                {strengthOptions.map((item) => {
-                  const selected = answers.strengths.includes(item);
-                  return (
-                    <button key={item} className={selected ? "selected" : ""} onClick={() => setAnswers({
-                      ...answers,
-                      strengths: selected ? answers.strengths.filter((value) => value !== item) : [...answers.strengths, item]
-                    })}>{selected ? "✓ " : "+ "}{item}</button>
-                  );
-                })}
-              </div>
-              <label className="experience-field">
-                <span>补充一段经历（可选）</span>
-                <textarea value={answers.experience} onChange={(event) => setAnswers({ ...answers, experience: event.target.value })} placeholder="例如：做过社团活动策划，用问卷和访谈收集需求，协调5个人完成项目……" maxLength={280} />
-                <small>{answers.experience.length}/280</small>
-              </label>
-            </div>
-          )}
-
-          {step === 3 && (
-            <div className="question-panel">
-              <p className="eyebrow coral">匹配工作环境</p>
-              <h1>什么样的工作节奏更适合你？</h1>
-              <p className="question-note">适合长期工作的环境，比短期的新鲜感更重要。</p>
-              <div className="option-grid two-columns">
-                {styleOptions.map(([title, note]) => (
-                  <button key={title} className={`choice-card choice-with-note ${answers.style === title ? "selected" : ""}`} onClick={() => setAnswers({ ...answers, style: title })}>
-                    <span>{title}</span><small>{note}</small>
+              <p className="eyebrow coral">你想把时间花在什么样的成果上</p>
+              <h1>哪两种“工作产出”最让你有成就感？</h1>
+              <p className="question-note">请选择 2 项。职业选择不只看喜欢什么，也要看你愿意长期为哪类结果负责。</p>
+              <div className="option-grid">
+                {outputOptions.map(([title, note]) => (
+                  <button key={title} className={`choice-card choice-with-note ${answers.outputs.includes(title) ? "selected" : ""}`} onClick={() => setAnswers({ ...answers, outputs: toggleMulti(answers.outputs, title, 2) })}>
+                    <span>{title}</span><small>{note}</small><i>{answers.outputs.includes(title) ? "已选" : "最多选2项"}</i>
                   </button>
                 ))}
               </div>
             </div>
           )}
 
+          {step === 3 && (
+            <div className="question-panel">
+              <p className="eyebrow coral">识别已经出现过的能力证据</p>
+              <h1>哪些能力不是“你觉得有”，而是曾被需要过？</h1>
+              <p className="question-note">至少选 3 项。想想：同学、老师、同事会因为什么来找你？你做过什么能说明它？</p>
+              <div className="skill-cloud">
+                {strengthOptions.map((item) => {
+                  const selected = answers.strengths.includes(item);
+                  return (
+                    <button key={item} className={selected ? "selected" : ""} onClick={() => setAnswers({
+                      ...answers,
+                      strengths: toggleMulti(answers.strengths, item, 5)
+                    })}>{selected ? "✓ " : "+ "}{item}</button>
+                  );
+                })}
+              </div>
+              <p className="selection-note">已选 {answers.strengths.length}/至少3项，最多5项</p>
+            </div>
+          )}
+
+          {step === 4 && (
+            <div className="question-panel">
+              <p className="eyebrow coral">把自我判断落到真实经历</p>
+              <h1>写一件你做过、愿意反复提起的事</h1>
+              <p className="question-note">至少 20 字。写清你当时要解决什么、做了哪些动作、最后有什么结果；不需要写得像简历。</p>
+              <label className="experience-field">
+                <span>你的一个真实片段</span>
+                <textarea value={answers.experience} onChange={(event) => setAnswers({ ...answers, experience: event.target.value })} placeholder="例如：为了提高社团活动报名率，我访谈了6位同学，重新梳理宣传内容并协调设计和运营，最终报名人数比上次更多……" maxLength={360} />
+                <small>{answers.experience.length}/360</small>
+              </label>
+            </div>
+          )}
+
+          {step === 5 && (
+            <div className="question-panel">
+              <p className="eyebrow coral">匹配工作环境</p>
+              <h1>什么样的工作方式，更接近你能长期坚持的状态？</h1>
+              <p className="question-note">请选择 2 项。适合长期工作的环境，比短期的新鲜感更重要。</p>
+              <div className="option-grid two-columns">
+                {styleOptions.map(([title, note]) => (
+                  <button key={title} className={`choice-card choice-with-note ${answers.styles.includes(title) ? "selected" : ""}`} onClick={() => setAnswers({ ...answers, styles: toggleMulti(answers.styles, title, 2) })}>
+                    <span>{title}</span><small>{note}</small><i>{answers.styles.includes(title) ? "已选" : "最多选2项"}</i>
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {step === 6 && (
+            <div className="question-panel">
+              <p className="eyebrow coral">最后加入现实条件</p>
+              <h1>你愿意优先探索哪些行业？又有哪些边界？</h1>
+              <p className="question-note">行业至少选 1 项、最多 3 项。现实条件不会替你筛掉方向，而会成为后续比较岗位时要核对的标准。</p>
+              <div className="selection-heading"><span>想优先了解的行业</span><small>{answers.industries.length}/1—3项</small></div>
+              <div className="skill-cloud industry-choice-cloud">
+                {industryOrder.filter((item) => item !== "全部").map((item) => {
+                  const selected = answers.industries.includes(item);
+                  return <button key={item} className={selected ? "selected" : ""} onClick={() => setAnswers({ ...answers, industries: toggleMulti(answers.industries, item, 3) })}>{selected ? "✓ " : "+ "}{item}</button>;
+                })}
+              </div>
+              <div className="question-subgroup">
+                <div className="selection-heading"><span>你此刻尤其在意的现实条件（可选，最多2项）</span><small>{answers.constraints.length}/2项</small></div>
+                <div className="skill-cloud">
+                  {constraintOptions.map((item) => {
+                    const selected = answers.constraints.includes(item);
+                    return <button key={item} className={selected ? "selected" : ""} onClick={() => setAnswers({ ...answers, constraints: toggleMulti(answers.constraints, item, 2) })}>{selected ? "✓ " : "+ "}{item}</button>;
+                  })}
+                </div>
+              </div>
+            </div>
+          )}
+
           <div className="assessment-actions">
             <button className="text-button" onClick={() => step === 0 ? setView("home") : setStep((current) => current - 1)}>← 上一步</button>
-            <button className="primary-button" disabled={!canContinue} onClick={nextStep}>{step === 3 ? "生成我的岗位建议" : "继续"}<span>→</span></button>
+            <button className="primary-button" disabled={!canContinue} onClick={nextStep}>{step === 6 ? "生成我的探索坐标" : "继续"}<span>→</span></button>
           </div>
         </section>
       </main>
@@ -238,25 +328,30 @@ export default function Home() {
         <section className="results-intro">
           <p className="eyebrow mint">你的职业坐标已生成</p>
           <h1>先探索这三个方向</h1>
-          <p>这不是给你贴标签，而是根据兴趣、可迁移能力和工作偏好，缩小值得深入调查的范围。</p>
+          <p>这不是一份“你只能做什么”的结论。它把任务兴趣、想做出的成果、能力证据、工作方式、行业线索和真实经历放在一起，帮你缩小下一步值得验证的范围。</p>
           <div className="profile-chips">
-            <span>{answers.stage}</span><span>{answers.interest}</span><span>{answers.style}</span>
+            <span>{answers.stage}</span><span>{answers.interests.join(" / ")}</span><span>{answers.industries.slice(0, 2).join(" / ")}</span>
+          </div>
+          <div className="diagnosis-summary">
+            <div><small>你此刻想解决</small><strong>{answers.intent}</strong></div>
+            <div><small>已有能力线索</small><strong>{answers.strengths.slice(0, 4).join("、")}</strong></div>
+            <div><small>需要继续核对</small><strong>{answers.constraints.length ? answers.constraints.join("、") : "真实岗位任务与进入门槛"}</strong></div>
           </div>
         </section>
 
         <section className="result-grid" aria-label="岗位推荐结果">
-          {topThree.map(({ role, score, matchedStrengths, matchedInterest, matchedStyle }, index) => (
+          {topThree.map(({ role, matchedStrengths, matchedInterests, matchedOutputs, matchedStyles, matchedIndustries, keywordHits, signalCount }, index) => (
             <article className={`result-card rank-${index + 1}`} key={role.slug}>
-              <div className="rank-row"><span>推荐 {String(index + 1).padStart(2, "0")}</span><strong>{score}%<small> 匹配</small></strong></div>
+              <div className="rank-row"><span>探索优先级 {String(index + 1).padStart(2, "0")}</span><strong>{signalCount}/6<small> 类线索</small></strong></div>
               <p className="role-family">{role.family}</p>
               <h2>{role.name}</h2>
               <p className="role-purpose">{role.purpose}</p>
               <div className="why-box">
-                <span>为什么适合你</span>
-                <p>{matchedStrengths.length ? `你的${matchedStrengths.slice(0, 2).join("、")}与岗位核心能力相符。` : `你的兴趣方向与该岗位的核心问题高度接近。`}</p>
-                <div className="match-evidence"><i className={matchedInterest ? "hit" : ""}>兴趣</i><i className={matchedStrengths.length >= 2 ? "hit" : ""}>能力</i><i className={matchedStyle ? "hit" : ""}>环境</i></div>
+                <span>这条方向为什么值得你继续看</span>
+                <p>{matchedStrengths.length ? `你已呈现出${matchedStrengths.slice(0, 2).join("、")}等能力线索；` : "它与你愿意投入的问题和工作产出存在交集；"}{matchedIndustries.length ? `同时落在你愿意探索的${matchedIndustries.slice(0, 2).join("、")}领域。` : "下一步需要用真实JD确认行业场景。"}</p>
+                <div className="match-evidence"><i className={matchedInterests.length ? "hit" : ""}>任务兴趣</i><i className={matchedOutputs.length ? "hit" : ""}>工作产出</i><i className={matchedStrengths.length >= 2 ? "hit" : ""}>能力证据</i><i className={matchedStyles.length ? "hit" : ""}>工作方式</i><i className={matchedIndustries.length ? "hit" : ""}>行业线索</i><i className={keywordHits ? "hit" : ""}>经历关键词</i></div>
               </div>
-              <div className="result-skills"><small>建议重点验证</small><p>{role.coreSkills.slice(0, 3).join(" · ")}</p></div>
+              <div className="result-skills"><small>下一步重点验证</small><p>{role.coreSkills.slice(0, 3).join(" · ")}</p><small>进入方式：{role.entry}</small></div>
               <div className="tag-row">{role.industries.slice(0, 3).map((item) => <span key={item}>{item}</span>)}</div>
               <button className="card-link" onClick={() => setSelectedRole(role)}>查看岗位全景 <span>↗</span></button>
             </article>
@@ -264,11 +359,11 @@ export default function Home() {
         </section>
 
         <section className="next-step-card">
-          <div><p className="eyebrow coral">下一步怎么做</p><h2>不要急着投简历，先验证方向</h2></div>
-          <ol><li><b>读10份JD</b><span>判断日常工作是否仍然吸引你</span></li><li><b>访谈2位从业者</b><span>核对工作现实和成长空间</span></li><li><b>完成1个小项目</b><span>用行动验证能力与兴趣</span></li></ol>
+          <div><p className="eyebrow coral">诊断之后，才进入验证</p><h2>不要把推荐当答案，拿它去接触真实世界。</h2></div>
+          <ol><li><b>读 10 份 JD</b><span>圈出重复任务、必备能力和自己愿意长期面对的部分</span></li><li><b>访谈 2 位从业者</b><span>核对实际节奏、进入路径、城市与成长空间</span></li><li><b>完成 1 个小项目</b><span>把今天选出的能力线索，变成一段可被岗位识别的证据</span></li></ol>
         </section>
 
-        <p className="data-disclaimer">当前为职业探索建议，不构成录用或薪资承诺。岗位数据会随JD样本和从业者复核持续更新。</p>
+        <p className="data-disclaimer">本结果是第一轮职业探索，不构成心理诊断、职业定论、录用或薪资承诺。岗位数据会随JD样本和从业者复核持续更新。</p>
         {selectedRole && <RoleDetail role={selectedRole} onClose={() => setSelectedRole(null)} />}
       </main>
     );
@@ -287,8 +382,8 @@ export default function Home() {
           <div className="status-pill"><i /> 职业数据库持续更新中</div>
           <p className="hero-kicker">从“我能做什么”到“我该往哪里走”</p>
           <h1>别只找一份工作，<br />先找到你的<span>职业坐标。</span></h1>
-          <p className="hero-lead">通过经历、兴趣和能力诊断，匹配值得探索的行业岗位；再看清岗位要求、成长路线与薪资结构。</p>
-          <div className="hero-actions"><button className="primary-button large" onClick={startAssessment}>5分钟开始诊断 <span>→</span></button><a href="#roles">先浏览岗位库</a></div>
+          <p className="hero-lead">用一轮更完整的职业探索，梳理你愿意解决的问题、想做出的成果、能力证据、工作偏好与现实边界；再去验证值得探索的行业岗位。</p>
+          <div className="hero-actions"><button className="primary-button large" onClick={startAssessment}>约8分钟开始探索 <span>→</span></button><a href="#roles">先浏览岗位库</a></div>
           <p className="privacy-note">无需注册 · 不上传也能体验 · 结果只保留在当前页面</p>
         </div>
         <div className="atlas-visual" aria-label="职业匹配示意图">
