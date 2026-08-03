@@ -1,181 +1,119 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { AssessmentSourceCapture } from '@/components/AssessmentSourceCapture';
 
 export const metadata: Metadata = {
-  title: '职业测评 - JOBHOT',
-  description: '免费职业测评工具：霍兰德兴趣测试、MBTI性格测试、求职底牌自测表，帮你找到适合的方向。',
+  title: '职业测评与求职诊断 - JOBHOT',
+  description: '免费自我探索与求职诊断工具：27届秋招启动诊断、求职底牌自测、霍兰德职业兴趣测试与MBTI性格类型测试。',
 };
+
+const entryCards = [
+  {
+    question: '正在准备27届秋招，不知道先做什么',
+    title: '27届秋招启动诊断',
+    meta: '18道诊断题＋4道状态题 · 约5分钟',
+    description: '判断你当前更接近方向摇摆、经历未转化、简历失焦、行动拖延、信息过载还是目标冲刺，并获得一项72小时行动。',
+    href: '/tools/autumn-start',
+    icon: '↗',
+    gradient: 'linear-gradient(135deg, #16a34a, #14b8a6)',
+    tags: ['当前推荐', '秋招卡点', '完整结果免费'],
+    featured: true,
+  },
+  {
+    question: '不知道自己手里缺什么资源',
+    title: '求职底牌自测表',
+    meta: '12题 · 约3—5分钟',
+    description: '从缓冲地带、信息密度、试错能力和家庭期待管理四个维度，看看你当前最值得优先补哪张牌。',
+    href: '/tools/dipai',
+    icon: '▦',
+    gradient: 'linear-gradient(135deg, #10b981, #06b6d4)',
+    tags: ['资源盘点', '短板识别', '免费'],
+  },
+  {
+    question: '不知道自己可能对什么工作感兴趣',
+    title: '霍兰德职业兴趣测试',
+    meta: 'Holland RIASEC · 48题 · 约5分钟',
+    description: '从六类职业兴趣中获得方向线索，再用真实岗位任务和实践反馈进一步验证，而不是被一次结果限定。',
+    href: '/tools/holland',
+    icon: '◎',
+    gradient: 'linear-gradient(135deg, #6366f1, #8b5cf6)',
+    tags: ['职业兴趣', '方向探索', '免费'],
+  },
+];
 
 export default function AssessmentPage() {
   return (
     <div className="page">
+      <AssessmentSourceCapture page="assessment-center" />
       <div className="page-header">
-        <h1>职业测评</h1>
-        <p>科学测评工具，帮你找到适合的方向</p>
+        <h1>职业测评与求职诊断</h1>
+        <p>从兴趣、资源和当前行动三个角度，找到更适合你的下一步</p>
       </div>
 
-      {/* 测评列表 */}
+      <section className="card" style={{ marginBottom: '1rem', background: 'var(--accent-muted)', borderColor: 'var(--accent)' }}>
+        <div style={{ fontSize: '0.78rem', color: 'var(--accent)', fontWeight: 700, marginBottom: '0.3rem' }}>不知道选哪一个？</div>
+        <h2 style={{ fontSize: '1.05rem', fontWeight: 750, marginBottom: '0.35rem' }}>先看你现在最想解决的问题</h2>
+        <p style={{ fontSize: '0.84rem', color: 'var(--text-muted)', lineHeight: 1.75 }}>
+          不需要连续做完所有测评。选择最接近你当前状态的一项，完成后先执行一条建议，再决定是否继续下一步。
+        </p>
+      </section>
+
       <section>
-        <div
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: '0.5rem',
-            fontSize: '1.05rem',
-            fontWeight: 700,
-            paddingBottom: '0.6rem',
-            marginBottom: '1rem',
-            borderBottom: '2px solid var(--border)',
-          }}
-        >
-          <span>📋</span> 选择测评
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1.05rem', fontWeight: 700, paddingBottom: '0.6rem', marginBottom: '1rem', borderBottom: '2px solid var(--border)' }}>
+          <span>📋</span> 你现在最想解决什么？
         </div>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-          {/* 霍兰德 */}
-          <Link
-            href="/tools/holland"
-            className="timeline-card timeline-card-featured"
-            style={{ display: 'block', textDecoration: 'none' }}
-          >
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem' }}>
-              <span
-                style={{
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  width: 44,
-                  height: 44,
-                  borderRadius: 12,
-                  background: 'linear-gradient(135deg, #6366f1, #8b5cf6)',
-                  color: '#fff',
-                  flexShrink: 0,
-                }}
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round">
-                  <circle cx="12" cy="12" r="9" />
-                  <circle cx="12" cy="12" r="5" />
-                  <circle cx="12" cy="12" r="1.5" />
-                </svg>
-              </span>
-              <div>
-                <div style={{ fontSize: '1rem', fontWeight: 600, color: 'var(--text)' }}>
-                  霍兰德职业兴趣测试
-                </div>
-                <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
-                  Holland RIASEC · 48 题 · 约 5 分钟
+          {entryCards.map((card) => (
+            <Link
+              key={card.title}
+              href={card.href}
+              className="timeline-card timeline-card-featured"
+              style={{ display: 'block', textDecoration: 'none', borderColor: card.featured ? '#22c55e' : undefined, position: 'relative' }}
+            >
+              {card.featured && (
+                <span style={{ position: 'absolute', top: 14, right: 14, padding: '0.25rem 0.55rem', borderRadius: 999, background: 'rgba(34,197,94,.14)', color: '#22c55e', fontSize: '0.7rem', fontWeight: 700 }}>
+                  27届当前推荐
+                </span>
+              )}
+              <div style={{ color: 'var(--text-muted)', fontSize: '0.75rem', marginBottom: '0.55rem', paddingRight: card.featured ? 105 : 0 }}>
+                如果你：{card.question}
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem' }}>
+                <span style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: 44, height: 44, borderRadius: 12, background: card.gradient, color: '#fff', fontSize: '1.3rem', fontWeight: 800, flexShrink: 0 }}>
+                  {card.icon}
+                </span>
+                <div>
+                  <div style={{ fontSize: '1rem', fontWeight: 650, color: 'var(--text)' }}>{card.title}</div>
+                  <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>{card.meta}</div>
                 </div>
               </div>
-            </div>
-            <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.7, margin: 0 }}>
-              通过六大职业兴趣维度（现实/研究/艺术/社会/企业/常规），测出你的霍兰德代码，得到适合的职业方向与专业参考。
-            </p>
-            <div className="timeline-tags" style={{ marginTop: '0.5rem' }}>
-              <span className="tag">职业兴趣</span>
-              <span className="tag">方向探索</span>
-              <span className="tag" style={{ background: 'rgba(16, 185, 129, 0.12)', color: '#10b981' }}>免费</span>
-            </div>
-          </Link>
+              <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.7, margin: 0 }}>{card.description}</p>
+              <div className="timeline-tags" style={{ marginTop: '0.55rem' }}>
+                {card.tags.map((tag) => <span key={tag} className="tag">{tag}</span>)}
+              </div>
+            </Link>
+          ))}
 
-          {/* 求职底牌自测 */}
-          <Link
-            href="/tools/dipai"
-            className="timeline-card timeline-card-featured"
-            style={{ display: 'block', textDecoration: 'none' }}
-          >
+          <div className="timeline-card" style={{ opacity: 0.66 }} aria-disabled="true">
+            <div style={{ color: 'var(--text-muted)', fontSize: '0.75rem', marginBottom: '0.55rem' }}>如果你：想了解性格与工作环境偏好</div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem' }}>
-              <span
-                style={{
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  width: 44,
-                  height: 44,
-                  borderRadius: 12,
-                  background: 'linear-gradient(135deg, #10b981, #06b6d4)',
-                  color: '#fff',
-                  flexShrink: 0,
-                }}
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round">
-                  <rect x="2" y="4" width="20" height="16" rx="2" />
-                  <path d="M7 8h.01" />
-                  <path d="M12 8h.01" />
-                  <path d="M17 8h.01" />
-                  <path d="M7 12h.01" />
-                  <path d="M12 12h.01" />
-                  <path d="M17 12h.01" />
-                  <path d="M7 16h.01" />
-                  <path d="M12 16h.01" />
-                  <path d="M17 16h.01" />
-                </svg>
-              </span>
+              <span style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: 44, height: 44, borderRadius: 12, background: 'linear-gradient(135deg, #f59e0b, #ef4444)', color: '#fff', fontSize: '1.2rem' }}>◔</span>
               <div>
-                <div style={{ fontSize: '1rem', fontWeight: 600, color: 'var(--text)' }}>
-                  求职底牌自测表
-                </div>
-                <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
-                  12 题 · 约 5 分钟 · 测出你最缺哪张底牌
-                </div>
+                <div style={{ fontSize: '1rem', fontWeight: 650 }}>MBTI 性格类型测试</div>
+                <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>16型人格 · 即将上线</div>
               </div>
             </div>
             <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.7, margin: 0 }}>
-              从「缓冲地带」「信息密度」「试错能力」「家庭期待管理」四个维度，诊断你在求职路上的最大短板，给出针对性改善建议。
+              用于轻量自我探索，不把性格类型直接等同于“适合或不适合某个职业”。
             </p>
-            <div className="timeline-tags" style={{ marginTop: '0.5rem' }}>
-              <span className="tag">求职诊断</span>
-              <span className="tag">短板识别</span>
-              <span className="tag" style={{ background: 'rgba(16, 185, 129, 0.12)', color: '#10b981' }}>免费</span>
-            </div>
-          </Link>
-
-          {/* MBTI */}
-          <div
-            className="timeline-card timeline-card-featured"
-            style={{ display: 'block', position: 'relative', opacity: 0.7 }}
-          >
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem' }}>
-              <span
-                style={{
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  width: 44,
-                  height: 44,
-                  borderRadius: 12,
-                  background: 'linear-gradient(135deg, #f59e0b, #ef4444)',
-                  color: '#fff',
-                  flexShrink: 0,
-                }}
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M12 2a10 10 0 1 0 10 10H12V2z" />
-                  <path d="M12 2a10 10 0 0 1 10 10" />
-                  <path d="M12 12l7-7" />
-                </svg>
-              </span>
-              <div>
-                <div style={{ fontSize: '1rem', fontWeight: 600, color: 'var(--text)' }}>
-                  MBTI 性格类型测试
-                </div>
-                <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
-                  16型人格 · 70 题 · 约 10 分钟
-                </div>
-              </div>
-            </div>
-            <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.7, margin: 0 }}>
-              识别你的认知功能偏好（外向/内向、感觉/直觉、思维/情感、判断/知觉），找到与性格匹配的工作环境和团队角色。
-            </p>
-            <div className="timeline-tags" style={{ marginTop: '0.5rem' }}>
-              <span className="tag">性格分析</span>
-              <span className="tag">团队适配</span>
-              <span className="tag" style={{ background: 'rgba(16, 185, 129, 0.12)', color: '#10b981' }}>免费</span>
-              <span className="tag" style={{ background: 'rgba(245, 158, 11, 0.15)', color: '#f59e0b' }}>即将上线</span>
-            </div>
           </div>
         </div>
       </section>
 
+      <p style={{ fontSize: '0.72rem', color: 'var(--text-muted)', lineHeight: 1.7, marginTop: '1.5rem' }}>
+        测评工具由JOBHOT提供，结果解读与行动支持由职路同行社提供。所有结果只用于自我探索和行动参考，不构成专业心理诊断或录用结果承诺。
+      </p>
     </div>
   );
 }

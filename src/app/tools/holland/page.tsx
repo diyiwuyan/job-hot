@@ -1,7 +1,10 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
+import { AssessmentResultActions } from '@/components/AssessmentResultActions';
+import { trackEvent } from '@/lib/analytics';
+import { captureAssessmentSource } from '@/lib/assessment-source';
 import {
   QUESTIONS,
   TYPE_INFO,
@@ -20,6 +23,10 @@ export default function HollandPage() {
   const total = QUESTIONS.length;
   const answeredCount = Object.keys(answers).length;
   const progress = Math.round((answeredCount / total) * 100);
+
+  useEffect(() => {
+    captureAssessmentSource();
+  }, []);
 
   // 计算得分
   const scores = useMemo(() => {
@@ -59,6 +66,12 @@ export default function HollandPage() {
     setStage('intro');
   }
 
+  function start() {
+    const source = captureAssessmentSource();
+    trackEvent('assessment_start', 'holland', { source });
+    setStage('quiz');
+  }
+
   // ============ Intro ============
   if (stage === 'intro') {
     return (
@@ -76,7 +89,7 @@ export default function HollandPage() {
           </p>
           <div className="divider" />
           <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
-            共 {total} 道题，约需 5 分钟。请根据第一直觉作答，没有标准答案，越真实结果越准确。
+            共 {total} 道题，约需 5 分钟。请根据第一直觉作答，没有标准答案；越贴近真实偏好，结果越有参考价值。
           </p>
         </div>
 
@@ -117,7 +130,7 @@ export default function HollandPage() {
           })}
         </div>
 
-        <button className="btn btn-lg" onClick={() => setStage('quiz')}>
+        <button className="btn btn-lg" onClick={start}>
           开始测试 →
         </button>
       </div>
@@ -231,6 +244,8 @@ export default function HollandPage() {
 
   // ============ Result ============
   const top3 = ranked.slice(0, 3);
+  const topNames = top3.map((item) => TYPE_INFO[item.type].name).join('、');
+  const hollandAction = `从“${TYPE_INFO[top3[0].type].name}”相关方向中选3个真实岗位，分别查看日常任务、招聘要求和工作环境，记录哪些内容让你愿意继续了解。`;
   return (
     <div className="page">
       <div className="page-header">
@@ -298,65 +313,40 @@ export default function HollandPage() {
               ))}
             </div>
             <div style={{ marginBottom: '0.6rem' }}>
-              <span style={{ fontSize: '0.8rem', fontWeight: 600, marginRight: '0.5rem' }}>适合职业：</span>
+              <span style={{ fontSize: '0.8rem', fontWeight: 600, marginRight: '0.5rem' }}>可探索方向：</span>
               <span style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>{info.careers.join('、')}</span>
             </div>
             <div>
-              <span style={{ fontSize: '0.8rem', fontWeight: 600, marginRight: '0.5rem' }}>相关专业：</span>
+              <span style={{ fontSize: '0.8rem', fontWeight: 600, marginRight: '0.5rem' }}>关联专业线索：</span>
               <span style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>{info.majors.join('、')}</span>
             </div>
           </div>
         );
       })}
 
-{/* 公众号引导 - 关注留存 */}
-<div
-className="card"
-style={{ marginTop: '0.5rem', marginBottom: '1.25rem', textAlign: 'center', padding: '1.5rem' }}
->
-<div style={{ fontSize: '1.25rem', marginBottom: '0.5rem' }}>🚀</div>
-<h3 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '0.4rem' }}>想了解更多职业方向？</h3>
-<p style={{ fontSize: '0.82rem', color: 'var(--text-muted)', lineHeight: 1.7, marginBottom: '1rem' }}>
-关注「职路同行社」，获取更多职业测评解读、行业分析和求职策略，助你找到最适合的发展路径。
-</p>
-        <img
-          src="/images/qr-official.jpeg"
-          alt="职路同行社 公众号二维码"
-          style={{
-            display: 'block',
-            margin: '0 auto',
-            width: 160,
-            height: 160,
-            borderRadius: 12,
-            background: '#fff',
-            padding: 8,
-            objectFit: 'contain',
-          }}
-        />
-        <div style={{ fontSize: '0.72rem', color: 'var(--text-muted)', marginTop: '0.5rem' }}>
-          微信扫码关注 · 免费获取报告
-        </div>
-      </div>
-
-      <div
-        className="card"
-        style={{ marginBottom: '1.25rem', background: 'var(--accent-muted)', borderColor: 'var(--accent)' }}
-      >
-        <p style={{ fontSize: '0.85rem', color: 'var(--text)', lineHeight: 1.8 }}>
-          想根据测评结果做更系统的职业规划？欢迎加入「大学生求职辅导训练营」，获取一对一指导。
-        </p>
-        <Link href="/tools/coaching" className="btn" style={{ marginTop: '0.75rem', display: 'inline-flex' }}>
-          了解求职辅导 →
-        </Link>
-      </div>
+      <AssessmentResultActions
+        assessmentId="holland"
+        assessmentName="霍兰德职业兴趣测试"
+        resultName={`霍兰德代码 ${code}`}
+        headline={`你的前三类职业兴趣线索是：${topNames}`}
+        summary="兴趣结果适合用来生成探索假设，不能单独决定你应该选择哪个职业。"
+        action={hollandAction}
+        nextStep={{
+          href: '/tools/autumn-start',
+          label: '如果你正在准备27届秋招，继续判断当前任务卡点',
+          description: '兴趣线索回答“我愿意探索什么”，秋招启动诊断会进一步回答“我现在应该先处理哪一步”。',
+        }}
+        campFit="如果你仍需把兴趣线索与真实经历、岗位要求和行动计划连接起来，可以再了解训练营；它不会依据一次测评替你决定职业。"
+        accent={TYPE_INFO[top3[0].type].color}
+      />
 
       <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
         <button className="btn btn-secondary" onClick={restart}>重新测试</button>
-        <Link href="/tools" className="btn btn-secondary">返回工具页</Link>
+        <Link href="/tools/assessment" className="btn btn-secondary">返回测评中心</Link>
       </div>
 
       <p style={{ fontSize: '0.72rem', color: 'var(--text-muted)', marginTop: '1.5rem', lineHeight: 1.7 }}>
-        说明：本测试为简化版霍兰德兴趣量表，结果仅供职业探索参考，不构成专业测评或诊断结论。
+        说明：本测试为简化版霍兰德兴趣量表，结果仅供职业探索参考，不构成专业测评、心理诊断或岗位匹配结论。
       </p>
     </div>
   );
