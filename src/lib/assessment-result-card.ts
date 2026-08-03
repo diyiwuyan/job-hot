@@ -89,7 +89,7 @@ export async function downloadAssessmentResultCard(data: ResultCardData) {
 
   ctx.fillStyle = '#d9f8ea';
   ctx.font = '600 34px "Microsoft YaHei", sans-serif';
-  ctx.fillText('JOBHOT × 职路同行社', 80, 105);
+  ctx.fillText('JOBHOT｜职路同行社出品', 80, 105);
   ctx.fillStyle = '#8fb3a7';
   ctx.font = '28px "Microsoft YaHei", sans-serif';
   ctx.fillText('免费求职诊断 · 结果用于行动参考', 80, 155);
@@ -136,4 +136,3 @@ export async function downloadAssessmentResultCard(data: ResultCardData) {
   anchor.remove();
   window.setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
-

@@ -602,6 +602,90 @@ a:hover {
   line-height: 1.55;
 }
 
+.about-maintenance-details {
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  background: rgba(255, 255, 255, 0.015);
+  color: var(--text-muted);
+}
+
+.about-maintenance-details > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.9rem 1rem;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+
+.about-maintenance-details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.about-maintenance-details > summary span:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.about-maintenance-details > summary strong {
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+}
+
+.about-maintenance-details > summary small,
+.about-maintenance-details > summary span:last-child {
+  color: var(--text-muted);
+  font-size: 0.68rem;
+}
+
+.about-maintenance-details[open] > summary {
+  border-bottom: 1px solid var(--border);
+}
+
+.about-maintenance-content {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.about-maintenance-content section {
+  padding: 0.9rem;
+  border-radius: 0.65rem;
+  background: var(--bg-elevated);
+}
+
+.about-maintenance-content h2 {
+  margin-bottom: 0.45rem;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.about-maintenance-content p {
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  line-height: 1.75;
+}
+
+.about-maintenance-contact {
+  display: flex;
+  gap: 0.55rem 1rem;
+  flex-wrap: wrap;
+  margin: 0.55rem 0;
+  font-size: 0.76rem;
+}
+
+.about-maintenance-contact a {
+  color: var(--accent);
+}
+
+.about-donate-grid {
+  max-width: 520px;
+  margin: 0.8rem auto 0;
+}
+
 .theme-toggle-opt {
   display: flex;
   align-items: center;

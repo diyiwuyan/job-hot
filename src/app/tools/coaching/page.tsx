@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: '27届秋招启动训练营 - JOBHOT × 职路同行社',
+  title: '27届秋招启动训练营 - JOBHOT｜职路同行社出品',
   description: '7天完成秋招状态诊断、求职行动风格识别、优势筹码盘点、方向初筛、简历问题识别和30天行动计划。',
 };
 

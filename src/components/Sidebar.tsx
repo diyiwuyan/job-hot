@@ -300,7 +300,7 @@ export function Sidebar() {
       <span className="brand-slogan">更好用的大学生求职网站</span>
       <Link href="/about#zhilu" className="sidebar-zhilu-link" onClick={close}>
         <Image src="/images/zhilu-tongxingshe-brand-mark.svg" alt="" width={25} height={21} />
-        <span><small>职业发展支持</small>职路同行社</span>
+        <span><small>JOBHOT 出品方</small>职路同行社</span>
       </Link>
 
       <div className="divider" />

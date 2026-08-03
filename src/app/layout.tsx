@@ -21,7 +21,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: 'JOBHOT × 职路同行社 - 大学生求职信息与职业发展支持',
+    default: 'JOBHOT｜职路同行社出品 - 大学生求职信息与职业发展支持',
     template: '%s',
   },
   description: 'JOBHOT 提供大学生校招实习信息与求职工具，职路同行社提供职业发展内容、测评解读、求职策略与行动支持。',
@@ -49,8 +49,8 @@ export default function RootLayout({
                 {children}
                 <footer className="site-footer">
                   <div className="site-footer-partnership">
-                    <a href="/about/#zhilu"><strong>JOBHOT × 职路同行社</strong></a>
-                    <span>求职信息与工具 × 职业发展与行动支持</span>
+                    <a href="/about/#zhilu"><strong>JOBHOT｜职路同行社出品</strong></a>
+                    <span>求职信息与工具 · 职业发展与行动支持</span>
                   </div>
                   <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">津ICP备2024024694号</a>
                 </footer>

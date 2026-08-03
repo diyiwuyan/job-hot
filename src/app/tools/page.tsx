@@ -3,8 +3,8 @@ import Link from 'next/link';
 import { ZhiluBrandIntro } from '@/components/ZhiluBrandIntro';
 
 export const metadata: Metadata = {
-  title: '职业服务 - JOBHOT × 职路同行社',
-  description: 'JOBHOT 与职路同行社共同提供职业测评、求职诊断、训练营与行动支持。',
+  title: '职业服务 - JOBHOT｜职路同行社出品',
+  description: 'JOBHOT 是职路同行社出品的大学生求职网站，提供职业测评、求职诊断、训练营与行动支持。',
 };
 
 export default function ToolsPage() {
@@ -12,7 +12,7 @@ export default function ToolsPage() {
     <div className="page">
       <div className="page-header">
         <h1>职业服务</h1>
-        <p>由 JOBHOT 与职路同行社共同提供工具、内容与行动支持</p>
+        <p>JOBHOT 由职路同行社出品，提供工具、专业内容与行动支持</p>
       </div>
 
       <ZhiluBrandIntro />

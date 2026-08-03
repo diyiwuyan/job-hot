@@ -1,131 +1,96 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { ZhiluBrandIntro } from '@/components/ZhiluBrandIntro';
 
 export const metadata: Metadata = {
-  title: '关于我们 - JOBHOT × 职路同行社',
-  description: '了解 JOBHOT 与职路同行社的关系、平台定位、职业支持内容、数据来源与联系渠道。',
+  title: '关于我们 - JOBHOT｜职路同行社出品',
+  description: '了解 JOBHOT、职路同行社的出品关系、平台定位、职业支持内容、数据来源与联系渠道。',
 };
-
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 
 export default function AboutPage() {
   return (
     <div className="page">
       <div className="page-header">
         <h1>
-          关于 <span className="text-gradient">JOBHOT × 职路同行社</span>
+          关于 <span className="text-gradient">JOBHOT</span>
         </h1>
-        <p>把求职信息、认识自己和真实行动放在同一条路径上</p>
+        <p>职路同行社出品的大学生求职信息与职业发展工具平台</p>
       </div>
 
       <div style={{ marginTop: '1.5rem', display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
         <section className="timeline-card">
+          <div className="timeline-tags" style={{ marginBottom: '0.75rem' }}>
+            <span className="tag">职路同行社出品</span>
+            <span className="tag">免费求职信息与工具</span>
+          </div>
           <h2 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.75rem' }}>JOBHOT 是什么？</h2>
           <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)', lineHeight: 1.8 }}>
-            JOBHOT 是一个大学生求职信息聚合平台，自动从多个数据源抓取校招、实习和宣讲会信息，
-            通过智能评分系统筛选出高质量内容，帮助求职者快速获取最新、最热的招聘动态。
-            我们的目标是让每一位大学生都能高效地获取求职信息，不再错过心仪的机会。
+            JOBHOT 是职路同行社打造的大学生求职网站，聚合校招、实习和宣讲会信息，并提供订阅收藏、职业坐标、求职测评和训练营学习工具。
+            我们希望把“找到机会、认识自己、准备材料和持续行动”放进同一条路径，让学生不只看到更多信息，也能更清楚地走出下一步。
           </p>
         </section>
 
         <ZhiluBrandIntro mode="full" />
 
         <section className="timeline-card">
-          <h2 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.75rem' }}>数据来源</h2>
+          <h2 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.75rem' }}>招聘信息从哪里来？</h2>
           <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)', lineHeight: 1.8 }}>
-            目前的数据来源包括：国聘（央国企、事业单位等优质岗位）、DeepOffer（覆盖互联网、金融、车企/IC 等多行业校招实习）、
-            牛客网（校招日历与宣讲会）、应届生求职网（全国高校宣讲会信息），以及
-            CampusShame（记录校招中毁约、违规等污点行为的公司名单）。
-            数据每天自动更新，确保信息的时效性。
+            目前的数据来源包括国聘、DeepOffer、牛客网、应届生求职网及 CampusShame 等公开渠道，覆盖校招、实习、宣讲会和招聘风险信息。
+            数据会定期更新，但招聘状态和截止时间可能发生变化；投递前请以招聘单位官网或官方招聘账号的最新公告为准。
           </p>
         </section>
 
         <section className="timeline-card">
-          <h2 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.75rem' }}>评分机制</h2>
+          <h2 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.75rem' }}>信息排序与评分</h2>
           <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)', lineHeight: 1.8 }}>
-            每条招聘信息都会经过智能评分系统打分（满分 99），评分依据包括：
-            信息时效性（越新分越高）、企业知名度（分为 Tier1/Tier2 两档）、
-            信息完整度（是否包含日期、地点、备注等）。
-            评分 82 分及以上的内容会被标记为「精选」，优先展示在首页。
+            招聘信息会根据发布时间、信息完整度和企业类别等因素进行辅助排序。评分用于帮助用户提高浏览效率，不代表企业质量、录用概率或求职结果，最终判断仍需结合岗位要求、官方信息和个人情况。
           </p>
         </section>
 
-        <section className="timeline-card">
-          <h2 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.75rem' }}>技术栈</h2>
-          <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)', lineHeight: 1.8 }}>
-            JOBHOT 基于 Next.js 16 + React 19 + Tailwind CSS 4 构建，采用静态导出（SSG）部署在 GitHub Pages 上。
-            数据抓取脚本使用 TypeScript 编写，通过 GitHub Actions 每天自动执行。
-          </p>
-        </section>
+        <details className="about-maintenance-details">
+          <summary>
+            <span>
+              <strong>项目维护与支持</strong>
+              <small>技术说明、网站反馈与自愿打赏</small>
+            </span>
+            <span aria-hidden="true">展开查看</span>
+          </summary>
 
-        {/* 联系与反馈 */}
-        <section className="timeline-card">
-          <h2 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.75rem' }}>JOBHOT 网站反馈</h2>
-          <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)', lineHeight: 1.8, marginBottom: '1rem' }}>
-            如果你发现了网站 Bug、有功能建议或想推荐新的招聘数据源，可以通过以下方式联系网站维护者；职业方向、测评解读和求职服务，请扫描上方“职路同行社”公众号二维码了解。
-          </p>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', padding: '0.75rem 1rem', background: 'var(--bg-elevated)', borderRadius: '0.5rem' }}>
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
-              </svg>
-              <div>
-                <div style={{ fontSize: '0.8125rem', color: 'var(--text-muted)' }}>微信号</div>
-                <div style={{ fontSize: '0.9375rem', fontWeight: 600, color: 'var(--text)' }}>diyiwuyan</div>
+          <div className="about-maintenance-content">
+            <section>
+              <h2>技术与维护</h2>
+              <p>
+                JOBHOT 基于 Next.js、React 和 TypeScript 构建，采用静态站点方式部署，并通过自动化任务更新公开招聘数据。
+                这部分信息主要面向关心网站实现和持续维护的用户。
+              </p>
+            </section>
+
+            <section>
+              <h2>网站反馈</h2>
+              <p>如果你发现网站 Bug、失效信息，或希望推荐新的公开数据源，可以联系网站维护者：</p>
+              <div className="about-maintenance-contact">
+                <span>微信：diyiwuyan</span>
+                <a href="mailto:diyiwuyan@163.com">邮箱：diyiwuyan@163.com</a>
               </div>
-            </div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', padding: '0.75rem 1rem', background: 'var(--bg-elevated)', borderRadius: '0.5rem' }}>
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
-                <polyline points="22,6 12,13 2,6" />
-              </svg>
-              <div>
-                <div style={{ fontSize: '0.8125rem', color: 'var(--text-muted)' }}>邮箱</div>
-                <a href="mailto:diyiwuyan@163.com" style={{ fontSize: '0.9375rem', fontWeight: 600, color: 'var(--accent)' }}>diyiwuyan@163.com</a>
+              <p>职业方向、测评解读和求职服务，请通过上方“职路同行社”公众号进入。</p>
+            </section>
+
+            <section>
+              <h2>自愿支持</h2>
+              <p>JOBHOT 的公开信息与基础工具免费使用。如果这个网站对你有帮助，可以自愿支持后续维护；不打赏不会影响任何功能或服务。</p>
+              <div className="donate-grid about-donate-grid">
+                <div className="donate-card donate-card-wechat">
+                  <div className="donate-card-header"><span style={{ fontWeight: 600, color: '#07C160' }}>微信支付</span></div>
+                  <Image src="/images/donate-wechat.jpg" alt="微信收款码" width={220} height={220} className="donate-qr" />
+                </div>
+                <div className="donate-card donate-card-alipay">
+                  <div className="donate-card-header"><span style={{ fontWeight: 600, color: '#1677FF' }}>支付宝</span></div>
+                  <Image src="/images/donate-alipay.jpg" alt="支付宝收款码" width={220} height={220} className="donate-qr" />
+                </div>
               </div>
-            </div>
+            </section>
           </div>
-        </section>
-
-        {/* 打赏支持 */}
-        <section className="timeline-card">
-          <h2 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.75rem' }}>打赏支持</h2>
-          <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)', lineHeight: 1.8, marginBottom: '1.25rem' }}>
-            JOBHOT 是个人免费项目，服务器、域名、数据采集都需要持续投入。你的支持是我继续维护的动力，金额随意，心意最重要。
-          </p>
-          <div className="donate-grid">
-            <div className="donate-card donate-card-wechat">
-              <div className="donate-card-header">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                  <path d="M8.5 11a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM13.5 11a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" fill="#07C160"/>
-                  <path d="M21 12.5C21 7.25 16.75 3 11.5 3S2 7.25 2 12.5c0 2.9 1.3 5.5 3.4 7.2.2.2.3.4.3.7l.1 2.1c0 .4.4.6.7.4l2.4-1.2c.2-.1.4-.1.6 0 .6.2 1.3.3 2 .3 5.25 0 9.5-4.25 9.5-9.5Z" stroke="#07C160" strokeWidth="1.5" fill="none"/>
-                </svg>
-                <span style={{ fontWeight: 600, color: '#07C160' }}>微信支付</span>
-              </div>
-              <img
-                src={`${basePath}/images/donate-wechat.jpg`}
-                alt="微信收款码"
-                className="donate-qr"
-              />
-            </div>
-
-            <div className="donate-card donate-card-alipay">
-              <div className="donate-card-header">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                  <rect x="2" y="4" width="20" height="16" rx="3" stroke="#1677FF" strokeWidth="1.5"/>
-                  <path d="M14 12c2.5 1.5 4 2.5 4 2.5s-1.5.5-4-.5c-1.5-.6-3-1.5-3-1.5" stroke="#1677FF" strokeWidth="1.5" strokeLinecap="round"/>
-                  <path d="M8 9h5M8 11h3" stroke="#1677FF" strokeWidth="1.5" strokeLinecap="round"/>
-                </svg>
-                <span style={{ fontWeight: 600, color: '#1677FF' }}>支付宝</span>
-              </div>
-              <img
-                src={`${basePath}/images/donate-alipay.jpg`}
-                alt="支付宝收款码"
-                className="donate-qr"
-              />
-            </div>
-          </div>
-        </section>
+        </details>
       </div>
     </div>
   );

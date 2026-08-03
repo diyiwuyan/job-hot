@@ -4,7 +4,7 @@ import { AssessmentSourceCapture } from '@/components/AssessmentSourceCapture';
 import { ZhiluBrandIntro } from '@/components/ZhiluBrandIntro';
 
 export const metadata: Metadata = {
-  title: '职业测评与求职诊断 - JOBHOT × 职路同行社',
+  title: '职业测评与求职诊断 - JOBHOT｜职路同行社出品',
   description: 'JOBHOT 提供免费自我探索与求职诊断工具，职路同行社提供结果解读、行动建议与进一步支持。',
 };
 

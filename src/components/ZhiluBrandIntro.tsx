@@ -16,7 +16,7 @@ export function ZhiluBrandIntro({ mode = 'summary' }: ZhiluBrandIntroProps) {
             <Image src="/images/zhilu-tongxingshe-brand-mark.svg" alt="" width={48} height={41} />
           </span>
           <div>
-            <div className="zhilu-brand-eyebrow">JOBHOT × 职路同行社</div>
+            <div className="zhilu-brand-eyebrow">JOBHOT｜职路同行社出品</div>
             <h2>职路同行社｜大学生职业发展与求职支持平台</h2>
           </div>
         </div>
@@ -27,9 +27,9 @@ export function ZhiluBrandIntro({ mode = 'summary' }: ZhiluBrandIntroProps) {
         </p>
 
         <div className="zhilu-relationship">
-          <div><strong>JOBHOT</strong><span>求职信息聚合与在线工具</span></div>
-          <span className="zhilu-relationship-plus">×</span>
-          <div><strong>职路同行社</strong><span>职业发展内容、测评解读与行动支持</span></div>
+          <div><strong>JOBHOT</strong><span>职路同行社打造的求职信息与在线工具平台</span></div>
+          <span className="zhilu-relationship-plus">出品</span>
+          <div><strong>职路同行社</strong><span>专业内容、测评解读与求职支持主体</span></div>
         </div>
 
         {full && (
@@ -55,7 +55,7 @@ export function ZhiluBrandIntro({ mode = 'summary' }: ZhiluBrandIntroProps) {
 
       {full && (
         <div className="zhilu-official-qr">
-          <div className="zhilu-official-qr-title">关注公众号</div>
+          <div className="zhilu-official-qr-title">官方内容与服务入口</div>
           <Image src="/images/qr-official.jpeg" alt="职路同行社公众号二维码" width={176} height={176} />
           <strong>职路同行社</strong>
           <span>持续获取职业方向、简历面试、校招行动与心理支持内容</span>
