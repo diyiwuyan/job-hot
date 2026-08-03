@@ -1,11 +1,16 @@
 import type { Metadata } from 'next';
+import { AdminOnlyGate } from '@/components/AdminOnlyGate';
 import { StateOwnedJobNavigator } from '@/components/StateOwnedJobNavigator';
 
 export const metadata: Metadata = {
-  title: '央国企求职导航 - JOBHOT',
-  description: '按专业匹配央国企可投递企业、岗位方向、学历要求、招聘节奏与面试准备要点。',
+  title: '管理员工具 - JOBHOT',
+  description: 'JOBHOT 管理员内部工具，仅向获得权限的账号开放。',
 };
 
 export default function SoeJobNavPage() {
-  return <StateOwnedJobNavigator />;
+  return (
+    <AdminOnlyGate redirectPath="/services/soe-job-nav">
+      <StateOwnedJobNavigator />
+    </AdminOnlyGate>
+  );
 }

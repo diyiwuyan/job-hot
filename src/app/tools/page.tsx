@@ -58,7 +58,7 @@ export default function ToolsPage() {
           </div>
         </Link>
 
-        {/* 求职辅导 */}
+        {/* 获得求职支持 */}
         <Link
           href="/tools/coaching"
           className="timeline-card timeline-card-featured"
@@ -66,10 +66,10 @@ export default function ToolsPage() {
         >
           <div style={{ fontSize: '2rem', marginBottom: '0.75rem' }}>🚀</div>
           <h2 style={{ fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.5rem', color: 'var(--text)' }}>
-            求职辅导
+            获得求职支持
           </h2>
           <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.7, margin: 0 }}>
-            由职路同行社提供职业方向、经历梳理、简历面试与行动支持；不承诺录用结果，重点把求职中的关键动作做扎实。
+            了解职路同行社的训练营和陪跑服务：从职业方向、经历梳理到简历面试与行动推进，把求职中的关键动作做扎实。
           </p>
           <div className="timeline-tags" style={{ marginTop: '0.75rem' }}>
             <span className="tag">系统辅导</span>
@@ -78,7 +78,7 @@ export default function ToolsPage() {
           </div>
         </Link>
 
-        {/* 求职训练营 */}
+        {/* 学员中心 */}
         <Link
           href="/tools/career-camp"
           className="timeline-card timeline-card-featured"
@@ -86,10 +86,10 @@ export default function ToolsPage() {
         >
           <div style={{ fontSize: '2rem', marginBottom: '0.75rem' }}>📚</div>
           <h2 style={{ fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.5rem', color: 'var(--text)' }}>
-            求职训练营
+            学员中心
           </h2>
           <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.7, margin: 0 }}>
-            登录后跟随课程大纲完成课后作业打卡，老师可查看完成情况和个人累计完成率。
+            已报名学员登录后，可查看课程大纲、完成课后作业打卡，并接收老师反馈。
           </p>
           <div className="timeline-tags" style={{ marginTop: '0.75rem' }}>
             <span className="tag">课程大纲</span>

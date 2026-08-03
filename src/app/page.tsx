@@ -48,6 +48,41 @@ const features = [
   },
 ];
 
+const journeys = [
+  {
+    icon: '⌕',
+    title: '找机会',
+    desc: '查看校招、实习和宣讲会，建立自己的目标岗位池。',
+    href: '/all',
+    action: '浏览招聘信息',
+    color: '#3b82f6',
+  },
+  {
+    icon: '◎',
+    title: '找方向',
+    desc: '从职业坐标和免费测评开始，先看清兴趣、资源与当前卡点。',
+    href: '/tools/assessment',
+    action: '进入职业测评',
+    color: '#8b5cf6',
+  },
+  {
+    icon: '✓',
+    title: '做准备',
+    desc: '练习笔试、优化材料，把经历转化成岗位看得见的证据。',
+    href: '/tools/exam',
+    action: '开始求职准备',
+    color: '#f59e0b',
+  },
+  {
+    icon: '↗',
+    title: '获得支持',
+    desc: '了解训练营和后续支持，让方向、材料和行动形成闭环。',
+    href: '/tools/coaching',
+    action: '查看支持方案',
+    color: '#22c55e',
+  },
+];
+
 export default function HomePage() {
   const [homeData, setHomeData] = useState<HomeData | null>(null);
 
@@ -113,6 +148,25 @@ export default function HomePage() {
           浏览全部岗位
         </Link>
       </div>
+
+      <section className="journey-section">
+        <div className="journey-heading">
+          <span>你现在想先解决什么？</span>
+          <p>不必一次用完所有功能，先从最接近当前状态的一步开始。</p>
+        </div>
+        <div className="journey-grid">
+          {journeys.map((journey) => (
+            <Link key={journey.title} href={journey.href} className="journey-card">
+              <span className="journey-icon" style={{ color: journey.color, borderColor: `${journey.color}55`, background: `${journey.color}12` }}>{journey.icon}</span>
+              <div>
+                <h2>{journey.title}</h2>
+                <p>{journey.desc}</p>
+                <strong style={{ color: journey.color }}>{journey.action} →</strong>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </section>
 
       <ZhiluBrandIntro />
 

@@ -54,11 +54,24 @@ export function ZhiluBrandIntro({ mode = 'summary' }: ZhiluBrandIntroProps) {
       </div>
 
       {full && (
-        <div className="zhilu-official-qr">
-          <div className="zhilu-official-qr-title">官方内容与服务入口</div>
-          <Image src="/images/qr-official.jpeg" alt="职路同行社公众号二维码" width={176} height={176} />
-          <strong>职路同行社</strong>
-          <span>持续获取职业方向、简历面试、校招行动与心理支持内容</span>
+        <div className="zhilu-contact-panel">
+          <div className="zhilu-official-qr">
+            <div className="zhilu-official-qr-title">官方内容入口</div>
+            <Image src="/images/qr-official.jpeg" alt="职路同行社公众号二维码" width={156} height={156} />
+            <strong>职路同行社公众号</strong>
+            <span>职业方向、简历面试、校招行动与心理支持内容</span>
+          </div>
+          <div className="zhilu-official-qr">
+            <div className="zhilu-official-qr-title">服务与合作联系</div>
+            <Image src="/images/qr-coach-xiaoxian.png" alt="小仙老师微信二维码" width={156} height={156} />
+            <strong>小仙老师</strong>
+            <span>求职服务、内容合作与高校机构合作</span>
+          </div>
+          <div className="zhilu-official-contact">
+            <strong>小仙老师官方联系电话</strong>
+            <a href="tel:18611884299">186 1188 4299</a>
+            <span>电话与微信同号｜商务合作与服务咨询均可联系</span>
+          </div>
         </div>
       )}
     </section>

@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { supabase } from '@/lib/supabase';
 import { useAuth } from '@/components/AuthContext';
@@ -196,6 +197,14 @@ export default function LoginPage() {
             : '登录后可以收藏职位信息，数据云端同步，多设备通用。'
           }
         </p>
+        {mode === 'register' && (
+          <p className="login-legal-note">
+            点击“注册”即表示你已阅读并同意
+            <Link href="/terms">《用户协议》</Link>
+            和
+            <Link href="/privacy">《隐私政策》</Link>。
+          </p>
+        )}
       </div>
     </div>
   );

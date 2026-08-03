@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import { Sidebar } from '@/components/Sidebar';
@@ -49,10 +50,14 @@ export default function RootLayout({
                 {children}
                 <footer className="site-footer">
                   <div className="site-footer-partnership">
-                    <a href="/about/#zhilu"><strong>JOBHOT｜职路同行社出品</strong></a>
+                    <Link href="/about/#zhilu"><strong>JOBHOT｜职路同行社出品</strong></Link>
                     <span>求职信息与工具 · 职业发展与行动支持</span>
                   </div>
-                  <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">津ICP备2024024694号</a>
+                  <div className="site-footer-links">
+                    <Link href="/privacy">隐私政策</Link>
+                    <Link href="/terms">用户协议</Link>
+                    <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">津ICP备2024024694号</a>
+                  </div>
                 </footer>
               </main>
             </AppShell>

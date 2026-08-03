@@ -30,7 +30,7 @@ const navItems: NavItem[] = [
   },
   {
     href: '/all',
-    label: '求职信息',
+    label: '找机会',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <line x1="8" y1="6" x2="21" y2="6" />
@@ -41,10 +41,17 @@ const navItems: NavItem[] = [
         <line x1="3" y1="18" x2="3.01" y2="18" />
       </svg>
     ),
+    children: [
+      { href: '/all', label: '全部招聘' },
+      { href: '/nav', label: '求职导航' },
+      { href: '/shame', label: '校招避雷' },
+      { href: '/subscription', label: '订阅推送' },
+      { href: '/bookmarks', label: '我的收藏' },
+    ],
   },
   {
-    href: '/tools',
-    label: '职业服务',
+    href: '/tools/assessment',
+    label: '找方向',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="12" cy="12" r="10" />
@@ -53,78 +60,37 @@ const navItems: NavItem[] = [
       </svg>
     ),
     children: [
-      {
-        href: '/tools/career-atlas',
-        label: '职业坐标',
-      },
-      {
-        href: '/tools/assessment',
-        label: '职业测评',
-      },
-      {
-        href: '/tools/coaching',
-        label: '求职辅导',
-      },
-      {
-        href: '/tools/career-camp',
-        label: '求职训练营',
-      },
-      {
-        href: '/tools/exam',
-        label: '笔试训练',
-      },
-      {
-        href: 'https://ai-resume-9wy.pages.dev/',
-        label: 'AI简历',
-        external: true,
-      },
+      { href: '/tools/career-atlas', label: '职业坐标' },
+      { href: '/tools/assessment', label: '职业测评' },
     ],
   },
   {
-    href: '/services/soe-delivery',
-    label: '央国企服务',
+    href: '/tools/exam',
+    label: '做准备',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-        <rect x="4" y="3" width="16" height="18" rx="2" />
-        <path d="M9 7h1" />
-        <path d="M14 7h1" />
-        <path d="M9 11h1" />
-        <path d="M14 11h1" />
-        <path d="M9 15h1" />
-        <path d="M14 15h1" />
+        <path d="M9 11l3 3L22 4" />
+        <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
       </svg>
     ),
     children: [
-      {
-        href: '/services/soe-delivery',
-        label: '投递导航',
-      },
-      {
-        href: '/services/soe-job-nav',
-        label: '求职导航',
-      },
+      { href: '/tools/exam', label: '笔试训练' },
+      { href: 'https://ai-resume-9wy.pages.dev/', label: 'AI简历', external: true },
     ],
   },
   {
-    href: '/nav',
-    label: '常用网址',
+    href: '/tools/coaching',
+    label: '获得支持',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-        <circle cx="12" cy="12" r="10" />
-        <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" />
+        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+        <circle cx="12" cy="7" r="4" />
       </svg>
     ),
-  },
-  {
-    href: '/shame',
-    label: '校招避雷',
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" />
-        <line x1="12" y1="9" x2="12" y2="13" />
-        <line x1="12" y1="17" x2="12.01" y2="17" />
-      </svg>
-    ),
+    children: [
+      { href: '/tools/coaching', label: '7天训练营介绍' },
+      { href: '/tools/career-camp', label: '学员中心' },
+    ],
   },
   {
     href: '/wish',
@@ -132,25 +98,6 @@ const navItems: NavItem[] = [
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-      </svg>
-    ),
-  },
-  {
-    href: '/bookmarks',
-    label: '我的收藏',
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
-      </svg>
-    ),
-  },
-  {
-    href: '/subscription',
-    label: '订阅推送',
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" />
-        <path d="M13.73 21a2 2 0 0 1-3.46 0" />
       </svg>
     ),
   },
@@ -311,7 +258,7 @@ export function Sidebar() {
 
         {/* Admin panel — only visible to admins */}
         {isAdmin && (() => {
-          const adminActive = isActive('/admin');
+          const adminActive = isActive('/admin') || isActive('/services/soe-');
           const adminOpen = expanded['管理后台'] ?? adminActive;
           return (
             <>
@@ -367,6 +314,20 @@ export function Sidebar() {
                       onClick={close}
                     >
                       训练营管理
+                    </Link>
+                    <Link
+                      href="/services/soe-delivery"
+                      className={`side-sublink ${isActive('/services/soe-delivery') ? 'side-sublink-active' : ''}`}
+                      onClick={close}
+                    >
+                      央国企投递导航
+                    </Link>
+                    <Link
+                      href="/services/soe-job-nav"
+                      className={`side-sublink ${isActive('/services/soe-job-nav') ? 'side-sublink-active' : ''}`}
+                      onClick={close}
+                    >
+                      央国企求职导航
                     </Link>
                   </div>
                 )}
