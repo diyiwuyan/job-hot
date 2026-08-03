@@ -1,5 +1,29 @@
 [
   {
+    "id": "guopin-212106413965576963",
+    "title": "国药集团致君（深圳）制药有限公司 — 设备工程岗（26届自动化方向）",
+    "summary": "企业性质：国企。行业：医药制造业。工作地点：深圳-坪山区。薪资面议。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=212106413965576963",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "深圳-坪山区",
+    "deadline": "2026/09/06",
+    "tags": [
+      "国药集团致君（深圳）制药有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "医药制造业",
+      "深圳"
+    ],
+    "score": 80,
+    "featured": true,
+    "createdAt": "2026-08-03T14:07:44.000Z"
+  },
+  {
     "id": "guopin-212084239099759371",
     "title": "云南锡业锡化工材料有限责任公司 — 产品研发",
     "summary": "企业性质：国企。行业：化学原料和化学制品制造业。工作地点：红河-个旧市。薪资：7500-9000元/月。学历：硕士。规模：500-1000人。",
@@ -213,6 +237,30 @@
     "score": 80,
     "featured": true,
     "createdAt": "2026-08-03T08:30:00.000Z"
+  },
+  {
+    "id": "guopin-212091919541471907",
+    "title": "国药集团容生制药有限公司 — 环保管理员",
+    "summary": "企业性质：国企。行业：医药制造业。工作地点：焦作-武陟县。薪资面议。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=212091919541471907",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "焦作-武陟县",
+    "deadline": "2026/08/04",
+    "tags": [
+      "国药集团容生制药有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "医药制造业",
+      "焦作"
+    ],
+    "score": 83,
+    "featured": true,
+    "createdAt": "2026-08-03T08:00:00.000Z"
   },
   {
     "id": "guopin-212077158074419864",
@@ -525,6 +573,29 @@
     "createdAt": "2026-08-03T00:00:00.000Z"
   },
   {
+    "id": "guopin-209512105005549810",
+    "title": "上海长江轮船有限公司 — 行政管理",
+    "summary": "企业性质：国企。行业：水上运输业。工作地点：上海-浦东新区。薪资面议。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=209512105005549810",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "上海-浦东新区",
+    "deadline": "2026/10/14",
+    "tags": [
+      "上海长江轮船有限公司",
+      "校招",
+      "国企",
+      "水上运输业",
+      "上海"
+    ],
+    "score": 82,
+    "featured": true,
+    "createdAt": "2026-08-03T00:00:00.000Z"
+  },
+  {
     "id": "guopin-211090360816896247",
     "title": "太极计算机股份有限公司 — 产品经理（2027届校招岗位）",
     "summary": "企业性质：国企。行业：软件和信息技术服务业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：2000-5000人。",
@@ -687,6 +758,29 @@
       "互联网/AI",
       "软件和信息技术服务业",
       "西安"
+    ],
+    "score": 80,
+    "featured": true,
+    "createdAt": "2026-08-03T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-212106748016724632",
+    "title": "上海长江轮船有限公司 — 人力资源管理",
+    "summary": "企业性质：国企。行业：水上运输业。工作地点：上海。薪资面议。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=212106748016724632",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "上海",
+    "deadline": "2026/10/31",
+    "tags": [
+      "上海长江轮船有限公司",
+      "校招",
+      "国企",
+      "水上运输业",
+      "上海"
     ],
     "score": 80,
     "featured": true,
@@ -13535,29 +13629,6 @@
       "金融",
       "电力、热力生产和供应业",
       "中国"
-    ],
-    "score": 72,
-    "featured": false,
-    "createdAt": "2026-07-16T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-209512105005549810",
-    "title": "上海长江轮船有限公司 — 行政管理",
-    "summary": "企业性质：国企。行业：水上运输业。工作地点：上海-浦东新区。薪资面议。学历：本科。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=209512105005549810",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "上海-浦东新区",
-    "deadline": "2026/09/01",
-    "tags": [
-      "上海长江轮船有限公司",
-      "校招",
-      "国企",
-      "水上运输业",
-      "上海"
     ],
     "score": 72,
     "featured": false,
