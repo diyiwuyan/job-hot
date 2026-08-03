@@ -18,6 +18,9 @@ export interface HollandTypeInfo {
   traits: string[];
   careers: string[];
   majors: string[];
+  workSignals: string;
+  verifyQuestion: string;
+  reminder: string;
 }
 
 export const TYPE_INFO: Record<HollandType, HollandTypeInfo> = {
@@ -30,6 +33,9 @@ export const TYPE_INFO: Record<HollandType, HollandTypeInfo> = {
     traits: ['动手能力强', '务实稳重', '喜欢户外或机械', '逻辑清晰', '不善言辞但靠谱'],
     careers: ['工程师', '机械/电气技术员', '建筑施工', '运维/网络工程师', '农林牧渔', '飞行员/驾驶员', '制造业岗位'],
     majors: ['机械工程', '土木工程', '电气工程', '自动化', '农学', '车辆工程'],
+    workSignals: '能动手解决真实问题、成果可见、设备或现场反馈及时。',
+    verifyQuestion: '这个岗位日常有多少时间在操作、调试、现场解决问题？',
+    reminder: '喜欢动手不等于只适合技术岗，还要结合能力基础与岗位训练方式。',
   },
   I: {
     type: 'I',
@@ -40,6 +46,9 @@ export const TYPE_INFO: Record<HollandType, HollandTypeInfo> = {
     traits: ['爱钻研', '逻辑分析强', '独立', '好奇心旺盛', '追求精确'],
     careers: ['科研人员', '数据分析师', '算法/AI 工程师', '医生', '高校教师', '产品研究', '咨询分析师'],
     majors: ['计算机', '数学', '物理', '生物', '医学', '统计学', '经济学'],
+    workSignals: '问题有挑战、可以分析证据、允许深入拆解和持续学习。',
+    verifyQuestion: '这个岗位需要解决的核心问题是什么，分析和研究占多大比重？',
+    reminder: '喜欢研究不代表只适合学术路径，业务分析、产品研究同样需要这类倾向。',
   },
   A: {
     type: 'A',
@@ -50,6 +59,9 @@ export const TYPE_INFO: Record<HollandType, HollandTypeInfo> = {
     traits: ['想象力丰富', '审美敏锐', '追求个性', '情感细腻', '厌恶束缚'],
     careers: ['设计师（UI/平面/工业）', '内容创作/编辑', '广告创意', '影视/动画', '音乐/表演', '建筑设计', '品牌策划'],
     majors: ['设计学', '美术', 'music/表演', '广告学', '新闻传播', '建筑学', '数字媒体'],
+    workSignals: '可表达观点、有创作空间、审美或叙事会影响成果质量。',
+    verifyQuestion: '这个岗位有哪些部分需要提出新想法、表达或创作？',
+    reminder: '创意岗位也有流程和协作，兴趣要与作品、技能和商业任务一起验证。',
   },
   S: {
     type: 'S',
@@ -60,6 +72,9 @@ export const TYPE_INFO: Record<HollandType, HollandTypeInfo> = {
     traits: ['善于沟通', '富有同理心', '乐于助人', '团队意识强', '有亲和力'],
     careers: ['教师', 'HR/招聘', '心理咨询', '社工/公益', '医护', '培训师', '客户成功/运营'],
     majors: ['教育学', '心理学', '社会工作', '护理', '人力资源管理', '汉语言/师范'],
+    workSignals: '需要理解他人、促进协作、支持成长或解决服务对象的问题。',
+    verifyQuestion: '这个岗位主要服务谁，日常如何与人协作和建立信任？',
+    reminder: '愿意帮助人不等于要承担所有情绪劳动，也要看边界和专业要求。',
   },
   E: {
     type: 'E',
@@ -70,6 +85,9 @@ export const TYPE_INFO: Record<HollandType, HollandTypeInfo> = {
     traits: ['有领导力', '善于说服', '目标导向', '敢冒险', '精力充沛'],
     careers: ['销售/商务', '市场营销', '管理/创业', '产品经理', '投资/金融', '公关', '项目管理'],
     majors: ['工商管理', '市场营销', '金融', '国际贸易', '法学', '管理科学'],
+    workSignals: '目标清晰、需要推动资源或影响他人、成果与业务结果有关。',
+    verifyQuestion: '这个岗位需要推动哪些人或资源，结果通常如何衡量？',
+    reminder: '喜欢影响不等于一定要做管理，先从项目推进、表达和协商能力开始积累。',
   },
   C: {
     type: 'C',
@@ -80,6 +98,9 @@ export const TYPE_INFO: Record<HollandType, HollandTypeInfo> = {
     traits: ['细致严谨', '有条理', '责任心强', '遵守规则', '执行力高'],
     careers: ['会计/审计', '财务', '行政/文秘', '银行业务', '数据录入/管理', '公务员', '法务专员'],
     majors: ['会计学', '财务管理', '审计', '行政管理', '信息管理', '统计'],
+    workSignals: '规则明确、流程清晰、细节准确会直接影响质量和效率。',
+    verifyQuestion: '这个岗位有哪些关键流程、标准或需要长期维护的系统？',
+    reminder: '偏好秩序不等于喜欢机械重复，也可以在运营、项目管理等岗位发挥。',
   },
 };
 

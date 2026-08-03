@@ -275,6 +275,28 @@ export default function HollandPage() {
         })}
       </div>
 
+      <section className="card" style={{ marginBottom: '1rem' }}>
+        <h2 style={{ fontSize: '1rem', marginBottom: '0.35rem' }}>把兴趣代码转成岗位验证问题</h2>
+        <p style={{ color: 'var(--text-muted)', fontSize: '0.8rem', lineHeight: 1.7 }}>
+          代码是兴趣线索，不是职业处方。建议用下面这张表去看真实JD、参加宣讲会或访谈从业者。
+        </p>
+        <div style={{ overflowX: 'auto' }}>
+          <table style={{ width: '100%', minWidth: 650, borderCollapse: 'collapse', fontSize: '0.8rem', lineHeight: 1.65 }}>
+            <thead><tr>{['优先类型', '你可能更享受的任务/环境', '可探索方向', '可以直接问的问题', '使用结果时的提醒'].map((text) => <th key={text} style={{ textAlign: 'left', padding: '.6rem', borderBottom: '1px solid var(--border)', color: 'var(--text-muted)' }}>{text}</th>)}</tr></thead>
+            <tbody>{top3.map((item) => {
+              const info = TYPE_INFO[item.type];
+              return <tr key={item.type}>
+                <td style={{ padding: '.7rem .6rem', borderBottom: '1px solid var(--border)', color: info.color, fontWeight: 700 }}>{item.type} · {info.name}</td>
+                <td style={{ padding: '.7rem .6rem', borderBottom: '1px solid var(--border)' }}>{info.workSignals}</td>
+                <td style={{ padding: '.7rem .6rem', borderBottom: '1px solid var(--border)' }}>{info.careers.slice(0, 4).join('、')}</td>
+                <td style={{ padding: '.7rem .6rem', borderBottom: '1px solid var(--border)' }}>{info.verifyQuestion}</td>
+                <td style={{ padding: '.7rem .6rem', borderBottom: '1px solid var(--border)', color: 'var(--text-muted)' }}>{info.reminder}</td>
+              </tr>;
+            })}</tbody>
+          </table>
+        </div>
+      </section>
+
       {/* Top3 详解 */}
       {top3.map((r, idx) => {
         const info = TYPE_INFO[r.type];
@@ -332,9 +354,9 @@ export default function HollandPage() {
         summary="兴趣结果适合用来生成探索假设，不能单独决定你应该选择哪个职业。"
         action={hollandAction}
         nextStep={{
-          href: '/tools/autumn-start',
-          label: '如果你正在准备27届秋招，继续判断当前任务卡点',
-          description: '兴趣线索回答“我愿意探索什么”，秋招启动诊断会进一步回答“我现在应该先处理哪一步”。',
+          href: '/tools/values',
+          label: '继续梳理你筛选工作时最看重什么',
+          description: '兴趣线索回答“我愿意探索什么”，职业价值观测评进一步帮你判断一份工作需要满足哪些条件。',
         }}
         campFit="如果你仍需把兴趣线索与真实经历、岗位要求和行动计划连接起来，可以再了解训练营；它不会依据一次测评替你决定职业。"
         accent={TYPE_INFO[top3[0].type].color}
@@ -346,7 +368,7 @@ export default function HollandPage() {
       </div>
 
       <p style={{ fontSize: '0.72rem', color: 'var(--text-muted)', marginTop: '1.5rem', lineHeight: 1.7 }}>
-        说明：本测试为简化版霍兰德兴趣量表，结果仅供职业探索参考，不构成专业测评、心理诊断或岗位匹配结论。
+        说明：本测试为原创的简化版霍兰德兴趣自测，结果仅供职业探索参考，不构成专业测评、心理诊断或岗位匹配结论。
       </p>
     </div>
   );

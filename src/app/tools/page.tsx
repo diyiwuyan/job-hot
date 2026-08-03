@@ -49,11 +49,11 @@ export default function ToolsPage() {
             职业测评
           </h2>
           <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.7, margin: 0 }}>
-            秋招启动诊断、求职底牌、霍兰德兴趣与16型性格偏好 —— 四套免费自我探索工具，帮你找到更具体的下一步。
+            秋招启动诊断、求职底牌、霍兰德兴趣、MBTI 与职业价值观 —— 五套免费自我探索工具，帮你找到更具体的下一步。
           </p>
           <div className="timeline-tags" style={{ marginTop: '0.75rem' }}>
             <span className="tag">免费</span>
-            <span className="tag">4套测评</span>
+            <span className="tag">5套测评</span>
             <span className="tag">5-10分钟</span>
           </div>
         </Link>

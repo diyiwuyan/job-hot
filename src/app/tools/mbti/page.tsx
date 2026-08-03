@@ -108,7 +108,7 @@ export default function MbtiPage() {
     return (
       <div className="page">
         <div className="page-header">
-          <h1>16型性格偏好自测</h1>
+          <h1>MBTI 测试（非官方）</h1>
           <p>70道原创题 · 约10分钟 · 完整结果免费</p>
         </div>
 
@@ -198,7 +198,7 @@ export default function MbtiPage() {
   return (
     <div className="page">
       <div className="page-header">
-        <h1>你的16型性格偏好结果</h1>
+        <h1>你的 MBTI 偏好结果</h1>
         <p>{calculation.borderline ? '有维度接近中线，请重点看比例而不只看四字母' : '四组偏好相对清晰，但偏好仍会随情境变化'}</p>
       </div>
 
@@ -259,7 +259,7 @@ export default function MbtiPage() {
 
       <AssessmentResultActions
         assessmentId="mbti"
-        assessmentName="16型性格偏好自测（非官方）"
+        assessmentName="MBTI 测试（非官方）"
         resultName={`${result.code} · ${result.name}`}
         headline={result.tagline}
         summary={result.description}

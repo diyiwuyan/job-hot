@@ -42,13 +42,23 @@ const entryCards = [
   },
   {
     question: '想了解自己的性格与工作环境偏好',
-    title: '16型性格偏好自测',
+    title: 'MBTI 测试（非官方）',
     meta: '70道原创题 · 约10分钟 · 支持续测',
     description: '从精力来源、信息偏好、决策偏好和生活方式四组维度获得16型偏好结果；用于自我探索，不把类型直接等同于职业答案。',
     href: '/tools/mbti',
     icon: '◔',
     gradient: 'linear-gradient(135deg, #f59e0b, #ef4444)',
-    tags: ['16型偏好', '非官方版', '完整结果免费'],
+    tags: ['MBTI', '非官方版', '完整结果免费'],
+  },
+  {
+    question: '想知道一份工作需要满足哪些条件',
+    title: '职业价值观测评',
+    meta: '30道原创题 · 约5分钟',
+    description: '梳理成长、自主、稳定、影响、关系与生活边界六项优先条件，并得到可用于看JD和面试反问的岗位验证表。',
+    href: '/tools/values',
+    icon: '◇',
+    gradient: 'linear-gradient(135deg, #0f766e, #2563eb)',
+    tags: ['岗位筛选', '价值观', '完整结果免费'],
   },
 ];
 
