@@ -46,7 +46,7 @@ export default function ToolsPage() {
             职业测评
           </h2>
           <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.7, margin: 0 }}>
-            霍兰德兴趣测试、MBTI 性格测试、求职底牌自测表 —— 三套免费科学工具，帮你找到适合的职业方向。
+            秋招启动诊断、求职底牌、霍兰德兴趣与16型性格偏好 —— 四套免费自我探索工具，帮你找到更具体的下一步。
           </p>
           <div className="timeline-tags" style={{ marginTop: '0.75rem' }}>
             <span className="tag">免费</span>

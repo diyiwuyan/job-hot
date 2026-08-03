@@ -106,6 +106,7 @@ const MODULE_MAP: Record<string, string> = {
   '/': '首页',
   '/all': '求职信息',
   '/tools/assessment': '职业测评',
+  '/tools/mbti': '16型性格偏好自测',
   '/tools/coaching': '求职辅导',
   '/tools': '职业服务',
   '/tools/career-camp': '求职训练营',

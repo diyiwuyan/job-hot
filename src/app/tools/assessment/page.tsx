@@ -39,6 +39,16 @@ const entryCards = [
     gradient: 'linear-gradient(135deg, #6366f1, #8b5cf6)',
     tags: ['职业兴趣', '方向探索', '免费'],
   },
+  {
+    question: '想了解自己的性格与工作环境偏好',
+    title: '16型性格偏好自测',
+    meta: '70道原创题 · 约10分钟 · 支持续测',
+    description: '从精力来源、信息偏好、决策偏好和生活方式四组维度获得16型偏好结果；用于自我探索，不把类型直接等同于职业答案。',
+    href: '/tools/mbti',
+    icon: '◔',
+    gradient: 'linear-gradient(135deg, #f59e0b, #ef4444)',
+    tags: ['16型偏好', '非官方版', '完整结果免费'],
+  },
 ];
 
 export default function AssessmentPage() {
@@ -95,19 +105,6 @@ export default function AssessmentPage() {
             </Link>
           ))}
 
-          <div className="timeline-card" style={{ opacity: 0.66 }} aria-disabled="true">
-            <div style={{ color: 'var(--text-muted)', fontSize: '0.75rem', marginBottom: '0.55rem' }}>如果你：想了解性格与工作环境偏好</div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem' }}>
-              <span style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: 44, height: 44, borderRadius: 12, background: 'linear-gradient(135deg, #f59e0b, #ef4444)', color: '#fff', fontSize: '1.2rem' }}>◔</span>
-              <div>
-                <div style={{ fontSize: '1rem', fontWeight: 650 }}>MBTI 性格类型测试</div>
-                <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>16型人格 · 即将上线</div>
-              </div>
-            </div>
-            <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.7, margin: 0 }}>
-              用于轻量自我探索，不把性格类型直接等同于“适合或不适合某个职业”。
-            </p>
-          </div>
         </div>
       </section>
 
