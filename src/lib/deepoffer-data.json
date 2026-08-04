@@ -378,8 +378,8 @@
       "央国企",
       "矿产金属"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-08-01T02:17:36.000Z"
   },
   {
@@ -521,30 +521,6 @@
     "createdAt": "2026-07-31T22:23:15.000Z"
   },
   {
-    "id": "deepoffer-18142",
-    "title": "新加坡航空 — 秋招 | 空中乘务员",
-    "summary": "招聘类型：秋招。行业：航空运营。企业性质：外企/合资。工作地点：新加坡。截止日期：2026/8/28。岗位：空中乘务员。",
-    "url": "https://mp.weixin.qq.com/s/0ois4CpZUQ8Tr6b_Cy5iQw?scene=1",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "auto_ic",
-    "location": "新加坡",
-    "deadline": "2026/8/28",
-    "tags": [
-      "新加坡航空",
-      "校招",
-      "秋招",
-      "车企/IC",
-      "外企/合资",
-      "航空运营",
-      "新加坡"
-    ],
-    "score": 80,
-    "featured": true,
-    "createdAt": "2026-07-31T22:23:15.000Z"
-  },
-  {
     "id": "deepoffer-18134",
     "title": "浙江省经济和信息化教育培训中心有限责任公司 — 秋招 | 新媒体运营实习生、广告、设计、编导、新传",
     "summary": "招聘类型：秋招。行业：国企。企业性质：央国企。工作地点：杭州。截止日期：招满为止。岗位：新媒体运营实习生、广告、设计、编导、新传。",
@@ -588,27 +564,6 @@
     ],
     "score": 80,
     "featured": true,
-    "createdAt": "2026-07-31T22:23:15.000Z"
-  },
-  {
-    "id": "deepoffer-18143",
-    "title": "超星学习通-校园大使 — 秋招 | 校园大使",
-    "summary": "招聘类型：秋招。行业：教育/培训。企业性质：民企。截止日期：招满为止。岗位：校园大使。",
-    "url": "https://office.chaoxing.com/apps/forms/mobile/apply.html?mappId=20800068&openid=&id=3448305&enc=912199c6cce414da80e4de5e22689bce&formAppId=&fidEnc=e1415bf352644bc0&userLoginInfo=userInfodeptId329906id6460563inserttime1618813515000mobileuid173679788unameupdatetime1726649085000&checkCode=7d3e03491ef34a128e61f6862eb4ea5b&defaultUid=173679788&uuid=473b1753a6ce4847875467e34bf255a9&isManager=false",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "private",
-    "deadline": "招满为止",
-    "tags": [
-      "超星学习通-校园大使",
-      "校招",
-      "秋招",
-      "教育/培训"
-    ],
-    "score": 79,
-    "featured": false,
     "createdAt": "2026-07-31T22:23:15.000Z"
   },
   {
@@ -685,28 +640,6 @@
     "createdAt": "2026-07-31T22:23:15.000Z"
   },
   {
-    "id": "deepoffer-18144",
-    "title": "MiniMax — 秋招 | 研发类运营类产品/策划/项目类市/场类设计类职能/支持类",
-    "summary": "招聘类型：秋招。行业：互联网/人工智能。企业性质：民企。截止日期：招满为止。岗位：研发类运营类产品/策划/项目类市/场类设计类职能/支持类。",
-    "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/?keywords=&category=&location=&project=7495675705720965415&type=&job_hot_flag=&current=1&limit=10&functionCategory=&tag=",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "internet",
-    "companyType": "private",
-    "deadline": "招满为止",
-    "tags": [
-      "MiniMax",
-      "校招",
-      "秋招",
-      "互联网/AI",
-      "互联网/人工智能"
-    ],
-    "score": 77,
-    "featured": false,
-    "createdAt": "2026-07-31T22:23:15.000Z"
-  },
-  {
     "id": "deepoffer-18139",
     "title": "至简动力 — 实习 | 机械结构设计实习生、VLA算法实习生、强化学习算法实习生、世界模型算法实习...",
     "summary": "招聘类型：实习。行业：软件技术。企业性质：民企。截止日期：招满为止。岗位：机械结构设计实习生、VLA算法实习生、强化学习算法实习生、世界模型算法实习生、AI基础设施实习生、采购实习生、HR实习生。",
@@ -769,6 +702,73 @@
       "交通运输"
     ],
     "score": 76,
+    "featured": false,
+    "createdAt": "2026-07-31T22:23:15.000Z"
+  },
+  {
+    "id": "deepoffer-18142",
+    "title": "新加坡航空 — 秋招 | 空中乘务员",
+    "summary": "招聘类型：秋招。行业：航空运营。企业性质：外企/合资。工作地点：新加坡。截止日期：2026/8/28。岗位：空中乘务员。",
+    "url": "https://mp.weixin.qq.com/s/0ois4CpZUQ8Tr6b_Cy5iQw?scene=1",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "新加坡",
+    "deadline": "2026/8/28",
+    "tags": [
+      "新加坡航空",
+      "校招",
+      "秋招",
+      "车企/IC",
+      "外企/合资",
+      "航空运营",
+      "新加坡"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-07-31T22:23:15.000Z"
+  },
+  {
+    "id": "deepoffer-18143",
+    "title": "超星学习通-校园大使 — 秋招 | 校园大使",
+    "summary": "招聘类型：秋招。行业：教育/培训。企业性质：民企。截止日期：招满为止。岗位：校园大使。",
+    "url": "https://office.chaoxing.com/apps/forms/mobile/apply.html?mappId=20800068&openid=&id=3448305&enc=912199c6cce414da80e4de5e22689bce&formAppId=&fidEnc=e1415bf352644bc0&userLoginInfo=userInfodeptId329906id6460563inserttime1618813515000mobileuid173679788unameupdatetime1726649085000&checkCode=7d3e03491ef34a128e61f6862eb4ea5b&defaultUid=173679788&uuid=473b1753a6ce4847875467e34bf255a9&isManager=false",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "private",
+    "deadline": "招满为止",
+    "tags": [
+      "超星学习通-校园大使",
+      "校招",
+      "秋招",
+      "教育/培训"
+    ],
+    "score": 74,
+    "featured": false,
+    "createdAt": "2026-07-31T22:23:15.000Z"
+  },
+  {
+    "id": "deepoffer-18144",
+    "title": "MiniMax — 秋招 | 研发类运营类产品/策划/项目类市/场类设计类职能/支持类",
+    "summary": "招聘类型：秋招。行业：互联网/人工智能。企业性质：民企。截止日期：招满为止。岗位：研发类运营类产品/策划/项目类市/场类设计类职能/支持类。",
+    "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/?keywords=&category=&location=&project=7495675705720965415&type=&job_hot_flag=&current=1&limit=10&functionCategory=&tag=",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "private",
+    "deadline": "招满为止",
+    "tags": [
+      "MiniMax",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "互联网/人工智能"
+    ],
+    "score": 72,
     "featured": false,
     "createdAt": "2026-07-31T22:23:15.000Z"
   },

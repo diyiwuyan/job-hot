@@ -8410,7 +8410,7 @@
       "土木工程建筑业",
       "非洲"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-07-27T00:00:00.000Z"
   },
@@ -8436,7 +8436,7 @@
       "滁州",
       "许昌"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-07-27T00:00:00.000Z"
   },
@@ -8460,8 +8460,8 @@
       "其他制造业",
       "贵阳"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-07-27T00:00:00.000Z"
   },
   {
@@ -8484,8 +8484,8 @@
       "信息传输、软件和信息技术服务业",
       "济南"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-07-27T00:00:00.000Z"
   },
   {
@@ -8508,8 +8508,8 @@
       "俄罗斯",
       "开封"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-07-27T00:00:00.000Z"
   },
   {
@@ -8532,8 +8532,8 @@
       "制造业",
       "韶关"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-07-27T00:00:00.000Z"
   },
   {
@@ -8556,8 +8556,8 @@
       "宁波",
       "舟山"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-07-27T00:00:00.000Z"
   },
   {
@@ -8581,8 +8581,8 @@
       "九江",
       "咸阳"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-07-27T00:00:00.000Z"
   },
   {
@@ -8607,8 +8607,8 @@
       "滁州",
       "许昌"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-07-27T00:00:00.000Z"
   },
   {
@@ -8631,8 +8631,8 @@
       "其他制造业",
       "合肥"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-07-27T00:00:00.000Z"
   },
   {
@@ -8655,8 +8655,8 @@
       "其他制造业",
       "成都"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-27T00:00:00.000Z"
   },
   {
@@ -8679,8 +8679,8 @@
       "其他制造业",
       "贵阳"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-27T00:00:00.000Z"
   },
   {
@@ -8703,8 +8703,8 @@
       "其他制造业",
       "贵阳"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-07-27T00:00:00.000Z"
   },
   {
@@ -8727,8 +8727,8 @@
       "中国",
       "海外"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-07-27T00:00:00.000Z"
   },
   {
@@ -8750,7 +8750,7 @@
       "教育",
       "青岛"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-27T00:00:00.000Z"
   },
@@ -8774,8 +8774,8 @@
       "科学研究和技术服务业",
       "上海"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-07-26T20:00:00.000Z"
   },
   {
@@ -8798,8 +8798,8 @@
       "科学研究和技术服务业",
       "上海"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-07-26T20:00:00.000Z"
   },
   {
@@ -8822,8 +8822,8 @@
       "科学研究和技术服务业",
       "上海"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-07-26T20:00:00.000Z"
   },
   {
@@ -8846,8 +8846,8 @@
       "科学研究和技术服务业",
       "上海"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-07-26T20:00:00.000Z"
   },
   {
@@ -8870,8 +8870,8 @@
       "科学研究和技术服务业",
       "上海"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-07-26T20:00:00.000Z"
   },
   {
@@ -8894,8 +8894,8 @@
       "科学研究和技术服务业",
       "上海"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-26T20:00:00.000Z"
   },
   {
@@ -8918,8 +8918,8 @@
       "科学研究和技术服务业",
       "上海"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-26T20:00:00.000Z"
   },
   {
@@ -8942,8 +8942,8 @@
       "科学研究和技术服务业",
       "上海"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-26T20:00:00.000Z"
   },
   {
@@ -8966,8 +8966,8 @@
       "科学研究和技术服务业",
       "上海"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-26T20:00:00.000Z"
   },
   {
@@ -8990,8 +8990,8 @@
       "科学研究和技术服务业",
       "上海"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-07-26T20:00:00.000Z"
   },
   {
@@ -9014,8 +9014,8 @@
       "科学研究和技术服务业",
       "上海"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-07-26T20:00:00.000Z"
   },
   {
@@ -9038,7 +9038,7 @@
       "科学研究和技术服务业",
       "上海"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-26T20:00:00.000Z"
   },
@@ -9062,7 +9062,7 @@
       "科学研究和技术服务业",
       "上海"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-26T20:00:00.000Z"
   },
@@ -9086,7 +9086,7 @@
       "科学研究和技术服务业",
       "上海"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-26T20:00:00.000Z"
   },
@@ -9110,7 +9110,7 @@
       "科学研究和技术服务业",
       "上海"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-26T20:00:00.000Z"
   },
@@ -9134,7 +9134,7 @@
       "科学研究和技术服务业",
       "上海"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-26T20:00:00.000Z"
   },
@@ -13184,8 +13184,8 @@
       "化学原料和化学制品制造业",
       "铁岭"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-07-20T00:00:00.000Z"
   },
   {
@@ -13207,8 +13207,8 @@
       "非金属矿物制品业",
       "海外"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-07-20T00:00:00.000Z"
   },
   {
@@ -13230,8 +13230,8 @@
       "非金属矿物制品业",
       "海外"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-07-20T00:00:00.000Z"
   },
   {
@@ -13253,8 +13253,8 @@
       "非金属矿物制品业",
       "海外"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-07-20T00:00:00.000Z"
   },
   {
@@ -13277,8 +13277,8 @@
       "非金属矿物制品业",
       "海外"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-20T00:00:00.000Z"
   },
   {
@@ -13300,8 +13300,8 @@
       "非金属矿物制品业",
       "海外"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-20T00:00:00.000Z"
   },
   {
@@ -13323,8 +13323,8 @@
       "非金属矿物制品业",
       "海外"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-20T00:00:00.000Z"
   },
   {
@@ -13347,7 +13347,7 @@
       "非金属矿物制品业",
       "海外"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-20T00:00:00.000Z"
   },
@@ -13371,7 +13371,7 @@
       "金属制品业",
       "曲靖"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-20T00:00:00.000Z"
   },
@@ -13395,7 +13395,7 @@
       "医药制造业",
       "深圳"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-20T00:00:00.000Z"
   },
@@ -13418,7 +13418,7 @@
       "新闻和出版业",
       "北京"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-07-20T00:00:00.000Z"
   },
@@ -13442,7 +13442,7 @@
       "化学原料和化学制品制造业",
       "上海"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-07-20T00:00:00.000Z"
   },
@@ -21092,7 +21092,7 @@
       "铁路、船舶、航空航天和其他运输设备制造业",
       "常州"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-07-04T00:00:00.000Z"
   },
