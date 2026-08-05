@@ -7450,8 +7450,8 @@
       "科学研究和技术服务业",
       "乌鲁木齐"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-07-28T11:18:56.000Z"
   },
   {
@@ -7474,8 +7474,8 @@
       "兵器",
       "武汉"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-28T11:10:01.000Z"
   },
   {
@@ -7498,8 +7498,8 @@
       "兵器",
       "武汉"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-07-28T11:02:47.000Z"
   },
   {
@@ -7522,7 +7522,7 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-07-28T10:51:37.000Z"
   },
@@ -7546,8 +7546,8 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-07-28T10:47:51.000Z"
   },
   {
@@ -7570,8 +7570,8 @@
       "专用设备制造业",
       "北京"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-07-28T10:47:18.000Z"
   },
   {
@@ -7594,8 +7594,8 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-07-28T10:40:43.000Z"
   },
   {
@@ -14283,7 +14283,7 @@
       "商务服务业",
       "雄安新区"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-21T11:21:58.000Z"
   },
