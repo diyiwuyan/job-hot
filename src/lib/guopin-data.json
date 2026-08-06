@@ -7806,8 +7806,8 @@
       "互联网",
       "北京"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-29T11:54:48.000Z"
   },
   {
@@ -15095,7 +15095,7 @@
       "仪器仪表/工业自动化",
       "北京"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-22T10:11:30.000Z"
   },
@@ -15119,8 +15119,8 @@
       "制造业",
       "珠海"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-22T09:45:00.000Z"
   },
   {
