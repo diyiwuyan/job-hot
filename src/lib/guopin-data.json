@@ -7265,8 +7265,8 @@
       "专业技术服务业",
       "长沙"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-07-30T16:48:14.000Z"
   },
   {
@@ -7289,8 +7289,8 @@
       "其他制造业",
       "北京"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-30T15:30:31.000Z"
   },
   {
@@ -7312,32 +7312,9 @@
       "农、林、牧、渔业",
       "北京"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-07-30T13:56:55.000Z"
-  },
-  {
-    "id": "guopin-211531343966767880",
-    "title": "中国黄金集团地质有限公司 — 法律合规专员",
-    "summary": "企业性质：国企。行业：专业技术服务业。工作地点：北京-顺义区。薪资面议。学历：硕士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=211531343966767880",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-顺义区",
-    "deadline": "2026/08/31",
-    "tags": [
-      "中国黄金集团地质有限公司",
-      "校招",
-      "国企",
-      "专业技术服务业",
-      "北京"
-    ],
-    "score": 84,
-    "featured": true,
-    "createdAt": "2026-07-30T12:00:00.000Z"
   },
   {
     "id": "guopin-211504800599116552",
@@ -7361,6 +7338,29 @@
     ],
     "score": 83,
     "featured": true,
+    "createdAt": "2026-07-30T12:00:00.000Z"
+  },
+  {
+    "id": "guopin-211531343966767880",
+    "title": "中国黄金集团地质有限公司 — 法律合规专员",
+    "summary": "企业性质：国企。行业：专业技术服务业。工作地点：北京-顺义区。薪资面议。学历：硕士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=211531343966767880",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-顺义区",
+    "deadline": "2026/08/31",
+    "tags": [
+      "中国黄金集团地质有限公司",
+      "校招",
+      "国企",
+      "专业技术服务业",
+      "北京"
+    ],
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-07-30T12:00:00.000Z"
   },
   {
@@ -13509,8 +13509,8 @@
       "医药制造业",
       "襄阳"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-07-23T18:52:28.000Z"
   },
   {
@@ -13532,7 +13532,7 @@
       "科学研究和技术服务业",
       "南京"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-07-23T16:07:30.000Z"
   },
@@ -13555,8 +13555,8 @@
       "房屋建筑业",
       "中国"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-07-23T15:58:24.000Z"
   },
   {
@@ -13578,7 +13578,7 @@
       "房屋建筑业",
       "中国"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-07-23T15:56:05.000Z"
   },
@@ -13602,7 +13602,7 @@
       "其他制造业",
       "北京"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-23T15:54:54.000Z"
   },
@@ -13627,7 +13627,7 @@
       "西安",
       "白银"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-23T15:54:53.000Z"
   },
@@ -13651,7 +13651,7 @@
       "其他制造业",
       "北京"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-07-23T15:52:20.000Z"
   },
@@ -13675,7 +13675,7 @@
       "制造业",
       "陕西"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-23T14:46:47.000Z"
   },
@@ -13699,7 +13699,7 @@
       "制造业",
       "陕西"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-23T14:45:05.000Z"
   },
@@ -13723,7 +13723,7 @@
       "制造业",
       "陕西"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-07-23T14:42:15.000Z"
   },
@@ -22514,7 +22514,7 @@
       "制造业",
       "南阳"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-07-07T17:28:51.000Z"
   },
@@ -22537,7 +22537,7 @@
       "土木工程建筑业",
       "重庆"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-07-07T14:29:31.000Z"
   },
@@ -22560,7 +22560,7 @@
       "土木工程建筑业",
       "重庆"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-07-07T14:28:21.000Z"
   },
@@ -22583,7 +22583,7 @@
       "土木工程建筑业",
       "重庆"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-07-07T14:27:30.000Z"
   },
@@ -22606,7 +22606,7 @@
       "土木工程建筑业",
       "重庆"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-07-07T14:24:58.000Z"
   },
@@ -22629,7 +22629,7 @@
       "土木工程建筑业",
       "重庆"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-07-07T14:23:41.000Z"
   },
@@ -22652,7 +22652,7 @@
       "土木工程建筑业",
       "重庆"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-07-07T14:21:38.000Z"
   },
