@@ -6526,8 +6526,8 @@
       "医药制造业",
       "西宁"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-07-31T10:22:30.000Z"
   },
   {
@@ -6549,8 +6549,8 @@
       "仪器仪表/工业自动化",
       "北京"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-07-31T10:08:20.000Z"
   },
   {
@@ -6572,8 +6572,8 @@
       "仪器仪表/工业自动化",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-07-31T10:07:44.000Z"
   },
   {
@@ -6595,8 +6595,8 @@
       "仪器仪表/工业自动化",
       "北京"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-07-31T10:07:24.000Z"
   },
   {
@@ -6619,8 +6619,8 @@
       "医药制造业",
       "西宁"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-07-31T09:56:14.000Z"
   },
   {
@@ -6643,8 +6643,8 @@
       "医药制造业",
       "西宁"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-07-31T09:56:14.000Z"
   },
   {
@@ -6667,8 +6667,8 @@
       "医药制造业",
       "西宁"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-07-31T09:51:12.000Z"
   },
   {
@@ -6691,8 +6691,8 @@
       "医药制造业",
       "西宁"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-31T09:47:54.000Z"
   },
   {
@@ -6715,8 +6715,8 @@
       "医药制造业",
       "西宁"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-07-31T09:39:26.000Z"
   },
   {
@@ -22067,7 +22067,7 @@
       "土木工程建筑业",
       "北京"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-07-08T10:16:51.000Z"
   },
