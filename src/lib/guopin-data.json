@@ -5424,8 +5424,8 @@
       "医药制造业",
       "上海"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-08-01T18:16:54.000Z"
   },
   {
@@ -13007,8 +13007,8 @@
       "制造业",
       "绍兴"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-07-25T21:34:04.000Z"
   },
   {
@@ -21212,7 +21212,7 @@
       "其他",
       "北京"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-07-09T17:29:14.000Z"
   },
