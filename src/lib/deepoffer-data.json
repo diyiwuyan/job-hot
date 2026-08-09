@@ -291,8 +291,8 @@
       "互联网/AI",
       "科技"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-08-05T18:30:33.000Z"
   },
   {
@@ -312,8 +312,8 @@
       "秋招",
       "外企"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-08-05T14:28:13.000Z"
   },
   {
@@ -334,8 +334,8 @@
       "车企/IC",
       "科技"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-08-05T14:28:13.000Z"
   },
   {
@@ -355,7 +355,7 @@
       "秋招",
       "消费"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-08-05T14:28:13.000Z"
   },
@@ -378,57 +378,9 @@
       "央国企",
       "国企"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-08-05T10:28:39.000Z"
-  },
-  {
-    "id": "deepoffer-18201",
-    "title": "福建省高速公路集团有限公司 — 春招 | 高速公路养护站养护技术岗，法务岗，审计岗，基层财务岗，人力资源岗，财务管理...",
-    "summary": "招聘类型：春招。行业：国企。企业性质：央国企。工作地点：福州。截止日期：2026/8/5。岗位：高速公路养护站养护技术岗，法务岗，审计岗，基层财务岗，人力资源岗，财务管理岗，电气工程岗，纪检监察岗，文秘岗，综合核算岗、道路桥梁与渡河工程，桥梁与隧道工...。",
-    "url": "https://www.fjsrlzy.cn/case/sz26014",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "finance",
-    "companyType": "state",
-    "location": "福州",
-    "deadline": "2026/8/5",
-    "tags": [
-      "福建省高速公路集团有限公司",
-      "校招",
-      "春招",
-      "金融",
-      "央国企",
-      "国企",
-      "福州"
-    ],
-    "score": 84,
-    "featured": true,
-    "createdAt": "2026-08-05T06:25:07.000Z"
-  },
-  {
-    "id": "deepoffer-18200",
-    "title": "瑞银-中国内地校招 — 秋招 | 管理培训生项目",
-    "summary": "招聘类型：秋招。行业：金融/证券。企业性质：外企。截止日期：2026/10/31。岗位：管理培训生项目。",
-    "url": "https://mp.weixin.qq.com/s/a6I96PXXwet4db8JswOznA",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "campus",
-    "category": "finance",
-    "companyType": "foreign",
-    "deadline": "2026/10/31",
-    "tags": [
-      "瑞银-中国内地校招",
-      "校招",
-      "秋招",
-      "金融",
-      "外企",
-      "金融/证券"
-    ],
-    "score": 84,
-    "featured": true,
-    "createdAt": "2026-08-05T06:25:07.000Z"
   },
   {
     "id": "deepoffer-18198",
@@ -475,28 +427,6 @@
       "金融/证券"
     ],
     "score": 84,
-    "featured": true,
-    "createdAt": "2026-08-05T06:25:07.000Z"
-  },
-  {
-    "id": "deepoffer-18202",
-    "title": "汉理资本 — 实习 | 管理实习生（1-2名）",
-    "summary": "招聘类型：实习。行业：金融。企业性质：民企。工作地点：上海。截止日期：招满为止。岗位：管理实习生（1-2名）。",
-    "url": "https://mp.weixin.qq.com/s/RovHLqmSU1jC75mngCqqig",
-    "source": "DeepOffer",
-    "sourceHandle": "@deepoffer",
-    "channel": "intern",
-    "category": "finance",
-    "companyType": "private",
-    "location": "上海",
-    "deadline": "招满为止",
-    "tags": [
-      "汉理资本",
-      "实习",
-      "金融",
-      "上海"
-    ],
-    "score": 80,
     "featured": true,
     "createdAt": "2026-08-05T06:25:07.000Z"
   },
@@ -550,6 +480,54 @@
     "createdAt": "2026-08-05T06:25:07.000Z"
   },
   {
+    "id": "deepoffer-18201",
+    "title": "福建省高速公路集团有限公司 — 春招 | 高速公路养护站养护技术岗，法务岗，审计岗，基层财务岗，人力资源岗，财务管理...",
+    "summary": "招聘类型：春招。行业：国企。企业性质：央国企。工作地点：福州。截止日期：2026/8/5。岗位：高速公路养护站养护技术岗，法务岗，审计岗，基层财务岗，人力资源岗，财务管理岗，电气工程岗，纪检监察岗，文秘岗，综合核算岗、道路桥梁与渡河工程，桥梁与隧道工...。",
+    "url": "https://www.fjsrlzy.cn/case/sz26014",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "state",
+    "location": "福州",
+    "deadline": "2026/8/5",
+    "tags": [
+      "福建省高速公路集团有限公司",
+      "校招",
+      "春招",
+      "金融",
+      "央国企",
+      "国企",
+      "福州"
+    ],
+    "score": 79,
+    "featured": false,
+    "createdAt": "2026-08-05T06:25:07.000Z"
+  },
+  {
+    "id": "deepoffer-18200",
+    "title": "瑞银-中国内地校招 — 秋招 | 管理培训生项目",
+    "summary": "招聘类型：秋招。行业：金融/证券。企业性质：外企。截止日期：2026/10/31。岗位：管理培训生项目。",
+    "url": "https://mp.weixin.qq.com/s/a6I96PXXwet4db8JswOznA",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "foreign",
+    "deadline": "2026/10/31",
+    "tags": [
+      "瑞银-中国内地校招",
+      "校招",
+      "秋招",
+      "金融",
+      "外企",
+      "金融/证券"
+    ],
+    "score": 79,
+    "featured": false,
+    "createdAt": "2026-08-05T06:25:07.000Z"
+  },
+  {
     "id": "deepoffer-18196",
     "title": "飞南资源 — 春招 | 管培生",
     "summary": "招聘类型：春招。行业：环保环境。企业性质：民企。工作地点：肇庆。截止日期：招满为止。岗位：管培生。",
@@ -590,6 +568,28 @@
       "金融"
     ],
     "score": 76,
+    "featured": false,
+    "createdAt": "2026-08-05T06:25:07.000Z"
+  },
+  {
+    "id": "deepoffer-18202",
+    "title": "汉理资本 — 实习 | 管理实习生（1-2名）",
+    "summary": "招聘类型：实习。行业：金融。企业性质：民企。工作地点：上海。截止日期：招满为止。岗位：管理实习生（1-2名）。",
+    "url": "https://mp.weixin.qq.com/s/RovHLqmSU1jC75mngCqqig",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "intern",
+    "category": "finance",
+    "companyType": "private",
+    "location": "上海",
+    "deadline": "招满为止",
+    "tags": [
+      "汉理资本",
+      "实习",
+      "金融",
+      "上海"
+    ],
+    "score": 75,
     "featured": false,
     "createdAt": "2026-08-05T06:25:07.000Z"
   },
