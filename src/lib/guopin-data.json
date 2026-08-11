@@ -8126,8 +8126,8 @@
       "保险业",
       "深圳"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-08-03T17:47:32.000Z"
   },
   {
@@ -8150,8 +8150,8 @@
       "保险业",
       "深圳"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-08-03T17:41:20.000Z"
   },
   {
@@ -8174,8 +8174,8 @@
       "保险业",
       "深圳"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-08-03T17:37:30.000Z"
   },
   {
@@ -8198,7 +8198,7 @@
       "保险业",
       "深圳"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-08-03T17:32:45.000Z"
   },
@@ -8222,7 +8222,7 @@
       "保险业",
       "深圳"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-08-03T17:28:52.000Z"
   },
@@ -8246,7 +8246,7 @@
       "保险业",
       "深圳"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-08-03T17:24:34.000Z"
   },
@@ -8270,8 +8270,8 @@
       "保险业",
       "深圳"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-08-03T17:16:43.000Z"
   },
   {
@@ -8294,7 +8294,7 @@
       "保险业",
       "深圳"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-08-03T17:10:27.000Z"
   },
@@ -8318,8 +8318,8 @@
       "航天",
       "贵阳"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-08-03T17:04:08.000Z"
   },
   {
@@ -8341,7 +8341,7 @@
       "房屋建筑业",
       "海口"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-08-03T16:18:10.000Z"
   },
@@ -8365,7 +8365,7 @@
       "建筑装饰、装修和其他建筑业",
       "合肥"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-08-03T16:00:00.000Z"
   },
@@ -8388,7 +8388,7 @@
       "建筑装饰、装修和其他建筑业",
       "合肥"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-08-03T16:00:00.000Z"
   },
@@ -8411,7 +8411,7 @@
       "建筑装饰、装修和其他建筑业",
       "合肥"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-08-03T16:00:00.000Z"
   },
@@ -8434,8 +8434,8 @@
       "建筑装饰、装修和其他建筑业",
       "合肥"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-08-03T16:00:00.000Z"
   },
   {
@@ -8458,7 +8458,7 @@
       "金融业",
       "南昌"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-08-03T15:11:23.000Z"
   },
@@ -8482,8 +8482,8 @@
       "保险业",
       "深圳"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-08-03T14:17:25.000Z"
   },
   {
@@ -8506,8 +8506,8 @@
       "保险业",
       "深圳"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-08-03T14:11:24.000Z"
   },
   {
@@ -8530,8 +8530,8 @@
       "医药制造业",
       "深圳"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-08-03T14:07:44.000Z"
   },
   {
@@ -8554,8 +8554,8 @@
       "保险业",
       "深圳"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-08-03T13:55:36.000Z"
   },
   {
@@ -15726,7 +15726,7 @@
       "通用设备制造业",
       "上海"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-27T18:48:08.000Z"
   },
@@ -15750,7 +15750,7 @@
       "通用设备制造业",
       "上海"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-27T18:45:42.000Z"
   },
@@ -15774,7 +15774,7 @@
       "通用设备制造业",
       "上海"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-27T17:32:42.000Z"
   },
@@ -15798,7 +15798,7 @@
       "通用设备制造业",
       "上海"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-07-27T17:29:44.000Z"
   },
@@ -15822,7 +15822,7 @@
       "通用设备制造业",
       "上海"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-07-27T17:26:23.000Z"
   },
@@ -15846,8 +15846,8 @@
       "通用设备制造业",
       "上海"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-07-27T17:19:58.000Z"
   },
   {
@@ -15870,7 +15870,7 @@
       "通用设备制造业",
       "上海"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-07-27T17:15:12.000Z"
   },
@@ -15894,7 +15894,7 @@
       "信息传输、软件和信息技术服务业",
       "上海"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-27T17:13:34.000Z"
   },
@@ -15918,8 +15918,8 @@
       "信息传输、软件和信息技术服务业",
       "福州"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-07-27T17:11:48.000Z"
   },
   {
@@ -15942,7 +15942,7 @@
       "通用设备制造业",
       "上海"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-27T17:11:26.000Z"
   },
@@ -15966,7 +15966,7 @@
       "信息传输、软件和信息技术服务业",
       "杭州"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-27T17:10:33.000Z"
   },
@@ -15990,7 +15990,7 @@
       "通用设备制造业",
       "上海"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-27T17:03:54.000Z"
   },
@@ -16014,7 +16014,7 @@
       "制造业",
       "北京"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-07-27T16:32:36.000Z"
   },
@@ -16038,7 +16038,7 @@
       "其他制造业",
       "北京"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-27T16:24:20.000Z"
   },
@@ -16086,32 +16086,9 @@
       "医药制造业",
       "上海"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-27T13:26:35.000Z"
-  },
-  {
-    "id": "guopin-170056041122235128",
-    "title": "国投新疆罗布泊钾盐有限责任公司 — 专业技术岗",
-    "summary": "企业性质：国企。行业：采矿业。工作地点：巴音郭楞-若羌县。薪资：12000-20000元/月。学历：硕士。规模：2000-5000人。",
-    "url": "https://www.iguopin.com/job/detail?id=170056041122235128",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "巴音郭楞-若羌县",
-    "deadline": "2026/08/20",
-    "tags": [
-      "国投新疆罗布泊钾盐有限责任公司",
-      "校招",
-      "国企",
-      "采矿业",
-      "巴音郭楞"
-    ],
-    "score": 78,
-    "featured": false,
-    "createdAt": "2026-07-27T12:00:00.000Z"
   },
   {
     "id": "guopin-211075236861446388",
@@ -16182,6 +16159,29 @@
       "合肥"
     ],
     "score": 75,
+    "featured": false,
+    "createdAt": "2026-07-27T12:00:00.000Z"
+  },
+  {
+    "id": "guopin-170056041122235128",
+    "title": "国投新疆罗布泊钾盐有限责任公司 — 专业技术岗",
+    "summary": "企业性质：国企。行业：采矿业。工作地点：巴音郭楞-若羌县。薪资：12000-20000元/月。学历：硕士。规模：2000-5000人。",
+    "url": "https://www.iguopin.com/job/detail?id=170056041122235128",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "巴音郭楞-若羌县",
+    "deadline": "2026/08/20",
+    "tags": [
+      "国投新疆罗布泊钾盐有限责任公司",
+      "校招",
+      "国企",
+      "采矿业",
+      "巴音郭楞"
+    ],
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-27T12:00:00.000Z"
   },
