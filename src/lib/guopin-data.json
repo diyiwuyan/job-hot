@@ -1290,6 +1290,29 @@
     "createdAt": "2026-08-14T00:00:00.000Z"
   },
   {
+    "id": "guopin-213276369080025127",
+    "title": "中盐勘察设计院有限公司 — 采矿工程设计岗",
+    "summary": "企业性质：国企。行业：专业技术服务业。工作地点：长沙-雨花区。薪资：7000-9000元/月。学历：硕士。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=213276369080025127",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "长沙-雨花区",
+    "deadline": "2026/08/20",
+    "tags": [
+      "中盐勘察设计院有限公司",
+      "校招",
+      "国企",
+      "专业技术服务业",
+      "长沙"
+    ],
+    "score": 83,
+    "featured": true,
+    "createdAt": "2026-08-12T21:16:45.000Z"
+  },
+  {
     "id": "guopin-212159632720792216",
     "title": "内蒙古航天红峡化工有限公司 — 车间一线操作岗",
     "summary": "企业性质：国企。行业：航天。工作地点：呼和浩特-赛罕区。薪资：6000-8000元/月。学历：大专。规模：1000-2000人。",
@@ -3041,29 +3064,6 @@
       "国企",
       "土木工程建筑业",
       "海外"
-    ],
-    "score": 83,
-    "featured": true,
-    "createdAt": "2026-08-11T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-213276369080025127",
-    "title": "中盐勘察设计院有限公司 — 采矿工程设计岗",
-    "summary": "企业性质：国企。行业：专业技术服务业。工作地点：长沙-雨花区。薪资：7000-9000元/月。学历：硕士。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=213276369080025127",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "长沙-雨花区",
-    "deadline": "2026/08/18",
-    "tags": [
-      "中盐勘察设计院有限公司",
-      "校招",
-      "国企",
-      "专业技术服务业",
-      "长沙"
     ],
     "score": 83,
     "featured": true,
@@ -8487,8 +8487,8 @@
       "批发业",
       "乌鲁木齐"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-08-04T16:31:20.000Z"
   },
   {
@@ -8511,7 +8511,7 @@
       "资本市场服务",
       "珠海"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-08-04T15:56:33.000Z"
   },
@@ -8535,8 +8535,8 @@
       "批发业",
       "乌鲁木齐"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-08-04T14:31:04.000Z"
   },
   {
@@ -8559,8 +8559,8 @@
       "专用设备制造业",
       "北京"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-08-04T14:22:24.000Z"
   },
   {
@@ -8583,8 +8583,8 @@
       "专用设备制造业",
       "北京"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-08-04T14:14:39.000Z"
   },
   {
@@ -14220,8 +14220,8 @@
       "科学研究和技术服务业",
       "乌鲁木齐"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-28T18:20:27.000Z"
   },
   {
@@ -14244,8 +14244,8 @@
       "科学研究和技术服务业",
       "乌鲁木齐"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-07-28T18:18:35.000Z"
   },
   {
@@ -14268,8 +14268,8 @@
       "医药制造业",
       "襄阳"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-28T16:53:28.000Z"
   },
   {
@@ -14292,7 +14292,7 @@
       "其他制造业",
       "北京"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-07-28T16:52:57.000Z"
   },
@@ -14316,7 +14316,7 @@
       "医药制造业",
       "襄阳"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-28T16:51:01.000Z"
   },
@@ -14340,7 +14340,7 @@
       "其他制造业",
       "北京"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-07-28T16:43:34.000Z"
   },
@@ -14364,7 +14364,7 @@
       "医药制造业",
       "襄阳"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-28T16:38:18.000Z"
   },
@@ -14388,7 +14388,7 @@
       "其他制造业",
       "北京"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-28T16:31:12.000Z"
   },
@@ -14412,8 +14412,8 @@
       "专用设备制造业",
       "德阳"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-07-28T15:44:34.000Z"
   },
   {
@@ -14436,7 +14436,7 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-28T15:13:44.000Z"
   },
@@ -14460,8 +14460,8 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-07-28T15:06:43.000Z"
   },
   {
@@ -14484,8 +14484,8 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-07-28T15:04:52.000Z"
   },
   {
@@ -14508,8 +14508,8 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-28T15:01:51.000Z"
   },
   {
@@ -14532,8 +14532,8 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-07-28T14:59:53.000Z"
   },
   {
@@ -14556,8 +14556,8 @@
       "制造业",
       "哈尔滨"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-07-28T14:53:28.000Z"
   },
   {
@@ -14580,7 +14580,7 @@
       "医药制造业",
       "上海"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-07-28T14:11:25.000Z"
   },
