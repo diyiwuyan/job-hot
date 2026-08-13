@@ -9425,8 +9425,8 @@
       "建筑安装业",
       "上海"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-08-05T17:40:49.000Z"
   },
   {
@@ -9448,8 +9448,8 @@
       "土木工程建筑业",
       "西安"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-08-05T17:04:13.000Z"
   },
   {
@@ -9471,7 +9471,7 @@
       "土木工程建筑业",
       "西安"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-08-05T17:04:13.000Z"
   },
@@ -9495,8 +9495,8 @@
       "制造业",
       "北京"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-08-05T16:27:42.000Z"
   },
   {
@@ -9518,8 +9518,8 @@
       "煤炭开采和洗选业",
       "北京"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-08-05T15:52:01.000Z"
   },
   {
@@ -9541,8 +9541,8 @@
       "水上运输业",
       "芜湖"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-08-05T15:45:39.000Z"
   },
   {
@@ -9565,8 +9565,8 @@
       "煤炭开采和洗选业",
       "北京"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-08-05T15:44:26.000Z"
   },
   {
@@ -9588,8 +9588,8 @@
       "煤炭开采和洗选业",
       "北京"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-08-05T15:32:16.000Z"
   },
   {
@@ -9612,8 +9612,8 @@
       "煤炭开采和洗选业",
       "北京"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-08-05T15:25:44.000Z"
   },
   {
@@ -9636,7 +9636,7 @@
       "化学原料和化学制品制造业",
       "福州"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-08-05T15:09:49.000Z"
   },
@@ -9660,8 +9660,8 @@
       "煤炭开采和洗选业",
       "北京"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-08-05T15:08:18.000Z"
   },
   {
@@ -9684,8 +9684,8 @@
       "煤炭开采和洗选业",
       "北京"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-08-05T15:03:57.000Z"
   },
   {
@@ -9707,8 +9707,8 @@
       "建筑安装业",
       "上海"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-08-05T15:03:16.000Z"
   },
   {
@@ -9730,8 +9730,8 @@
       "煤炭开采和洗选业",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-08-05T14:44:45.000Z"
   },
   {
@@ -9753,8 +9753,8 @@
       "煤炭开采和洗选业",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-08-05T14:40:09.000Z"
   },
   {
@@ -9777,8 +9777,8 @@
       "科学研究和技术服务业",
       "北京"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-08-05T14:31:54.000Z"
   },
   {
@@ -15793,7 +15793,7 @@
       "交通运输、仓储和邮政业",
       "汕头"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-07-29T17:28:09.000Z"
   },
@@ -15816,8 +15816,8 @@
       "批发业",
       "上海"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-07-29T17:23:17.000Z"
   },
   {
@@ -15840,7 +15840,7 @@
       "互联网",
       "北京"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-07-29T11:54:48.000Z"
   },
