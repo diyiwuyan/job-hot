@@ -9893,7 +9893,7 @@
       "苏州",
       "广州"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-08-06T17:30:44.000Z"
   },
@@ -9917,8 +9917,8 @@
       "金属制品、机械和设备修理业",
       "石嘴山"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-08-06T17:19:57.000Z"
   },
   {
@@ -9965,8 +9965,8 @@
       "信息传输、软件和信息技术服务业",
       "大连"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-08-06T14:47:11.000Z"
   },
   {
@@ -9989,8 +9989,8 @@
       "信息传输、软件和信息技术服务业",
       "大连"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-08-06T14:47:11.000Z"
   },
   {
@@ -16352,7 +16352,7 @@
       "农、林、牧、渔业",
       "北京"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-30T13:56:55.000Z"
   },
@@ -16399,7 +16399,7 @@
       "专业技术服务业",
       "北京"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-30T12:00:00.000Z"
   },
