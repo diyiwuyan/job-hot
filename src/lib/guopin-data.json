@@ -9560,8 +9560,8 @@
       "计算机、通信和其他电子设备制造业",
       "廊坊"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-08-07T01:00:00.000Z"
   },
   {
@@ -9584,7 +9584,7 @@
       "林业",
       "黄冈"
     ],
-    "score": 93,
+    "score": 88,
     "featured": true,
     "createdAt": "2026-08-07T00:00:00.000Z"
   },
@@ -9661,30 +9661,6 @@
     "createdAt": "2026-08-07T00:00:00.000Z"
   },
   {
-    "id": "guopin-212685983311724898",
-    "title": "公诚管理咨询有限公司华北分公司 — 监理员-机电/通信",
-    "summary": "企业性质：国企。行业：软件和信息技术服务业。工作地点：天津。薪资：5000-7000元/月。学历：本科。规模：500-1000人。",
-    "url": "https://www.iguopin.com/job/detail?id=212685983311724898",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "天津",
-    "deadline": "2026/11/04",
-    "tags": [
-      "公诚管理咨询有限公司华北分公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "软件和信息技术服务业",
-      "天津"
-    ],
-    "score": 86,
-    "featured": true,
-    "createdAt": "2026-08-07T00:00:00.000Z"
-  },
-  {
     "id": "guopin-212517346152022123",
     "title": "中国林木种子集团有限公司 — 销售业务员",
     "summary": "企业性质：国企。行业：农、林、牧、渔业。工作地点：张掖。薪资面议。学历：本科。规模：300-500人。",
@@ -9708,72 +9684,26 @@
     "createdAt": "2026-08-07T00:00:00.000Z"
   },
   {
-    "id": "guopin-212601308400582770",
-    "title": "雄安人才服务有限公司 — 燃气用户管理岗（代招）",
-    "summary": "企业性质：国企。行业：商务服务业。工作地点：雄安新区。薪资面议。学历：本科。规模：50人以下。",
-    "url": "https://www.iguopin.com/job/detail?id=212601308400582770",
+    "id": "guopin-212685983311724898",
+    "title": "公诚管理咨询有限公司华北分公司 — 监理员-机电/通信",
+    "summary": "企业性质：国企。行业：软件和信息技术服务业。工作地点：天津。薪资：5000-7000元/月。学历：本科。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=212685983311724898",
     "source": "国聘",
     "sourceHandle": "@guopin",
     "channel": "campus",
-    "category": "other",
+    "category": "auto_ic",
     "companyType": "state",
-    "location": "雄安新区",
+    "location": "天津",
     "deadline": "2026/11/04",
     "tags": [
-      "雄安人才服务有限公司",
+      "公诚管理咨询有限公司华北分公司",
       "校招",
       "国企",
-      "商务服务业",
-      "雄安新区"
-    ],
-    "score": 84,
-    "featured": true,
-    "createdAt": "2026-08-07T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-211213334236629740",
-    "title": "国药控股陕西有限公司 — 医药代表（学术合规岗）--商洛",
-    "summary": "企业性质：国企。行业：卫生。工作地点：商洛。薪资：5000-9000元/月。学历：本科。规模：300-500人。",
-    "url": "https://www.iguopin.com/job/detail?id=211213334236629740",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "商洛",
-    "deadline": "2026/10/26",
-    "tags": [
-      "国药控股陕西有限公司",
-      "校招",
-      "国企",
-      "卫生",
-      "商洛"
-    ],
-    "score": 84,
-    "featured": true,
-    "createdAt": "2026-08-07T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-212691019680973170",
-    "title": "太极计算机股份有限公司 — 售前咨询工程师-2026届校招（北京）",
-    "summary": "企业性质：国企。行业：软件和信息技术服务业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：2000-5000人。",
-    "url": "https://www.iguopin.com/job/detail?id=212691019680973170",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/09/30",
-    "tags": [
-      "太极计算机股份有限公司",
-      "校招",
-      "国企",
-      "互联网/AI",
+      "车企/IC",
       "软件和信息技术服务业",
-      "北京"
+      "天津"
     ],
-    "score": 84,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-08-07T00:00:00.000Z"
   },
@@ -9801,6 +9731,76 @@
     "createdAt": "2026-08-07T00:00:00.000Z"
   },
   {
+    "id": "guopin-212601308400582770",
+    "title": "雄安人才服务有限公司 — 燃气用户管理岗（代招）",
+    "summary": "企业性质：国企。行业：商务服务业。工作地点：雄安新区。薪资面议。学历：本科。规模：50人以下。",
+    "url": "https://www.iguopin.com/job/detail?id=212601308400582770",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "雄安新区",
+    "deadline": "2026/11/04",
+    "tags": [
+      "雄安人才服务有限公司",
+      "校招",
+      "国企",
+      "商务服务业",
+      "雄安新区"
+    ],
+    "score": 79,
+    "featured": false,
+    "createdAt": "2026-08-07T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-211213334236629740",
+    "title": "国药控股陕西有限公司 — 医药代表（学术合规岗）--商洛",
+    "summary": "企业性质：国企。行业：卫生。工作地点：商洛。薪资：5000-9000元/月。学历：本科。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=211213334236629740",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "商洛",
+    "deadline": "2026/10/26",
+    "tags": [
+      "国药控股陕西有限公司",
+      "校招",
+      "国企",
+      "卫生",
+      "商洛"
+    ],
+    "score": 79,
+    "featured": false,
+    "createdAt": "2026-08-07T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-212691019680973170",
+    "title": "太极计算机股份有限公司 — 售前咨询工程师-2026届校招（北京）",
+    "summary": "企业性质：国企。行业：软件和信息技术服务业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：2000-5000人。",
+    "url": "https://www.iguopin.com/job/detail?id=212691019680973170",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/09/30",
+    "tags": [
+      "太极计算机股份有限公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "软件和信息技术服务业",
+      "北京"
+    ],
+    "score": 79,
+    "featured": false,
+    "createdAt": "2026-08-07T00:00:00.000Z"
+  },
+  {
     "id": "guopin-210231817406515495",
     "title": "国药控股陕西有限公司 — 医药代表（学术合规岗）--榆林",
     "summary": "企业性质：国企。行业：卫生。工作地点：榆林-榆阳区。薪资：5000-9000元/月。学历：本科。规模：300-500人。",
@@ -9819,8 +9819,8 @@
       "卫生",
       "榆林"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-08-07T00:00:00.000Z"
   },
   {
@@ -9843,8 +9843,8 @@
       "计算机、通信和其他电子设备制造业",
       "济宁"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-08-07T00:00:00.000Z"
   },
   {
@@ -9867,7 +9867,7 @@
       "商务服务业",
       "合肥"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-08-07T00:00:00.000Z"
   },
@@ -15827,8 +15827,8 @@
       "房地产业",
       "广东"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-07-31T00:00:00.000Z"
   },
   {
@@ -15851,7 +15851,7 @@
       "其他",
       "武汉"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-31T00:00:00.000Z"
   },
@@ -15875,7 +15875,7 @@
       "其他",
       "武汉"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-31T00:00:00.000Z"
   },
@@ -15899,7 +15899,7 @@
       "医药制造业",
       "十堰"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-07-31T00:00:00.000Z"
   },
@@ -15923,7 +15923,7 @@
       "其他",
       "武汉"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-31T00:00:00.000Z"
   },
@@ -15947,7 +15947,7 @@
       "其他",
       "武汉"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-31T00:00:00.000Z"
   },
@@ -15971,7 +15971,7 @@
       "水上运输业",
       "上海"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-07-31T00:00:00.000Z"
   },
@@ -15994,7 +15994,7 @@
       "房地产业",
       "广州"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-07-31T00:00:00.000Z"
   },
@@ -16018,7 +16018,7 @@
       "中国",
       "海外"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-07-31T00:00:00.000Z"
   },
@@ -16042,7 +16042,7 @@
       "其他",
       "武汉"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-07-31T00:00:00.000Z"
   },
@@ -16066,7 +16066,7 @@
       "其他",
       "武汉"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-07-31T00:00:00.000Z"
   },
@@ -16090,7 +16090,7 @@
       "其他",
       "武汉"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-07-31T00:00:00.000Z"
   },
@@ -16114,7 +16114,7 @@
       "其他",
       "武汉"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-07-31T00:00:00.000Z"
   },
@@ -16138,7 +16138,7 @@
       "其他",
       "武汉"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-07-31T00:00:00.000Z"
   },
@@ -16162,7 +16162,7 @@
       "其他",
       "武汉"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-07-31T00:00:00.000Z"
   },
@@ -16186,7 +16186,7 @@
       "其他",
       "武汉"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-07-31T00:00:00.000Z"
   },
@@ -16210,7 +16210,7 @@
       "其他",
       "武汉"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-07-31T00:00:00.000Z"
   },
@@ -16234,7 +16234,7 @@
       "其他",
       "武汉"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-07-31T00:00:00.000Z"
   },
@@ -16258,7 +16258,7 @@
       "医药制造业",
       "大同"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-07-31T00:00:00.000Z"
   },
