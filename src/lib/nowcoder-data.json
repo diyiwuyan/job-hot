@@ -1,5 +1,165 @@
 [
   {
+    "id": "nowcoder-290782",
+    "title": "圆通速递 — 27届秋招 今日收录",
+    "summary": "国内快递物流龙头企业，全网络布局，时效与服务能力行业领先。。招聘批次：27届秋招 今日收录。工作地点：石家庄、太原、呼和浩特、沈阳、长春、哈尔滨、南京、杭州、合肥、福州、南昌、济南、郑州、武汉、长沙、广州、南宁、海口、成都、贵阳、昆明、拉萨、西安、兰州、西宁、银川、乌鲁木齐、台北、北京、上海、重庆、天津、香港、澳门。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://mp.weixin.qq.com/s/9S1c-voHJh3nPtnZe3sO8w",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "石家庄、太原、呼和浩特、沈阳、长春、哈尔滨、南京、杭州、合肥、福州、南昌、济南、郑州、武汉、长沙、广州、南宁、海口、成都、贵阳、昆明、拉萨、西安、兰州、西宁、银川、乌鲁木齐、台北、北京、上海、重庆、天津、香港、澳门",
+    "deadline": "2026/10/12",
+    "tags": [
+      "圆通速递",
+      "校招",
+      "秋招",
+      "石家庄",
+      "太原",
+      "呼和浩特"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-08-16T03:19:03.000Z"
+  },
+  {
+    "id": "nowcoder-27160",
+    "title": "倍漾量化 — 27届秋招 今日收录",
+    "summary": "国内头部量化私募机构，投研体系成熟，资产管理能力突出。。招聘批次：27届秋招 今日收录。工作地点：南京、上海、香港。招聘岗位：后端开发、测试、数据、人工智能/算法、研发工程师等。",
+    "url": "https://mp.weixin.qq.com/s/szWxkVggYkfSTMbRcehMBw",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "南京、上海、香港",
+    "deadline": "2026/10/11",
+    "tags": [
+      "倍漾量化",
+      "校招",
+      "秋招",
+      "南京",
+      "上海",
+      "香港"
+    ],
+    "score": 94,
+    "featured": true,
+    "createdAt": "2026-08-16T03:16:20.000Z"
+  },
+  {
+    "id": "nowcoder-31615",
+    "title": "两仪万象 — 27届秋招 今日收录",
+    "summary": "国内 AIGC 内容创作新锐企业，全栈技术突出，虚拟内容生产能力领先。。招聘批次：27届秋招 今日收录。工作地点：北京。招聘岗位：后端开发、测试、人工智能/算法、研发工程师、硬件工程师等。",
+    "url": "https://mp.weixin.qq.com/s/17tlV0H3-mMFocrN9oHPrg",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "北京",
+    "deadline": "2026/10/11",
+    "tags": [
+      "两仪万象",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "北京"
+    ],
+    "score": 94,
+    "featured": true,
+    "createdAt": "2026-08-16T03:14:48.000Z"
+  },
+  {
+    "id": "nowcoder-652",
+    "title": "滴滴 — 27届秋招 今日收录",
+    "summary": "国内出行服务龙头企业，全生态布局，技术研发与运营能力领先。。招聘批次：27届秋招 今日收录。工作地点：杭州、广州、深圳、成都、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://campus.didiglobal.com/campus_apply/didiglobal/96064#/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "杭州、广州、深圳、成都、北京、上海",
+    "deadline": "2026/10/12",
+    "tags": [
+      "滴滴",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "杭州",
+      "广州",
+      "深圳",
+      "工具"
+    ],
+    "score": 99,
+    "featured": true,
+    "createdAt": "2026-08-16T03:10:08.000Z"
+  },
+  {
+    "id": "nowcoder-1119",
+    "title": "货拉拉 — 27届秋招 今日收录",
+    "summary": "国内同城货运龙头平台，全场景覆盖，数字化运营与服务能力突出。。招聘批次：27届秋招 今日收录。工作地点：杭州、长沙、深圳、北京、上海、重庆。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://app.mokahr.com/campus-recruitment/huolalahr/98660?sourceToken=581e23d9a2ab8b93e0238899be60d80d#/jobs?page=1&pageSize=50",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "杭州、长沙、深圳、北京、上海、重庆",
+    "deadline": "2026/10/11",
+    "tags": [
+      "货拉拉",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "杭州",
+      "长沙",
+      "深圳",
+      "消费生活"
+    ],
+    "score": 94,
+    "featured": true,
+    "createdAt": "2026-08-16T03:07:35.000Z"
+  },
+  {
+    "id": "nowcoder-158213",
+    "title": "特来电 — 27届实习 今日收录",
+    "summary": "国内充电桩运营龙头企业，全网络布局，充电技术与运营能力领先。。招聘批次：27届实习 今日收录。工作地点：青岛。招聘岗位：运营、人事、行政。",
+    "url": "https://hr.teld.cn/recruit#company_recruit?id=_HB5_NDc3MTI=",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "other",
+    "location": "青岛",
+    "deadline": "2026/09/11",
+    "tags": [
+      "特来电",
+      "实习",
+      "青岛"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-08-16T03:04:50.000Z"
+  },
+  {
+    "id": "nowcoder-155",
+    "title": "盛趣游戏 — 27届秋招 今日收录",
+    "summary": "国内老牌游戏龙头企业，研发运营经验丰富，全品类游戏布局完善。。招聘批次：27届秋招 今日收录。工作地点：上海。招聘岗位：前端开发、数据、人工智能/算法、产品、运营等。",
+    "url": "https://www.nowcoder.com/jobs/company-project?projectId=2643",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "game",
+    "location": "上海",
+    "deadline": "2026/10/30",
+    "tags": [
+      "盛趣游戏",
+      "校招",
+      "秋招",
+      "游戏",
+      "上海"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-08-16T03:03:43.000Z"
+  },
+  {
     "id": "nowcoder-908",
     "title": "平安银行 — 27届秋招 今日收录",
     "summary": "全国性股份制商业银行龙头，全牌照经营，金融科技与服务能力突出。。招聘批次：27届秋招 今日收录。工作地点：石家庄、太原、呼和浩特、沈阳、长春、哈尔滨、南京、杭州、合肥、福州、南昌、济南、郑州、武汉、长沙、广州、南宁、海口、成都、贵阳、昆明、拉萨、西安、兰州、西宁、银川、乌鲁木齐、台北、北京、上海、重庆、天津、香港、澳门。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
@@ -601,7 +761,7 @@
       "深圳",
       "人工智能"
     ],
-    "score": 89,
+    "score": 84,
     "featured": true,
     "createdAt": "2026-08-12T03:29:02.000Z"
   },
@@ -773,29 +933,6 @@
     "score": 85,
     "featured": true,
     "createdAt": "2026-07-30T08:35:45.000Z"
-  },
-  {
-    "id": "nowcoder-652",
-    "title": "滴滴 — 27届秋招",
-    "summary": "全球出行科技龙头企业，技术研发平台完善，数字化运营能力行业领先。。招聘批次：27届秋招。工作地点：北京。招聘岗位：人工智能/算法、研发工程师、交互/设计。",
-    "url": "https://app.mokahr.com/campus-recruitment/didiglobal/116021#/jobs",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "campus",
-    "category": "internet",
-    "location": "北京",
-    "deadline": "2026/09/22",
-    "tags": [
-      "滴滴",
-      "校招",
-      "秋招",
-      "互联网/AI",
-      "北京",
-      "工具"
-    ],
-    "score": 81,
-    "featured": true,
-    "createdAt": "2026-07-28T05:29:25.000Z"
   },
   {
     "id": "nowcoder-931",
