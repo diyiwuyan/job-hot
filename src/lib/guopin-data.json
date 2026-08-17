@@ -463,6 +463,29 @@
     "createdAt": "2026-08-18T00:00:00.000Z"
   },
   {
+    "id": "guopin-214157419108893669",
+    "title": "中冶建筑研究总院有限公司 — 运维工程师-2027校招",
+    "summary": "企业性质：国企。行业：建筑业。工作地点：天津-蓟州区。薪资：5000-8000元/月。学历：本科。规模：2000-5000人。",
+    "url": "https://www.iguopin.com/job/detail?id=214157419108893669",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "天津-蓟州区",
+    "deadline": "2026/11/14",
+    "tags": [
+      "中冶建筑研究总院有限公司",
+      "校招",
+      "国企",
+      "建筑业",
+      "天津"
+    ],
+    "score": 83,
+    "featured": true,
+    "createdAt": "2026-08-17T17:42:35.000Z"
+  },
+  {
     "id": "guopin-214156799140430821",
     "title": "上海航天设备制造总厂有限公司 — 智能制造AI算法研究师（2027届）(J11720)",
     "summary": "企业性质：国企。行业：通用设备制造业。工作地点：上海。薪资：30000-37500元/月。学历：博士。规模：1000-2000人。",
@@ -22834,6 +22857,30 @@
     "score": 71,
     "featured": false,
     "createdAt": "2026-07-27T17:26:23.000Z"
+  },
+  {
+    "id": "guopin-211111429460199673",
+    "title": "上海航天设备制造总厂有限公司 — 机加工工艺研发工程师（2027届）(J11608)",
+    "summary": "企业性质：国企。行业：通用设备制造业。工作地点：上海。薪资：20000-25000元/月。学历：硕士。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=211111429460199673",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "上海",
+    "deadline": "2026/10/24",
+    "tags": [
+      "上海航天设备制造总厂有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "通用设备制造业",
+      "上海"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-07-27T17:22:30.000Z"
   },
   {
     "id": "guopin-211111133375891697",
