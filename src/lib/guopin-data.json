@@ -417,6 +417,29 @@
     "createdAt": "2026-08-18T00:00:00.000Z"
   },
   {
+    "id": "guopin-214114796440650635",
+    "title": "中冶建筑研究总院有限公司 — 博士生岗位（土木方向）-2027校招",
+    "summary": "企业性质：国企。行业：建筑业。工作地点：北京。薪资：8000-15000元/月。学历：博士。规模：2000-5000人。",
+    "url": "https://www.iguopin.com/job/detail?id=214114796440650635",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京",
+    "deadline": "2026/11/14",
+    "tags": [
+      "中冶建筑研究总院有限公司",
+      "校招",
+      "国企",
+      "建筑业",
+      "北京"
+    ],
+    "score": 83,
+    "featured": true,
+    "createdAt": "2026-08-17T10:39:04.000Z"
+  },
+  {
     "id": "guopin-213681951112954708",
     "title": "中煤科工集团新疆研究院有限公司 — 防治水技术工程师",
     "summary": "企业性质：国企。行业：科技推广和应用服务业。工作地点：乌鲁木齐-头屯河区。薪资：10000-15000元/月。学历：硕士。规模：100-300人。",
@@ -483,6 +506,77 @@
       "互联网/AI",
       "科技推广和应用服务业",
       "乌鲁木齐"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-08-17T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-214116989491217293",
+    "title": "中国东方电气集团有限公司 — 技术研发中心-软件工程师（2027届应届毕业生）的需求申请",
+    "summary": "企业性质：国企。行业：专用设备制造业。工作地点：成都。薪资：10000-15000元/月。学历：硕士。规模：10000-30000人。",
+    "url": "https://www.iguopin.com/job/detail?id=214116989491217293",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "成都",
+    "deadline": "2026/11/14",
+    "tags": [
+      "中国东方电气集团有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "专用设备制造业",
+      "成都"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-08-17T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-214116865776026515",
+    "title": "中煤科工集团沈阳研究院有限公司 — 研发工程师",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：抚顺-望花区。薪资面议。学历：博士。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=214116865776026515",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "抚顺-望花区",
+    "deadline": "2027/08/31",
+    "tags": [
+      "中煤科工集团沈阳研究院有限公司",
+      "校招",
+      "国企",
+      "科学研究和技术服务业",
+      "抚顺"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-08-17T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-214116384790021003",
+    "title": "中国东方电气集团有限公司 — 营销服务中心-服务工程师（2027届应届毕业生）的需求申请",
+    "summary": "企业性质：国企。行业：专用设备制造业。工作地点：成都。薪资：6500-10000元/月。学历：本科。规模：10000-30000人。",
+    "url": "https://www.iguopin.com/job/detail?id=214116384790021003",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "成都",
+    "deadline": "2026/11/14",
+    "tags": [
+      "中国东方电气集团有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "专用设备制造业",
+      "成都"
     ],
     "score": 84,
     "featured": true,
