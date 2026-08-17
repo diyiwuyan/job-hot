@@ -1,5 +1,53 @@
 [
   {
+    "id": "nowcoder-258454",
+    "title": "海光信息 — 27届秋招 今日收录",
+    "summary": "国产高端芯片龙头企业，全栈研发能力突出，国产替代核心支撑力量。。招聘批次：27届秋招 今日收录。工作地点：苏州、青岛、郑州、深圳、成都、西安、北京、上海、天津。招聘岗位：后端开发、技术支持、化工、电子/半导体、人工智能/算法等。",
+    "url": "https://app.mokahr.com/campus-recruitment/hygon/169939?locale=zh-CN#/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "苏州、青岛、郑州、深圳、成都、西安、北京、上海、天津",
+    "deadline": "2026/10/12",
+    "tags": [
+      "海光信息",
+      "校招",
+      "秋招",
+      "车企/IC",
+      "苏州",
+      "青岛",
+      "郑州",
+      "芯片"
+    ],
+    "score": 94,
+    "featured": true,
+    "createdAt": "2026-08-17T09:26:35.000Z"
+  },
+  {
+    "id": "nowcoder-26441",
+    "title": "中林集团 — 27届秋招 今日收录",
+    "summary": "国务院国资委管理的唯一林业央企，国内最大木材供应商，业务覆盖全球20余国家。。招聘批次：27届秋招 今日收录。工作地点：南宁、张掖、北京、重庆。招聘岗位：机械、化工、电气/自动化、技术支持、运营等。",
+    "url": "https://cfgc2026.iguopin.com/notice",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "南宁、张掖、北京、重庆",
+    "deadline": "2026/08/11",
+    "tags": [
+      "中林集团",
+      "校招",
+      "秋招",
+      "南宁",
+      "张掖",
+      "北京"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-08-17T08:51:12.000Z"
+  },
+  {
     "id": "nowcoder-294969",
     "title": "Dexmal 原力灵机 — 27届校招 今日收录",
     "summary": "提供能源AI领域系统培训，应届生可参与国家级智能电网项目。。招聘批次：27届校招 今日收录。工作地点：北京。招聘岗位：硬件工程师、电子/半导体、人工智能/算法、通信。",
@@ -85,29 +133,6 @@
     "score": 94,
     "featured": true,
     "createdAt": "2026-08-17T02:18:48.000Z"
-  },
-  {
-    "id": "nowcoder-26441",
-    "title": "中林集团 — 27届秋招 今日收录",
-    "summary": "国务院国资委管理的唯一林业央企，国内最大木材供应商，业务覆盖全球20余国家。。招聘批次：27届秋招 今日收录。工作地点：南宁、张掖、北京、重庆。招聘岗位：机械、化工、电气/自动化、技术支持、运营等。",
-    "url": "https://cfgc2026.iguopin.com/notice",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "campus",
-    "category": "other",
-    "location": "南宁、张掖、北京、重庆",
-    "deadline": "2026/08/11",
-    "tags": [
-      "中林集团",
-      "校招",
-      "秋招",
-      "南宁",
-      "张掖",
-      "北京"
-    ],
-    "score": 93,
-    "featured": true,
-    "createdAt": "2026-08-17T02:16:34.000Z"
   },
   {
     "id": "nowcoder-32647",
