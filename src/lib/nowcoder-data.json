@@ -1,5 +1,48 @@
 [
   {
+    "id": "nowcoder-294969",
+    "title": "Dexmal 原力灵机 — 27届校招 今日收录",
+    "summary": "提供能源AI领域系统培训，应届生可参与国家级智能电网项目。。招聘批次：27届校招 今日收录。工作地点：北京。招聘岗位：硬件工程师、电子/半导体、人工智能/算法、通信。",
+    "url": "https://app.mokahr.com/campus-recruitment/mhr/150777?locale=zh-CN#/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "北京",
+    "deadline": "2027/05/30",
+    "tags": [
+      "Dexmal 原力灵机",
+      "校招",
+      "互联网/AI",
+      "北京"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-08-17T08:17:16.000Z"
+  },
+  {
+    "id": "nowcoder-27990",
+    "title": "游酷盛世 — 2027届秋 今日收录",
+    "summary": "招聘批次：2027届秋 今日收录。工作地点：广州、北京。招聘岗位：后端开发、前端开发、客户端开发、测试、人工智能/算法等。",
+    "url": "https://jobs.66y.com/campus",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "game",
+    "location": "广州、北京",
+    "deadline": "2026/11/29",
+    "tags": [
+      "游酷盛世",
+      "校招",
+      "游戏",
+      "广州",
+      "北京"
+    ],
+    "score": 90,
+    "featured": true,
+    "createdAt": "2026-08-17T08:08:11.000Z"
+  },
+  {
     "id": "nowcoder-269326",
     "title": "姚记 — 27届秋招 今日收录",
     "summary": "招聘批次：27届秋招 今日收录。工作地点：北京、上海。",
