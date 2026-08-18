@@ -1,5 +1,56 @@
 [
   {
+    "id": "nowcoder-2932",
+    "title": "厦门银行 — 27届秋招",
+    "summary": "连续超10年获评“最佳雇主厦门十强”。招聘批次：27届秋招。工作地点：福州、厦门、莆田、三明、泉州、漳州、南平、龙岩。",
+    "url": "https://xmbank.mokahr.vip/campus-recruitment/xmbankonline/182209/#/",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "bank",
+    "location": "福州、厦门、莆田、三明、泉州、漳州、南平、龙岩",
+    "deadline": "2026/11/29",
+    "tags": [
+      "厦门银行",
+      "校招",
+      "秋招",
+      "金融",
+      "福州",
+      "厦门",
+      "莆田",
+      "银行"
+    ],
+    "score": 94,
+    "featured": true,
+    "createdAt": "2026-08-18T03:24:23.000Z"
+  },
+  {
+    "id": "nowcoder-920",
+    "title": "德州仪器 — 27届校招",
+    "summary": "德州仪器是一家全球性的半导体公司，从事设计、制造、测试和销售模拟和嵌入式处理芯片。招聘批次：27届校招。工作地点：深圳、北京、上海。招聘岗位：后端开发、硬件工程师、电子/半导体、通信、技术支持等。",
+    "url": "https://app.mokahr.com/su/yqvjux",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "foreign",
+    "location": "深圳、北京、上海",
+    "deadline": "2026/08/16",
+    "tags": [
+      "德州仪器",
+      "校招",
+      "车企/IC",
+      "深圳",
+      "北京",
+      "上海",
+      "硬件"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-08-18T03:11:11.000Z"
+  },
+  {
     "id": "nowcoder-294969",
     "title": "Dexmal 原力灵机 — 27届校招",
     "summary": "提供能源AI领域系统培训，应届生可参与国家级智能电网项目。。招聘批次：27届校招。工作地点：北京。招聘岗位：硬件工程师、电子/半导体、人工智能/算法、通信。",
@@ -177,32 +228,6 @@
     "score": 92,
     "featured": true,
     "createdAt": "2026-08-17T02:09:18.000Z"
-  },
-  {
-    "id": "nowcoder-920",
-    "title": "德州仪器 — 网申：已结束",
-    "summary": "全球模拟芯片龙头企业，技术壁垒高、研发体系成熟，提供高端芯片实践平台。招聘批次：网申：已结束。工作地点：深圳、成都、北京、上海。招聘岗位：后端开发、硬件工程师、电子/半导体、通信、技术支持等。",
-    "url": "https://app.mokahr.com/campus-recruitment/ti/143986?sourceToken=93140f1b513ada7140511528a8821420#/jobs?commitment0=&page=1&anchorName=jobsList",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "intern",
-    "category": "auto_ic",
-    "companyType": "foreign",
-    "location": "深圳、成都、北京、上海",
-    "deadline": "2026/08/16",
-    "tags": [
-      "德州仪器",
-      "实习",
-      "暑期实习",
-      "车企/IC",
-      "深圳",
-      "成都",
-      "北京",
-      "硬件"
-    ],
-    "score": 86,
-    "featured": true,
-    "createdAt": "2026-08-16T19:00:02.000Z"
   },
   {
     "id": "nowcoder-32618",
