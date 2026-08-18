@@ -1,5 +1,51 @@
 [
   {
+    "id": "nowcoder-652",
+    "title": "滴滴 — 27届秋招",
+    "summary": "国内出行服务龙头企业，全生态布局，技术研发与运营能力领先。。招聘批次：27届秋招。工作地点：杭州、广州、深圳、成都、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://campus.didiglobal.com/campus_apply/didiglobal/96064#/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "杭州、广州、深圳、成都、北京、上海",
+    "deadline": "2026/10/12",
+    "tags": [
+      "滴滴",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "杭州",
+      "广州",
+      "深圳",
+      "工具"
+    ],
+    "score": 99,
+    "featured": true,
+    "createdAt": "2026-08-18T06:22:00.000Z"
+  },
+  {
+    "id": "nowcoder-294969",
+    "title": "Dexmal 原力灵机 — 27届校招",
+    "summary": "提供能源AI领域系统培训，应届生可参与国家级智能电网项目。。招聘批次：27届校招。工作地点：北京。招聘岗位：硬件工程师、电子/半导体、人工智能/算法、通信。",
+    "url": "https://www.nowcoder.com/enterprise/294969",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "北京",
+    "deadline": "2027/05/30",
+    "tags": [
+      "Dexmal 原力灵机",
+      "校招",
+      "互联网/AI",
+      "北京"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-08-18T06:16:31.000Z"
+  },
+  {
     "id": "nowcoder-2932",
     "title": "厦门银行 — 27届秋招",
     "summary": "连续超10年获评“最佳雇主厦门十强”。招聘批次：27届秋招。工作地点：福州、厦门、莆田、三明、泉州、漳州、南平、龙岩。",
@@ -49,27 +95,6 @@
     "score": 91,
     "featured": true,
     "createdAt": "2026-08-18T03:11:11.000Z"
-  },
-  {
-    "id": "nowcoder-294969",
-    "title": "Dexmal 原力灵机 — 27届校招",
-    "summary": "提供能源AI领域系统培训，应届生可参与国家级智能电网项目。。招聘批次：27届校招。工作地点：北京。招聘岗位：硬件工程师、电子/半导体、人工智能/算法、通信。",
-    "url": "https://www.nowcoder.com/enterprise/294969",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "campus",
-    "category": "internet",
-    "location": "北京",
-    "deadline": "2027/05/30",
-    "tags": [
-      "Dexmal 原力灵机",
-      "校招",
-      "互联网/AI",
-      "北京"
-    ],
-    "score": 92,
-    "featured": true,
-    "createdAt": "2026-08-18T02:10:02.000Z"
   },
   {
     "id": "nowcoder-258454",
@@ -249,31 +274,6 @@
     "score": 92,
     "featured": true,
     "createdAt": "2026-08-16T08:46:48.000Z"
-  },
-  {
-    "id": "nowcoder-652",
-    "title": "滴滴 — 27届秋招",
-    "summary": "国内出行服务龙头企业，全生态布局，技术研发与运营能力领先。。招聘批次：27届秋招。工作地点：杭州、广州、深圳、成都、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
-    "url": "https://campus.didiglobal.com/campus_apply/didiglobal/96064#/jobs",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "campus",
-    "category": "internet",
-    "location": "杭州、广州、深圳、成都、北京、上海",
-    "deadline": "2026/10/12",
-    "tags": [
-      "滴滴",
-      "校招",
-      "秋招",
-      "互联网/AI",
-      "杭州",
-      "广州",
-      "深圳",
-      "工具"
-    ],
-    "score": 99,
-    "featured": true,
-    "createdAt": "2026-08-16T03:10:08.000Z"
   },
   {
     "id": "nowcoder-8989",
