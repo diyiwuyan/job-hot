@@ -1,5 +1,26 @@
 [
   {
+    "id": "nowcoder-294969",
+    "title": "Dexmal 原力灵机 — 27届校招",
+    "summary": "提供能源AI领域系统培训，应届生可参与国家级智能电网项目。。招聘批次：27届校招。工作地点：北京。招聘岗位：硬件工程师、电子/半导体、人工智能/算法、通信。",
+    "url": "https://www.nowcoder.com/enterprise/294969",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "北京",
+    "deadline": "2027/05/30",
+    "tags": [
+      "Dexmal 原力灵机",
+      "校招",
+      "互联网/AI",
+      "北京"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-08-18T02:10:02.000Z"
+  },
+  {
     "id": "nowcoder-258454",
     "title": "海光信息 — 27届秋招",
     "summary": "国产高端芯片龙头企业，全栈研发能力突出，国产替代核心支撑力量。。招聘批次：27届秋招。工作地点：苏州、青岛、郑州、深圳、成都、西安、北京、上海、天津。招聘岗位：后端开发、技术支持、化工、电子/半导体、人工智能/算法等。",
@@ -46,27 +67,6 @@
     "score": 93,
     "featured": true,
     "createdAt": "2026-08-17T08:51:12.000Z"
-  },
-  {
-    "id": "nowcoder-294969",
-    "title": "Dexmal 原力灵机 — 27届校招",
-    "summary": "提供能源AI领域系统培训，应届生可参与国家级智能电网项目。。招聘批次：27届校招。工作地点：北京。招聘岗位：硬件工程师、电子/半导体、人工智能/算法、通信。",
-    "url": "https://app.mokahr.com/campus-recruitment/mhr/150777?locale=zh-CN#/jobs",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "campus",
-    "category": "internet",
-    "location": "北京",
-    "deadline": "2027/05/30",
-    "tags": [
-      "Dexmal 原力灵机",
-      "校招",
-      "互联网/AI",
-      "北京"
-    ],
-    "score": 92,
-    "featured": true,
-    "createdAt": "2026-08-17T08:17:16.000Z"
   },
   {
     "id": "nowcoder-27990",
@@ -600,6 +600,23 @@
     "score": 68,
     "featured": false,
     "createdAt": "2026-07-10T19:00:01.000Z"
+  },
+  {
+    "id": "nowcoder-22230",
+    "title": "天翼云 — 校招",
+    "summary": "招聘批次：校招。",
+    "url": "https://www.nowcoder.com/enterprise/22230",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "天翼云",
+      "校招"
+    ],
+    "score": 67,
+    "featured": false,
+    "createdAt": "2026-07-06T08:06:04.000Z"
   },
   {
     "id": "nowcoder-2412",
