@@ -12912,7 +12912,7 @@
       "专用设备制造业",
       "成都"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-08-10T16:15:29.000Z"
   },
@@ -12936,7 +12936,7 @@
       "专用设备制造业",
       "成都"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-08-10T16:15:02.000Z"
   },
@@ -12961,7 +12961,7 @@
       "北京",
       "石家庄"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-08-10T15:56:16.000Z"
   },
@@ -12985,8 +12985,8 @@
       "其他制造业",
       "武汉"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-08-10T15:41:56.000Z"
   },
   {
@@ -13009,7 +13009,7 @@
       "其他制造业",
       "武汉"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-08-10T15:37:59.000Z"
   },
@@ -13033,8 +13033,8 @@
       "科技推广和应用服务业",
       "沧州"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-08-10T15:26:07.000Z"
   },
   {
@@ -13057,7 +13057,7 @@
       "其他制造业",
       "武汉"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-08-10T15:25:04.000Z"
   },
@@ -13080,8 +13080,8 @@
       "交通运输、仓储和邮政业",
       "鞍山"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-08-10T14:57:42.000Z"
   },
   {
@@ -13104,8 +13104,8 @@
       "交通运输、仓储和邮政业",
       "鞍山"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-08-10T14:55:47.000Z"
   },
   {
@@ -13127,8 +13127,8 @@
       "交通运输、仓储和邮政业",
       "鞍山"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-08-10T14:52:38.000Z"
   },
   {
@@ -13150,8 +13150,8 @@
       "交通运输、仓储和邮政业",
       "鞍山"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-08-10T14:48:01.000Z"
   },
   {
@@ -13173,8 +13173,8 @@
       "其他",
       "珠海市"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-08-10T14:44:57.000Z"
   },
   {
@@ -13197,7 +13197,7 @@
       "其他制造业",
       "武汉"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-08-10T13:56:02.000Z"
   },
@@ -13222,7 +13222,7 @@
       "北京",
       "天津"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-08-10T13:52:22.000Z"
   },
@@ -13246,7 +13246,7 @@
       "其他制造业",
       "武汉"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-08-10T13:51:19.000Z"
   },
@@ -13270,7 +13270,7 @@
       "其他制造业",
       "武汉"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-08-10T13:42:09.000Z"
   },
@@ -13294,7 +13294,7 @@
       "其他制造业",
       "武汉"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-08-10T13:35:57.000Z"
   },
@@ -13319,8 +13319,8 @@
       "北京",
       "天津"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-08-10T13:35:12.000Z"
   },
   {
@@ -13343,7 +13343,7 @@
       "科学研究和技术服务业",
       "广州"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-08-10T11:41:18.000Z"
   },
@@ -18732,7 +18732,7 @@
       "保险业",
       "深圳"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-08-03T17:47:32.000Z"
   },
@@ -18756,7 +18756,7 @@
       "保险业",
       "深圳"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-08-03T17:41:20.000Z"
   },
@@ -18780,7 +18780,7 @@
       "保险业",
       "深圳"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-08-03T17:37:30.000Z"
   },
@@ -18804,8 +18804,8 @@
       "保险业",
       "深圳"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-08-03T17:32:45.000Z"
   },
   {
@@ -18828,8 +18828,8 @@
       "保险业",
       "深圳"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-08-03T17:28:52.000Z"
   },
   {
@@ -18852,8 +18852,8 @@
       "保险业",
       "深圳"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-08-03T17:24:34.000Z"
   },
   {
@@ -18876,7 +18876,7 @@
       "保险业",
       "深圳"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-08-03T17:16:43.000Z"
   },
@@ -18900,8 +18900,8 @@
       "保险业",
       "深圳"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-08-03T17:10:27.000Z"
   },
   {
@@ -18924,7 +18924,7 @@
       "航天",
       "贵阳"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-08-03T17:04:08.000Z"
   },
@@ -18947,8 +18947,8 @@
       "房屋建筑业",
       "海口"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-08-03T16:18:10.000Z"
   },
   {
@@ -19064,7 +19064,7 @@
       "金融业",
       "南昌"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-08-03T15:11:23.000Z"
   },
@@ -19088,7 +19088,7 @@
       "保险业",
       "深圳"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-08-03T14:17:25.000Z"
   },
@@ -19112,7 +19112,7 @@
       "保险业",
       "深圳"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-08-03T14:11:24.000Z"
   },
@@ -19136,7 +19136,7 @@
       "医药制造业",
       "深圳"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-08-03T14:07:44.000Z"
   },
@@ -19160,7 +19160,7 @@
       "保险业",
       "深圳"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-08-03T13:55:36.000Z"
   },
