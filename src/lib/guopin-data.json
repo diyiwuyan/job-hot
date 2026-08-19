@@ -767,6 +767,29 @@
     "createdAt": "2026-08-24T00:00:00.000Z"
   },
   {
+    "id": "guopin-213275835514224671",
+    "title": "中盐勘察设计院有限公司 — 采矿工程设计岗",
+    "summary": "企业性质：国企。行业：专业技术服务业。工作地点：长沙-雨花区。薪资：7000-9000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=213275835514224671",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "长沙-雨花区",
+    "deadline": "2026/08/30",
+    "tags": [
+      "中盐勘察设计院有限公司",
+      "校招",
+      "国企",
+      "专业技术服务业",
+      "长沙"
+    ],
+    "score": 83,
+    "featured": true,
+    "createdAt": "2026-08-19T15:23:54.000Z"
+  },
+  {
     "id": "guopin-214415276630869068",
     "title": "云锡新材料（东营）有限公司 — 主控运维",
     "summary": "企业性质：国企。行业：化学原料和化学制品制造业。工作地点：东营-东营区。薪资：5000-7000元/月。学历：大专。规模：300-500人。",
@@ -1949,6 +1972,53 @@
     "createdAt": "2026-08-19T12:00:00.000Z"
   },
   {
+    "id": "guopin-214429978555581525",
+    "title": "钢研昊普（苏州）创新中心有限公司 — 研发工程师（机械结构设计）",
+    "summary": "企业性质：国企。行业：其他制造业。工作地点：苏州。薪资面议。学历：本科。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=214429978555581525",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "苏州",
+    "deadline": "2026/11/13",
+    "tags": [
+      "钢研昊普（苏州）创新中心有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "其他制造业",
+      "苏州"
+    ],
+    "score": 81,
+    "featured": true,
+    "createdAt": "2026-08-19T11:27:24.000Z"
+  },
+  {
+    "id": "guopin-214425471859819606",
+    "title": "中铁钢结构有限公司 — 行政管理岗",
+    "summary": "企业性质：国企。行业：建筑业。工作地点：南京。薪资：6000-8000元/月。学历：本科。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=214425471859819606",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "南京",
+    "deadline": "2026/11/16",
+    "tags": [
+      "中铁钢结构有限公司",
+      "校招",
+      "国企",
+      "建筑业",
+      "南京"
+    ],
+    "score": 83,
+    "featured": true,
+    "createdAt": "2026-08-19T09:52:59.000Z"
+  },
+  {
     "id": "guopin-214425089356072017",
     "title": "中铁钢结构有限公司 — 施工技术管理岗",
     "summary": "企业性质：国企。行业：建筑业。工作地点：南京。薪资：7000-10000元/月。学历：本科。规模：300-500人。",
@@ -2064,6 +2134,30 @@
     "score": 81,
     "featured": true,
     "createdAt": "2026-08-19T08:11:34.000Z"
+  },
+  {
+    "id": "guopin-214430208252445778",
+    "title": "蓝星（北京）化工机械有限公司 — 财务部综合报表岗",
+    "summary": "企业性质：国企。行业：制造业。工作地点：北京。薪资面议。学历：硕士。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=214430208252445778",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "北京",
+    "deadline": "2026/11/16",
+    "tags": [
+      "蓝星（北京）化工机械有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "制造业",
+      "北京"
+    ],
+    "score": 80,
+    "featured": true,
+    "createdAt": "2026-08-19T01:00:00.000Z"
   },
   {
     "id": "guopin-214408675064808527",
@@ -20102,7 +20196,7 @@
       "化学原料和化学制品制造业",
       "上海"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-08-04T08:00:00.000Z"
   },
