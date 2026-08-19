@@ -1,5 +1,31 @@
 [
   {
+    "id": "nowcoder-7022",
+    "title": "芯原股份 — 27届秋招 今日收录",
+    "summary": "芯片设计服务龙头企业，中国半导体IP第一股，于2020年8月18日在科创板上市。。招聘批次：27届秋招 今日收录。工作地点：南京、广州、海口、成都、上海。招聘岗位：后端开发、测试、技术支持、硬件工程师、电子/半导体等。",
+    "url": "https://campus.51job.com/VeriSilicon2027",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "南京、广州、海口、成都、上海",
+    "deadline": "2026/08/22",
+    "tags": [
+      "芯原股份",
+      "校招",
+      "秋招",
+      "车企/IC",
+      "南京",
+      "广州",
+      "海口",
+      "硬件",
+      "芯片"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-08-19T09:34:17.000Z"
+  },
+  {
     "id": "nowcoder-27378",
     "title": "Formlabs — 27届秋招 今日收录",
     "summary": "独角兽阵营佼佼者，3D 打印界的创新领跑者，产品硬核领先，盈利态势强劲。招聘批次：27届秋招 今日收录。工作地点：深圳。招聘岗位：数据、人工智能/算法、研发工程师、硬件工程师、电子/半导体等。",
@@ -474,5 +500,28 @@
     "score": 67,
     "featured": false,
     "createdAt": "2026-07-06T08:06:04.000Z"
+  },
+  {
+    "id": "nowcoder-2412",
+    "title": "乐元素科技（北京）股份有限公司 — 27秋招",
+    "summary": "国内休闲游戏与女性向游戏龙头，内容创作能力突出，产品运营能力领先。。招聘批次：27秋招。工作地点：北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://app.mokahr.com/campus-recruitment/leyuansu/166186?locale=zh-CN#/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "game",
+    "location": "北京、上海",
+    "deadline": "2026/08/22",
+    "tags": [
+      "乐元素科技（北京）股份有限公司",
+      "校招",
+      "秋招",
+      "游戏",
+      "北京",
+      "上海"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-06-26T09:54:11.000Z"
   }
 ]
