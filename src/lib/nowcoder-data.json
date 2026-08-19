@@ -1,5 +1,30 @@
 [
   {
+    "id": "nowcoder-920",
+    "title": "德州仪器 — 27届校招",
+    "summary": "德州仪器是一家全球性的半导体公司，从事设计、制造、测试和销售模拟和嵌入式处理芯片。招聘批次：27届校招。工作地点：深圳、北京、上海。招聘岗位：后端开发、硬件工程师、电子/半导体、通信、技术支持等。",
+    "url": "https://app.mokahr.com/su/yqvjux",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "foreign",
+    "location": "深圳、北京、上海",
+    "deadline": "2026/10/30",
+    "tags": [
+      "德州仪器",
+      "校招",
+      "车企/IC",
+      "深圳",
+      "北京",
+      "上海",
+      "硬件"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-08-19T07:06:27.000Z"
+  },
+  {
     "id": "nowcoder-1059",
     "title": "度小满 — 27届秋招 今日收录",
     "summary": "国内领先的金融科技企业，技术研发扎实，普惠金融服务能力行业突出。。招聘批次：27届秋招 今日收录。工作地点：北京、上海。招聘岗位：后端开发、前端开发、测试、数据、人工智能/算法等。",
@@ -21,31 +46,6 @@
     "score": 93,
     "featured": true,
     "createdAt": "2026-08-19T06:27:44.000Z"
-  },
-  {
-    "id": "nowcoder-920",
-    "title": "德州仪器 — 网申：已结束",
-    "summary": "德州仪器是一家全球性的半导体公司，从事设计、制造、测试和销售模拟和嵌入式处理芯片。招聘批次：网申：已结束。工作地点：深圳、北京、上海。招聘岗位：后端开发、硬件工程师、电子/半导体、通信、技术支持等。",
-    "url": "https://app.mokahr.com/su/yqvjux",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "foreign",
-    "location": "深圳、北京、上海",
-    "deadline": "2026/08/16",
-    "tags": [
-      "德州仪器",
-      "校招",
-      "车企/IC",
-      "深圳",
-      "北京",
-      "上海",
-      "硬件"
-    ],
-    "score": 86,
-    "featured": true,
-    "createdAt": "2026-08-18T19:00:02.000Z"
   },
   {
     "id": "nowcoder-27990",
