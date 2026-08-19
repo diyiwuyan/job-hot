@@ -14104,8 +14104,8 @@
       "零售业",
       "哈尔滨"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-08-11T17:15:25.000Z"
   },
   {
@@ -14128,7 +14128,7 @@
       "居民服务、修理和其他服务业",
       "杭州"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-08-11T16:44:28.000Z"
   },
@@ -14152,8 +14152,8 @@
       "兵器",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-08-11T11:41:44.000Z"
   },
   {
@@ -14176,7 +14176,7 @@
       "兵器",
       "北京"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-08-11T11:37:13.000Z"
   },
@@ -14200,8 +14200,8 @@
       "兵器",
       "北京"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-08-11T11:26:51.000Z"
   },
   {
@@ -19933,7 +19933,7 @@
       "批发业",
       "乌鲁木齐"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-08-04T16:31:20.000Z"
   },
@@ -19957,8 +19957,8 @@
       "资本市场服务",
       "珠海"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-08-04T15:56:33.000Z"
   },
   {
@@ -20005,7 +20005,7 @@
       "专用设备制造业",
       "北京"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-08-04T14:22:24.000Z"
   },
@@ -20029,7 +20029,7 @@
       "专用设备制造业",
       "北京"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-08-04T14:14:39.000Z"
   },
