@@ -33,8 +33,8 @@ const entryCards = [
   {
     question: '不知道自己可能对什么工作感兴趣',
     title: '霍兰德职业兴趣测试',
-    meta: 'Holland RIASEC · 48题 · 约5分钟',
-    description: '从六类职业兴趣中获得方向线索，再用真实岗位任务和实践反馈进一步验证，而不是被一次结果限定。',
+    meta: 'Holland RIASEC · 90题 · 约8—10分钟',
+    description: '兴趣、能力自评、职业反馈各10分，并结合专业与AI实践推荐现代校招岗位大类；结果用于探索，不用于限定职业。',
     href: '/tools/holland',
     icon: '◎',
     gradient: 'linear-gradient(135deg, #6366f1, #8b5cf6)',

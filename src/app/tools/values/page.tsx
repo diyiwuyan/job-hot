@@ -45,8 +45,12 @@ function valueResultName(scoreSet: Record<ValueKey, number>) {
     .join('、');
 }
 
-function restoreNumericAnswers(answerSet: Record<string, number>) {
-  return Object.fromEntries(Object.entries(answerSet).map(([id, value]) => [Number(id), value]));
+function restoreNumericAnswers(answerSet: Record<string, unknown>) {
+  return Object.fromEntries(
+    Object.entries(answerSet)
+      .filter(([id, value]) => /^\d+$/.test(id) && typeof value === 'number')
+      .map(([id, value]) => [Number(id), value as number])
+  );
 }
 
 export default function ValuesPage() {

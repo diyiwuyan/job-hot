@@ -4,7 +4,7 @@ import { useCallback, useEffect, useState } from 'react';
 import { useAuth } from '@/components/AuthContext';
 import { supabase } from '@/lib/supabase';
 
-export type AssessmentAnswers = Record<string, number>;
+export type AssessmentAnswers = Record<string, unknown>;
 export type AssessmentScores = Record<string, number>;
 
 export type StoredAssessmentResult = {
@@ -98,4 +98,3 @@ export function useAssessmentResult(assessmentId: string) {
     saveResult,
   };
 }
-

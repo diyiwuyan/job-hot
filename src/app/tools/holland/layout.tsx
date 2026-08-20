@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '霍兰德职业兴趣测试 - JOBHOT',
-  description: '免费在线霍兰德职业兴趣测试（Holland RIASEC），48 道题测出你的职业兴趣代码与适合的职业方向、专业参考，助力大学生求职与职业规划。',
+  description: '免费在线霍兰德职业兴趣测试（Holland RIASEC），90 道题按兴趣、能力自评、职业反馈三项各10分计分，并结合专业与AI实践推荐大学生校招岗位大类。',
 };
 
 export default function HollandLayout({ children }: { children: React.ReactNode }) {

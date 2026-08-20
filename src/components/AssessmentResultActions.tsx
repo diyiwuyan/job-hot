@@ -23,6 +23,7 @@ type AssessmentResultActionsProps = {
   nextStep?: NextStep;
   campFit?: string;
   accent?: string;
+  onSaveCard?: (source: string) => Promise<void>;
 };
 
 export function AssessmentResultActions({
@@ -35,6 +36,7 @@ export function AssessmentResultActions({
   nextStep,
   campFit,
   accent,
+  onSaveCard,
 }: AssessmentResultActionsProps) {
   const [source, setSource] = useState('直接访问');
   const [showTeacher, setShowTeacher] = useState(false);
@@ -61,14 +63,17 @@ export function AssessmentResultActions({
   const resultText = `我的${assessmentName}结果：${resultName}\n${headline}\n未来72小时行动：${action}\n来源：${source}`;
 
   async function saveCard() {
-    await downloadAssessmentResultCard({
-      assessmentName,
-      resultName,
-      headline,
-      action,
-      source,
-      accent,
-    });
+    if (onSaveCard) await onSaveCard(source);
+    else {
+      await downloadAssessmentResultCard({
+        assessmentName,
+        resultName,
+        headline,
+        action,
+        source,
+        accent,
+      });
+    }
     trackEvent('assessment_result_save', assessmentId, { source, result: resultName });
   }
 

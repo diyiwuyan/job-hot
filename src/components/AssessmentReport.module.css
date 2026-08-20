@@ -562,6 +562,217 @@
   line-height: 1.7;
 }
 
+.profileHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: .75rem;
+}
+
+.profileHeader h2 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.profileHeader p {
+  margin: .25rem 0 0;
+  color: var(--text-muted);
+  font-size: .74rem;
+  line-height: 1.65;
+}
+
+.profileHeader > span {
+  flex: none;
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: .72rem;
+  font-weight: 800;
+}
+
+.profileOptions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .5rem;
+}
+
+.profileOption,
+.profileOptionActive {
+  padding: .7rem .75rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg-elevated);
+  color: var(--text-muted);
+  cursor: pointer;
+  font: inherit;
+  font-size: .75rem;
+  line-height: 1.45;
+  text-align: left;
+}
+
+.profileOptionActive {
+  border-color: var(--accent);
+  background: var(--accent-muted);
+  color: var(--accent);
+  font-weight: 750;
+  box-shadow: inset 0 0 0 1px var(--accent);
+}
+
+.aiOptions {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .5rem;
+}
+
+.aiOption,
+.aiOptionActive {
+  display: grid;
+  gap: .2rem;
+  padding: .75rem;
+  border: 1px solid var(--border);
+  border-radius: 11px;
+  background: var(--bg-elevated);
+  color: var(--text);
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
+}
+
+.aiOptionActive {
+  border-color: var(--accent);
+  background: var(--accent-muted);
+  box-shadow: inset 0 0 0 1px var(--accent);
+}
+
+.aiOption strong,
+.aiOptionActive strong {
+  font-size: .76rem;
+}
+
+.aiOption small,
+.aiOptionActive small {
+  color: var(--text-muted);
+  font-size: .64rem;
+  line-height: 1.5;
+}
+
+.profileSummary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .45rem;
+  margin-bottom: .8rem;
+  padding: .65rem .75rem;
+  border-radius: 11px;
+  background: var(--bg-elevated);
+  color: var(--text-muted);
+  font-size: .7rem;
+}
+
+.profileSummary strong {
+  color: var(--text);
+  margin-right: .25rem;
+}
+
+.profileSummary span {
+  padding: .28rem .5rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--bg-card);
+}
+
+.jobCategoryCard {
+  --item-color: var(--accent);
+  padding: 1rem;
+  border: 1px solid color-mix(in srgb, var(--item-color) 24%, var(--border));
+  border-top: 3px solid var(--item-color);
+  border-radius: 14px;
+  background: linear-gradient(155deg, color-mix(in srgb, var(--item-color) 7%, var(--bg-card)), var(--bg-card) 58%);
+}
+
+.jobCategoryCard h3 {
+  margin: .28rem 0 .25rem;
+  font-size: 1rem;
+}
+
+.jobCategoryCard > p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: .74rem;
+  line-height: 1.65;
+}
+
+.jobTaskList,
+.jobRoleList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+}
+
+.jobTaskList {
+  margin: .7rem 0;
+}
+
+.jobTaskList span {
+  padding: .27rem .45rem;
+  border-radius: 7px;
+  background: color-mix(in srgb, var(--item-color) 10%, var(--bg-elevated));
+  color: var(--text-muted);
+  font-size: .64rem;
+}
+
+.jobRoleTitle {
+  display: block;
+  padding-top: .65rem;
+  border-top: 1px dashed var(--border);
+  color: var(--text-muted);
+  font-size: .65rem;
+}
+
+.jobRoleList {
+  margin-top: .5rem;
+}
+
+.jobRoleList span {
+  padding: .32rem .5rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg-card);
+  color: var(--text);
+  font-size: .68rem;
+  line-height: 1.4;
+}
+
+.methodGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .65rem;
+}
+
+.methodGrid > div {
+  padding: .9rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--bg-elevated);
+}
+
+.methodGrid strong {
+  font-size: .8rem;
+}
+
+.methodGrid p {
+  margin: .35rem 0 .55rem;
+  color: var(--text-muted);
+  font-size: .72rem;
+  line-height: 1.7;
+}
+
+.methodGrid a {
+  color: var(--accent);
+  font-size: .7rem;
+  font-weight: 700;
+}
+
 .srOnly {
   position: absolute;
   width: 1px;
@@ -816,6 +1027,12 @@
   .definitions,
   .recommendationGrid,
   .activityGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .profileOptions,
+  .aiOptions,
+  .methodGrid {
     grid-template-columns: 1fr;
   }
 
