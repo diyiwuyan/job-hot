@@ -13402,7 +13402,7 @@
       "批发业",
       "伊犁"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
@@ -13426,7 +13426,7 @@
       "其他制造业",
       "黔东南"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
@@ -13449,7 +13449,7 @@
       "卫生",
       "南京"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
@@ -13472,7 +13472,7 @@
       "批发业",
       "吐鲁番"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
@@ -13498,8 +13498,8 @@
       "鄂尔多斯",
       "榆林"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
   {
@@ -13521,8 +13521,8 @@
       "纺织服装/服饰业",
       "巴音郭楞"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
   {
@@ -13544,8 +13544,8 @@
       "批发业",
       "阿勒泰"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
   {
@@ -13568,8 +13568,8 @@
       "批发和零售业",
       "南昌"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
   {
@@ -13592,8 +13592,8 @@
       "医药制造业",
       "长春"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
   {
@@ -13615,8 +13615,8 @@
       "批发业",
       "哈密"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
   {
@@ -13638,8 +13638,8 @@
       "专业技术服务业",
       "武汉市"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
   {
@@ -13664,8 +13664,8 @@
       "榆林",
       "鄂尔多斯"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
   {
@@ -13690,8 +13690,8 @@
       "鄂尔多斯",
       "榆林"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
   {
@@ -13714,8 +13714,8 @@
       "科技推广和应用服务业",
       "北京"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
   {
@@ -13738,8 +13738,8 @@
       "航天",
       "西安"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
   {
@@ -13762,8 +13762,8 @@
       "昌吉",
       "阿克苏"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
   {
@@ -13786,8 +13786,8 @@
       "保险业",
       "上海"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
   {
@@ -13812,8 +13812,8 @@
       "榆林",
       "鄂尔多斯"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
   {
@@ -13836,8 +13836,8 @@
       "制造业",
       "北京"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
   {
@@ -13859,8 +13859,8 @@
       "纺织服装/服饰业",
       "昌吉"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
   {
@@ -13882,8 +13882,8 @@
       "装卸搬运和仓储业",
       "苏州"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
   {
@@ -13908,8 +13908,8 @@
       "榆林",
       "鄂尔多斯"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
   {
@@ -13934,8 +13934,8 @@
       "榆林",
       "鄂尔多斯"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
   {
@@ -13960,8 +13960,8 @@
       "鄂尔多斯",
       "榆林"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
   {
@@ -13986,8 +13986,8 @@
       "鄂尔多斯",
       "榆林"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
   {
@@ -14010,8 +14010,8 @@
       "纺织服装/服饰业",
       "昌吉"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
   {
@@ -14033,7 +14033,7 @@
       "批发和零售业",
       "南昌"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
@@ -14057,7 +14057,7 @@
       "专业技术服务业",
       "徐州"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
@@ -14080,7 +14080,7 @@
       "卫生",
       "北京"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-08-12T00:00:00.000Z"
   },
@@ -19202,8 +19202,8 @@
       "金融业",
       "深圳"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
   {
@@ -19226,8 +19226,8 @@
       "其他制造业",
       "贵阳"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
   {
@@ -19249,8 +19249,8 @@
       "卫生",
       "南通"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
   {
@@ -19273,8 +19273,8 @@
       "兵器",
       "西安"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
   {
@@ -19297,8 +19297,8 @@
       "航天",
       "北京"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
   {
@@ -19321,8 +19321,8 @@
       "科学研究和技术服务业",
       "无锡"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
   {
@@ -19345,8 +19345,8 @@
       "科学研究和技术服务业",
       "无锡"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
   {
@@ -19369,8 +19369,8 @@
       "有色金属冶炼和压延加工业",
       "南宁"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
   {
@@ -19392,8 +19392,8 @@
       "建筑安装业",
       "吉尔吉斯斯坦"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
   {
@@ -19416,8 +19416,8 @@
       "科学研究和技术服务业",
       "无锡"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
   {
@@ -19440,7 +19440,7 @@
       "商务服务业",
       "雄安新区"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
@@ -19463,7 +19463,7 @@
       "非金属矿采选业",
       "鹤岗"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
@@ -19486,7 +19486,7 @@
       "其他",
       "海口"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
@@ -19510,7 +19510,7 @@
       "科学研究和技术服务业",
       "无锡"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
@@ -19533,7 +19533,7 @@
       "有色金属矿采选业",
       "郴州"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
@@ -19557,7 +19557,7 @@
       "有色金属矿采选业",
       "郴州"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
@@ -19580,7 +19580,7 @@
       "有色金属矿采选业",
       "郴州"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
@@ -19604,7 +19604,7 @@
       "信息传输、软件和信息技术服务业",
       "北京"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
@@ -19628,7 +19628,7 @@
       "信息传输、软件和信息技术服务业",
       "北京"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
@@ -19651,7 +19651,7 @@
       "有色金属冶炼和压延加工业",
       "南宁"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
@@ -19675,7 +19675,7 @@
       "租赁和商务服务业",
       "北京"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
@@ -19699,7 +19699,7 @@
       "科学研究和技术服务业",
       "无锡"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
@@ -19723,7 +19723,7 @@
       "科学研究和技术服务业",
       "无锡"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
@@ -19747,7 +19747,7 @@
       "信息传输、软件和信息技术服务业",
       "北京"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
@@ -19771,7 +19771,7 @@
       "电力、热力、燃气及水生产和供应业",
       "杭州"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
@@ -19795,7 +19795,7 @@
       "有色金属矿采选业",
       "郴州"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
@@ -19818,7 +19818,7 @@
       "有色金属矿采选业",
       "郴州"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
@@ -19841,7 +19841,7 @@
       "有色金属矿采选业",
       "郴州"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
@@ -19864,7 +19864,7 @@
       "交通运输、仓储和邮政业",
       "天津"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
@@ -19887,7 +19887,7 @@
       "交通运输、仓储和邮政业",
       "天津"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
@@ -19910,7 +19910,7 @@
       "交通运输、仓储和邮政业",
       "天津"
     ],
-    "score": 67,
+    "score": 62,
     "featured": false,
     "createdAt": "2026-08-05T00:00:00.000Z"
   },
@@ -33862,169 +33862,6 @@
     "createdAt": "2026-07-20T00:00:00.000Z"
   },
   {
-    "id": "guopin-210053372034681127",
-    "title": "中材水泥海外发展（天津）有限公司 — 生产技术",
-    "summary": "企业性质：国企。行业：非金属矿物制品业。工作地点：海外。薪资：13000-15000元/月。学历：大专。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=210053372034681127",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "海外",
-    "deadline": "2026/08/21",
-    "tags": [
-      "中材水泥海外发展（天津）有限公司",
-      "校招",
-      "国企",
-      "非金属矿物制品业",
-      "海外"
-    ],
-    "score": 77,
-    "featured": false,
-    "createdAt": "2026-07-20T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-210052556930418930",
-    "title": "中材水泥海外发展（天津）有限公司 — 财务管理",
-    "summary": "企业性质：国企。行业：非金属矿物制品业。工作地点：海外。薪资：13000-15000元/月。学历：本科。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=210052556930418930",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "海外",
-    "deadline": "2026/08/21",
-    "tags": [
-      "中材水泥海外发展（天津）有限公司",
-      "校招",
-      "国企",
-      "非金属矿物制品业",
-      "海外"
-    ],
-    "score": 77,
-    "featured": false,
-    "createdAt": "2026-07-20T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-210050627500247336",
-    "title": "中材水泥海外发展（天津）有限公司 — 市场营销",
-    "summary": "企业性质：国企。行业：非金属矿物制品业。工作地点：海外。薪资：13000-15000元/月。学历：本科。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=210050627500247336",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "海外",
-    "deadline": "2026/08/21",
-    "tags": [
-      "中材水泥海外发展（天津）有限公司",
-      "校招",
-      "国企",
-      "非金属矿物制品业",
-      "海外"
-    ],
-    "score": 77,
-    "featured": false,
-    "createdAt": "2026-07-20T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-210052939216062705",
-    "title": "中材水泥海外发展（天津）有限公司 — 安全环保",
-    "summary": "企业性质：国企。行业：非金属矿物制品业。工作地点：海外。薪资：13000-15000元/月。学历：大专。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=210052939216062705",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "security",
-    "companyType": "state",
-    "location": "海外",
-    "deadline": "2026/08/21",
-    "tags": [
-      "中材水泥海外发展（天津）有限公司",
-      "校招",
-      "国企",
-      "安全/云服务",
-      "非金属矿物制品业",
-      "海外"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-07-20T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-210052166205835405",
-    "title": "中材水泥海外发展（天津）有限公司 — 物资采购",
-    "summary": "企业性质：国企。行业：非金属矿物制品业。工作地点：海外。薪资：13000-15000元/月。学历：本科。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=210052166205835405",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "海外",
-    "deadline": "2026/08/21",
-    "tags": [
-      "中材水泥海外发展（天津）有限公司",
-      "校招",
-      "国企",
-      "非金属矿物制品业",
-      "海外"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-07-20T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-210048904446609705",
-    "title": "中材水泥海外发展（天津）有限公司 — 行政人事管理",
-    "summary": "企业性质：国企。行业：非金属矿物制品业。工作地点：海外。薪资：13000-15000元/月。学历：本科。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=210048904446609705",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "海外",
-    "deadline": "2026/08/21",
-    "tags": [
-      "中材水泥海外发展（天津）有限公司",
-      "校招",
-      "国企",
-      "非金属矿物制品业",
-      "海外"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-07-20T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-210053559872391463",
-    "title": "中材水泥海外发展（天津）有限公司 — 机械设备",
-    "summary": "企业性质：国企。行业：非金属矿物制品业。工作地点：海外。薪资：13000-15000元/月。学历：大专。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=210053559872391463",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "海外",
-    "deadline": "2026/08/21",
-    "tags": [
-      "中材水泥海外发展（天津）有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "非金属矿物制品业",
-      "海外"
-    ],
-    "score": 74,
-    "featured": false,
-    "createdAt": "2026-07-20T00:00:00.000Z"
-  },
-  {
     "id": "guopin-210054772881885332",
     "title": "云南模二机械有限责任公司 — 技术员",
     "summary": "企业性质：国企。行业：金属制品业。工作地点：曲靖-麒麟区、曲靖-陆良县。薪资面议。学历：本科。规模：500-1000人。",
@@ -34073,6 +33910,145 @@
     "createdAt": "2026-07-20T00:00:00.000Z"
   },
   {
+    "id": "guopin-210053372034681127",
+    "title": "中材水泥海外发展（天津）有限公司 — 生产技术",
+    "summary": "企业性质：国企。行业：非金属矿物制品业。工作地点：海外。薪资：13000-15000元/月。学历：大专。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=210053372034681127",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "海外",
+    "deadline": "2026/08/21",
+    "tags": [
+      "中材水泥海外发展（天津）有限公司",
+      "校招",
+      "国企",
+      "非金属矿物制品业",
+      "海外"
+    ],
+    "score": 72,
+    "featured": false,
+    "createdAt": "2026-07-20T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-210052556930418930",
+    "title": "中材水泥海外发展（天津）有限公司 — 财务管理",
+    "summary": "企业性质：国企。行业：非金属矿物制品业。工作地点：海外。薪资：13000-15000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=210052556930418930",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "海外",
+    "deadline": "2026/08/21",
+    "tags": [
+      "中材水泥海外发展（天津）有限公司",
+      "校招",
+      "国企",
+      "非金属矿物制品业",
+      "海外"
+    ],
+    "score": 72,
+    "featured": false,
+    "createdAt": "2026-07-20T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-210050627500247336",
+    "title": "中材水泥海外发展（天津）有限公司 — 市场营销",
+    "summary": "企业性质：国企。行业：非金属矿物制品业。工作地点：海外。薪资：13000-15000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=210050627500247336",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "海外",
+    "deadline": "2026/08/21",
+    "tags": [
+      "中材水泥海外发展（天津）有限公司",
+      "校招",
+      "国企",
+      "非金属矿物制品业",
+      "海外"
+    ],
+    "score": 72,
+    "featured": false,
+    "createdAt": "2026-07-20T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-210052939216062705",
+    "title": "中材水泥海外发展（天津）有限公司 — 安全环保",
+    "summary": "企业性质：国企。行业：非金属矿物制品业。工作地点：海外。薪资：13000-15000元/月。学历：大专。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=210052939216062705",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "security",
+    "companyType": "state",
+    "location": "海外",
+    "deadline": "2026/08/21",
+    "tags": [
+      "中材水泥海外发展（天津）有限公司",
+      "校招",
+      "国企",
+      "安全/云服务",
+      "非金属矿物制品业",
+      "海外"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-07-20T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-210052166205835405",
+    "title": "中材水泥海外发展（天津）有限公司 — 物资采购",
+    "summary": "企业性质：国企。行业：非金属矿物制品业。工作地点：海外。薪资：13000-15000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=210052166205835405",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "海外",
+    "deadline": "2026/08/21",
+    "tags": [
+      "中材水泥海外发展（天津）有限公司",
+      "校招",
+      "国企",
+      "非金属矿物制品业",
+      "海外"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-07-20T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-210048904446609705",
+    "title": "中材水泥海外发展（天津）有限公司 — 行政人事管理",
+    "summary": "企业性质：国企。行业：非金属矿物制品业。工作地点：海外。薪资：13000-15000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=210048904446609705",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "海外",
+    "deadline": "2026/08/21",
+    "tags": [
+      "中材水泥海外发展（天津）有限公司",
+      "校招",
+      "国企",
+      "非金属矿物制品业",
+      "海外"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-07-20T00:00:00.000Z"
+  },
+  {
     "id": "guopin-210078875097499943",
     "title": "语文出版社有限公司 — 文科编辑",
     "summary": "企业性质：国企。行业：新闻和出版业。工作地点：北京-东城区。薪资面议。学历：硕士。规模：100-300人。",
@@ -34116,6 +34092,30 @@
       "上海"
     ],
     "score": 70,
+    "featured": false,
+    "createdAt": "2026-07-20T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-210053559872391463",
+    "title": "中材水泥海外发展（天津）有限公司 — 机械设备",
+    "summary": "企业性质：国企。行业：非金属矿物制品业。工作地点：海外。薪资：13000-15000元/月。学历：大专。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=210053559872391463",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "海外",
+    "deadline": "2026/08/21",
+    "tags": [
+      "中材水泥海外发展（天津）有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "非金属矿物制品业",
+      "海外"
+    ],
+    "score": 69,
     "featured": false,
     "createdAt": "2026-07-20T00:00:00.000Z"
   },
