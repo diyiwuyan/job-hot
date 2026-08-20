@@ -1,0 +1,562 @@
+.report {
+  display: grid;
+  gap: 1rem;
+}
+
+.hero {
+  --report-accent: var(--accent);
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(240px, .65fr);
+  gap: 2rem;
+  padding: clamp(1.4rem, 4vw, 2.4rem);
+  border: 1px solid color-mix(in srgb, var(--report-accent) 36%, var(--border));
+  border-radius: 24px;
+  background:
+    radial-gradient(circle at 92% 10%, color-mix(in srgb, var(--report-accent) 26%, transparent), transparent 36%),
+    linear-gradient(145deg, var(--bg-card), color-mix(in srgb, var(--report-accent) 8%, var(--bg-card)));
+  box-shadow: 0 22px 60px rgba(0, 0, 0, .13);
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  right: -80px;
+  bottom: -110px;
+  border: 1px solid color-mix(in srgb, var(--report-accent) 28%, transparent);
+  border-radius: 50%;
+  box-shadow: 0 0 0 34px color-mix(in srgb, var(--report-accent) 7%, transparent), 0 0 0 68px color-mix(in srgb, var(--report-accent) 4%, transparent);
+}
+
+.heroCopy,
+.heroRanks {
+  position: relative;
+  z-index: 1;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  margin-bottom: .9rem;
+  color: var(--report-accent);
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.eyebrow::before {
+  content: '';
+  width: 22px;
+  height: 2px;
+  background: currentColor;
+}
+
+.hero h1 {
+  margin: 0 0 .8rem;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  line-height: 1.08;
+  letter-spacing: -.055em;
+}
+
+.heroLead {
+  max-width: 670px;
+  margin: 0;
+  color: var(--text-muted);
+  font-size: .95rem;
+  line-height: 1.85;
+}
+
+.heroNote {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: .5rem .7rem;
+  border: 1px solid color-mix(in srgb, var(--report-accent) 25%, var(--border));
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--report-accent) 8%, transparent);
+  color: var(--text-muted);
+  font-size: .75rem;
+  line-height: 1.65;
+}
+
+.heroRanks {
+  display: grid;
+  align-content: center;
+  gap: .55rem;
+}
+
+.heroRank {
+  display: grid;
+  grid-template-columns: 31px 1fr auto;
+  align-items: center;
+  gap: .7rem;
+  padding: .75rem .85rem;
+  border: 1px solid color-mix(in srgb, var(--rank-color) 30%, var(--border));
+  border-radius: 13px;
+  background: color-mix(in srgb, var(--rank-color) 9%, var(--bg-card));
+}
+
+.heroRank:first-child {
+  transform: translateX(-10px);
+  background: color-mix(in srgb, var(--rank-color) 16%, var(--bg-card));
+}
+
+.heroRank > span:first-child {
+  display: grid;
+  place-items: center;
+  width: 31px;
+  height: 31px;
+  border-radius: 9px;
+  background: var(--rank-color);
+  color: #fff;
+  font-size: .72rem;
+  font-weight: 800;
+}
+
+.heroRank strong {
+  font-size: .88rem;
+}
+
+.heroRank small {
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: .68rem;
+}
+
+.section {
+  padding: clamp(1rem, 3vw, 1.5rem);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: var(--bg-card);
+}
+
+.sectionHeading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.sectionHeading h2 {
+  margin: 0;
+  font-size: 1.08rem;
+  letter-spacing: -.02em;
+}
+
+.sectionHeading p {
+  max-width: 560px;
+  margin: .28rem 0 0;
+  color: var(--text-muted);
+  font-size: .78rem;
+  line-height: 1.7;
+}
+
+.sectionNumber {
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: .68rem;
+}
+
+.overviewGrid {
+  display: grid;
+  grid-template-columns: minmax(280px, .9fr) minmax(0, 1.1fr);
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.radarWrap {
+  display: grid;
+  justify-items: center;
+  min-width: 0;
+  padding: .4rem;
+}
+
+.radar {
+  display: block;
+  width: min(100%, 330px);
+  height: auto;
+  overflow: visible;
+}
+
+.radarGrid,
+.radarGridOuter,
+.radarAxis {
+  fill: none;
+  stroke: var(--border);
+  stroke-width: 1;
+}
+
+.radarGrid {
+  opacity: .6;
+}
+
+.radarGridOuter {
+  stroke: var(--border-light);
+}
+
+.radarArea {
+  fill: color-mix(in srgb, var(--accent) 20%, transparent);
+  stroke: var(--accent);
+  stroke-width: 2.5;
+  stroke-linejoin: round;
+}
+
+.radarDot {
+  stroke: var(--bg-card);
+  stroke-width: 2.5;
+}
+
+.radarLabel {
+  fill: var(--text);
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.radarScore {
+  fill: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 9px;
+}
+
+.radarHint {
+  margin: -.4rem 0 0;
+  color: var(--text-muted);
+  font-size: .68rem;
+  text-align: center;
+}
+
+.scoreBars {
+  display: grid;
+  gap: .78rem;
+}
+
+.scoreRow {
+  display: grid;
+  gap: .35rem;
+}
+
+.scoreMeta {
+  display: grid;
+  grid-template-columns: 27px 1fr auto;
+  align-items: center;
+  gap: .5rem;
+  font-size: .78rem;
+}
+
+.scoreMeta > span:last-child {
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: .68rem;
+}
+
+.scoreRank {
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: .64rem;
+}
+
+.scoreTrack {
+  height: 9px;
+  margin-left: 27px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: var(--bg-elevated);
+}
+
+.scoreFill {
+  display: block;
+  width: var(--metric-width);
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, color-mix(in srgb, var(--metric-color) 76%, white), var(--metric-color));
+  box-shadow: 0 0 14px color-mix(in srgb, var(--metric-color) 26%, transparent);
+}
+
+.analysisBox {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: .9rem;
+  align-items: start;
+  padding: 1rem;
+  border: 1px solid color-mix(in srgb, var(--analysis-color, var(--accent)) 30%, var(--border));
+  border-radius: 15px;
+  background: color-mix(in srgb, var(--analysis-color, var(--accent)) 8%, var(--bg-card));
+}
+
+.analysisMark {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  background: var(--analysis-color, var(--accent));
+  color: white;
+  font-size: .82rem;
+  font-weight: 900;
+}
+
+.analysisBox h3 {
+  margin: 0 0 .3rem;
+  font-size: .9rem;
+}
+
+.analysisBox p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: .8rem;
+  line-height: 1.75;
+}
+
+.rankGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .75rem;
+}
+
+.rankCard {
+  --rank-color: var(--accent);
+  position: relative;
+  overflow: hidden;
+  padding: 1rem;
+  border: 1px solid color-mix(in srgb, var(--rank-color) 28%, var(--border));
+  border-radius: 15px;
+  background: linear-gradient(150deg, color-mix(in srgb, var(--rank-color) 10%, var(--bg-card)), var(--bg-card) 68%);
+}
+
+.rankCard::before {
+  content: attr(data-rank);
+  position: absolute;
+  right: .65rem;
+  top: -.35rem;
+  color: color-mix(in srgb, var(--rank-color) 15%, transparent);
+  font-family: var(--font-mono);
+  font-size: 3.8rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.rankCardTop {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: .65rem;
+  margin-bottom: .8rem;
+}
+
+.rankBadge {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 11px;
+  background: var(--rank-color);
+  color: white;
+  font-weight: 850;
+}
+
+.rankCard h3 {
+  margin: 0;
+  font-size: .95rem;
+}
+
+.rankCard small {
+  display: block;
+  color: var(--text-muted);
+  font-size: .64rem;
+}
+
+.rankCard p {
+  position: relative;
+  margin: 0;
+  color: var(--text-muted);
+  font-size: .78rem;
+  line-height: 1.75;
+}
+
+.tagList {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+  margin-top: .8rem;
+}
+
+.tagList span {
+  padding: .28rem .45rem;
+  border-radius: 7px;
+  background: color-mix(in srgb, var(--rank-color) 10%, var(--bg-elevated));
+  color: var(--text-muted);
+  font-size: .66rem;
+}
+
+.verificationList {
+  display: grid;
+  gap: .7rem;
+}
+
+.verificationCard {
+  --item-color: var(--accent);
+  display: grid;
+  grid-template-columns: minmax(130px, .7fr) minmax(180px, 1.2fr) minmax(180px, 1.2fr);
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--item-color);
+  border-radius: 13px;
+  background: color-mix(in srgb, var(--item-color) 4%, var(--bg-card));
+}
+
+.verificationCard h3 {
+  margin: 0 0 .25rem;
+  font-size: .88rem;
+}
+
+.verificationCard strong,
+.verificationCard span {
+  display: block;
+}
+
+.verificationCard strong {
+  margin-bottom: .25rem;
+  color: var(--text-muted);
+  font-size: .66rem;
+  letter-spacing: .05em;
+}
+
+.verificationCard p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: .75rem;
+  line-height: 1.7;
+}
+
+.verificationCard blockquote {
+  margin: 0;
+  color: var(--text);
+  font-size: .76rem;
+  line-height: 1.7;
+}
+
+.detailGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .65rem;
+}
+
+.detailCard {
+  padding: .9rem;
+  border: 1px solid var(--border);
+  border-radius: 13px;
+  background: var(--bg-elevated);
+}
+
+.detailCard h3 {
+  margin: 0 0 .3rem;
+  font-size: .84rem;
+}
+
+.detailCard p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: .74rem;
+  line-height: 1.7;
+}
+
+.definitions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .55rem;
+}
+
+.definition {
+  padding: .75rem .85rem;
+  border: 1px solid var(--border);
+  border-radius: 11px;
+  background: var(--bg-elevated);
+}
+
+.definition summary {
+  cursor: pointer;
+  font-size: .78rem;
+  font-weight: 700;
+}
+
+.definition p {
+  margin: .5rem 0 0;
+  color: var(--text-muted);
+  font-size: .72rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 840px) {
+  .hero,
+  .overviewGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .heroRanks {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .heroRank,
+  .heroRank:first-child {
+    grid-template-columns: 31px 1fr;
+    transform: none;
+  }
+
+  .heroRank small {
+    grid-column: 1 / -1;
+  }
+
+  .rankGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .verificationCard {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .verificationCard > div:first-child {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 560px) {
+  .report {
+    gap: .75rem;
+  }
+
+  .hero {
+    padding: 1.15rem;
+    border-radius: 18px;
+  }
+
+  .heroRanks,
+  .verificationCard,
+  .detailGrid,
+  .definitions {
+    grid-template-columns: 1fr;
+  }
+
+  .section {
+    padding: 1rem;
+    border-radius: 15px;
+  }
+
+  .sectionHeading {
+    align-items: flex-start;
+  }
+
+  .radar {
+    width: 100%;
+  }
+
+  .verificationCard > div:first-child {
+    grid-column: auto;
+  }
+}

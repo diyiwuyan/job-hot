@@ -1,8 +1,12 @@
 'use client';
 
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState, type CSSProperties } from 'react';
 import Link from 'next/link';
+import { AssessmentCloudStatus, SavedAssessmentResultCard } from '@/components/AssessmentAccountResult';
+import { AssessmentRadar, ScoreBars, type AssessmentMetric } from '@/components/AssessmentRadar';
 import { AssessmentResultActions } from '@/components/AssessmentResultActions';
+import reportStyles from '@/components/AssessmentReport.module.css';
+import { useAssessmentResult } from '@/hooks/useAssessmentResult';
 import { trackEvent } from '@/lib/analytics';
 import { captureAssessmentSource } from '@/lib/assessment-source';
 import {
@@ -15,10 +19,29 @@ import {
 
 type Stage = 'intro' | 'quiz' | 'result';
 
+function calculateHollandScores(answerSet: Record<number, number>) {
+  const result: Record<HollandType, number> = { R: 0, I: 0, A: 0, S: 0, E: 0, C: 0 };
+  for (const question of QUESTIONS) result[question.type] += answerSet[question.id] || 0;
+  return result;
+}
+
+function hollandCode(scoreSet: Record<HollandType, number>) {
+  return TYPE_ORDER.map((type) => ({ type, score: scoreSet[type] }))
+    .sort((first, second) => second.score - first.score)
+    .slice(0, 3)
+    .map((item) => item.type)
+    .join('');
+}
+
+function restoreNumericAnswers(answerSet: Record<string, number>) {
+  return Object.fromEntries(Object.entries(answerSet).map(([id, value]) => [Number(id), value]));
+}
+
 export default function HollandPage() {
   const [stage, setStage] = useState<Stage>('intro');
   const [current, setCurrent] = useState(0);
   const [answers, setAnswers] = useState<Record<number, number>>({});
+  const accountResult = useAssessmentResult('holland');
 
   const total = QUESTIONS.length;
   const answeredCount = Object.keys(answers).length;
@@ -29,13 +52,7 @@ export default function HollandPage() {
   }, []);
 
   // 计算得分
-  const scores = useMemo(() => {
-    const s: Record<HollandType, number> = { R: 0, I: 0, A: 0, S: 0, E: 0, C: 0 };
-    for (const q of QUESTIONS) {
-      s[q.type] += answers[q.id] || 0;
-    }
-    return s;
-  }, [answers]);
+  const scores = useMemo(() => calculateHollandScores(answers), [answers]);
 
   // 每维度满分 = 8 题 * 5 = 40
   const maxScore = 8 * 5;
@@ -56,6 +73,12 @@ export default function HollandPage() {
     if (current < total - 1) {
       setTimeout(() => setCurrent((c) => c + 1), 150);
     } else {
+      const completedScores = calculateHollandScores(next);
+      void accountResult.saveResult({
+        resultName: `霍兰德代码 ${hollandCode(completedScores)}`,
+        answers: next,
+        scores: completedScores,
+      });
       setTimeout(() => setStage('result'), 200);
     }
   }
@@ -70,6 +93,14 @@ export default function HollandPage() {
     const source = captureAssessmentSource();
     trackEvent('assessment_start', 'holland', { source });
     setStage('quiz');
+  }
+
+  function viewSavedResult() {
+    if (!accountResult.savedResult) return;
+    setAnswers(restoreNumericAnswers(accountResult.savedResult.answers));
+    setCurrent(total - 1);
+    setStage('result');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   // ============ Intro ============
@@ -129,6 +160,14 @@ export default function HollandPage() {
             );
           })}
         </div>
+
+        <SavedAssessmentResultCard
+          email={accountResult.user?.email}
+          loading={accountResult.loading}
+          error={accountResult.error}
+          savedResult={accountResult.savedResult}
+          onView={viewSavedResult}
+        />
 
         <button className="btn btn-lg" onClick={start}>
           开始测试 →
@@ -244,107 +283,145 @@ export default function HollandPage() {
 
   // ============ Result ============
   const top3 = ranked.slice(0, 3);
+  const dominant = TYPE_INFO[top3[0].type];
+  const secondary = TYPE_INFO[top3[1].type];
+  const supporting = TYPE_INFO[top3[2].type];
   const topNames = top3.map((item) => TYPE_INFO[item.type].name).join('、');
-  const hollandAction = `从“${TYPE_INFO[top3[0].type].name}”相关方向中选3个真实岗位，分别查看日常任务、招聘要求和工作环境，记录哪些内容让你愿意继续了解。`;
+  const scoreGap = top3[0].score - top3[2].score;
+  const profileNote = scoreGap <= 3
+    ? '前三项分数很接近，说明你的兴趣线索比较多元。先保留多个方向，用真实任务体验来区分，不必急着选出唯一答案。'
+    : `${dominant.name}相对更突出，可以先从它对应的任务开始验证，再看${secondary.name}与${supporting.name}如何补充你的工作方式。`;
+  const profileAnalysis = `你可能更容易被“${dominant.workSignals}”的工作吸引；${secondary.name}让你同时在意“${secondary.workSignals}”；${supporting.name}则提供第三层偏好。这个组合描述的是你更愿意投入的任务与环境，不等于已经具备对应能力。`;
+  const metrics: AssessmentMetric[] = ranked.map((item) => ({
+    key: item.type,
+    label: `${item.type} · ${TYPE_INFO[item.type].name}`,
+    shortLabel: item.type,
+    score: item.score,
+    maxScore,
+    color: TYPE_INFO[item.type].color,
+  }));
+  const hollandAction = `从“${dominant.name}”相关方向中选3个真实岗位，分别查看日常任务、招聘要求和工作环境，记录哪些内容让你愿意继续了解。`;
   return (
     <div className="page">
-      <div className="page-header">
-        <h1>你的霍兰德代码：{code}</h1>
-        <p>得分最高的三个职业兴趣类型，代表你最突出的职业倾向</p>
-      </div>
-
-      {/* 六维度得分条 */}
-      <div className="card" style={{ marginBottom: '1.5rem' }}>
-        <div style={{ fontWeight: 600, marginBottom: '1rem' }}>六维度得分</div>
-        {ranked.map((r) => {
-          const info = TYPE_INFO[r.type];
-          const pct = Math.round((r.score / maxScore) * 100);
-          return (
-            <div key={r.type} style={{ marginBottom: '0.85rem' }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.85rem', marginBottom: '0.3rem' }}>
-                <span style={{ fontWeight: 600 }}>
-                  <span style={{ color: info.color }}>{r.type}</span> {info.name}
-                </span>
-                <span className="mono" style={{ color: 'var(--text-muted)' }}>{r.score} / {maxScore}</span>
-              </div>
-              <div style={{ height: 8, background: 'var(--bg-elevated)', borderRadius: 9999, overflow: 'hidden' }}>
-                <div style={{ width: `${pct}%`, height: '100%', background: info.color, transition: 'width 0.5s ease' }} />
-              </div>
-            </div>
-          );
-        })}
-      </div>
-
-      <section className="card" style={{ marginBottom: '1rem' }}>
-        <h2 style={{ fontSize: '1rem', marginBottom: '0.35rem' }}>把兴趣代码转成岗位验证问题</h2>
-        <p style={{ color: 'var(--text-muted)', fontSize: '0.8rem', lineHeight: 1.7 }}>
-          代码是兴趣线索，不是职业处方。建议用下面这张表去看真实JD、参加宣讲会或访谈从业者。
-        </p>
-        <div style={{ overflowX: 'auto' }}>
-          <table style={{ width: '100%', minWidth: 650, borderCollapse: 'collapse', fontSize: '0.8rem', lineHeight: 1.65 }}>
-            <thead><tr>{['优先类型', '你可能更享受的任务/环境', '可探索方向', '可以直接问的问题', '使用结果时的提醒'].map((text) => <th key={text} style={{ textAlign: 'left', padding: '.6rem', borderBottom: '1px solid var(--border)', color: 'var(--text-muted)' }}>{text}</th>)}</tr></thead>
-            <tbody>{top3.map((item) => {
-              const info = TYPE_INFO[item.type];
-              return <tr key={item.type}>
-                <td style={{ padding: '.7rem .6rem', borderBottom: '1px solid var(--border)', color: info.color, fontWeight: 700 }}>{item.type} · {info.name}</td>
-                <td style={{ padding: '.7rem .6rem', borderBottom: '1px solid var(--border)' }}>{info.workSignals}</td>
-                <td style={{ padding: '.7rem .6rem', borderBottom: '1px solid var(--border)' }}>{info.careers.slice(0, 4).join('、')}</td>
-                <td style={{ padding: '.7rem .6rem', borderBottom: '1px solid var(--border)' }}>{info.verifyQuestion}</td>
-                <td style={{ padding: '.7rem .6rem', borderBottom: '1px solid var(--border)', color: 'var(--text-muted)' }}>{info.reminder}</td>
-              </tr>;
-            })}</tbody>
-          </table>
-        </div>
-      </section>
-
-      {/* Top3 详解 */}
-      {top3.map((r, idx) => {
-        const info = TYPE_INFO[r.type];
-        return (
-          <div key={r.type} className="card" style={{ marginBottom: '1rem', borderLeft: `4px solid ${info.color}` }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', marginBottom: '0.6rem' }}>
-              <span
-                style={{
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  width: 32,
-                  height: 32,
-                  borderRadius: 8,
-                  background: info.color,
-                  color: '#fff',
-                  fontWeight: 700,
-                }}
-              >
-                {r.type}
-              </span>
-              <div>
-                <div style={{ fontWeight: 700, fontSize: '1.05rem' }}>
-                  No.{idx + 1} {info.name}
-                </div>
-                <div style={{ fontSize: '0.72rem', color: 'var(--text-muted)' }}>{info.alias}</div>
-              </div>
-            </div>
-            <p style={{ fontSize: '0.88rem', color: 'var(--text-muted)', lineHeight: 1.8, marginBottom: '0.75rem' }}>
-              {info.summary}
-            </p>
-            <div style={{ marginBottom: '0.6rem' }}>
-              <span style={{ fontSize: '0.8rem', fontWeight: 600, marginRight: '0.5rem' }}>性格特质：</span>
-              {info.traits.map((t) => (
-                <span key={t} className="tag" style={{ marginRight: '0.35rem', marginBottom: '0.35rem' }}>{t}</span>
-              ))}
-            </div>
-            <div style={{ marginBottom: '0.6rem' }}>
-              <span style={{ fontSize: '0.8rem', fontWeight: 600, marginRight: '0.5rem' }}>可探索方向：</span>
-              <span style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>{info.careers.join('、')}</span>
-            </div>
-            <div>
-              <span style={{ fontSize: '0.8rem', fontWeight: 600, marginRight: '0.5rem' }}>关联专业线索：</span>
-              <span style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>{info.majors.join('、')}</span>
-            </div>
+      <div className={reportStyles.report}>
+        <section
+          className={reportStyles.hero}
+          style={{ '--report-accent': dominant.color } as CSSProperties}
+        >
+          <div className={reportStyles.heroCopy}>
+            <span className={reportStyles.eyebrow}>Holland RIASEC · 测评报告</span>
+            <h1>你的霍兰德代码：{code}</h1>
+            <p className={reportStyles.heroLead}>{profileAnalysis}</p>
+            <span className={reportStyles.heroNote}>{profileNote}</span>
           </div>
-        );
-      })}
+          <div className={reportStyles.heroRanks} aria-label="前三项职业兴趣">
+            {top3.map((item, index) => {
+              const info = TYPE_INFO[item.type];
+              return (
+                <div
+                  className={reportStyles.heroRank}
+                  key={item.type}
+                  style={{ '--rank-color': info.color } as CSSProperties}
+                >
+                  <span>{item.type}</span>
+                  <strong>No.{index + 1} {info.name}</strong>
+                  <small>{item.score} / {maxScore}</small>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+
+        <section className={reportStyles.section}>
+          <div className={reportStyles.sectionHeading}>
+            <div><h2>六维职业兴趣画像</h2><p>雷达图看整体形状，右侧排序看强弱。分数只用于你自己的六个维度之间比较。</p></div>
+            <span className={reportStyles.sectionNumber}>01 / OVERVIEW</span>
+          </div>
+          <div className={reportStyles.overviewGrid}>
+            <AssessmentRadar metrics={metrics} title="霍兰德六维职业兴趣雷达图" />
+            <ScoreBars metrics={metrics} />
+          </div>
+        </section>
+
+        <div
+          className={reportStyles.analysisBox}
+          style={{ '--analysis-color': dominant.color } as CSSProperties}
+        >
+          <span className={reportStyles.analysisMark}>读</span>
+          <div><h3>如何理解这组分数</h3><p>{profileNote} 高分表示偏好更强，不代表能力更高；低分也不表示你不能胜任相关工作。</p></div>
+        </div>
+
+        <section className={reportStyles.section}>
+          <div className={reportStyles.sectionHeading}>
+            <div><h2>你的前三类兴趣线索</h2><p>先看最突出的偏好，再理解它们分别对应怎样的任务、环境与投入方式。</p></div>
+            <span className={reportStyles.sectionNumber}>02 / TOP 3</span>
+          </div>
+          <div className={reportStyles.rankGrid}>
+            {top3.map((item, index) => {
+              const info = TYPE_INFO[item.type];
+              return (
+                <article
+                  className={reportStyles.rankCard}
+                  data-rank={String(index + 1).padStart(2, '0')}
+                  key={item.type}
+                  style={{ '--rank-color': info.color } as CSSProperties}
+                >
+                  <div className={reportStyles.rankCardTop}>
+                    <span className={reportStyles.rankBadge}>{item.type}</span>
+                    <div><h3>{info.name}</h3><small>{info.alias}</small></div>
+                  </div>
+                  <p>{info.summary}</p>
+                  <div className={reportStyles.tagList}>{info.traits.map((trait) => <span key={trait}>{trait}</span>)}</div>
+                </article>
+              );
+            })}
+          </div>
+        </section>
+
+        <section className={reportStyles.section}>
+          <div className={reportStyles.sectionHeading}>
+            <div><h2>把代码带回真实岗位验证</h2><p>方向名称只能提供起点，真正有效的是检查你是否喜欢岗位里的日常任务与工作环境。</p></div>
+            <span className={reportStyles.sectionNumber}>03 / VERIFY</span>
+          </div>
+          <div className={reportStyles.verificationList}>
+            {top3.map((item) => {
+              const info = TYPE_INFO[item.type];
+              return (
+                <article
+                  className={reportStyles.verificationCard}
+                  key={item.type}
+                  style={{ '--item-color': info.color } as CSSProperties}
+                >
+                  <div><h3>{item.type} · {info.name}</h3><p>{info.careers.slice(0, 5).join('、')}</p></div>
+                  <div><strong>留意这些任务与环境</strong><p>{info.workSignals}</p></div>
+                  <div><strong>直接向从业者或面试官提问</strong><blockquote>“{info.verifyQuestion}”</blockquote></div>
+                </article>
+              );
+            })}
+          </div>
+        </section>
+
+        <section className={reportStyles.section}>
+          <div className={reportStyles.sectionHeading}>
+            <div><h2>结果使用提醒</h2><p>把职业兴趣、能力证据、价值观与现实约束放在一起，结论才更可靠。</p></div>
+            <span className={reportStyles.sectionNumber}>04 / NOTES</span>
+          </div>
+          <div className={reportStyles.detailGrid}>
+            {top3.map((item) => {
+              const info = TYPE_INFO[item.type];
+              return <article className={reportStyles.detailCard} key={item.type}><h3>{item.type} · {info.name}</h3><p>{info.reminder}</p><p style={{ marginTop: '.45rem' }}>关联专业线索：{info.majors.join('、')}</p></article>;
+            })}
+            <article className={reportStyles.detailCard}><h3>不要只看职业名单</h3><p>同一个职业包含多种任务，不同组织的工作环境也不同。优先用岗位JD、实习体验和从业者访谈验证。</p></article>
+          </div>
+        </section>
+      </div>
+
+      <AssessmentCloudStatus
+        email={accountResult.user?.email}
+        saving={accountResult.saving}
+        error={accountResult.error}
+        savedResult={accountResult.savedResult}
+      />
 
       <AssessmentResultActions
         assessmentId="holland"
@@ -359,7 +436,7 @@ export default function HollandPage() {
           description: '兴趣线索回答“我愿意探索什么”，职业价值观测评进一步帮你判断一份工作需要满足哪些条件。',
         }}
         campFit="如果你仍需把兴趣线索与真实经历、岗位要求和行动计划连接起来，可以再了解训练营；它不会依据一次测评替你决定职业。"
-        accent={TYPE_INFO[top3[0].type].color}
+        accent={dominant.color}
       />
 
       <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
