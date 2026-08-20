@@ -87,7 +87,7 @@ const navItems: NavItem[] = [
     ),
     children: [
       { href: '/tools/exam', label: '笔试题库' },
-      { href: 'https://ai-resume-9wy.pages.dev/', label: 'AI简历工具', external: true },
+      { href: 'https://ai-resume-9wy.pages.dev/', label: 'AI简历优化', external: true },
     ],
   },
   {

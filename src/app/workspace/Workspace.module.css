@@ -404,6 +404,125 @@
 .quickActions a:hover,
 .quickActions button:hover { background: var(--bg-elevated); color: var(--text); }
 
+.aiResumePanel {
+  position: relative;
+  overflow: hidden;
+  padding: 1.4rem;
+  border: 1px solid color-mix(in srgb, var(--workspace-purple) 32%, var(--border));
+  border-radius: 0.95rem;
+  background:
+    radial-gradient(circle at 100% 0%, color-mix(in srgb, var(--workspace-purple) 19%, transparent), transparent 42%),
+    linear-gradient(120deg, color-mix(in srgb, var(--workspace-accent) 8%, var(--bg-card)), var(--bg-card) 58%);
+}
+
+.aiResumePanel::after {
+  content: '';
+  position: absolute;
+  right: -48px;
+  top: -62px;
+  width: 180px;
+  height: 180px;
+  border: 1px solid color-mix(in srgb, var(--workspace-purple) 22%, transparent);
+  border-radius: 50%;
+  box-shadow: 0 0 0 24px color-mix(in srgb, var(--workspace-purple) 4%, transparent), 0 0 0 52px color-mix(in srgb, var(--workspace-accent) 3%, transparent);
+  pointer-events: none;
+}
+
+.aiResumeIntro {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 52px minmax(0, 1fr);
+  gap: 0.9rem;
+  align-items: start;
+}
+
+.aiResumeMark {
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border: 1px solid color-mix(in srgb, var(--workspace-purple) 38%, var(--border));
+  border-radius: 0.8rem;
+  background: linear-gradient(135deg, var(--workspace-accent), var(--workspace-purple));
+  box-shadow: 0 9px 24px color-mix(in srgb, var(--workspace-purple) 20%, transparent);
+  color: white;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.aiResumeIntro h2 {
+  margin: 0.18rem 0 0.35rem;
+  font-size: 1.15rem;
+  letter-spacing: -0.025em;
+}
+
+.aiResumeIntro > div > p:last-child {
+  max-width: 760px;
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.74rem;
+  line-height: 1.7;
+}
+
+.aiResumeSteps {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.65rem;
+  padding: 0;
+  margin: 1rem 0;
+  list-style: none;
+}
+
+.aiResumeSteps li {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.6rem;
+  align-items: center;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 0.65rem;
+  background: color-mix(in srgb, var(--bg-elevated) 82%, transparent);
+}
+
+.aiResumeSteps li > span {
+  color: var(--workspace-purple);
+  font-family: var(--font-mono), monospace;
+  font-size: 0.65rem;
+  font-weight: 800;
+}
+
+.aiResumeSteps li > div { display: grid; min-width: 0; }
+.aiResumeSteps strong { font-size: 0.72rem; }
+.aiResumeSteps small { color: var(--text-muted); font-size: 0.62rem; }
+
+.aiResumeActions {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.aiResumeActions span {
+  color: var(--text-muted);
+  font-size: 0.65rem;
+}
+
+.externalNote {
+  position: relative;
+  z-index: 1;
+  padding-top: 0.75rem;
+  margin: 0.85rem 0 0;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.64rem;
+  line-height: 1.65;
+}
+
 .form,
 .uploadForm {
   display: grid;
@@ -732,4 +851,7 @@
   .setupNotice { align-items: flex-start; flex-direction: column; }
   .loginActions { flex-direction: column; width: 100%; }
   .loginActions a { justify-content: center; }
+  .aiResumeSteps { grid-template-columns: 1fr; }
+  .aiResumeActions { align-items: flex-start; flex-direction: column; }
+  .aiResumeActions a { width: 100%; justify-content: center; }
 }

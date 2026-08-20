@@ -568,6 +568,7 @@ export default function WorkspacePage() {
                 <button type="button" onClick={() => openTab('practice')}><strong>{practices.length + examResults.length}</strong><span>次练习记录</span><small>{recentPracticeCount ? `近7天 ${recentPracticeCount} 次` : '本周还没有练习'}</small></button>
               </div>
               <div className={styles.quickActions}>
+                <a href="https://ai-resume-9wy.pages.dev/" target="_blank" rel="noopener noreferrer">用 AI 生成岗位定向简历</a>
                 <Link href="/tools/exam">开始一次笔试训练</Link>
                 <button type="button" onClick={() => openTab('practice')}>记录一次面试练习</button>
                 <Link href="/tools/assessment">选择职业测评</Link>
@@ -616,6 +617,27 @@ export default function WorkspacePage() {
 
       {tab === 'documents' && (
         <div className={styles.sectionLayout}>
+          <section className={styles.aiResumePanel}>
+            <div className={styles.aiResumeIntro}>
+              <div className={styles.aiResumeMark}>AI</div>
+              <div>
+                <p className={styles.eyebrow}>RESUME OPTIMIZER</p>
+                <h2>把经历改写成岗位更愿意读的简历</h2>
+                <p>适合已经有基础经历、需要按目标岗位重组重点的人。先在工具中建立经历信息库，再选择方向或粘贴 JD，让 AI 生成定向版本。</p>
+              </div>
+            </div>
+            <ol className={styles.aiResumeSteps}>
+              <li><span>01</span><div><strong>录入真实经历</strong><small>教育、实习、项目与技能</small></div></li>
+              <li><span>02</span><div><strong>指定岗位方向</strong><small>专业版支持 JD 精准匹配</small></div></li>
+              <li><span>03</span><div><strong>导出并回存</strong><small>把生成版本上传回材料库</small></div></li>
+            </ol>
+            <div className={styles.aiResumeActions}>
+              <a className="btn" href="https://ai-resume-9wy.pages.dev/" target="_blank" rel="noopener noreferrer">打开 AI 简历工具 ↗</a>
+              <span>独立账号与数据空间 · 免费版每月 3 次 AI 生成</span>
+            </div>
+            <p className={styles.externalNote}>该工具会在新页面打开，目前不能自动读取 JOBHOT 材料库；生成内容请核对真实性和量化数据，再将导出的 PDF 或 Word 手动保存回这里。</p>
+          </section>
+
           <section className={styles.panel}>
             <div className={styles.panelHeading}><div><p className={styles.eyebrow}>PRIVATE FILES</p><h2>上传求职材料</h2><span>用于沉淀版本，不会生成永久公开链接。</span></div></div>
             <form className={styles.uploadForm} onSubmit={uploadDocument}>
