@@ -1,10 +1,12 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { ZhiluBrandIntro } from '@/components/ZhiluBrandIntro';
+import { EXAM_SETS } from '@/lib/exam-data';
+import { COMPANY_EXAM_SETS } from '@/lib/company-exam-data';
+import { GROUP_CASES, INTERVIEW_QUESTIONS } from '@/lib/interview-data';
 
 export const metadata: Metadata = {
-  title: '职业工具 - JOBHOT｜职路同行社出品',
-  description: 'JOBHOT 是职路同行社出品的大学生求职网站，提供职业测评、求职诊断、职业探索与笔试训练工具。',
+  title: '职业工具 - JOBHOT',
+  description: 'JOBHOT 提供职业测评、求职诊断、职业探索、笔试和面试训练工具。',
 };
 
 export default function ToolsPage() {
@@ -56,27 +58,33 @@ export default function ToolsPage() {
           </div>
         </Link>
 
-        {/* 笔试训练 */}
+        {/* 求职准备 */}
         <Link
-          href="/tools/exam"
+          href="/tools/prep"
           className="timeline-card timeline-card-featured"
           style={{ display: 'block', textDecoration: 'none', padding: '1.5rem' }}
         >
           <div style={{ fontSize: '2rem', marginBottom: '0.75rem' }}>📝</div>
           <h2 style={{ fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.5rem', color: 'var(--text)' }}>
-            笔试训练
+            求职准备中心
           </h2>
           <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.7, margin: 0 }}>
-            5 套行测类通用笔试题库，涵盖数量关系、言语理解、逻辑推理、资料分析、常识判断，在线答题并记录成绩。
+            从简历、笔试到单面和无领导小组，按真实招聘环节选择当前要练的一项。
           </p>
           <div className="timeline-tags" style={{ marginTop: '0.75rem' }}>
-            <span className="tag">5套题库</span>
-            <span className="tag">100道题</span>
-            <span className="tag">成绩记录</span>
+            <span className="tag">{EXAM_SETS.length + COMPANY_EXAM_SETS.length}套笔试</span>
+            <span className="tag">{INTERVIEW_QUESTIONS.length}道面试题</span>
+            <span className="tag">{GROUP_CASES.length}个群面案例</span>
           </div>
         </Link>
+
+        <Link href="/tools/interview" className="timeline-card timeline-card-featured" style={{ display:'block', textDecoration:'none', padding:'1.5rem' }}>
+          <div style={{ fontSize:'2rem', marginBottom:'.75rem' }}>💬</div>
+          <h2 style={{ fontSize:'1.1rem', fontWeight:700, marginBottom:'.5rem', color:'var(--text)' }}>面试与群面题库</h2>
+          <p style={{ fontSize:'.85rem', color:'var(--text-muted)', lineHeight:1.7, margin:0 }}>按岗位和企业方向筛选单面题，练习经历深挖、业务问题、技术问题和无领导小组案例。</p>
+          <div className="timeline-tags" style={{ marginTop:'.75rem' }}><span className="tag">回答框架</span><span className="tag">继续追问</span><span className="tag">群面时间线</span></div>
+        </Link>
       </div>
-      <div style={{ marginTop:'1.25rem' }}><ZhiluBrandIntro /></div>
     </div>
   );
 }

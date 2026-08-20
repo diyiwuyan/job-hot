@@ -303,7 +303,7 @@ export default function ValuesPage() {
         <button className="btn btn-secondary" onClick={restart}>重新测评</button>
         <Link href="/tools/assessment" className="btn btn-secondary">返回测评中心</Link>
       </div>
-      <p style={{ fontSize: '.72rem', color: 'var(--text-muted)', lineHeight: 1.7, marginTop: '1.25rem' }}>说明：这是职路同行社原创的轻量自我探索工具，不构成心理诊断、招聘筛选或职业选择结论。</p>
+      <p style={{ fontSize: '.72rem', color: 'var(--text-muted)', lineHeight: 1.7, marginTop: '1.25rem' }}>说明：这是本站原创的轻量自我探索工具，不构成心理诊断、招聘筛选或职业选择结论。</p>
     </div>
   );
 }

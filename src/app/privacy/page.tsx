@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '隐私政策 - JOBHOT｜职路同行社出品',
+  title: '隐私政策 - JOBHOT',
   description: '了解 JOBHOT 如何收集、使用与保护你的个人信息。',
 };
 
@@ -9,7 +9,7 @@ export default function PrivacyPage() {
   return (
     <article className="page legal-page">
       <header className="legal-hero">
-        <span>JOBHOT｜职路同行社出品</span>
+        <span>JOBHOT</span>
         <h1>隐私政策</h1>
         <p>更新日期：2026年8月20日</p>
       </header>

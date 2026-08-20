@@ -9,6 +9,7 @@ export interface ExamQuestion {
   question: string;
   options: [string, string, string, string];
   answer: 0 | 1 | 2 | 3; // 正确答案索引
+  explanation?: string;
 }
 
 export interface ExamSet {
@@ -17,6 +18,10 @@ export interface ExamSet {
   icon: string;
   description: string;
   tags: string[];
+  group?: 'general' | 'company';
+  roleTags?: string[];
+  sourceNote?: string;
+  sourceUrl?: string;
   questions: ExamQuestion[];
 }
 

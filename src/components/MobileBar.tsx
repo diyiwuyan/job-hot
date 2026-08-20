@@ -29,7 +29,6 @@ export function MobileBar() {
       <div className="mobile-brand">
         <span className="brand-logo-text">JOB</span>
         <span className="brand-logo-hot">HOT</span>
-        <span className="mobile-brand-partner">｜职路同行社出品</span>
       </div>
       {/* Spacer to balance the layout */}
       <div style={{ width: 38 }} />

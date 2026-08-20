@@ -3,7 +3,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useAuth } from '@/components/AuthContext';
 import { supabase } from '@/lib/supabase';
-import { EXAM_SETS, type ExamQuestion } from '@/lib/exam-data';
+import { EXAM_SETS } from '@/lib/exam-data';
+import { COMPANY_EXAM_SETS } from '@/lib/company-exam-data';
 import Link from 'next/link';
 
 // ============ Types ============
@@ -21,6 +22,7 @@ export default function ExamPage() {
   const { user, loading } = useAuth();
 
   // 分类选择（tab 切换，不离开页面）
+  const [libraryGroup, setLibraryGroup] = useState<'general' | 'company'>('general');
   const [activeCategory, setActiveCategory] = useState(0);
   const [mode, setMode] = useState<Mode>('practice');
   const [stage, setStage] = useState<QuizStage>('ready');
@@ -33,7 +35,8 @@ export default function ExamPage() {
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const savingRef = useRef(false);
 
-  const exam = EXAM_SETS[activeCategory];
+  const visibleSets = useMemo(() => libraryGroup === 'general' ? EXAM_SETS : COMPANY_EXAM_SETS, [libraryGroup]);
+  const exam = visibleSets[activeCategory] ?? visibleSets[0];
   const questions = exam.questions;
   const totalQuestions = questions.length;
 
@@ -55,19 +58,27 @@ export default function ExamPage() {
 
   // 切换分类时回到 ready
   useEffect(() => {
-    setStage('ready');
-    setQuestionStates(
-      Array.from({ length: totalQuestions }, () => ({
-        answered: false,
-        selected: null,
-        correct: null,
-      }))
-    );
-    setCurrent(0);
-    setSaved(false);
-    savingRef.current = false;
-    setElapsed(0);
+    const timer = window.setTimeout(() => {
+      setStage('ready');
+      setQuestionStates(
+        Array.from({ length: totalQuestions }, () => ({
+          answered: false,
+          selected: null,
+          correct: null,
+        }))
+      );
+      setCurrent(0);
+      setSaved(false);
+      savingRef.current = false;
+      setElapsed(0);
+    }, 0);
+    return () => window.clearTimeout(timer);
   }, [activeCategory, totalQuestions]);
+
+  function chooseLibraryGroup(next: 'general' | 'company') {
+    setLibraryGroup(next);
+    setActiveCategory(0);
+  }
 
   // 计时器
   useEffect(() => {
@@ -177,13 +188,21 @@ export default function ExamPage() {
     return (
       <div className="page">
         <div className="page-header">
-          <h1>📝 笔试训练</h1>
-          <p>行测类通用笔试题训练，模拟真实考试环境</p>
+          <h1>笔试题库</h1>
+          <p>通用能力训练与企业方向原创模拟，在线答题、解析错题并保存成绩</p>
+        </div>
+
+        <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', gap:'.75rem', flexWrap:'wrap', marginBottom:'1rem' }}>
+          <div className="segmented" style={{ maxWidth:'360px' }}>
+            <button type="button" className={`seg-item${libraryGroup === 'general' ? ' seg-item-active' : ''}`} onClick={() => chooseLibraryGroup('general')}>通用能力 · {EXAM_SETS.length}套</button>
+            <button type="button" className={`seg-item${libraryGroup === 'company' ? ' seg-item-active' : ''}`} onClick={() => chooseLibraryGroup('company')}>企业方向 · {COMPANY_EXAM_SETS.length}套</button>
+          </div>
+          <Link href="/tools/interview" className="btn btn-secondary">去面试题库 →</Link>
         </div>
 
         {/* 选择题库 */}
         <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1.5rem' }}>
-          {EXAM_SETS.map((set, idx) => (
+          {visibleSets.map((set, idx) => (
             <button
               key={set.id}
               onClick={() => setActiveCategory(idx)}
@@ -212,6 +231,11 @@ export default function ExamPage() {
           <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)', lineHeight: 1.7, marginBottom: '1.5rem' }}>
             {exam.description}
           </p>
+
+          {exam.sourceNote && <div style={{ padding:'.7rem .8rem', marginBottom:'1rem', border:'1px solid var(--border)', borderRadius:'.6rem', background:'var(--bg-elevated)', color:'var(--text-muted)', fontSize:'.68rem', lineHeight:1.65 }}>
+            <strong style={{ color:'var(--text)' }}>内容边界：</strong>{exam.sourceNote}
+            {exam.sourceUrl && <a href={exam.sourceUrl} target="_blank" rel="noopener noreferrer" style={{ marginLeft:'.35rem' }}>查看公开依据 ↗</a>}
+          </div>}
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
             <div style={{ padding: '1rem', background: 'var(--bg-elevated)', borderRadius: '0.75rem', textAlign: 'center' }}>
@@ -372,6 +396,7 @@ export default function ExamPage() {
                       <div style={{ color: 'var(--success)' }}>
                         正确答案：{labels[q.answer]} · {q.options[q.answer]}
                       </div>
+                      {q.explanation && <div style={{ marginTop:'.45rem', padding:'.55rem .65rem', borderRadius:'.45rem', background:'var(--bg-elevated)', color:'var(--text-muted)' }}>解析：{q.explanation}</div>}
                     </div>
                   </div>
                 );
@@ -384,7 +409,7 @@ export default function ExamPage() {
         <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
           <button className="btn" onClick={initStates}>再做一次</button>
           <button className="btn btn-secondary" onClick={() => {
-            setActiveCategory((c) => (c + 1) % EXAM_SETS.length);
+            setActiveCategory((c) => (c + 1) % visibleSets.length);
           }}>
             换一套题
           </button>
@@ -412,7 +437,7 @@ export default function ExamPage() {
       }}>
         {/* 分类 Tabs */}
         <div style={{ display: 'flex', gap: '0.375rem', flexWrap: 'wrap' }}>
-          {EXAM_SETS.map((set, idx) => (
+          {visibleSets.map((set, idx) => (
             <button
               key={set.id}
               onClick={() => setActiveCategory(idx)}
@@ -559,7 +584,7 @@ export default function ExamPage() {
         {question.options.map((option, idx) => {
           let optionBg = 'var(--bg-card)';
           let optionBorder = '1px solid var(--border)';
-          let optionColor = 'var(--text)';
+          const optionColor = 'var(--text)';
           let labelBg = 'var(--bg-elevated)';
           let labelColor = 'var(--text-muted)';
 
@@ -621,6 +646,12 @@ export default function ExamPage() {
           );
         })}
       </div>
+
+      {(isAnswered || mode === 'review') && question.explanation && (
+        <div style={{ padding:'.8rem .9rem', margin:'-.35rem 0 1rem', border:'1px solid color-mix(in srgb, var(--success) 28%, var(--border))', borderRadius:'.65rem', background:'color-mix(in srgb, var(--success) 6%, var(--bg-card))', color:'var(--text-muted)', fontSize:'.75rem', lineHeight:1.7 }}>
+          <strong style={{ color:'var(--success)' }}>题目解析：</strong>{question.explanation}
+        </div>
+      )}
 
       {/* 底部导航 */}
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '用户协议 - JOBHOT｜职路同行社出品',
+  title: '用户协议 - JOBHOT',
   description: '使用 JOBHOT 网站、求职信息、测评和训练营服务时适用的基本规则。',
 };
 
@@ -9,7 +9,7 @@ export default function TermsPage() {
   return (
     <article className="page legal-page">
       <header className="legal-hero">
-        <span>JOBHOT｜职路同行社出品</span>
+        <span>JOBHOT</span>
         <h1>用户协议</h1>
         <p>更新日期：2026年8月20日</p>
       </header>

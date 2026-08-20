@@ -134,7 +134,7 @@ export default function MbtiPage() {
             </button>
           )}
           <p style={{ color: 'var(--text-muted)', fontSize: '0.72rem', lineHeight: 1.7, marginTop: '0.85rem' }}>
-            说明：本测试并非 Myers-Briggs Company 官方量表，题目由职路同行社原创，仅用于轻量自我探索；不构成心理诊断、招聘筛选、职业定论或求职结果承诺。
+            说明：本测试并非 Myers-Briggs Company 官方量表，题目为本站原创，仅用于轻量自我探索；不构成心理诊断、招聘筛选、职业定论或求职结果承诺。
           </p>
         </section>
 

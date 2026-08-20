@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: '求职支持 - JOBHOT｜职路同行社出品',
-  description: '职路同行社求职支持服务状态说明。',
+  title: '求职支持 - JOBHOT',
+  description: 'JOBHOT 求职支持服务状态说明。',
   robots: { index: false, follow: false },
 };
 

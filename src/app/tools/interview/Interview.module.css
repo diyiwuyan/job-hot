@@ -1,0 +1,90 @@
+.page { max-width: 1180px; margin: 0 auto; padding-bottom: 4rem; }
+.hero { display: flex; justify-content: space-between; align-items: flex-end; gap: 2rem; min-height: 245px; padding: 2rem; border: 1px solid var(--border); border-radius: 1.2rem; background: radial-gradient(circle at 85% 15%, rgba(124,92,255,.2), transparent 35%), linear-gradient(135deg, rgba(59,130,246,.1), var(--bg-card) 58%); }
+.hero > div:first-child { max-width: 690px; }
+.hero p,.groupIntro p { margin: 0; color: var(--accent); font: 700 .65rem/1 var(--font-mono),monospace; letter-spacing: .15em; }
+.hero h1 { margin: .45rem 0 .65rem; font-size: clamp(2rem,5vw,3.1rem); line-height: 1.08; letter-spacing: -.05em; }
+.hero > div:first-child > span { color: var(--text-muted); font-size: .8rem; line-height: 1.8; }
+.heroActions { display: flex; gap: .65rem; margin-top: 1.2rem; }
+.heroStats { display: grid; grid-template-columns: repeat(3,1fr); gap: .5rem; flex: 0 0 310px; }
+.heroStats div { display: grid; padding: .85rem; border: 1px solid var(--border); border-radius: .75rem; background: color-mix(in srgb,var(--bg-elevated) 80%,transparent); }
+.heroStats strong { font-size: 1.35rem; }
+.heroStats span { color: var(--text-muted); font-size: .6rem; }
+.tabs { display: grid; grid-template-columns: repeat(3,1fr); gap: .3rem; padding: .35rem; margin: 1rem 0; border: 1px solid var(--border); border-radius: .8rem; background: var(--bg-card); }
+.tabs button { min-height: 42px; border: 0; border-radius: .55rem; background: transparent; color: var(--text-muted); cursor: pointer; font: 600 .76rem/1 var(--font-sans); }
+.tabs button[data-active='true'] { background: var(--bg-elevated); box-shadow: inset 0 0 0 1px var(--border-light); color: var(--text); }
+.filters { padding: 1rem; margin-bottom: .8rem; border: 1px solid var(--border); border-radius: .85rem; background: var(--bg-card); }
+.categoryPills { display: flex; flex-wrap: wrap; gap: .4rem; }
+.categoryPills button { display: flex; align-items: center; gap: .4rem; padding: .42rem .7rem; border: 1px solid var(--border); border-radius: 999px; background: transparent; color: var(--text-muted); cursor: pointer; font: inherit; font-size: .68rem; }
+.categoryPills button span { display: grid; place-items: center; min-width: 18px; height: 18px; padding: 0 .2rem; border-radius: 999px; background: var(--bg-elevated); font-size: .55rem; }
+.categoryPills button[data-active='true'] { border-color: var(--accent); background: var(--accent-muted); color: var(--accent); }
+.filterRow { display: grid; grid-template-columns: 170px 170px minmax(220px,1fr) auto; gap: .6rem; align-items: end; margin-top: .8rem; }
+.filterRow label { display: grid; gap: .25rem; }
+.filterRow label > span { color: var(--text-muted); font-size: .62rem; }
+.filters > p { margin: .6rem 0 0; color: var(--text-muted); font-size: .6rem; }
+.questionList { display: grid; gap: .55rem; }
+.questionCard { border: 1px solid var(--border); border-radius: .8rem; background: var(--bg-card); }
+.questionCard[open] { border-color: color-mix(in srgb,var(--accent) 40%,var(--border)); }
+.questionCard summary { display: grid; grid-template-columns: 36px minmax(0,1fr) auto; gap: .75rem; align-items: center; padding: .9rem 1rem; cursor: pointer; list-style: none; }
+.questionCard summary::-webkit-details-marker,.caseCard summary::-webkit-details-marker { display:none; }
+.questionCard summary > span { color: var(--text-muted); font: 700 .62rem/1 var(--font-mono),monospace; }
+.questionCard summary > div > div { display: flex; gap: .4rem; }
+.questionCard summary em,.questionCard summary b { font-size: .56rem; font-style: normal; }
+.questionCard summary em { color: var(--accent); }
+.questionCard summary b { padding: .1rem .32rem; border-radius: 999px; background: var(--bg-elevated); color: var(--text-muted); }
+.questionCard summary b[data-level='挑战'] { color: var(--danger); }
+.questionCard summary h2 { margin: .18rem 0; font-size: .82rem; line-height: 1.5; }
+.questionCard summary small { color: var(--text-muted); font-size: .58rem; }
+.questionCard summary > i { color: var(--accent); font-size: .61rem; font-style: normal; white-space: nowrap; }
+.questionBody { display: grid; grid-template-columns: .85fr 1.15fr; gap: .7rem; padding: 0 1rem 1rem 3.9rem; }
+.questionBody section { padding: .75rem; border-radius: .6rem; background: var(--bg-elevated); }
+.questionBody section:nth-child(3) { grid-column: 1/-1; }
+.questionBody h3,.caseBody h3 { margin: 0 0 .45rem; font-size: .66rem; }
+.questionBody p { margin: 0; color: var(--text-muted); font-size: .65rem; line-height: 1.65; }
+.questionBody ol,.caseBody ol,.caseBody ul { padding-left: 1rem; margin: 0; }
+.questionBody li,.caseBody li { padding-left: .15rem; color: var(--text-muted); font-size: .64rem; line-height: 1.75; }
+.followups { display: flex; flex-wrap: wrap; gap: .35rem; }
+.followups span { padding: .32rem .5rem; border: 1px solid var(--border); border-radius: .45rem; color: var(--text-muted); font-size: .61rem; }
+.practicePrompt { grid-column: 1/-1; display: flex; gap: .55rem; padding: .65rem .75rem; border-left: 3px solid var(--success); background: color-mix(in srgb,var(--success) 6%,var(--bg-elevated)); }
+.practicePrompt strong { color: var(--success); font-size: .62rem; white-space: nowrap; }
+.practicePrompt span { color: var(--text-muted); font-size: .62rem; }
+.empty { padding: 3rem; border: 1px dashed var(--border); border-radius: .75rem; color: var(--text-muted); font-size: .72rem; text-align: center; }
+.groupIntro { display: flex; justify-content: space-between; gap: 2rem; padding: 1.4rem; margin-bottom: .8rem; border: 1px solid var(--border); border-radius: .9rem; background: linear-gradient(120deg,var(--bg-card),color-mix(in srgb,var(--accent) 7%,var(--bg-card))); }
+.groupIntro > div:first-child { max-width: 700px; }
+.groupIntro h2 { margin: .3rem 0; font-size: 1.2rem; }
+.groupIntro > div:first-child > span { color: var(--text-muted); font-size: .7rem; line-height: 1.7; }
+.groupIntro > div:last-child { display: flex; flex-wrap: wrap; align-content: center; justify-content: flex-end; gap: .35rem; }
+.groupIntro > div:last-child span { padding: .32rem .5rem; border: 1px solid var(--border); border-radius: 999px; color: var(--text-muted); font-size: .6rem; }
+.caseGrid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .7rem; align-items: start; }
+.caseCard { border: 1px solid var(--border); border-radius: .85rem; background: var(--bg-card); overflow: hidden; }
+.caseCard[open] { grid-column: 1/-1; }
+.caseCard summary { display: flex; justify-content: space-between; align-items: center; gap: 1rem; min-height: 145px; padding: 1rem; cursor: pointer; list-style: none; }
+.caseCard summary span { color: var(--accent); font: 700 .58rem/1 var(--font-mono),monospace; letter-spacing: .08em; }
+.caseCard summary h2 { margin: .35rem 0; font-size: .9rem; }
+.caseCard summary p { margin: 0; color: var(--text-muted); font-size: .61rem; }
+.caseCard summary i { color: var(--accent); font-size: .62rem; font-style: normal; white-space: nowrap; }
+.caseBody { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .6rem; padding: 0 1rem 1rem; }
+.caseBody section { padding: .75rem; border-radius: .6rem; background: var(--bg-elevated); }
+.caseBody section:first-child,.caseBody section:last-child { grid-column: 1/-1; }
+.caseBody p { margin: 0; color: var(--text-muted); font-size: .65rem; line-height: 1.7; }
+.caseTags { display: flex; flex-wrap: wrap; gap: .35rem; }
+.caseTags span { padding: .28rem .45rem; border-radius: 999px; background: var(--accent-muted); color: var(--accent); font-size: .58rem; }
+.methodPage { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .8rem; }
+.methodPage article { padding: 1.2rem; border: 1px solid var(--border); border-radius: .9rem; background: var(--bg-card); }
+.methodPage article > span { color: var(--accent); font: 700 .6rem/1 var(--font-mono),monospace; }
+.methodPage h2 { margin: .35rem 0 1rem; font-size: 1rem; }
+.methodPage ol { display: grid; gap: .55rem; padding: 0; margin: 0; list-style: none; }
+.methodPage li { padding: .65rem; border-radius: .55rem; background: var(--bg-elevated); }
+.methodPage li strong { font-size: .68rem; }
+.methodPage li p,.badAnswers p { margin: .18rem 0 0; color: var(--text-muted); font-size: .63rem; }
+.badAnswers { grid-column: 1/-1; }
+.badAnswers > div { display: grid; grid-template-columns: repeat(2,1fr); gap: .5rem; }
+.badAnswers p { padding: .65rem; border-radius: .55rem; background: color-mix(in srgb,var(--danger) 5%,var(--bg-elevated)); }
+.badAnswers b { color: var(--danger); }
+.sources { display: grid; grid-template-columns: .8fr 1.2fr; gap: 1.2rem; padding: 1.2rem; margin-top: 1rem; border: 1px solid var(--border); border-radius: .9rem; background: var(--bg-card); }
+.sources h2 { margin: 0; font-size: .9rem; }
+.sources p { margin: .35rem 0 0; color: var(--text-muted); font-size: .63rem; line-height: 1.7; }
+.sources > div:last-child { display: grid; gap: .3rem; }
+.sources a { display: flex; justify-content: space-between; padding: .45rem .55rem; border-radius: .45rem; background: var(--bg-elevated); color: var(--text-muted); font-size: .62rem; }
+.sources a:hover { color: var(--accent); }
+@media(max-width:900px){.hero{align-items:flex-start;flex-direction:column}.heroStats{width:100%;flex-basis:auto}.filterRow{grid-template-columns:repeat(2,1fr)}.questionBody{grid-template-columns:1fr}.questionBody section:nth-child(3){grid-column:auto}.caseGrid{grid-template-columns:1fr}.caseCard[open]{grid-column:auto}.sources{grid-template-columns:1fr}}
+@media(max-width:640px){.page{padding-bottom:2rem}.hero{padding:1.3rem;min-height:auto}.hero h1{font-size:2rem}.heroActions{align-items:stretch;flex-direction:column}.heroActions a,.heroActions button{justify-content:center}.filterRow{grid-template-columns:1fr}.filterRow button{width:100%;justify-content:center}.questionCard summary{grid-template-columns:28px minmax(0,1fr)}.questionCard summary>i{display:none}.questionBody{padding:0 .75rem .75rem}.groupIntro{flex-direction:column}.groupIntro>div:last-child{justify-content:flex-start}.caseGrid,.caseBody,.methodPage{grid-template-columns:1fr}.caseBody section:first-child,.caseBody section:last-child,.badAnswers{grid-column:auto}.badAnswers>div{grid-template-columns:1fr}.heroStats{grid-template-columns:repeat(3,1fr)}.heroStats div{padding:.65rem}.practicePrompt{align-items:flex-start;flex-direction:column}.tabs button{font-size:.68rem}}

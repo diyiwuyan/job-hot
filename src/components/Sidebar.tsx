@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { ThemeToggle } from './ThemeToggle';
 import { useSidebar } from './SidebarContext';
@@ -77,7 +76,7 @@ const navItems: NavItem[] = [
     ],
   },
   {
-    href: '/tools/exam',
+    href: '/tools/prep',
     label: '求职准备',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
@@ -86,7 +85,9 @@ const navItems: NavItem[] = [
       </svg>
     ),
     children: [
+      { href: '/tools/prep', label: '求职准备中心' },
       { href: '/tools/exam', label: '笔试题库' },
+      { href: '/tools/interview', label: '面试与群面题库' },
       { href: 'https://ai-resume-9wy.pages.dev/', label: 'AI简历优化', external: true },
     ],
   },
@@ -243,10 +244,6 @@ export function Sidebar() {
         <span className="brand-hot">HOT</span>
       </Link>
       <span className="brand-slogan">更好用的大学生求职网站</span>
-      <Link href="/about#zhilu" className="sidebar-zhilu-link" onClick={close}>
-        <Image src="/images/zhilu-tongxingshe-brand-mark.svg" alt="" width={25} height={21} />
-        <span><small>JOBHOT 出品方</small>职路同行社</span>
-      </Link>
 
       <div className="divider" />
 

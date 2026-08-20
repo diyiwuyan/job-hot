@@ -22,11 +22,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: 'JOBHOT｜职路同行社出品 - 大学生求职信息与职业发展支持',
+    default: 'JOBHOT - 大学生求职信息与职业发展工具',
     template: '%s',
   },
-  description: 'JOBHOT 提供大学生校招实习信息与求职工具，职路同行社提供职业发展内容、测评解读、求职策略与行动支持。',
-  keywords: ['校招', '实习', '求职', '大学生', '招聘', 'JOBHOT', '职路同行社', '职业发展', '求职工具'],
+  description: 'JOBHOT 提供大学生校招实习信息、职业测评、笔试面试题库和求职进展管理工具。',
+  keywords: ['校招', '实习', '求职', '大学生', '招聘', 'JOBHOT', '职业发展', '求职工具'],
 };
 
 export default function RootLayout({

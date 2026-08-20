@@ -2,7 +2,6 @@
 
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
-import { ZhiluBrandIntro } from '@/components/ZhiluBrandIntro';
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 
@@ -72,7 +71,7 @@ const journeys = [
     icon: '✓',
     title: '开始求职准备',
     desc: '我已经有目标，需要准备简历、笔试和真实投递。',
-    href: '/tools/exam',
+    href: '/tools/prep',
     action: '进入准备工具',
     color: '#f59e0b',
   },
@@ -172,10 +171,6 @@ export default function HomePage() {
           ))}
         </div>
       </section>
-
-      <ZhiluBrandIntro />
-
-      <div className="divider" />
 
       {/* Features Section */}
       <div className="features-section">

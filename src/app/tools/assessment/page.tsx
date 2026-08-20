@@ -6,7 +6,7 @@ import { CAREER_ASSESSMENTS } from '@/lib/career-assessment-data';
 import styles from './AssessmentCenter.module.css';
 
 export const metadata: Metadata = {
-  title: '全部职业测评 - JOBHOT｜职路同行社出品',
+  title: '全部职业测评 - JOBHOT',
   description: '从职业倾向、职业资本和求职诊断三个方向，选择适合大学生当前问题的职业测评。',
 };
 

@@ -330,7 +330,7 @@ export default function DipaiPage() {
       </div>
 
       <p style={{ fontSize: '0.72rem', color: 'var(--text-muted)', marginTop: '1.25rem', lineHeight: 1.7 }}>
-        测评工具由JOBHOT提供，结果解读与行动支持由职路同行社提供。本结果不构成专业心理诊断或职业定论。
+        本测评由 JOBHOT 提供，仅用于职业探索和行动参考，不构成专业心理诊断或职业定论。
       </p>
     </div>
   );

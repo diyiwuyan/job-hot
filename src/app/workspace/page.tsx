@@ -5,6 +5,8 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { useAuth } from '@/components/AuthContext';
 import { ResumeOptimizer } from '@/components/ResumeOptimizer';
 import { supabase } from '@/lib/supabase';
+import { EXAM_SETS } from '@/lib/exam-data';
+import { COMPANY_EXAM_SETS } from '@/lib/company-exam-data';
 import styles from './Workspace.module.css';
 
 type WorkspaceTab = 'overview' | 'applications' | 'documents' | 'resume' | 'practice';
@@ -116,13 +118,9 @@ const RECENT_PRACTICE_START = (() => {
   return date.getTime();
 })();
 
-const examNames: Record<string, string> = {
-  verbal: '言语理解',
-  quantitative: '数量关系',
-  reasoning: '判断推理',
-  data: '资料分析',
-  general: '综合能力',
-};
+const examNames = Object.fromEntries(
+  [...EXAM_SETS, ...COMPANY_EXAM_SETS].map((item) => [item.id, item.title]),
+) as Record<string, string>;
 
 function formatDate(value: string | null, includeYear = false) {
   if (!value) return '未设置';
@@ -572,6 +570,7 @@ export default function WorkspacePage() {
               <div className={styles.quickActions}>
                 <button type="button" onClick={() => openTab('resume')}>诊断并生成岗位定向简历</button>
                 <Link href="/tools/exam">开始一次笔试训练</Link>
+                <Link href="/tools/interview">抽一道面试题或群面案例</Link>
                 <button type="button" onClick={() => openTab('practice')}>记录一次面试练习</button>
                 <Link href="/tools/assessment">选择职业测评</Link>
               </div>
@@ -690,11 +689,11 @@ export default function WorkspacePage() {
           </section>
 
           <section className={styles.panel}>
-            <div className={styles.panelHeading}><div><p className={styles.eyebrow}>PRACTICE LOG</p><h2>练习时间线</h2><span>站内笔试成绩会自动进入这里。</span></div><Link href="/tools/exam">去笔试训练 →</Link></div>
+            <div className={styles.panelHeading}><div><p className={styles.eyebrow}>PRACTICE LOG</p><h2>练习时间线</h2><span>站内笔试成绩会自动进入这里。</span></div><Link href="/tools/prep">打开训练题库 →</Link></div>
             {(practices.length || examResults.length) ? <div className={styles.practiceList}>
               {examResults.slice(0, 5).map((item) => <article key={`exam-${item.id}`} className={styles.practiceCard}><div className={styles.practiceDate}>{formatDate(item.created_at)}</div><div><span>站内笔试 · 自动记录</span><strong>{examNames[item.exam_id] || item.exam_id}</strong><small>{item.score}/{item.total} 分{item.duration_seconds ? ` · ${Math.max(1, Math.round(item.duration_seconds / 60))} 分钟` : ''}</small></div><b>{Math.round(item.score / item.total * 100)}%</b></article>)}
               {practices.map((item) => <article key={item.id} className={styles.practiceCard}><div className={styles.practiceDate}>{formatDate(item.practiced_at)}</div><div><span>{practiceLabel(item.kind)}</span><strong>{item.title}</strong><small>{item.duration_minutes ? `${item.duration_minutes} 分钟` : '未记录时长'}{item.score !== null ? ` · ${item.score}${item.max_score !== null ? `/${item.max_score}` : ' 分'}` : ''}</small>{item.notes && <p>{item.notes}</p>}{item.next_action && <em>下次改进：{item.next_action}</em>}</div><div className={styles.rowActions}><button type="button" onClick={() => editPractice(item)}>编辑</button><button type="button" className={styles.dangerAction} onClick={() => deletePractice(item)}>删除</button></div></article>)}
-            </div> : <div className={styles.emptyState}><strong>还没有练习记录</strong><p>练习的价值不在“做过”，而在看见问题、形成下一次动作。</p><Link href="/tools/exam">开始一次笔试训练 →</Link></div>}
+            </div> : <div className={styles.emptyState}><strong>还没有练习记录</strong><p>练习的价值不在“做过”，而在看见问题、形成下一次动作。</p><Link href="/tools/prep">选择一次笔面试训练 →</Link></div>}
           </section>
         </div>
       )}
