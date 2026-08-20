@@ -15312,7 +15312,7 @@
       "土木工程建筑业",
       "北京"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-08-12T14:46:19.000Z"
   },
@@ -15336,8 +15336,8 @@
       "制造业",
       "杭州"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-08-12T14:00:00.000Z"
   },
   {
@@ -15360,8 +15360,8 @@
       "制造业",
       "杭州"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-08-12T14:00:00.000Z"
   },
   {
@@ -15384,8 +15384,8 @@
       "制造业",
       "杭州"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-08-12T14:00:00.000Z"
   },
   {
@@ -15408,8 +15408,8 @@
       "制造业",
       "杭州"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-08-12T14:00:00.000Z"
   },
   {
@@ -15432,8 +15432,8 @@
       "制造业",
       "杭州"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-08-12T14:00:00.000Z"
   },
   {
@@ -15456,8 +15456,8 @@
       "制造业",
       "杭州"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-08-12T14:00:00.000Z"
   },
   {
@@ -15480,8 +15480,8 @@
       "制造业",
       "杭州"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-08-12T14:00:00.000Z"
   },
   {
@@ -15504,7 +15504,7 @@
       "制造业",
       "杭州"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-08-12T14:00:00.000Z"
   },
@@ -15528,7 +15528,7 @@
       "制造业",
       "杭州"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-08-12T14:00:00.000Z"
   },
@@ -15552,7 +15552,7 @@
       "制造业",
       "杭州"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-08-12T14:00:00.000Z"
   },
@@ -21281,7 +21281,7 @@
       "煤炭开采和洗选业",
       "北京"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-08-05T14:44:45.000Z"
   },
@@ -21304,7 +21304,7 @@
       "煤炭开采和洗选业",
       "北京"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-08-05T14:40:09.000Z"
   },
@@ -21328,7 +21328,7 @@
       "科学研究和技术服务业",
       "北京"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-08-05T14:31:54.000Z"
   },
