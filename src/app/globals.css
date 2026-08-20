@@ -625,6 +625,15 @@ a:hover {
   margin-bottom: 0.25rem;
 }
 
+.journey-step {
+  display: block;
+  margin-bottom: 0.18rem;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+}
+
 .journey-card p {
   min-height: 3.7em;
   color: var(--text-muted);

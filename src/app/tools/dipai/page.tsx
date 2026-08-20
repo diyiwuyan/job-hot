@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import { AssessmentResultActions } from '@/components/AssessmentResultActions';
+import { AssessmentScopeDisclosure } from '@/components/AssessmentScopeDisclosure';
 import { trackEvent } from '@/lib/analytics';
 import { captureAssessmentSource } from '@/lib/assessment-source';
 import {
@@ -82,15 +83,7 @@ export default function DipaiPage() {
             测完后会盘点你在四张底牌上的当前状态，并给出一项可以马上开始的补牌动作。
           </p>
 
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.75rem', marginBottom: '1.5rem' }}>
-            {CARDS.map((card) => (
-              <div key={card.type} style={{ padding: '0.75rem', borderRadius: '0.5rem', border: '1px solid var(--border)', background: 'var(--bg-card)' }}>
-                <div style={{ fontSize: '1.25rem', marginBottom: '0.25rem' }}>{card.emoji}</div>
-                <div style={{ fontSize: '0.85rem', fontWeight: 600 }}>{card.name}</div>
-                <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '0.15rem' }}>{card.description}</div>
-              </div>
-            ))}
-          </div>
+          <AssessmentScopeDisclosure mode="broad" areas={['个人缓冲与选择空间', '求职信息与支持网络', '低成本试错条件', '家庭期待沟通']} />
 
           <button
             onClick={start}
@@ -119,14 +112,13 @@ export default function DipaiPage() {
   // ====== Quiz ======
   if (stage === 'quiz') {
     const q = QUESTIONS[current];
-    const card = CARDS.find((c) => c.type === q.type)!;
 
     return (
       <div className="page">
         {/* 进度条 */}
         <div style={{ marginBottom: '1.5rem' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.78rem', color: 'var(--text-muted)', marginBottom: '0.4rem' }}>
-            <span>{card.emoji} {card.name}</span>
+            <span>请按当前真实情况作答</span>
             <span>{current + 1} / {total}</span>
           </div>
           <div style={{ height: 6, borderRadius: 3, background: 'var(--border)', overflow: 'hidden' }}>
@@ -228,7 +220,6 @@ export default function DipaiPage() {
   // ====== Result ======
   const profile = getProfile(scores);
   const lowestCard = [...CARDS].sort((a, b) => scores[a.type] - scores[b.type])[0];
-  const lowestScore = scores[lowestCard.type];
   const resultName = profile?.name ?? `优先补牌：${lowestCard.name}`;
   const resultHeadline = `当前优先补“${lowestCard.name}”，先把问题拆成一个可以执行的小动作`;
 
@@ -300,9 +291,8 @@ export default function DipaiPage() {
         nextStep={{
           href: '/tools/autumn-start',
           label: '如果你正在准备27届秋招，继续判断当前任务卡点',
-          description: '求职底牌回答“你手里有什么”，秋招启动诊断会进一步回答“你此刻应该先处理方向、经历、简历、行动还是信息”。',
+          description: '求职底牌回答“你手里有什么”，秋招启动诊断会进一步回答“目标、材料、投递、笔面和复盘中，此刻先处理哪一环”。',
         }}
-        campFit={`你的“${lowestCard.name}”得分为 ${lowestScore}/15。免费自测先完成第一轮判断；如果还需要把方向、经历、简历和30天行动计划系统落下来，可以再了解训练营。`}
         accent="#10b981"
       />
 

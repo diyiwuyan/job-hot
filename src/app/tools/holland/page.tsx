@@ -5,6 +5,7 @@ import { useEffect, useMemo, useState, type CSSProperties } from 'react';
 import { AssessmentCloudStatus, SavedAssessmentResultCard } from '@/components/AssessmentAccountResult';
 import { AssessmentRadar, ScoreBars, type AssessmentMetric } from '@/components/AssessmentRadar';
 import { AssessmentResultActions } from '@/components/AssessmentResultActions';
+import { AssessmentScopeDisclosure } from '@/components/AssessmentScopeDisclosure';
 import reportStyles from '@/components/AssessmentReport.module.css';
 import { useAssessmentResult } from '@/hooks/useAssessmentResult';
 import { trackEvent } from '@/lib/analytics';
@@ -186,6 +187,7 @@ export default function HollandPage() {
           <div className="divider" />
           <p style={{ color: 'var(--text-muted)', fontSize: '.8rem', lineHeight: 1.7, marginBottom: 0 }}>共 {total} 题，约 8—10 分钟；每题 0—2 分。题目比上一版多，是为了让三类原始分等权，不再用 40 分的不等量拼接。</p>
         </section>
+        <AssessmentScopeDisclosure mode="minimal" areas={['活动兴趣', '自我能力感受', '职业情境反馈']} />
 
         <section className="card" style={{ marginBottom: '1rem' }}>
           <div className={reportStyles.profileHeader}><div><h2>先补充求职背景（可选）</h2><p>最多选择两个学科方向。它只影响岗位推荐，不改变霍兰德得分。</p></div><span>{majorGroups.length} / 2</span></div>
@@ -217,13 +219,13 @@ export default function HollandPage() {
     const selected = answers[question.id];
     return (
       <div className="page">
-        <div className="page-header"><h1>第 {current + 1} / {total} 题</h1><p>{FACET_INFO[question.facet].shortName} · {question.type} {TYPE_INFO[question.type].name}</p></div>
-        <div style={{ height: 8, background: 'var(--bg-elevated)', borderRadius: 999, overflow: 'hidden', marginBottom: '1.25rem' }}><div style={{ width: `${progress}%`, height: '100%', background: `linear-gradient(90deg, ${TYPE_INFO[question.type].color}, var(--accent))`, transition: 'width .25s ease' }} /></div>
+        <div className="page-header"><h1>第 {current + 1} / {total} 题</h1><p>请按大多数时候真实、自然的状态作答</p></div>
+        <div style={{ height: 8, background: 'var(--bg-elevated)', borderRadius: 999, overflow: 'hidden', marginBottom: '1.25rem' }}><div style={{ width: `${progress}%`, height: '100%', background: 'linear-gradient(90deg, var(--accent), #8b5cf6)', transition: 'width .25s ease' }} /></div>
         <section className="card" style={{ marginBottom: '1rem' }}><h2 style={{ fontSize: '1.12rem', lineHeight: 1.7, margin: 0 }}>{question.text}</h2></section>
         <div style={{ display: 'grid', gap: '.6rem' }}>
           {SCALE_OPTIONS.map((option) => {
             const active = selected === option.value;
-            return <button key={option.value} type="button" className="timeline-card" onClick={() => answer(option.value)} style={{ width: '100%', display: 'flex', gap: '.75rem', textAlign: 'left', cursor: 'pointer', alignItems: 'center', borderColor: active ? TYPE_INFO[question.type].color : undefined, background: active ? `color-mix(in srgb, ${TYPE_INFO[question.type].color} 10%, var(--bg-card))` : undefined }}><span style={{ width: 30, height: 30, borderRadius: '50%', display: 'grid', placeItems: 'center', background: active ? TYPE_INFO[question.type].color : 'var(--bg-elevated)', color: active ? '#fff' : 'var(--text-muted)', fontWeight: 800 }}>{option.value}</span><span>{option.label}</span></button>;
+            return <button key={option.value} type="button" className="timeline-card" onClick={() => answer(option.value)} style={{ width: '100%', display: 'flex', gap: '.75rem', textAlign: 'left', cursor: 'pointer', alignItems: 'center', borderColor: active ? 'var(--accent)' : undefined, background: active ? 'var(--accent-muted)' : undefined }}><span style={{ width: 30, height: 30, borderRadius: '50%', display: 'grid', placeItems: 'center', background: active ? 'var(--accent)' : 'var(--bg-elevated)', color: active ? '#fff' : 'var(--text-muted)', fontWeight: 800 }}>{option.value}</span><span>{option.label}</span></button>;
           })}
         </div>
         <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '1rem' }}><button type="button" className="btn btn-secondary" disabled={current === 0} style={{ opacity: current === 0 ? .5 : 1 }} onClick={() => setCurrent((index) => Math.max(0, index - 1))}>← 上一题</button>{current < total - 1 && <button type="button" className="btn btn-secondary" disabled={selected === undefined} style={{ opacity: selected === undefined ? .5 : 1 }} onClick={() => setCurrent((index) => index + 1)}>下一题 →</button>}</div>
@@ -304,7 +306,7 @@ export default function HollandPage() {
       </div>
 
       <AssessmentCloudStatus email={accountResult.user?.email} saving={accountResult.saving} error={accountResult.error} savedResult={accountResult.savedResult} />
-      <AssessmentResultActions assessmentId="holland" assessmentName="霍兰德职业兴趣测试" resultName={`霍兰德代码 ${code}`} headline={`三个主要类型：${topNames}；优先探索 ${recommendations.map((item) => item.category.title).join('、')}`} summary={conclusion} action={action} nextStep={{ href: '/tools/values', label: '继续梳理你的职业价值观', description: '兴趣回答“愿意做什么”，职业价值观进一步判断“什么样的工作条件值得长期投入”。' }} campFit="如果需要把兴趣、专业与真实岗位进一步交叉验证，可以让老师与你一起查看 JD 和经历证据；不会只凭一次测评替你决定职业。" accent={dominant.color} onSaveCard={(source) => downloadHollandResultCard({ code, scores, breakdown, categories: recommendations.map((item) => ({ title: item.category.title, roles: item.roles.map((role) => role.title) })), majorLabel, source })} />
+      <AssessmentResultActions assessmentId="holland" assessmentName="霍兰德职业兴趣测试" resultName={`霍兰德代码 ${code}`} headline={`三个主要类型：${topNames}；优先探索 ${recommendations.map((item) => item.category.title).join('、')}`} summary={conclusion} action={action} nextStep={{ href: '/tools/values', label: '继续梳理你的职业价值观', description: '兴趣回答“愿意做什么”，职业价值观进一步判断“什么样的工作条件值得长期投入”。' }} accent={dominant.color} onSaveCard={(source) => downloadHollandResultCard({ code, scores, breakdown, categories: recommendations.map((item) => ({ title: item.category.title, roles: item.roles.map((role) => role.title) })), majorLabel, source })} />
       <div style={{ display: 'flex', gap: '.75rem', flexWrap: 'wrap' }}><button className="btn btn-secondary" onClick={restart}>重新测试</button><Link href="/tools/assessment" className="btn btn-secondary">返回测评中心</Link></div>
       <p style={{ fontSize: '.72rem', color: 'var(--text-muted)', marginTop: '1.5rem', lineHeight: 1.7 }}>说明：本测试为原创本土化职业兴趣自测，不是 PAR 授权 SDS，不构成心理诊断、能力鉴定或录用建议。</p>
     </div>

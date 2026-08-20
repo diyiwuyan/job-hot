@@ -5,6 +5,7 @@ import { useEffect, useMemo, useState, type CSSProperties } from 'react';
 import { AssessmentCloudStatus, SavedAssessmentResultCard } from '@/components/AssessmentAccountResult';
 import { AssessmentRadar, ScoreBars, type AssessmentMetric } from '@/components/AssessmentRadar';
 import { AssessmentResultActions } from '@/components/AssessmentResultActions';
+import { AssessmentScopeDisclosure } from '@/components/AssessmentScopeDisclosure';
 import reportStyles from '@/components/AssessmentReport.module.css';
 import { useAssessmentResult } from '@/hooks/useAssessmentResult';
 import { captureAssessmentSource } from '@/lib/assessment-source';
@@ -115,22 +116,12 @@ export default function ValuesPage() {
         </div>
         <section className="card" style={{ marginBottom: '1rem' }}>
           <p style={{ color: 'var(--text-muted)', lineHeight: 1.8, fontSize: '0.9rem' }}>
-            同一份岗位，对不同人可能有完全不同的吸引力。这个原创自测从成长、自主、稳定、影响、关系与生活边界六个维度，帮你形成一张可用于筛选岗位和提问面试官的“条件清单”。
+            同一份岗位，对不同人可能有完全不同的吸引力。这份原创自测会帮助你梳理工作条件的优先顺序，形成一张可用于筛选岗位和提问面试官的“条件清单”。
           </p>
           <div className="divider" />
           <p style={{ color: 'var(--text-muted)', fontSize: '0.82rem', lineHeight: 1.7, margin: 0 }}>共30题，约5分钟。没有高低好坏，请按你当下真实看重的程度作答。</p>
         </section>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '0.65rem', marginBottom: '1.25rem' }}>
-          {VALUE_ORDER.map((key) => {
-            const item = VALUE_INFO[key];
-            return (
-              <div key={key} className="timeline-card" style={{ borderTop: `3px solid ${item.color}`, padding: '0.8rem' }}>
-                <strong style={{ fontSize: '0.9rem' }}>{item.name}</strong>
-                <p style={{ color: 'var(--text-muted)', fontSize: '0.72rem', lineHeight: 1.65, margin: '0.35rem 0 0' }}>{item.signals}</p>
-              </div>
-            );
-          })}
-        </div>
+        <AssessmentScopeDisclosure mode="minimal" areas={['成长机会', '自主空间', '稳定预期', '成果影响', '关系质量', '生活边界']} />
         <SavedAssessmentResultCard
           email={accountResult.user?.email}
           loading={accountResult.loading}
@@ -304,7 +295,6 @@ export default function ValuesPage() {
         headline={`我当前最看重：${topNames}`}
         summary="价值观结果适合用来筛选岗位条件，并需要与经历、能力和真实工作任务一起验证。"
         action={action}
-        campFit="如果你想把“我看重什么”落实到目标岗位、投递判断和面试沟通中，职路同行社可以协助你把条件转成行动。"
         accent={dominant.color}
         nextStep={{ href: '/tools/career-atlas', label: '再用职业坐标验证可能方向', description: '价值观帮助你筛条件；职业坐标帮助你把兴趣、经历与岗位任务放在一起比较。' }}
       />

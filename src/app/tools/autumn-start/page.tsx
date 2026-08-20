@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useEffect, useMemo, useState } from 'react';
 import { AssessmentResultActions } from '@/components/AssessmentResultActions';
+import { AssessmentScopeDisclosure } from '@/components/AssessmentScopeDisclosure';
 import { trackEvent } from '@/lib/analytics';
 import { captureAssessmentSource } from '@/lib/assessment-source';
 import {
@@ -83,36 +84,31 @@ export default function AutumnStartPage() {
       <div className="page">
         <div className="page-header">
           <h1>27届秋招启动诊断</h1>
-          <p>5分钟左右，看看你现在最该先做哪一步</p>
+          <p>约4分钟，定位当前求职循环最值得优先处理的环节</p>
         </div>
 
         <section className="card" style={{ maxWidth: 680, margin: '0 auto 1rem', borderTop: '4px solid #22c55e' }}>
           <div className="timeline-tags" style={{ marginBottom: '0.8rem' }}>
             <span className="tag">27届当前推荐</span>
+            <span className="tag">15道行为题＋3道状态题</span>
             <span className="tag">免费</span>
             <span className="tag">完整结果立即可见</span>
           </div>
           <h2 style={{ fontSize: '1.25rem', fontWeight: 800, lineHeight: 1.5, marginBottom: '0.65rem' }}>
-            秋招迟迟没有启动，不一定是因为“不够努力”
+            秋招推进不顺，不一定是因为“不够努力”
           </h2>
           <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', lineHeight: 1.85, marginBottom: '1rem' }}>
-            有人卡在方向，有人卡在经历表达，有人被信息淹没，也有人已经开始投递，却缺少反馈和复盘。请按最近两周的真实状态作答，结果会给出一个当前优先级和一项72小时行动。
+            求职是一个“明确目标—准备证据—管理机会—通过筛选—读取反馈”的循环。请按最近14天真实发生的行为作答，结果会定位当前最高优先级，并给出一项72小时行动和对应工具。
           </p>
           <button type="button" className="btn btn-lg" style={{ width: '100%' }} onClick={start}>
             开始诊断 →
           </button>
           <p style={{ color: 'var(--text-muted)', fontSize: '0.72rem', lineHeight: 1.7, marginTop: '0.85rem' }}>
-            本工具用于秋招启动阶段的自我观察，不是心理诊断，也不是职业定论；不要求留下联系方式才能查看结果。
+            本工具诊断当前求职行为，不测人格或长期能力，也不构成心理诊断和职业定论；无需留下联系方式即可查看完整结果。
           </p>
         </section>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '0.75rem', maxWidth: 680, margin: '0 auto' }}>
-          {AUTUMN_DIMENSIONS.map((dimension) => (
-            <div key={dimension.key} className="timeline-card" style={{ padding: '0.8rem' }}>
-              <strong style={{ fontSize: '0.85rem' }}>{dimension.name}</strong>
-            </div>
-          ))}
-        </div>
+        <div style={{ maxWidth: 680, margin: '0 auto' }}><AssessmentScopeDisclosure mode="diagnostic" areas={['目标聚焦', '证据与材料', '机会与投递', '笔试面试准备', '复盘与行动节奏']} /></div>
       </div>
     );
   }
@@ -211,7 +207,8 @@ export default function AutumnStartPage() {
       </section>
 
       <section className="card" style={{ marginBottom: '1rem' }}>
-        <h2 style={{ fontSize: '1rem', marginBottom: '0.7rem' }}>六个维度</h2>
+        <h2 style={{ fontSize: '1rem', marginBottom: '0.25rem' }}>五个求职环节</h2>
+        <p style={{ color:'var(--text-muted)', fontSize:'.72rem', lineHeight:1.65, margin:'0 0 .8rem' }}>分数越高，代表这个环节当前阻塞越明显；它反映最近14天的状态，不代表长期能力。</p>
         {AUTUMN_DIMENSIONS.map((dimension) => (
           <div key={dimension.key} style={{ display: 'grid', gridTemplateColumns: '92px 1fr 32px', gap: '0.6rem', alignItems: 'center', marginBottom: '0.65rem', fontSize: '0.8rem' }}>
             <span>{dimension.name}</span>
@@ -237,8 +234,8 @@ export default function AutumnStartPage() {
         headline={result.title}
         summary={result.description}
         action={result.action}
-        campFit={result.camp}
         accent={result.color}
+        nextStep={result.nextStep}
       />
 
       <div style={{ display: 'flex', gap: '0.65rem', flexWrap: 'wrap' }}>

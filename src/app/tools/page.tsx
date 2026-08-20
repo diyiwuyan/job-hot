@@ -3,19 +3,17 @@ import Link from 'next/link';
 import { ZhiluBrandIntro } from '@/components/ZhiluBrandIntro';
 
 export const metadata: Metadata = {
-  title: '职业服务 - JOBHOT｜职路同行社出品',
-  description: 'JOBHOT 是职路同行社出品的大学生求职网站，提供职业测评、求职诊断、训练营与行动支持。',
+  title: '职业工具 - JOBHOT｜职路同行社出品',
+  description: 'JOBHOT 是职路同行社出品的大学生求职网站，提供职业测评、求职诊断、职业探索与笔试训练工具。',
 };
 
 export default function ToolsPage() {
   return (
     <div className="page">
       <div className="page-header">
-        <h1>职业服务</h1>
-        <p>JOBHOT 由职路同行社出品，提供工具、专业内容与行动支持</p>
+        <h1>职业工具</h1>
+        <p>从认识方向、完成测评到笔试准备，选择当前真正需要的一项</p>
       </div>
-
-      <ZhiluBrandIntro />
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.25rem', marginTop: '0.5rem' }}>
         {/* 职业坐标 */}
@@ -49,52 +47,12 @@ export default function ToolsPage() {
             职业测评
           </h2>
           <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.7, margin: 0 }}>
-            秋招启动诊断、求职底牌、霍兰德兴趣、MBTI 与职业价值观 —— 五套免费自我探索工具，帮你找到更具体的下一步。
+            从霍兰德兴趣、职业价值观到工作风格、技能、就业胜任力和行动准备度，十一套免费工具共同形成综合职业画像。
           </p>
           <div className="timeline-tags" style={{ marginTop: '0.75rem' }}>
             <span className="tag">免费</span>
-            <span className="tag">5套测评</span>
+            <span className="tag">11套测评</span>
             <span className="tag">5-10分钟</span>
-          </div>
-        </Link>
-
-        {/* 获得求职支持 */}
-        <Link
-          href="/tools/coaching"
-          className="timeline-card timeline-card-featured"
-          style={{ display: 'block', textDecoration: 'none', padding: '1.5rem' }}
-        >
-          <div style={{ fontSize: '2rem', marginBottom: '0.75rem' }}>🚀</div>
-          <h2 style={{ fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.5rem', color: 'var(--text)' }}>
-            获得求职支持
-          </h2>
-          <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.7, margin: 0 }}>
-            了解职路同行社的训练营和陪跑服务：从职业方向、经历梳理到简历面试与行动推进，把求职中的关键动作做扎实。
-          </p>
-          <div className="timeline-tags" style={{ marginTop: '0.75rem' }}>
-            <span className="tag">系统辅导</span>
-            <span className="tag">一对一</span>
-            <span className="tag">社群答疑</span>
-          </div>
-        </Link>
-
-        {/* 学员中心 */}
-        <Link
-          href="/tools/career-camp"
-          className="timeline-card timeline-card-featured"
-          style={{ display: 'block', textDecoration: 'none', padding: '1.5rem' }}
-        >
-          <div style={{ fontSize: '2rem', marginBottom: '0.75rem' }}>📚</div>
-          <h2 style={{ fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.5rem', color: 'var(--text)' }}>
-            学员中心
-          </h2>
-          <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.7, margin: 0 }}>
-            已报名学员登录后，可查看课程大纲、完成课后作业打卡，并接收老师反馈。
-          </p>
-          <div className="timeline-tags" style={{ marginTop: '0.75rem' }}>
-            <span className="tag">课程大纲</span>
-            <span className="tag">作业打卡</span>
-            <span className="tag">老师反馈</span>
           </div>
         </Link>
 
@@ -118,6 +76,7 @@ export default function ToolsPage() {
           </div>
         </Link>
       </div>
+      <div style={{ marginTop:'1.25rem' }}><ZhiluBrandIntro /></div>
     </div>
   );
 }

@@ -25,7 +25,7 @@ export default function AboutPage() {
           </div>
           <h2 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.75rem' }}>JOBHOT 是什么？</h2>
           <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)', lineHeight: 1.8 }}>
-            JOBHOT 是职路同行社打造的大学生求职网站，聚合校招、实习和宣讲会信息，并提供订阅收藏、职业坐标、求职测评和训练营学习工具。
+            JOBHOT 是职路同行社打造的大学生求职网站，聚合校招、实习和宣讲会信息，并提供订阅收藏、职业坐标、职业测评和求职准备工具。
             我们希望把“找到机会、认识自己、准备材料和持续行动”放进同一条路径，让学生不只看到更多信息，也能更清楚地走出下一步。
           </p>
         </section>

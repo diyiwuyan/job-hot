@@ -1,0 +1,15 @@
+.panel { --result-accent: var(--accent); overflow: hidden; margin-bottom: 1rem; border: 1px solid var(--border); border-radius: 20px; background: var(--bg-card); }
+.header { padding: 1.15rem 1.2rem; border-bottom: 1px solid var(--border); background: linear-gradient(125deg, color-mix(in srgb, var(--result-accent) 10%, var(--bg-card)), var(--bg-card)); }
+.header span { color: var(--result-accent); font-family: var(--font-mono); font-size: .65rem; font-weight: 800; letter-spacing: .08em; }
+.header h2 { margin: .3rem 0 .25rem; color: var(--text); font-size: 1.08rem; }
+.header p { margin: 0; color: var(--text-muted); font-size: .73rem; line-height: 1.65; }
+.steps { display: grid; margin: 0; padding: 0; list-style: none; }
+.step { display: grid; grid-template-columns: 42px minmax(0, 1fr); gap: .8rem; padding: 1rem 1.2rem; }
+.step + .step { border-top: 1px solid var(--border); }
+.number { display: grid; place-items: center; width: 36px; height: 36px; border-radius: 11px; background: color-mix(in srgb, var(--result-accent) 11%, var(--bg-elevated)); color: var(--result-accent); font-family: var(--font-mono); font-size: .68rem; font-weight: 800; }
+.content > span { display: block; margin-bottom: .28rem; color: var(--text-muted); font-size: .65rem; font-weight: 700; }
+.content strong { display: block; color: var(--text); font-size: .84rem; line-height: 1.65; }
+.content p { margin: .25rem 0 0; color: var(--text-muted); font-size: .72rem; line-height: 1.65; }
+.actions { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .7rem; }
+.actions :global(.btn) { padding: .5rem .75rem; font-size: .72rem; }
+@media (max-width: 520px) { .header { padding: 1rem; } .step { grid-template-columns: 36px minmax(0, 1fr); gap: .65rem; padding: .9rem 1rem; } .number { width: 32px; height: 32px; } }

@@ -50,35 +50,39 @@ const features = [
 
 const journeys = [
   {
+    step: '01',
     icon: '⌕',
-    title: '找机会',
-    desc: '查看校招、实习和宣讲会，建立自己的目标岗位池。',
+    title: '浏览招聘机会',
+    desc: '我已经有大致目标，想查看最新校招、实习和宣讲会。',
     href: '/all',
-    action: '浏览招聘信息',
+    action: '查看全部招聘',
     color: '#3b82f6',
   },
   {
+    step: '02',
     icon: '◎',
-    title: '找方向',
-    desc: '从职业坐标和免费测评开始，先看清兴趣、资源与当前卡点。',
+    title: '探索职业方向',
+    desc: '我还不确定适合什么，希望先认识兴趣、价值观和能力。',
     href: '/tools/assessment',
-    action: '进入职业测评',
+    action: '选择一项测评',
     color: '#8b5cf6',
   },
   {
+    step: '03',
     icon: '✓',
-    title: '做准备',
-    desc: '练习笔试、优化材料，把经历转化成岗位看得见的证据。',
+    title: '开始求职准备',
+    desc: '我已经有目标，需要准备简历、笔试和真实投递。',
     href: '/tools/exam',
-    action: '开始求职准备',
+    action: '进入准备工具',
     color: '#f59e0b',
   },
   {
+    step: '04',
     icon: '↗',
-    title: '获得支持',
-    desc: '了解训练营和后续支持，让方向、材料和行动形成闭环。',
-    href: '/tools/coaching',
-    action: '查看支持方案',
+    title: '复盘我的进展',
+    desc: '我做过测评或已经开始求职，想汇总结果并确定下一步。',
+    href: '/tools/assessment/profile',
+    action: '查看综合职业画像',
     color: '#22c55e',
   },
 ];
@@ -151,14 +155,15 @@ export default function HomePage() {
 
       <section className="journey-section">
         <div className="journey-heading">
-          <span>你现在想先解决什么？</span>
-          <p>不必一次用完所有功能，先从最接近当前状态的一步开始。</p>
+          <span>按你现在的状态，选择下一步</span>
+          <p>不用先理解网站结构，也不必从第一步重新开始；选择最接近当前问题的一项。</p>
         </div>
         <div className="journey-grid">
           {journeys.map((journey) => (
             <Link key={journey.title} href={journey.href} className="journey-card">
               <span className="journey-icon" style={{ color: journey.color, borderColor: `${journey.color}55`, background: `${journey.color}12` }}>{journey.icon}</span>
               <div>
+                <span className="journey-step" style={{ color: journey.color }}>STEP {journey.step}</span>
                 <h2>{journey.title}</h2>
                 <p>{journey.desc}</p>
                 <strong style={{ color: journey.color }}>{journey.action} →</strong>

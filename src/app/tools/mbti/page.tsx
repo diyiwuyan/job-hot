@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useEffect, useMemo, useState } from 'react';
 import { AssessmentResultActions } from '@/components/AssessmentResultActions';
+import { AssessmentScopeDisclosure } from '@/components/AssessmentScopeDisclosure';
 import { trackEvent } from '@/lib/analytics';
 import { captureAssessmentSource } from '@/lib/assessment-source';
 import { MBTI_AXES, MBTI_QUESTIONS, MBTI_RESULTS, calculateMbti } from '@/lib/mbti-data';
@@ -137,13 +138,7 @@ export default function MbtiPage() {
           </p>
         </section>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(145px, 1fr))', gap: '0.65rem', maxWidth: 700, margin: '0 auto' }}>
-          {MBTI_AXES.map((axis) => (
-            <div key={axis.key} className="timeline-card" style={{ padding: '0.8rem', textAlign: 'center' }}>
-              <strong style={{ fontSize: '0.85rem' }}>{axis.leftLabel} / {axis.rightLabel}</strong>
-            </div>
-          ))}
-        </div>
+        <div style={{ maxWidth: 700, margin: '0 auto' }}><AssessmentScopeDisclosure mode="minimal" areas={['精力与互动', '信息与注意', '判断与决定', '生活节奏']} /></div>
       </div>
     );
   }
@@ -264,7 +259,6 @@ export default function MbtiPage() {
         headline={result.tagline}
         summary={result.description}
         action={result.action}
-        campFit={result.camp}
         accent={result.color}
         nextStep={{
           href: '/tools/autumn-start',

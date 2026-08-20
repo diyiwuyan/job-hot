@@ -30,7 +30,7 @@ const navItems: NavItem[] = [
   },
   {
     href: '/all',
-    label: '找机会',
+    label: '招聘机会',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <line x1="8" y1="6" x2="21" y2="6" />
@@ -42,16 +42,16 @@ const navItems: NavItem[] = [
       </svg>
     ),
     children: [
-      { href: '/all', label: '全部招聘' },
-      { href: '/nav', label: '求职导航' },
+      { href: '/all', label: '全部招聘信息' },
+      { href: '/nav', label: '求职网站导航' },
       { href: '/shame', label: '校招避雷' },
-      { href: '/subscription', label: '订阅推送' },
-      { href: '/bookmarks', label: '我的收藏' },
+      { href: '/subscription', label: '岗位订阅' },
+      { href: '/bookmarks', label: '已收藏岗位' },
     ],
   },
   {
     href: '/tools/assessment',
-    label: '找方向',
+    label: '职业方向',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="12" cy="12" r="10" />
@@ -60,13 +60,14 @@ const navItems: NavItem[] = [
       </svg>
     ),
     children: [
-      { href: '/tools/career-atlas', label: '职业坐标' },
-      { href: '/tools/assessment', label: '职业测评' },
+      { href: '/tools/career-atlas', label: '岗位方向地图' },
+      { href: '/tools/assessment', label: '职业测评中心' },
+      { href: '/tools/assessment/profile', label: '综合职业画像' },
     ],
   },
   {
     href: '/tools/exam',
-    label: '做准备',
+    label: '求职准备',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <path d="M9 11l3 3L22 4" />
@@ -74,27 +75,13 @@ const navItems: NavItem[] = [
       </svg>
     ),
     children: [
-      { href: '/tools/exam', label: '笔试训练' },
-      { href: 'https://ai-resume-9wy.pages.dev/', label: 'AI简历', external: true },
-    ],
-  },
-  {
-    href: '/tools/coaching',
-    label: '获得支持',
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-        <circle cx="12" cy="7" r="4" />
-      </svg>
-    ),
-    children: [
-      { href: '/tools/coaching', label: '7天训练营介绍' },
-      { href: '/tools/career-camp', label: '学员中心' },
+      { href: '/tools/exam', label: '笔试题库' },
+      { href: 'https://ai-resume-9wy.pages.dev/', label: 'AI简历工具', external: true },
     ],
   },
   {
     href: '/wish',
-    label: '许愿池',
+    label: '意见与许愿',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
@@ -314,6 +301,13 @@ export function Sidebar() {
                       onClick={close}
                     >
                       训练营管理
+                    </Link>
+                    <Link
+                      href="/admin/assessments"
+                      className={`side-sublink ${isActive('/admin/assessments') ? 'side-sublink-active' : ''}`}
+                      onClick={close}
+                    >
+                      测评运营方法
                     </Link>
                     <Link
                       href="/services/soe-delivery"

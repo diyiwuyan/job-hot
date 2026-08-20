@@ -1,0 +1,11 @@
+.disclosure { overflow: hidden; margin: 0 0 1rem; border: 1px solid var(--border); border-radius: 14px; background: var(--bg-card); }
+.disclosure summary { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: .8rem 1rem; cursor: pointer; list-style: none; }
+.disclosure summary::-webkit-details-marker { display: none; }
+.disclosure summary span { display: block; margin-bottom: .15rem; color: var(--accent); font-size: .64rem; font-weight: 800; letter-spacing: .04em; }
+.disclosure summary strong { color: var(--text); font-size: .8rem; }
+.disclosure summary i { color: var(--accent); font-size: 1.1rem; font-style: normal; transition: transform .18s ease; }
+.disclosure[open] summary i { transform: rotate(180deg); }
+.body { padding: .8rem 1rem 1rem; border-top: 1px solid var(--border); background: color-mix(in srgb, var(--accent) 4%, var(--bg-card)); }
+.areas { display: flex; flex-wrap: wrap; gap: .4rem; }
+.areas span { padding: .35rem .55rem; border: 1px solid color-mix(in srgb, var(--accent) 22%, var(--border)); border-radius: 999px; background: var(--bg-card); color: var(--text); font-size: .68rem; }
+.body p { margin: .65rem 0 0; color: var(--text-muted); font-size: .68rem; line-height: 1.65; }
