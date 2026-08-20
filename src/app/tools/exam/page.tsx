@@ -6,6 +6,7 @@ import { supabase } from '@/lib/supabase';
 import { EXAM_SETS } from '@/lib/exam-data';
 import { COMPANY_EXAM_SETS } from '@/lib/company-exam-data';
 import Link from 'next/link';
+import { getUserDisplayName, getUserInitial } from '@/lib/user-display';
 
 // ============ Types ============
 type Mode = 'practice' | 'review'; // 做题模式 / 背题模式
@@ -189,15 +190,21 @@ export default function ExamPage() {
       <div className="page">
         <div className="page-header">
           <h1>笔试题库</h1>
-          <p>通用能力训练与企业方向原创模拟，在线答题、解析错题并保存成绩</p>
+          <p>先练通用基础，再按岗位准备，最后核对企业公开流程和历年经验</p>
+        </div>
+
+        <div className="exam-library-levels" aria-label="笔试准备层级">
+          <button type="button" data-active={libraryGroup === 'general'} onClick={() => chooseLibraryGroup('general')}><span>01</span><strong>通用基础练习</strong><small>数量、言语、逻辑、资料与常识</small></button>
+          <Link href="/tools/role-prep"><span>02</span><strong>岗位专项备战</strong><small>按数据、产品、研发、AI Agent 等方向准备</small></Link>
+          <Link href="/tools/company-prep"><span>03</span><strong>企业招聘资料</strong><small>查看官方流程与可追溯公开面经</small></Link>
         </div>
 
         <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', gap:'.75rem', flexWrap:'wrap', marginBottom:'1rem' }}>
           <div className="segmented" style={{ maxWidth:'360px' }}>
-            <button type="button" className={`seg-item${libraryGroup === 'general' ? ' seg-item-active' : ''}`} onClick={() => chooseLibraryGroup('general')}>通用能力 · {EXAM_SETS.length}套</button>
-            <button type="button" className={`seg-item${libraryGroup === 'company' ? ' seg-item-active' : ''}`} onClick={() => chooseLibraryGroup('company')}>企业方向 · {COMPANY_EXAM_SETS.length}套</button>
+            <button type="button" className={`seg-item${libraryGroup === 'general' ? ' seg-item-active' : ''}`} onClick={() => chooseLibraryGroup('general')}>通用基础 · {EXAM_SETS.length}套</button>
+            <button type="button" className={`seg-item${libraryGroup === 'company' ? ' seg-item-active' : ''}`} onClick={() => chooseLibraryGroup('company')}>企业能力练习 · {COMPANY_EXAM_SETS.length}套</button>
           </div>
-          <Link href="/tools/interview" className="btn btn-secondary">去面试题库 →</Link>
+          <div style={{ display:'flex', gap:'.5rem', flexWrap:'wrap' }}><Link href="/tools/role-prep" className="btn btn-secondary">查岗位历年资料</Link><Link href="/tools/interview" className="btn btn-secondary">去面试题库 →</Link></div>
         </div>
 
         {/* 选择题库 */}
@@ -277,11 +284,11 @@ export default function ExamPage() {
                 background: 'var(--accent-muted)', display: 'flex', alignItems: 'center', justifyContent: 'center',
                 fontSize: '0.875rem', color: 'var(--accent)', fontWeight: 600,
               }}>
-                {(user.email || '用')[0].toUpperCase()}
+                {getUserInitial(user)}
               </div>
               <div>
                 <div style={{ fontSize: '0.875rem', fontWeight: 600, color: 'var(--text)' }}>
-                  {user.email || '已登录用户'}
+                  {getUserDisplayName(user)}
                 </div>
                 <div style={{ fontSize: '0.75rem', color: 'var(--success)' }}>✓ 成绩将自动保存</div>
               </div>

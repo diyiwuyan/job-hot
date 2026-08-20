@@ -3,6 +3,7 @@
 import { useMemo, useState } from 'react';
 import Link from 'next/link';
 import { GROUP_CASES, INTERVIEW_QUESTIONS, INTERVIEW_SOURCES, type InterviewCategory } from '@/lib/interview-data';
+import { PREP_EVIDENCE } from '@/lib/role-prep-data';
 import styles from './Interview.module.css';
 
 type Tab = 'questions' | 'group' | 'method';
@@ -20,24 +21,21 @@ export default function InterviewPage() {
   const [tab, setTab] = useState<Tab>('questions');
   const [category, setCategory] = useState<'all' | InterviewCategory>('all');
   const [role, setRole] = useState('全部岗位');
-  const [company, setCompany] = useState('全部企业');
   const [search, setSearch] = useState('');
   const [randomId, setRandomId] = useState('');
 
   const roles = useMemo(() => ['全部岗位', ...Array.from(new Set(INTERVIEW_QUESTIONS.flatMap((item) => item.roles))).sort()], []);
-  const companies = useMemo(() => ['全部企业', ...Array.from(new Set(INTERVIEW_QUESTIONS.flatMap((item) => item.companies))).sort()], []);
   const filtered = useMemo(() => {
     const keyword = search.trim().toLowerCase();
     const list = INTERVIEW_QUESTIONS.filter((item) => {
       if (category !== 'all' && item.category !== category) return false;
       if (role !== '全部岗位' && !item.roles.includes(role) && !item.roles.includes('通用')) return false;
-      if (company !== '全部企业' && !item.companies.includes(company) && !item.companies.includes('通用')) return false;
-      if (keyword && !`${item.question} ${item.intent} ${item.roles.join(' ')} ${item.companies.join(' ')}`.toLowerCase().includes(keyword)) return false;
+      if (keyword && !`${item.question} ${item.intent} ${item.roles.join(' ')}`.toLowerCase().includes(keyword)) return false;
       return true;
     });
     if (!randomId) return list;
     return [...list].sort((a, b) => (a.id === randomId ? -1 : b.id === randomId ? 1 : 0));
-  }, [category, company, randomId, role, search]);
+  }, [category, randomId, role, search]);
 
   function pickRandom() {
     const pool = filtered.length ? filtered : INTERVIEW_QUESTIONS;
@@ -58,10 +56,10 @@ export default function InterviewPage() {
         <div>
           <p>JOBHOT INTERVIEW LAB</p>
           <h1>面试题库与无领导小组</h1>
-          <span>不是背“标准答案”，而是练习听懂考察意图、组织真实证据，并在追问中保持一致。</span>
-          <div className={styles.heroActions}><button type="button" className="btn" onClick={() => { setTab('questions'); window.setTimeout(pickRandom, 0); }}>随机抽一道题</button><Link href="/tools/company-prep" className="btn btn-secondary">按企业准备</Link><Link href="/tools/exam" className="btn btn-secondary">去笔试题库</Link></div>
+          <span>这里是原创作答训练，不冒充企业真题。历年企业与岗位考察记录已单独放入可追溯的岗位备战库。</span>
+          <div className={styles.heroActions}><button type="button" className="btn" onClick={() => { setTab('questions'); window.setTimeout(pickRandom, 0); }}>随机抽一道题</button><Link href="/tools/role-prep" className="btn btn-secondary">查真实岗位面经</Link><Link href="/tools/exam" className="btn btn-secondary">去笔试题库</Link></div>
         </div>
-        <div className={styles.heroStats}><div><strong>{INTERVIEW_QUESTIONS.length}</strong><span>原创单面题</span></div><div><strong>{GROUP_CASES.length}</strong><span>群面案例</span></div><div><strong>5</strong><span>岗位题型</span></div></div>
+        <div className={styles.heroStats}><div><strong>{INTERVIEW_QUESTIONS.length}</strong><span>原创单面练习</span></div><div><strong>{GROUP_CASES.length}</strong><span>原创群面案例</span></div><div><strong>{PREP_EVIDENCE.length}</strong><span>可追溯公开来源</span></div></div>
       </section>
 
       <nav className={styles.tabs} aria-label="面试题库分区">
@@ -75,18 +73,17 @@ export default function InterviewPage() {
           <div className={styles.categoryPills}>{categories.map((item) => <button type="button" key={item.value} data-active={category === item.value} onClick={() => { setCategory(item.value); setRandomId(''); }}>{item.label}<span>{item.value === 'all' ? INTERVIEW_QUESTIONS.length : INTERVIEW_QUESTIONS.filter((question) => question.category === item.value).length}</span></button>)}</div>
           <div className={styles.filterRow}>
             <label><span>岗位方向</span><select className="field" value={role} onChange={(event) => setRole(event.target.value)}>{roles.map((item) => <option key={item}>{item}</option>)}</select></label>
-            <label><span>企业方向</span><select className="field" value={company} onChange={(event) => setCompany(event.target.value)}>{companies.map((item) => <option key={item}>{item}</option>)}</select></label>
             <label className={styles.search}><span>搜索题目</span><input className="field" value={search} onChange={(event) => setSearch(event.target.value)} placeholder="项目、留存、Redis、职业规划…" /></label>
             <button type="button" className="btn btn-secondary" onClick={pickRandom}>随机抽题</button>
           </div>
-          <p>找到 {filtered.length} 道题。企业筛选表示公开面经中常见的考察方向，不代表该企业固定题目。</p>
+          <p>找到 {filtered.length} 道原创训练题。它们按岗位能力分类，不再挂具体企业标签；企业历史考察请查看岗位专项备战。</p>
         </section>
 
         <section className={styles.questionList}>
           {filtered.map((item, index) => <details id={`question-${item.id}`} key={item.id} className={styles.questionCard}>
             <summary>
               <span>{String(index + 1).padStart(2, '0')}</span>
-              <div><div><em>{item.categoryLabel}</em><b data-level={item.difficulty}>{item.difficulty}</b></div><h2>{item.question}</h2><small>{item.roles.join(' · ')}　|　{item.companies.join(' · ')}</small></div>
+              <div><div><em>{item.categoryLabel}</em><b data-level={item.difficulty}>{item.difficulty}</b></div><h2>{item.question}</h2><small>{item.roles.join(' · ')}　|　本站原创练习</small></div>
               <i>展开练习</i>
             </summary>
             <div className={styles.questionBody}>
@@ -115,8 +112,8 @@ export default function InterviewPage() {
       </section>}
 
       <section className={styles.sources}>
-        <div><h2>题库依据与内容边界</h2><p>本站根据公开招聘流程、职业指导资料和求职者公开面经归纳考察主题，并重新编写练习题、案例与解析。不会声称掌握企业内部题库，也不替代当次官方通知。</p></div>
-        <div>{INTERVIEW_SOURCES.map((source) => <a key={source.url} href={source.url} target="_blank" rel="noopener noreferrer">{source.title}<span>↗</span></a>)}</div>
+        <div><h2>题库依据与内容边界</h2><p>当前页面的题目和案例均为本站原创能力训练。企业官方流程、JD 与求职者公开面经已进入岗位专项备战，并保留原始链接与时间信息。</p></div>
+        <div><Link href="/tools/role-prep">岗位专项备战：查看 {PREP_EVIDENCE.length} 条可追溯来源<span>→</span></Link>{INTERVIEW_SOURCES.map((source) => <a key={source.url} href={source.url} target="_blank" rel="noopener noreferrer">{source.title}<span>↗</span></a>)}</div>
       </section>
     </div>
   );

@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Suspense, useEffect, useState } from 'react';
 import { FeedItem } from '@/lib/types';
 import { TalkReminder } from '@/components/TalkReminder';
+import { JobPrepPanel } from '@/components/JobPrepPanel';
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 
@@ -220,6 +221,8 @@ function ItemContent() {
               />
             )}
           </article>
+
+          <JobPrepPanel item={item} />
 
           {/* JOBHOT 介绍 */}
           <section className="timeline-card item-about">

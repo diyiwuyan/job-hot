@@ -103,7 +103,7 @@ export const COMPANY_PREP_PROFILES: CompanyPrepProfile[] = [
     ],
     casePractice: { title: '早餐产品区域增长', prompt: '某早餐产品在一线城市增长放缓，低线城市认知低。你有经销商培训、试吃、电商内容和便利店合作四类资源，预算有限。', deliverable: '选择目标城市与渠道，制定试点、资源分配和衡量指标。', timebox: '阅读15分钟 · 讨论30分钟 · 汇报5分钟' },
     officialUrl: 'https://www.nestle.com/jobs/recruitment-journey',
-    experienceUrl: 'https://www.nowcoder.com/discuss/353156614721052672',
+    experienceUrl: 'https://www.nowcoder.com/discuss/386658971187245056',
     sourceNote: commonBoundary,
   },
   {
@@ -121,7 +121,7 @@ export const COMPANY_PREP_PROFILES: CompanyPrepProfile[] = [
     ],
     casePractice: { title: '零食渠道资源排序', prompt: '新品首发有商超、电商、便利店、校园和内容达人五个渠道，但库存只能支持三个。每个渠道在覆盖、毛利、回款和品牌建设上各有优劣。', deliverable: '建立评价标准，选出三个渠道并给出库存、预算和风险预案。', timebox: '个人阅读8分钟 · 小组讨论35分钟 · 汇报3分钟' },
     officialUrl: 'https://careers.mars.com/global/en/students-graduates',
-    experienceUrl: 'https://www.nowcoder.com/discuss/353156614721052672',
+    experienceUrl: 'https://www.nowcoder.com/discuss/385916463184457728',
     sourceNote: commonBoundary,
   },
   {
@@ -175,7 +175,7 @@ export const COMPANY_PREP_PROFILES: CompanyPrepProfile[] = [
     ],
     casePractice: { title: '金融机构客户体验改造', prompt: '一家银行希望通过AI客服降低成本，但投诉集中在复杂业务无法解决、隐私担忧和转人工困难。', deliverable: '提出目标、用户分层、流程改造、技术边界与衡量指标。', timebox: '准备20分钟 · 陈述6分钟 · 追问10分钟' },
     officialUrl: 'https://www.ey.com/en_cn/careers/student-programs-in-chinese-mainland',
-    experienceUrl: 'https://www.nowcoder.com/interview/center',
+    experienceUrl: 'https://www.nowcoder.com/discuss/412273907049267200',
     sourceNote: commonBoundary,
   },
   {

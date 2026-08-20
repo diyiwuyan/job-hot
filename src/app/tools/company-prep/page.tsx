@@ -36,8 +36,8 @@ export default function CompanyPrepPage() {
 
   return <div className={`page ${styles.page}`}>
     <section className={styles.hero}>
-      <div><p>JOBHOT COMPANY PREP</p><h1>按企业准备，不再到处翻零散面经</h1><span>先了解流程和考察结构，再练笔试、行为面试与商业案例。企业招聘会随岗位和批次变化，以下内容用于形成准备框架，不冒充内部真题。</span><div><Link href="/tools/exam" className="btn">去企业笔试题库</Link><Link href="/tools/interview" className="btn btn-secondary">去通用面试题库</Link></div></div>
-      <aside><div><strong>{COMPANY_EXAM_SETS.length}</strong><span>企业笔试方向</span></div><div><strong>{writtenQuestionCount}</strong><span>企业模拟笔试题</span></div><div><strong>{COMPANY_INTERVIEW_QUESTION_COUNT}</strong><span>企业面试练习</span></div><div><strong>{COMPANY_PREP_PROFILES.length}</strong><span>完整企业档案</span></div></aside>
+      <div><p>JOBHOT COMPANY PREP</p><h1>企业差异，建立在岗位准备之上</h1><span>先按岗位打基础，再核对企业官方流程与公开面经。页面内的练习题和案例均为原创能力训练，不会标成企业历年真题。</span><div><Link href="/tools/role-prep" className="btn">先选岗位方向</Link><Link href="/tools/exam" className="btn btn-secondary">去笔试练习</Link><Link href="/tools/interview" className="btn btn-secondary">去面试练习</Link></div></div>
+      <aside><div><strong>{COMPANY_EXAM_SETS.length}</strong><span>企业能力练习方向</span></div><div><strong>{writtenQuestionCount}</strong><span>原创笔试练习题</span></div><div><strong>{COMPANY_INTERVIEW_QUESTION_COUNT}</strong><span>原创面试练习</span></div><div><strong>{COMPANY_PREP_PROFILES.length}</strong><span>完整企业档案</span></div></aside>
     </section>
 
     <section className={styles.filters}>

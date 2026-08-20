@@ -1,0 +1,20 @@
+.panel { padding: 1.15rem; border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--border)); border-radius: .9rem; background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 6%, var(--bg-card)), var(--bg-card)); }
+.head { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; }
+.head p { margin: 0; color: var(--accent); font: 700 .62rem var(--font-mono), monospace; letter-spacing: .12em; }
+.head h2 { margin: .3rem 0 .4rem; font-size: 1.05rem; }
+.head span { display: block; color: var(--text-muted); font-size: .67rem; line-height: 1.6; }
+.roles { display: flex; flex-wrap: wrap; gap: .4rem; margin: .9rem 0; }
+.roles a { padding: .3rem .55rem; border: 1px solid var(--accent); border-radius: 999px; color: var(--accent); background: var(--accent-muted); font-size: .64rem; text-decoration: none; }
+.empty { padding: .8rem; margin: .8rem 0; border: 1px dashed var(--border); border-radius: .65rem; color: var(--text-muted); background: var(--bg-elevated); font-size: .68rem; line-height: 1.6; }
+.sources { display: grid; gap: .45rem; }
+.source { padding: .72rem; border: 1px solid var(--border); border-radius: .65rem; background: var(--bg-elevated); }
+.source > div { display: flex; flex-wrap: wrap; gap: .3rem; }
+.source em, .source b { padding: .18rem .36rem; border-radius: 999px; font-size: .55rem; font-style: normal; }
+.source em { color: var(--success); background: color-mix(in srgb, var(--success) 10%, transparent); }
+.source b { color: var(--text-muted); background: var(--bg-card); font-weight: 500; }
+.source h3 { margin: .42rem 0 .25rem; font-size: .7rem; line-height: 1.45; }
+.source p { margin: 0; color: var(--text-muted); font-size: .62rem; line-height: 1.55; }
+.source a { display: inline-block; margin-top: .42rem; color: var(--accent); font-size: .6rem; }
+.actions { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .9rem; }
+.note { margin: .7rem 0 0; color: var(--text-muted); font-size: .58rem; line-height: 1.55; }
+@media (max-width: 600px) { .head { flex-direction: column; } }
