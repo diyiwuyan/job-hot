@@ -86,6 +86,7 @@ const navItems: NavItem[] = [
     ),
     children: [
       { href: '/tools/prep', label: '求职准备中心' },
+      { href: '/tools/company-prep', label: '企业备战库' },
       { href: '/tools/exam', label: '笔试题库' },
       { href: '/tools/interview', label: '面试与群面题库' },
       { href: 'https://ai-resume-9wy.pages.dev/', label: 'AI简历优化', external: true },

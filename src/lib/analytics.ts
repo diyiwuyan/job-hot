@@ -110,6 +110,7 @@ const MODULE_MAP: Record<string, string> = {
   '/tools/values': '职业价值观测评',
   '/tools/coaching': '求职辅导',
   '/tools/prep': '求职准备中心',
+  '/tools/company-prep': '企业备战库',
   '/tools/exam': '笔试题库',
   '/tools/interview': '面试与群面题库',
   '/tools': '职业服务',

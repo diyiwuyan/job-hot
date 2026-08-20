@@ -59,7 +59,7 @@ export default function InterviewPage() {
           <p>JOBHOT INTERVIEW LAB</p>
           <h1>面试题库与无领导小组</h1>
           <span>不是背“标准答案”，而是练习听懂考察意图、组织真实证据，并在追问中保持一致。</span>
-          <div className={styles.heroActions}><button type="button" className="btn" onClick={() => { setTab('questions'); window.setTimeout(pickRandom, 0); }}>随机抽一道题</button><Link href="/tools/exam" className="btn btn-secondary">去笔试题库</Link></div>
+          <div className={styles.heroActions}><button type="button" className="btn" onClick={() => { setTab('questions'); window.setTimeout(pickRandom, 0); }}>随机抽一道题</button><Link href="/tools/company-prep" className="btn btn-secondary">按企业准备</Link><Link href="/tools/exam" className="btn btn-secondary">去笔试题库</Link></div>
         </div>
         <div className={styles.heroStats}><div><strong>{INTERVIEW_QUESTIONS.length}</strong><span>原创单面题</span></div><div><strong>{GROUP_CASES.length}</strong><span>群面案例</span></div><div><strong>5</strong><span>岗位题型</span></div></div>
       </section>

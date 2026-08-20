@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { EXAM_SETS } from '@/lib/exam-data';
 import { COMPANY_EXAM_SETS } from '@/lib/company-exam-data';
 import { GROUP_CASES, INTERVIEW_QUESTIONS } from '@/lib/interview-data';
+import { COMPANY_INTERVIEW_QUESTION_COUNT, COMPANY_PREP_PROFILES } from '@/lib/company-prep-data';
 
 export const metadata: Metadata = {
   title: '职业工具 - JOBHOT',
@@ -83,6 +84,13 @@ export default function ToolsPage() {
           <h2 style={{ fontSize:'1.1rem', fontWeight:700, marginBottom:'.5rem', color:'var(--text)' }}>面试与群面题库</h2>
           <p style={{ fontSize:'.85rem', color:'var(--text-muted)', lineHeight:1.7, margin:0 }}>按岗位和企业方向筛选单面题，练习经历深挖、业务问题、技术问题和无领导小组案例。</p>
           <div className="timeline-tags" style={{ marginTop:'.75rem' }}><span className="tag">回答框架</span><span className="tag">继续追问</span><span className="tag">群面时间线</span></div>
+        </Link>
+
+        <Link href="/tools/company-prep" className="timeline-card timeline-card-featured" style={{ display:'block', textDecoration:'none', padding:'1.5rem' }}>
+          <div style={{ fontSize:'2rem', marginBottom:'.75rem' }}>🏢</div>
+          <h2 style={{ fontSize:'1.1rem', fontWeight:700, marginBottom:'.5rem', color:'var(--text)' }}>企业备战库</h2>
+          <p style={{ fontSize:'.85rem', color:'var(--text-muted)', lineHeight:1.7, margin:0 }}>按企业查看招聘流程、笔试重点、行为面试、商业案例和公开面经高频考察点。</p>
+          <div className="timeline-tags" style={{ marginTop:'.75rem' }}><span className="tag">{COMPANY_PREP_PROFILES.length}家企业档案</span><span className="tag">{COMPANY_INTERVIEW_QUESTION_COUNT}道企业面试题</span><span className="tag">来源可查</span></div>
         </Link>
       </div>
     </div>

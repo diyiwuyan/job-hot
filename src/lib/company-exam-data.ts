@@ -1,8 +1,9 @@
 import type { ExamSet } from './exam-data';
+import { ADDITIONAL_COMPANY_EXAM_SETS } from './company-exam-expanded-data';
 
 const commonSourceNote = '根据企业官网公开招聘流程、公开求职经验与通用能力测评形式整理的原创模拟题，并非企业历年原题；实际范围以当次笔试邀约为准。';
 
-export const COMPANY_EXAM_SETS: ExamSet[] = [
+const BASE_COMPANY_EXAM_SETS: ExamSet[] = [
   {
     id: 'company-bytedance',
     title: '字节跳动方向',
@@ -232,3 +233,5 @@ export const COMPANY_EXAM_SETS: ExamSet[] = [
     ],
   },
 ];
+
+export const COMPANY_EXAM_SETS: ExamSet[] = [...BASE_COMPANY_EXAM_SETS, ...ADDITIONAL_COMPANY_EXAM_SETS];
