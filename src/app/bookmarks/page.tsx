@@ -23,8 +23,8 @@ export default function BookmarksPage() {
   useEffect(() => {
     if (authLoading) return;
     if (!user || !supabase) {
-      setLoading(false);
-      return;
+      const timer = window.setTimeout(() => setLoading(false), 0);
+      return () => window.clearTimeout(timer);
     }
 
     async function fetchBookmarks() {
@@ -128,6 +128,13 @@ export default function BookmarksPage() {
                 <span>{new Date(bm.created_at).toLocaleDateString('zh-CN')}</span>
               </div>
             </div>
+            <Link
+              href={`/workspace?${new URLSearchParams({ job_title: bm.title || '', source_url: bm.url || '' }).toString()}`}
+              className="btn btn-secondary btn-sm"
+              style={{ flex: '0 0 auto', whiteSpace: 'nowrap' }}
+            >
+              管理投递
+            </Link>
             <button
               type="button"
               className="sidebar-logout"

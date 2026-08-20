@@ -79,10 +79,10 @@ const journeys = [
   {
     step: '04',
     icon: '↗',
-    title: '复盘我的进展',
-    desc: '我做过测评或已经开始求职，想汇总结果并确定下一步。',
-    href: '/tools/assessment/profile',
-    action: '查看综合职业画像',
+    title: '管理求职进展',
+    desc: '我已经开始行动，想统一管理材料、投递、练习和下一步。',
+    href: '/workspace',
+    action: '打开我的求职工作台',
     color: '#22c55e',
   },
 ];

@@ -103,16 +103,29 @@ function ItemContent() {
   const [item, setItem] = useState<FeedItem | null>(null);
   const [state, setState] = useState<'loading' | 'ok' | 'notfound'>('loading');
 
+  function workspaceHref(current: FeedItem) {
+    const parts = current.title.split(/\s+[—–-]\s+/, 2);
+    const params = new URLSearchParams({
+      company: parts.length > 1 ? parts[0] : '',
+      job_title: parts.length > 1 ? parts[1] : current.title,
+      source_url: current.url || '',
+    });
+    if (current.deadline && /^\d{4}-\d{2}-\d{2}/.test(current.deadline)) params.set('deadline', current.deadline.slice(0, 10));
+    return `/workspace?${params.toString()}`;
+  }
+
   useEffect(() => {
     let cancelled = false;
-    if (!id) { setState('notfound'); return; }
-    setState('loading');
-    findItemById(id).then(found => {
-      if (cancelled) return;
-      if (found) { setItem(found); setState('ok'); }
-      else setState('notfound');
-    });
-    return () => { cancelled = true; };
+    const timer = window.setTimeout(() => {
+      if (!id) { setState('notfound'); return; }
+      setState('loading');
+      findItemById(id).then(found => {
+        if (cancelled) return;
+        if (found) { setItem(found); setState('ok'); }
+        else setState('notfound');
+      });
+    }, 0);
+    return () => { cancelled = true; window.clearTimeout(timer); };
   }, [id]);
 
   return (
@@ -189,6 +202,10 @@ function ItemContent() {
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                   查看原岗位详情
                 </a>
+                <Link href={workspaceHref(item)} className="item-origin-btn">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M8 4V2m8 2V2M3 9h18"/><path d="m8 14 2 2 5-5"/></svg>
+                  加入投递管理
+                </Link>
               </div>
             )}
 

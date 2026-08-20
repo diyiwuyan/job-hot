@@ -116,6 +116,7 @@ const MODULE_MAP: Record<string, string> = {
   '/nav': '常用网址',
   '/shame': '校招避雷',
   '/bookmarks': '我的收藏',
+  '/workspace': '我的求职工作台',
   '/subscription': '订阅推送',
   '/about': '关于',
   '/login': '登录',

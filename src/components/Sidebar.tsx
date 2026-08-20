@@ -50,6 +50,17 @@ const navItems: NavItem[] = [
     ],
   },
   {
+    href: '/workspace',
+    label: '我的求职工作台',
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <rect x="3" y="4" width="18" height="16" rx="2" />
+        <path d="M8 4V2m8 2V2M3 9h18" />
+        <path d="m8 14 2 2 5-5" />
+      </svg>
+    ),
+  },
+  {
     href: '/tools/assessment',
     label: '职业方向',
     icon: (
