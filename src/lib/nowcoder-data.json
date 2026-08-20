@@ -1,5 +1,27 @@
 [
   {
+    "id": "nowcoder-150320",
+    "title": "大普微电子 — 27届校招 今日收录",
+    "summary": "招聘批次：27届校招 今日收录。工作地点：南京、无锡、苏州、深圳、成都、北京。招聘岗位：客服、测试、市场/营销、人工智能/算法、产品等。",
+    "url": "https://app.mokahr.com/campus-recruitment/dapustor/54046#/jobs?page=1&anchorName=jobsList",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "南京、无锡、苏州、深圳、成都、北京",
+    "deadline": "2027/06/29",
+    "tags": [
+      "大普微电子",
+      "校招",
+      "南京",
+      "无锡",
+      "苏州"
+    ],
+    "score": 88,
+    "featured": true,
+    "createdAt": "2026-08-20T10:00:33.000Z"
+  },
+  {
     "id": "nowcoder-7022",
     "title": "芯原股份 — 27届秋招",
     "summary": "芯片设计服务龙头企业，中国半导体IP第一股，于2020年8月18日在科创板上市。。招聘批次：27届秋招。工作地点：南京、广州、海口、成都、上海。招聘岗位：后端开发、测试、技术支持、硬件工程师、电子/半导体等。",
@@ -260,8 +282,8 @@
       "游戏",
       "上海"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-08-12T09:42:04.000Z"
   },
   {
