@@ -44,7 +44,7 @@ const navItems: NavItem[] = [
       { href: '/all', label: '全部招聘信息' },
       { href: '/nav', label: '求职网站导航' },
       { href: '/shame', label: '校招避雷' },
-      { href: '/subscription', label: '岗位订阅' },
+      { href: '/subscription', label: '每日岗位推荐' },
       { href: '/bookmarks', label: '已收藏岗位' },
     ],
   },

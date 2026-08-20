@@ -48,9 +48,9 @@ interface Subscription {
   is_active: boolean;
 }
 
-interface UserEmail {
-  id: string;
-  email: string;
+interface MatchResult {
+  reasons: string[];
+  score: number;
 }
 
 // ─── Config ──────────────────────────────────────────────────
@@ -90,7 +90,7 @@ async function supabaseGet<T>(table: string, query: string = ''): Promise<T[]> {
   return resp.json();
 }
 
-async function supabasePost(table: string, data: any[], upsert = false): Promise<boolean> {
+async function supabasePost(table: string, data: Array<Record<string, unknown>>, upsert = false): Promise<boolean> {
   const url = `${SUPABASE_URL}/rest/v1/${table}`;
   const headers: Record<string, string> = {
     'apikey': SUPABASE_SERVICE_KEY,
@@ -135,11 +135,14 @@ function loadFeedItems(): FeedItem[] {
 }
 
 // ─── Match logic ─────────────────────────────────────────────
-function matchItem(item: FeedItem, sub: Subscription): string[] {
+function matchItem(item: FeedItem, sub: Subscription): MatchResult | null {
   const matchedKeywords: string[] = [];
+  const reasons: string[] = [];
+  let score = 10;
 
   // Keyword matching (against title, summary, tags, source)
   const searchText = [item.title, item.summary, ...item.tags, item.source, item.location || ''].join(' ').toLowerCase();
+  const titleText = item.title.toLowerCase();
 
   for (const kw of sub.keywords) {
     if (searchText.includes(kw.toLowerCase())) {
@@ -149,29 +152,51 @@ function matchItem(item: FeedItem, sub: Subscription): string[] {
 
   // If keywords are set but none matched, skip
   if (sub.keywords.length > 0 && matchedKeywords.length === 0) {
-    return [];
+    return null;
+  }
+  if (matchedKeywords.length > 0) {
+    const titleHits = matchedKeywords.filter((keyword) => titleText.includes(keyword.toLowerCase())).length;
+    score += Math.min(50, 25 + matchedKeywords.length * 8 + titleHits * 5);
+    reasons.push(...matchedKeywords.slice(0, 4));
   }
 
   // Category filter
   if (sub.categories.length > 0 && !sub.categories.includes(item.category)) {
-    return [];
+    return null;
+  }
+  if (sub.categories.includes(item.category)) {
+    score += 10;
+    reasons.push('行业匹配');
   }
 
   // Company type filter
   if (sub.company_types.length > 0 && item.companyType && !sub.company_types.includes(item.companyType)) {
-    return [];
+    return null;
+  }
+  if (item.companyType && sub.company_types.includes(item.companyType)) {
+    score += 10;
+    reasons.push('企业类型匹配');
   }
 
   // Channel filter
   if (sub.channels.length > 0 && !sub.channels.includes(item.channel)) {
-    return [];
+    return null;
+  }
+  if (sub.channels.includes(item.channel)) {
+    score += 10;
+    reasons.push(item.channel === 'intern' ? '实习' : item.channel === 'campus' ? '校招' : item.channel);
   }
 
   // City filter
   if (sub.cities.length > 0 && item.location) {
     const locationLower = item.location.toLowerCase();
     const cityMatch = sub.cities.some(city => locationLower.includes(city.toLowerCase()));
-    if (!cityMatch) return [];
+    if (!cityMatch) return null;
+    const matchedCity = sub.cities.find((city) => locationLower.includes(city.toLowerCase()));
+    if (matchedCity) {
+      score += 10;
+      reasons.push(matchedCity);
+    }
   }
 
   // If no keywords set but filters match, still count it
@@ -181,10 +206,17 @@ function matchItem(item: FeedItem, sub: Subscription): string[] {
       sub.company_types.length === 0 &&
       sub.channels.length === 0 &&
       sub.cities.length === 0) {
-    return []; // No criteria set at all
+    return null; // No criteria set at all
   }
 
-  return matchedKeywords.length > 0 ? matchedKeywords : ['筛选匹配'];
+  const ageHours = Math.max(0, (Date.now() - new Date(item.createdAt).getTime()) / 3600000);
+  score += ageHours <= 24 ? 10 : 5;
+  if (ageHours <= 24) reasons.push('24小时内更新');
+
+  return {
+    reasons: reasons.length > 0 ? Array.from(new Set(reasons)).slice(0, 6) : ['方向筛选匹配'],
+    score: Math.min(100, score),
+  };
 }
 
 // ─── Extract company name from title ─────────────────────────
@@ -225,23 +257,25 @@ async function main() {
     'subscriptions',
     'is_active=eq.true&select=*'
   );
-  console.log(`Active subscriptions: ${subscriptions.length}`);
+  const beijingWeekday = new Intl.DateTimeFormat('en-US', { timeZone: 'Asia/Shanghai', weekday: 'short' }).format(new Date());
+  const eligibleSubscriptions = subscriptions.filter((subscription) => subscription.push_frequency !== 'weekly' || beijingWeekday === 'Mon');
+  console.log(`Active subscriptions: ${subscriptions.length}; eligible this run: ${eligibleSubscriptions.length}`);
 
-  if (subscriptions.length === 0) {
-    console.log('No active subscriptions. Done.');
+  if (eligibleSubscriptions.length === 0) {
+    console.log('No subscriptions scheduled for this run. Done.');
     return;
   }
 
   // 3. Match each subscription against recent items
   let totalMatches = 0;
-  const allNewMatches: any[] = [];
+  const allNewMatches: Array<Record<string, unknown>> = [];
 
-  for (const sub of subscriptions) {
-    const subMatches: any[] = [];
+  for (const sub of eligibleSubscriptions) {
+    const subMatches: Array<Record<string, unknown>> = [];
 
     for (const item of recentItems) {
-      const matchedKeywords = matchItem(item, sub);
-      if (matchedKeywords.length > 0) {
+      const match = matchItem(item, sub);
+      if (match) {
         subMatches.push({
           user_id: sub.user_id,
           feed_item_id: item.id,
@@ -253,8 +287,8 @@ async function main() {
           deadline: item.deadline || null,
           channel: item.channel,
           category: item.category,
-          score: item.score,
-          matched_keywords: matchedKeywords,
+          score: match.score,
+          matched_keywords: match.reasons,
           is_read: false,
           is_pushed: false,
         });

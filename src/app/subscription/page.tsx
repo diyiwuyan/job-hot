@@ -53,7 +53,8 @@ export default function SubscriptionPage() {
 
   // Sync local config when remote config loads
   useEffect(() => {
-    setLocalConfig(config);
+    const timer = window.setTimeout(() => setLocalConfig(config), 0);
+    return () => window.clearTimeout(timer);
   }, [config]);
 
   // ─── 未登录 ─────────────────────────────────────────────
@@ -65,9 +66,9 @@ export default function SubscriptionPage() {
             <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" />
             <path d="M13.73 21a2 2 0 0 1-3.46 0" />
           </svg>
-          <h2 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.5rem' }}>订阅推送</h2>
+          <h2 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.5rem' }}>每日岗位推荐</h2>
           <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)', marginBottom: '1.25rem', lineHeight: 1.6 }}>
-            设置关键词和筛选条件，JOBHOT 会自动帮你监控最新职位信息，通过邮件推送到你的邮箱。登录后即可使用。
+            设置岗位关键词、城市和企业偏好，JOBHOT 会自动匹配最新机会并更新到你的个人工作台。登录后即可使用。
           </p>
           <Link href="/login" className="btn" style={{ display: 'inline-flex', justifyContent: 'center' }}>
             去登录
@@ -130,9 +131,9 @@ export default function SubscriptionPage() {
     <div className="page">
       {/* 头部 */}
       <div style={{ marginBottom: '1.25rem' }}>
-        <h1 style={{ fontSize: '1.25rem', fontWeight: 700 }}>订阅推送</h1>
+        <h1 style={{ fontSize: '1.25rem', fontWeight: 700 }}>我的机会</h1>
         <p style={{ fontSize: '0.8125rem', color: 'var(--text-muted)', marginTop: '0.25rem' }}>
-          设置关键词和条件，新职位自动推送到你的注册邮箱
+          维护一次求职方向，系统每天匹配新岗位并同步到个人工作台
         </p>
       </div>
 
@@ -143,14 +144,14 @@ export default function SubscriptionPage() {
           className={`seg-item${tab === 'inbox' ? ' seg-item-active' : ''}`}
           onClick={() => setTab('inbox')}
         >
-          推送收件箱{unreadCount > 0 ? ` (${unreadCount})` : ''}
+          推荐机会{unreadCount > 0 ? ` (${unreadCount})` : ''}
         </button>
         <button
           type="button"
           className={`seg-item${tab === 'settings' ? ' seg-item-active' : ''}`}
           onClick={() => setTab('settings')}
         >
-          订阅设置
+          我的求职方向
         </button>
       </div>
 
@@ -166,7 +167,7 @@ export default function SubscriptionPage() {
               <p style={{ fontSize: '0.9375rem', fontWeight: 500, marginBottom: '0.25rem' }}>收件箱为空</p>
               <p style={{ fontSize: '0.8125rem', color: 'var(--text-muted)', lineHeight: 1.6 }}>
                 {config.keywords.length === 0
-                  ? '请先在「订阅设置」中添加关键词，新匹配的职位会出现在这里。'
+                  ? '请先在「我的求职方向」中添加关键词，新匹配的职位会出现在这里。'
                   : '暂无新的匹配结果。系统每天会自动扫描最新数据并推送。'}
               </p>
             </div>
@@ -175,7 +176,7 @@ export default function SubscriptionPage() {
               {unreadCount > 0 && (
                 <div style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: '0.75rem' }}>
                   <button type="button" className="btn btn-secondary" style={{ fontSize: '0.75rem', padding: '0.25rem 0.75rem' }} onClick={markAllRead}>
-                    全部已读
+                    全部归档
                   </button>
                 </div>
               )}
@@ -195,9 +196,9 @@ export default function SubscriptionPage() {
           {/* 启用/停用 */}
           <div className="timeline-card" style={{ padding: '1rem 1.25rem', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
             <div>
-              <span style={{ fontWeight: 500, fontSize: '0.9375rem' }}>启用推送</span>
+              <span style={{ fontWeight: 500, fontSize: '0.9375rem' }}>启用自动推荐</span>
               <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '0.125rem' }}>
-                开启后系统会自动监控并推送匹配的新职位
+                开启后系统会定时匹配新职位并更新到工作台
               </p>
             </div>
             <button
@@ -220,8 +221,8 @@ export default function SubscriptionPage() {
           {/* 关键词 */}
           <div className="timeline-card" style={{ padding: '1rem 1.25rem' }}>
             <h3 style={{ fontSize: '0.9375rem', fontWeight: 600, marginBottom: '0.5rem' }}>
-              关键词
-              <span style={{ fontWeight: 400, fontSize: '0.75rem', color: 'var(--text-muted)', marginLeft: '0.5rem' }}>公司名、岗位名、技术栈等</span>
+              求职关键词
+              <span style={{ fontWeight: 400, fontSize: '0.75rem', color: 'var(--text-muted)', marginLeft: '0.5rem' }}>建议填写 3—8 个岗位名、公司名或技术栈</span>
             </h3>
             <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '0.5rem' }}>
               <input
@@ -374,23 +375,23 @@ export default function SubscriptionPage() {
             <p style={{ fontSize: '0.6875rem', color: 'var(--text-muted)', marginTop: '0.375rem' }}>不选则不限城市</p>
           </div>
 
-          {/* 推送频率 */}
+          {/* 推荐频率 */}
           <div className="timeline-card" style={{ padding: '1rem 1.25rem' }}>
-            <h3 style={{ fontSize: '0.9375rem', fontWeight: 600, marginBottom: '0.5rem' }}>推送频率</h3>
+            <h3 style={{ fontSize: '0.9375rem', fontWeight: 600, marginBottom: '0.5rem' }}>推荐更新频率</h3>
             <div className="segmented" style={{ maxWidth: '280px' }}>
               <button
                 type="button"
                 className={`seg-item${localConfig.pushFrequency === 'daily' ? ' seg-item-active' : ''}`}
                 onClick={() => setLocalConfig((p) => ({ ...p, pushFrequency: 'daily' }))}
               >
-                每日推送
+                每日更新
               </button>
               <button
                 type="button"
                 className={`seg-item${localConfig.pushFrequency === 'weekly' ? ' seg-item-active' : ''}`}
                 onClick={() => setLocalConfig((p) => ({ ...p, pushFrequency: 'weekly' }))}
               >
-                每周推送
+                每周精选
               </button>
             </div>
           </div>
@@ -410,9 +411,10 @@ export default function SubscriptionPage() {
           {/* 说明 */}
           <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', lineHeight: 1.8, padding: '0.75rem 0' }}>
             <p>
-              订阅推送会根据你设置的关键词和筛选条件，在每天的新数据中自动匹配，将符合条件的职位信息汇总后发送到你的注册邮箱（{user?.email}）。
-              匹配到的结果也会出现在上方的「推送收件箱」中。
+              系统会根据你设置的关键词和筛选条件，在新增岗位中自动匹配。结果会出现在个人工作台的“每日岗位推荐”和上方的“推荐机会”中。
+              你可以把合适的岗位加入投递管理；系统不会替你自动投递，也不会未经确认把岗位加入投递看板。
             </p>
+            <Link href="/workspace" style={{ color: 'var(--accent)' }}>返回我的求职工作台 →</Link>
           </div>
         </div>
       )}
@@ -456,11 +458,12 @@ function MatchCard({ match, onRead }: { match: SubscriptionMatch; onRead: () => 
               ))}
             </div>
           )}
+          {match.score > 0 && <div style={{ marginTop: '0.375rem', color: 'var(--accent)', fontSize: '0.6875rem' }}>推荐度 {Math.min(100, Math.max(0, match.score))}</div>}
         </div>
         {!match.isRead && (
           <button
             type="button"
-            title="标为已读"
+            title="归档这条推荐"
             onClick={onRead}
             style={{ background: 'none', border: 'none', cursor: 'pointer', padding: '0.25rem', color: 'var(--text-muted)' }}
           >

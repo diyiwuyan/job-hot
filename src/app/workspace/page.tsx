@@ -7,6 +7,7 @@ import { ResumeOptimizer } from '@/components/ResumeOptimizer';
 import { supabase } from '@/lib/supabase';
 import { EXAM_SETS } from '@/lib/exam-data';
 import { COMPANY_EXAM_SETS } from '@/lib/company-exam-data';
+import { useSubscription, type SubscriptionMatch } from '@/hooks/useSubscription';
 import styles from './Workspace.module.css';
 
 type WorkspaceTab = 'overview' | 'applications' | 'documents' | 'resume' | 'practice';
@@ -151,8 +152,22 @@ function isDueSoon(value: string | null) {
   return diff >= 0 && diff <= 7;
 }
 
+function recommendationIdentity(match: SubscriptionMatch) {
+  const parts = match.title.split(' — ').map((part) => part.trim()).filter(Boolean);
+  return {
+    company: (match.companyName || parts[0] || '待确认企业').slice(0, 120),
+    jobTitle: (parts.length > 1 ? parts.slice(1).join(' — ') : match.title).slice(0, 160),
+  };
+}
+
 export default function WorkspacePage() {
   const { user, loading: authLoading } = useAuth();
+  const {
+    config: opportunityConfig,
+    matches: opportunityMatches,
+    loading: opportunityLoading,
+    markRead: archiveRecommendation,
+  } = useSubscription();
   const [tab, setTab] = useState<WorkspaceTab>('overview');
   const [applications, setApplications] = useState<JobApplication[]>([]);
   const [documents, setDocuments] = useState<CareerDocument[]>([]);
@@ -242,6 +257,15 @@ export default function WorkspacePage() {
     const exams = examResults.filter((item) => new Date(item.created_at).getTime() >= RECENT_PRACTICE_START).length;
     return manual + exams;
   }, [examResults, practices]);
+  const recommendedMatches = useMemo(
+    () => opportunityMatches.filter((item) => !item.isRead).slice(0, 6),
+    [opportunityMatches]
+  );
+  const directionConfigured = opportunityConfig.keywords.length > 0
+    || opportunityConfig.categories.length > 0
+    || opportunityConfig.companyTypes.length > 0
+    || opportunityConfig.cities.length > 0
+    || opportunityConfig.channels.length > 0;
 
   const nextStep = useMemo(() => {
     if (!documents.some((item) => item.kind === 'resume')) {
@@ -303,6 +327,45 @@ export default function WorkspacePage() {
     setApplicationForm(emptyApplication);
     setEditingApplicationId(null);
     showNotice('success', editingApplicationId ? '投递信息已更新。' : '已加入投递看板。');
+  }
+
+  async function addRecommendedOpportunity(match: SubscriptionMatch) {
+    if (!supabase || !user || !schemaReady) return;
+    if (applications.some((item) => item.source_url === match.url)) {
+      await archiveRecommendation(match.id);
+      showNotice('success', '这个岗位已经在你的投递管理中。');
+      return;
+    }
+
+    const { company, jobTitle } = recommendationIdentity(match);
+    const deadline = /^\d{4}-\d{2}-\d{2}/.test(match.deadline) ? match.deadline.slice(0, 10) : null;
+    setSaving(true);
+    const { data, error } = await supabase.from('job_applications').insert({
+      user_id: user.id,
+      company,
+      job_title: jobTitle,
+      source_url: match.url,
+      status: 'saved',
+      deadline,
+      next_action: '核对岗位要求，决定是否正式投递',
+      next_action_at: null,
+      notes: `来自每日岗位推荐。匹配线索：${match.matchedKeywords.join('、') || '求职方向筛选'}。`,
+      updated_at: new Date().toISOString(),
+    }).select().single();
+    setSaving(false);
+
+    if (error || !data) {
+      showNotice('error', '加入投递管理失败，请稍后再试。');
+      return;
+    }
+    setApplications((current) => [data as JobApplication, ...current]);
+    await archiveRecommendation(match.id);
+    showNotice('success', `已把“${company} · ${jobTitle}”加入投递管理。`);
+  }
+
+  async function dismissRecommendation(match: SubscriptionMatch) {
+    await archiveRecommendation(match.id);
+    showNotice('success', '已移出今日推荐，你仍可在“我的机会”中查看历史记录。');
   }
 
   function editApplication(item: JobApplication) {
@@ -547,6 +610,58 @@ export default function WorkspacePage() {
           <section className={styles.nextStep}>
             <div><p>{nextStep.eyebrow}</p><h2>{nextStep.title}</h2><span>{nextStep.desc}</span></div>
             <button type="button" className="btn" onClick={() => openTab(nextStep.tab)}>{nextStep.action} →</button>
+          </section>
+
+          <section className={styles.recommendationPanel}>
+            <div className={styles.recommendationHeading}>
+              <div>
+                <p className={styles.eyebrow}>DAILY OPPORTUNITIES</p>
+                <h2>每日岗位推荐</h2>
+                <span>系统根据你的岗位关键词、城市、行业和企业偏好更新；你决定哪些机会真正进入投递流程。</span>
+              </div>
+              <Link href="/subscription">管理我的求职方向 →</Link>
+            </div>
+
+            {!directionConfigured ? (
+              <div className={styles.recommendationSetup}>
+                <div><strong>先告诉我们你想找什么</strong><p>建议填写 3—8 个岗位、公司或技能关键词，再选择目标城市和求职类型。设置一次，之后自动更新。</p></div>
+                <Link href="/subscription" className="btn">设置求职方向 →</Link>
+              </div>
+            ) : opportunityLoading ? (
+              <div className={styles.recommendationEmpty}>正在整理与你方向匹配的新机会…</div>
+            ) : recommendedMatches.length ? (
+              <div className={styles.recommendationList}>
+                {recommendedMatches.map((match) => {
+                  const identity = recommendationIdentity(match);
+                  const matchScore = Math.max(0, Math.min(100, match.score));
+                  return <article key={match.id} className={styles.recommendationCard}>
+                    <div className={styles.recommendationTop}>
+                      <span>{match.source || '招聘信息源'} · {new Date(match.matchedAt).toLocaleDateString('zh-CN')}</span>
+                      {matchScore > 0 && <strong>推荐度 {matchScore}</strong>}
+                    </div>
+                    <h3>{identity.company}</h3>
+                    <p>{identity.jobTitle}</p>
+                    <div className={styles.recommendationMeta}>
+                      {match.location && <span>{match.location}</span>}
+                      {match.deadline && <span>截止 {match.deadline}</span>}
+                      {match.channel && <span>{match.channel === 'intern' ? '实习' : match.channel === 'campus' ? '校招' : match.channel}</span>}
+                    </div>
+                    <div className={styles.matchReasons}>{match.matchedKeywords.slice(0, 4).map((reason) => <span key={reason}>{reason}</span>)}</div>
+                    <div className={styles.recommendationActions}>
+                      <a href={match.url} target="_blank" rel="noopener noreferrer">查看岗位 ↗</a>
+                      <button type="button" disabled={saving || !schemaReady} onClick={() => addRecommendedOpportunity(match)}>加入投递管理</button>
+                      <button type="button" onClick={() => dismissRecommendation(match)}>暂不考虑</button>
+                    </div>
+                  </article>;
+                })}
+              </div>
+            ) : (
+              <div className={styles.recommendationEmpty}><strong>今天暂时没有新的匹配机会</strong><span>系统会继续扫描最新岗位；也可以调整关键词，避免条件过窄。</span><Link href="/subscription">检查求职方向 →</Link></div>
+            )}
+            <div className={styles.recommendationFooter}>
+              <span>{opportunityConfig.pushFrequency === 'weekly' ? '每周一汇总更新' : '每日自动更新'} · 当前待查看 {recommendedMatches.length} 个</span>
+              <Link href="/subscription">查看全部推荐与历史记录</Link>
+            </div>
           </section>
 
           <div className={styles.overviewGrid}>
