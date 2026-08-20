@@ -863,6 +863,29 @@
     "createdAt": "2026-08-21T09:00:00.000Z"
   },
   {
+    "id": "guopin-214575647421367381",
+    "title": "三亚科城文化发展有限公司 — 智投-招商中台岗",
+    "summary": "企业性质：国企。行业：教育。工作地点：三亚-崖州区。薪资：7000-9000元/月。学历：本科。规模：50人以下。",
+    "url": "https://www.iguopin.com/job/detail?id=214575647421367381",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "三亚-崖州区",
+    "deadline": "2026/11/01",
+    "tags": [
+      "三亚科城文化发展有限公司",
+      "校招",
+      "国企",
+      "教育",
+      "三亚"
+    ],
+    "score": 85,
+    "featured": true,
+    "createdAt": "2026-08-20T14:57:20.000Z"
+  },
+  {
     "id": "guopin-214552391498859605",
     "title": "广州虹科电子科技有限公司 — AI工程师(J10104)",
     "summary": "企业性质：民营企业。行业：科学研究和技术服务业。工作地点：上海、苏州、广州。薪资面议。学历：本科。规模：100-300人。",
@@ -1475,6 +1498,31 @@
     "createdAt": "2026-08-20T00:00:00.000Z"
   },
   {
+    "id": "guopin-214579158607463506",
+    "title": "中建集成科技有限公司 — 中建八局海外公司2027届校招生",
+    "summary": "企业性质：国企。行业：建筑业。工作地点：海外、上海。薪资：15000-25000元/月。学历：本科。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=214579158607463506",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "海外、上海",
+    "deadline": "2026/11/17",
+    "tags": [
+      "中建集成科技有限公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "建筑业",
+      "海外",
+      "上海"
+    ],
+    "score": 82,
+    "featured": true,
+    "createdAt": "2026-08-20T00:00:00.000Z"
+  },
+  {
     "id": "guopin-214551070259545166",
     "title": "北自所（北京）科技发展股份有限公司 — 动画工程师",
     "summary": "企业性质：国企。行业：科技推广和应用服务业。工作地点：北京-西城区。薪资面议。学历：本科。规模：500-1000人。",
@@ -1767,6 +1815,30 @@
     "title": "天津先进技术研究院 — 青年骨干",
     "summary": "企业性质：其他。行业：软件和信息技术服务业。工作地点：长沙-开福区。薪资：25000-35000元/月。学历：博士。规模：100-300人。",
     "url": "https://www.iguopin.com/job/detail?id=214552338919064652",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "institution",
+    "location": "长沙-开福区",
+    "deadline": "2026/11/17",
+    "tags": [
+      "天津先进技术研究院",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "软件和信息技术服务业",
+      "长沙"
+    ],
+    "score": 76,
+    "featured": false,
+    "createdAt": "2026-08-20T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-214573222509675605",
+    "title": "天津先进技术研究院 — 博士后（计算机方向）",
+    "summary": "企业性质：其他。行业：软件和信息技术服务业。工作地点：长沙-开福区。薪资：25000-30000元/月。学历：博士。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=214573222509675605",
     "source": "国聘",
     "sourceHandle": "@guopin",
     "channel": "campus",
