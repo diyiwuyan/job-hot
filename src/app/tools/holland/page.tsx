@@ -3,7 +3,6 @@
 import { useEffect, useMemo, useState, type CSSProperties } from 'react';
 import Link from 'next/link';
 import { AssessmentCloudStatus, SavedAssessmentResultCard } from '@/components/AssessmentAccountResult';
-import { AssessmentRadar, ScoreBars, type AssessmentMetric } from '@/components/AssessmentRadar';
 import { AssessmentResultActions } from '@/components/AssessmentResultActions';
 import reportStyles from '@/components/AssessmentReport.module.css';
 import { useAssessmentResult } from '@/hooks/useAssessmentResult';
@@ -11,9 +10,13 @@ import { trackEvent } from '@/lib/analytics';
 import { captureAssessmentSource } from '@/lib/assessment-source';
 import {
   QUESTIONS,
+  FACET_INFO,
+  FACET_ORDER,
+  HOLLAND_ROLES,
   TYPE_INFO,
   TYPE_ORDER,
   SCALE_OPTIONS,
+  type HollandFacet,
   type HollandType,
 } from '@/lib/holland-data';
 
@@ -23,6 +26,40 @@ function calculateHollandScores(answerSet: Record<number, number>) {
   const result: Record<HollandType, number> = { R: 0, I: 0, A: 0, S: 0, E: 0, C: 0 };
   for (const question of QUESTIONS) result[question.type] += answerSet[question.id] || 0;
   return result;
+}
+
+function calculateHollandBreakdown(answerSet: Record<number, number>) {
+  const emptyScores = (): Record<HollandType, number> => ({ R: 0, I: 0, A: 0, S: 0, E: 0, C: 0 });
+  const result: Record<HollandFacet, Record<HollandType, number>> = {
+    interest: emptyScores(),
+    ability: emptyScores(),
+    feedback: emptyScores(),
+  };
+  for (const question of QUESTIONS) {
+    result[question.facet][question.type] += answerSet[question.id] || 0;
+  }
+  return result;
+}
+
+const FACET_MAX_SCORES = Object.fromEntries(
+  FACET_ORDER.map((facet) => [
+    facet,
+    QUESTIONS.filter((question) => question.facet === facet && question.type === 'R').length * 5,
+  ])
+) as Record<HollandFacet, number>;
+
+function recommendRoles(types: HollandType[]) {
+  const weights = [6, 3, 2];
+  return HOLLAND_ROLES.map((role, originalIndex) => {
+    const matchScore = role.types.reduce((total, type) => {
+      const typeIndex = types.indexOf(type);
+      return total + (typeIndex >= 0 ? weights[typeIndex] : 0);
+    }, role.types[0] === types[0] ? 1 : 0);
+    return { role, matchScore, originalIndex };
+  })
+    .sort((first, second) => second.matchScore - first.matchScore || first.originalIndex - second.originalIndex)
+    .slice(0, 6)
+    .map((item) => item.role);
 }
 
 function hollandCode(scoreSet: Record<HollandType, number>) {
@@ -41,6 +78,7 @@ export default function HollandPage() {
   const [stage, setStage] = useState<Stage>('intro');
   const [current, setCurrent] = useState(0);
   const [answers, setAnswers] = useState<Record<number, number>>({});
+  const [tableNotice, setTableNotice] = useState('');
   const accountResult = useAssessmentResult('holland');
 
   const total = QUESTIONS.length;
@@ -287,20 +325,58 @@ export default function HollandPage() {
   const secondary = TYPE_INFO[top3[1].type];
   const supporting = TYPE_INFO[top3[2].type];
   const topNames = top3.map((item) => TYPE_INFO[item.type].name).join('、');
-  const scoreGap = top3[0].score - top3[2].score;
-  const profileNote = scoreGap <= 3
-    ? '前三项分数很接近，说明你的兴趣线索比较多元。先保留多个方向，用真实任务体验来区分，不必急着选出唯一答案。'
-    : `${dominant.name}相对更突出，可以先从它对应的任务开始验证，再看${secondary.name}与${supporting.name}如何补充你的工作方式。`;
-  const profileAnalysis = `你可能更容易被“${dominant.workSignals}”的工作吸引；${secondary.name}让你同时在意“${secondary.workSignals}”；${supporting.name}则提供第三层偏好。这个组合描述的是你更愿意投入的任务与环境，不等于已经具备对应能力。`;
-  const metrics: AssessmentMetric[] = ranked.map((item) => ({
-    key: item.type,
-    label: `${item.type} · ${TYPE_INFO[item.type].name}`,
-    shortLabel: item.type,
-    score: item.score,
-    maxScore,
-    color: TYPE_INFO[item.type].color,
+  const topTypes = top3.map((item) => item.type);
+  const breakdown = calculateHollandBreakdown(answers);
+  const recommendedRoles = recommendRoles(topTypes);
+  const suggestedActivities = top3.flatMap((item) =>
+    TYPE_INFO[item.type].activities.slice(0, 2).map((activity) => ({ type: item.type, activity }))
+  );
+  const roleHighlights = recommendedRoles.slice(0, 3).map((role) => role.title).join('、');
+  const profileAnalysis = `${code} 代表你的前三项职业倾向：${dominant.name}、${secondary.name}和${supporting.name}。求职时可以优先了解 ${roleHighlights} 等方向，再用实习、项目和岗位信息验证。`;
+  const careerConclusion = `你可能更适合需要“${dominant.activities[0]}”，同时包含“${secondary.activities[0]}”和“${supporting.activities[0]}”的工作。先把这些方向当作探索清单，不必只凭一次测评决定职业。`;
+  const hollandAction = `从推荐岗位中选3个，分别查看日常任务、招聘要求和应届生入口，记录你愿意尝试和需要补齐的部分。`;
+
+  const scoreTableRows = FACET_ORDER.map((facet) => ({
+    facet,
+    label: `${FACET_INFO[facet].name}（${FACET_INFO[facet].shortName}）`,
+    scores: TYPE_ORDER.map((type) => breakdown[facet][type]),
+    maxScore: FACET_MAX_SCORES[facet],
   }));
-  const hollandAction = `从“${dominant.name}”相关方向中选3个真实岗位，分别查看日常任务、招聘要求和工作环境，记录哪些内容让你愿意继续了解。`;
+
+  function plainScoreTable(separator: string) {
+    const rows = [
+      ['维度', ...TYPE_ORDER.map((type) => `${type} ${TYPE_INFO[type].name}`)],
+      ...scoreTableRows.map((row) => [row.label, ...row.scores.map(String)]),
+      ['总分', ...TYPE_ORDER.map((type) => String(scores[type]))],
+    ];
+    return rows.map((row) => row.join(separator)).join('\n');
+  }
+
+  async function copyScoreTable() {
+    const content = `霍兰德代码：${code}\n${plainScoreTable('\t')}`;
+    try {
+      await navigator.clipboard.writeText(content);
+      setTableNotice('表格已复制');
+    } catch {
+      window.prompt('请复制下面的表格数据：', content);
+      setTableNotice('已打开复制窗口');
+    }
+    window.setTimeout(() => setTableNotice(''), 1800);
+  }
+
+  function downloadScoreTable() {
+    const csv = `\uFEFF霍兰德代码,${code}\n${plainScoreTable(',')}`;
+    const url = URL.createObjectURL(new Blob([csv], { type: 'text/csv;charset=utf-8' }));
+    const anchor = document.createElement('a');
+    anchor.href = url;
+    anchor.download = `霍兰德测评-${code}-兴趣能力反馈.csv`;
+    document.body.appendChild(anchor);
+    anchor.click();
+    anchor.remove();
+    window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+    setTableNotice('CSV 已下载');
+    window.setTimeout(() => setTableNotice(''), 1800);
+  }
   return (
     <div className="page">
       <div className={reportStyles.report}>
@@ -312,7 +388,7 @@ export default function HollandPage() {
             <span className={reportStyles.eyebrow}>Holland RIASEC · 测评报告</span>
             <h1>你的霍兰德代码：{code}</h1>
             <p className={reportStyles.heroLead}>{profileAnalysis}</p>
-            <span className={reportStyles.heroNote}>{profileNote}</span>
+            <span className={reportStyles.heroNote}>三个代码是职业探索起点，不是对能力或职业的最终判断。</span>
           </div>
           <div className={reportStyles.heroRanks} aria-label="前三项职业兴趣">
             {top3.map((item, index) => {
@@ -334,27 +410,57 @@ export default function HollandPage() {
 
         <section className={reportStyles.section}>
           <div className={reportStyles.sectionHeading}>
-            <div><h2>六维职业兴趣画像</h2><p>雷达图看整体形状，右侧排序看强弱。分数只用于你自己的六个维度之间比较。</p></div>
-            <span className={reportStyles.sectionNumber}>01 / OVERVIEW</span>
+            <div><h2>兴趣 · 能力 · 职业反馈统计表</h2><p>参考正式测评的结果结构，把48道题拆成三组统计；三行相加就是每个类型的总分。</p></div>
+            <span className={reportStyles.sectionNumber}>01 / DATA</span>
           </div>
-          <div className={reportStyles.overviewGrid}>
-            <AssessmentRadar metrics={metrics} title="霍兰德六维职业兴趣雷达图" />
-            <ScoreBars metrics={metrics} />
+          <div className={reportStyles.tableToolbar}>
+            <p>兴趣、能力各满分15分；职业反馈满分10分；每个类型总分40分。</p>
+            <div>
+              <button className="btn btn-secondary" type="button" onClick={copyScoreTable}>复制表格</button>
+              <button className="btn btn-secondary" type="button" onClick={downloadScoreTable}>下载 CSV</button>
+            </div>
           </div>
+          {tableNotice && <div className={reportStyles.tableNotice} role="status">{tableNotice}</div>}
+          <div className={reportStyles.scoreTableWrap}>
+            <table className={reportStyles.facetTable}>
+              <caption className={reportStyles.srOnly}>霍兰德兴趣、能力与职业反馈六维得分表</caption>
+              <thead>
+                <tr>
+                  <th scope="col">统计维度</th>
+                  {TYPE_ORDER.map((type) => (
+                    <th
+                      scope="col"
+                      key={type}
+                      className={topTypes.includes(type) ? reportStyles.tableTopType : undefined}
+                      style={{ '--type-color': TYPE_INFO[type].color } as CSSProperties}
+                    >
+                      <strong>{type}</strong>
+                      <small>{TYPE_INFO[type].name}</small>
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {scoreTableRows.map((row) => (
+                  <tr key={row.facet}>
+                    <th scope="row"><strong>{row.label}</strong><small>满分 {row.maxScore}</small></th>
+                    {row.scores.map((score, index) => <td key={TYPE_ORDER[index]}>{score}</td>)}
+                  </tr>
+                ))}
+                <tr className={reportStyles.totalRow}>
+                  <th scope="row"><strong>总分</strong><small>满分 {maxScore}</small></th>
+                  {TYPE_ORDER.map((type) => <td key={type}>{scores[type]}</td>)}
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className={reportStyles.tableFootnote}>手机端可左右滑动查看六列。分数用于比较你自己的六种倾向，不用于和别人比较；“能力”是自我感受，求职时还要用课程、项目、实习和作品验证。</p>
         </section>
-
-        <div
-          className={reportStyles.analysisBox}
-          style={{ '--analysis-color': dominant.color } as CSSProperties}
-        >
-          <span className={reportStyles.analysisMark}>读</span>
-          <div><h3>如何理解这组分数</h3><p>{profileNote} 高分表示偏好更强，不代表能力更高；低分也不表示你不能胜任相关工作。</p></div>
-        </div>
 
         <section className={reportStyles.section}>
           <div className={reportStyles.sectionHeading}>
-            <div><h2>你的前三类兴趣线索</h2><p>先看最突出的偏好，再理解它们分别对应怎样的任务、环境与投入方式。</p></div>
-            <span className={reportStyles.sectionNumber}>02 / TOP 3</span>
+            <div><h2>你的三个主要类型</h2><p>只保留最重要的三个代码，快速理解你更愿意投入什么样的任务。</p></div>
+            <span className={reportStyles.sectionNumber}>02 / CODE</span>
           </div>
           <div className={reportStyles.rankGrid}>
             {top3.map((item, index) => {
@@ -371,7 +477,8 @@ export default function HollandPage() {
                     <div><h3>{info.name}</h3><small>{info.alias}</small></div>
                   </div>
                   <p>{info.summary}</p>
-                  <div className={reportStyles.tagList}>{info.traits.map((trait) => <span key={trait}>{trait}</span>)}</div>
+                  <div className={reportStyles.cardLabel}>你可能更愿意做</div>
+                  <div className={reportStyles.tagList}>{info.activities.map((activity) => <span key={activity}>{activity}</span>)}</div>
                 </article>
               );
             })}
@@ -380,21 +487,22 @@ export default function HollandPage() {
 
         <section className={reportStyles.section}>
           <div className={reportStyles.sectionHeading}>
-            <div><h2>把代码带回真实岗位验证</h2><p>方向名称只能提供起点，真正有效的是检查你是否喜欢岗位里的日常任务与工作环境。</p></div>
-            <span className={reportStyles.sectionNumber}>03 / VERIFY</span>
+            <div><h2>适合优先了解的校招岗位</h2><p>根据 {code} 三个代码与岗位任务的重合度生成，先用于扩大和筛选求职方向。</p></div>
+            <span className={reportStyles.sectionNumber}>03 / JOBS</span>
           </div>
-          <div className={reportStyles.verificationList}>
-            {top3.map((item) => {
-              const info = TYPE_INFO[item.type];
+          <div className={reportStyles.recommendationGrid}>
+            {recommendedRoles.map((role, index) => {
               return (
                 <article
-                  className={reportStyles.verificationCard}
-                  key={item.type}
-                  style={{ '--item-color': info.color } as CSSProperties}
+                  className={reportStyles.roleCard}
+                  key={role.title}
+                  style={{ '--item-color': TYPE_INFO[topTypes[index % topTypes.length]].color } as CSSProperties}
                 >
-                  <div><h3>{item.type} · {info.name}</h3><p>{info.careers.slice(0, 5).join('、')}</p></div>
-                  <div><strong>留意这些任务与环境</strong><p>{info.workSignals}</p></div>
-                  <div><strong>直接向从业者或面试官提问</strong><blockquote>“{info.verifyQuestion}”</blockquote></div>
+                  <span className={reportStyles.roleRank}>推荐 {String(index + 1).padStart(2, '0')}</span>
+                  <h3>{role.title}</h3>
+                  <p>{role.why}</p>
+                  <div><strong>常见任务</strong><p>{role.tasks}</p></div>
+                  <small>大学生切入：{role.starter}</small>
                 </article>
               );
             })}
@@ -403,17 +511,31 @@ export default function HollandPage() {
 
         <section className={reportStyles.section}>
           <div className={reportStyles.sectionHeading}>
-            <div><h2>结果使用提醒</h2><p>把职业兴趣、能力证据、价值观与现实约束放在一起，结论才更可靠。</p></div>
-            <span className={reportStyles.sectionNumber}>04 / NOTES</span>
+            <div><h2>你可能更适合做这些事情</h2><p>看任务比只看岗位名称更准确，同一个岗位在不同公司也可能很不一样。</p></div>
+            <span className={reportStyles.sectionNumber}>04 / TASKS</span>
           </div>
-          <div className={reportStyles.detailGrid}>
-            {top3.map((item) => {
-              const info = TYPE_INFO[item.type];
-              return <article className={reportStyles.detailCard} key={item.type}><h3>{item.type} · {info.name}</h3><p>{info.reminder}</p><p style={{ marginTop: '.45rem' }}>关联专业线索：{info.majors.join('、')}</p></article>;
-            })}
-            <article className={reportStyles.detailCard}><h3>不要只看职业名单</h3><p>同一个职业包含多种任务，不同组织的工作环境也不同。优先用岗位JD、实习体验和从业者访谈验证。</p></article>
+          <div className={reportStyles.activityGrid}>
+            {suggestedActivities.map((item, index) => (
+              <article
+                className={reportStyles.activityCard}
+                key={`${item.type}-${item.activity}`}
+                style={{ '--item-color': TYPE_INFO[item.type].color } as CSSProperties}
+              >
+                <span>{String(index + 1).padStart(2, '0')}</span>
+                <strong>{item.activity}</strong>
+                <small>{item.type} · {TYPE_INFO[item.type].name}</small>
+              </article>
+            ))}
           </div>
         </section>
+
+        <div
+          className={reportStyles.analysisBox}
+          style={{ '--analysis-color': dominant.color } as CSSProperties}
+        >
+          <span className={reportStyles.analysisMark}>结</span>
+          <div><h3>一句话结论</h3><p>{careerConclusion}</p></div>
+        </div>
       </div>
 
       <AssessmentCloudStatus
@@ -427,8 +549,8 @@ export default function HollandPage() {
         assessmentId="holland"
         assessmentName="霍兰德职业兴趣测试"
         resultName={`霍兰德代码 ${code}`}
-        headline={`你的前三类职业兴趣线索是：${topNames}`}
-        summary="兴趣结果适合用来生成探索假设，不能单独决定你应该选择哪个职业。"
+        headline={`你的三个主要类型是：${topNames}；可优先了解 ${roleHighlights}`}
+        summary={careerConclusion}
         action={hollandAction}
         nextStep={{
           href: '/tools/values',
