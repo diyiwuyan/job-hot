@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useSyncExternalStore } from 'react';
+import { useEffect, useRef, useState, useSyncExternalStore } from 'react';
 
 type ThemeMode = 'dark' | 'light' | 'auto' | 'ocean' | 'mint' | 'warm';
 
@@ -34,6 +34,9 @@ function subscribeTheme(onStoreChange: () => void) {
 
 export function ThemeToggle() {
   const mode = useSyncExternalStore<ThemeMode>(subscribeTheme, getThemeSnapshot, () => 'dark');
+  const [open, setOpen] = useState(false);
+  const pickerRef = useRef<HTMLDivElement>(null);
+  const activeOption = themeOptions.find(option => option.value === mode) ?? themeOptions[0];
 
   const applyTheme = (newMode: ThemeMode, persist = true) => {
     const root = document.documentElement;
@@ -56,24 +59,69 @@ export function ThemeToggle() {
     applyTheme(mode, false);
   }, [mode]);
 
+  useEffect(() => {
+    if (!open) return;
+
+    const handlePointerDown = (event: PointerEvent) => {
+      if (!pickerRef.current?.contains(event.target as Node)) setOpen(false);
+    };
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') setOpen(false);
+    };
+
+    document.addEventListener('pointerdown', handlePointerDown);
+    document.addEventListener('keydown', handleKeyDown);
+    return () => {
+      document.removeEventListener('pointerdown', handlePointerDown);
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [open]);
+
   const handleChange = (newMode: ThemeMode) => {
     applyTheme(newMode);
+    setOpen(false);
   };
 
   return (
-    <div className="theme-toggle">
-      {themeOptions.map(option => (
-        <button
-          key={option.value}
-          type="button"
-          className={`theme-toggle-opt ${mode === option.value ? 'theme-toggle-opt-active' : ''}`}
-          title={`切换到${option.label}主题`}
-          onClick={() => handleChange(option.value)}
-        >
-          <span className="theme-swatch" style={{ background: option.swatch }} />
-          <span className="theme-toggle-label">{option.label}</span>
-        </button>
-      ))}
+    <div className="theme-picker" ref={pickerRef}>
+      <button
+        type="button"
+        className="theme-picker-trigger"
+        aria-haspopup="menu"
+        aria-expanded={open}
+        aria-controls="jobhot-theme-menu"
+        title={`页面主题：${activeOption.label}`}
+        onClick={() => setOpen(value => !value)}
+      >
+        <span className="theme-swatch" style={{ background: activeOption.swatch }} aria-hidden="true" />
+        <span>主题</span>
+        <span className={`theme-picker-chevron ${open ? 'theme-picker-chevron-open' : ''}`} aria-hidden="true">⌃</span>
+      </button>
+
+      {open && (
+        <div id="jobhot-theme-menu" className="theme-picker-popover" role="menu" aria-label="选择页面主题">
+          <div className="theme-picker-title">
+            <span>页面主题</span>
+            <span>{activeOption.label}</span>
+          </div>
+          <div className="theme-toggle">
+            {themeOptions.map(option => (
+              <button
+                key={option.value}
+                type="button"
+                role="menuitemradio"
+                aria-checked={mode === option.value}
+                className={`theme-toggle-opt ${mode === option.value ? 'theme-toggle-opt-active' : ''}`}
+                title={`切换到${option.label}主题`}
+                onClick={() => handleChange(option.value)}
+              >
+                <span className="theme-swatch" style={{ background: option.swatch }} aria-hidden="true" />
+                <span className="theme-toggle-label">{option.label}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

@@ -394,15 +394,79 @@ a:hover {
 }
 
 /* Theme Toggle */
+.theme-picker {
+  position: relative;
+  width: fit-content;
+  margin-bottom: 0.55rem;
+}
+
+.theme-picker-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 1.9rem;
+  padding: 0.28rem 0.55rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text-muted);
+  background: var(--bg-card);
+  font-size: 0.7rem;
+  cursor: pointer;
+  transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.theme-picker-trigger:hover,
+.theme-picker-trigger:focus-visible {
+  color: var(--text);
+  border-color: var(--border-light);
+  background: var(--bg-elevated);
+}
+
+.theme-picker-chevron {
+  display: inline-block;
+  font-size: 0.68rem;
+  opacity: 0.55;
+  transform: rotate(180deg);
+  transition: transform 0.2s ease;
+}
+
+.theme-picker-chevron-open {
+  transform: rotate(0deg);
+}
+
+.theme-picker-popover {
+  position: absolute;
+  bottom: calc(100% + 0.5rem);
+  left: 0;
+  z-index: 40;
+  width: 214px;
+  padding: 0.65rem;
+  border: 1px solid var(--border-light);
+  border-radius: 0.85rem;
+  background: var(--bg-elevated);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.22);
+}
+
+.theme-picker-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+.theme-picker-title span:last-child {
+  color: var(--text-muted);
+  font-size: 0.66rem;
+  font-weight: 500;
+}
+
 .theme-toggle {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.35rem;
-  background: var(--bg-elevated);
-  border: 1px solid var(--border);
-  border-radius: 0.75rem;
-  padding: 0.25rem;
-  margin-bottom: 1rem;
 }
 
 .zhilu-brand-card {
@@ -894,8 +958,8 @@ a:hover {
   align-items: center;
   justify-content: center;
   gap: 0.3rem;
-  min-height: 2.1rem;
-  padding: 0.4rem 0.45rem;
+  min-height: 2rem;
+  padding: 0.36rem 0.4rem;
   font-size: 0.75rem;
   font-weight: 500;
   color: var(--text-muted);
@@ -1016,6 +1080,61 @@ a:hover {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+}
+
+.account-nickname-edit {
+  margin: -0.25rem auto 1.15rem;
+  padding: 0.25rem 0.5rem;
+  border: 0;
+  color: var(--accent);
+  background: transparent;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.account-nickname-form {
+  display: grid;
+  gap: 0.55rem;
+  margin: 0 0 1rem;
+  padding: 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  background: var(--bg-elevated);
+  text-align: left;
+}
+
+.account-nickname-form label {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+}
+
+.account-nickname-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.account-nickname-actions .btn {
+  padding: 0.45rem 0.75rem;
+  font-size: 0.75rem;
+}
+
+.account-feedback {
+  margin: 0 0 1rem;
+  padding: 0.55rem 0.7rem;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  text-align: left;
+}
+
+.account-feedback-error {
+  color: #ef4444;
+  background: rgba(239, 68, 68, 0.1);
+}
+
+.account-feedback-success {
+  color: #16a34a;
+  background: rgba(34, 197, 94, 0.1);
 }
 
 .timeline-day {

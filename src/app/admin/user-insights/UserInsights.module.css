@@ -1,0 +1,254 @@
+.page {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.intro {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.intro h1 {
+  margin: 0 0 0.4rem;
+  font-size: clamp(1.55rem, 3vw, 2.1rem);
+}
+
+.intro p {
+  max-width: 760px;
+  margin: 0;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.stat {
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 0.85rem;
+  background: var(--bg-card);
+}
+
+.stat span {
+  display: block;
+  color: var(--text-muted);
+  font-size: 0.75rem;
+}
+
+.stat strong {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 1.55rem;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 0.85rem;
+  background: var(--bg-card);
+}
+
+.toolbar input {
+  flex: 1;
+  min-width: 0;
+}
+
+.toolbar select {
+  width: 160px;
+}
+
+.notice {
+  padding: 0.8rem 1rem;
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  border-radius: 0.75rem;
+  color: var(--text-muted);
+  background: rgba(245, 158, 11, 0.08);
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+
+.list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.userCard {
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 0.9rem;
+  background: var(--bg-card);
+}
+
+.userSummary {
+  display: grid;
+  grid-template-columns: minmax(180px, 1.5fr) repeat(5, minmax(72px, 0.55fr)) auto;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.9rem 1rem;
+}
+
+.identity {
+  min-width: 0;
+}
+
+.identity strong,
+.identity span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.identity strong {
+  font-size: 0.95rem;
+}
+
+.identity span {
+  margin-top: 0.2rem;
+  color: var(--text-muted);
+  font-size: 0.72rem;
+}
+
+.metric {
+  text-align: center;
+}
+
+.metric strong,
+.metric span {
+  display: block;
+}
+
+.metric strong {
+  font-size: 0.95rem;
+}
+
+.metric span {
+  margin-top: 0.2rem;
+  color: var(--text-muted);
+  font-size: 0.66rem;
+}
+
+.detail {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem;
+  padding: 1rem;
+  border-top: 1px solid var(--border);
+  background: var(--bg-elevated);
+}
+
+.journey {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+.journeyStep {
+  padding: 0.65rem;
+  border: 1px solid var(--border);
+  border-radius: 0.65rem;
+  color: var(--text-muted);
+  background: var(--bg-card);
+  font-size: 0.72rem;
+  text-align: center;
+}
+
+.journeyDone {
+  color: var(--accent);
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
+  background: var(--accent-muted);
+}
+
+.detailSection {
+  min-width: 0;
+  padding: 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  background: var(--bg-card);
+}
+
+.detailSection h3 {
+  margin: 0 0 0.6rem;
+  font-size: 0.82rem;
+}
+
+.detailList {
+  display: grid;
+  gap: 0.45rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.detailList li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  line-height: 1.5;
+}
+
+.detailList li span:first-child {
+  color: var(--text);
+}
+
+.empty {
+  padding: 2rem;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+@media (max-width: 1050px) {
+  .userSummary {
+    grid-template-columns: minmax(180px, 1.5fr) repeat(3, minmax(68px, 0.55fr)) auto;
+  }
+
+  .optionalMetric {
+    display: none;
+  }
+}
+
+@media (max-width: 760px) {
+  .intro,
+  .toolbar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .toolbar select {
+    width: 100%;
+  }
+
+  .userSummary {
+    grid-template-columns: minmax(0, 1fr) repeat(2, 55px) auto;
+  }
+
+  .mobileHidden {
+    display: none;
+  }
+
+  .detail,
+  .journey {
+    grid-template-columns: 1fr;
+  }
+
+  .journey {
+    grid-column: auto;
+  }
+}

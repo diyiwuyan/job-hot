@@ -218,8 +218,8 @@ export default function AccountsPage() {
     e.preventDefault();
     if (!supabase || !editingNickname) return;
     const nextNickname = nicknameDraft.trim();
-    if (!nextNickname) {
-      setError('昵称不能为空');
+    if (nextNickname.length < 2 || nextNickname.length > 24) {
+      setError('昵称请填写 2～24 个字符');
       return;
     }
 
@@ -283,8 +283,8 @@ export default function AccountsPage() {
       return;
     }
 
-    if (!newNickname.trim()) {
-      setError('昵称为必填项');
+    if (newNickname.trim().length < 2 || newNickname.trim().length > 24) {
+      setError('昵称请填写 2～24 个字符');
       return;
     }
 
@@ -553,6 +553,8 @@ export default function AccountsPage() {
                   placeholder="例如：小仙"
                   value={newNickname}
                   onChange={e => setNewNickname(e.target.value)}
+                  minLength={2}
+                  maxLength={24}
                   required
                   autoFocus
                   style={{ width: '100%' }}
@@ -617,6 +619,8 @@ export default function AccountsPage() {
                   className="field"
                   value={nicknameDraft}
                   onChange={e => setNicknameDraft(e.target.value)}
+                  minLength={2}
+                  maxLength={24}
                   required
                   autoFocus
                   style={{ width: '100%' }}

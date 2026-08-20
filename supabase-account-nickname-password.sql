@@ -95,8 +95,8 @@ begin
   end if;
 
   clean_nickname := btrim(coalesce(target_nickname, ''));
-  if clean_nickname = '' then
-    raise exception 'Nickname is required';
+  if char_length(clean_nickname) < 2 or char_length(clean_nickname) > 24 then
+    raise exception 'Nickname must be between 2 and 24 characters';
   end if;
 
   if not exists (select 1 from auth.users where id = target_user_id) then

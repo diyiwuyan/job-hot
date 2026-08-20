@@ -8,6 +8,7 @@ import { useSidebar } from './SidebarContext';
 import { useAuth } from './AuthContext';
 import { useAdmin } from '@/hooks/useAdmin';
 import { supabase } from '@/lib/supabase';
+import { getUserDisplayName, getUserInitial } from '@/lib/user-display';
 
 type NavItem = {
   href: string;
@@ -120,6 +121,7 @@ export function Sidebar() {
   const { user } = useAuth();
   const { isAdmin } = useAdmin();
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
+  const displayName = getUserDisplayName(user);
 
   // Normalize pathname: remove basePath prefix if present（basePath 为空时无操作）
   const normalizedPath = (basePath ? pathname.replace(new RegExp(`^${basePath}`), '') : pathname) || '/';
@@ -305,6 +307,13 @@ export function Sidebar() {
                       账号管理
                     </Link>
                     <Link
+                      href="/admin/user-insights"
+                      className={`side-sublink ${isActive('/admin/user-insights') ? 'side-sublink-active' : ''}`}
+                      onClick={close}
+                    >
+                      用户档案与使用情况
+                    </Link>
+                    <Link
                       href="/admin/career-camp"
                       className={`side-sublink ${isActive('/admin/career-camp') ? 'side-sublink-active' : ''}`}
                       onClick={close}
@@ -346,8 +355,8 @@ export function Sidebar() {
         {user ? (
           <div className="sidebar-user">
             <Link href="/login" className="sidebar-user-info" onClick={close}>
-              <span className="sidebar-avatar">{user.email?.charAt(0).toUpperCase()}</span>
-              <span className="sidebar-email" title={user.email ?? ''}>{user.email}</span>
+              <span className="sidebar-avatar">{getUserInitial(user)}</span>
+              <span className="sidebar-email" title={`${displayName}${user.email ? ` · ${user.email}` : ''}`}>{displayName}</span>
             </Link>
             <button
               type="button"

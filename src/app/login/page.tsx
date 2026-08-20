@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { supabase } from '@/lib/supabase';
 import { useAuth } from '@/components/AuthContext';
+import { getUserDisplayName, getUserInitial } from '@/lib/user-display';
 
 function getInitialRedirectPath() {
   if (typeof window === 'undefined') return '/';
@@ -22,20 +23,81 @@ export default function LoginPage() {
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState('');
   const [error, setError] = useState('');
+  const [accountNickname, setAccountNickname] = useState('');
+  const [editingNickname, setEditingNickname] = useState(false);
+  const [nicknameSaving, setNicknameSaving] = useState(false);
   const [redirectPath] = useState(getInitialRedirectPath);
+
+  async function handleNicknameUpdate(e: React.FormEvent) {
+    e.preventDefault();
+    if (!supabase || !user) return;
+
+    const nextNickname = accountNickname.trim();
+    if (nextNickname.length < 2 || nextNickname.length > 24) {
+      setError('昵称请填写 2～24 个字符');
+      return;
+    }
+
+    setNicknameSaving(true);
+    setError('');
+    setMessage('');
+    const { error: updateError } = await supabase.auth.updateUser({
+      data: { ...user.user_metadata, nickname: nextNickname },
+    });
+    if (updateError) {
+      setError(`昵称保存失败：${updateError.message}`);
+    } else {
+      setMessage('昵称已保存，网站内会优先显示这个昵称。');
+      setEditingNickname(false);
+    }
+    setNicknameSaving(false);
+  }
 
   // If already logged in, show account info
   if (user) {
+    const displayName = getUserDisplayName(user);
     return (
       <div className="page" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '60vh' }}>
         <div className="timeline-card" style={{ maxWidth: '440px', width: '100%', textAlign: 'center', padding: '2rem' }}>
           <div style={{ marginBottom: '1rem' }}>
             <div style={{ width: '48px', height: '48px', borderRadius: '50%', background: 'var(--accent)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto', fontSize: '1.25rem', color: 'white', fontWeight: 700 }}>
-              {user.email?.charAt(0).toUpperCase()}
+              {getUserInitial(user)}
             </div>
           </div>
-          <h2 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.25rem' }}>已登录</h2>
-          <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)', marginBottom: '1.5rem' }}>{user.email}</p>
+          <h2 style={{ fontSize: '1.125rem', fontWeight: 600, marginBottom: '0.25rem' }}>{displayName}</h2>
+          <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginBottom: '1rem' }}>{user.email}</p>
+
+          {editingNickname ? (
+            <form onSubmit={handleNicknameUpdate} className="account-nickname-form">
+              <label htmlFor="account-nickname">账号昵称</label>
+              <input
+                id="account-nickname"
+                type="text"
+                className="field"
+                value={accountNickname}
+                minLength={2}
+                maxLength={24}
+                onChange={(event) => setAccountNickname(event.target.value)}
+                autoFocus
+                required
+              />
+              <div className="account-nickname-actions">
+                <button type="button" className="btn btn-secondary" onClick={() => { setAccountNickname(displayName); setEditingNickname(false); }}>
+                  取消
+                </button>
+                <button type="submit" className="btn" disabled={nicknameSaving}>
+                  {nicknameSaving ? '保存中...' : '保存昵称'}
+                </button>
+              </div>
+            </form>
+          ) : (
+            <button type="button" className="account-nickname-edit" onClick={() => { setError(''); setMessage(''); setAccountNickname(displayName); setEditingNickname(true); }}>
+              修改昵称
+            </button>
+          )}
+
+          {error && <div className="account-feedback account-feedback-error">{error}</div>}
+          {message && <div className="account-feedback account-feedback-success">{message}</div>}
           <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center' }}>
             <a href={redirectPath === '/' ? '/bookmarks' : redirectPath} className="btn" style={{ flex: 1, justifyContent: 'center' }}>
               {redirectPath === '/' ? '我的收藏' : '返回上一页'}
@@ -68,8 +130,8 @@ export default function LoginPage() {
     setMessage('');
 
     if (mode === 'register') {
-      if (!nickname.trim()) {
-        setError('请输入昵称');
+      if (nickname.trim().length < 2 || nickname.trim().length > 24) {
+        setError('昵称请填写 2～24 个字符');
         setLoading(false);
         return;
       }
@@ -145,6 +207,8 @@ export default function LoginPage() {
                 placeholder="请输入昵称"
                 value={nickname}
                 onChange={(e) => setNickname(e.target.value)}
+                minLength={2}
+                maxLength={24}
                 required
               />
             </div>
