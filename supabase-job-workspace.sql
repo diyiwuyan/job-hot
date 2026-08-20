@@ -1,5 +1,5 @@
 -- ============================================================
--- JOBHOT 我的求职工作台：投递管理、求职材料、练习记录
+-- JOBHOT 我的求职工作台：投递管理、求职材料、练习记录、AI 简历诊断
 -- 执行方式：Supabase Dashboard → SQL Editor → Run
 -- 所有业务数据和文件都按 auth.uid() 隔离。
 -- ============================================================
@@ -196,3 +196,140 @@ create policy "Users can delete own career documents"
     bucket_id = 'career-documents'
     and auth.uid()::text = (storage.foldername(name))[1]
   );
+
+
+-- ============================================================
+-- AI 简历诊断、证据补充与岗位版本
+-- 仅保存结构化诊断和用户确认后的优化内容，不保存模型侧文件副本。
+-- ============================================================
+
+create table if not exists public.resume_diagnostics (
+  id uuid primary key default gen_random_uuid(),
+  user_id uuid not null references auth.users(id) on delete cascade,
+  document_id uuid not null references public.career_documents(id) on delete cascade,
+  application_id uuid references public.job_applications(id) on delete set null,
+  target_company text,
+  target_job_title text not null check (char_length(target_job_title) between 1 and 200),
+  job_description text check (job_description is null or char_length(job_description) <= 12000),
+  overall_score integer not null check (overall_score between 0 and 100),
+  summary text not null default '',
+  dimensions jsonb not null default '[]'::jsonb,
+  strengths jsonb not null default '[]'::jsonb,
+  issues jsonb not null default '[]'::jsonb,
+  missing_questions jsonb not null default '[]'::jsonb,
+  model text not null default '',
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now()
+);
+
+create index if not exists idx_resume_diagnostics_user
+  on public.resume_diagnostics(user_id, created_at desc);
+create index if not exists idx_resume_diagnostics_document
+  on public.resume_diagnostics(document_id, created_at desc);
+
+alter table public.resume_diagnostics enable row level security;
+
+drop policy if exists "Users can view own resume diagnostics" on public.resume_diagnostics;
+create policy "Users can view own resume diagnostics"
+  on public.resume_diagnostics for select
+  using (auth.uid() = user_id);
+
+drop policy if exists "Users can insert own resume diagnostics" on public.resume_diagnostics;
+create policy "Users can insert own resume diagnostics"
+  on public.resume_diagnostics for insert
+  with check (auth.uid() = user_id);
+
+drop policy if exists "Users can update own resume diagnostics" on public.resume_diagnostics;
+create policy "Users can update own resume diagnostics"
+  on public.resume_diagnostics for update
+  using (auth.uid() = user_id)
+  with check (auth.uid() = user_id);
+
+drop policy if exists "Users can delete own resume diagnostics" on public.resume_diagnostics;
+create policy "Users can delete own resume diagnostics"
+  on public.resume_diagnostics for delete
+  using (auth.uid() = user_id);
+
+
+create table if not exists public.resume_evidence_answers (
+  id uuid primary key default gen_random_uuid(),
+  user_id uuid not null references auth.users(id) on delete cascade,
+  diagnostic_id uuid not null references public.resume_diagnostics(id) on delete cascade,
+  question_id text not null,
+  question text not null,
+  answer text not null check (char_length(answer) between 1 and 3000),
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now(),
+  unique(diagnostic_id, question_id)
+);
+
+create index if not exists idx_resume_evidence_diagnostic
+  on public.resume_evidence_answers(user_id, diagnostic_id);
+
+alter table public.resume_evidence_answers enable row level security;
+
+drop policy if exists "Users can view own resume evidence" on public.resume_evidence_answers;
+create policy "Users can view own resume evidence"
+  on public.resume_evidence_answers for select
+  using (auth.uid() = user_id);
+
+drop policy if exists "Users can insert own resume evidence" on public.resume_evidence_answers;
+create policy "Users can insert own resume evidence"
+  on public.resume_evidence_answers for insert
+  with check (auth.uid() = user_id);
+
+drop policy if exists "Users can update own resume evidence" on public.resume_evidence_answers;
+create policy "Users can update own resume evidence"
+  on public.resume_evidence_answers for update
+  using (auth.uid() = user_id)
+  with check (auth.uid() = user_id);
+
+drop policy if exists "Users can delete own resume evidence" on public.resume_evidence_answers;
+create policy "Users can delete own resume evidence"
+  on public.resume_evidence_answers for delete
+  using (auth.uid() = user_id);
+
+
+create table if not exists public.resume_versions (
+  id uuid primary key default gen_random_uuid(),
+  user_id uuid not null references auth.users(id) on delete cascade,
+  diagnostic_id uuid not null references public.resume_diagnostics(id) on delete cascade,
+  document_id uuid not null references public.career_documents(id) on delete cascade,
+  application_id uuid references public.job_applications(id) on delete set null,
+  title text not null check (char_length(title) between 1 and 240),
+  optimized_content jsonb not null default '{}'::jsonb,
+  change_log jsonb not null default '[]'::jsonb,
+  unresolved_items jsonb not null default '[]'::jsonb,
+  model text not null default '',
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now()
+);
+
+create index if not exists idx_resume_versions_user
+  on public.resume_versions(user_id, created_at desc);
+create index if not exists idx_resume_versions_application
+  on public.resume_versions(application_id, created_at desc)
+  where application_id is not null;
+
+alter table public.resume_versions enable row level security;
+
+drop policy if exists "Users can view own resume versions" on public.resume_versions;
+create policy "Users can view own resume versions"
+  on public.resume_versions for select
+  using (auth.uid() = user_id);
+
+drop policy if exists "Users can insert own resume versions" on public.resume_versions;
+create policy "Users can insert own resume versions"
+  on public.resume_versions for insert
+  with check (auth.uid() = user_id);
+
+drop policy if exists "Users can update own resume versions" on public.resume_versions;
+create policy "Users can update own resume versions"
+  on public.resume_versions for update
+  using (auth.uid() = user_id)
+  with check (auth.uid() = user_id);
+
+drop policy if exists "Users can delete own resume versions" on public.resume_versions;
+create policy "Users can delete own resume versions"
+  on public.resume_versions for delete
+  using (auth.uid() = user_id);

@@ -3,10 +3,11 @@
 import Link from 'next/link';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useAuth } from '@/components/AuthContext';
+import { ResumeOptimizer } from '@/components/ResumeOptimizer';
 import { supabase } from '@/lib/supabase';
 import styles from './Workspace.module.css';
 
-type WorkspaceTab = 'overview' | 'applications' | 'documents' | 'practice';
+type WorkspaceTab = 'overview' | 'applications' | 'documents' | 'resume' | 'practice';
 type ApplicationStatus = 'saved' | 'preparing' | 'applied' | 'assessment' | 'interview' | 'offer' | 'closed';
 type DocumentKind = 'resume' | 'portfolio' | 'certificate' | 'other';
 type PracticeKind = 'written' | 'interview' | 'group' | 'case' | 'technical' | 'other';
@@ -530,6 +531,7 @@ export default function WorkspacePage() {
           ['overview', '总览'],
           ['applications', '投递管理'],
           ['documents', '求职材料'],
+          ['resume', '简历诊断'],
           ['practice', '练习记录'],
         ] as Array<[WorkspaceTab, string]>).map(([value, label]) => (
           <button key={value} type="button" data-active={tab === value} onClick={() => openTab(value)}>{label}</button>
@@ -568,7 +570,7 @@ export default function WorkspacePage() {
                 <button type="button" onClick={() => openTab('practice')}><strong>{practices.length + examResults.length}</strong><span>次练习记录</span><small>{recentPracticeCount ? `近7天 ${recentPracticeCount} 次` : '本周还没有练习'}</small></button>
               </div>
               <div className={styles.quickActions}>
-                <a href="https://ai-resume-9wy.pages.dev/" target="_blank" rel="noopener noreferrer">用 AI 生成岗位定向简历</a>
+                <button type="button" onClick={() => openTab('resume')}>诊断并生成岗位定向简历</button>
                 <Link href="/tools/exam">开始一次笔试训练</Link>
                 <button type="button" onClick={() => openTab('practice')}>记录一次面试练习</button>
                 <Link href="/tools/assessment">选择职业测评</Link>
@@ -632,10 +634,11 @@ export default function WorkspacePage() {
               <li><span>03</span><div><strong>导出并回存</strong><small>把生成版本上传回材料库</small></div></li>
             </ol>
             <div className={styles.aiResumeActions}>
-              <a className="btn" href="https://ai-resume-9wy.pages.dev/" target="_blank" rel="noopener noreferrer">打开 AI 简历工具 ↗</a>
-              <span>独立账号与数据空间 · 免费版每月 3 次 AI 生成</span>
+              <button type="button" className="btn" onClick={() => openTab('resume')}>开始站内诊断 →</button>
+              <a className="btn btn-secondary" href="https://ai-resume-9wy.pages.dev/" target="_blank" rel="noopener noreferrer">使用外部简历工具 ↗</a>
+              <span>先诊断和补证据，再生成岗位版本</span>
             </div>
-            <p className={styles.externalNote}>该工具会在新页面打开，目前不能自动读取 JOBHOT 材料库；生成内容请核对真实性和量化数据，再将导出的 PDF 或 Word 手动保存回这里。</p>
+            <p className={styles.externalNote}>站内诊断会使用你主动选择的简历、目标岗位和补充证据；外部工具在新页面打开，使用独立账号且不能自动读取 JOBHOT 材料库。</p>
           </section>
 
           <section className={styles.panel}>
@@ -653,6 +656,16 @@ export default function WorkspacePage() {
             {documents.length ? <div className={styles.documentList}>{documents.map((item) => <article key={item.id} className={styles.documentCard}><div className={styles.fileIcon}>{item.name.split('.').pop()?.slice(0, 4).toUpperCase() || 'FILE'}</div><div><span>{documentLabel(item.kind)}</span><strong>{item.name}</strong><small>{formatBytes(item.size_bytes)} · {formatDate(item.updated_at, true)}</small></div><div className={styles.rowActions}><button type="button" onClick={() => openDocument(item)}>查看</button><button type="button" className={styles.dangerAction} onClick={() => deleteDocument(item)}>删除</button></div></article>)}</div> : <div className={styles.emptyState}><strong>材料库还是空的</strong><p>建议先上传一份当前简历，之后再按目标岗位保留不同版本。</p></div>}
           </section>
         </div>
+      )}
+
+      {tab === 'resume' && (
+        <ResumeOptimizer
+          documents={documents.filter((item) => item.kind === 'resume')}
+          applications={applications}
+          assessmentCount={assessmentCount}
+          onOpenDocuments={() => openTab('documents')}
+          onOpenApplications={() => openTab('applications')}
+        />
       )}
 
       {tab === 'practice' && (

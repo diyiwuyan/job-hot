@@ -11,7 +11,7 @@ export default function TermsPage() {
       <header className="legal-hero">
         <span>JOBHOT｜职路同行社出品</span>
         <h1>用户协议</h1>
-        <p>更新日期：2026年8月3日</p>
+        <p>更新日期：2026年8月20日</p>
       </header>
 
       <section>
@@ -28,6 +28,7 @@ export default function TermsPage() {
       <section>
         <h2>3. 测评与职业建议</h2>
         <p>网站测评和结果解读用于自我探索与求职讨论，不构成心理诊断、医疗意见或对职业结果的确定判断。训练营、咨询和内容服务旨在帮助你改善求职行动，不承诺获得录用、实习、内推或特定薪酬。</p>
+        <p>AI简历诊断与优化结果是辅助草稿，不代表招聘单位的筛选结论。你应在投递前核对公司、岗位、时间、职责、技能和量化成果等事实；不得使用AI生成或扩大的虚假经历进行求职。</p>
       </section>
 
       <section>
