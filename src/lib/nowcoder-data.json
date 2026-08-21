@@ -1,5 +1,146 @@
 [
   {
+    "id": "nowcoder-179",
+    "title": "美团 — 27届秋招 今日收录",
+    "summary": "国内头部本地生活服务平台，业务生态多元，即时配送与数字化运营实力强劲。。招聘批次：27届秋招 今日收录。工作地点：南京、杭州、厦门、武汉、广州、深圳、成都、西安、北京、上海、重庆、香港。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://zhaopin.meituan.com/web/campus",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "南京、杭州、厦门、武汉、广州、深圳、成都、西安、北京、上海、重庆、香港",
+    "deadline": "2026/10/16",
+    "tags": [
+      "美团",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "南京",
+      "杭州",
+      "厦门",
+      "互联网"
+    ],
+    "score": 99,
+    "featured": true,
+    "createdAt": "2026-08-21T06:30:51.000Z"
+  },
+  {
+    "id": "nowcoder-142",
+    "title": "微博 — 人才专项 今日收录",
+    "summary": "头部社交媒体平台，用户基数庞大，内容生态完善，大数据技术积淀深厚。。招聘批次：人才专项 今日收录。工作地点：北京。招聘岗位：产品、运营、市场/营销、商务、管理等。",
+    "url": "https://app.mokahr.com/m/campus-recruitment/sina/43536#/jobs?project0=100128287&project1=100120369&page=1&anchorName=jobsList",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "北京",
+    "deadline": "2026/09/17",
+    "tags": [
+      "微博",
+      "校招",
+      "互联网/AI",
+      "北京",
+      "新闻传媒",
+      "文娱内容"
+    ],
+    "score": 98,
+    "featured": true,
+    "createdAt": "2026-08-21T06:28:32.000Z"
+  },
+  {
+    "id": "nowcoder-23572",
+    "title": "深圳市乐有家集团 — 27届实习 今日收录",
+    "summary": "国内房产经纪龙头企业，全链条服务完善，线下网络与运营能力突出。。招聘批次：27届实习 今日收录。工作地点：长沙、广州、深圳、佛山、中山。招聘岗位：后端开发、人工智能/算法、产品、运营、市场/营销等。",
+    "url": "https://hr.leyoujia.com/hr_portal/school/2.html",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "other",
+    "location": "长沙、广州、深圳、佛山、中山",
+    "deadline": "2026/10/11",
+    "tags": [
+      "深圳市乐有家集团",
+      "实习",
+      "长沙",
+      "广州",
+      "深圳"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-08-21T06:18:25.000Z"
+  },
+  {
+    "id": "nowcoder-29150",
+    "title": "珠海万达商业管理集团股份有限公司 — 27届秋招 今日收录",
+    "summary": "国内商业运营龙头企业，全业态布局，商业管理与品牌资源领先。。招聘批次：27届秋招 今日收录。工作地点：杭州、宁波、合肥、福州、珠海、乌鲁木齐、喀什地区、北京、上海。招聘岗位：运营、市场/营销、商务、管理、管理培训生等。",
+    "url": "https://app.mokahr.com/campus-recruitment/wandacm/164049?locale=zh-CN#/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "杭州、宁波、合肥、福州、珠海、乌鲁木齐、喀什地区、北京、上海",
+    "deadline": "2027/04/13",
+    "tags": [
+      "珠海万达商业管理集团股份有限公司",
+      "校招",
+      "秋招",
+      "杭州",
+      "宁波",
+      "合肥"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-08-21T06:16:35.000Z"
+  },
+  {
+    "id": "nowcoder-12913",
+    "title": "利欧水泵 — 27届秋招 今日收录",
+    "summary": "国内泵业与数字营销龙头，双主业布局，制造与运营能力突出。。招聘批次：27届秋招 今日收录。工作地点：石家庄、大连、南京、杭州、台州、武汉、湘潭、广州、成都、昆明、北京、上海。招聘岗位：后端开发、测试、研发工程师、硬件工程师、电子/半导体等。",
+    "url": "https://leoglobal.jobs.feishu.cn/leosz/position/list",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "石家庄、大连、南京、杭州、台州、武汉、湘潭、广州、成都、昆明、北京、上海",
+    "deadline": "2026/10/12",
+    "tags": [
+      "利欧水泵",
+      "校招",
+      "秋招",
+      "石家庄",
+      "大连",
+      "南京"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-08-21T06:16:19.000Z"
+  },
+  {
+    "id": "nowcoder-12240",
+    "title": "理想汽车 — 27届秋招 今日收录",
+    "summary": "国内领先的新能源汽车制造商，业务聚焦于智能电动车，技术研发与用户运营并重。。招聘批次：27届秋招 今日收录。工作地点：常州、杭州、深圳、西安、北京、上海、重庆。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://www.lixiang.com/employ/campus/list.html?fromJob=1&project_id=18",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "常州、杭州、深圳、西安、北京、上海、重庆",
+    "deadline": "2026/10/16",
+    "tags": [
+      "理想汽车",
+      "校招",
+      "秋招",
+      "车企/IC",
+      "常州",
+      "杭州",
+      "深圳",
+      "汽车制造"
+    ],
+    "score": 99,
+    "featured": true,
+    "createdAt": "2026-08-21T05:49:33.000Z"
+  },
+  {
     "id": "nowcoder-4282",
     "title": "沃尔玛 — 27届秋招 今日收录",
     "summary": "全球零售巨头，全渠道布局成熟，供应链高效，山姆会员店增长强劲。招聘批次：27届秋招 今日收录。工作地点：杭州、嘉兴、武汉、广州、韶关、深圳、珠海、汕头、佛山、湛江、茂名、惠州、河源、东莞、成都、昆明、北京、上海、重庆、天津。招聘岗位：运营、市场/营销、销售类、商务、管理等。",
@@ -72,29 +213,6 @@
     "score": 93,
     "featured": true,
     "createdAt": "2026-08-21T05:23:37.000Z"
-  },
-  {
-    "id": "nowcoder-142",
-    "title": "微博 — 人才专项 今日收录",
-    "summary": "影视文化领域平台，内容生态丰富，创意人才成长快。。招聘批次：人才专项 今日收录。工作地点：北京。招聘岗位：产品、运营、市场/营销、商务、管理等。",
-    "url": "https://app.mokahr.com/m/campus-recruitment/sina/43536#/jobs?project0=100128287&project1=100120369&page=1&anchorName=jobsList",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "campus",
-    "category": "internet",
-    "location": "北京",
-    "deadline": "2026/09/17",
-    "tags": [
-      "微博",
-      "校招",
-      "互联网/AI",
-      "北京",
-      "新闻传媒",
-      "文娱内容"
-    ],
-    "score": 98,
-    "featured": true,
-    "createdAt": "2026-08-21T05:21:11.000Z"
   },
   {
     "id": "nowcoder-10394",
@@ -384,31 +502,6 @@
     "score": 94,
     "featured": true,
     "createdAt": "2026-08-18T03:24:23.000Z"
-  },
-  {
-    "id": "nowcoder-12240",
-    "title": "理想汽车 — 27届秋招",
-    "summary": "国内领先的新能源汽车制造商，业务聚焦于智能电动车，技术研发与用户运营并重。。招聘批次：27届秋招。工作地点：常州、杭州、深圳、西安、北京、上海、重庆。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
-    "url": "https://www.lixiang.com/employ/campus/list.html?fromJob=1&project_id=18",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "campus",
-    "category": "auto_ic",
-    "location": "常州、杭州、深圳、西安、北京、上海、重庆",
-    "deadline": "2026/10/09",
-    "tags": [
-      "理想汽车",
-      "校招",
-      "秋招",
-      "车企/IC",
-      "常州",
-      "杭州",
-      "深圳",
-      "汽车制造"
-    ],
-    "score": 95,
-    "featured": true,
-    "createdAt": "2026-08-13T14:49:07.000Z"
   },
   {
     "id": "nowcoder-147",
