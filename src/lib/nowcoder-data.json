@@ -1,5 +1,126 @@
 [
   {
+    "id": "nowcoder-152730",
+    "title": "开立医疗 — 27届秋招 今日收录",
+    "summary": "国内医疗内窥镜与超声设备领域龙头，技术研发领先，国产替代核心支撑。。招聘批次：27届秋招 今日收录。工作地点：深圳、北京、上海。招聘岗位：后端开发、测试、人工智能/算法、研发工程师、销售技术支持等。",
+    "url": "https://app.mokahr.com/campus-recruitment/sonoscape/94392/#/",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "深圳、北京、上海",
+    "deadline": "2026/10/16",
+    "tags": [
+      "开立医疗",
+      "校招",
+      "秋招",
+      "深圳",
+      "北京",
+      "上海",
+      "医疗健康"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-08-21T07:52:54.000Z"
+  },
+  {
+    "id": "nowcoder-4884",
+    "title": "信锐技术 — 27届秋招 今日收录",
+    "summary": "企业级网络解决方案提供商，提供网络技术研发与系统集成的实践平台。。招聘批次：27届秋招 今日收录。工作地点：深圳。招聘岗位：后端开发、测试、人工智能/算法、销售技术支持、硬件工程师等。",
+    "url": "https://hr.sundray.com.cn/campus-recruitment/sangfor/37521#/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "深圳",
+    "deadline": "2026/11/13",
+    "tags": [
+      "信锐技术",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "深圳"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-08-21T07:35:02.000Z"
+  },
+  {
+    "id": "nowcoder-9374",
+    "title": "锦浪科技 — 27届秋招 今日收录",
+    "summary": "国内光伏逆变器龙头企业，全产业链布局，技术研发与全球市场能力领先。。招聘批次：27届秋招 今日收录。工作地点：宁波、成都、西安、上海。招聘岗位：后端开发、测试、研发工程师、硬件工程师、电子/半导体等。",
+    "url": "https://ginlong.zhiye.com/campus/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "宁波、成都、西安、上海",
+    "deadline": "2026/10/16",
+    "tags": [
+      "锦浪科技",
+      "校招",
+      "秋招",
+      "车企/IC",
+      "宁波",
+      "成都",
+      "西安",
+      "硬件"
+    ],
+    "score": 94,
+    "featured": true,
+    "createdAt": "2026-08-21T07:27:02.000Z"
+  },
+  {
+    "id": "nowcoder-4757",
+    "title": "上海得物信息集团有限公司 — 27届秋招 今日收录",
+    "summary": "潮流电商头部平台，首创鉴别发货模式，AI 质检体系成熟，社区生态活跃。招聘批次：27届秋招 今日收录。工作地点：廊坊、沈阳、杭州、武汉、长沙、广州、成都、贵阳、咸阳、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://campus.dewu.com/578078/position/list",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "廊坊、沈阳、杭州、武汉、长沙、广州、成都、贵阳、咸阳、北京、上海",
+    "deadline": "2026/10/09",
+    "tags": [
+      "上海得物信息集团有限公司",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "廊坊",
+      "沈阳",
+      "杭州",
+      "电商"
+    ],
+    "score": 95,
+    "featured": true,
+    "createdAt": "2026-08-21T07:24:48.000Z"
+  },
+  {
+    "id": "nowcoder-778",
+    "title": "顺丰集团 — 27提前批 今日收录",
+    "summary": "国内物流科技龙头企业，技术研发扎实，智慧物流解决方案能力突出。。招聘批次：27提前批 今日收录。工作地点：武汉、深圳、成都。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://campus.sf-express.com/#/positionList",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "武汉、深圳、成都",
+    "deadline": "2026/09/11",
+    "tags": [
+      "顺丰集团",
+      "校招",
+      "提前批",
+      "互联网/AI",
+      "武汉",
+      "深圳",
+      "成都",
+      "物流运输"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-08-21T07:24:08.000Z"
+  },
+  {
     "id": "nowcoder-179",
     "title": "美团 — 27届秋招 今日收录",
     "summary": "国内头部本地生活服务平台，业务生态多元，即时配送与数字化运营实力强劲。。招聘批次：27届秋招 今日收录。工作地点：南京、杭州、厦门、武汉、广州、深圳、成都、西安、北京、上海、重庆、香港。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
@@ -117,8 +238,8 @@
   },
   {
     "id": "nowcoder-12240",
-    "title": "理想汽车 — 27届秋招 今日收录",
-    "summary": "国内领先的新能源汽车制造商，业务聚焦于智能电动车，技术研发与用户运营并重。。招聘批次：27届秋招 今日收录。工作地点：常州、杭州、深圳、西安、北京、上海、重庆。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "title": "理想汽车 — 27届秋招",
+    "summary": "国内领先的新能源汽车制造商，业务聚焦于智能电动车，技术研发与用户运营并重。。招聘批次：27届秋招。工作地点：常州、杭州、深圳、西安、北京、上海、重庆。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
     "url": "https://www.lixiang.com/employ/campus/list.html?fromJob=1&project_id=18",
     "source": "牛客网",
     "sourceHandle": "@nowcoder",
@@ -727,6 +848,25 @@
     "createdAt": "2026-07-22T17:38:27.000Z"
   },
   {
+    "id": "nowcoder-32020",
+    "title": "27届网申信息 — 27届秋招",
+    "summary": "招聘批次：27届秋招。",
+    "url": "https://campus.sma-wiki.cn/campus/campus_recruit.html?channel=school_schedule",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "deadline": "2026/08/30",
+    "tags": [
+      "27届网申信息",
+      "校招",
+      "秋招"
+    ],
+    "score": 68,
+    "featured": false,
+    "createdAt": "2026-07-21T08:15:04.000Z"
+  },
+  {
     "id": "nowcoder-29073",
     "title": "27届实习简历 — 27届秋招",
     "summary": "招聘批次：27届秋招。",
@@ -744,6 +884,29 @@
     "score": 67,
     "featured": false,
     "createdAt": "2026-07-21T08:14:02.000Z"
+  },
+  {
+    "id": "nowcoder-29192",
+    "title": "27届实习交流 — 27届秋招",
+    "summary": "招聘批次：27届秋招。工作地点：广州、深圳、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://www.nowcoder.com/my/resume-plugin-intro?channel=xzrc05",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "广州、深圳、北京、上海",
+    "deadline": "2026/08/30",
+    "tags": [
+      "27届实习交流",
+      "校招",
+      "秋招",
+      "广州",
+      "深圳",
+      "北京"
+    ],
+    "score": 68,
+    "featured": false,
+    "createdAt": "2026-07-21T08:09:53.000Z"
   },
   {
     "id": "nowcoder-22230",
