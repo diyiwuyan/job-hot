@@ -12809,7 +12809,7 @@
       "金融业",
       "吉安"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-08-14T18:12:54.000Z"
   },
@@ -12833,7 +12833,7 @@
       "金融业",
       "吉安"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-08-14T18:09:59.000Z"
   },
@@ -12857,8 +12857,8 @@
       "信息传输、软件和信息技术服务业",
       "天津"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-08-14T17:25:58.000Z"
   },
   {
@@ -12881,8 +12881,8 @@
       "信息传输、软件和信息技术服务业",
       "北京"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-08-14T16:44:17.000Z"
   },
   {
@@ -12929,8 +12929,8 @@
       "信息传输、软件和信息技术服务业",
       "北京"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-08-14T16:30:17.000Z"
   },
   {
@@ -12953,7 +12953,7 @@
       "信息传输、软件和信息技术服务业",
       "北京"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-08-14T16:24:22.000Z"
   },
@@ -12977,7 +12977,7 @@
       "信息传输、软件和信息技术服务业",
       "北京"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-08-14T16:10:26.000Z"
   },
@@ -13000,8 +13000,8 @@
       "车企/IC",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-08-14T16:00:10.000Z"
   },
   {
@@ -13025,8 +13025,8 @@
       "北京",
       "济南"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-08-14T15:58:07.000Z"
   },
   {
@@ -13051,7 +13051,7 @@
       "苏州",
       "广州"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-08-14T14:29:41.000Z"
   },
@@ -13075,8 +13075,8 @@
       "制造业",
       "杭州"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-08-14T13:48:33.000Z"
   },
   {
@@ -21534,8 +21534,8 @@
       "化学原料和化学制品制造业",
       "东营"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-08-07T16:30:00.000Z"
   },
   {
@@ -21558,7 +21558,7 @@
       "其他",
       "珠海市"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-08-07T16:28:19.000Z"
   },
