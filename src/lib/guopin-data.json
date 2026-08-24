@@ -12217,8 +12217,8 @@
       "有色金属矿采选业",
       "赞比亚"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-08-16T00:00:00.000Z"
   },
   {
@@ -21415,8 +21415,8 @@
       "制造业",
       "贵阳"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-08-09T00:00:00.000Z"
   },
   {
@@ -21439,7 +21439,7 @@
       "制造业",
       "贵阳"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-08-09T00:00:00.000Z"
   },
@@ -21463,7 +21463,7 @@
       "制造业",
       "贵阳"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-08-09T00:00:00.000Z"
   },
