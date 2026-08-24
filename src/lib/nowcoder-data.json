@@ -1,5 +1,30 @@
 [
   {
+    "id": "nowcoder-715",
+    "title": "小红书 — 27届实习",
+    "summary": "国内头部生活方式分享平台，用户生态完善，内容创作与商业转化能力突出。。招聘批次：27届实习。工作地点：杭州、武汉、深圳、珠海、北京、上海、香港。招聘岗位：人工智能/算法、研发工程师、产品。",
+    "url": "https://mp.weixin.qq.com/s/aXaXmNzamy_B6Bx9EvwcJw?scene=1",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "internet",
+    "location": "杭州、武汉、深圳、珠海、北京、上海、香港",
+    "deadline": "2026/10/30",
+    "tags": [
+      "小红书",
+      "实习",
+      "互联网/AI",
+      "杭州",
+      "武汉",
+      "深圳",
+      "消费生活",
+      "视频直播"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-08-24T08:20:02.000Z"
+  },
+  {
     "id": "nowcoder-1175",
     "title": "水滴 — 27届秋招 今日收录",
     "summary": "健康保障科技平台，业务模式独特，融合互联网与保险金融，技术驱动业务创新。。招聘批次：27届秋招 今日收录。工作地点：深圳、北京。招聘岗位：保险、投融资、客服、测试、人事等。",
@@ -861,29 +886,6 @@
     "score": 89,
     "featured": true,
     "createdAt": "2026-08-18T03:24:23.000Z"
-  },
-  {
-    "id": "nowcoder-715",
-    "title": "小红书 — 网申：已结束",
-    "summary": "国内头部生活方式分享平台，用户生态完善，内容创作与商业转化能力突出。。招聘批次：网申：已结束。工作地点：上海。招聘岗位：人工智能/算法、研发工程师、产品。",
-    "url": "https://mp.weixin.qq.com/s/aXaXmNzamy_B6Bx9EvwcJw?scene=1",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "intern",
-    "category": "internet",
-    "location": "上海",
-    "deadline": "2026/08/13",
-    "tags": [
-      "小红书",
-      "实习",
-      "互联网/AI",
-      "上海",
-      "消费生活",
-      "视频直播"
-    ],
-    "score": 78,
-    "featured": false,
-    "createdAt": "2026-08-13T19:00:01.000Z"
   },
   {
     "id": "nowcoder-147",
