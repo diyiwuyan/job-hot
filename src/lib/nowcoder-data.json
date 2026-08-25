@@ -1,5 +1,25 @@
 [
   {
+    "id": "nowcoder-5767",
+    "title": "乐信圣文 — 校招",
+    "summary": "招聘批次：校招。工作地点：北京。",
+    "url": "https://lexinshengwen-dingtalk.mokahr.com/campus-recruitment/lexinshengwen/92298#/",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "北京",
+    "deadline": "2026/10/30",
+    "tags": [
+      "乐信圣文",
+      "校招",
+      "北京"
+    ],
+    "score": 85,
+    "featured": true,
+    "createdAt": "2026-08-25T03:20:42.000Z"
+  },
+  {
     "id": "nowcoder-258966",
     "title": "思朗科技 — 网申中 今日收录",
     "summary": "招聘批次：网申中 今日收录。工作地点：杭州、深圳、成都、西安、北京、上海。招聘岗位：电子/半导体、人工智能/算法、机械、生物制药、运营等。",
@@ -22,26 +42,6 @@
     "score": 90,
     "featured": true,
     "createdAt": "2026-08-25T01:54:55.000Z"
-  },
-  {
-    "id": "nowcoder-5767",
-    "title": "乐信圣文 — 校招",
-    "summary": "招聘批次：校招。工作地点：北京。",
-    "url": "https://lexinshengwen-dingtalk.mokahr.com/campus-recruitment/lexinshengwen/92298#/",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "campus",
-    "category": "other",
-    "location": "北京",
-    "deadline": "2026/09/29",
-    "tags": [
-      "乐信圣文",
-      "校招",
-      "北京"
-    ],
-    "score": 85,
-    "featured": true,
-    "createdAt": "2026-08-25T01:45:16.000Z"
   },
   {
     "id": "nowcoder-811",
