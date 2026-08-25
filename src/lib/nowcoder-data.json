@@ -1,5 +1,49 @@
 [
   {
+    "id": "nowcoder-258966",
+    "title": "思朗科技 — 网申中 今日收录",
+    "summary": "招聘批次：网申中 今日收录。工作地点：杭州、深圳、成都、西安、北京、上海。招聘岗位：电子/半导体、人工智能/算法、机械、生物制药、运营等。",
+    "url": "https://smartlogictech.jobs.feishu.cn/xiaozhao/m/?spread=82A5QW5",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "杭州、深圳、成都、西安、北京、上海",
+    "deadline": "2027/08/24",
+    "tags": [
+      "思朗科技",
+      "校招",
+      "车企/IC",
+      "杭州",
+      "深圳",
+      "成都",
+      "芯片"
+    ],
+    "score": 90,
+    "featured": true,
+    "createdAt": "2026-08-25T01:54:55.000Z"
+  },
+  {
+    "id": "nowcoder-5767",
+    "title": "乐信圣文 — 校招",
+    "summary": "招聘批次：校招。工作地点：北京。",
+    "url": "https://lexinshengwen-dingtalk.mokahr.com/campus-recruitment/lexinshengwen/92298#/",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "北京",
+    "deadline": "2026/09/29",
+    "tags": [
+      "乐信圣文",
+      "校招",
+      "北京"
+    ],
+    "score": 85,
+    "featured": true,
+    "createdAt": "2026-08-25T01:45:16.000Z"
+  },
+  {
     "id": "nowcoder-811",
     "title": "中国电信 — 27届秋招 今日收录",
     "summary": "国内通信行业龙头央企，全产业链布局，5G 与数字经济服务能力领先。。招聘批次：27届秋招 今日收录。工作地点：深圳、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
@@ -53,8 +97,8 @@
   },
   {
     "id": "nowcoder-5540",
-    "title": "电科金仓 — 27届秋招 今日收录",
-    "summary": "招聘批次：27届秋招 今日收录。工作地点：青岛、成都、西安、北京、天津。招聘岗位：后端开发、前端开发、测试、市场/营销、管理等。",
+    "title": "电科金仓 — 27届秋招",
+    "summary": "招聘批次：27届秋招。工作地点：青岛、成都、西安、北京、天津。招聘岗位：后端开发、前端开发、测试、市场/营销、管理等。",
     "url": "https://www.kingbase.com.cn/",
     "source": "牛客网",
     "sourceHandle": "@nowcoder",
