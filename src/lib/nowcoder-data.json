@@ -1,8 +1,29 @@
 [
   {
+    "id": "nowcoder-32685",
+    "title": "瀚海聚能 — 27届秋招 今日收录",
+    "summary": "可控核聚变科创企业，国内直线型 FRC 路线先行者，清洁能源前沿赛道布局。。招聘批次：27届秋招 今日收录。工作地点：成都。招聘岗位：后端开发、测试、数据、人工智能/算法、研发工程师等。",
+    "url": "https://mp.weixin.qq.com/s/4MymxNIP-Be1njXB7-X4lw",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "成都",
+    "deadline": "2026/10/17",
+    "tags": [
+      "瀚海聚能",
+      "校招",
+      "秋招",
+      "成都"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-08-25T10:27:24.000Z"
+  },
+  {
     "id": "nowcoder-1008",
-    "title": "贝壳找房 — 27届秋招 今日收录",
-    "summary": "居住服务平台龙头，产业互联网成熟，体系规范，应届生综合能力提升快。招聘批次：27届秋招 今日收录。工作地点：北京。招聘岗位：后端开发、数据、人工智能/算法。",
+    "title": "贝壳找房 — 27届秋招",
+    "summary": "居住服务平台龙头，产业互联网成熟，体系规范，应届生综合能力提升快。招聘批次：27届秋招。工作地点：北京。招聘岗位：后端开发、数据、人工智能/算法。",
     "url": "https://campus.ke.com/campus",
     "source": "牛客网",
     "sourceHandle": "@nowcoder",
@@ -45,8 +66,8 @@
   },
   {
     "id": "nowcoder-258966",
-    "title": "思朗科技 — 网申中 今日收录",
-    "summary": "招聘批次：网申中 今日收录。工作地点：杭州、深圳、成都、西安、北京、上海。招聘岗位：电子/半导体、人工智能/算法、机械、生物制药、运营等。",
+    "title": "思朗科技 — 网申中",
+    "summary": "招聘批次：网申中。工作地点：杭州、深圳、成都、西安、北京、上海。招聘岗位：电子/半导体、人工智能/算法、机械、生物制药、运营等。",
     "url": "https://smartlogictech.jobs.feishu.cn/xiaozhao/m/?spread=82A5QW5",
     "source": "牛客网",
     "sourceHandle": "@nowcoder",
@@ -66,6 +87,31 @@
     "score": 90,
     "featured": true,
     "createdAt": "2026-08-25T01:54:55.000Z"
+  },
+  {
+    "id": "nowcoder-9140",
+    "title": "满帮集团 — 27届秋招",
+    "summary": "数字货运平台领导者，提供物流科技与平台运营的创新环境。。招聘批次：27届秋招。工作地点：南京、苏州、北京。招聘岗位：后端开发、前端开发、测试、数据、法务等。",
+    "url": "https://campus.fulltruckalliance.com/",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "南京、苏州、北京",
+    "deadline": "2026/11/29",
+    "tags": [
+      "满帮集团",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "南京",
+      "苏州",
+      "北京",
+      "物流运输"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-08-24T09:56:51.000Z"
   },
   {
     "id": "nowcoder-811",
