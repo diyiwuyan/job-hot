@@ -1,8 +1,31 @@
 [
   {
+    "id": "nowcoder-1008",
+    "title": "贝壳找房 — 27届秋招 今日收录",
+    "summary": "居住服务平台龙头，产业互联网成熟，体系规范，应届生综合能力提升快。招聘批次：27届秋招 今日收录。工作地点：北京。招聘岗位：后端开发、数据、人工智能/算法。",
+    "url": "https://campus.ke.com/campus",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "北京",
+    "deadline": "2026/12/30",
+    "tags": [
+      "贝壳找房",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "北京",
+      "房地产"
+    ],
+    "score": 89,
+    "featured": true,
+    "createdAt": "2026-08-25T06:31:54.000Z"
+  },
+  {
     "id": "nowcoder-5767",
-    "title": "乐信圣文 — 校招",
-    "summary": "招聘批次：校招。工作地点：北京。",
+    "title": "乐信圣文 — 27届秋招",
+    "summary": "招聘批次：27届秋招。工作地点：北京。",
     "url": "https://lexinshengwen-dingtalk.mokahr.com/campus-recruitment/lexinshengwen/92298#/",
     "source": "牛客网",
     "sourceHandle": "@nowcoder",
@@ -13,11 +36,12 @@
     "tags": [
       "乐信圣文",
       "校招",
+      "秋招",
       "北京"
     ],
     "score": 85,
     "featured": true,
-    "createdAt": "2026-08-25T03:20:42.000Z"
+    "createdAt": "2026-08-25T05:52:25.000Z"
   },
   {
     "id": "nowcoder-258966",
@@ -1405,30 +1429,5 @@
     "score": 67,
     "featured": false,
     "createdAt": "2026-07-06T08:06:04.000Z"
-  },
-  {
-    "id": "nowcoder-1008",
-    "title": "贝壳找房 — 网申：已结束",
-    "summary": "居住服务平台龙头，产业互联网成熟，体系规范，应届生综合能力提升快。招聘批次：网申：已结束。工作地点：苏州、北京、上海。招聘岗位：人工智能/算法、研发工程师、产品、运营、人事。",
-    "url": "https://campus.ke.com/jobs?activityGuid=46f82e31-4aac-4d4c-be79-e62bed948f18",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "campus",
-    "category": "internet",
-    "location": "苏州、北京、上海",
-    "deadline": "2026/06/29",
-    "tags": [
-      "贝壳找房",
-      "校招",
-      "春招",
-      "互联网/AI",
-      "苏州",
-      "北京",
-      "上海",
-      "房地产"
-    ],
-    "score": 64,
-    "featured": false,
-    "createdAt": "2026-06-29T19:00:02.000Z"
   }
 ]
