@@ -1,5 +1,52 @@
 [
   {
+    "id": "nowcoder-2412",
+    "title": "乐元素科技（北京）股份有限公司 — 网申中 今日收录",
+    "summary": "国内休闲游戏与女性向游戏龙头，内容创作能力突出，产品运营能力领先。。招聘批次：网申中 今日收录。工作地点：北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://app.mokahr.com/campus-recruitment/leyuansu/166186?locale=zh-CN#/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "game",
+    "location": "北京、上海",
+    "deadline": "2026/12/30",
+    "tags": [
+      "乐元素科技（北京）股份有限公司",
+      "校招",
+      "游戏",
+      "北京",
+      "上海"
+    ],
+    "score": 95,
+    "featured": true,
+    "createdAt": "2026-08-26T08:20:11.000Z"
+  },
+  {
+    "id": "nowcoder-1950",
+    "title": "FUNPLUS — 27届秋招 今日收录",
+    "summary": "全球化游戏研发发行龙头，自研自发实力强，SLG 领域领先，多元文化团队创新氛围浓。招聘批次：27届秋招 今日收录。工作地点：杭州、成都、北京。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://app.mokahr.com/campus-recruitment/funplus01/147931#/jobs?page=1&anchorName=jobsList",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "game",
+    "companyType": "foreign",
+    "location": "杭州、成都、北京",
+    "deadline": "2026/11/29",
+    "tags": [
+      "FUNPLUS",
+      "校招",
+      "秋招",
+      "游戏",
+      "杭州",
+      "成都",
+      "北京"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-08-26T08:12:29.000Z"
+  },
+  {
     "id": "nowcoder-267870",
     "title": "安克创新 — 27届秋招 今日收录",
     "summary": "跨境消费电子龙头，多品类自主研发，海外线上渠道完善，全球化运营体系成熟。。招聘批次：27届秋招 今日收录。工作地点：苏州、杭州、长沙、深圳、西安、北京、上海。招聘岗位：市场/营销、技术支持、硬件工程师、人事、电子/半导体等。",
@@ -453,29 +500,6 @@
     "score": 97,
     "featured": true,
     "createdAt": "2026-08-23T14:02:18.000Z"
-  },
-  {
-    "id": "nowcoder-2412",
-    "title": "乐元素科技（北京）股份有限公司 — 网申：已结束",
-    "summary": "国内休闲游戏与女性向游戏龙头，内容创作能力突出，产品运营能力领先。。招聘批次：网申：已结束。工作地点：北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
-    "url": "https://app.mokahr.com/campus-recruitment/leyuansu/166186?locale=zh-CN#/jobs",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "campus",
-    "category": "game",
-    "location": "北京、上海",
-    "deadline": "2026/08/22",
-    "tags": [
-      "乐元素科技（北京）股份有限公司",
-      "校招",
-      "秋招",
-      "游戏",
-      "北京",
-      "上海"
-    ],
-    "score": 90,
-    "featured": true,
-    "createdAt": "2026-08-22T19:00:00.000Z"
   },
   {
     "id": "nowcoder-152730",
