@@ -1,5 +1,177 @@
 [
   {
+    "id": "nowcoder-10130",
+    "title": "半亩花田 — 27届秋招 今日收录",
+    "summary": "个人护理品牌新锐，产品创新性强，市场增长迅速。。招聘批次：27届秋招 今日收录。工作地点：厦门、济南、广州、上海。招聘岗位：后端开发、测试、数据、运维、研发工程师等。",
+    "url": "https://huawutang1.zhiye.com/campus/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "厦门、济南、广州、上海",
+    "deadline": "2026/10/23",
+    "tags": [
+      "半亩花田",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "厦门",
+      "济南",
+      "广州",
+      "电商"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-08-27T15:32:33.000Z"
+  },
+  {
+    "id": "nowcoder-3187",
+    "title": "均胜集团 — 27届秋招 今日收录",
+    "summary": "全球汽车零部件领域龙头，技术研发领先，全产业链布局完善。。招聘批次：27届秋招 今日收录。工作地点：宁波、上海。招聘岗位：后端开发、测试、数据、运维、人工智能/算法等。",
+    "url": "https://app.mokahr.com/campus-recruitment/joyson/94311#/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "宁波、上海",
+    "deadline": "2026/10/22",
+    "tags": [
+      "均胜集团",
+      "校招",
+      "秋招",
+      "车企/IC",
+      "宁波",
+      "上海",
+      "汽车制造"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-08-27T15:30:39.000Z"
+  },
+  {
+    "id": "nowcoder-10315",
+    "title": "晶盛机电 — 27届秋招 今日收录",
+    "summary": "半导体与光伏装备龙头企业，技术壁垒高，国产替代空间大，成长路径清晰。招聘批次：27届秋招 今日收录。工作地点：呼和浩特、杭州、绍兴、银川。招聘岗位：后端开发、数据、人工智能/算法、研发工程师、硬件工程师等。",
+    "url": "https://app.mokahr.com/campus-recruitment/jsjd/118048?locale=zh-CN#/jobs/",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "呼和浩特、杭州、绍兴、银川",
+    "deadline": "2026/10/20",
+    "tags": [
+      "晶盛机电",
+      "校招",
+      "秋招",
+      "车企/IC",
+      "呼和浩特",
+      "杭州",
+      "绍兴"
+    ],
+    "score": 94,
+    "featured": true,
+    "createdAt": "2026-08-27T15:28:08.000Z"
+  },
+  {
+    "id": "nowcoder-145",
+    "title": "亚马逊 — 27届秋招 今日收录",
+    "summary": "全球科技与电商巨头，云计算与 AI 领先，国际化规范，培养体系成熟完善。招聘批次：27届秋招 今日收录。工作地点：深圳、北京、上海、香港。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://www.amazon.jobs/content/zh/career-programs/university?country%5B%5D=CN&cmpid=SM_WEAU200476C&sessionid=",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "深圳、北京、上海、香港",
+    "deadline": "2026/10/23",
+    "tags": [
+      "亚马逊",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "深圳",
+      "北京",
+      "上海"
+    ],
+    "score": 94,
+    "featured": true,
+    "createdAt": "2026-08-27T15:24:10.000Z"
+  },
+  {
+    "id": "nowcoder-27311",
+    "title": "江苏新东方 — 27届秋招 今日收录",
+    "summary": "知名教育服务机构，教研体系成熟，培训完善，提供教学与运营多方向发展。招聘批次：27届秋招 今日收录。工作地点：南京、徐州、常州、南通、连云港、淮安、盐城、扬州、镇江、泰州、宿迁。招聘岗位：运营、市场/营销、采编/写作/出版、影视媒体、管理等。",
+    "url": "https://mp.weixin.qq.com/s/xgEstIV_uzskCWqMEHTt0g",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "南京、徐州、常州、南通、连云港、淮安、盐城、扬州、镇江、泰州、宿迁",
+    "deadline": "2026/10/23",
+    "tags": [
+      "江苏新东方",
+      "校招",
+      "秋招",
+      "南京",
+      "徐州",
+      "常州"
+    ],
+    "score": 95,
+    "featured": true,
+    "createdAt": "2026-08-27T15:14:34.000Z"
+  },
+  {
+    "id": "nowcoder-2723",
+    "title": "震坤行 — 27届秋招 今日收录",
+    "summary": "工业品电商平台领先，供应链整合能力强，数字化服务深入。。招聘批次：27届秋招 今日收录。工作地点：苏州、深圳、西安、乌鲁木齐、北京、上海。招聘岗位：人工智能/算法、机械、化工、电气/自动化、技术支持等。",
+    "url": "https://zhaopin.zkh.com/campus/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "security",
+    "location": "苏州、深圳、西安、乌鲁木齐、北京、上海",
+    "deadline": "2026/10/20",
+    "tags": [
+      "震坤行",
+      "校招",
+      "秋招",
+      "安全/云服务",
+      "苏州",
+      "深圳",
+      "西安",
+      "信息安全",
+      "互联网"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-08-27T14:53:37.000Z"
+  },
+  {
+    "id": "nowcoder-2932",
+    "title": "厦门银行 — 27届秋招 今日收录",
+    "summary": "区域性股份制商业银行，本地服务网络完善，普惠金融与风控能力突出。。招聘批次：27届秋招 今日收录。工作地点：福州、厦门、莆田、三明、泉州、漳州、南平、龙岩、宁德、重庆。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://app.mokahr.com/campus-recruitment/xmbankonline/182209?locale=zh-CN#/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "bank",
+    "location": "福州、厦门、莆田、三明、泉州、漳州、南平、龙岩、宁德、重庆",
+    "deadline": "2026/11/29",
+    "tags": [
+      "厦门银行",
+      "校招",
+      "秋招",
+      "金融",
+      "福州",
+      "厦门",
+      "莆田",
+      "银行"
+    ],
+    "score": 97,
+    "featured": true,
+    "createdAt": "2026-08-27T12:42:56.000Z"
+  },
+  {
     "id": "nowcoder-183",
     "title": "昆仑万维 — 27届秋招 今日收录",
     "summary": "业务涵盖互联网平台运营与人工智能技术研发的综合性互联网企业。。招聘批次：27届秋招 今日收录。工作地点：北京、上海。招聘岗位：后端开发、前端开发、市场/营销、人工智能/算法、产品等。",
@@ -547,32 +719,6 @@
     "score": 91,
     "featured": true,
     "createdAt": "2026-08-23T14:02:35.000Z"
-  },
-  {
-    "id": "nowcoder-2932",
-    "title": "厦门银行 — 27届秋招",
-    "summary": "区域性股份制商业银行，本地服务网络完善，普惠金融与风控能力突出。。招聘批次：27届秋招。工作地点：福州、厦门、莆田、三明、泉州、漳州、南平、龙岩、宁德、重庆。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
-    "url": "https://xmbank.mokahr.vip/campus-recruitment/xmbankonline/182209/#/",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "campus",
-    "category": "finance",
-    "companyType": "bank",
-    "location": "福州、厦门、莆田、三明、泉州、漳州、南平、龙岩、宁德、重庆",
-    "deadline": "2026/11/29",
-    "tags": [
-      "厦门银行",
-      "校招",
-      "秋招",
-      "金融",
-      "福州",
-      "厦门",
-      "莆田",
-      "银行"
-    ],
-    "score": 97,
-    "featured": true,
-    "createdAt": "2026-08-23T14:02:18.000Z"
   },
   {
     "id": "nowcoder-152730",
@@ -1124,7 +1270,7 @@
       "上海",
       "硬件"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-08-19T07:06:27.000Z"
   },
@@ -1294,8 +1440,8 @@
       "深圳",
       "通信电子"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-08-12T09:44:43.000Z"
   },
   {
@@ -1343,7 +1489,7 @@
       "成都",
       "银行"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-08-12T07:59:33.000Z"
   },
