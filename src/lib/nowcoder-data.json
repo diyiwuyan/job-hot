@@ -229,6 +229,28 @@
     "createdAt": "2026-08-26T10:38:03.000Z"
   },
   {
+    "id": "nowcoder-2412",
+    "title": "乐元素科技（北京）股份有限公司 — 网申中",
+    "summary": "国内休闲游戏与女性向游戏龙头，内容创作能力突出，产品运营能力领先。。招聘批次：网申中。工作地点：北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://app.mokahr.com/campus-recruitment/leyuansu/166186?locale=zh-CN#/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "game",
+    "location": "北京、上海",
+    "deadline": "2026/12/30",
+    "tags": [
+      "乐元素科技（北京）股份有限公司",
+      "校招",
+      "游戏",
+      "北京",
+      "上海"
+    ],
+    "score": 95,
+    "featured": true,
+    "createdAt": "2026-08-26T08:20:11.000Z"
+  },
+  {
     "id": "nowcoder-715",
     "title": "小红书 — 27届实习",
     "summary": "国内头部生活方式分享平台，用户生态完善，内容创作与商业转化能力突出。。招聘批次：27届实习。工作地点：杭州、武汉、深圳、珠海、北京、上海、香港。招聘岗位：人工智能/算法、研发工程师、产品。",
@@ -401,6 +423,31 @@
     "score": 87,
     "featured": true,
     "createdAt": "2026-08-13T14:42:44.000Z"
+  },
+  {
+    "id": "nowcoder-2647",
+    "title": "天翼云科技有限公司 — 27届秋招",
+    "summary": "国内云服务龙头央企，全栈云能力突出，政务与行业云服务领先。。招聘批次：27届秋招。工作地点：厦门、广州、深圳、成都、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://www.nowcoder.com/jobs/company-project?projectId=2607&deliverSource=4&activityId=174&activitySuffix=2027SP&pageSource=5009&channel=schedule",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "厦门、广州、深圳、成都、北京、上海",
+    "deadline": "2026/10/02",
+    "tags": [
+      "天翼云科技有限公司",
+      "校招",
+      "秋招",
+      "车企/IC",
+      "厦门",
+      "广州",
+      "深圳",
+      "通信电子"
+    ],
+    "score": 76,
+    "featured": false,
+    "createdAt": "2026-08-12T09:44:43.000Z"
   },
   {
     "id": "nowcoder-1870",
