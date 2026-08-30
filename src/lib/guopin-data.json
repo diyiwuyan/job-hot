@@ -69324,8 +69324,8 @@
       "制造业",
       "平顶山"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-08-22T00:00:00.000Z"
   },
   {
@@ -69348,8 +69348,8 @@
       "航天",
       "天津"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-08-22T00:00:00.000Z"
   },
   {
@@ -69772,54 +69772,6 @@
     "createdAt": "2026-08-21T19:24:57.000Z"
   },
   {
-    "id": "guopin-214743984067577187",
-    "title": "北京航天情报与信息研究所 — 知识产权数据架构师",
-    "summary": "企业性质：事业单位。行业：航天。工作地点：北京-海淀区。薪资面议。学历：硕士。规模：500-1000人。",
-    "url": "https://www.iguopin.com/job/detail?id=214743984067577187",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "institution",
-    "location": "北京-海淀区",
-    "deadline": "2026/11/14",
-    "tags": [
-      "北京航天情报与信息研究所",
-      "校招",
-      "国企",
-      "车企/IC",
-      "航天",
-      "北京"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-08-21T18:45:11.000Z"
-  },
-  {
-    "id": "guopin-215658610322047094",
-    "title": "北京航天情报与信息研究所 — 知识产权数据架构师",
-    "summary": "企业性质：事业单位。行业：航天。工作地点：北京-海淀区。薪资面议。学历：硕士。规模：500-1000人。",
-    "url": "https://www.iguopin.com/job/detail?id=215658610322047094",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "institution",
-    "location": "北京-海淀区",
-    "deadline": "2026/11/14",
-    "tags": [
-      "北京航天情报与信息研究所",
-      "校招",
-      "国企",
-      "车企/IC",
-      "航天",
-      "北京"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-08-21T18:45:11.000Z"
-  },
-  {
     "id": "guopin-214743984906437987",
     "title": "北京航天情报与信息研究所 — 科技翻译(英、法、俄)",
     "summary": "企业性质：事业单位。行业：航天。工作地点：北京-海淀区。薪资面议。学历：硕士。规模：500-1000人。",
@@ -69844,6 +69796,54 @@
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
   {
+    "id": "guopin-214743984067577187",
+    "title": "北京航天情报与信息研究所 — 知识产权数据架构师",
+    "summary": "企业性质：事业单位。行业：航天。工作地点：北京-海淀区。薪资面议。学历：硕士。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=214743984067577187",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "institution",
+    "location": "北京-海淀区",
+    "deadline": "2026/11/14",
+    "tags": [
+      "北京航天情报与信息研究所",
+      "校招",
+      "国企",
+      "车企/IC",
+      "航天",
+      "北京"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-08-21T18:45:11.000Z"
+  },
+  {
+    "id": "guopin-215658610322047094",
+    "title": "北京航天情报与信息研究所 — 知识产权数据架构师",
+    "summary": "企业性质：事业单位。行业：航天。工作地点：北京-海淀区。薪资面议。学历：硕士。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=215658610322047094",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "institution",
+    "location": "北京-海淀区",
+    "deadline": "2026/11/14",
+    "tags": [
+      "北京航天情报与信息研究所",
+      "校招",
+      "国企",
+      "车企/IC",
+      "航天",
+      "北京"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-08-21T18:45:11.000Z"
+  },
+  {
     "id": "guopin-214743984688334179",
     "title": "北京航天情报与信息研究所 — 科技翻译(英、法、俄)",
     "summary": "企业性质：事业单位。行业：航天。工作地点：北京-海淀区。薪资面议。学历：硕士。规模：500-1000人。",
@@ -69863,7 +69863,7 @@
       "航天",
       "北京"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -69887,7 +69887,7 @@
       "航天",
       "北京"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -69911,7 +69911,7 @@
       "航天",
       "北京"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -69935,7 +69935,7 @@
       "航天",
       "北京"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -69959,7 +69959,7 @@
       "航天",
       "北京"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -69983,7 +69983,7 @@
       "航天",
       "北京"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -70007,7 +70007,7 @@
       "航天",
       "北京"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -70031,7 +70031,7 @@
       "航天",
       "北京"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -70055,7 +70055,7 @@
       "航天",
       "北京"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -70079,7 +70079,7 @@
       "航天",
       "北京"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -70103,7 +70103,7 @@
       "航天",
       "北京"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -70127,7 +70127,7 @@
       "航天",
       "北京"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -70151,7 +70151,7 @@
       "航天",
       "北京"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -70175,7 +70175,7 @@
       "航天",
       "北京"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -70199,7 +70199,7 @@
       "航天",
       "北京"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -70223,7 +70223,7 @@
       "航天",
       "北京"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -70247,7 +70247,7 @@
       "航天",
       "北京"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -70271,7 +70271,7 @@
       "航天",
       "北京"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -70295,7 +70295,7 @@
       "航天",
       "北京"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -70319,7 +70319,7 @@
       "航天",
       "北京"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -70343,7 +70343,7 @@
       "航天",
       "北京"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -70367,7 +70367,7 @@
       "航天",
       "北京"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -70391,7 +70391,7 @@
       "航天",
       "北京"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -70415,7 +70415,7 @@
       "航天",
       "北京"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -70439,7 +70439,7 @@
       "航天",
       "北京"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -70463,7 +70463,7 @@
       "航天",
       "北京"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -70487,7 +70487,7 @@
       "航天",
       "北京"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -70511,7 +70511,7 @@
       "航天",
       "北京"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -70535,7 +70535,7 @@
       "航天",
       "北京"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -70559,7 +70559,7 @@
       "航天",
       "北京"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -70583,7 +70583,7 @@
       "航天",
       "北京"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -70607,7 +70607,7 @@
       "航天",
       "北京"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
@@ -70631,7 +70631,7 @@
       "航天",
       "北京"
     ],
-    "score": 72,
+    "score": 67,
     "featured": false,
     "createdAt": "2026-08-21T18:45:11.000Z"
   },
