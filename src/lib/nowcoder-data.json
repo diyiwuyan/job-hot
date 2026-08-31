@@ -1,5 +1,56 @@
 [
   {
+    "id": "nowcoder-2367",
+    "title": "智加科技 — 27届秋招 今日收录",
+    "summary": "全球领先自动驾驶科技公司。拥有L4级全栈自动驾驶技术研发能力。。招聘批次：27届秋招 今日收录。工作地点：苏州、北京、上海。招聘岗位：后端开发、测试、数据、技术支持、硬件工程师等。",
+    "url": "https://app.mokahr.com/social-recruitment/plus/73958#/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "苏州、北京、上海",
+    "deadline": "2026/12/30",
+    "tags": [
+      "智加科技",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "苏州",
+      "北京",
+      "上海",
+      "人工智能"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-08-31T06:39:20.000Z"
+  },
+  {
+    "id": "nowcoder-3098",
+    "title": "福建博思软件 — 27届秋招 今日收录",
+    "summary": "聚焦财政信息化细分领域，业务稳定且专业性强，利于新人深度积累行业知识。。招聘批次：27届秋招 今日收录。工作地点：福州、西宁、北京、上海。招聘岗位：人工智能/算法、研发工程师、销售技术支持、产品、项目。",
+    "url": "https://app.mokahr.com/campus-recruitment/bosssoft/68370#/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "福州、西宁、北京、上海",
+    "deadline": "2026/11/29",
+    "tags": [
+      "福建博思软件",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "福州",
+      "西宁",
+      "北京",
+      "工具",
+      "互联网"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-08-31T03:32:36.000Z"
+  },
+  {
     "id": "nowcoder-32724",
     "title": "大连市西岗区朴新科技文化培训学校 — 27届秋招 今日收录",
     "summary": "区域头部教育培训机构，教研体系完善，个性化教学服务能力突出。。招聘批次：27届秋招 今日收录。工作地点：大连。招聘岗位：运营、市场/营销、销售类、客服、商务等。",
@@ -364,31 +415,6 @@
     "score": 92,
     "featured": true,
     "createdAt": "2026-08-29T23:44:18.000Z"
-  },
-  {
-    "id": "nowcoder-2367",
-    "title": "智加科技 — 27届秋招",
-    "summary": "全球领先自动驾驶科技公司。拥有L4级全栈自动驾驶技术研发能力。。招聘批次：27届秋招。工作地点：苏州、北京、上海。招聘岗位：后端开发、测试、数据、人工智能/算法、研发工程师等。",
-    "url": "https://app.mokahr.com/social-recruitment/plus/73958#/jobs",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "campus",
-    "category": "internet",
-    "location": "苏州、北京、上海",
-    "deadline": "2026/11/29",
-    "tags": [
-      "智加科技",
-      "校招",
-      "秋招",
-      "互联网/AI",
-      "苏州",
-      "北京",
-      "上海",
-      "人工智能"
-    ],
-    "score": 93,
-    "featured": true,
-    "createdAt": "2026-08-29T14:43:21.000Z"
   },
   {
     "id": "nowcoder-1767",
@@ -811,7 +837,7 @@
       "深圳",
       "视频直播"
     ],
-    "score": 89,
+    "score": 84,
     "featured": true,
     "createdAt": "2026-08-16T03:12:44.000Z"
   },
@@ -936,7 +962,7 @@
       "西安",
       "企业服务"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-07-31T07:02:35.000Z"
   },
