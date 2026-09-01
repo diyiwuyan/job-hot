@@ -1,5 +1,28 @@
 [
   {
+    "id": "nowcoder-5767",
+    "title": "乐信圣文 — 27届秋招",
+    "summary": "全球领先的移动出海游戏公司，公司福利好。招聘批次：27届秋招。工作地点：杭州、北京。招聘岗位：客户端开发、测试、游戏策划、交互/设计、动画/特效。",
+    "url": "https://learnings.jobs.feishu.cn/948023",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "game",
+    "location": "杭州、北京",
+    "deadline": "2026/11/29",
+    "tags": [
+      "乐信圣文",
+      "校招",
+      "秋招",
+      "游戏",
+      "杭州",
+      "北京"
+    ],
+    "score": 88,
+    "featured": true,
+    "createdAt": "2026-09-01T07:08:54.000Z"
+  },
+  {
     "id": "nowcoder-32724",
     "title": "大连市西岗区朴新科技文化培训学校 — 27届秋招",
     "summary": "区域头部教育培训机构，教研体系完善，个性化教学服务能力突出。。招聘批次：27届秋招。工作地点：大连。招聘岗位：客服、教育、市场/营销、商务、销售类等。",
@@ -721,6 +744,32 @@
     "createdAt": "2026-08-26T08:20:11.000Z"
   },
   {
+    "id": "nowcoder-811",
+    "title": "中国电信 — 27届秋招",
+    "summary": "国内通信行业龙头央企，全产业链布局，5G 与数字经济服务能力领先。。招聘批次：27届秋招。工作地点：深圳、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://job.chinatelecom.com.cn/",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "深圳、北京、上海",
+    "deadline": "2026/10/30",
+    "tags": [
+      "中国电信",
+      "校招",
+      "秋招",
+      "车企/IC",
+      "深圳",
+      "北京",
+      "上海",
+      "通信电子"
+    ],
+    "score": 87,
+    "featured": true,
+    "createdAt": "2026-08-24T09:32:13.000Z"
+  },
+  {
     "id": "nowcoder-715",
     "title": "小红书 — 27届实习",
     "summary": "国内头部生活方式分享平台，用户生态完善，内容创作与商业转化能力突出。。招聘批次：27届实习。工作地点：杭州、武汉、深圳、珠海、北京、上海、香港。招聘岗位：人工智能/算法、研发工程师、产品。",
@@ -1040,5 +1089,22 @@
     "score": 74,
     "featured": false,
     "createdAt": "2026-07-15T08:35:32.000Z"
+  },
+  {
+    "id": "nowcoder-22230",
+    "title": "天翼云 — 校招",
+    "summary": "招聘批次：校招。",
+    "url": "https://www.nowcoder.com/enterprise/22230",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "tags": [
+      "天翼云",
+      "校招"
+    ],
+    "score": 67,
+    "featured": false,
+    "createdAt": "2026-07-06T08:06:04.000Z"
   }
 ]
