@@ -69470,8 +69470,8 @@
       "互联网和相关服务",
       "成都"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-08-24T18:52:45.000Z"
   },
   {
@@ -69686,7 +69686,7 @@
       "成都",
       "西安"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-08-24T14:32:03.000Z"
   },
@@ -93866,7 +93866,7 @@
       "土木工程建筑业",
       "海外"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-08-18T00:00:08.000Z"
   },
@@ -95300,7 +95300,7 @@
       "商务服务业",
       "北京"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-08-17T22:41:37.000Z"
   },
@@ -111774,7 +111774,7 @@
       "医药制造业",
       "上海"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-08-01T18:16:54.000Z"
   },
@@ -122727,7 +122727,7 @@
       "化学原料和化学制品制造业",
       "上海"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-07-22T00:00:00.000Z"
   },
@@ -123959,7 +123959,7 @@
       "化学原料和化学制品制造业",
       "上海"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-07-20T00:00:00.000Z"
   },
@@ -124303,30 +124303,6 @@
     "createdAt": "2026-07-17T00:00:00.000Z"
   },
   {
-    "id": "guopin-209657564407793962",
-    "title": "中国能源建设集团沈阳电力机械总厂有限公司 — 工艺设计师",
-    "summary": "企业性质：国企。行业：其他制造业。工作地点：沈阳-铁西区。薪资：4000-8000元/月。学历：本科。规模：300-500人。",
-    "url": "https://www.iguopin.com/job/detail?id=209657564407793962",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "沈阳-铁西区",
-    "deadline": "2026/09/01",
-    "tags": [
-      "中国能源建设集团沈阳电力机械总厂有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "其他制造业",
-      "沈阳"
-    ],
-    "score": 73,
-    "featured": false,
-    "createdAt": "2026-07-17T00:00:00.000Z"
-  },
-  {
     "id": "guopin-209654556940830961",
     "title": "国药集团新疆新特药业有限公司 — 物流中心 拣选员（应届本科、物流相关专业）",
     "summary": "企业性质：国企。行业：批发业。工作地点：乌鲁木齐。薪资：5000-6000元/月。学历：本科。规模：1000-2000人。",
@@ -124370,6 +124346,30 @@
       "乌鲁木齐"
     ],
     "score": 70,
+    "featured": false,
+    "createdAt": "2026-07-17T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-209657564407793962",
+    "title": "中国能源建设集团沈阳电力机械总厂有限公司 — 工艺设计师",
+    "summary": "企业性质：国企。行业：其他制造业。工作地点：沈阳-铁西区。薪资：4000-8000元/月。学历：本科。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=209657564407793962",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "沈阳-铁西区",
+    "deadline": "2026/09/01",
+    "tags": [
+      "中国能源建设集团沈阳电力机械总厂有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "其他制造业",
+      "沈阳"
+    ],
+    "score": 68,
     "featured": false,
     "createdAt": "2026-07-17T00:00:00.000Z"
   },
@@ -162549,7 +162549,7 @@
   {
     "id": "guopin-203381133260358471",
     "title": "深圳市航天泰瑞捷电子有限公司 — 客服助理工程师",
-    "summary": "企业性质：国企。行业：制造业。工作地点：深圳-罗湖区。薪资：6000-8000元/月。学历：本科。规模：100-300人。",
+    "summary": "企业性质：国企。行业：仪器仪表制造业。工作地点：深圳-罗湖区。薪资：6000-8000元/月。学历：本科。规模：100-300人。",
     "url": "https://www.iguopin.com/job/detail?id=203381133260358471",
     "source": "国聘",
     "sourceHandle": "@guopin",
@@ -162563,7 +162563,7 @@
       "校招",
       "国企",
       "车企/IC",
-      "制造业",
+      "仪器仪表制造业",
       "深圳"
     ],
     "score": 72,
@@ -163037,30 +163037,6 @@
     "createdAt": "2026-06-04T00:00:00.000Z"
   },
   {
-    "id": "guopin-203375349399028547",
-    "title": "卢阿拉巴铜冶炼股份有限公司 — 机械工程技术员",
-    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：中国。薪资面议。学历：本科。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=203375349399028547",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "中国",
-    "deadline": "2026/09/01",
-    "tags": [
-      "卢阿拉巴铜冶炼股份有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "有色金属冶炼和压延加工业",
-      "中国"
-    ],
-    "score": 74,
-    "featured": false,
-    "createdAt": "2026-06-04T00:00:00.000Z"
-  },
-  {
     "id": "guopin-203384405907997510",
     "title": "中国化学工程第四建设有限公司 — 计算机工程师",
     "summary": "企业性质：国企。行业：建筑业。工作地点：岳阳-岳阳楼区。薪资：6300-7200元/月。学历：硕士。规模：2000-5000人。",
@@ -163079,29 +163055,6 @@
       "互联网/AI",
       "建筑业",
       "岳阳"
-    ],
-    "score": 73,
-    "featured": false,
-    "createdAt": "2026-06-04T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-203375572737327796",
-    "title": "卢阿拉巴铜冶炼股份有限公司 — 法务专员",
-    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：刚果(金)。薪资面议。学历：硕士。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=203375572737327796",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "刚果(金)",
-    "deadline": "2026/09/01",
-    "tags": [
-      "卢阿拉巴铜冶炼股份有限公司",
-      "校招",
-      "国企",
-      "有色金属冶炼和压延加工业",
-      "刚果(金)"
     ],
     "score": 73,
     "featured": false,
@@ -163249,29 +163202,6 @@
     "createdAt": "2026-06-04T00:00:00.000Z"
   },
   {
-    "id": "guopin-203375995187626822",
-    "title": "卢阿拉巴铜冶炼股份有限公司 — 电气、仪表技术员",
-    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：刚果(金)。薪资面议。学历：本科。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=203375995187626822",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "刚果(金)",
-    "deadline": "2026/09/01",
-    "tags": [
-      "卢阿拉巴铜冶炼股份有限公司",
-      "校招",
-      "国企",
-      "有色金属冶炼和压延加工业",
-      "刚果(金)"
-    ],
-    "score": 72,
-    "featured": false,
-    "createdAt": "2026-06-04T00:00:00.000Z"
-  },
-  {
     "id": "guopin-203393576351040176",
     "title": "中煤浙江地质集团有限公司（中国煤炭地质总局浙江煤炭地质局） — 法务专员",
     "summary": "企业性质：国企。行业：专业技术服务业。工作地点：杭州。薪资：7000-10000元/月。学历：本科。规模：500-1000人。",
@@ -163342,52 +163272,6 @@
     "createdAt": "2026-06-04T00:00:00.000Z"
   },
   {
-    "id": "guopin-203376414534140596",
-    "title": "卢阿拉巴铜冶炼股份有限公司 — 法语外联翻译",
-    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：刚果(金)。薪资面议。学历：硕士。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=203376414534140596",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "刚果(金)",
-    "deadline": "2026/09/01",
-    "tags": [
-      "卢阿拉巴铜冶炼股份有限公司",
-      "校招",
-      "国企",
-      "有色金属冶炼和压延加工业",
-      "刚果(金)"
-    ],
-    "score": 71,
-    "featured": false,
-    "createdAt": "2026-06-04T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-203376106336682818",
-    "title": "卢阿拉巴铜冶炼股份有限公司 — 化学工程技术员",
-    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：刚果(金)。薪资面议。学历：本科。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=203376106336682818",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "刚果(金)",
-    "deadline": "2026/09/01",
-    "tags": [
-      "卢阿拉巴铜冶炼股份有限公司",
-      "校招",
-      "国企",
-      "有色金属冶炼和压延加工业",
-      "刚果(金)"
-    ],
-    "score": 71,
-    "featured": false,
-    "createdAt": "2026-06-04T00:00:00.000Z"
-  },
-  {
     "id": "guopin-203426045951476635",
     "title": "北京首都科技发展集团有限公司 — 博士后科研人员-脑机接口和医疗器械研究方向",
     "summary": "企业性质：国企。行业：科技推广和应用服务业。工作地点：北京-海淀区。薪资：20000-25000元/月。学历：博士。规模：100-300人。",
@@ -163406,29 +163290,6 @@
       "互联网/AI",
       "科技推广和应用服务业",
       "北京"
-    ],
-    "score": 70,
-    "featured": false,
-    "createdAt": "2026-06-04T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-203374938474676916",
-    "title": "卢阿拉巴铜冶炼股份有限公司 — 财务管理人员",
-    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：刚果(金)。薪资面议。学历：硕士。规模：1000-2000人。",
-    "url": "https://www.iguopin.com/job/detail?id=203374938474676916",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "刚果(金)",
-    "deadline": "2026/09/01",
-    "tags": [
-      "卢阿拉巴铜冶炼股份有限公司",
-      "校招",
-      "国企",
-      "有色金属冶炼和压延加工业",
-      "刚果(金)"
     ],
     "score": 70,
     "featured": false,
@@ -163478,6 +163339,30 @@
       "上海"
     ],
     "score": 70,
+    "featured": false,
+    "createdAt": "2026-06-04T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-203375349399028547",
+    "title": "卢阿拉巴铜冶炼股份有限公司 — 机械工程技术员",
+    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：中国。薪资面议。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=203375349399028547",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "中国",
+    "deadline": "2026/09/01",
+    "tags": [
+      "卢阿拉巴铜冶炼股份有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "有色金属冶炼和压延加工业",
+      "中国"
+    ],
+    "score": 69,
     "featured": false,
     "createdAt": "2026-06-04T00:00:00.000Z"
   },
@@ -163578,6 +163463,29 @@
     "createdAt": "2026-06-04T00:00:00.000Z"
   },
   {
+    "id": "guopin-203375572737327796",
+    "title": "卢阿拉巴铜冶炼股份有限公司 — 法务专员",
+    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：刚果(金)。薪资面议。学历：硕士。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=203375572737327796",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "刚果(金)",
+    "deadline": "2026/09/01",
+    "tags": [
+      "卢阿拉巴铜冶炼股份有限公司",
+      "校招",
+      "国企",
+      "有色金属冶炼和压延加工业",
+      "刚果(金)"
+    ],
+    "score": 68,
+    "featured": false,
+    "createdAt": "2026-06-04T00:00:00.000Z"
+  },
+  {
     "id": "guopin-203389180384904002",
     "title": "北汽福田汽车股份有限公司 — 应届校园人才招聘（财务专员-北京）",
     "summary": "企业性质：国企。行业：制造业。工作地点：北京-昌平区、潍坊-坊子区。薪资面议。学历：本科。规模：30000人以上。",
@@ -163623,6 +163531,29 @@
       "南通"
     ],
     "score": 68,
+    "featured": false,
+    "createdAt": "2026-06-04T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-203375995187626822",
+    "title": "卢阿拉巴铜冶炼股份有限公司 — 电气、仪表技术员",
+    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：刚果(金)。薪资面议。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=203375995187626822",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "刚果(金)",
+    "deadline": "2026/09/01",
+    "tags": [
+      "卢阿拉巴铜冶炼股份有限公司",
+      "校招",
+      "国企",
+      "有色金属冶炼和压延加工业",
+      "刚果(金)"
+    ],
+    "score": 67,
     "featured": false,
     "createdAt": "2026-06-04T00:00:00.000Z"
   },
@@ -163676,6 +163607,52 @@
     "createdAt": "2026-06-04T00:00:00.000Z"
   },
   {
+    "id": "guopin-203376414534140596",
+    "title": "卢阿拉巴铜冶炼股份有限公司 — 法语外联翻译",
+    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：刚果(金)。薪资面议。学历：硕士。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=203376414534140596",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "刚果(金)",
+    "deadline": "2026/09/01",
+    "tags": [
+      "卢阿拉巴铜冶炼股份有限公司",
+      "校招",
+      "国企",
+      "有色金属冶炼和压延加工业",
+      "刚果(金)"
+    ],
+    "score": 66,
+    "featured": false,
+    "createdAt": "2026-06-04T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-203376106336682818",
+    "title": "卢阿拉巴铜冶炼股份有限公司 — 化学工程技术员",
+    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：刚果(金)。薪资面议。学历：本科。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=203376106336682818",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "刚果(金)",
+    "deadline": "2026/09/01",
+    "tags": [
+      "卢阿拉巴铜冶炼股份有限公司",
+      "校招",
+      "国企",
+      "有色金属冶炼和压延加工业",
+      "刚果(金)"
+    ],
+    "score": 66,
+    "featured": false,
+    "createdAt": "2026-06-04T00:00:00.000Z"
+  },
+  {
     "id": "guopin-203377085287236276",
     "title": "卢阿拉巴铜冶炼股份有限公司 — 信息化建设工程师",
     "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：刚果(金)。薪资面议。学历：本科。规模：1000-2000人。",
@@ -163695,6 +163672,29 @@
       "刚果(金)"
     ],
     "score": 66,
+    "featured": false,
+    "createdAt": "2026-06-04T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-203374938474676916",
+    "title": "卢阿拉巴铜冶炼股份有限公司 — 财务管理人员",
+    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：刚果(金)。薪资面议。学历：硕士。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=203374938474676916",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "刚果(金)",
+    "deadline": "2026/09/01",
+    "tags": [
+      "卢阿拉巴铜冶炼股份有限公司",
+      "校招",
+      "国企",
+      "有色金属冶炼和压延加工业",
+      "刚果(金)"
+    ],
+    "score": 65,
     "featured": false,
     "createdAt": "2026-06-04T00:00:00.000Z"
   },
