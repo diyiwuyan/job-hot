@@ -17,7 +17,33 @@
     ],
     "score": 88,
     "featured": true,
-    "createdAt": "2026-09-02T02:58:49.000Z"
+    "createdAt": "2026-09-02T08:43:59.000Z"
+  },
+  {
+    "id": "nowcoder-2275",
+    "title": "卓望公司 — 27届秋招",
+    "summary": "卓望公司成立于2000年6月，是中国移动的控股子公司，作为中国无线数据业务最早的。招聘批次：27届秋招。工作地点：广州、深圳、北京。招聘岗位：后端开发、测试、数据、运维、人工智能/算法等。",
+    "url": "https://bsurl.cn/v2/ot62chJo",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "security",
+    "location": "广州、深圳、北京",
+    "deadline": "2026/12/30",
+    "tags": [
+      "卓望公司",
+      "校招",
+      "秋招",
+      "安全/云服务",
+      "广州",
+      "深圳",
+      "北京",
+      "信息安全",
+      "数据服务"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-09-02T08:22:08.000Z"
   },
   {
     "id": "nowcoder-5767",
@@ -806,8 +832,8 @@
       "北京",
       "房地产"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-08-25T06:31:54.000Z"
   },
   {
@@ -955,7 +981,7 @@
       "深圳",
       "工具"
     ],
-    "score": 89,
+    "score": 84,
     "featured": true,
     "createdAt": "2026-08-18T06:22:00.000Z"
   },
@@ -1083,6 +1109,32 @@
     "score": 80,
     "featured": true,
     "createdAt": "2026-08-12T07:59:33.000Z"
+  },
+  {
+    "id": "nowcoder-958",
+    "title": "联想 — 27届秋招",
+    "summary": "全球领先的智能设备与解决方案提供商，业务涵盖个人电脑、服务器与智能硬件。。招聘批次：27届秋招。工作地点：哈尔滨、苏州、杭州、合肥、厦门、济南、武汉、深圳、成都、西安、北京、上海、重庆、天津。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://talent.lenovo.com.cn/position",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "哈尔滨、苏州、杭州、合肥、厦门、济南、武汉、深圳、成都、西安、北京、上海、重庆、天津",
+    "deadline": "2026/11/13",
+    "tags": [
+      "联想",
+      "校招",
+      "秋招",
+      "车企/IC",
+      "哈尔滨",
+      "苏州",
+      "杭州",
+      "硬件",
+      "数据服务"
+    ],
+    "score": 82,
+    "featured": true,
+    "createdAt": "2026-08-07T05:36:22.000Z"
   },
   {
     "id": "nowcoder-3186",
