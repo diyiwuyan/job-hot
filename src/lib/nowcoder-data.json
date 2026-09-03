@@ -142,6 +142,31 @@
     "createdAt": "2026-08-31T03:32:36.000Z"
   },
   {
+    "id": "nowcoder-1049",
+    "title": "深圳虾皮信息科技有限公司 — 27届秋招",
+    "summary": "东南亚及巴西领航电商平台，有六险一金、免费健身房、年度体检等。。招聘批次：27届秋招。工作地点：广州、深圳、北京、上海。招聘岗位：后端开发、人工智能/算法、产品、市场/营销、商务等。",
+    "url": "https://app.mokahr.com/campus-recruitment/shopee/170435?locale=zh-CN",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "广州、深圳、北京、上海",
+    "deadline": "2026/10/12",
+    "tags": [
+      "深圳虾皮信息科技有限公司",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "广州",
+      "深圳",
+      "北京",
+      "互联网"
+    ],
+    "score": 95,
+    "featured": true,
+    "createdAt": "2026-08-31T00:11:56.000Z"
+  },
+  {
     "id": "nowcoder-8461",
     "title": "奔图科技股份有限公司 — 27届秋招",
     "summary": "专注于打印机通用耗材芯片及整机研发制造，业务涵盖集成电路与打印设备。。招聘批次：27届秋招。工作地点：合肥、珠海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
@@ -982,6 +1007,29 @@
     "score": 81,
     "featured": true,
     "createdAt": "2026-08-19T07:06:27.000Z"
+  },
+  {
+    "id": "nowcoder-1059",
+    "title": "度小满 — 27届秋招",
+    "summary": "国内领先的金融科技企业，技术研发扎实，普惠金融服务能力行业突出。。招聘批次：27届秋招。工作地点：北京、上海。招聘岗位：后端开发、前端开发、测试、数据、人工智能/算法等。",
+    "url": "https://duxiaoman.jobs.feishu.cn/051736/?spread=N8AR1QD",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "finance",
+    "location": "北京、上海",
+    "deadline": "2026/10/30",
+    "tags": [
+      "度小满",
+      "校招",
+      "秋招",
+      "金融",
+      "北京",
+      "上海"
+    ],
+    "score": 83,
+    "featured": true,
+    "createdAt": "2026-08-19T06:27:44.000Z"
   },
   {
     "id": "nowcoder-652",
