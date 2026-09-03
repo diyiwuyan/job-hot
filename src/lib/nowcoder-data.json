@@ -116,6 +116,28 @@
     "createdAt": "2026-08-31T06:39:20.000Z"
   },
   {
+    "id": "nowcoder-2197",
+    "title": "平安产险科技中心 — 27届秋招",
+    "summary": "保险行业标杆，综合金融实践平台。。招聘批次：27届秋招。工作地点：深圳。招聘岗位：后端开发、测试、数据、运维、人工智能/算法等。",
+    "url": "https://campus.pingan.com/paccbxkjzx/position",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "finance",
+    "location": "深圳",
+    "deadline": "2026/12/30",
+    "tags": [
+      "平安产险科技中心",
+      "校招",
+      "秋招",
+      "金融",
+      "深圳"
+    ],
+    "score": 97,
+    "featured": true,
+    "createdAt": "2026-08-31T06:05:21.000Z"
+  },
+  {
     "id": "nowcoder-3098",
     "title": "福建博思软件 — 27届秋招",
     "summary": "聚焦财政信息化细分领域，业务稳定且专业性强，利于新人深度积累行业知识。。招聘批次：27届秋招。工作地点：福州、西宁、北京、上海。招聘岗位：人工智能/算法、研发工程师、销售技术支持、产品、项目。",
@@ -835,7 +857,7 @@
       "南昌",
       "消费生活"
     ],
-    "score": 92,
+    "score": 87,
     "featured": true,
     "createdAt": "2026-08-26T10:38:03.000Z"
   },
@@ -1027,8 +1049,8 @@
       "北京",
       "上海"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-08-19T06:27:44.000Z"
   },
   {
