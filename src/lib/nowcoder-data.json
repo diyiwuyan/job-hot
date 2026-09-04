@@ -1,5 +1,118 @@
 [
   {
+    "id": "nowcoder-28204",
+    "title": "武汉开目信息技术股份有限公司 — 27届秋招 今日收录",
+    "summary": "工业软件领域专业厂商，专注于智能制造核心软件研发。招聘批次：27届秋招 今日收录。工作地点：武汉。招聘岗位：后端开发、前端开发、测试、人工智能/算法、研发工程师等。",
+    "url": "https://mp.weixin.qq.com/s/k1y1Ea4n4a5DlZmbqY3CJw",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "武汉",
+    "deadline": "2026/10/31",
+    "tags": [
+      "武汉开目信息技术股份有限公司",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "武汉"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-09-03T16:42:49.000Z"
+  },
+  {
+    "id": "nowcoder-25220",
+    "title": "豪雅集团 — 27届秋招 今日收录",
+    "summary": "全球光学与电子元器件领域龙头，技术积淀深厚，全产业链研发能力突出。。招聘批次：27届秋招 今日收录。工作地点：宁波。招聘岗位：后端开发、人工智能/算法、研发工程师、机械、化工等。",
+    "url": "https://mp.weixin.qq.com/s/PFYNYew7wVGDM7B9xz-hvg",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "宁波",
+    "deadline": "2026/10/31",
+    "tags": [
+      "豪雅集团",
+      "校招",
+      "秋招",
+      "宁波"
+    ],
+    "score": 94,
+    "featured": true,
+    "createdAt": "2026-09-03T16:36:11.000Z"
+  },
+  {
+    "id": "nowcoder-24019",
+    "title": "奥特维 — 27届秋招 今日收录",
+    "summary": "光伏串焊机全球龙头，锂电、半导体设备同步发力，高端装备成长空间广阔。招聘批次：27届秋招 今日收录。工作地点：秦皇岛、无锡、苏州、南通、深圳。招聘岗位：后端开发、数据、运维、人工智能/算法、研发工程师等。",
+    "url": "https://app.mokahr.com/campus-recruitment/wxautowell/45558#/jobs?page=1&anchorName=jobsList",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "秦皇岛、无锡、苏州、南通、深圳",
+    "deadline": "2026/10/31",
+    "tags": [
+      "奥特维",
+      "校招",
+      "秋招",
+      "车企/IC",
+      "秦皇岛",
+      "无锡",
+      "苏州"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-09-03T16:34:29.000Z"
+  },
+  {
+    "id": "nowcoder-255404",
+    "title": "顽岩资产 — 27届秋招 今日收录",
+    "summary": "成立以来持续深耕量化交易领域，积累了丰富的交易经验，并且高度重视技术研发和产品力。招聘批次：27届秋招 今日收录。工作地点：北京、上海、香港。招聘岗位：后端开发、数据、人工智能/算法、研发工程师、风控等。",
+    "url": "https://recruit.wanyantech.com/campus/position/list",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "北京、上海、香港",
+    "deadline": "2026/10/31",
+    "tags": [
+      "顽岩资产",
+      "校招",
+      "秋招",
+      "北京",
+      "上海",
+      "香港"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-09-03T16:31:18.000Z"
+  },
+  {
+    "id": "nowcoder-26068",
+    "title": "厦门金鹭特种合金有限公司 — 27届秋招 今日收录",
+    "summary": "钨材料与硬质合金龙头企业，产业链完整，技术与品质行业领先。招聘批次：27届秋招 今日收录。工作地点：常州、厦门、惠州、成都。招聘岗位：后端开发、运维、人工智能/算法、机械、化工等。",
+    "url": "https://gesac.zhiye.com/campus/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "常州、厦门、惠州、成都",
+    "deadline": "2026/10/31",
+    "tags": [
+      "厦门金鹭特种合金有限公司",
+      "校招",
+      "秋招",
+      "常州",
+      "厦门",
+      "惠州"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-09-03T16:29:31.000Z"
+  },
+  {
     "id": "nowcoder-267815",
     "title": "百川智能 — 2027届秋",
     "summary": "招聘批次：2027届秋。工作地点：北京。招聘岗位：人工智能/算法。",
@@ -184,7 +297,7 @@
       "北京",
       "互联网"
     ],
-    "score": 95,
+    "score": 90,
     "featured": true,
     "createdAt": "2026-08-31T00:11:56.000Z"
   },

@@ -69484,30 +69484,6 @@
     "createdAt": "2026-08-27T00:00:00.000Z"
   },
   {
-    "id": "guopin-215591647503713865",
-    "title": "中远海运科技股份有限公司 — 算法工程师",
-    "summary": "企业性质：国企。行业：水上运输业。工作地点：上海-浦东新区。薪资面议。学历：硕士。规模：500-1000人。",
-    "url": "https://www.iguopin.com/job/detail?id=215591647503713865",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "companyType": "state",
-    "location": "上海-浦东新区",
-    "deadline": "2026/10/31",
-    "tags": [
-      "中远海运科技股份有限公司",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "水上运输业",
-      "上海"
-    ],
-    "score": 82,
-    "featured": true,
-    "createdAt": "2026-08-27T00:00:00.000Z"
-  },
-  {
     "id": "guopin-215610277142462564",
     "title": "电力规划总院有限公司（电力规划设计总院） — 技术经济咨询岗-成本价格研究",
     "summary": "企业性质：国企。行业：电力、热力、燃气及水生产和供应业。工作地点：中国。薪资：25000-30000元/月。学历：博士。规模：500-1000人。",
@@ -69697,6 +69673,30 @@
     ],
     "score": 81,
     "featured": true,
+    "createdAt": "2026-08-27T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-215591647503713865",
+    "title": "中远海运科技股份有限公司 — 算法工程师",
+    "summary": "企业性质：国企。行业：水上运输业。工作地点：上海-浦东新区。薪资面议。学历：硕士。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=215591647503713865",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "上海-浦东新区",
+    "deadline": "2026/10/31",
+    "tags": [
+      "中远海运科技股份有限公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "水上运输业",
+      "上海"
+    ],
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-08-27T00:00:00.000Z"
   },
   {
@@ -71929,8 +71929,8 @@
       "电信、广播电视和卫星传输服务",
       "北京"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-08-26T15:02:35.000Z"
   },
   {
@@ -71953,8 +71953,8 @@
       "电信、广播电视和卫星传输服务",
       "北京"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-08-26T15:01:56.000Z"
   },
   {
