@@ -1,5 +1,53 @@
 [
   {
+    "id": "nowcoder-8705",
+    "title": "洽洽食品 — 27届秋招 今日收录",
+    "summary": "休闲零食行业龙头，品牌与渠道壁垒深厚，平台稳定，应届生培养体系成熟。招聘批次：27届秋招 今日收录。工作地点：合肥。招聘岗位：后端开发、运维、研发工程师、机械、化工等。",
+    "url": "https://qiaqiafood.zhiye.com/campus/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "合肥",
+    "deadline": "2027/06/29",
+    "tags": [
+      "洽洽食品",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "合肥",
+      "快消",
+      "消费生活"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-09-04T05:34:31.000Z"
+  },
+  {
+    "id": "nowcoder-21562",
+    "title": "广发基金管理有限公司 — 27届秋招 今日收录",
+    "summary": "公募行业头部机构，投研体系成熟完善，平台资源优质，金融职业发展路径清晰。招聘批次：27届秋招 今日收录。工作地点：广州、北京、上海、香港。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://gffunds.jobs.feishu.cn/833056",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "finance",
+    "location": "广州、北京、上海、香港",
+    "deadline": "2026/10/30",
+    "tags": [
+      "广发基金管理有限公司",
+      "校招",
+      "秋招",
+      "金融",
+      "广州",
+      "北京",
+      "上海"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-09-04T05:31:01.000Z"
+  },
+  {
     "id": "nowcoder-28204",
     "title": "武汉开目信息技术股份有限公司 — 27届秋招 今日收录",
     "summary": "工业软件领域专业厂商，专注于智能制造核心软件研发。招聘批次：27届秋招 今日收录。工作地点：武汉。招聘岗位：后端开发、前端开发、测试、人工智能/算法、研发工程师等。",
@@ -1114,7 +1162,7 @@
       "杭州",
       "文娱内容"
     ],
-    "score": 90,
+    "score": 85,
     "featured": true,
     "createdAt": "2026-08-20T02:52:11.000Z"
   },
