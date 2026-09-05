@@ -631,7 +631,7 @@
       "北京",
       "上海"
     ],
-    "score": 95,
+    "score": 90,
     "featured": true,
     "createdAt": "2026-08-30T11:50:34.000Z"
   },
@@ -1536,6 +1536,30 @@
     "score": 82,
     "featured": true,
     "createdAt": "2026-08-07T05:36:22.000Z"
+  },
+  {
+    "id": "nowcoder-149",
+    "title": "网易 — 27届秋招",
+    "summary": "团队氛围好；福利待遇好；免费三餐；培训资源充足；关注员工成长\n。招聘批次：27届秋招。工作地点：杭州、北京。招聘岗位：后端开发、测试、数据、运维、人工智能/算法等。",
+    "url": "https://campus.163.com/app/niuke",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "game",
+    "location": "杭州、北京",
+    "deadline": "2026/10/14",
+    "tags": [
+      "网易",
+      "校招",
+      "秋招",
+      "游戏",
+      "杭州",
+      "北京",
+      "文娱内容"
+    ],
+    "score": 80,
+    "featured": true,
+    "createdAt": "2026-08-03T08:48:17.000Z"
   },
   {
     "id": "nowcoder-3186",
