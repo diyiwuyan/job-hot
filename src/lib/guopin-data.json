@@ -67979,30 +67979,6 @@
     "createdAt": "2026-08-29T11:11:11.000Z"
   },
   {
-    "id": "guopin-215750561360773220",
-    "title": "湖北三江航天红峰控制有限公司 — 软件设计",
-    "summary": "企业性质：国企。行业：航天。工作地点：孝感-孝南区。薪资：10000-15000元/月。学历：硕士。规模：500-1000人。",
-    "url": "https://www.iguopin.com/job/detail?id=215750561360773220",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "孝感-孝南区",
-    "deadline": "2026/11/30",
-    "tags": [
-      "湖北三江航天红峰控制有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "航天",
-      "孝感"
-    ],
-    "score": 85,
-    "featured": true,
-    "createdAt": "2026-08-29T11:11:11.000Z"
-  },
-  {
     "id": "guopin-215750560656130148",
     "title": "湖北三江航天红峰控制有限公司 — 电机控制设计",
     "summary": "企业性质：国企。行业：航天。工作地点：孝感-孝南区。薪资：10000-15000元/月。学历：硕士。规模：500-1000人。",
@@ -68099,30 +68075,6 @@
     "createdAt": "2026-08-29T11:11:11.000Z"
   },
   {
-    "id": "guopin-215750561964752996",
-    "title": "湖北三江航天红峰控制有限公司 — 工艺工程师",
-    "summary": "企业性质：国企。行业：航天。工作地点：孝感-孝南区。薪资：10000-15000元/月。学历：硕士。规模：500-1000人。",
-    "url": "https://www.iguopin.com/job/detail?id=215750561964752996",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "孝感-孝南区",
-    "deadline": "2026/11/01",
-    "tags": [
-      "湖北三江航天红峰控制有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "航天",
-      "孝感"
-    ],
-    "score": 84,
-    "featured": true,
-    "createdAt": "2026-08-29T11:11:11.000Z"
-  },
-  {
     "id": "guopin-215750560924565604",
     "title": "湖北三江航天红峰控制有限公司 — 结构设计",
     "summary": "企业性质：国企。行业：航天。工作地点：孝感-孝南区。薪资：10000-15000元/月。学历：硕士。规模：500-1000人。",
@@ -68144,6 +68096,54 @@
     ],
     "score": 84,
     "featured": true,
+    "createdAt": "2026-08-29T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-215750561360773220",
+    "title": "湖北三江航天红峰控制有限公司 — 软件设计",
+    "summary": "企业性质：国企。行业：航天。工作地点：孝感-孝南区。薪资：10000-15000元/月。学历：硕士。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=215750561360773220",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "孝感-孝南区",
+    "deadline": "2026/11/30",
+    "tags": [
+      "湖北三江航天红峰控制有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "航天",
+      "孝感"
+    ],
+    "score": 80,
+    "featured": true,
+    "createdAt": "2026-08-29T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-215750561964752996",
+    "title": "湖北三江航天红峰控制有限公司 — 工艺工程师",
+    "summary": "企业性质：国企。行业：航天。工作地点：孝感-孝南区。薪资：10000-15000元/月。学历：硕士。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=215750561964752996",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "孝感-孝南区",
+    "deadline": "2026/11/01",
+    "tags": [
+      "湖北三江航天红峰控制有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "航天",
+      "孝感"
+    ],
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-08-29T11:11:11.000Z"
   },
   {
