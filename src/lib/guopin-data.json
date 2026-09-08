@@ -168276,30 +168276,6 @@
     "createdAt": "2026-08-20T09:00:00.000Z"
   },
   {
-    "id": "guopin-214934124920571251",
-    "title": "北京遥感设备研究所 — 天线技术设计师",
-    "summary": "企业性质：事业单位。行业：航天。工作地点：西安-长安区。薪资面议。学历：硕士。规模：2000-5000人。",
-    "url": "https://www.iguopin.com/job/detail?id=214934124920571251",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "institution",
-    "location": "西安-长安区",
-    "deadline": "2027/08/24",
-    "tags": [
-      "北京遥感设备研究所",
-      "校招",
-      "国企",
-      "车企/IC",
-      "航天",
-      "西安"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-08-20T09:00:00.000Z"
-  },
-  {
     "id": "guopin-214934122521429363",
     "title": "北京遥感设备研究所 — 射频芯片设计工程师",
     "summary": "企业性质：事业单位。行业：航天。工作地点：北京-海淀区。薪资面议。学历：硕士。规模：2000-5000人。",
@@ -170264,6 +170240,30 @@
       "北京"
     ],
     "score": 67,
+    "featured": false,
+    "createdAt": "2026-08-20T09:00:00.000Z"
+  },
+  {
+    "id": "guopin-214934124920571251",
+    "title": "北京遥感设备研究所 — 天线技术设计师",
+    "summary": "企业性质：事业单位。行业：航天。工作地点：西安-长安区。薪资面议。学历：硕士。规模：2000-5000人。",
+    "url": "https://www.iguopin.com/job/detail?id=214934124920571251",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "institution",
+    "location": "西安-长安区",
+    "deadline": "2027/08/24",
+    "tags": [
+      "北京遥感设备研究所",
+      "校招",
+      "国企",
+      "车企/IC",
+      "航天",
+      "西安"
+    ],
+    "score": 66,
     "featured": false,
     "createdAt": "2026-08-20T09:00:00.000Z"
   },
