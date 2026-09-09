@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
+import { ZhiluBrandIntro } from '@/components/ZhiluBrandIntro';
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 
@@ -32,8 +33,8 @@ const features = [
   },
   {
     icon: '🔔',
-    title: '每日岗位推荐',
-    desc: '设置求职方向，新机会自动进入个人工作台',
+    title: '订阅推送',
+    desc: '设置关键词订阅，新岗位第一时间邮件通知你',
   },
   {
     icon: '📌',
@@ -49,39 +50,35 @@ const features = [
 
 const journeys = [
   {
-    step: '01',
     icon: '⌕',
-    title: '浏览招聘机会',
-    desc: '我已经有大致目标，想查看最新校招、实习和宣讲会。',
+    title: '找机会',
+    desc: '查看校招、实习和宣讲会，建立自己的目标岗位池。',
     href: '/all',
-    action: '查看全部招聘',
+    action: '浏览招聘信息',
     color: '#3b82f6',
   },
   {
-    step: '02',
     icon: '◎',
-    title: '探索职业方向',
-    desc: '我还不确定适合什么，希望先认识兴趣、价值观和能力。',
+    title: '找方向',
+    desc: '从职业坐标和免费测评开始，先看清兴趣、资源与当前卡点。',
     href: '/tools/assessment',
-    action: '选择一项测评',
+    action: '进入职业测评',
     color: '#8b5cf6',
   },
   {
-    step: '03',
     icon: '✓',
-    title: '开始求职准备',
-    desc: '我已经有目标，需要准备简历、笔试和真实投递。',
-    href: '/tools/prep',
-    action: '进入准备工具',
+    title: '做准备',
+    desc: '对照目标岗位梳理真实经历，动态生成并导出一页中文简历。',
+    href: '/tools/resume-builder',
+    action: '打开简历工作台',
     color: '#f59e0b',
   },
   {
-    step: '04',
     icon: '↗',
-    title: '管理求职进展',
-    desc: '我已经开始行动，想统一管理材料、投递、练习和下一步。',
-    href: '/workspace',
-    action: '打开我的求职工作台',
+    title: '获得支持',
+    desc: '了解训练营和后续支持，让方向、材料和行动形成闭环。',
+    href: '/tools/coaching',
+    action: '查看支持方案',
     color: '#22c55e',
   },
 ];
@@ -154,15 +151,14 @@ export default function HomePage() {
 
       <section className="journey-section">
         <div className="journey-heading">
-          <span>按你现在的状态，选择下一步</span>
-          <p>不用先理解网站结构，也不必从第一步重新开始；选择最接近当前问题的一项。</p>
+          <span>你现在想先解决什么？</span>
+          <p>不必一次用完所有功能，先从最接近当前状态的一步开始。</p>
         </div>
         <div className="journey-grid">
           {journeys.map((journey) => (
             <Link key={journey.title} href={journey.href} className="journey-card">
               <span className="journey-icon" style={{ color: journey.color, borderColor: `${journey.color}55`, background: `${journey.color}12` }}>{journey.icon}</span>
               <div>
-                <span className="journey-step" style={{ color: journey.color }}>STEP {journey.step}</span>
                 <h2>{journey.title}</h2>
                 <p>{journey.desc}</p>
                 <strong style={{ color: journey.color }}>{journey.action} →</strong>
@@ -171,6 +167,10 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+
+      <ZhiluBrandIntro />
+
+      <div className="divider" />
 
       {/* Features Section */}
       <div className="features-section">
