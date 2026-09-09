@@ -1,5 +1,50 @@
 [
   {
+    "id": "nowcoder-5037",
+    "title": "通付盾 — 27届秋招 今日收录",
+    "summary": "数字安全领域专精特新企业，核心技术自主可控，资质齐全，服务行业覆盖广泛。招聘批次：27届秋招 今日收录。工作地点：苏州、北京。招聘岗位：后端开发、数据、运维、人工智能/算法、研发工程师等。",
+    "url": "https://tongfudun.com/joinus",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "security",
+    "location": "苏州、北京",
+    "deadline": "2026/11/03",
+    "tags": [
+      "通付盾",
+      "校招",
+      "秋招",
+      "安全/云服务",
+      "苏州",
+      "北京"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-09-09T12:10:22.000Z"
+  },
+  {
+    "id": "nowcoder-31749",
+    "title": "川南航天能源科技有限公司 — 27届秋招 今日收录",
+    "summary": "航天配套能源服务商，技术壁垒高，项目资源优质，行业成长平台稳健。招聘批次：27届秋招 今日收录。工作地点：泸州。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://mp.weixin.qq.com/s/l3uwiwnZGPfjI6VEm_U8UA",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "泸州",
+    "deadline": "2026/11/03",
+    "tags": [
+      "川南航天能源科技有限公司",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "泸州"
+    ],
+    "score": 95,
+    "featured": true,
+    "createdAt": "2026-09-09T12:01:23.000Z"
+  },
+  {
     "id": "nowcoder-14595",
     "title": "深圳市优博讯科技股份有限公司 — 27届秋招 今日收录",
     "summary": "智能物联网与移动支付终端龙头，行业方案成熟，海内外市场稳定成长。招聘批次：27届秋招 今日收录。工作地点：武汉、广州、深圳、珠海、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
