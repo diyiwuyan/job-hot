@@ -4,6 +4,7 @@ import nowcoderData from './nowcoder-data.json';
 import deepofferData from './deepoffer-data.json';
 import guopinData from './guopin-data.json';
 import yingjieshengData from './yingjiesheng-data.json';
+import officialCampusData from './official-campus-data.json';
 
 // Only keep items from 2026-06-01 onwards
 const cutoffDate = new Date('2026-06-01T00:00:00Z');
@@ -18,6 +19,7 @@ const allItems: FeedItem[] = [
   ...(deepofferData as FeedItem[]),
   ...(guopinData as FeedItem[]),
   ...(yingjieshengData as FeedItem[]),
+  ...(officialCampusData as FeedItem[]),
 ].filter(item => {
   const t = new Date(item.createdAt);
   return t >= cutoffDate && t <= now;

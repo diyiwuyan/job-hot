@@ -6,6 +6,7 @@ import { PaginatedFeed, Channel, Category, CompanyType, Major, FeedItem, FeedDay
 import { Timeline } from '@/components/Timeline';
 import { Pagination } from '@/components/Pagination';
 import { FeedToolbar } from '@/components/FeedToolbar';
+import { RecruitmentSourcePanel } from '@/components/RecruitmentSourcePanel';
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 
@@ -315,6 +316,8 @@ function AllPageContent() {
         onViewModeChange={handleViewModeChange}
         onExportCSV={feed ? () => exportCSV(feed.days) : undefined}
       />
+
+      <RecruitmentSourcePanel />
 
       {loading ? (
         <div className="empty-state">

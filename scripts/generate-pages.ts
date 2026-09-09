@@ -39,6 +39,7 @@ const allItems: FeedItem[] = [
   ...loadJson('deepoffer-data.json'),
   ...loadJson('guopin-data.json'),
   ...loadJson('yingjiesheng-data.json'),
+  ...loadJson('official-campus-data.json'),
 ].filter(item => {
   const t = new Date(item.createdAt);
   return t >= cutoffDate && t <= now;
@@ -249,6 +250,7 @@ const sourceCodeMap: Record<string, string> = {
   '应届生求职网': 'yjs',
   'DeepOffer': 'do',
   '牛客网': 'nk',
+  '企业官方招聘': 'of',
 };
 
 // Channel → short code

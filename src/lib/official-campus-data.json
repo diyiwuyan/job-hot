@@ -1,0 +1,304 @@
+[
+  {
+    "id": "official-campus-bytedance",
+    "title": "字节跳动｜官方校招入口",
+    "summary": "研发、算法、产品、运营、设计与前沿技术校招。官方岗位与招聘 FAQ。这是企业官方招聘入口，岗位状态、批次和截止时间请以官网实时页面为准。",
+    "url": "https://jobs.bytedance.com/campus",
+    "source": "企业官方招聘",
+    "sourceHandle": "@official-campus",
+    "channel": "campus",
+    "category": "internet",
+    "location": "以官网职位为准",
+    "tags": [
+      "字节跳动",
+      "官方入口",
+      "校招",
+      "互联网/AI"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-09-09T14:31:50.136Z"
+  },
+  {
+    "id": "official-campus-tencent",
+    "title": "腾讯校招｜官方校招入口",
+    "summary": "技术、产品、市场、设计、职能与 AI 岗位。应届生、实习生、青云计划。这是企业官方招聘入口，岗位状态、批次和截止时间请以官网实时页面为准。",
+    "url": "https://join.qq.com/",
+    "source": "企业官方招聘",
+    "sourceHandle": "@official-campus",
+    "channel": "campus",
+    "category": "internet",
+    "location": "以官网职位为准",
+    "tags": [
+      "腾讯校招",
+      "官方入口",
+      "校招",
+      "互联网/AI"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-09-09T14:31:50.136Z"
+  },
+  {
+    "id": "official-campus-alibaba",
+    "title": "阿里巴巴｜官方校招入口",
+    "summary": "阿里集团及业务线校招、实习。岗位列表与招聘项目。这是企业官方招聘入口，岗位状态、批次和截止时间请以官网实时页面为准。",
+    "url": "https://campus-talent.alibaba.com/",
+    "source": "企业官方招聘",
+    "sourceHandle": "@official-campus",
+    "channel": "campus",
+    "category": "internet",
+    "location": "以官网职位为准",
+    "tags": [
+      "阿里巴巴",
+      "官方入口",
+      "校招",
+      "互联网/AI"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-09-09T14:31:50.136Z"
+  },
+  {
+    "id": "official-campus-baidu",
+    "title": "百度｜官方校招入口",
+    "summary": "技术、算法、产品与 AI 相关岗位。校招与实习职位列表。这是企业官方招聘入口，岗位状态、批次和截止时间请以官网实时页面为准。",
+    "url": "https://talent.baidu.com/jobs/list",
+    "source": "企业官方招聘",
+    "sourceHandle": "@official-campus",
+    "channel": "campus",
+    "category": "internet",
+    "location": "以官网职位为准",
+    "tags": [
+      "百度",
+      "官方入口",
+      "校招",
+      "互联网/AI"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-09-09T14:31:50.136Z"
+  },
+  {
+    "id": "official-campus-meituan",
+    "title": "美团｜官方校招入口",
+    "summary": "技术、产品、运营、设计、金融与职能。应届生、转正实习、日常实习。这是企业官方招聘入口，岗位状态、批次和截止时间请以官网实时页面为准。",
+    "url": "https://zhaopin.meituan.com/web/campus",
+    "source": "企业官方招聘",
+    "sourceHandle": "@official-campus",
+    "channel": "campus",
+    "category": "internet",
+    "location": "以官网职位为准",
+    "tags": [
+      "美团",
+      "官方入口",
+      "校招",
+      "互联网/AI"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-09-09T14:31:50.136Z"
+  },
+  {
+    "id": "official-campus-xiaohongshu",
+    "title": "小红书｜官方校招入口",
+    "summary": "社区、电商、推荐、算法与 AI 应用。校招岗位与 REDstar 专项。这是企业官方招聘入口，岗位状态、批次和截止时间请以官网实时页面为准。",
+    "url": "https://job.xiaohongshu.com/campus",
+    "source": "企业官方招聘",
+    "sourceHandle": "@official-campus",
+    "channel": "campus",
+    "category": "internet",
+    "location": "以官网职位为准",
+    "tags": [
+      "小红书",
+      "官方入口",
+      "校招",
+      "互联网/AI"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-09-09T14:31:50.136Z"
+  },
+  {
+    "id": "official-campus-jd",
+    "title": "京东｜官方校招入口",
+    "summary": "采销、物流、技术、产品、运营与管理培训生。校园招聘与实习入口。这是企业官方招聘入口，岗位状态、批次和截止时间请以官网实时页面为准。",
+    "url": "https://zhaopin.jd.com/",
+    "source": "企业官方招聘",
+    "sourceHandle": "@official-campus",
+    "channel": "campus",
+    "category": "internet",
+    "location": "以官网职位为准",
+    "tags": [
+      "京东",
+      "官方入口",
+      "校招",
+      "互联网/AI"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-09-09T14:31:50.136Z"
+  },
+  {
+    "id": "official-campus-kuaishou",
+    "title": "快手｜官方校招入口",
+    "summary": "研发、算法、产品、运营与内容岗位。校园招聘与实习入口。这是企业官方招聘入口，岗位状态、批次和截止时间请以官网实时页面为准。",
+    "url": "https://zhaopin.kuaishou.cn/",
+    "source": "企业官方招聘",
+    "sourceHandle": "@official-campus",
+    "channel": "campus",
+    "category": "internet",
+    "location": "以官网职位为准",
+    "tags": [
+      "快手",
+      "官方入口",
+      "校招",
+      "互联网/AI"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-09-09T14:31:50.136Z"
+  },
+  {
+    "id": "official-campus-bilibili",
+    "title": "哔哩哔哩｜官方校招入口",
+    "summary": "技术、内容、产品、运营与设计。校园招聘入口。这是企业官方招聘入口，岗位状态、批次和截止时间请以官网实时页面为准。",
+    "url": "https://jobs.bilibili.com/campus",
+    "source": "企业官方招聘",
+    "sourceHandle": "@official-campus",
+    "channel": "campus",
+    "category": "internet",
+    "location": "以官网职位为准",
+    "tags": [
+      "哔哩哔哩",
+      "官方入口",
+      "校招",
+      "互联网/AI"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-09-09T14:31:50.136Z"
+  },
+  {
+    "id": "official-campus-netease",
+    "title": "网易｜官方校招入口",
+    "summary": "技术、AI、产品、运营与职能。网易与游戏业务校招。这是企业官方招聘入口，岗位状态、批次和截止时间请以官网实时页面为准。",
+    "url": "https://campus.163.com/",
+    "source": "企业官方招聘",
+    "sourceHandle": "@official-campus",
+    "channel": "campus",
+    "category": "internet",
+    "location": "以官网职位为准",
+    "tags": [
+      "网易",
+      "官方入口",
+      "校招",
+      "互联网/AI"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-09-09T14:31:50.136Z"
+  },
+  {
+    "id": "official-campus-xiaomi",
+    "title": "小米｜官方校招入口",
+    "summary": "AI 大模型、软硬件、汽车、产品与设计。全球校园招聘项目。这是企业官方招聘入口，岗位状态、批次和截止时间请以官网实时页面为准。",
+    "url": "https://hr.xiaomi.com/website/campus.html",
+    "source": "企业官方招聘",
+    "sourceHandle": "@official-campus",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "以官网职位为准",
+    "tags": [
+      "小米",
+      "官方入口",
+      "校招",
+      "车企/IC"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-09-09T14:31:50.136Z"
+  },
+  {
+    "id": "official-campus-huawei",
+    "title": "华为｜官方校招入口",
+    "summary": "研发、技术、产品与综合岗位。应届生、实习生与专项招聘。这是企业官方招聘入口，岗位状态、批次和截止时间请以官网实时页面为准。",
+    "url": "https://career.huawei.com/cn/campus-recruitment",
+    "source": "企业官方招聘",
+    "sourceHandle": "@official-campus",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "以官网职位为准",
+    "tags": [
+      "华为",
+      "官方入口",
+      "校招",
+      "车企/IC"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-09-09T14:31:50.136Z"
+  },
+  {
+    "id": "official-campus-oppo",
+    "title": "OPPO｜官方校招入口",
+    "summary": "研发、产品、设计与供应链。校园招聘入口。这是企业官方招聘入口，岗位状态、批次和截止时间请以官网实时页面为准。",
+    "url": "https://careers.oppo.com/campus",
+    "source": "企业官方招聘",
+    "sourceHandle": "@official-campus",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "foreign",
+    "location": "以官网职位为准",
+    "tags": [
+      "OPPO",
+      "官方入口",
+      "校招",
+      "车企/IC"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-09-09T14:31:50.136Z"
+  },
+  {
+    "id": "official-campus-vivo",
+    "title": "vivo｜官方校招入口",
+    "summary": "研发、产品、设计与营销。校园招聘入口。这是企业官方招聘入口，岗位状态、批次和截止时间请以官网实时页面为准。",
+    "url": "https://hr.vivo.com/campus",
+    "source": "企业官方招聘",
+    "sourceHandle": "@official-campus",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "foreign",
+    "location": "以官网职位为准",
+    "tags": [
+      "vivo",
+      "官方入口",
+      "校招",
+      "车企/IC"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-09-09T14:31:50.136Z"
+  },
+  {
+    "id": "official-campus-netease-games",
+    "title": "网易游戏雷火校招｜官方校招入口",
+    "summary": "游戏研发、策划、美术与运营。游戏专项校招。这是企业官方招聘入口，岗位状态、批次和截止时间请以官网实时页面为准。",
+    "url": "https://leihuo.163.com/campus/",
+    "source": "企业官方招聘",
+    "sourceHandle": "@official-campus",
+    "channel": "campus",
+    "category": "game",
+    "location": "以官网职位为准",
+    "tags": [
+      "网易游戏雷火校招",
+      "官方入口",
+      "校招",
+      "游戏"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-09-09T14:31:50.136Z"
+  }
+]
