@@ -251,6 +251,8 @@ const sourceCodeMap: Record<string, string> = {
   'DeepOffer': 'do',
   '牛客网': 'nk',
   '企业官方招聘': 'of',
+  '公开招聘平台': 'op',
+  '公共就业服务': 'ps',
 };
 
 // Channel → short code

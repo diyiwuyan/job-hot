@@ -40,7 +40,23 @@ export const RECRUITMENT_SOURCES: RecruitmentSource[] = [
   { id: 'nowcoder', name: '牛客网', kind: 'aggregator', url: 'https://www.nowcoder.com/jobs/school/schedule', focus: '校招进度、岗位与求职经验', coverage: '企业校招日程与公开岗位', category: 'internet', verifiedAt: '2026-09-09' },
   { id: 'deepoffer', name: 'DeepOffer', kind: 'aggregator', url: 'https://deepoffer.cn/', focus: '应届生、实习与 AI 岗位', coverage: '结构化职位 API', category: 'internet', verifiedAt: '2026-09-09' },
   { id: 'guopin', name: '国聘', kind: 'aggregator', url: 'https://www.iguopin.com/', focus: '央国企、事业单位与大型企业', coverage: '公开职位与招聘公告', category: 'finance', verifiedAt: '2026-09-09' },
+  { id: 'ncss', name: '国家大学生就业服务平台（24365）', kind: 'campus-info', url: 'https://24365.ncss.cn/student/jobs/index.html', focus: '全国高校毕业生校招、实习与专场招聘', coverage: '教育部主管的公益性就业服务平台', category: 'other', verifiedAt: '2026-09-09' },
+  { id: '51job-campus', name: '前程无忧校园招聘', kind: 'aggregator', url: 'https://xy.51job.com/', focus: '应届生、实习与校园招聘专题', coverage: '校园职位、校招公告与求职内容', category: 'internet', verifiedAt: '2026-09-09' },
+  { id: 'zhaopin-campus', name: '智联校园', kind: 'aggregator', url: 'https://xiaoyuan.zhaopin.com/', focus: '应届生、实习与校招职位', coverage: '校园职位详情与投递入口', category: 'internet', verifiedAt: '2026-09-09' },
+  { id: 'liepin-campus', name: '猎聘校园', kind: 'aggregator', url: 'https://campus.liepin.com/', focus: '校招项目、应届生与实习职位', coverage: '企业校招项目与岗位列表', category: 'internet', verifiedAt: '2026-09-09' },
+  { id: 'boss-campus', name: 'BOSS直聘校园', kind: 'aggregator', url: 'https://www.zhipin.com/school/', focus: '互联网校招、实习与应届生岗位', coverage: '校招职位与实习职位', category: 'internet', verifiedAt: '2026-09-09' },
+  { id: 'lagou-campus', name: '拉勾校招', kind: 'aggregator', url: 'https://xiaoyuan.lagou.com/', focus: '互联网、技术与产品校招', coverage: '校园职位与应届生招聘', category: 'internet', verifiedAt: '2026-09-09' },
+  { id: 'mohrss-public', name: '中国公共招聘网', kind: 'campus-info', url: 'http://job.mohrss.gov.cn/qyzp/index.jhtml', focus: '央企、重点行业与高校毕业生招聘', coverage: '人力资源和社会保障系统公共招聘信息', category: 'finance', verifiedAt: '2026-09-09' },
+  { id: 'chrm', name: '中国人力资源市场网', kind: 'campus-info', url: 'https://chrm.mohrss.gov.cn/', focus: '高校毕业生、基层项目与公共就业服务', coverage: '人社系统公告与招聘信息', category: 'other', verifiedAt: '2026-09-09' },
+  { id: 'gd-public', name: '广东公共求职招聘服务平台', kind: 'campus-info', url: 'https://ggfw.hrss.gd.gov.cn/recruitment/internet/main/', focus: '广东地区应届生与社会招聘', coverage: '地方公共就业服务平台', category: 'other', verifiedAt: '2026-09-09' },
+  { id: 'niuqizp', name: '牛企直聘校园招聘', kind: 'aggregator', url: 'https://campus.niuqizp.com/', focus: '企业校招项目与岗位详情', coverage: '公开校招岗位聚合与企业投递入口', category: 'internet', verifiedAt: '2026-09-09' },
 ];
 
 export const OFFICIAL_RECRUITMENT_SOURCES = RECRUITMENT_SOURCES.filter(source => source.kind === 'official');
 
+// Sources that are represented as directory cards in the feed. Existing
+// structured sources already contribute their own records and are kept out of
+// this list to avoid duplicate “入口” cards.
+export const DIRECTORY_RECRUITMENT_SOURCES = RECRUITMENT_SOURCES.filter(source =>
+  !['yingjiesheng', 'nowcoder', 'deepoffer', 'guopin'].includes(source.id)
+);

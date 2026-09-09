@@ -1524,6 +1524,7 @@ a:hover {
 .recruitment-source-kind { font-size: 0.65rem; line-height: 1; padding: 0.22rem 0.38rem; border-radius: 999px; }
 .recruitment-source-kind-official { color: var(--accent); background: var(--accent-muted); }
 .recruitment-source-kind-aggregator { color: var(--success); background: color-mix(in srgb, var(--success) 13%, transparent); }
+.recruitment-source-kind-campus-info { color: var(--warning); background: color-mix(in srgb, var(--warning) 14%, transparent); }
 .recruitment-source-verified { color: var(--text-muted); font-size: 0.64rem; }
 
 /* Segmented Control */
