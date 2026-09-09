@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "fetch-data": "tsx scripts/parse-campus2026.ts && tsx scripts/parse-campus-shame.ts && tsx scripts/parse-nowcoder.ts && tsx scripts/parse-deepoffer.ts && tsx scripts/parse-guopin.ts && tsx scripts/parse-yingjiesheng.ts && tsx scripts/parse-campus2027.ts && tsx scripts/parse-official-campus.ts",
-    "prebuild": "tsx scripts/parse-campus2026.ts && tsx scripts/parse-campus-shame.ts && tsx scripts/parse-nowcoder.ts && tsx scripts/parse-deepoffer.ts && tsx scripts/parse-guopin.ts && tsx scripts/parse-yingjiesheng.ts && tsx scripts/parse-campus2027.ts && tsx scripts/parse-official-campus.ts && tsx scripts/generate-pages.ts",
+    "fetch-data": "tsx scripts/parse-campus2026.ts && tsx scripts/parse-campus-shame.ts && tsx scripts/parse-nowcoder.ts && tsx scripts/parse-deepoffer.ts && tsx scripts/parse-guopin.ts && tsx scripts/parse-yingjiesheng.ts && tsx scripts/parse-campus2027.ts && tsx scripts/parse-picrew-campus.ts && tsx scripts/parse-official-campus.ts",
+    "prebuild": "tsx scripts/parse-campus2026.ts && tsx scripts/parse-campus-shame.ts && tsx scripts/parse-nowcoder.ts && tsx scripts/parse-deepoffer.ts && tsx scripts/parse-guopin.ts && tsx scripts/parse-yingjiesheng.ts && tsx scripts/parse-campus2027.ts && tsx scripts/parse-picrew-campus.ts && tsx scripts/parse-official-campus.ts && tsx scripts/generate-pages.ts",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"

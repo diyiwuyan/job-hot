@@ -6,6 +6,7 @@ import guopinData from './guopin-data.json';
 import yingjieshengData from './yingjiesheng-data.json';
 import officialCampusData from './official-campus-data.json';
 import campus2027Data from './campus2027-data.json';
+import picrewCampusData from './picrew-campus-data.json';
 
 // Only keep items from 2026-06-01 onwards
 const cutoffDate = new Date('2026-06-01T00:00:00Z');
@@ -22,6 +23,7 @@ const allItems: FeedItem[] = [
   ...(yingjieshengData as FeedItem[]),
   ...(officialCampusData as FeedItem[]),
   ...(campus2027Data as FeedItem[]),
+  ...(picrewCampusData as FeedItem[]),
 ].filter(item => {
   const t = new Date(item.createdAt);
   return t >= cutoffDate && t <= now;

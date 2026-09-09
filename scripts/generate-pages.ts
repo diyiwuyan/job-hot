@@ -41,6 +41,7 @@ const allItems: FeedItem[] = [
   ...loadJson('yingjiesheng-data.json'),
   ...loadJson('official-campus-data.json'),
   ...loadJson('campus2027-data.json'),
+  ...loadJson('picrew-campus-data.json'),
 ].filter(item => {
   const t = new Date(item.createdAt);
   return t >= cutoffDate && t <= now;
@@ -255,6 +256,7 @@ const sourceCodeMap: Record<string, string> = {
   '公开招聘平台': 'op',
   '公共就业服务': 'ps',
   'GitHub 校招索引': 'gh',
+  'GitHub 校招精选': 'pc',
 };
 
 // Channel → short code
