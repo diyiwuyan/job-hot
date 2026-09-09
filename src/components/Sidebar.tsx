@@ -91,7 +91,7 @@ const navItems: NavItem[] = [
       { href: '/tools/company-prep', label: '企业备战库' },
       { href: '/tools/exam', label: '笔试题库' },
       { href: '/tools/interview', label: '面试与群面题库' },
-      { href: 'https://ai-resume-9wy.pages.dev/', label: 'AI简历优化', external: true },
+      { href: '/tools/resume-builder', label: '动态简历工作台' },
     ],
   },
   {

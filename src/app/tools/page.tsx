@@ -1,100 +1,38 @@
-import type { Metadata } from "next";
-import Link from "next/link";
-import { ZhiluBrandIntro } from "@/components/ZhiluBrandIntro";
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import { EXAM_SETS } from '@/lib/exam-data';
+import { COMPANY_EXAM_SETS } from '@/lib/company-exam-data';
+import { GROUP_CASES, INTERVIEW_QUESTIONS } from '@/lib/interview-data';
+import { COMPANY_INTERVIEW_QUESTION_COUNT, COMPANY_PREP_PROFILES } from '@/lib/company-prep-data';
 
 export const metadata: Metadata = {
-  title: "职业服务 - JOBHOT｜职路同行社出品",
-  description:
-    "JOBHOT 是职路同行社出品的大学生求职网站，提供职业测评、求职诊断、训练营与行动支持。",
+  title: '职业工具 - JOBHOT',
+  description: 'JOBHOT 提供职业测评、求职诊断、职业探索、笔试和面试训练工具。',
 };
 
 export default function ToolsPage() {
   return (
     <div className="page">
       <div className="page-header">
-        <h1>职业服务</h1>
-        <p>JOBHOT 由职路同行社出品，提供工具、专业内容与行动支持</p>
+        <h1>职业工具</h1>
+        <p>从认识方向、完成测评到笔试准备，选择当前真正需要的一项</p>
       </div>
 
-      <ZhiluBrandIntro />
-
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
-          gap: "1.25rem",
-          marginTop: "0.5rem",
-        }}
-      >
-        <Link
-          href="/tools/resume-builder"
-          className="timeline-card timeline-card-featured"
-          style={{
-            display: "block",
-            textDecoration: "none",
-            padding: "1.5rem",
-          }}
-        >
-          <div style={{ fontSize: "2rem", marginBottom: "0.75rem" }}>✨</div>
-          <h2
-            style={{
-              fontSize: "1.1rem",
-              fontWeight: 700,
-              marginBottom: "0.5rem",
-              color: "var(--text)",
-            }}
-          >
-            动态简历工作台
-          </h2>
-          <p
-            style={{
-              fontSize: "0.85rem",
-              color: "var(--text-muted)",
-              lineHeight: 1.7,
-              margin: 0,
-            }}
-          >
-            对照目标岗位梳理真实经历，动态生成一页中文简历，支持事实核对、3套模板和PDF导出。
-          </p>
-          <div className="timeline-tags" style={{ marginTop: "0.75rem" }}>
-            <span className="tag">体验版</span>
-            <span className="tag">本地保存</span>
-            <span className="tag">PDF导出</span>
-          </div>
-        </Link>
-
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.25rem', marginTop: '0.5rem' }}>
         {/* 职业坐标 */}
         <Link
           href="/tools/career-atlas"
           className="timeline-card timeline-card-featured"
-          style={{
-            display: "block",
-            textDecoration: "none",
-            padding: "1.5rem",
-          }}
+          style={{ display: 'block', textDecoration: 'none', padding: '1.5rem' }}
         >
-          <div style={{ fontSize: "2rem", marginBottom: "0.75rem" }}>🧭</div>
-          <h2
-            style={{
-              fontSize: "1.1rem",
-              fontWeight: 700,
-              marginBottom: "0.5rem",
-              color: "var(--text)",
-            }}
-          >
+          <div style={{ fontSize: '2rem', marginBottom: '0.75rem' }}>🧭</div>
+          <h2 style={{ fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.5rem', color: 'var(--text)' }}>
             职业坐标
           </h2>
-          <p
-            style={{
-              fontSize: "0.85rem",
-              color: "var(--text-muted)",
-              lineHeight: 1.7,
-              margin: 0,
-            }}
-          >
+          <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.7, margin: 0 }}>
             从经历、兴趣和能力出发匹配值得探索的岗位，并查看岗位要求、成长路线、薪资结构和市场证据。
           </p>
-          <div className="timeline-tags" style={{ marginTop: "0.75rem" }}>
+          <div className="timeline-tags" style={{ marginTop: '0.75rem' }}>
             <span className="tag">19个岗位</span>
             <span className="tag">8个岗位族</span>
             <span className="tag">岗位对比</span>
@@ -105,154 +43,54 @@ export default function ToolsPage() {
         <Link
           href="/tools/assessment"
           className="timeline-card timeline-card-featured"
-          style={{
-            display: "block",
-            textDecoration: "none",
-            padding: "1.5rem",
-          }}
+          style={{ display: 'block', textDecoration: 'none', padding: '1.5rem' }}
         >
-          <div style={{ fontSize: "2rem", marginBottom: "0.75rem" }}>🎯</div>
-          <h2
-            style={{
-              fontSize: "1.1rem",
-              fontWeight: 700,
-              marginBottom: "0.5rem",
-              color: "var(--text)",
-            }}
-          >
+          <div style={{ fontSize: '2rem', marginBottom: '0.75rem' }}>🎯</div>
+          <h2 style={{ fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.5rem', color: 'var(--text)' }}>
             职业测评
           </h2>
-          <p
-            style={{
-              fontSize: "0.85rem",
-              color: "var(--text-muted)",
-              lineHeight: 1.7,
-              margin: 0,
-            }}
-          >
-            秋招启动诊断、求职底牌、霍兰德兴趣、MBTI 与职业价值观 ——
-            五套免费自我探索工具，帮你找到更具体的下一步。
+          <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.7, margin: 0 }}>
+            从霍兰德兴趣、职业价值观到工作风格、技能、就业胜任力和行动准备度，十一套免费工具共同形成综合职业画像。
           </p>
-          <div className="timeline-tags" style={{ marginTop: "0.75rem" }}>
+          <div className="timeline-tags" style={{ marginTop: '0.75rem' }}>
             <span className="tag">免费</span>
-            <span className="tag">5套测评</span>
+            <span className="tag">11套测评</span>
             <span className="tag">5-10分钟</span>
           </div>
         </Link>
 
-        {/* 获得求职支持 */}
+        {/* 求职准备 */}
         <Link
-          href="/tools/coaching"
+          href="/tools/prep"
           className="timeline-card timeline-card-featured"
-          style={{
-            display: "block",
-            textDecoration: "none",
-            padding: "1.5rem",
-          }}
+          style={{ display: 'block', textDecoration: 'none', padding: '1.5rem' }}
         >
-          <div style={{ fontSize: "2rem", marginBottom: "0.75rem" }}>🚀</div>
-          <h2
-            style={{
-              fontSize: "1.1rem",
-              fontWeight: 700,
-              marginBottom: "0.5rem",
-              color: "var(--text)",
-            }}
-          >
-            获得求职支持
+          <div style={{ fontSize: '2rem', marginBottom: '0.75rem' }}>📝</div>
+          <h2 style={{ fontSize: '1.1rem', fontWeight: 700, marginBottom: '0.5rem', color: 'var(--text)' }}>
+            求职准备中心
           </h2>
-          <p
-            style={{
-              fontSize: "0.85rem",
-              color: "var(--text-muted)",
-              lineHeight: 1.7,
-              margin: 0,
-            }}
-          >
-            了解职路同行社的训练营和陪跑服务：从职业方向、经历梳理到简历面试与行动推进，把求职中的关键动作做扎实。
+          <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.7, margin: 0 }}>
+            从简历、笔试到单面和无领导小组，按真实招聘环节选择当前要练的一项。
           </p>
-          <div className="timeline-tags" style={{ marginTop: "0.75rem" }}>
-            <span className="tag">系统辅导</span>
-            <span className="tag">一对一</span>
-            <span className="tag">社群答疑</span>
+          <div className="timeline-tags" style={{ marginTop: '0.75rem' }}>
+            <span className="tag">{EXAM_SETS.length + COMPANY_EXAM_SETS.length}套笔试</span>
+            <span className="tag">{INTERVIEW_QUESTIONS.length}道面试题</span>
+            <span className="tag">{GROUP_CASES.length}个群面案例</span>
           </div>
         </Link>
 
-        {/* 学员中心 */}
-        <Link
-          href="/tools/career-camp"
-          className="timeline-card timeline-card-featured"
-          style={{
-            display: "block",
-            textDecoration: "none",
-            padding: "1.5rem",
-          }}
-        >
-          <div style={{ fontSize: "2rem", marginBottom: "0.75rem" }}>📚</div>
-          <h2
-            style={{
-              fontSize: "1.1rem",
-              fontWeight: 700,
-              marginBottom: "0.5rem",
-              color: "var(--text)",
-            }}
-          >
-            学员中心
-          </h2>
-          <p
-            style={{
-              fontSize: "0.85rem",
-              color: "var(--text-muted)",
-              lineHeight: 1.7,
-              margin: 0,
-            }}
-          >
-            已报名学员登录后，可查看课程大纲、完成课后作业打卡，并接收老师反馈。
-          </p>
-          <div className="timeline-tags" style={{ marginTop: "0.75rem" }}>
-            <span className="tag">课程大纲</span>
-            <span className="tag">作业打卡</span>
-            <span className="tag">老师反馈</span>
-          </div>
+        <Link href="/tools/interview" className="timeline-card timeline-card-featured" style={{ display:'block', textDecoration:'none', padding:'1.5rem' }}>
+          <div style={{ fontSize:'2rem', marginBottom:'.75rem' }}>💬</div>
+          <h2 style={{ fontSize:'1.1rem', fontWeight:700, marginBottom:'.5rem', color:'var(--text)' }}>面试与群面题库</h2>
+          <p style={{ fontSize:'.85rem', color:'var(--text-muted)', lineHeight:1.7, margin:0 }}>按岗位和企业方向筛选单面题，练习经历深挖、业务问题、技术问题和无领导小组案例。</p>
+          <div className="timeline-tags" style={{ marginTop:'.75rem' }}><span className="tag">回答框架</span><span className="tag">继续追问</span><span className="tag">群面时间线</span></div>
         </Link>
 
-        {/* 笔试训练 */}
-        <Link
-          href="/tools/exam"
-          className="timeline-card timeline-card-featured"
-          style={{
-            display: "block",
-            textDecoration: "none",
-            padding: "1.5rem",
-          }}
-        >
-          <div style={{ fontSize: "2rem", marginBottom: "0.75rem" }}>📝</div>
-          <h2
-            style={{
-              fontSize: "1.1rem",
-              fontWeight: 700,
-              marginBottom: "0.5rem",
-              color: "var(--text)",
-            }}
-          >
-            笔试训练
-          </h2>
-          <p
-            style={{
-              fontSize: "0.85rem",
-              color: "var(--text-muted)",
-              lineHeight: 1.7,
-              margin: 0,
-            }}
-          >
-            5
-            套行测类通用笔试题库，涵盖数量关系、言语理解、逻辑推理、资料分析、常识判断，在线答题并记录成绩。
-          </p>
-          <div className="timeline-tags" style={{ marginTop: "0.75rem" }}>
-            <span className="tag">5套题库</span>
-            <span className="tag">100道题</span>
-            <span className="tag">成绩记录</span>
-          </div>
+        <Link href="/tools/company-prep" className="timeline-card timeline-card-featured" style={{ display:'block', textDecoration:'none', padding:'1.5rem' }}>
+          <div style={{ fontSize:'2rem', marginBottom:'.75rem' }}>🏢</div>
+          <h2 style={{ fontSize:'1.1rem', fontWeight:700, marginBottom:'.5rem', color:'var(--text)' }}>企业备战库</h2>
+          <p style={{ fontSize:'.85rem', color:'var(--text-muted)', lineHeight:1.7, margin:0 }}>按企业查看招聘流程、笔试重点、行为面试、商业案例和公开面经高频考察点。</p>
+          <div className="timeline-tags" style={{ marginTop:'.75rem' }}><span className="tag">{COMPANY_PREP_PROFILES.length}家企业档案</span><span className="tag">{COMPANY_INTERVIEW_QUESTION_COUNT}道企业面试题</span><span className="tag">来源可查</span></div>
         </Link>
       </div>
     </div>
