@@ -1210,6 +1210,30 @@
     "createdAt": "2026-09-14T00:00:00.000Z"
   },
   {
+    "id": "guopin-217502604886803917",
+    "title": "国投期货有限公司 — 业务经理",
+    "summary": "企业性质：国企。行业：金融业。工作地点：中国。薪资：6000-10000元/月。学历：本科。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=217502604886803917",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "state",
+    "location": "中国",
+    "deadline": "2026/10/31",
+    "tags": [
+      "国投期货有限公司",
+      "校招",
+      "国企",
+      "金融",
+      "金融业",
+      "中国"
+    ],
+    "score": 85,
+    "featured": true,
+    "createdAt": "2026-09-14T00:00:00.000Z"
+  },
+  {
     "id": "guopin-212653029688606842",
     "title": "海南省旅游投资集团有限公司 — 海旅免税审计专员",
     "summary": "企业性质：国企。行业：商务服务业。工作地点：三亚-吉阳区。薪资：5000-8000元/月。学历：本科。规模：5000-10000人。",
@@ -1733,6 +1757,31 @@
       "互联网/AI",
       "研究和试验发展",
       "北京"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-09-14T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-217500269380896205",
+    "title": "国投期货有限公司 — 运营支持岗",
+    "summary": "企业性质：国企。行业：金融业。工作地点：北京-西城区、上海-虹口区。薪资：6000-10000元/月。学历：本科。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=217500269380896205",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "state",
+    "location": "北京-西城区、上海-虹口区",
+    "deadline": "2026/10/31",
+    "tags": [
+      "国投期货有限公司",
+      "校招",
+      "国企",
+      "金融",
+      "金融业",
+      "北京",
+      "上海"
     ],
     "score": 84,
     "featured": true,
@@ -92267,8 +92316,8 @@
       "批发业",
       "海南"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-09-01T11:31:41.000Z"
   },
   {
@@ -92291,7 +92340,7 @@
       "电力、热力生产和供应业",
       "海南"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-09-01T11:31:41.000Z"
   },
@@ -92315,7 +92364,7 @@
       "电力、热力生产和供应业",
       "海南"
     ],
-    "score": 76,
+    "score": 71,
     "featured": false,
     "createdAt": "2026-09-01T11:31:41.000Z"
   },
