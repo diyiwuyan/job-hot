@@ -50,6 +50,7 @@ export const RECRUITMENT_SOURCES: RecruitmentSource[] = [
   { id: 'chrm', name: '中国人力资源市场网', kind: 'campus-info', url: 'https://chrm.mohrss.gov.cn/', focus: '高校毕业生、基层项目与公共就业服务', coverage: '人社系统公告与招聘信息', category: 'other', verifiedAt: '2026-09-09' },
   { id: 'gd-public', name: '广东公共求职招聘服务平台', kind: 'campus-info', url: 'https://ggfw.hrss.gd.gov.cn/recruitment/internet/main/', focus: '广东地区应届生与社会招聘', coverage: '地方公共就业服务平台', category: 'other', verifiedAt: '2026-09-09' },
   { id: 'niuqizp', name: '牛企直聘校园招聘', kind: 'aggregator', url: 'https://campus.niuqizp.com/', focus: '企业校招项目与岗位详情', coverage: '公开校招岗位聚合与企业投递入口', category: 'internet', verifiedAt: '2026-09-09' },
+  { id: 'campus2027-github', name: 'Campus2027 GitHub 校招/实习索引', kind: 'campus-info', url: 'https://github.com/namewyf/Campus2027', focus: '2027 届校招与 2026/2027 实习项目', coverage: '按批次、企业、地点整理的公开官方投递链接', category: 'internet', verifiedAt: '2026-09-09' },
 ];
 
 export const OFFICIAL_RECRUITMENT_SOURCES = RECRUITMENT_SOURCES.filter(source => source.kind === 'official');
@@ -58,5 +59,5 @@ export const OFFICIAL_RECRUITMENT_SOURCES = RECRUITMENT_SOURCES.filter(source =>
 // structured sources already contribute their own records and are kept out of
 // this list to avoid duplicate “入口” cards.
 export const DIRECTORY_RECRUITMENT_SOURCES = RECRUITMENT_SOURCES.filter(source =>
-  !['yingjiesheng', 'nowcoder', 'deepoffer', 'guopin'].includes(source.id)
+  !['yingjiesheng', 'nowcoder', 'deepoffer', 'guopin', 'campus2027-github'].includes(source.id)
 );
