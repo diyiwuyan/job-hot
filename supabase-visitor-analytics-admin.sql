@@ -155,6 +155,8 @@ drop policy if exists "Admins can read practice summaries" on public.practice_re
 create policy "Admins can read practice summaries" on public.practice_records for select to authenticated using (public.is_admin());
 
 -- 管理员安全用户清单与城市汇总 -------------------------------
+-- 旧版本若已创建过同名函数，其返回字段与当前版本不同；先移除后重建。
+drop function if exists public.admin_list_users_safe();
 create or replace function public.admin_list_users_safe()
 returns table (
   user_id uuid,
