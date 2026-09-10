@@ -18,9 +18,14 @@ create table if not exists public.job_applications (
   next_action text check (next_action is null or char_length(next_action) <= 240),
   next_action_at date,
   notes text check (notes is null or char_length(notes) <= 3000),
+  workflow_data jsonb not null default '{}'::jsonb check (jsonb_typeof(workflow_data) = 'object'),
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now()
 );
+
+-- 兼容已经创建过工作台表的线上项目。
+alter table public.job_applications
+  add column if not exists workflow_data jsonb not null default '{}'::jsonb;
 
 create index if not exists idx_job_applications_user_status
   on public.job_applications(user_id, status, updated_at desc);
@@ -30,6 +35,8 @@ create index if not exists idx_job_applications_user_deadline
 create index if not exists idx_job_applications_user_next_action
   on public.job_applications(user_id, next_action_at)
   where next_action_at is not null;
+create index if not exists idx_job_applications_user_priority
+  on public.job_applications(user_id, ((workflow_data ->> 'priority')), updated_at desc);
 
 alter table public.job_applications enable row level security;
 

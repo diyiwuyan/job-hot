@@ -12,6 +12,8 @@ import styles from './Workspace.module.css';
 
 type WorkspaceTab = 'overview' | 'applications' | 'documents' | 'resume' | 'practice';
 type ApplicationStatus = 'saved' | 'preparing' | 'applied' | 'assessment' | 'interview' | 'offer' | 'closed';
+type ApplicationPriority = 'primary' | 'backup' | 'watching' | 'give_up';
+type VerificationStatus = 'pending' | 'verified' | 'incomplete' | 'expired';
 type DocumentKind = 'resume' | 'portfolio' | 'certificate' | 'other';
 type PracticeKind = 'written' | 'interview' | 'group' | 'case' | 'technical' | 'other';
 
@@ -25,8 +27,33 @@ type JobApplication = {
   next_action: string | null;
   next_action_at: string | null;
   notes: string | null;
+  workflow_data: ApplicationWorkflow;
   created_at: string;
   updated_at: string;
+};
+
+type ApplicationWorkflow = {
+  location?: string;
+  source_name?: string;
+  cohort?: string;
+  job_description?: string;
+  verification_status?: VerificationStatus;
+  priority?: ApplicationPriority;
+  why_apply?: string;
+  evidence_owned?: string;
+  main_gap?: string;
+  resume_version?: string;
+  resume_keywords?: string;
+  resume_updated_at?: string;
+  applied_at?: string;
+  application_channel?: string;
+  event_at?: string;
+  feedback?: string;
+  stopped_stage?: string;
+  interview_questions?: string;
+  evidence_gap?: string;
+  iteration_action?: string;
+  closed_reason?: string;
 };
 
 type CareerDocument = {
@@ -65,7 +92,11 @@ type ExamResult = {
 
 type Notice = { tone: 'success' | 'error'; text: string } | null;
 
-const APPLICATION_STATUSES: Array<{ value: ApplicationStatus; label: string; short: string }> = [
+const APPLICATION_STATUSES: Array<{
+  value: ApplicationStatus;
+  label: string;
+  short: string;
+}> = [
   { value: 'saved', label: '感兴趣', short: '收藏' },
   { value: 'preparing', label: '准备投递', short: '准备' },
   { value: 'applied', label: '已投递', short: '投递' },
@@ -73,6 +104,26 @@ const APPLICATION_STATUSES: Array<{ value: ApplicationStatus; label: string; sho
   { value: 'interview', label: '面试中', short: '面试' },
   { value: 'offer', label: '已获 Offer', short: 'Offer' },
   { value: 'closed', label: '已结束', short: '结束' },
+];
+
+const APPLICATION_PRIORITIES: Array<{
+  value: ApplicationPriority;
+  label: string;
+}> = [
+  { value: 'primary', label: '主投 · 立即准备' },
+  { value: 'backup', label: '备选 · 可以尝试' },
+  { value: 'watching', label: '观察 · 等待补充' },
+  { value: 'give_up', label: '放弃 · 不再投入' },
+];
+
+const VERIFICATION_STATUSES: Array<{
+  value: VerificationStatus;
+  label: string;
+}> = [
+  { value: 'pending', label: '待核验' },
+  { value: 'verified', label: '已核验原文和入口' },
+  { value: 'incomplete', label: '信息不完整' },
+  { value: 'expired', label: '已失效/截止' },
 ];
 
 const DOCUMENT_KINDS: Array<{ value: DocumentKind; label: string }> = [
@@ -100,6 +151,27 @@ const emptyApplication = {
   next_action: '',
   next_action_at: '',
   notes: '',
+  location: '',
+  source_name: '',
+  cohort: '',
+  job_description: '',
+  verification_status: 'pending' as VerificationStatus,
+  priority: 'watching' as ApplicationPriority,
+  why_apply: '',
+  evidence_owned: '',
+  main_gap: '',
+  resume_version: '',
+  resume_keywords: '',
+  resume_updated_at: '',
+  applied_at: '',
+  application_channel: '',
+  event_at: '',
+  feedback: '',
+  stopped_stage: '',
+  interview_questions: '',
+  evidence_gap: '',
+  iteration_action: '',
+  closed_reason: '',
 };
 
 const emptyPractice = {
@@ -119,15 +191,11 @@ const RECENT_PRACTICE_START = (() => {
   return date.getTime();
 })();
 
-const examNames = Object.fromEntries(
-  [...EXAM_SETS, ...COMPANY_EXAM_SETS].map((item) => [item.id, item.title]),
-) as Record<string, string>;
+const examNames = Object.fromEntries([...EXAM_SETS, ...COMPANY_EXAM_SETS].map((item) => [item.id, item.title])) as Record<string, string>;
 
 function formatDate(value: string | null, includeYear = false) {
   if (!value) return '未设置';
-  return new Intl.DateTimeFormat('zh-CN', includeYear
-    ? { year: 'numeric', month: 'short', day: 'numeric' }
-    : { month: 'short', day: 'numeric' }).format(new Date(`${value.slice(0, 10)}T12:00:00`));
+  return new Intl.DateTimeFormat('zh-CN', includeYear ? { year: 'numeric', month: 'short', day: 'numeric' } : { month: 'short', day: 'numeric' }).format(new Date(`${value.slice(0, 10)}T12:00:00`));
 }
 
 function formatBytes(bytes: number) {
@@ -153,7 +221,10 @@ function isDueSoon(value: string | null) {
 }
 
 function recommendationIdentity(match: SubscriptionMatch) {
-  const parts = match.title.split(' — ').map((part) => part.trim()).filter(Boolean);
+  const parts = match.title
+    .split(' — ')
+    .map((part) => part.trim())
+    .filter(Boolean);
   return {
     company: (match.companyName || parts[0] || '待确认企业').slice(0, 120),
     jobTitle: (parts.length > 1 ? parts.slice(1).join(' — ') : match.title).slice(0, 160),
@@ -162,12 +233,7 @@ function recommendationIdentity(match: SubscriptionMatch) {
 
 export default function WorkspacePage() {
   const { user, loading: authLoading } = useAuth();
-  const {
-    config: opportunityConfig,
-    matches: opportunityMatches,
-    loading: opportunityLoading,
-    markRead: archiveRecommendation,
-  } = useSubscription();
+  const { config: opportunityConfig, matches: opportunityMatches, loading: opportunityLoading, markRead: archiveRecommendation } = useSubscription();
   const [tab, setTab] = useState<WorkspaceTab>('overview');
   const [applications, setApplications] = useState<JobApplication[]>([]);
   const [documents, setDocuments] = useState<CareerDocument[]>([]);
@@ -221,7 +287,7 @@ export default function WorkspacePage() {
     void (async () => {
       setLoading(true);
       const [applicationQuery, documentQuery, practiceQuery, examQuery, assessmentQuery, bookmarkQuery] = await Promise.all([
-        supabase.from('job_applications').select('id,company,job_title,source_url,status,deadline,next_action,next_action_at,notes,created_at,updated_at').eq('user_id', user.id).order('updated_at', { ascending: false }),
+        supabase.from('job_applications').select('id,company,job_title,source_url,status,deadline,next_action,next_action_at,notes,workflow_data,created_at,updated_at').eq('user_id', user.id).order('updated_at', { ascending: false }),
         supabase.from('career_documents').select('id,kind,name,storage_path,mime_type,size_bytes,created_at,updated_at').eq('user_id', user.id).order('updated_at', { ascending: false }),
         supabase.from('practice_records').select('id,kind,title,score,max_score,duration_minutes,practiced_at,notes,next_action,created_at,updated_at').eq('user_id', user.id).order('practiced_at', { ascending: false }).limit(100),
         supabase.from('exam_results').select('id,exam_id,score,total,duration_seconds,created_at').eq('user_id', user.id).order('created_at', { ascending: false }).limit(20),
@@ -241,49 +307,86 @@ export default function WorkspacePage() {
       setLoading(false);
     })();
 
-    return () => { cancelled = true; };
+    return () => {
+      cancelled = true;
+    };
   }, [authLoading, user]);
 
-  const activeApplications = useMemo(
-    () => applications.filter((item) => item.status !== 'closed'),
-    [applications]
-  );
-  const dueSoon = useMemo(
-    () => activeApplications.filter((item) => isDueSoon(item.deadline) || isDueSoon(item.next_action_at)),
-    [activeApplications]
-  );
+  const activeApplications = useMemo(() => applications.filter((item) => item.status !== 'closed'), [applications]);
+  const dueSoon = useMemo(() => activeApplications.filter((item) => isDueSoon(item.deadline) || isDueSoon(item.next_action_at)), [activeApplications]);
   const recentPracticeCount = useMemo(() => {
     const manual = practices.filter((item) => new Date(`${item.practiced_at}T12:00:00`).getTime() >= RECENT_PRACTICE_START).length;
     const exams = examResults.filter((item) => new Date(item.created_at).getTime() >= RECENT_PRACTICE_START).length;
     return manual + exams;
   }, [examResults, practices]);
-  const recommendedMatches = useMemo(
-    () => opportunityMatches.filter((item) => !item.isRead).slice(0, 6),
-    [opportunityMatches]
-  );
-  const directionConfigured = opportunityConfig.keywords.length > 0
-    || opportunityConfig.categories.length > 0
-    || opportunityConfig.companyTypes.length > 0
-    || opportunityConfig.cities.length > 0
-    || opportunityConfig.channels.length > 0;
+  const recommendedMatches = useMemo(() => opportunityMatches.filter((item) => !item.isRead).slice(0, 6), [opportunityMatches]);
+  const directionConfigured = opportunityConfig.keywords.length > 0 || opportunityConfig.categories.length > 0 || opportunityConfig.companyTypes.length > 0 || opportunityConfig.cities.length > 0 || opportunityConfig.channels.length > 0;
 
   const nextStep = useMemo(() => {
     if (!documents.some((item) => item.kind === 'resume')) {
-      return { eyebrow: '先补齐基础材料', title: '上传一份当前使用的简历', desc: '先建立材料基线，后续每次投递和面试复盘才有统一参照。', tab: 'documents' as WorkspaceTab, action: '上传简历' };
+      return {
+        eyebrow: '先补齐基础材料',
+        title: '上传一份当前使用的简历',
+        desc: '先建立材料基线，后续每次投递和面试复盘才有统一参照。',
+        tab: 'documents' as WorkspaceTab,
+        action: '上传简历',
+      };
     }
-    const datedAction = [...activeApplications]
-      .filter((item) => item.next_action_at)
-      .sort((a, b) => (a.next_action_at ?? '').localeCompare(b.next_action_at ?? ''))[0];
+    const datedAction = [...activeApplications].filter((item) => item.next_action_at).sort((a, b) => (a.next_action_at ?? '').localeCompare(b.next_action_at ?? ''))[0];
     if (datedAction && isDueSoon(datedAction.next_action_at)) {
-      return { eyebrow: '近期优先事项', title: datedAction.next_action || `跟进 ${datedAction.company} 的申请`, desc: `${datedAction.company} · ${datedAction.job_title}，计划日期 ${formatDate(datedAction.next_action_at, true)}。`, tab: 'applications' as WorkspaceTab, action: '查看投递' };
+      return {
+        eyebrow: '近期优先事项',
+        title: datedAction.next_action || `跟进 ${datedAction.company} 的申请`,
+        desc: `${datedAction.company} · ${datedAction.job_title}，计划日期 ${formatDate(datedAction.next_action_at, true)}。`,
+        tab: 'applications' as WorkspaceTab,
+        action: '查看投递',
+      };
     }
     if (activeApplications.length === 0) {
-      return { eyebrow: '让方向进入真实验证', title: '加入第一个目标岗位', desc: `你已收藏 ${bookmarkCount} 条信息。把真正准备申请的机会加入投递看板。`, tab: 'applications' as WorkspaceTab, action: '新建投递' };
+      return {
+        eyebrow: '让方向进入真实验证',
+        title: '加入第一个目标岗位',
+        desc: `你已收藏 ${bookmarkCount} 条信息。把真正准备申请的机会加入投递看板。`,
+        tab: 'applications' as WorkspaceTab,
+        action: '新建投递',
+      };
+    }
+    const unverified = activeApplications.find((item) => item.workflow_data?.verification_status !== 'verified');
+    if (unverified) {
+      return {
+        eyebrow: '岗位真实性待核验',
+        title: `核验 ${unverified.company} · ${unverified.job_title}`,
+        desc: '确认发布主体、岗位原文、有效日期和申请入口，再决定是否进入主投。',
+        tab: 'applications' as WorkspaceTab,
+        action: '完成核验',
+      };
+    }
+    const unmatchedPrimary = activeApplications.find((item) => item.workflow_data?.priority === 'primary' && !item.workflow_data?.resume_version);
+    if (unmatchedPrimary) {
+      return {
+        eyebrow: '主投岗位尚未匹配简历',
+        title: `为 ${unmatchedPrimary.job_title} 选择简历版本`,
+        desc: '把岗位要求、已有证据和表达缺口对应起来，只使用真实且经得起追问的经历。',
+        tab: 'applications' as WorkspaceTab,
+        action: '匹配简历',
+      };
     }
     if (recentPracticeCount === 0) {
-      return { eyebrow: '本周尚未形成练习记录', title: '安排一次针对性练习', desc: '根据当前最接近的招聘环节，选择笔试、单面或群面，并记录结论。', tab: 'practice' as WorkspaceTab, action: '记录练习' };
+      return {
+        eyebrow: '本周尚未形成练习记录',
+        title: '安排一次针对性练习',
+        desc: '根据当前最接近的招聘环节，选择笔试、单面或群面，并记录结论。',
+        tab: 'practice' as WorkspaceTab,
+        action: '记录练习',
+      };
     }
-    return { eyebrow: '本周节奏正常', title: '复盘一次投递漏斗', desc: '检查停留过久的岗位，把下一步动作和日期写清楚。', tab: 'applications' as WorkspaceTab, action: '开始复盘' };
+    return {
+      eyebrow: '本周节奏正常',
+      title: '复盘一次投递漏斗',
+      desc: '检查停留过久的岗位，把下一步动作和日期写清楚。',
+      tab: 'applications' as WorkspaceTab,
+      action: '开始复盘',
+    };
   }, [activeApplications, bookmarkCount, documents, recentPracticeCount]);
 
   function showNotice(tone: 'success' | 'error', text: string) {
@@ -310,12 +413,33 @@ export default function WorkspacePage() {
       next_action: applicationForm.next_action.trim() || null,
       next_action_at: applicationForm.next_action_at || null,
       notes: applicationForm.notes.trim() || null,
+      workflow_data: {
+        location: applicationForm.location.trim(),
+        source_name: applicationForm.source_name.trim(),
+        cohort: applicationForm.cohort.trim(),
+        job_description: applicationForm.job_description.trim(),
+        verification_status: applicationForm.verification_status,
+        priority: applicationForm.priority,
+        why_apply: applicationForm.why_apply.trim(),
+        evidence_owned: applicationForm.evidence_owned.trim(),
+        main_gap: applicationForm.main_gap.trim(),
+        resume_version: applicationForm.resume_version.trim(),
+        resume_keywords: applicationForm.resume_keywords.trim(),
+        resume_updated_at: applicationForm.resume_updated_at,
+        applied_at: applicationForm.applied_at,
+        application_channel: applicationForm.application_channel.trim(),
+        event_at: applicationForm.event_at,
+        feedback: applicationForm.feedback.trim(),
+        stopped_stage: applicationForm.stopped_stage.trim(),
+        interview_questions: applicationForm.interview_questions.trim(),
+        evidence_gap: applicationForm.evidence_gap.trim(),
+        iteration_action: applicationForm.iteration_action.trim(),
+        closed_reason: applicationForm.closed_reason.trim(),
+      },
       updated_at: new Date().toISOString(),
     };
 
-    const query = editingApplicationId
-      ? supabase.from('job_applications').update(payload).eq('id', editingApplicationId).eq('user_id', user.id).select().single()
-      : supabase.from('job_applications').insert(payload).select().single();
+    const query = editingApplicationId ? supabase.from('job_applications').update(payload).eq('id', editingApplicationId).eq('user_id', user.id).select().single() : supabase.from('job_applications').insert(payload).select().single();
     const { data, error } = await query;
     setSaving(false);
     if (error || !data) {
@@ -340,18 +464,28 @@ export default function WorkspacePage() {
     const { company, jobTitle } = recommendationIdentity(match);
     const deadline = /^\d{4}-\d{2}-\d{2}/.test(match.deadline) ? match.deadline.slice(0, 10) : null;
     setSaving(true);
-    const { data, error } = await supabase.from('job_applications').insert({
-      user_id: user.id,
-      company,
-      job_title: jobTitle,
-      source_url: match.url,
-      status: 'saved',
-      deadline,
-      next_action: '核对岗位要求，决定是否正式投递',
-      next_action_at: null,
-      notes: `来自每日岗位推荐。匹配线索：${match.matchedKeywords.join('、') || '求职方向筛选'}。`,
-      updated_at: new Date().toISOString(),
-    }).select().single();
+    const { data, error } = await supabase
+      .from('job_applications')
+      .insert({
+        user_id: user.id,
+        company,
+        job_title: jobTitle,
+        source_url: match.url,
+        status: 'saved',
+        deadline,
+        next_action: '核对岗位要求，决定是否正式投递',
+        next_action_at: null,
+        notes: `来自每日岗位推荐。匹配线索：${match.matchedKeywords.join('、') || '求职方向筛选'}。`,
+        workflow_data: {
+          location: match.location || '',
+          source_name: match.source || '每日岗位推荐',
+          verification_status: 'pending',
+          priority: 'watching',
+        },
+        updated_at: new Date().toISOString(),
+      })
+      .select()
+      .single();
     setSaving(false);
 
     if (error || !data) {
@@ -379,14 +513,42 @@ export default function WorkspacePage() {
       next_action: item.next_action ?? '',
       next_action_at: item.next_action_at ?? '',
       notes: item.notes ?? '',
+      location: item.workflow_data?.location ?? '',
+      source_name: item.workflow_data?.source_name ?? '',
+      cohort: item.workflow_data?.cohort ?? '',
+      job_description: item.workflow_data?.job_description ?? '',
+      verification_status: item.workflow_data?.verification_status ?? 'pending',
+      priority: item.workflow_data?.priority ?? 'watching',
+      why_apply: item.workflow_data?.why_apply ?? '',
+      evidence_owned: item.workflow_data?.evidence_owned ?? '',
+      main_gap: item.workflow_data?.main_gap ?? '',
+      resume_version: item.workflow_data?.resume_version ?? '',
+      resume_keywords: item.workflow_data?.resume_keywords ?? '',
+      resume_updated_at: item.workflow_data?.resume_updated_at ?? '',
+      applied_at: item.workflow_data?.applied_at ?? '',
+      application_channel: item.workflow_data?.application_channel ?? '',
+      event_at: item.workflow_data?.event_at ?? '',
+      feedback: item.workflow_data?.feedback ?? '',
+      stopped_stage: item.workflow_data?.stopped_stage ?? '',
+      interview_questions: item.workflow_data?.interview_questions ?? '',
+      evidence_gap: item.workflow_data?.evidence_gap ?? '',
+      iteration_action: item.workflow_data?.iteration_action ?? '',
+      closed_reason: item.workflow_data?.closed_reason ?? '',
     });
-    window.setTimeout(() => applicationFormRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 0);
+    window.setTimeout(
+      () =>
+        applicationFormRef.current?.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start',
+        }),
+      0,
+    );
   }
 
   async function updateApplicationStatus(id: string, status: ApplicationStatus) {
     if (!supabase || !user) return;
     const previous = applications;
-    setApplications((current) => current.map((item) => item.id === id ? { ...item, status, updated_at: new Date().toISOString() } : item));
+    setApplications((current) => current.map((item) => (item.id === id ? { ...item, status, updated_at: new Date().toISOString() } : item)));
     const { error } = await supabase.from('job_applications').update({ status, updated_at: new Date().toISOString() }).eq('id', id).eq('user_id', user.id);
     if (error) {
       setApplications(previous);
@@ -428,14 +590,18 @@ export default function WorkspacePage() {
       return;
     }
 
-    const { data, error } = await supabase.from('career_documents').insert({
-      user_id: user.id,
-      kind: documentKind,
-      name: documentFile.name,
-      storage_path: storagePath,
-      mime_type: documentFile.type || null,
-      size_bytes: documentFile.size,
-    }).select().single();
+    const { data, error } = await supabase
+      .from('career_documents')
+      .insert({
+        user_id: user.id,
+        kind: documentKind,
+        name: documentFile.name,
+        storage_path: storagePath,
+        mime_type: documentFile.type || null,
+        size_bytes: documentFile.size,
+      })
+      .select()
+      .single();
     if (error || !data) {
       await supabase.storage.from('career-documents').remove([storagePath]);
       setSaving(false);
@@ -494,9 +660,7 @@ export default function WorkspacePage() {
       next_action: practiceForm.next_action.trim() || null,
       updated_at: new Date().toISOString(),
     };
-    const query = editingPracticeId
-      ? supabase.from('practice_records').update(payload).eq('id', editingPracticeId).eq('user_id', user.id).select().single()
-      : supabase.from('practice_records').insert(payload).select().single();
+    const query = editingPracticeId ? supabase.from('practice_records').update(payload).eq('id', editingPracticeId).eq('user_id', user.id).select().single() : supabase.from('practice_records').insert(payload).select().single();
     const { data, error } = await query;
     setSaving(false);
     if (error || !data) {
@@ -504,9 +668,11 @@ export default function WorkspacePage() {
       return;
     }
     const saved = data as PracticeRecord;
-    setPractices((current) => [saved, ...current.filter((item) => item.id !== saved.id)]
-      .sort((a, b) => b.practiced_at.localeCompare(a.practiced_at)));
-    setPracticeForm({ ...emptyPractice, practiced_at: new Date().toISOString().slice(0, 10) });
+    setPractices((current) => [saved, ...current.filter((item) => item.id !== saved.id)].sort((a, b) => b.practiced_at.localeCompare(a.practiced_at)));
+    setPracticeForm({
+      ...emptyPractice,
+      practiced_at: new Date().toISOString().slice(0, 10),
+    });
     setEditingPracticeId(null);
     showNotice('success', editingPracticeId ? '练习记录已更新。' : '练习记录已保存。');
   }
@@ -523,7 +689,14 @@ export default function WorkspacePage() {
       notes: item.notes ?? '',
       next_action: item.next_action ?? '',
     });
-    window.setTimeout(() => practiceFormRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 0);
+    window.setTimeout(
+      () =>
+        practiceFormRef.current?.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start',
+        }),
+      0,
+    );
   }
 
   async function deletePractice(item: PracticeRecord) {
@@ -537,7 +710,11 @@ export default function WorkspacePage() {
   }
 
   if (authLoading || loading) {
-    return <div className={`page ${styles.page}`}><div className={styles.loading}>正在整理你的求职进展…</div></div>;
+    return (
+      <div className={`page ${styles.page}`}>
+        <div className={styles.loading}>正在整理你的求职进展…</div>
+      </div>
+    );
   }
 
   if (!user) {
@@ -549,8 +726,12 @@ export default function WorkspacePage() {
           <h1>登录后建立你的求职工作台</h1>
           <p>简历材料、投递进度、练习记录和测评结果只保存在你的账号中，并可跨设备同步。</p>
           <div className={styles.loginActions}>
-            <Link href="/login?redirect=/workspace" className="btn">登录 / 注册</Link>
-            <Link href="/tools/assessment" className="btn btn-secondary">先看看职业测评</Link>
+            <Link href="/login?redirect=/workspace" className="btn">
+              登录 / 注册
+            </Link>
+            <Link href="/tools/assessment" className="btn btn-secondary">
+              先看看职业测评
+            </Link>
           </div>
         </section>
       </div>
@@ -558,10 +739,26 @@ export default function WorkspacePage() {
   }
 
   const overviewStats = [
-    { value: activeApplications.length, label: '进行中投递', note: applications.length ? `全部 ${applications.length} 个` : '等待加入目标' },
-    { value: dueSoon.length, label: '7天内待办', note: dueSoon.length ? '优先处理' : '暂无临期事项' },
-    { value: documents.length, label: '求职材料', note: documents.some((item) => item.kind === 'resume') ? '已有简历' : '尚未上传简历' },
-    { value: recentPracticeCount, label: '近7天练习', note: `累计 ${practices.length + examResults.length} 次` },
+    {
+      value: activeApplications.length,
+      label: '进行中投递',
+      note: applications.length ? `全部 ${applications.length} 个` : '等待加入目标',
+    },
+    {
+      value: dueSoon.length,
+      label: '7天内待办',
+      note: dueSoon.length ? '优先处理' : '暂无临期事项',
+    },
+    {
+      value: documents.length,
+      label: '求职材料',
+      note: documents.some((item) => item.kind === 'resume') ? '已有简历' : '尚未上传简历',
+    },
+    {
+      value: recentPracticeCount,
+      label: '近7天练习',
+      note: `累计 ${practices.length + examResults.length} 次`,
+    },
   ];
 
   return (
@@ -585,31 +782,49 @@ export default function WorkspacePage() {
         </div>
       )}
 
-      {notice && <div className={`${styles.toast} ${notice.tone === 'error' ? styles.toastError : ''}`} role="status">{notice.text}</div>}
+      {notice && (
+        <div className={`${styles.toast} ${notice.tone === 'error' ? styles.toastError : ''}`} role="status">
+          {notice.text}
+        </div>
+      )}
 
       <nav className={styles.tabs} aria-label="求职工作台分区">
-        {([
-          ['overview', '总览'],
-          ['applications', '投递管理'],
-          ['documents', '求职材料'],
-          ['resume', '简历诊断'],
-          ['practice', '练习记录'],
-        ] as Array<[WorkspaceTab, string]>).map(([value, label]) => (
-          <button key={value} type="button" data-active={tab === value} onClick={() => openTab(value)}>{label}</button>
+        {(
+          [
+            ['overview', '总览'],
+            ['applications', '投递管理'],
+            ['documents', '求职材料'],
+            ['resume', '简历诊断'],
+            ['practice', '练习记录'],
+          ] as Array<[WorkspaceTab, string]>
+        ).map(([value, label]) => (
+          <button key={value} type="button" data-active={tab === value} onClick={() => openTab(value)}>
+            {label}
+          </button>
         ))}
       </nav>
 
       {tab === 'overview' && (
         <div className={styles.overview}>
           <section className={styles.statGrid}>
-            {overviewStats.map((item) => <button type="button" key={item.label} className={styles.statCard} onClick={() => openTab(item.label.includes('投递') || item.label.includes('待办') ? 'applications' : item.label.includes('材料') ? 'documents' : 'practice')}>
-              <strong>{item.value}</strong><span>{item.label}</span><small>{item.note}</small>
-            </button>)}
+            {overviewStats.map((item) => (
+              <button type="button" key={item.label} className={styles.statCard} onClick={() => openTab(item.label.includes('投递') || item.label.includes('待办') ? 'applications' : item.label.includes('材料') ? 'documents' : 'practice')}>
+                <strong>{item.value}</strong>
+                <span>{item.label}</span>
+                <small>{item.note}</small>
+              </button>
+            ))}
           </section>
 
           <section className={styles.nextStep}>
-            <div><p>{nextStep.eyebrow}</p><h2>{nextStep.title}</h2><span>{nextStep.desc}</span></div>
-            <button type="button" className="btn" onClick={() => openTab(nextStep.tab)}>{nextStep.action} →</button>
+            <div>
+              <p>{nextStep.eyebrow}</p>
+              <h2>{nextStep.title}</h2>
+              <span>{nextStep.desc}</span>
+            </div>
+            <button type="button" className="btn" onClick={() => openTab(nextStep.tab)}>
+              {nextStep.action} →
+            </button>
           </section>
 
           <section className={styles.recommendationPanel}>
@@ -624,8 +839,13 @@ export default function WorkspacePage() {
 
             {!directionConfigured ? (
               <div className={styles.recommendationSetup}>
-                <div><strong>先告诉我们你想找什么</strong><p>建议填写 3—8 个岗位、公司或技能关键词，再选择目标城市和求职类型。设置一次，之后自动更新。</p></div>
-                <Link href="/subscription" className="btn">设置求职方向 →</Link>
+                <div>
+                  <strong>先告诉我们你想找什么</strong>
+                  <p>建议填写 3—8 个岗位、公司或技能关键词，再选择目标城市和求职类型。设置一次，之后自动更新。</p>
+                </div>
+                <Link href="/subscription" className="btn">
+                  设置求职方向 →
+                </Link>
               </div>
             ) : opportunityLoading ? (
               <div className={styles.recommendationEmpty}>正在整理与你方向匹配的新机会…</div>
@@ -634,59 +854,131 @@ export default function WorkspacePage() {
                 {recommendedMatches.map((match) => {
                   const identity = recommendationIdentity(match);
                   const matchScore = Math.max(0, Math.min(100, match.score));
-                  return <article key={match.id} className={styles.recommendationCard}>
-                    <div className={styles.recommendationTop}>
-                      <span>{match.source || '招聘信息源'} · {new Date(match.matchedAt).toLocaleDateString('zh-CN')}</span>
-                      {matchScore > 0 && <strong>推荐度 {matchScore}</strong>}
-                    </div>
-                    <h3>{identity.company}</h3>
-                    <p>{identity.jobTitle}</p>
-                    <div className={styles.recommendationMeta}>
-                      {match.location && <span>{match.location}</span>}
-                      {match.deadline && <span>截止 {match.deadline}</span>}
-                      {match.channel && <span>{match.channel === 'intern' ? '实习' : match.channel === 'campus' ? '校招' : match.channel}</span>}
-                    </div>
-                    <div className={styles.matchReasons}>{match.matchedKeywords.slice(0, 4).map((reason) => <span key={reason}>{reason}</span>)}</div>
-                    <div className={styles.recommendationActions}>
-                      <a href={match.url} target="_blank" rel="noopener noreferrer">查看岗位 ↗</a>
-                      <button type="button" disabled={saving || !schemaReady} onClick={() => addRecommendedOpportunity(match)}>加入投递管理</button>
-                      <button type="button" onClick={() => dismissRecommendation(match)}>暂不考虑</button>
-                    </div>
-                  </article>;
+                  return (
+                    <article key={match.id} className={styles.recommendationCard}>
+                      <div className={styles.recommendationTop}>
+                        <span>
+                          {match.source || '招聘信息源'} · {new Date(match.matchedAt).toLocaleDateString('zh-CN')}
+                        </span>
+                        {matchScore > 0 && <strong>推荐度 {matchScore}</strong>}
+                      </div>
+                      <h3>{identity.company}</h3>
+                      <p>{identity.jobTitle}</p>
+                      <div className={styles.recommendationMeta}>
+                        {match.location && <span>{match.location}</span>}
+                        {match.deadline && <span>截止 {match.deadline}</span>}
+                        {match.channel && <span>{match.channel === 'intern' ? '实习' : match.channel === 'campus' ? '校招' : match.channel}</span>}
+                      </div>
+                      <div className={styles.matchReasons}>
+                        {match.matchedKeywords.slice(0, 4).map((reason) => (
+                          <span key={reason}>{reason}</span>
+                        ))}
+                      </div>
+                      <div className={styles.recommendationActions}>
+                        <a href={match.url} target="_blank" rel="noopener noreferrer">
+                          查看岗位 ↗
+                        </a>
+                        <button type="button" disabled={saving || !schemaReady} onClick={() => addRecommendedOpportunity(match)}>
+                          加入投递管理
+                        </button>
+                        <button type="button" onClick={() => dismissRecommendation(match)}>
+                          暂不考虑
+                        </button>
+                      </div>
+                    </article>
+                  );
                 })}
               </div>
             ) : (
-              <div className={styles.recommendationEmpty}><strong>今天暂时没有新的匹配机会</strong><span>系统会继续扫描最新岗位；也可以调整关键词，避免条件过窄。</span><Link href="/subscription">检查求职方向 →</Link></div>
+              <div className={styles.recommendationEmpty}>
+                <strong>今天暂时没有新的匹配机会</strong>
+                <span>系统会继续扫描最新岗位；也可以调整关键词，避免条件过窄。</span>
+                <Link href="/subscription">检查求职方向 →</Link>
+              </div>
             )}
             <div className={styles.recommendationFooter}>
-              <span>{opportunityConfig.pushFrequency === 'weekly' ? '每周一汇总更新' : '每日自动更新'} · 当前待查看 {recommendedMatches.length} 个</span>
+              <span>
+                {opportunityConfig.pushFrequency === 'weekly' ? '每周一汇总更新' : '每日自动更新'} · 当前待查看 {recommendedMatches.length} 个
+              </span>
               <Link href="/subscription">查看全部推荐与历史记录</Link>
             </div>
           </section>
 
           <div className={styles.overviewGrid}>
             <section className={styles.panel}>
-              <div className={styles.panelHeading}><div><p className={styles.eyebrow}>PIPELINE</p><h2>投递漏斗</h2></div><button type="button" onClick={() => openTab('applications')}>管理全部 →</button></div>
+              <div className={styles.panelHeading}>
+                <div>
+                  <p className={styles.eyebrow}>PIPELINE</p>
+                  <h2>投递漏斗</h2>
+                </div>
+                <button type="button" onClick={() => openTab('applications')}>
+                  管理全部 →
+                </button>
+              </div>
               <div className={styles.pipeline}>
                 {APPLICATION_STATUSES.slice(0, 6).map((status) => {
                   const count = applications.filter((item) => item.status === status.value).length;
-                  return <div key={status.value}><span>{status.short}</span><strong>{count}</strong><i style={{ height: `${Math.max(4, count ? Math.min(100, count * 22) : 4)}%` }} /></div>;
+                  return (
+                    <div key={status.value}>
+                      <span>{status.short}</span>
+                      <strong>{count}</strong>
+                      <i
+                        style={{
+                          height: `${Math.max(4, count ? Math.min(100, count * 22) : 4)}%`,
+                        }}
+                      />
+                    </div>
+                  );
                 })}
               </div>
-              {dueSoon.length > 0 ? <div className={styles.compactList}>{dueSoon.slice(0, 3).map((item) => <button type="button" key={item.id} onClick={() => openTab('applications')}><span>{formatDate(item.next_action_at || item.deadline)}</span><div><strong>{item.next_action || `${item.company} 截止`}</strong><small>{item.company} · {item.job_title}</small></div></button>)}</div> : <div className={styles.emptyCompact}>当前没有 7 天内到期的投递事项。</div>}
+              {dueSoon.length > 0 ? (
+                <div className={styles.compactList}>
+                  {dueSoon.slice(0, 3).map((item) => (
+                    <button type="button" key={item.id} onClick={() => openTab('applications')}>
+                      <span>{formatDate(item.next_action_at || item.deadline)}</span>
+                      <div>
+                        <strong>{item.next_action || `${item.company} 截止`}</strong>
+                        <small>
+                          {item.company} · {item.job_title}
+                        </small>
+                      </div>
+                    </button>
+                  ))}
+                </div>
+              ) : (
+                <div className={styles.emptyCompact}>当前没有 7 天内到期的投递事项。</div>
+              )}
             </section>
 
             <section className={styles.panel}>
-              <div className={styles.panelHeading}><div><p className={styles.eyebrow}>PROFILE & PRACTICE</p><h2>能力准备</h2></div><Link href="/tools/assessment/profile">职业画像 →</Link></div>
+              <div className={styles.panelHeading}>
+                <div>
+                  <p className={styles.eyebrow}>PROFILE & PRACTICE</p>
+                  <h2>能力准备</h2>
+                </div>
+                <Link href="/tools/assessment/profile">职业画像 →</Link>
+              </div>
               <div className={styles.readinessGrid}>
-                <Link href="/tools/assessment/profile"><strong>{assessmentCount}</strong><span>份测评结果</span><small>{assessmentCount ? '查看组合洞察' : '从一项测评开始'}</small></Link>
-                <button type="button" onClick={() => openTab('practice')}><strong>{practices.length + examResults.length}</strong><span>次练习记录</span><small>{recentPracticeCount ? `近7天 ${recentPracticeCount} 次` : '本周还没有练习'}</small></button>
+                <Link href="/tools/assessment/profile">
+                  <strong>{assessmentCount}</strong>
+                  <span>份测评结果</span>
+                  <small>{assessmentCount ? '查看组合洞察' : '从一项测评开始'}</small>
+                </Link>
+                <button type="button" onClick={() => openTab('practice')}>
+                  <strong>{practices.length + examResults.length}</strong>
+                  <span>次练习记录</span>
+                  <small>{recentPracticeCount ? `近7天 ${recentPracticeCount} 次` : '本周还没有练习'}</small>
+                </button>
               </div>
               <div className={styles.quickActions}>
-                <button type="button" onClick={() => openTab('resume')}>诊断并生成岗位定向简历</button>
+                <button type="button" onClick={() => openTab('resume')}>
+                  诊断并生成岗位定向简历
+                </button>
                 <Link href="/tools/exam">开始一次笔试训练</Link>
                 <Link href="/tools/interview">抽一道面试题或群面案例</Link>
-                <button type="button" onClick={() => openTab('practice')}>记录一次面试练习</button>
+                <button type="button" onClick={() => openTab('practice')}>
+                  记录一次面试练习
+                </button>
                 <Link href="/tools/assessment">选择职业测评</Link>
               </div>
             </section>
@@ -697,36 +989,612 @@ export default function WorkspacePage() {
       {tab === 'applications' && (
         <div className={styles.sectionLayout}>
           <section className={styles.panel} ref={applicationFormRef}>
-            <div className={styles.panelHeading}><div><p className={styles.eyebrow}>APPLICATION</p><h2>{editingApplicationId ? '编辑投递' : '加入一个目标岗位'}</h2><span>先记录事实，再明确唯一的下一步。</span></div></div>
+            <div className={styles.panelHeading}>
+              <div>
+                <p className={styles.eyebrow}>APPLICATION</p>
+                <h2>{editingApplicationId ? '编辑投递' : '加入一个目标岗位'}</h2>
+                <span>先记录事实，再明确唯一的下一步。</span>
+              </div>
+            </div>
             <form className={styles.form} onSubmit={saveApplication}>
               <div className={styles.twoColumns}>
-                <label><span>公司 *</span><input className="field" required maxLength={120} value={applicationForm.company} onChange={(event) => setApplicationForm({ ...applicationForm, company: event.target.value })} placeholder="例如：某科技公司" /></label>
-                <label><span>岗位 *</span><input className="field" required maxLength={160} value={applicationForm.job_title} onChange={(event) => setApplicationForm({ ...applicationForm, job_title: event.target.value })} placeholder="例如：产品经理校招" /></label>
+                <label>
+                  <span>公司 *</span>
+                  <input
+                    className="field"
+                    required
+                    maxLength={120}
+                    value={applicationForm.company}
+                    onChange={(event) =>
+                      setApplicationForm({
+                        ...applicationForm,
+                        company: event.target.value,
+                      })
+                    }
+                    placeholder="例如：某科技公司"
+                  />
+                </label>
+                <label>
+                  <span>岗位 *</span>
+                  <input
+                    className="field"
+                    required
+                    maxLength={160}
+                    value={applicationForm.job_title}
+                    onChange={(event) =>
+                      setApplicationForm({
+                        ...applicationForm,
+                        job_title: event.target.value,
+                      })
+                    }
+                    placeholder="例如：产品经理校招"
+                  />
+                </label>
               </div>
-              <div className={styles.twoColumns}>
-                <label><span>当前阶段</span><select className="field" value={applicationForm.status} onChange={(event) => setApplicationForm({ ...applicationForm, status: event.target.value as ApplicationStatus })}>{APPLICATION_STATUSES.map((item) => <option key={item.value} value={item.value}>{item.label}</option>)}</select></label>
-                <label><span>投递截止日</span><input className="field" type="date" value={applicationForm.deadline} onChange={(event) => setApplicationForm({ ...applicationForm, deadline: event.target.value })} /></label>
+              <details className={styles.workflowGroup} open>
+                <summary>
+                  <strong>① 岗位核验</strong>
+                  <span>先确认来源和有效性</span>
+                </summary>
+                <div className={styles.workflowFields}>
+                  <div className={styles.threeColumns}>
+                    <label>
+                      <span>工作地点</span>
+                      <input
+                        className="field"
+                        value={applicationForm.location}
+                        onChange={(event) =>
+                          setApplicationForm({
+                            ...applicationForm,
+                            location: event.target.value,
+                          })
+                        }
+                      />
+                    </label>
+                    <label>
+                      <span>信息来源</span>
+                      <input
+                        className="field"
+                        value={applicationForm.source_name}
+                        onChange={(event) =>
+                          setApplicationForm({
+                            ...applicationForm,
+                            source_name: event.target.value,
+                          })
+                        }
+                        placeholder="公司官网 / 学校就业网"
+                      />
+                    </label>
+                    <label>
+                      <span>面向届别</span>
+                      <input
+                        className="field"
+                        value={applicationForm.cohort}
+                        onChange={(event) =>
+                          setApplicationForm({
+                            ...applicationForm,
+                            cohort: event.target.value,
+                          })
+                        }
+                        placeholder="例如：2027届"
+                      />
+                    </label>
+                  </div>
+                  <label>
+                    <span>原始招聘链接</span>
+                    <input
+                      className="field"
+                      type="url"
+                      value={applicationForm.source_url}
+                      onChange={(event) =>
+                        setApplicationForm({
+                          ...applicationForm,
+                          source_url: event.target.value,
+                        })
+                      }
+                      placeholder="https://…"
+                    />
+                  </label>
+                  <label>
+                    <span>完整 JD</span>
+                    <textarea
+                      className="field"
+                      rows={4}
+                      value={applicationForm.job_description}
+                      onChange={(event) =>
+                        setApplicationForm({
+                          ...applicationForm,
+                          job_description: event.target.value,
+                        })
+                      }
+                      placeholder="粘贴岗位职责与任职要求，便于匹配简历和复盘。"
+                    />
+                  </label>
+                  <div className={styles.twoColumns}>
+                    <label>
+                      <span>核验状态</span>
+                      <select
+                        className="field"
+                        value={applicationForm.verification_status}
+                        onChange={(event) =>
+                          setApplicationForm({
+                            ...applicationForm,
+                            verification_status: event.target.value as VerificationStatus,
+                          })
+                        }
+                      >
+                        {VERIFICATION_STATUSES.map((item) => (
+                          <option key={item.value} value={item.value}>
+                            {item.label}
+                          </option>
+                        ))}
+                      </select>
+                    </label>
+                    <label>
+                      <span>投递截止日</span>
+                      <input
+                        className="field"
+                        type="date"
+                        value={applicationForm.deadline}
+                        onChange={(event) =>
+                          setApplicationForm({
+                            ...applicationForm,
+                            deadline: event.target.value,
+                          })
+                        }
+                      />
+                    </label>
+                  </div>
+                </div>
+              </details>
+              <details className={styles.workflowGroup} open>
+                <summary>
+                  <strong>② 优先级与差距</strong>
+                  <span>决定先做什么</span>
+                </summary>
+                <div className={styles.workflowFields}>
+                  <label>
+                    <span>岗位优先级</span>
+                    <select
+                      className="field"
+                      value={applicationForm.priority}
+                      onChange={(event) =>
+                        setApplicationForm({
+                          ...applicationForm,
+                          priority: event.target.value as ApplicationPriority,
+                        })
+                      }
+                    >
+                      {APPLICATION_PRIORITIES.map((item) => (
+                        <option key={item.value} value={item.value}>
+                          {item.label}
+                        </option>
+                      ))}
+                    </select>
+                  </label>
+                  <label>
+                    <span>为什么值得投</span>
+                    <textarea
+                      className="field"
+                      rows={2}
+                      value={applicationForm.why_apply}
+                      onChange={(event) =>
+                        setApplicationForm({
+                          ...applicationForm,
+                          why_apply: event.target.value,
+                        })
+                      }
+                    />
+                  </label>
+                  <div className={styles.twoColumns}>
+                    <label>
+                      <span>我已具备的证据</span>
+                      <textarea
+                        className="field"
+                        rows={3}
+                        value={applicationForm.evidence_owned}
+                        onChange={(event) =>
+                          setApplicationForm({
+                            ...applicationForm,
+                            evidence_owned: event.target.value,
+                          })
+                        }
+                      />
+                    </label>
+                    <label>
+                      <span>主要缺口</span>
+                      <textarea
+                        className="field"
+                        rows={3}
+                        value={applicationForm.main_gap}
+                        onChange={(event) =>
+                          setApplicationForm({
+                            ...applicationForm,
+                            main_gap: event.target.value,
+                          })
+                        }
+                      />
+                    </label>
+                  </div>
+                </div>
+              </details>
+              <details className={styles.workflowGroup}>
+                <summary>
+                  <strong>③ 岗位匹配简历</strong>
+                  <span>要求—证据—表达缺口</span>
+                </summary>
+                <div className={styles.workflowFields}>
+                  <div className={styles.twoColumns}>
+                    <label>
+                      <span>使用的简历版本</span>
+                      <input
+                        className="field"
+                        value={applicationForm.resume_version}
+                        onChange={(event) =>
+                          setApplicationForm({
+                            ...applicationForm,
+                            resume_version: event.target.value,
+                          })
+                        }
+                        placeholder="例如：产品经理 V3"
+                      />
+                    </label>
+                    <label>
+                      <span>修改完成日期</span>
+                      <input
+                        className="field"
+                        type="date"
+                        value={applicationForm.resume_updated_at}
+                        onChange={(event) =>
+                          setApplicationForm({
+                            ...applicationForm,
+                            resume_updated_at: event.target.value,
+                          })
+                        }
+                      />
+                    </label>
+                  </div>
+                  <label>
+                    <span>需要调整的关键词 / 表达</span>
+                    <textarea
+                      className="field"
+                      rows={3}
+                      value={applicationForm.resume_keywords}
+                      onChange={(event) =>
+                        setApplicationForm({
+                          ...applicationForm,
+                          resume_keywords: event.target.value,
+                        })
+                      }
+                    />
+                  </label>
+                </div>
+              </details>
+              <details className={styles.workflowGroup} open>
+                <summary>
+                  <strong>④ 投递进度</strong>
+                  <span>每天明确唯一下一步</span>
+                </summary>
+                <div className={styles.workflowFields}>
+                  <div className={styles.threeColumns}>
+                    <label>
+                      <span>当前阶段</span>
+                      <select
+                        className="field"
+                        value={applicationForm.status}
+                        onChange={(event) =>
+                          setApplicationForm({
+                            ...applicationForm,
+                            status: event.target.value as ApplicationStatus,
+                          })
+                        }
+                      >
+                        {APPLICATION_STATUSES.map((item) => (
+                          <option key={item.value} value={item.value}>
+                            {item.label}
+                          </option>
+                        ))}
+                      </select>
+                    </label>
+                    <label>
+                      <span>投递日期</span>
+                      <input
+                        className="field"
+                        type="date"
+                        value={applicationForm.applied_at}
+                        onChange={(event) =>
+                          setApplicationForm({
+                            ...applicationForm,
+                            applied_at: event.target.value,
+                          })
+                        }
+                      />
+                    </label>
+                    <label>
+                      <span>投递渠道</span>
+                      <input
+                        className="field"
+                        value={applicationForm.application_channel}
+                        onChange={(event) =>
+                          setApplicationForm({
+                            ...applicationForm,
+                            application_channel: event.target.value,
+                          })
+                        }
+                        placeholder="官网 / 内推 / 招聘平台"
+                      />
+                    </label>
+                  </div>
+                  <div className={styles.threeColumns}>
+                    <label>
+                      <span>笔试 / 面试时间</span>
+                      <input
+                        className="field"
+                        type="datetime-local"
+                        value={applicationForm.event_at}
+                        onChange={(event) =>
+                          setApplicationForm({
+                            ...applicationForm,
+                            event_at: event.target.value,
+                          })
+                        }
+                      />
+                    </label>
+                    <label>
+                      <span>下一步动作</span>
+                      <input
+                        className="field"
+                        value={applicationForm.next_action}
+                        onChange={(event) =>
+                          setApplicationForm({
+                            ...applicationForm,
+                            next_action: event.target.value,
+                          })
+                        }
+                      />
+                    </label>
+                    <label>
+                      <span>提醒日期</span>
+                      <input
+                        className="field"
+                        type="date"
+                        value={applicationForm.next_action_at}
+                        onChange={(event) =>
+                          setApplicationForm({
+                            ...applicationForm,
+                            next_action_at: event.target.value,
+                          })
+                        }
+                      />
+                    </label>
+                  </div>
+                </div>
+              </details>
+              <details className={styles.workflowGroup}>
+                <summary>
+                  <strong>⑤ 反馈与复盘</strong>
+                  <span>一次只调整一个变量</span>
+                </summary>
+                <div className={styles.workflowFields}>
+                  <div className={styles.twoColumns}>
+                    <label>
+                      <span>收到的反馈</span>
+                      <textarea
+                        className="field"
+                        rows={3}
+                        value={applicationForm.feedback}
+                        onChange={(event) =>
+                          setApplicationForm({
+                            ...applicationForm,
+                            feedback: event.target.value,
+                          })
+                        }
+                      />
+                    </label>
+                    <label>
+                      <span>停止在哪个环节</span>
+                      <input
+                        className="field"
+                        value={applicationForm.stopped_stage}
+                        onChange={(event) =>
+                          setApplicationForm({
+                            ...applicationForm,
+                            stopped_stage: event.target.value,
+                          })
+                        }
+                      />
+                    </label>
+                  </div>
+                  <label>
+                    <span>面试中被问了什么</span>
+                    <textarea
+                      className="field"
+                      rows={3}
+                      value={applicationForm.interview_questions}
+                      onChange={(event) =>
+                        setApplicationForm({
+                          ...applicationForm,
+                          interview_questions: event.target.value,
+                        })
+                      }
+                    />
+                  </label>
+                  <div className={styles.twoColumns}>
+                    <label>
+                      <span>哪个回答缺少证据</span>
+                      <textarea
+                        className="field"
+                        rows={3}
+                        value={applicationForm.evidence_gap}
+                        onChange={(event) =>
+                          setApplicationForm({
+                            ...applicationForm,
+                            evidence_gap: event.target.value,
+                          })
+                        }
+                      />
+                    </label>
+                    <label>
+                      <span>下一轮只调整什么</span>
+                      <textarea
+                        className="field"
+                        rows={3}
+                        value={applicationForm.iteration_action}
+                        onChange={(event) =>
+                          setApplicationForm({
+                            ...applicationForm,
+                            iteration_action: event.target.value,
+                          })
+                        }
+                      />
+                    </label>
+                  </div>
+                  <label>
+                    <span>结束 / 放弃原因</span>
+                    <input
+                      className="field"
+                      value={applicationForm.closed_reason}
+                      onChange={(event) =>
+                        setApplicationForm({
+                          ...applicationForm,
+                          closed_reason: event.target.value,
+                        })
+                      }
+                    />
+                  </label>
+                </div>
+              </details>
+              <label>
+                <span>备注</span>
+                <textarea
+                  className="field"
+                  rows={3}
+                  maxLength={3000}
+                  value={applicationForm.notes}
+                  onChange={(event) =>
+                    setApplicationForm({
+                      ...applicationForm,
+                      notes: event.target.value,
+                    })
+                  }
+                  placeholder="内推人、网申账号、岗位要求或复盘要点…"
+                />
+              </label>
+              <div className={styles.formActions}>
+                <button className="btn" disabled={saving || !schemaReady}>
+                  {saving ? '保存中…' : editingApplicationId ? '保存修改' : '加入投递看板'}
+                </button>
+                {editingApplicationId && (
+                  <button
+                    type="button"
+                    className="btn btn-secondary"
+                    onClick={() => {
+                      setEditingApplicationId(null);
+                      setApplicationForm(emptyApplication);
+                    }}
+                  >
+                    取消编辑
+                  </button>
+                )}
               </div>
-              <label><span>职位链接</span><input className="field" type="url" value={applicationForm.source_url} onChange={(event) => setApplicationForm({ ...applicationForm, source_url: event.target.value })} placeholder="https://…" /></label>
-              <div className={styles.twoColumns}>
-                <label><span>下一步动作</span><input className="field" maxLength={240} value={applicationForm.next_action} onChange={(event) => setApplicationForm({ ...applicationForm, next_action: event.target.value })} placeholder="例如：针对JD补充项目成果" /></label>
-                <label><span>计划完成日</span><input className="field" type="date" value={applicationForm.next_action_at} onChange={(event) => setApplicationForm({ ...applicationForm, next_action_at: event.target.value })} /></label>
-              </div>
-              <label><span>备注</span><textarea className="field" rows={3} maxLength={3000} value={applicationForm.notes} onChange={(event) => setApplicationForm({ ...applicationForm, notes: event.target.value })} placeholder="内推人、网申账号、岗位要求或复盘要点…" /></label>
-              <div className={styles.formActions}><button className="btn" disabled={saving || !schemaReady}>{saving ? '保存中…' : editingApplicationId ? '保存修改' : '加入投递看板'}</button>{editingApplicationId && <button type="button" className="btn btn-secondary" onClick={() => { setEditingApplicationId(null); setApplicationForm(emptyApplication); }}>取消编辑</button>}</div>
             </form>
           </section>
 
           <section className={styles.panel}>
-            <div className={styles.panelHeading}><div><p className={styles.eyebrow}>YOUR PIPELINE</p><h2>全部投递</h2><span>{applications.length} 个岗位 · 可直接切换招聘阶段</span></div></div>
-            <div className={styles.statusSummary}>{APPLICATION_STATUSES.map((status) => <span key={status.value}>{status.short}<strong>{applications.filter((item) => item.status === status.value).length}</strong></span>)}</div>
-            {applications.length ? <div className={styles.applicationList}>{applications.map((item) => <article key={item.id} className={styles.applicationCard} data-status={item.status}>
-              <div className={styles.applicationTop}><div><span>{item.company}</span><h3>{item.job_title}</h3></div><select aria-label={`更新 ${item.company} ${item.job_title} 的阶段`} value={item.status} onChange={(event) => updateApplicationStatus(item.id, event.target.value as ApplicationStatus)}>{APPLICATION_STATUSES.map((status) => <option key={status.value} value={status.value}>{status.label}</option>)}</select></div>
-              <div className={styles.applicationMeta}>{item.deadline && <span data-alert={isDueSoon(item.deadline)}>截止 {formatDate(item.deadline)}</span>}{item.next_action_at && <span data-alert={isDueSoon(item.next_action_at)}>计划 {formatDate(item.next_action_at)}</span>}<span>更新于 {formatDate(item.updated_at, true)}</span></div>
-              {item.next_action && <div className={styles.actionLine}><small>下一步</small><strong>{item.next_action}</strong></div>}
-              {item.notes && <p className={styles.notes}>{item.notes}</p>}
-              <div className={styles.rowActions}>{item.source_url && <a href={item.source_url} target="_blank" rel="noopener noreferrer">打开职位 ↗</a>}<button type="button" onClick={() => editApplication(item)}>编辑</button><button type="button" className={styles.dangerAction} onClick={() => deleteApplication(item)}>删除</button></div>
-            </article>)}</div> : <div className={styles.emptyState}><strong>还没有投递记录</strong><p>从一个真正想申请的岗位开始，不必一次录入所有收藏。</p><Link href="/all">浏览招聘机会 →</Link></div>}
+            <div className={styles.panelHeading}>
+              <div>
+                <p className={styles.eyebrow}>YOUR PIPELINE</p>
+                <h2>全部投递</h2>
+                <span>{applications.length} 个岗位 · 可直接切换招聘阶段</span>
+              </div>
+            </div>
+            <div className={styles.statusSummary}>
+              {APPLICATION_STATUSES.map((status) => (
+                <span key={status.value}>
+                  {status.short}
+                  <strong>{applications.filter((item) => item.status === status.value).length}</strong>
+                </span>
+              ))}
+            </div>
+            {applications.length ? (
+              <div className={styles.applicationList}>
+                {applications.map((item) => (
+                  <article key={item.id} className={styles.applicationCard} data-status={item.status}>
+                    <div className={styles.applicationTop}>
+                      <div>
+                        <span>{item.company}</span>
+                        <h3>{item.job_title}</h3>
+                      </div>
+                      <select aria-label={`更新 ${item.company} ${item.job_title} 的阶段`} value={item.status} onChange={(event) => updateApplicationStatus(item.id, event.target.value as ApplicationStatus)}>
+                        {APPLICATION_STATUSES.map((status) => (
+                          <option key={status.value} value={status.value}>
+                            {status.label}
+                          </option>
+                        ))}
+                      </select>
+                    </div>
+                    <div className={styles.workflowBadges}>
+                      <span data-priority={item.workflow_data?.priority}>{APPLICATION_PRIORITIES.find((value) => value.value === item.workflow_data?.priority)?.label || '未分级'}</span>
+                      <span data-verified={item.workflow_data?.verification_status === 'verified'}>{VERIFICATION_STATUSES.find((value) => value.value === item.workflow_data?.verification_status)?.label || '待核验'}</span>
+                      {item.workflow_data?.resume_version && <span>简历：{item.workflow_data.resume_version}</span>}
+                    </div>
+                    <div className={styles.applicationMeta}>
+                      {item.deadline && <span data-alert={isDueSoon(item.deadline)}>截止 {formatDate(item.deadline)}</span>}
+                      {item.next_action_at && <span data-alert={isDueSoon(item.next_action_at)}>计划 {formatDate(item.next_action_at)}</span>}
+                      <span>更新于 {formatDate(item.updated_at, true)}</span>
+                    </div>
+                    {item.next_action && (
+                      <div className={styles.actionLine}>
+                        <small>下一步</small>
+                        <strong>{item.next_action}</strong>
+                      </div>
+                    )}
+                    {(item.workflow_data?.why_apply || item.workflow_data?.main_gap || item.workflow_data?.iteration_action) && (
+                      <div className={styles.workflowSummary}>
+                        {item.workflow_data.why_apply && (
+                          <p>
+                            <small>值得投</small>
+                            {item.workflow_data.why_apply}
+                          </p>
+                        )}
+                        {item.workflow_data.main_gap && (
+                          <p>
+                            <small>主要缺口</small>
+                            {item.workflow_data.main_gap}
+                          </p>
+                        )}
+                        {item.workflow_data.iteration_action && (
+                          <p>
+                            <small>下轮调整</small>
+                            {item.workflow_data.iteration_action}
+                          </p>
+                        )}
+                      </div>
+                    )}
+                    {item.notes && <p className={styles.notes}>{item.notes}</p>}
+                    <div className={styles.rowActions}>
+                      {item.source_url && (
+                        <a href={item.source_url} target="_blank" rel="noopener noreferrer">
+                          打开职位 ↗
+                        </a>
+                      )}
+                      <button type="button" onClick={() => editApplication(item)}>
+                        编辑
+                      </button>
+                      <button type="button" className={styles.dangerAction} onClick={() => deleteApplication(item)}>
+                        删除
+                      </button>
+                    </div>
+                  </article>
+                ))}
+              </div>
+            ) : (
+              <div className={styles.emptyState}>
+                <strong>还没有投递记录</strong>
+                <p>从一个真正想申请的岗位开始，不必一次录入所有收藏。</p>
+                <Link href="/all">浏览招聘机会 →</Link>
+              </div>
+            )}
           </section>
         </div>
       )}
@@ -743,72 +1611,339 @@ export default function WorkspacePage() {
               </div>
             </div>
             <ol className={styles.aiResumeSteps}>
-              <li><span>01</span><div><strong>录入真实经历</strong><small>教育、实习、项目与技能</small></div></li>
-              <li><span>02</span><div><strong>指定岗位方向</strong><small>专业版支持 JD 精准匹配</small></div></li>
-              <li><span>03</span><div><strong>导出并回存</strong><small>把生成版本上传回材料库</small></div></li>
+              <li>
+                <span>01</span>
+                <div>
+                  <strong>录入真实经历</strong>
+                  <small>教育、实习、项目与技能</small>
+                </div>
+              </li>
+              <li>
+                <span>02</span>
+                <div>
+                  <strong>指定岗位方向</strong>
+                  <small>专业版支持 JD 精准匹配</small>
+                </div>
+              </li>
+              <li>
+                <span>03</span>
+                <div>
+                  <strong>导出并回存</strong>
+                  <small>把生成版本上传回材料库</small>
+                </div>
+              </li>
             </ol>
             <div className={styles.aiResumeActions}>
-              <button type="button" className="btn" onClick={() => openTab('resume')}>开始站内诊断 →</button>
-              <a className="btn btn-secondary" href="https://ai-resume-9wy.pages.dev/" target="_blank" rel="noopener noreferrer">使用外部简历工具 ↗</a>
+              <button type="button" className="btn" onClick={() => openTab('resume')}>
+                开始站内诊断 →
+              </button>
+              <a className="btn btn-secondary" href="https://ai-resume-9wy.pages.dev/" target="_blank" rel="noopener noreferrer">
+                使用外部简历工具 ↗
+              </a>
               <span>先诊断和补证据，再生成岗位版本</span>
             </div>
             <p className={styles.externalNote}>站内诊断会使用你主动选择的简历、目标岗位和补充证据；外部工具在新页面打开，使用独立账号且不能自动读取 JOBHOT 材料库。</p>
           </section>
 
           <section className={styles.panel}>
-            <div className={styles.panelHeading}><div><p className={styles.eyebrow}>PRIVATE FILES</p><h2>上传求职材料</h2><span>用于沉淀版本，不会生成永久公开链接。</span></div></div>
+            <div className={styles.panelHeading}>
+              <div>
+                <p className={styles.eyebrow}>PRIVATE FILES</p>
+                <h2>上传求职材料</h2>
+                <span>用于沉淀版本，不会生成永久公开链接。</span>
+              </div>
+            </div>
             <form className={styles.uploadForm} onSubmit={uploadDocument}>
-              <label><span>材料类型</span><select className="field" value={documentKind} onChange={(event) => setDocumentKind(event.target.value as DocumentKind)}>{DOCUMENT_KINDS.map((item) => <option key={item.value} value={item.value}>{item.label}</option>)}</select></label>
-              <label className={styles.fileDrop} htmlFor="career-document-file"><strong>{documentFile ? documentFile.name : '选择文件上传'}</strong><span>{documentFile ? formatBytes(documentFile.size) : 'PDF / Word / JPG / PNG，单个不超过 10MB'}</span><input id="career-document-file" type="file" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png" onChange={(event) => setDocumentFile(event.target.files?.[0] ?? null)} /></label>
-              <button className="btn" disabled={saving || !documentFile || !schemaReady}>{saving ? '上传中…' : '安全保存到账号'}</button>
+              <label>
+                <span>材料类型</span>
+                <select className="field" value={documentKind} onChange={(event) => setDocumentKind(event.target.value as DocumentKind)}>
+                  {DOCUMENT_KINDS.map((item) => (
+                    <option key={item.value} value={item.value}>
+                      {item.label}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <label className={styles.fileDrop} htmlFor="career-document-file">
+                <strong>{documentFile ? documentFile.name : '选择文件上传'}</strong>
+                <span>{documentFile ? formatBytes(documentFile.size) : 'PDF / Word / JPG / PNG，单个不超过 10MB'}</span>
+                <input id="career-document-file" type="file" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png" onChange={(event) => setDocumentFile(event.target.files?.[0] ?? null)} />
+              </label>
+              <button className="btn" disabled={saving || !documentFile || !schemaReady}>
+                {saving ? '上传中…' : '安全保存到账号'}
+              </button>
             </form>
-            <div className={styles.privacyNote}><strong>隐私说明</strong><span>文件存放在私有空间，只有当前登录账号可生成 90 秒有效的临时查看链接。删除后不可恢复，请自行保留原件。</span></div>
+            <div className={styles.privacyNote}>
+              <strong>隐私说明</strong>
+              <span>文件存放在私有空间，只有当前登录账号可生成 90 秒有效的临时查看链接。删除后不可恢复，请自行保留原件。</span>
+            </div>
           </section>
 
           <section className={styles.panel}>
-            <div className={styles.panelHeading}><div><p className={styles.eyebrow}>VERSION LIBRARY</p><h2>我的材料库</h2><span>建议用文件名标明方向和日期，例如“产品经理_2026秋招_v2.pdf”。</span></div></div>
-            {documents.length ? <div className={styles.documentList}>{documents.map((item) => <article key={item.id} className={styles.documentCard}><div className={styles.fileIcon}>{item.name.split('.').pop()?.slice(0, 4).toUpperCase() || 'FILE'}</div><div><span>{documentLabel(item.kind)}</span><strong>{item.name}</strong><small>{formatBytes(item.size_bytes)} · {formatDate(item.updated_at, true)}</small></div><div className={styles.rowActions}><button type="button" onClick={() => openDocument(item)}>查看</button><button type="button" className={styles.dangerAction} onClick={() => deleteDocument(item)}>删除</button></div></article>)}</div> : <div className={styles.emptyState}><strong>材料库还是空的</strong><p>建议先上传一份当前简历，之后再按目标岗位保留不同版本。</p></div>}
+            <div className={styles.panelHeading}>
+              <div>
+                <p className={styles.eyebrow}>VERSION LIBRARY</p>
+                <h2>我的材料库</h2>
+                <span>建议用文件名标明方向和日期，例如“产品经理_2026秋招_v2.pdf”。</span>
+              </div>
+            </div>
+            {documents.length ? (
+              <div className={styles.documentList}>
+                {documents.map((item) => (
+                  <article key={item.id} className={styles.documentCard}>
+                    <div className={styles.fileIcon}>{item.name.split('.').pop()?.slice(0, 4).toUpperCase() || 'FILE'}</div>
+                    <div>
+                      <span>{documentLabel(item.kind)}</span>
+                      <strong>{item.name}</strong>
+                      <small>
+                        {formatBytes(item.size_bytes)} · {formatDate(item.updated_at, true)}
+                      </small>
+                    </div>
+                    <div className={styles.rowActions}>
+                      <button type="button" onClick={() => openDocument(item)}>
+                        查看
+                      </button>
+                      <button type="button" className={styles.dangerAction} onClick={() => deleteDocument(item)}>
+                        删除
+                      </button>
+                    </div>
+                  </article>
+                ))}
+              </div>
+            ) : (
+              <div className={styles.emptyState}>
+                <strong>材料库还是空的</strong>
+                <p>建议先上传一份当前简历，之后再按目标岗位保留不同版本。</p>
+              </div>
+            )}
           </section>
         </div>
       )}
 
-      {tab === 'resume' && (
-        <ResumeOptimizer
-          documents={documents.filter((item) => item.kind === 'resume')}
-          applications={applications}
-          assessmentCount={assessmentCount}
-          onOpenDocuments={() => openTab('documents')}
-          onOpenApplications={() => openTab('applications')}
-        />
-      )}
+      {tab === 'resume' && <ResumeOptimizer documents={documents.filter((item) => item.kind === 'resume')} applications={applications} assessmentCount={assessmentCount} onOpenDocuments={() => openTab('documents')} onOpenApplications={() => openTab('applications')} />}
 
       {tab === 'practice' && (
         <div className={styles.sectionLayout}>
           <section className={styles.panel} ref={practiceFormRef}>
-            <div className={styles.panelHeading}><div><p className={styles.eyebrow}>DELIBERATE PRACTICE</p><h2>{editingPracticeId ? '编辑练习记录' : '记录一次练习'}</h2><span>重点记录暴露的问题和下一次要改变的行为。</span></div></div>
+            <div className={styles.panelHeading}>
+              <div>
+                <p className={styles.eyebrow}>DELIBERATE PRACTICE</p>
+                <h2>{editingPracticeId ? '编辑练习记录' : '记录一次练习'}</h2>
+                <span>重点记录暴露的问题和下一次要改变的行为。</span>
+              </div>
+            </div>
             <form className={styles.form} onSubmit={savePractice}>
               <div className={styles.twoColumns}>
-                <label><span>练习类型</span><select className="field" value={practiceForm.kind} onChange={(event) => setPracticeForm({ ...practiceForm, kind: event.target.value as PracticeKind })}>{PRACTICE_KINDS.map((item) => <option key={item.value} value={item.value}>{item.label}</option>)}</select></label>
-                <label><span>练习日期</span><input className="field" type="date" required value={practiceForm.practiced_at} onChange={(event) => setPracticeForm({ ...practiceForm, practiced_at: event.target.value })} /></label>
+                <label>
+                  <span>练习类型</span>
+                  <select
+                    className="field"
+                    value={practiceForm.kind}
+                    onChange={(event) =>
+                      setPracticeForm({
+                        ...practiceForm,
+                        kind: event.target.value as PracticeKind,
+                      })
+                    }
+                  >
+                    {PRACTICE_KINDS.map((item) => (
+                      <option key={item.value} value={item.value}>
+                        {item.label}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+                <label>
+                  <span>练习日期</span>
+                  <input
+                    className="field"
+                    type="date"
+                    required
+                    value={practiceForm.practiced_at}
+                    onChange={(event) =>
+                      setPracticeForm({
+                        ...practiceForm,
+                        practiced_at: event.target.value,
+                      })
+                    }
+                  />
+                </label>
               </div>
-              <label><span>练习主题 *</span><input className="field" required maxLength={160} value={practiceForm.title} onChange={(event) => setPracticeForm({ ...practiceForm, title: event.target.value })} placeholder="例如：宝洁八大问模拟面试" /></label>
+              <label>
+                <span>练习主题 *</span>
+                <input
+                  className="field"
+                  required
+                  maxLength={160}
+                  value={practiceForm.title}
+                  onChange={(event) =>
+                    setPracticeForm({
+                      ...practiceForm,
+                      title: event.target.value,
+                    })
+                  }
+                  placeholder="例如：宝洁八大问模拟面试"
+                />
+              </label>
               <div className={styles.threeColumns}>
-                <label><span>得分（可选）</span><input className="field" type="number" min="0" step="0.01" value={practiceForm.score} onChange={(event) => setPracticeForm({ ...practiceForm, score: event.target.value })} /></label>
-                <label><span>满分（可选）</span><input className="field" type="number" min="0.01" step="0.01" value={practiceForm.max_score} onChange={(event) => setPracticeForm({ ...practiceForm, max_score: event.target.value })} /></label>
-                <label><span>用时（分钟）</span><input className="field" type="number" min="1" max="1440" value={practiceForm.duration_minutes} onChange={(event) => setPracticeForm({ ...practiceForm, duration_minutes: event.target.value })} /></label>
+                <label>
+                  <span>得分（可选）</span>
+                  <input
+                    className="field"
+                    type="number"
+                    min="0"
+                    step="0.01"
+                    value={practiceForm.score}
+                    onChange={(event) =>
+                      setPracticeForm({
+                        ...practiceForm,
+                        score: event.target.value,
+                      })
+                    }
+                  />
+                </label>
+                <label>
+                  <span>满分（可选）</span>
+                  <input
+                    className="field"
+                    type="number"
+                    min="0.01"
+                    step="0.01"
+                    value={practiceForm.max_score}
+                    onChange={(event) =>
+                      setPracticeForm({
+                        ...practiceForm,
+                        max_score: event.target.value,
+                      })
+                    }
+                  />
+                </label>
+                <label>
+                  <span>用时（分钟）</span>
+                  <input
+                    className="field"
+                    type="number"
+                    min="1"
+                    max="1440"
+                    value={practiceForm.duration_minutes}
+                    onChange={(event) =>
+                      setPracticeForm({
+                        ...practiceForm,
+                        duration_minutes: event.target.value,
+                      })
+                    }
+                  />
+                </label>
               </div>
-              <label><span>复盘记录</span><textarea className="field" rows={3} maxLength={3000} value={practiceForm.notes} onChange={(event) => setPracticeForm({ ...practiceForm, notes: event.target.value })} placeholder="哪些地方做得好？哪里卡住？证据是什么？" /></label>
-              <label><span>下一次只改一件事</span><input className="field" maxLength={240} value={practiceForm.next_action} onChange={(event) => setPracticeForm({ ...practiceForm, next_action: event.target.value })} placeholder="例如：每个项目回答补一个量化结果" /></label>
-              <div className={styles.formActions}><button className="btn" disabled={saving || !schemaReady}>{saving ? '保存中…' : editingPracticeId ? '保存修改' : '保存练习记录'}</button>{editingPracticeId && <button type="button" className="btn btn-secondary" onClick={() => { setEditingPracticeId(null); setPracticeForm({ ...emptyPractice, practiced_at: new Date().toISOString().slice(0, 10) }); }}>取消编辑</button>}</div>
+              <label>
+                <span>复盘记录</span>
+                <textarea
+                  className="field"
+                  rows={3}
+                  maxLength={3000}
+                  value={practiceForm.notes}
+                  onChange={(event) =>
+                    setPracticeForm({
+                      ...practiceForm,
+                      notes: event.target.value,
+                    })
+                  }
+                  placeholder="哪些地方做得好？哪里卡住？证据是什么？"
+                />
+              </label>
+              <label>
+                <span>下一次只改一件事</span>
+                <input
+                  className="field"
+                  maxLength={240}
+                  value={practiceForm.next_action}
+                  onChange={(event) =>
+                    setPracticeForm({
+                      ...practiceForm,
+                      next_action: event.target.value,
+                    })
+                  }
+                  placeholder="例如：每个项目回答补一个量化结果"
+                />
+              </label>
+              <div className={styles.formActions}>
+                <button className="btn" disabled={saving || !schemaReady}>
+                  {saving ? '保存中…' : editingPracticeId ? '保存修改' : '保存练习记录'}
+                </button>
+                {editingPracticeId && (
+                  <button
+                    type="button"
+                    className="btn btn-secondary"
+                    onClick={() => {
+                      setEditingPracticeId(null);
+                      setPracticeForm({
+                        ...emptyPractice,
+                        practiced_at: new Date().toISOString().slice(0, 10),
+                      });
+                    }}
+                  >
+                    取消编辑
+                  </button>
+                )}
+              </div>
             </form>
           </section>
 
           <section className={styles.panel}>
-            <div className={styles.panelHeading}><div><p className={styles.eyebrow}>PRACTICE LOG</p><h2>练习时间线</h2><span>站内笔试成绩会自动进入这里。</span></div><Link href="/tools/prep">打开训练题库 →</Link></div>
-            {(practices.length || examResults.length) ? <div className={styles.practiceList}>
-              {examResults.slice(0, 5).map((item) => <article key={`exam-${item.id}`} className={styles.practiceCard}><div className={styles.practiceDate}>{formatDate(item.created_at)}</div><div><span>站内笔试 · 自动记录</span><strong>{examNames[item.exam_id] || item.exam_id}</strong><small>{item.score}/{item.total} 分{item.duration_seconds ? ` · ${Math.max(1, Math.round(item.duration_seconds / 60))} 分钟` : ''}</small></div><b>{Math.round(item.score / item.total * 100)}%</b></article>)}
-              {practices.map((item) => <article key={item.id} className={styles.practiceCard}><div className={styles.practiceDate}>{formatDate(item.practiced_at)}</div><div><span>{practiceLabel(item.kind)}</span><strong>{item.title}</strong><small>{item.duration_minutes ? `${item.duration_minutes} 分钟` : '未记录时长'}{item.score !== null ? ` · ${item.score}${item.max_score !== null ? `/${item.max_score}` : ' 分'}` : ''}</small>{item.notes && <p>{item.notes}</p>}{item.next_action && <em>下次改进：{item.next_action}</em>}</div><div className={styles.rowActions}><button type="button" onClick={() => editPractice(item)}>编辑</button><button type="button" className={styles.dangerAction} onClick={() => deletePractice(item)}>删除</button></div></article>)}
-            </div> : <div className={styles.emptyState}><strong>还没有练习记录</strong><p>练习的价值不在“做过”，而在看见问题、形成下一次动作。</p><Link href="/tools/prep">选择一次笔面试训练 →</Link></div>}
+            <div className={styles.panelHeading}>
+              <div>
+                <p className={styles.eyebrow}>PRACTICE LOG</p>
+                <h2>练习时间线</h2>
+                <span>站内笔试成绩会自动进入这里。</span>
+              </div>
+              <Link href="/tools/prep">打开训练题库 →</Link>
+            </div>
+            {practices.length || examResults.length ? (
+              <div className={styles.practiceList}>
+                {examResults.slice(0, 5).map((item) => (
+                  <article key={`exam-${item.id}`} className={styles.practiceCard}>
+                    <div className={styles.practiceDate}>{formatDate(item.created_at)}</div>
+                    <div>
+                      <span>站内笔试 · 自动记录</span>
+                      <strong>{examNames[item.exam_id] || item.exam_id}</strong>
+                      <small>
+                        {item.score}/{item.total} 分{item.duration_seconds ? ` · ${Math.max(1, Math.round(item.duration_seconds / 60))} 分钟` : ''}
+                      </small>
+                    </div>
+                    <b>{Math.round((item.score / item.total) * 100)}%</b>
+                  </article>
+                ))}
+                {practices.map((item) => (
+                  <article key={item.id} className={styles.practiceCard}>
+                    <div className={styles.practiceDate}>{formatDate(item.practiced_at)}</div>
+                    <div>
+                      <span>{practiceLabel(item.kind)}</span>
+                      <strong>{item.title}</strong>
+                      <small>
+                        {item.duration_minutes ? `${item.duration_minutes} 分钟` : '未记录时长'}
+                        {item.score !== null ? ` · ${item.score}${item.max_score !== null ? `/${item.max_score}` : ' 分'}` : ''}
+                      </small>
+                      {item.notes && <p>{item.notes}</p>}
+                      {item.next_action && <em>下次改进：{item.next_action}</em>}
+                    </div>
+                    <div className={styles.rowActions}>
+                      <button type="button" onClick={() => editPractice(item)}>
+                        编辑
+                      </button>
+                      <button type="button" className={styles.dangerAction} onClick={() => deletePractice(item)}>
+                        删除
+                      </button>
+                    </div>
+                  </article>
+                ))}
+              </div>
+            ) : (
+              <div className={styles.emptyState}>
+                <strong>还没有练习记录</strong>
+                <p>练习的价值不在“做过”，而在看见问题、形成下一次动作。</p>
+                <Link href="/tools/prep">选择一次笔面试训练 →</Link>
+              </div>
+            )}
           </section>
         </div>
       )}
