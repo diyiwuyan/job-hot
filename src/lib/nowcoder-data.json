@@ -1,5 +1,29 @@
 [
   {
+    "id": "nowcoder-172",
+    "title": "汽车之家 — 27届秋招 今日收录",
+    "summary": "垂类头部 两地上市，完善福利 弹性自由，关注成长 包容开放。。招聘批次：27届秋招 今日收录。工作地点：北京。招聘岗位：后端开发、前端开发、测试、人工智能/算法、产品等。",
+    "url": "https://talent.autohome.com.cn/campus_index.html",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "北京",
+    "deadline": "2027/09/09",
+    "tags": [
+      "汽车之家",
+      "校招",
+      "秋招",
+      "车企/IC",
+      "北京",
+      "消费生活",
+      "新闻传媒"
+    ],
+    "score": 95,
+    "featured": true,
+    "createdAt": "2026-09-10T04:04:57.000Z"
+  },
+  {
     "id": "nowcoder-5037",
     "title": "通付盾 — 27届秋招",
     "summary": "数字安全领域专精特新企业，核心技术自主可控，资质齐全，服务行业覆盖广泛。招聘批次：27届秋招。工作地点：苏州、北京。招聘岗位：后端开发、数据、运维、人工智能/算法、研发工程师等。",
