@@ -2,7 +2,7 @@
   {
     "id": "nowcoder-172",
     "title": "汽车之家 — 27届秋招 今日收录",
-    "summary": "垂类头部 两地上市，完善福利 弹性自由，关注成长 包容开放。。招聘批次：27届秋招 今日收录。工作地点：北京。招聘岗位：后端开发、前端开发、测试、人工智能/算法、产品等。",
+    "summary": "垂类头部 两地上市，完善福利 弹性自由，关注成长 包容开放。。招聘批次：27届秋招 今日收录。工作地点：北京。招聘岗位：后端开发、前端开发、测试、人工智能/算法、法务等。",
     "url": "https://talent.autohome.com.cn/campus_index.html",
     "source": "牛客网",
     "sourceHandle": "@nowcoder",
@@ -21,7 +21,101 @@
     ],
     "score": 95,
     "featured": true,
-    "createdAt": "2026-09-10T04:04:57.000Z"
+    "createdAt": "2026-09-10T09:04:56.000Z"
+  },
+  {
+    "id": "nowcoder-8650",
+    "title": "中建一局 — 27届秋招 今日收录",
+    "summary": "新中国第一支建筑“国家队”，拥有培养重点明确、赋能定位清晰的人才培养体系。招聘批次：27届秋招 今日收录。工作地点：南京、杭州、福州、济南、广州、深圳、成都、北京、上海、重庆、天津。招聘岗位：研发工程师、机械、化工、电气/自动化、技术支持等。",
+    "url": "https://hr.cscec.com/api/short_url?id=y98d9",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "南京、杭州、福州、济南、广州、深圳、成都、北京、上海、重庆、天津",
+    "deadline": "2026/11/04",
+    "tags": [
+      "中建一局",
+      "校招",
+      "秋招",
+      "南京",
+      "杭州",
+      "福州",
+      "研究所"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-09-10T07:54:17.000Z"
+  },
+  {
+    "id": "nowcoder-12460",
+    "title": "上海家化 — 27届秋招 今日收录",
+    "summary": "中国日用化妆品行业历史悠久的民族企业，高度重视质量管理，拥有行业较强的生产能力。招聘批次：27届秋招 今日收录。工作地点：上海。招聘岗位：研发工程师、化工、运营、市场/营销、销售类等。",
+    "url": "https://xyz.51job.com/consumer/pc/home/index?ctmid=9573221",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "上海",
+    "deadline": "2026/10/14",
+    "tags": [
+      "上海家化",
+      "校招",
+      "秋招",
+      "上海",
+      "消费生活"
+    ],
+    "score": 95,
+    "featured": true,
+    "createdAt": "2026-09-10T07:48:23.000Z"
+  },
+  {
+    "id": "nowcoder-31759",
+    "title": "广东东泰 — 27届秋招 今日收录",
+    "summary": "家居五金行业龙头，制造工艺成熟，产业链完整，制造业成长平台优质。招聘批次：27届秋招 今日收录。工作地点：佛山。招聘岗位：研发工程师、机械、化工、电气/自动化、技术支持等。",
+    "url": "https://mp.weixin.qq.com/s/Crs-NNgP4nEAIUC7SL_tgA",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "佛山",
+    "deadline": "2026/11/04",
+    "tags": [
+      "广东东泰",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "佛山"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-09-10T07:44:32.000Z"
+  },
+  {
+    "id": "nowcoder-2297",
+    "title": "欣旺达 — 27届秋招 今日收录",
+    "summary": "全球锂电行业龙头，业务布局全产业链，研发投入持续加码，消费与动力电池实力强劲。。招聘批次：27届秋招 今日收录。工作地点：大连、南京、金华、南昌、赣州、枣庄、德州、宜昌、深圳、茂名、惠州、西安、重庆。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://sunwodacampus.zhiye.com/1547436687/jobs?activityGuid=d0af2b87-3d5d-4c31-b9e6-9bc217395d47&amp;ActivityJumpPage=PortalPage",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "大连、南京、金华、南昌、赣州、枣庄、德州、宜昌、深圳、茂名、惠州、西安、重庆",
+    "deadline": "2026/11/04",
+    "tags": [
+      "欣旺达",
+      "校招",
+      "秋招",
+      "车企/IC",
+      "大连",
+      "南京",
+      "金华",
+      "互联网",
+      "新能源"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-09-10T07:31:41.000Z"
   },
   {
     "id": "nowcoder-5037",
@@ -234,7 +328,7 @@
       "南昌",
       "消费生活"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-08-26T10:38:03.000Z"
   },
@@ -256,7 +350,7 @@
       "北京",
       "上海"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-08-26T08:20:11.000Z"
   },
