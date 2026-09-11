@@ -93503,30 +93503,6 @@
     "createdAt": "2026-09-03T00:00:00.000Z"
   },
   {
-    "id": "guopin-217450557265151258",
-    "title": "中建西部建设建材科学研究院有限公司 — UHPC预制构件物资员",
-    "summary": "企业性质：国企。行业：科技推广和应用服务业。工作地点：广州。薪资：8000-10000元/月。学历：本科。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=217450557265151258",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "companyType": "state",
-    "location": "广州",
-    "deadline": "2026/11/30",
-    "tags": [
-      "中建西部建设建材科学研究院有限公司",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "科技推广和应用服务业",
-      "广州"
-    ],
-    "score": 84,
-    "featured": true,
-    "createdAt": "2026-09-03T00:00:00.000Z"
-  },
-  {
     "id": "guopin-216581373861823251",
     "title": "中国有色桂林矿产地质研究院有限公司 — 地质技术岗（2027）",
     "summary": "企业性质：国企。行业：有色金属矿采选业。工作地点：桂林-七星区。薪资：8000-20000元/月。学历：本科。规模：500-1000人。",
@@ -93834,29 +93810,6 @@
     "createdAt": "2026-09-03T00:00:00.000Z"
   },
   {
-    "id": "guopin-216585432488477458",
-    "title": "海南省海宾酒店管理集团有限公司 — 管培生",
-    "summary": "企业性质：国企。行业：住宿业。工作地点：海口-美兰区。薪资面议。学历：硕士。规模：500-1000人。",
-    "url": "https://www.iguopin.com/job/detail?id=216585432488477458",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "海口-美兰区",
-    "deadline": "2026/10/31",
-    "tags": [
-      "海南省海宾酒店管理集团有限公司",
-      "校招",
-      "国企",
-      "住宿业",
-      "海口"
-    ],
-    "score": 83,
-    "featured": true,
-    "createdAt": "2026-09-03T00:00:00.000Z"
-  },
-  {
     "id": "guopin-216584749353796372",
     "title": "中国有色桂林矿产地质研究院有限公司 — 百锐光电晶体研发岗（2027）",
     "summary": "企业性质：国企。行业：有色金属矿采选业。工作地点：桂林-七星区。薪资：7000-9000元/月。学历：硕士。规模：500-1000人。",
@@ -94119,30 +94072,6 @@
       "山东",
       "河北",
       "吉林"
-    ],
-    "score": 82,
-    "featured": true,
-    "createdAt": "2026-09-03T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-217450026870244633",
-    "title": "中建西部建设建材科学研究院有限公司 — UHPC预制构件技术员",
-    "summary": "企业性质：国企。行业：科技推广和应用服务业。工作地点：广州。薪资：8000-10000元/月。学历：本科。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=217450026870244633",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "companyType": "state",
-    "location": "广州",
-    "deadline": "2026/11/30",
-    "tags": [
-      "中建西部建设建材科学研究院有限公司",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "科技推广和应用服务业",
-      "广州"
     ],
     "score": 82,
     "featured": true,
@@ -94828,6 +94757,30 @@
     "createdAt": "2026-09-03T00:00:00.000Z"
   },
   {
+    "id": "guopin-217450557265151258",
+    "title": "中建西部建设建材科学研究院有限公司 — UHPC预制构件物资员",
+    "summary": "企业性质：国企。行业：科技推广和应用服务业。工作地点：广州。薪资：8000-10000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=217450557265151258",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "广州",
+    "deadline": "2026/11/30",
+    "tags": [
+      "中建西部建设建材科学研究院有限公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "科技推广和应用服务业",
+      "广州"
+    ],
+    "score": 79,
+    "featured": false,
+    "createdAt": "2026-09-03T00:00:00.000Z"
+  },
+  {
     "id": "guopin-216569650782143198",
     "title": "航空工业机关服务中心 — 文件印制岗",
     "summary": "企业性质：事业单位。行业：铁路、船舶、航空航天和其他运输设备制造业。工作地点：北京-朝阳区。薪资：6500-10000元/月。学历：本科。规模：100-300人。",
@@ -94969,6 +94922,29 @@
       "北京"
     ],
     "score": 79,
+    "featured": false,
+    "createdAt": "2026-09-03T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-216585432488477458",
+    "title": "海南省海宾酒店管理集团有限公司 — 管培生",
+    "summary": "企业性质：国企。行业：住宿业。工作地点：海口-美兰区。薪资面议。学历：硕士。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=216585432488477458",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "海口-美兰区",
+    "deadline": "2026/10/31",
+    "tags": [
+      "海南省海宾酒店管理集团有限公司",
+      "校招",
+      "国企",
+      "住宿业",
+      "海口"
+    ],
+    "score": 78,
     "featured": false,
     "createdAt": "2026-09-03T00:00:00.000Z"
   },
@@ -95117,6 +95093,30 @@
       "北京"
     ],
     "score": 78,
+    "featured": false,
+    "createdAt": "2026-09-03T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-217450026870244633",
+    "title": "中建西部建设建材科学研究院有限公司 — UHPC预制构件技术员",
+    "summary": "企业性质：国企。行业：科技推广和应用服务业。工作地点：广州。薪资：8000-10000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=217450026870244633",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "广州",
+    "deadline": "2026/11/30",
+    "tags": [
+      "中建西部建设建材科学研究院有限公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "科技推广和应用服务业",
+      "广州"
+    ],
+    "score": 77,
     "featured": false,
     "createdAt": "2026-09-03T00:00:00.000Z"
   },
