@@ -1,5 +1,118 @@
 [
   {
+    "id": "nowcoder-3083",
+    "title": "广州地铁 — 27届秋招",
+    "summary": "运营服务行业领先，多元化经营开发，产业发展全链飞驰。招聘批次：27届秋招。工作地点：广州。招聘岗位：后端开发、测试、数据、运维、人工智能/算法等。",
+    "url": "https://gzmetro.zhiye.com/campus/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "广州",
+    "deadline": "2026/11/09",
+    "tags": [
+      "广州地铁",
+      "校招",
+      "秋招",
+      "广州"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-09-13T15:49:49.000Z"
+  },
+  {
+    "id": "nowcoder-29330",
+    "title": "浙江华瑞航空制造有限公司 — 27届秋招",
+    "summary": "打造专注于复合材料大型部件的设计、研发、制造企业，与时代同行，与客户共赢。。招聘批次：27届秋招。工作地点：杭州。招聘岗位：机械、化工、电气/自动化、能源、技术支持等。",
+    "url": "https://mp.weixin.qq.com/s/cXVP9qrzrfOJaOpklX_ryA",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "杭州",
+    "deadline": "2026/11/08",
+    "tags": [
+      "浙江华瑞航空制造有限公司",
+      "校招",
+      "秋招",
+      "杭州"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-09-13T15:46:09.000Z"
+  },
+  {
+    "id": "nowcoder-28722",
+    "title": "昂利康 — 27届秋招",
+    "summary": "中国医药工业百强企业，口服头孢类原料药、a-酮酸原料药、植物源胆固醇等全球领先。招聘批次：27届秋招。工作地点：杭州、绍兴。招聘岗位：研发工程师、机械、化工、电气/自动化、技术支持等。",
+    "url": "https://mp.weixin.qq.com/s/SWPO0fmV-v9h6LDbN7ZRfQ",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "杭州、绍兴",
+    "deadline": "2026/11/08",
+    "tags": [
+      "昂利康",
+      "校招",
+      "秋招",
+      "杭州",
+      "绍兴"
+    ],
+    "score": 95,
+    "featured": true,
+    "createdAt": "2026-09-13T15:44:22.000Z"
+  },
+  {
+    "id": "nowcoder-172",
+    "title": "汽车之家 — 27届秋招",
+    "summary": "垂类头部，两地上市，完善福利，弹性自由，关注成长，包容开放。。招聘批次：27届秋招。工作地点：北京。招聘岗位：后端开发、前端开发、测试、数据、人工智能/算法等。",
+    "url": "https://talent.autohome.com.cn/campus-recruit-list.html?targetId=1004",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "北京",
+    "deadline": "2026/11/09",
+    "tags": [
+      "汽车之家",
+      "校招",
+      "秋招",
+      "车企/IC",
+      "北京",
+      "消费生活",
+      "新闻传媒"
+    ],
+    "score": 95,
+    "featured": true,
+    "createdAt": "2026-09-13T15:41:29.000Z"
+  },
+  {
+    "id": "nowcoder-249668",
+    "title": "保利长大公司 — 27届秋招",
+    "summary": "国务院国资委直接管理的大型央企​，企业各类建造承包资质齐全。招聘批次：27届秋招。工作地点：广州。招聘岗位：机械、化工、电气/自动化、技术支持、管理等。",
+    "url": "https://mp.weixin.qq.com/s/U4bahb9OXNvYE57vx_dEJQ",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "广州",
+    "deadline": "2026/11/07",
+    "tags": [
+      "保利长大公司",
+      "校招",
+      "秋招",
+      "车企/IC",
+      "广州",
+      "机械制造",
+      "工程建造"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-09-13T15:39:09.000Z"
+  },
+  {
     "id": "nowcoder-259382",
     "title": "得物设计部 — 27届秋招 今日收录",
     "summary": "潮流电商设计标杆，品牌调性鲜明，创意氛围浓厚，审美与落地能力双提升。招聘批次：27届秋招 今日收录。工作地点：上海。招聘岗位：交互/设计。",
@@ -358,6 +471,31 @@
     "score": 77,
     "featured": false,
     "createdAt": "2026-08-24T09:32:13.000Z"
+  },
+  {
+    "id": "nowcoder-715",
+    "title": "小红书 — 27届实习",
+    "summary": "国内头部生活方式分享平台，用户生态完善，内容创作与商业转化能力突出。。招聘批次：27届实习。工作地点：杭州、武汉、深圳、珠海、北京、上海、香港。招聘岗位：人工智能/算法、研发工程师、产品。",
+    "url": "https://mp.weixin.qq.com/s/aXaXmNzamy_B6Bx9EvwcJw?scene=1",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "internet",
+    "location": "杭州、武汉、深圳、珠海、北京、上海、香港",
+    "deadline": "2026/10/30",
+    "tags": [
+      "小红书",
+      "实习",
+      "互联网/AI",
+      "杭州",
+      "武汉",
+      "深圳",
+      "消费生活",
+      "视频直播"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-08-24T08:20:02.000Z"
   },
   {
     "id": "nowcoder-652",
