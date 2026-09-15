@@ -1,5 +1,50 @@
 [
   {
+    "id": "nowcoder-310604",
+    "title": "乐享元游 — 27届秋招 今日收录",
+    "summary": "招聘批次：27届秋招 今日收录。工作地点：广州。招聘岗位：后端开发、前端开发、客户端开发、测试、产品等。",
+    "url": "https://www.yyxxgames.com/",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "广州",
+    "deadline": "2026/12/30",
+    "tags": [
+      "乐享元游",
+      "校招",
+      "秋招",
+      "广州"
+    ],
+    "score": 89,
+    "featured": true,
+    "createdAt": "2026-09-15T09:07:42.000Z"
+  },
+  {
+    "id": "nowcoder-147619",
+    "title": "天地和兴 — 27届秋招 今日收录",
+    "summary": "国内知名的工业网络安全及能源数智化综合解决方案提供商，稳居行业领军地位。招聘批次：27届秋招 今日收录。工作地点：青岛、武汉、西安、北京。招聘岗位：后端开发、前端开发、测试、技术支持、硬件工程师等。",
+    "url": "https://tdhxkj.zhiye.com/campus/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "security",
+    "location": "青岛、武汉、西安、北京",
+    "deadline": "2026/11/03",
+    "tags": [
+      "天地和兴",
+      "校招",
+      "秋招",
+      "安全/云服务",
+      "青岛",
+      "武汉",
+      "西安"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-09-15T08:12:06.000Z"
+  },
+  {
     "id": "nowcoder-32756",
     "title": "青岛海信电器营销股份有限公司郑州分公司 — 27届秋招 今日收录",
     "summary": "家电龙头区域营销机构，渠道网络完善，区域市场运营能力突出。。招聘批次：27届秋招 今日收录。工作地点：西安、兰州、西宁。招聘岗位：运营、市场/营销、销售类、商务、管理等。",
@@ -322,8 +367,8 @@
       "深圳",
       "西安"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-08-31T07:55:28.000Z"
   },
   {
