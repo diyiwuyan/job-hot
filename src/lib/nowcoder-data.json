@@ -1,5 +1,118 @@
 [
   {
+    "id": "nowcoder-32773",
+    "title": "美钛中国 — 27届秋招 今日收录",
+    "summary": "全球商业与技术服务领导者，通过多样化的技术与灵活服务解决方案，持续创造业务价值。招聘批次：27届秋招 今日收录。工作地点：苏州、广州、深圳、西安、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://mp.weixin.qq.com/s/heS4BgB0tjKYIcjUhwEvkw",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "苏州、广州、深圳、西安、北京、上海",
+    "deadline": "2026/11/03",
+    "tags": [
+      "美钛中国",
+      "校招",
+      "秋招",
+      "苏州",
+      "广州",
+      "深圳"
+    ],
+    "score": 95,
+    "featured": true,
+    "createdAt": "2026-09-15T16:06:13.000Z"
+  },
+  {
+    "id": "nowcoder-26798",
+    "title": "中国振华集团云科电子有限公司 — 27届秋招 今日收录",
+    "summary": "多元导师带教，打通管理、技术双向发展通道，团队集体赋能，助力快速成长。招聘批次：27届秋招 今日收录。工作地点：苏州、贵阳。招聘岗位：后端开发、研发工程师、硬件工程师、电子/半导体、通信等。",
+    "url": "https://mp.weixin.qq.com/s/mMDF6XlquyCvzw22Oy9zYA",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "苏州、贵阳",
+    "deadline": "2026/10/31",
+    "tags": [
+      "中国振华集团云科电子有限公司",
+      "校招",
+      "秋招",
+      "苏州",
+      "贵阳"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-09-15T15:53:37.000Z"
+  },
+  {
+    "id": "nowcoder-32768",
+    "title": "南京晨光公司 — 27届秋招 今日收录",
+    "summary": "国家级高新技术企业，科研平台实力雄厚，人才队伍结构优质，为员工提供完备的薪酬福利。招聘批次：27届秋招 今日收录。工作地点：南京。招聘岗位：后端开发、测试、人工智能/算法、研发工程师、硬件工程师等。",
+    "url": "https://www.iguopin.com/company/jobs?id=10685380815924859",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "南京",
+    "deadline": "2026/11/03",
+    "tags": [
+      "南京晨光公司",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "南京"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-09-15T15:51:01.000Z"
+  },
+  {
+    "id": "nowcoder-32767",
+    "title": "易买工品 — 27届秋招 今日收录",
+    "summary": "中国领先的数字化FA工厂自动化零部件专业提供商，有完善的晋升制度。招聘批次：27届秋招 今日收录。工作地点：无锡、苏州、合肥、武汉、上海。招聘岗位：后端开发、硬件工程师、电子/半导体、通信、技术支持等。",
+    "url": "https://yesmro101.jobs.feishu.cn/991031/position/list",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "无锡、苏州、合肥、武汉、上海",
+    "deadline": "2026/11/03",
+    "tags": [
+      "易买工品",
+      "校招",
+      "秋招",
+      "无锡",
+      "苏州",
+      "合肥"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-09-15T15:48:24.000Z"
+  },
+  {
+    "id": "nowcoder-32765",
+    "title": "旷世芳香控股 — 27届秋招 今日收录",
+    "summary": "芳香健康产业的开拓者和领军企业，人才培养体系完善，双导师结对带教，常态化学习活动。招聘批次：27届秋招 今日收录。工作地点：宁波、芜湖。招聘岗位：后端开发、前端开发、测试、数据、运维等。",
+    "url": "https://www.ihr360.com/gateway/api/recruit-website/#/recruit/web/project/eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ7XCJjb21wYW55SWRcIjpcIjAxLTAyMDMwNjU2ZDM4NWRlNGIwYjllZThhMTg3MTQxXCIsXCJ0eXBlXCI6XCJPZmZpY2lhbFByb2plY3RcIixcInByb2plY3RJZFwiOjExNDQxNjE5Mzg0NjEzMTkxNjgsXCJyZWNydWl0bWVudFR5cGVcIjoxfSJ9.w_tX7gnkMWfgpVpAX8qWbF-7r8u-fDZCaRO7Fr2S6wA?type=",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "宁波、芜湖",
+    "deadline": "2026/11/03",
+    "tags": [
+      "旷世芳香控股",
+      "校招",
+      "秋招",
+      "宁波",
+      "芜湖"
+    ],
+    "score": 94,
+    "featured": true,
+    "createdAt": "2026-09-15T15:44:50.000Z"
+  },
+  {
     "id": "nowcoder-310604",
     "title": "乐享元游 — 27届秋招 今日收录",
     "summary": "招聘批次：27届秋招 今日收录。工作地点：广州。招聘岗位：后端开发、前端开发、客户端开发、测试、产品等。",
