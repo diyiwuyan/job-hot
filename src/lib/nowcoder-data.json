@@ -1,5 +1,27 @@
 [
   {
+    "id": "nowcoder-12929",
+    "title": "乐享元游 — 27届秋招 今日收录",
+    "summary": "招聘批次：27届秋招 今日收录。工作地点：广州。招聘岗位：后端开发、客户端开发、测试、数据、产品等。",
+    "url": "https://www.nowcoder.com/jobs/company-project?projectId=2716&deliverSource=4&activityId=177&activitySuffix=2027YXzc&pageSource=5009&channel=qzsy",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "game",
+    "location": "广州",
+    "deadline": "2026/11/29",
+    "tags": [
+      "乐享元游",
+      "校招",
+      "秋招",
+      "游戏",
+      "广州"
+    ],
+    "score": 89,
+    "featured": true,
+    "createdAt": "2026-09-16T02:45:10.000Z"
+  },
+  {
     "id": "nowcoder-32773",
     "title": "美钛中国 — 27届秋招 今日收录",
     "summary": "全球商业与技术服务领导者，通过多样化的技术与灵活服务解决方案，持续创造业务价值。招聘批次：27届秋招 今日收录。工作地点：苏州、广州、深圳、西安、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
@@ -632,6 +654,29 @@
     "createdAt": "2026-08-24T09:32:13.000Z"
   },
   {
+    "id": "nowcoder-1648",
+    "title": "莉莉丝游戏 — 27届秋招",
+    "summary": "国内知名自研出海游戏企业，原创内容打造能力突出，全球化发行体系成熟。。招聘批次：27届秋招。工作地点：上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://lilithgames.jobs.feishu.cn/campus/",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "game",
+    "location": "上海",
+    "deadline": "2026/11/29",
+    "tags": [
+      "莉莉丝游戏",
+      "校招",
+      "秋招",
+      "游戏",
+      "上海",
+      "互联网"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-08-23T13:13:16.000Z"
+  },
+  {
     "id": "nowcoder-652",
     "title": "滴滴 — 27届秋招",
     "summary": "国内出行服务龙头企业，全生态布局，技术研发与运营能力领先。。招聘批次：27届秋招。工作地点：杭州、广州、深圳、成都、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
@@ -677,8 +722,8 @@
       "深圳",
       "视频直播"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-08-16T03:12:44.000Z"
   },
   {
