@@ -136,6 +136,29 @@
     "createdAt": "2026-09-15T15:51:01.000Z"
   },
   {
+    "id": "nowcoder-32767",
+    "title": "易买工品 — 27届秋招",
+    "summary": "中国领先的数字化FA工厂自动化零部件专业提供商，有完善的晋升制度。招聘批次：27届秋招。工作地点：无锡、苏州、合肥、武汉、上海。招聘岗位：后端开发、硬件工程师、电子/半导体、通信、技术支持等。",
+    "url": "https://yesmro101.jobs.feishu.cn/991031/position/list",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "无锡、苏州、合肥、武汉、上海",
+    "deadline": "2026/11/03",
+    "tags": [
+      "易买工品",
+      "校招",
+      "秋招",
+      "无锡",
+      "苏州",
+      "合肥"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-09-15T15:48:24.000Z"
+  },
+  {
     "id": "nowcoder-2922",
     "title": "信也科技 — 27届秋招",
     "summary": "上市公司大平台、开放多元团队、全球视野、全方位福利呵护、多维员工培养体系。招聘批次：27届秋招。工作地点：上海。招聘岗位：后端开发、前端开发、测试、数据、运维等。",
@@ -429,6 +452,30 @@
     "score": 75,
     "featured": false,
     "createdAt": "2026-08-12T07:59:33.000Z"
+  },
+  {
+    "id": "nowcoder-149",
+    "title": "网易 — 27届秋招",
+    "summary": "团队氛围好；福利待遇好；免费三餐；培训资源充足；关注员工成长\n。招聘批次：27届秋招。工作地点：杭州、北京。招聘岗位：后端开发、测试、数据、运维、人工智能/算法等。",
+    "url": "https://campus.163.com/app/niuke",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "game",
+    "location": "杭州、北京",
+    "deadline": "2026/10/14",
+    "tags": [
+      "网易",
+      "校招",
+      "秋招",
+      "游戏",
+      "杭州",
+      "北京",
+      "文娱内容"
+    ],
+    "score": 80,
+    "featured": true,
+    "createdAt": "2026-08-03T08:48:17.000Z"
   },
   {
     "id": "nowcoder-732",
