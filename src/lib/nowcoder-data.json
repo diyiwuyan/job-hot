@@ -1,5 +1,126 @@
 [
   {
+    "id": "nowcoder-2094",
+    "title": "东莞银行 — 27届秋招 今日收录",
+    "summary": "地方股份制银行，区域深耕，业务灵活，金融服务实战平台优质。招聘批次：27届秋招 今日收录。工作地点：合肥、长沙、广州、韶关、深圳、珠海、佛山、惠州、河源、清远、东莞、南沙开发区。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://dongguanbank.zhiye.com/campus/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "bank",
+    "location": "合肥、长沙、广州、韶关、深圳、珠海、佛山、惠州、河源、清远、东莞、南沙开发区",
+    "deadline": "2026/10/30",
+    "tags": [
+      "东莞银行",
+      "校招",
+      "秋招",
+      "金融",
+      "合肥",
+      "长沙",
+      "广州",
+      "银行"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-09-22T17:02:01.000Z"
+  },
+  {
+    "id": "nowcoder-2823",
+    "title": "数字广东 — 27届秋招 今日收录",
+    "summary": "承担省级数字政府建设运营，为政务数字化提供技术支撑。五险一金、通讯补贴、交通福利。招聘批次：27届秋招 今日收录。工作地点：广州、珠海、汕头、江门、云浮。招聘岗位：后端开发、前端开发、测试、数据、运维等。",
+    "url": "https://career.cec.com.cn/position?positionType=0",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "广州、珠海、汕头、江门、云浮",
+    "deadline": "2026/11/19",
+    "tags": [
+      "数字广东",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "广州",
+      "珠海",
+      "汕头",
+      "数据服务"
+    ],
+    "score": 94,
+    "featured": true,
+    "createdAt": "2026-09-22T16:59:02.000Z"
+  },
+  {
+    "id": "nowcoder-252963",
+    "title": "中核七院 — 27届秋招 今日收录",
+    "summary": "我国唯一的铀浓缩、铀纯化转化工程研究设计单位，人才培养体系完善。招聘批次：27届秋招 今日收录。工作地点：太原。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://mp.weixin.qq.com/s/enPyxBNOP10BcpdQUyoXGQ",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "太原",
+    "deadline": "2026/11/17",
+    "tags": [
+      "中核七院",
+      "校招",
+      "秋招",
+      "车企/IC",
+      "太原",
+      "机械制造",
+      "冶金"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-09-22T16:49:45.000Z"
+  },
+  {
+    "id": "nowcoder-14054",
+    "title": "深圳市深视智能科技股份有限公司 — 27届秋招 今日收录",
+    "summary": "专注于高端工业传感器与科研仪器的研发与生产，薪资福利待遇丰厚。招聘批次：27届秋招 今日收录。工作地点：昆山、合肥、厦门、武汉、深圳、东莞、西安、北京、香港。招聘岗位：后端开发、测试、硬件工程师、电子/半导体、通信等。",
+    "url": "https://cnsszn.zhiye.com/campus/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "昆山、合肥、厦门、武汉、深圳、东莞、西安、北京、香港",
+    "deadline": "2026/11/17",
+    "tags": [
+      "深圳市深视智能科技股份有限公司",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "昆山",
+      "合肥",
+      "厦门"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-09-22T12:22:19.000Z"
+  },
+  {
+    "id": "nowcoder-31557",
+    "title": "大连泰星能源有限公司 — 27届秋招 今日收录",
+    "summary": "新能源能源装备企业，行业赛道优质，技术成长空间大，发展前景良好。招聘批次：27届秋招 今日收录。工作地点：大连。招聘岗位：研发工程师、电子/半导体、机械、化工、电气/自动化等。",
+    "url": "https://xym.51job.com/wechat/vuectmjobs/#/search?id=0E69BF32-0D2A-4420-AE5F-D033BD6AE80E",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "大连",
+    "deadline": "2026/11/17",
+    "tags": [
+      "大连泰星能源有限公司",
+      "校招",
+      "秋招",
+      "车企/IC",
+      "大连"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-09-22T12:14:00.000Z"
+  },
+  {
     "id": "nowcoder-30834",
     "title": "启境汽车 — 27届秋招",
     "summary": "高端智能电动车品牌，拥有全面的企业文化和业务培训，帮助新人快速融入团队与环境。。招聘批次：27届秋招。工作地点：广州。招聘岗位：后端开发、测试、数据、运维、人工智能/算法等。",
@@ -110,30 +231,6 @@
     "score": 90,
     "featured": true,
     "createdAt": "2026-09-20T08:52:33.000Z"
-  },
-  {
-    "id": "nowcoder-14054",
-    "title": "深圳市深视智能科技股份有限公司 — 27届秋招",
-    "summary": "招聘批次：27届秋招。工作地点：昆山、合肥、厦门、深圳、东莞、北京。招聘岗位：市场/营销、管理、管理培训生、机械、贸易等。",
-    "url": "https://www.cnsszn.com/job.html",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "campus",
-    "category": "internet",
-    "location": "昆山、合肥、厦门、深圳、东莞、北京",
-    "deadline": "2026/12/30",
-    "tags": [
-      "深圳市深视智能科技股份有限公司",
-      "校招",
-      "秋招",
-      "互联网/AI",
-      "昆山",
-      "合肥",
-      "厦门"
-    ],
-    "score": 90,
-    "featured": true,
-    "createdAt": "2026-09-20T06:27:31.000Z"
   },
   {
     "id": "nowcoder-914",
@@ -280,6 +377,28 @@
     "createdAt": "2026-08-31T07:55:28.000Z"
   },
   {
+    "id": "nowcoder-2197",
+    "title": "平安产险科技中心 — 27届秋招",
+    "summary": "保险行业标杆，综合金融实践平台。。招聘批次：27届秋招。工作地点：深圳。招聘岗位：后端开发、测试、数据、运维、人工智能/算法等。",
+    "url": "https://campus.pingan.com/paccbxkjzx/position",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "finance",
+    "location": "深圳",
+    "deadline": "2026/12/30",
+    "tags": [
+      "平安产险科技中心",
+      "校招",
+      "秋招",
+      "金融",
+      "深圳"
+    ],
+    "score": 82,
+    "featured": true,
+    "createdAt": "2026-08-31T06:05:21.000Z"
+  },
+  {
     "id": "nowcoder-23046",
     "title": "鹏芯微 — 27届秋招",
     "summary": "国内特色工艺晶圆代工核心企业，制造能力突出，国产替代支撑作用显著。。招聘批次：27届秋招。工作地点：深圳。招聘岗位：后端开发、测试、研发工程师、硬件工程师、电子/半导体等。",
@@ -299,6 +418,30 @@
     "score": 77,
     "featured": false,
     "createdAt": "2026-08-28T13:56:04.000Z"
+  },
+  {
+    "id": "nowcoder-931",
+    "title": "蚂蚁集团 — 27届秋招",
+    "summary": "领先数字科技服务商，金融科技底座完善，数字普惠与风控技术实力雄厚。。招聘批次：27届秋招。工作地点：杭州、广州、深圳、成都、北京、上海、重庆、香港。招聘岗位：后端开发、测试、数据、运维、人工智能/算法等。",
+    "url": "https://talent.antgroup.com/campus-full-list?type=campus_graduates",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "finance",
+    "location": "杭州、广州、深圳、成都、北京、上海、重庆、香港",
+    "deadline": "2026/10/09",
+    "tags": [
+      "蚂蚁集团",
+      "校招",
+      "秋招",
+      "金融",
+      "杭州",
+      "广州",
+      "深圳"
+    ],
+    "score": 83,
+    "featured": true,
+    "createdAt": "2026-08-27T12:48:46.000Z"
   },
   {
     "id": "nowcoder-2932",
