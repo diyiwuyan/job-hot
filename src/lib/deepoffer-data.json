@@ -1,8 +1,57 @@
 [
   {
+    "id": "deepoffer-23168",
+    "title": "中信银行海口分行 — 27届秋招 | 管理培训生、柜员",
+    "summary": "招聘类型：27届秋招。行业：金融。企业性质：银行。工作地点：海口、三亚。截止日期：2026/10/09。岗位：管理培训生、柜员。",
+    "url": "https://job.citicbank.com/",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "bank",
+    "location": "海口、三亚",
+    "deadline": "2026/10/09",
+    "tags": [
+      "中信银行海口分行",
+      "校招",
+      "秋招",
+      "金融",
+      "银行",
+      "海口",
+      "三亚"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-09-25T12:07:37.000Z"
+  },
+  {
+    "id": "deepoffer-23167",
+    "title": "民生银行银川分行 — 27届秋招 | “扬帆”计划、“启航”计划",
+    "summary": "招聘类型：27届秋招。行业：金融。企业性质：银行。工作地点：银川。截止日期：2026/10/25。岗位：“扬帆”计划、“启航”计划。",
+    "url": "https://career.cmbc.com.cn/",
+    "source": "DeepOffer",
+    "sourceHandle": "@deepoffer",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "bank",
+    "location": "银川",
+    "deadline": "2026/10/25",
+    "tags": [
+      "民生银行银川分行",
+      "校招",
+      "秋招",
+      "金融",
+      "银行",
+      "银川"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-09-25T12:07:28.000Z"
+  },
+  {
     "id": "deepoffer-23166",
     "title": "中信银行贵阳分行 — 27届秋招 | 管理培训生、客户经理类、柜员、信息科技类",
-    "summary": "招聘类型：27届秋招。行业：金融。企业性质：银行。工作地点：贵阳。截止日期：2026/10/9。岗位：管理培训生、客户经理类、柜员、信息科技类。",
+    "summary": "招聘类型：27届秋招。行业：金融。企业性质：银行。工作地点：贵阳。截止日期：2026/10/09。岗位：管理培训生、客户经理类、柜员、信息科技类。",
     "url": "https://job.citicbank.com/",
     "source": "DeepOffer",
     "sourceHandle": "@deepoffer",
@@ -10,7 +59,7 @@
     "category": "finance",
     "companyType": "bank",
     "location": "贵阳",
-    "deadline": "2026/10/9",
+    "deadline": "2026/10/09",
     "tags": [
       "中信银行贵阳分行",
       "校招",
