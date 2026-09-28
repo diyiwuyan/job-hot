@@ -390,7 +390,7 @@
       "成都",
       "银行"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-09-19T19:00:00.000Z"
   },
@@ -601,8 +601,8 @@
       "广州",
       "深圳"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-08-27T12:48:46.000Z"
   },
   {
