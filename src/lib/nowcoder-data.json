@@ -1,5 +1,29 @@
 [
   {
+    "id": "nowcoder-29616",
+    "title": "兴业数字金融服务（上海）股份有限公司 — 27届秋招 今日收录",
+    "summary": "招聘批次：27届秋招 今日收录。工作地点：杭州、福州、深圳、成都、西安、上海。招聘岗位：后端开发、前端开发、研发工程师。",
+    "url": "https://www.nowcoder.com/careers/cibfintech/180887?jobIds=84226",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "finance",
+    "location": "杭州、福州、深圳、成都、西安、上海",
+    "deadline": "2026/12/30",
+    "tags": [
+      "兴业数字金融服务（上海）股份有限公司",
+      "校招",
+      "秋招",
+      "金融",
+      "杭州",
+      "福州",
+      "深圳"
+    ],
+    "score": 86,
+    "featured": true,
+    "createdAt": "2026-09-30T04:21:02.000Z"
+  },
+  {
     "id": "nowcoder-1513",
     "title": "途虎 — 27届校招",
     "summary": "途虎养车2011年创立，以“让养车更简单”为使命，是中国领先的线上线下一体化汽车。招聘批次：27届校招。工作地点：武汉、上海。招聘岗位：测试、数据、人工智能/算法、硬件工程师、技术支持等。",
@@ -159,6 +183,30 @@
     "createdAt": "2026-09-23T08:26:07.000Z"
   },
   {
+    "id": "nowcoder-13404",
+    "title": "智慧芽 — 27届校招",
+    "summary": "专注知识产权信息服务，数据资源丰富，重视新人数据分析与服务能力。招聘批次：27届校招。工作地点：深圳、北京、上海。招聘岗位：后端开发、人工智能/算法、运营、市场/营销、销售类等。",
+    "url": "https://zhihuiya.zhiye.com/campus/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "深圳、北京、上海",
+    "deadline": "2027/02/27",
+    "tags": [
+      "智慧芽",
+      "校招",
+      "互联网/AI",
+      "深圳",
+      "北京",
+      "上海",
+      "企业服务"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-09-22T07:10:38.000Z"
+  },
+  {
     "id": "nowcoder-152965",
     "title": "太初（杭州）集成电路有限公司 — 27届校招",
     "summary": "技术氛围浓厚，福利待遇完备。招聘批次：27届校招。工作地点：无锡、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
@@ -175,7 +223,7 @@
       "北京",
       "上海"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-09-22T01:56:29.000Z"
   },
@@ -197,8 +245,8 @@
       "金融",
       "上海"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-09-15T06:34:53.000Z"
   },
   {
