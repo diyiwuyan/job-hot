@@ -19143,7 +19143,7 @@
       "其他金融业",
       "北京"
     ],
-    "score": 90,
+    "score": 85,
     "featured": true,
     "createdAt": "2026-09-24T15:55:22.000Z"
   },
@@ -19167,7 +19167,7 @@
       "其他金融业",
       "北京"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-09-24T15:55:22.000Z"
   },
@@ -19191,7 +19191,7 @@
       "其他金融业",
       "北京"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-09-24T15:55:22.000Z"
   },
@@ -19215,7 +19215,7 @@
       "其他金融业",
       "北京"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-09-24T15:55:22.000Z"
   },
@@ -19239,7 +19239,7 @@
       "其他金融业",
       "北京"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-09-24T15:55:22.000Z"
   },
@@ -19263,7 +19263,7 @@
       "信息传输、软件和信息技术服务业",
       "上海"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-09-24T14:01:22.000Z"
   },
@@ -19287,7 +19287,7 @@
       "制造业",
       "无锡"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-09-24T13:37:02.000Z"
   },
@@ -19311,8 +19311,8 @@
       "科学研究和技术服务业",
       "北京"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-09-24T13:02:51.000Z"
   },
   {
@@ -19335,8 +19335,8 @@
       "电信、广播电视和卫星传输服务",
       "合肥"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-09-24T12:44:07.000Z"
   },
   {
@@ -19359,8 +19359,8 @@
       "科技推广和应用服务业",
       "南通"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-09-24T11:11:26.000Z"
   },
   {
@@ -19383,8 +19383,8 @@
       "科技推广和应用服务业",
       "南通"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-09-24T11:11:25.000Z"
   },
   {
@@ -19407,8 +19407,8 @@
       "科技推广和应用服务业",
       "南通"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-09-24T11:11:24.000Z"
   },
   {
@@ -19431,7 +19431,7 @@
       "科技推广和应用服务业",
       "南通"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-09-24T11:11:23.000Z"
   },
@@ -19455,7 +19455,7 @@
       "科技推广和应用服务业",
       "南通"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-09-24T11:11:22.000Z"
   },
@@ -19479,8 +19479,8 @@
       "科技推广和应用服务业",
       "南通"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-09-24T11:11:21.000Z"
   },
   {
@@ -19503,8 +19503,8 @@
       "科技推广和应用服务业",
       "南通"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-09-24T11:11:20.000Z"
   },
   {
@@ -19527,8 +19527,8 @@
       "科技推广和应用服务业",
       "南通"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-09-24T11:11:19.000Z"
   },
   {
@@ -19551,8 +19551,8 @@
       "科技推广和应用服务业",
       "南通"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-09-24T11:11:18.000Z"
   },
   {
@@ -19575,7 +19575,7 @@
       "科技推广和应用服务业",
       "南通"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-09-24T11:11:17.000Z"
   },
@@ -19599,8 +19599,8 @@
       "科技推广和应用服务业",
       "南通"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-09-24T11:11:16.000Z"
   },
   {
@@ -19623,8 +19623,8 @@
       "科技推广和应用服务业",
       "南通"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-09-24T11:11:15.000Z"
   },
   {
@@ -19647,8 +19647,8 @@
       "科技推广和应用服务业",
       "南通"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-09-24T11:11:14.000Z"
   },
   {
@@ -19671,383 +19671,9 @@
       "科技推广和应用服务业",
       "南通"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-09-24T11:11:13.000Z"
-  },
-  {
-    "id": "guopin-219638350741504701",
-    "title": "煤炭科学研究总院有限公司 — 露天矿山安全人工智能研发岗",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638350741504701",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "security",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "安全/云服务",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 84,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638348610798269",
-    "title": "煤炭科学研究总院有限公司 — 具身智能大模型研究岗",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638348610798269",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 84,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638347939709629",
-    "title": "煤炭科学研究总院有限公司 — 多模态算法研究岗",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638347939709629",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 84,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638345557344957",
-    "title": "煤炭科学研究总院有限公司 — 矿山数据产品技术研发岗",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638345557344957",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 84,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638342973653693",
-    "title": "煤炭科学研究总院有限公司 — 系统研究开发岗",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638342973653693",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 84,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638340960387773",
-    "title": "煤炭科学研究总院有限公司 — 锂电池研发工程师",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638340960387773",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 84,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638336531202749",
-    "title": "煤炭科学研究总院有限公司 — 矿用装备结构新材料研究岗",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638336531202749",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 84,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638335709119165",
-    "title": "煤炭科学研究总院有限公司 — 后端组件开发工程师",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638335709119165",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 84,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638328092263101",
-    "title": "煤炭科学研究总院有限公司 — 计算与应力装备开发岗",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638328092263101",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 84,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638326632645309",
-    "title": "煤炭科学研究总院有限公司 — 应急救援装备研发岗",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638326632645309",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 84,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638324652933821",
-    "title": "煤炭科学研究总院有限公司 — 矿山灾害监测预警与应急\n救援技术研究岗",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638324652933821",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 84,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638349449659069",
-    "title": "煤炭科学研究总院有限公司 — 具身智能数据研究岗",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638349449659069",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 83,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638338779349693",
-    "title": "煤炭科学研究总院有限公司 — 零碳矿区研究岗",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638338779349693",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 83,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638338074706621",
-    "title": "煤炭科学研究总院有限公司 — 矿用装备机械新材料研究岗",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638338074706621",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 83,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638337336509117",
-    "title": "煤炭科学研究总院有限公司 — 矿用装备与人员安全新材料研究岗",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638337336509117",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "security",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "安全/云服务",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 83,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638334937367229",
-    "title": "煤炭科学研究总院有限公司 — 矿山IoT及嵌入式组件研发工程师",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638334937367229",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 83,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
   },
   {
     "id": "guopin-219491663112831735",
@@ -20092,263 +19718,6 @@
       "互联网/AI",
       "科技推广和应用服务业",
       "上海"
-    ],
-    "score": 82,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638349986529981",
-    "title": "煤炭科学研究总院有限公司 — 遥感数据治理研发岗",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638349986529981",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 82,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638344802370237",
-    "title": "煤炭科学研究总院有限公司 — 数据资源规划及数据字典研究岗",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638344802370237",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 82,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638343611187901",
-    "title": "煤炭科学研究总院有限公司 — 矿山高质量数据集研发岗",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638343611187901",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 82,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638341581144765",
-    "title": "煤炭科学研究总院有限公司 — 电池研究岗",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638341581144765",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 82,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638340356407997",
-    "title": "煤炭科学研究总院有限公司 — 固态电池前瞻技术研发工程师",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638340356407997",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 82,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638333276422845",
-    "title": "煤炭科学研究总院有限公司 — 智能穿戴研究岗",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638333276422845",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 82,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638332588556989",
-    "title": "煤炭科学研究总院有限公司 — 智能装备研究岗",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638332588556989",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 82,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638331061830333",
-    "title": "煤炭科学研究总院有限公司 — 智能感控研究岗",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638331061830333",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 82,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638329602212541",
-    "title": "煤炭科学研究总院有限公司 — 实验与物性研究岗",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638329602212541",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 82,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638328931123901",
-    "title": "煤炭科学研究总院有限公司 — 物探与结构研究岗",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638328931123901",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 82,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638325475017405",
-    "title": "煤炭科学研究总院有限公司 — 职业安全健康研究岗",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638325475017405",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "security",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "安全/云服务",
-      "科学研究和技术服务业",
-      "北京"
     ],
     "score": 82,
     "featured": true,
@@ -20427,123 +19796,6 @@
     "createdAt": "2026-09-24T11:11:11.000Z"
   },
   {
-    "id": "guopin-219638347151180477",
-    "title": "煤炭科学研究总院有限公司 — 多模态数据治理与模型测试研究岗",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638347151180477",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 81,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638346261988029",
-    "title": "煤炭科学研究总院有限公司 — 智能体应用开发岗",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638346261988029",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 81,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638339618210493",
-    "title": "煤炭科学研究总院有限公司 — 无人驾驶算法研究岗 ",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638339618210493",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 81,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638331800027837",
-    "title": "煤炭科学研究总院有限公司 — 规划研究岗",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638331800027837",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 81,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638330373964477",
-    "title": "煤炭科学研究总院有限公司 — 数字化深地工程开发岗",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638330373964477",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 81,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
     "id": "guopin-219491663700034295",
     "title": "上海益诺思生物技术股份有限公司 — QA检查员-GCP（上海）",
     "summary": "企业性质：国企。行业：科技推广和应用服务业。工作地点：上海-浦东新区。薪资面议。学历：硕士。规模：500-1000人。",
@@ -20592,56 +19844,10 @@
     "createdAt": "2026-09-24T11:11:11.000Z"
   },
   {
-    "id": "guopin-219638344114504381",
-    "title": "煤炭科学研究总院有限公司 — 标准体系研究岗",
+    "id": "guopin-219638350741504701",
+    "title": "煤炭科学研究总院有限公司 — 露天矿山安全人工智能研发岗",
     "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638344114504381",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 80,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638342319342269",
-    "title": "煤炭科学研究总院有限公司 — 电解液研发工程师",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638342319342269",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2026/12/31",
-    "tags": [
-      "煤炭科学研究总院有限公司",
-      "校招",
-      "国企",
-      "科学研究和技术服务业",
-      "北京"
-    ],
-    "score": 80,
-    "featured": true,
-    "createdAt": "2026-09-24T11:11:11.000Z"
-  },
-  {
-    "id": "guopin-219638327454728893",
-    "title": "煤炭科学研究总院有限公司 — 矿山安全标准研究岗",
-    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638327454728893",
+    "url": "https://www.iguopin.com/job/detail?id=219638350741504701",
     "source": "国聘",
     "sourceHandle": "@guopin",
     "channel": "campus",
@@ -20657,15 +19863,15 @@
       "科学研究和技术服务业",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-09-24T11:11:11.000Z"
   },
   {
-    "id": "guopin-219638334064951997",
-    "title": "煤炭科学研究总院有限公司 — 矿山人机交互技术开发工程师",
+    "id": "guopin-219638348610798269",
+    "title": "煤炭科学研究总院有限公司 — 具身智能大模型研究岗",
     "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=219638334064951997",
+    "url": "https://www.iguopin.com/job/detail?id=219638348610798269",
     "source": "国聘",
     "sourceHandle": "@guopin",
     "channel": "campus",
@@ -20680,8 +19886,217 @@
       "科学研究和技术服务业",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 79,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638347939709629",
+    "title": "煤炭科学研究总院有限公司 — 多模态算法研究岗",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638347939709629",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 79,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638345557344957",
+    "title": "煤炭科学研究总院有限公司 — 矿山数据产品技术研发岗",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638345557344957",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 79,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638342973653693",
+    "title": "煤炭科学研究总院有限公司 — 系统研究开发岗",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638342973653693",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 79,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638340960387773",
+    "title": "煤炭科学研究总院有限公司 — 锂电池研发工程师",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638340960387773",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 79,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638336531202749",
+    "title": "煤炭科学研究总院有限公司 — 矿用装备结构新材料研究岗",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638336531202749",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 79,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638335709119165",
+    "title": "煤炭科学研究总院有限公司 — 后端组件开发工程师",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638335709119165",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 79,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638328092263101",
+    "title": "煤炭科学研究总院有限公司 — 计算与应力装备开发岗",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638328092263101",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 79,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638326632645309",
+    "title": "煤炭科学研究总院有限公司 — 应急救援装备研发岗",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638326632645309",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 79,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638324652933821",
+    "title": "煤炭科学研究总院有限公司 — 矿山灾害监测预警与应急\n救援技术研究岗",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638324652933821",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-09-24T11:11:11.000Z"
   },
   {
@@ -20705,6 +20120,124 @@
       "上海"
     ],
     "score": 79,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638349449659069",
+    "title": "煤炭科学研究总院有限公司 — 具身智能数据研究岗",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638349449659069",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638338779349693",
+    "title": "煤炭科学研究总院有限公司 — 零碳矿区研究岗",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638338779349693",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638338074706621",
+    "title": "煤炭科学研究总院有限公司 — 矿用装备机械新材料研究岗",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638338074706621",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638337336509117",
+    "title": "煤炭科学研究总院有限公司 — 矿用装备与人员安全新材料研究岗",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638337336509117",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "security",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "安全/云服务",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 78,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638334937367229",
+    "title": "煤炭科学研究总院有限公司 — 矿山IoT及嵌入式组件研发工程师",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638334937367229",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 78,
     "featured": false,
     "createdAt": "2026-09-24T11:11:11.000Z"
   },
@@ -20781,6 +20314,473 @@
     "createdAt": "2026-09-24T11:11:11.000Z"
   },
   {
+    "id": "guopin-219638349986529981",
+    "title": "煤炭科学研究总院有限公司 — 遥感数据治理研发岗",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638349986529981",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 77,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638344802370237",
+    "title": "煤炭科学研究总院有限公司 — 数据资源规划及数据字典研究岗",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638344802370237",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 77,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638343611187901",
+    "title": "煤炭科学研究总院有限公司 — 矿山高质量数据集研发岗",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638343611187901",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 77,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638341581144765",
+    "title": "煤炭科学研究总院有限公司 — 电池研究岗",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638341581144765",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 77,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638340356407997",
+    "title": "煤炭科学研究总院有限公司 — 固态电池前瞻技术研发工程师",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638340356407997",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 77,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638333276422845",
+    "title": "煤炭科学研究总院有限公司 — 智能穿戴研究岗",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638333276422845",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 77,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638332588556989",
+    "title": "煤炭科学研究总院有限公司 — 智能装备研究岗",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638332588556989",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 77,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638331061830333",
+    "title": "煤炭科学研究总院有限公司 — 智能感控研究岗",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638331061830333",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 77,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638329602212541",
+    "title": "煤炭科学研究总院有限公司 — 实验与物性研究岗",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638329602212541",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 77,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638328931123901",
+    "title": "煤炭科学研究总院有限公司 — 物探与结构研究岗",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638328931123901",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 77,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638325475017405",
+    "title": "煤炭科学研究总院有限公司 — 职业安全健康研究岗",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638325475017405",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "security",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "安全/云服务",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 77,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638347151180477",
+    "title": "煤炭科学研究总院有限公司 — 多模态数据治理与模型测试研究岗",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638347151180477",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 76,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638346261988029",
+    "title": "煤炭科学研究总院有限公司 — 智能体应用开发岗",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638346261988029",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 76,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638339618210493",
+    "title": "煤炭科学研究总院有限公司 — 无人驾驶算法研究岗 ",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638339618210493",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 76,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638331800027837",
+    "title": "煤炭科学研究总院有限公司 — 规划研究岗",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638331800027837",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 76,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638330373964477",
+    "title": "煤炭科学研究总院有限公司 — 数字化深地工程开发岗",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638330373964477",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 76,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638344114504381",
+    "title": "煤炭科学研究总院有限公司 — 标准体系研究岗",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638344114504381",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638342319342269",
+    "title": "煤炭科学研究总院有限公司 — 电解液研发工程师",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638342319342269",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638327454728893",
+    "title": "煤炭科学研究总院有限公司 — 矿山安全标准研究岗",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638327454728893",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "security",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "安全/云服务",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
+    "id": "guopin-219638334064951997",
+    "title": "煤炭科学研究总院有限公司 — 矿山人机交互技术开发工程师",
+    "summary": "企业性质：国企。行业：科学研究和技术服务业。工作地点：北京-朝阳区。薪资面议。学历：博士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=219638334064951997",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "煤炭科学研究总院有限公司",
+      "校招",
+      "国企",
+      "科学研究和技术服务业",
+      "北京"
+    ],
+    "score": 75,
+    "featured": false,
+    "createdAt": "2026-09-24T11:11:11.000Z"
+  },
+  {
     "id": "guopin-219622048354271981",
     "title": "中国能源建设集团浙江火电建设有限公司 — 项目综合秘书岗位",
     "summary": "企业性质：国企。行业：建筑业。工作地点：杭州-上城区。薪资面议。学历：硕士。规模：5000-10000人。",
@@ -20824,8 +20824,8 @@
       "金融业货币金融服务",
       "北京"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-09-24T10:25:00.000Z"
   },
   {
@@ -20848,7 +20848,7 @@
       "金融业",
       "萍乡"
     ],
-    "score": 74,
+    "score": 69,
     "featured": false,
     "createdAt": "2026-09-24T10:03:13.000Z"
   },
