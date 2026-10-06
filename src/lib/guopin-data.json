@@ -331,6 +331,54 @@
     "createdAt": "2026-10-10T00:00:00.000Z"
   },
   {
+    "id": "guopin-221369198218053078",
+    "title": "国家电力投资集团有限公司人才开发中心 — 基础产业人才开发",
+    "summary": "企业性质：国企。行业：教育。工作地点：上海-闵行区。薪资面议。学历：硕士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=221369198218053078",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "state",
+    "location": "上海-闵行区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "国家电力投资集团有限公司人才开发中心",
+      "校招",
+      "国企",
+      "金融",
+      "教育",
+      "上海"
+    ],
+    "score": 81,
+    "featured": true,
+    "createdAt": "2026-10-08T09:00:00.000Z"
+  },
+  {
+    "id": "guopin-221369283932849641",
+    "title": "国家电力投资集团有限公司人才开发中心 — 数智化平台管理",
+    "summary": "企业性质：国企。行业：教育。工作地点：上海-闵行区。薪资面议。学历：硕士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=221369283932849641",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "state",
+    "location": "上海-闵行区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "国家电力投资集团有限公司人才开发中心",
+      "校招",
+      "国企",
+      "金融",
+      "教育",
+      "上海"
+    ],
+    "score": 80,
+    "featured": true,
+    "createdAt": "2026-10-08T09:00:00.000Z"
+  },
+  {
     "id": "guopin-218216188386215465",
     "title": "国药集团西南医药有限公司 — 医药销售代表",
     "summary": "企业性质：国企。行业：批发业。工作地点：成都、拉萨、日喀则。薪资：6000-10000元/月。学历：本科。规模：500-1000人。",
@@ -541,6 +589,76 @@
     "score": 87,
     "featured": true,
     "createdAt": "2026-10-06T01:00:41.000Z"
+  },
+  {
+    "id": "guopin-221371358183949786",
+    "title": "山西电机制造有限公司 — 产品研发工程师",
+    "summary": "企业性质：国企。行业：制造业。工作地点：太原。薪资：6000-10000元/月。学历：本科。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=221371358183949786",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "太原",
+    "deadline": "2027/01/03",
+    "tags": [
+      "山西电机制造有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "制造业",
+      "太原"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-10-06T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-221400404041139674",
+    "title": "中色卢安夏铜业有限公司 — 采矿工程师",
+    "summary": "企业性质：国企。行业：有色金属矿采选业。工作地点：赞比亚。薪资：30000-40000元/月。学历：博士。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=221400404041139674",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "赞比亚",
+    "deadline": "2027/01/03",
+    "tags": [
+      "中色卢安夏铜业有限公司",
+      "校招",
+      "国企",
+      "有色金属矿采选业",
+      "赞比亚"
+    ],
+    "score": 83,
+    "featured": true,
+    "createdAt": "2026-10-06T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-221396553401632214",
+    "title": "中色矿业香港控股有限公司 — 法语翻译(应届生岗)",
+    "summary": "企业性质：股份制企业。行业：有色金属矿采选业。工作地点：刚果(金)。薪资面议。学历：硕士。规模：1000-2000人。",
+    "url": "https://www.iguopin.com/job/detail?id=221396553401632214",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "刚果(金)",
+    "deadline": "2027/01/03",
+    "tags": [
+      "中色矿业香港控股有限公司",
+      "校招",
+      "国企",
+      "有色金属矿采选业",
+      "刚果(金)"
+    ],
+    "score": 73,
+    "featured": false,
+    "createdAt": "2026-10-06T00:00:00.000Z"
   },
   {
     "id": "guopin-221262248264336870",
@@ -16671,7 +16789,7 @@
       "建筑业",
       "广州"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-09-28T14:55:55.000Z"
   },
@@ -16694,8 +16812,8 @@
       "建筑业",
       "广州"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-09-28T14:54:25.000Z"
   },
   {
@@ -16717,8 +16835,8 @@
       "建筑业",
       "广州"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-09-28T14:52:38.000Z"
   },
   {
@@ -16740,8 +16858,8 @@
       "建筑业",
       "广州"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-09-28T14:52:09.000Z"
   },
   {
@@ -16764,8 +16882,8 @@
       "专用设备制造业",
       "成都"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-09-28T14:25:00.000Z"
   },
   {
@@ -16788,8 +16906,8 @@
       "专用设备制造业",
       "成都"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-09-28T14:25:00.000Z"
   },
   {
@@ -16812,8 +16930,8 @@
       "专用设备制造业",
       "成都"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-09-28T14:25:00.000Z"
   },
   {
@@ -16836,8 +16954,8 @@
       "专用设备制造业",
       "成都"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-09-28T14:25:00.000Z"
   },
   {
@@ -16860,8 +16978,8 @@
       "专用设备制造业",
       "成都"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-09-28T14:25:00.000Z"
   },
   {
@@ -16884,8 +17002,8 @@
       "专用设备制造业",
       "成都"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-09-28T14:25:00.000Z"
   },
   {
@@ -16908,8 +17026,8 @@
       "专用设备制造业",
       "成都"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-09-28T14:20:00.000Z"
   },
   {
@@ -16932,8 +17050,8 @@
       "专用设备制造业",
       "成都"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-09-28T14:20:00.000Z"
   },
   {
@@ -16956,8 +17074,8 @@
       "专用设备制造业",
       "成都"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-09-28T14:20:00.000Z"
   },
   {
@@ -16980,8 +17098,8 @@
       "专用设备制造业",
       "成都"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-09-28T14:20:00.000Z"
   },
   {
@@ -17004,8 +17122,8 @@
       "专用设备制造业",
       "成都"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-09-28T14:20:00.000Z"
   },
   {
@@ -17028,7 +17146,7 @@
       "电力、热力生产和供应业",
       "广州"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-09-28T12:00:00.000Z"
   },
@@ -17051,8 +17169,8 @@
       "黑色金属冶炼和压延加工业",
       "福州"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-09-28T12:00:00.000Z"
   },
   {
@@ -17077,7 +17195,7 @@
       "湖北",
       "广东"
     ],
-    "score": 92,
+    "score": 87,
     "featured": true,
     "createdAt": "2026-09-28T10:19:47.000Z"
   },
@@ -17102,7 +17220,7 @@
       "福建",
       "湖北"
     ],
-    "score": 91,
+    "score": 86,
     "featured": true,
     "createdAt": "2026-09-28T10:13:49.000Z"
   },
@@ -17127,7 +17245,7 @@
       "福建",
       "广东"
     ],
-    "score": 93,
+    "score": 88,
     "featured": true,
     "createdAt": "2026-09-28T10:12:43.000Z"
   },
@@ -17151,8 +17269,8 @@
       "制造业",
       "嘉峪关"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-09-28T10:02:57.000Z"
   },
   {
@@ -17175,7 +17293,7 @@
       "电力、热力生产和供应业",
       "广州"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-09-28T10:00:00.000Z"
   },
@@ -17199,7 +17317,7 @@
       "电力、热力生产和供应业",
       "广州"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-09-28T10:00:00.000Z"
   },
@@ -17223,7 +17341,7 @@
       "制造业",
       "嘉峪关"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-09-28T09:56:33.000Z"
   },
@@ -17247,8 +17365,8 @@
       "制造业",
       "嘉峪关"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-09-28T09:52:49.000Z"
   },
   {
@@ -17272,8 +17390,8 @@
       "嘉峪关",
       "兰州"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-09-28T09:51:46.000Z"
   },
   {
@@ -17296,8 +17414,8 @@
       "制造业",
       "哈萨克斯坦"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-09-28T09:50:56.000Z"
   },
   {
