@@ -1,5 +1,172 @@
 [
   {
+    "id": "nowcoder-24824",
+    "title": "新希望集团 — 27届秋招",
+    "summary": "以现代农牧与食品产业为主营业务的民营企业集团，产业链完整，业务扎根实体经济。招聘批次：27届秋招。工作地点：石家庄、邢台、沈阳、大连、长春、哈尔滨、南京、苏州、杭州、温州、南昌、青岛、济宁、泰安、德州、菏泽、郑州、武汉、长沙、广州、深圳、南宁、海口、成都、德阳、绵阳、乐山、贵阳、毕节、昆明、西安、咸阳、兰州、银川、北京、重庆。招聘岗位：研发工程师、机械、化工、电气/自动化、技术支持等。",
+    "url": "https://newhope.zhiye.com/jtxzzw",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "石家庄、邢台、沈阳、大连、长春、哈尔滨、南京、苏州、杭州、温州、南昌、青岛、济宁、泰安、德州、菏泽、郑州、武汉、长沙、广州、深圳、南宁、海口、成都、德阳、绵阳、乐山、贵阳、毕节、昆明、西安、咸阳、兰州、银川、北京、重庆",
+    "deadline": "2027/06/29",
+    "tags": [
+      "新希望集团",
+      "校招",
+      "秋招",
+      "石家庄",
+      "邢台",
+      "沈阳"
+    ],
+    "score": 94,
+    "featured": true,
+    "createdAt": "2026-10-07T15:51:07.000Z"
+  },
+  {
+    "id": "nowcoder-13403",
+    "title": "XSKY星辰天合 — 27届秋招",
+    "summary": "软件定义基础架构业务的双高新技术企业，拒绝“螺丝钉”文化，牛人导师，保驾护航。招聘批次：27届秋招。工作地点：厦门、武汉、深圳、成都、北京。招聘岗位：后端开发、测试、数据、人工智能/算法、研发工程师等。",
+    "url": "https://mp.weixin.qq.com/s/1hOeNT8bUL-vXs7yrWdWeg",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "厦门、武汉、深圳、成都、北京",
+    "deadline": "2026/11/21",
+    "tags": [
+      "XSKY星辰天合",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "厦门",
+      "武汉",
+      "深圳",
+      "数据服务"
+    ],
+    "score": 95,
+    "featured": true,
+    "createdAt": "2026-10-07T15:49:55.000Z"
+  },
+  {
+    "id": "nowcoder-24971",
+    "title": "延锋汽车智能安全系统有限责任公司 — 27届秋招",
+    "summary": "致力于成为全球顶级的被动安全供应商，拥有全方位的薪酬福利体系。招聘批次：27届秋招。工作地点：上海、重庆。招聘岗位：后端开发、数据、运维、人工智能/算法、销售技术支持等。",
+    "url": "https://app.mokahr.com/campus-recruitment/yanfeng/75989#/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "上海、重庆",
+    "deadline": "2026/11/21",
+    "tags": [
+      "延锋汽车智能安全系统有限责任公司",
+      "校招",
+      "秋招",
+      "车企/IC",
+      "上海",
+      "重庆"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-10-07T14:38:49.000Z"
+  },
+  {
+    "id": "nowcoder-248648",
+    "title": "中国邮政储蓄银行江西省分行 — 27届秋招",
+    "summary": "国有大行省级分行，网点资源丰富，零售金融优势显著，金融服务成长平台稳定。招聘批次：27届秋招。工作地点：南昌、景德镇、九江、鹰潭、赣州、吉安、宜春、抚州、上饶。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://psbc2027.zhaopin.com/jobs/index.html?id=10134786",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "bank",
+    "location": "南昌、景德镇、九江、鹰潭、赣州、吉安、宜春、抚州、上饶",
+    "deadline": "2026/10/06",
+    "tags": [
+      "中国邮政储蓄银行江西省分行",
+      "校招",
+      "秋招",
+      "金融",
+      "南昌",
+      "景德镇",
+      "九江",
+      "银行"
+    ],
+    "score": 94,
+    "featured": true,
+    "createdAt": "2026-10-07T14:23:26.000Z"
+  },
+  {
+    "id": "nowcoder-248175",
+    "title": "萧山农商银行 — 27届秋招",
+    "summary": "至今有70余年发展历史，致力于成为“坚守本土、成就客户、创造价值”的地方银行。招聘批次：27届秋招。工作地点：杭州。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://webapp.zhaopin.com/2026/hd/zjxsn0921ZL85636/",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "bank",
+    "location": "杭州",
+    "deadline": "2026/10/30",
+    "tags": [
+      "萧山农商银行",
+      "校招",
+      "秋招",
+      "金融",
+      "杭州"
+    ],
+    "score": 95,
+    "featured": true,
+    "createdAt": "2026-10-07T14:09:12.000Z"
+  },
+  {
+    "id": "nowcoder-27994",
+    "title": "保利商旅 — 27届秋招",
+    "summary": "央企旗下商旅资管平台，多业态运营成熟，资源整合力强，服务行业成长稳定。招聘批次：27届秋招。工作地点：杭州、武汉、广州、佛山、成都。招聘岗位：后端开发、前端开发、测试、数据、运维等。",
+    "url": "https://polycareer.zhiye.com/campus/jobs?queryId=06d67568-6f7e-41a5-97e5-d1d78d4c2120",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "杭州、武汉、广州、佛山、成都",
+    "deadline": "2026/10/30",
+    "tags": [
+      "保利商旅",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "杭州",
+      "武汉",
+      "广州"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-10-07T14:05:44.000Z"
+  },
+  {
+    "id": "nowcoder-31971",
+    "title": "见山科技 — 27届秋招",
+    "summary": "国家级专精特新小巨人，数字孪生赛道龙头，技术自主可控，城市级项目落地经验丰富。。招聘批次：27届秋招。工作地点：成都。招聘岗位：后端开发、前端开发、数据、人工智能/算法、研发工程师等。",
+    "url": "https://app.mokahr.com/campus-recruitment/jianshankeji/100134?locale=zh-CN#/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "成都",
+    "deadline": "2026/11/21",
+    "tags": [
+      "见山科技",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "成都"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-10-07T13:44:01.000Z"
+  },
+  {
     "id": "nowcoder-24586",
     "title": "士模微电子 — 27届秋招 今日收录",
     "summary": "精密+高速信号链全覆盖，全栈自研芯片架构+产品矩阵，行业领先的营销运营和质量团队。招聘批次：27届秋招 今日收录。工作地点：苏州、武汉、北京、上海。招聘岗位：后端开发、测试、研发工程师、硬件工程师、电子/半导体等。",
@@ -173,6 +340,30 @@
     "createdAt": "2026-09-30T04:21:02.000Z"
   },
   {
+    "id": "nowcoder-767",
+    "title": "招商银行信用卡中心 — 27届秋招",
+    "summary": "零售信用卡龙头，数字化运营领先，场景生态丰富，金融运营与技术成长优质。招聘批次：27届秋招。工作地点：上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://cmb-recruitment-mobile.paas.cmbchina.com/recommendList?qrCodeId=510938DB-6FD3-4C36-B78A-EB9FC5049860",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "bank",
+    "location": "上海",
+    "deadline": "2026/10/30",
+    "tags": [
+      "招商银行信用卡中心",
+      "校招",
+      "秋招",
+      "金融",
+      "上海",
+      "银行"
+    ],
+    "score": 88,
+    "featured": true,
+    "createdAt": "2026-09-29T10:16:00.000Z"
+  },
+  {
     "id": "nowcoder-1513",
     "title": "途虎 — 27届校招",
     "summary": "途虎养车2011年创立，以“让养车更简单”为使命，是中国领先的线上线下一体化汽车。招聘批次：27届校招。工作地点：武汉、上海。招聘岗位：测试、数据、人工智能/算法、硬件工程师、技术支持等。",
@@ -192,7 +383,7 @@
       "消费生活",
       "电商"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-09-29T10:09:35.000Z"
   },
@@ -571,6 +762,31 @@
     "createdAt": "2026-09-22T01:56:29.000Z"
   },
   {
+    "id": "nowcoder-1515",
+    "title": "汇丰科技 — 27届秋招",
+    "summary": "为全球金融机构提供软件开发与IT服务，专注于金融科技解决方案。。招聘批次：27届秋招。工作地点：广州、西安、上海。招聘岗位：数据、研发工程师。",
+    "url": "https://www.hsbc.com/careers/students-and-graduates/find-a-programme?area-of-interest=cyber|data-analytics|engineering&page=1&location=mainland-china",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "foreign",
+    "location": "广州、西安、上海",
+    "deadline": "2026/12/30",
+    "tags": [
+      "汇丰科技",
+      "校招",
+      "秋招",
+      "金融",
+      "广州",
+      "西安",
+      "上海"
+    ],
+    "score": 74,
+    "featured": false,
+    "createdAt": "2026-09-17T08:33:09.000Z"
+  },
+  {
     "id": "nowcoder-2922",
     "title": "信也科技 — 27届秋招",
     "summary": "上市公司大平台、开放多元团队、全球视野、全方位福利呵护、多维员工培养体系。招聘批次：27届秋招。工作地点：上海。招聘岗位：后端开发、前端开发、测试、数据、运维等。",
@@ -593,6 +809,30 @@
     "createdAt": "2026-09-15T06:34:53.000Z"
   },
   {
+    "id": "nowcoder-778",
+    "title": "顺丰集团 — 27届校招",
+    "summary": "国内物流科技龙头企业，技术研发扎实，智慧物流解决方案能力突出。。招聘批次：27届校招。工作地点：武汉、深圳、成都。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://campus.sf-express.com/#/homePage?channelSource=6",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "武汉、深圳、成都",
+    "deadline": "2026/12/30",
+    "tags": [
+      "顺丰集团",
+      "校招",
+      "互联网/AI",
+      "武汉",
+      "深圳",
+      "成都",
+      "物流运输"
+    ],
+    "score": 76,
+    "featured": false,
+    "createdAt": "2026-09-14T12:29:15.000Z"
+  },
+  {
     "id": "nowcoder-21369",
     "title": "正浩创新EcoFlow — 27届秋招",
     "summary": "全球领先的家庭智慧能源解决方案品牌，独角兽企业，全球化舞台，给予年轻人机会。。招聘批次：27届秋招。工作地点：苏州、深圳、西安。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
@@ -611,7 +851,7 @@
       "深圳",
       "西安"
     ],
-    "score": 79,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-08-31T07:55:28.000Z"
   },
@@ -722,6 +962,31 @@
     "createdAt": "2026-08-27T12:42:56.000Z"
   },
   {
+    "id": "nowcoder-153",
+    "title": "携程 — 27届秋招",
+    "summary": "全球领先的一站式旅行服务商，业务覆盖旅行预订的完整链条，数据与技术驱动运营。。招聘批次：27届秋招。工作地点：南通、合肥、南昌、广州、成都、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "http://t.ctrip.cn/5rE1lHf",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "南通、合肥、南昌、广州、成都、北京、上海",
+    "deadline": "2026/12/30",
+    "tags": [
+      "携程",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "南通",
+      "合肥",
+      "南昌",
+      "消费生活"
+    ],
+    "score": 77,
+    "featured": false,
+    "createdAt": "2026-08-26T10:38:03.000Z"
+  },
+  {
     "id": "nowcoder-898",
     "title": "快手 — 27届秋招",
     "summary": "全球短视频与直播龙头企业，全生态布局，内容与技术能力领先。。招聘批次：27届秋招。工作地点：杭州、广州、深圳、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
@@ -771,6 +1036,28 @@
     "score": 82,
     "featured": true,
     "createdAt": "2026-08-13T14:42:44.000Z"
+  },
+  {
+    "id": "nowcoder-164",
+    "title": "巨人网络 — 27届秋招",
+    "summary": "专注游戏研发与运营，创意氛围浓厚，重视新人创意能力与项目执行能力。招聘批次：27届秋招。工作地点：上海。招聘岗位：客户端开发、测试、交互/设计、动画/特效、游戏设计。",
+    "url": "https://www.nowcoder.com/jobs/company-project?projectId=2645",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "game",
+    "location": "上海",
+    "deadline": "2026/10/30",
+    "tags": [
+      "巨人网络",
+      "校招",
+      "秋招",
+      "游戏",
+      "上海"
+    ],
+    "score": 76,
+    "featured": false,
+    "createdAt": "2026-08-13T03:19:26.000Z"
   },
   {
     "id": "nowcoder-958",
