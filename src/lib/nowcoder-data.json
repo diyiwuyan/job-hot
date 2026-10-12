@@ -1,5 +1,54 @@
 [
   {
+    "id": "nowcoder-898",
+    "title": "快手 — 网申：已结束",
+    "summary": "全球短视频与直播龙头企业，全生态布局，内容与技术能力领先。。招聘批次：网申：已结束。工作地点：杭州、广州、深圳、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://campus.kuaishou.cn/recruit/campus/e/#/campus/jobs?pageNum=1&positionLabel=kstar&positionNatureCode=fulltime&recruitSubProjectCodes=20271779425607",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "杭州、广州、深圳、北京、上海",
+    "deadline": "2026/10/11",
+    "tags": [
+      "快手",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "杭州",
+      "广州",
+      "深圳",
+      "视频直播"
+    ],
+    "score": 94,
+    "featured": true,
+    "createdAt": "2026-10-11T19:00:01.000Z"
+  },
+  {
+    "id": "nowcoder-3341",
+    "title": "中国海油 — 27届秋招 今日收录",
+    "summary": "国务院批准成立的特大型国有企业，是中国最大的海上油气生产运营商。招聘批次：27届秋招 今日收录。工作地点：石家庄、太原、晋城、吕梁、营口、鹤岗、常州、淮安、盐城、杭州、宁波、绍兴、莆田、济南、青岛、东营、滨州、荆门、广州、深圳、珠海、佛山、湛江、惠州、汕尾、中山、南宁、海口、三亚、东方、榆林、北京、上海、天津。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://cnooc.zhaopin.com/job/index.html",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "石家庄、太原、晋城、吕梁、营口、鹤岗、常州、淮安、盐城、杭州、宁波、绍兴、莆田、济南、青岛、东营、滨州、荆门、广州、深圳、珠海、佛山、湛江、惠州、汕尾、中山、南宁、海口、三亚、东方、榆林、北京、上海、天津",
+    "deadline": "2026/10/30",
+    "tags": [
+      "中国海油",
+      "校招",
+      "秋招",
+      "石家庄",
+      "太原",
+      "晋城"
+    ],
+    "score": 94,
+    "featured": true,
+    "createdAt": "2026-10-11T17:34:00.000Z"
+  },
+  {
     "id": "nowcoder-2772",
     "title": "华峰集团 — 27届秋招",
     "summary": "国内聚氨酯与新材料领域龙头，全产业链布局，技术研发制造行业领先。。招聘批次：27届秋招。工作地点：南通、温州、上海、重庆。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
@@ -1486,6 +1535,31 @@
     "createdAt": "2026-08-30T19:00:27.000Z"
   },
   {
+    "id": "nowcoder-9140",
+    "title": "满帮集团 — 27届秋招",
+    "summary": "数字货运平台领导者，提供物流科技与平台运营的创新环境。。招聘批次：27届秋招。工作地点：南京、苏州、北京。招聘岗位：后端开发、前端开发、测试、数据、法务等。",
+    "url": "https://campus.fulltruckalliance.com/",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "南京、苏州、北京",
+    "deadline": "2026/11/29",
+    "tags": [
+      "满帮集团",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "南京",
+      "苏州",
+      "北京",
+      "物流运输"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-08-28T11:18:22.000Z"
+  },
+  {
     "id": "nowcoder-2932",
     "title": "厦门银行 — 27届秋招",
     "summary": "区域性股份制商业银行，本地服务网络完善，普惠金融与风控能力突出。。招聘批次：27届秋招。工作地点：福州、厦门、莆田、三明、泉州、漳州、南平、龙岩、宁德、重庆。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
@@ -1561,31 +1635,6 @@
     "score": 73,
     "featured": false,
     "createdAt": "2026-08-21T05:26:28.000Z"
-  },
-  {
-    "id": "nowcoder-898",
-    "title": "快手 — 27届秋招",
-    "summary": "全球短视频与直播龙头企业，全生态布局，内容与技术能力领先。。招聘批次：27届秋招。工作地点：杭州、广州、深圳、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
-    "url": "https://campus.kuaishou.cn/recruit/campus/e/#/campus/jobs?pageNum=1&positionLabel=kstar&positionNatureCode=fulltime&recruitSubProjectCodes=20271779425607",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "campus",
-    "category": "internet",
-    "location": "杭州、广州、深圳、北京、上海",
-    "deadline": "2026/10/11",
-    "tags": [
-      "快手",
-      "校招",
-      "秋招",
-      "互联网/AI",
-      "杭州",
-      "广州",
-      "深圳",
-      "视频直播"
-    ],
-    "score": 79,
-    "featured": false,
-    "createdAt": "2026-08-16T03:12:44.000Z"
   },
   {
     "id": "nowcoder-147",
