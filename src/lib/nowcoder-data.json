@@ -1,5 +1,56 @@
 [
   {
+    "id": "nowcoder-1166",
+    "title": "商米 — 27届秋招 今日收录",
+    "summary": "智能商用设备领军，场景覆盖广，技术创新强，生态布局完善。招聘批次：27届秋招 今日收录。工作地点：杭州、嘉兴、武汉、深圳、上海。招聘岗位：人工智能/算法、研发工程师、硬件工程师、产品、项目等。",
+    "url": "https://app.mokahr.com/campus-recruitment/sunmi/150512?locale=zh-CN#/",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "杭州、嘉兴、武汉、深圳、上海",
+    "deadline": "2026/12/30",
+    "tags": [
+      "商米",
+      "校招",
+      "秋招",
+      "车企/IC",
+      "杭州",
+      "嘉兴",
+      "武汉",
+      "硬件",
+      "互联网"
+    ],
+    "score": 95,
+    "featured": true,
+    "createdAt": "2026-10-14T09:40:28.000Z"
+  },
+  {
+    "id": "nowcoder-652",
+    "title": "滴滴 — 27届秋招",
+    "summary": "国内出行服务龙头企业，全生态布局，技术研发与运营能力领先。。招聘批次：27届秋招。工作地点：杭州、广州、深圳、成都、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://campus.didiglobal.com/campus_apply/didiglobal/96064#/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "杭州、广州、深圳、成都、北京、上海",
+    "deadline": "2026/12/18",
+    "tags": [
+      "滴滴",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "杭州",
+      "广州",
+      "深圳",
+      "工具"
+    ],
+    "score": 99,
+    "featured": true,
+    "createdAt": "2026-10-14T07:20:24.000Z"
+  },
+  {
     "id": "nowcoder-27312",
     "title": "大连飞创信息技术有限公司 — 2027届秋",
     "summary": "大连商品交易所旗下的技术公司，负责核心交易系统运维，技术环境要求极高，专业性强。。招聘批次：2027届秋。工作地点：大连。招聘岗位：后端开发、前端开发、数据、运维、电子/半导体等。",
@@ -19,31 +70,6 @@
     "score": 91,
     "featured": true,
     "createdAt": "2026-10-13T01:34:51.000Z"
-  },
-  {
-    "id": "nowcoder-652",
-    "title": "滴滴 — 网申：已结束",
-    "summary": "国内出行服务龙头企业，全生态布局，技术研发与运营能力领先。。招聘批次：网申：已结束。工作地点：杭州、广州、深圳、成都、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
-    "url": "https://campus.didiglobal.com/campus_apply/didiglobal/96064#/jobs",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "campus",
-    "category": "internet",
-    "location": "杭州、广州、深圳、成都、北京、上海",
-    "deadline": "2026/10/12",
-    "tags": [
-      "滴滴",
-      "校招",
-      "秋招",
-      "互联网/AI",
-      "杭州",
-      "广州",
-      "深圳",
-      "工具"
-    ],
-    "score": 94,
-    "featured": true,
-    "createdAt": "2026-10-12T19:00:01.000Z"
   },
   {
     "id": "nowcoder-2965",
@@ -232,7 +258,7 @@
       "上海",
       "银行"
     ],
-    "score": 88,
+    "score": 83,
     "featured": true,
     "createdAt": "2026-09-29T10:16:00.000Z"
   },
@@ -256,8 +282,8 @@
       "消费生活",
       "电商"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-09-29T10:09:35.000Z"
   },
   {
@@ -394,6 +420,28 @@
     "score": 74,
     "featured": false,
     "createdAt": "2026-08-31T07:55:28.000Z"
+  },
+  {
+    "id": "nowcoder-2197",
+    "title": "平安产险科技中心 — 27届秋招",
+    "summary": "保险行业标杆，综合金融实践平台。。招聘批次：27届秋招。工作地点：深圳。招聘岗位：后端开发、测试、数据、运维、人工智能/算法等。",
+    "url": "https://campus.pingan.com/paccbxkjzx/position",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "finance",
+    "location": "深圳",
+    "deadline": "2026/12/30",
+    "tags": [
+      "平安产险科技中心",
+      "校招",
+      "秋招",
+      "金融",
+      "深圳"
+    ],
+    "score": 77,
+    "featured": false,
+    "createdAt": "2026-08-31T06:05:21.000Z"
   },
   {
     "id": "nowcoder-9140",
