@@ -1,8 +1,8 @@
 [
   {
     "id": "nowcoder-1166",
-    "title": "商米 — 27届秋招 今日收录",
-    "summary": "智能商用设备领军，场景覆盖广，技术创新强，生态布局完善。招聘批次：27届秋招 今日收录。工作地点：杭州、嘉兴、武汉、深圳、上海。招聘岗位：人工智能/算法、研发工程师、硬件工程师、产品、项目等。",
+    "title": "商米 — 27届秋招",
+    "summary": "智能商用设备领军，场景覆盖广，技术创新强，生态布局完善。招聘批次：27届秋招。工作地点：杭州、嘉兴、武汉、深圳、上海。招聘岗位：人工智能/算法、研发工程师、硬件工程师、产品、项目等。",
     "url": "https://app.mokahr.com/campus-recruitment/sunmi/150512?locale=zh-CN#/",
     "source": "牛客网",
     "sourceHandle": "@nowcoder",
@@ -374,6 +374,31 @@
     "score": 76,
     "featured": false,
     "createdAt": "2026-09-14T12:29:15.000Z"
+  },
+  {
+    "id": "nowcoder-4783",
+    "title": "神州信息 — 27届秋招",
+    "summary": "国内金融科技领域龙头，全产业链服务，数字化解决方案能力行业领先。。招聘批次：27届秋招。工作地点：广州、成都、西安、北京、上海。招聘岗位：后端开发、前端开发、数据、人工智能/算法、研发工程师等。",
+    "url": "https://dcits.zhiye.com/campus/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "finance",
+    "location": "广州、成都、西安、北京、上海",
+    "deadline": "2026/12/30",
+    "tags": [
+      "神州信息",
+      "校招",
+      "秋招",
+      "金融",
+      "广州",
+      "成都",
+      "西安",
+      "企业服务"
+    ],
+    "score": 72,
+    "featured": false,
+    "createdAt": "2026-09-10T09:46:25.000Z"
   },
   {
     "id": "nowcoder-1247",
