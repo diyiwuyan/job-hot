@@ -1,5 +1,27 @@
 [
   {
+    "id": "nowcoder-32845",
+    "title": "意威基金 — 日常实习 今日收录",
+    "summary": "股权投资机构，薪酬绩效清晰，硬科技赛道，科创企业投融资项目资源丰富。。招聘批次：日常实习 今日收录。工作地点：上海。招聘岗位：投融资、咨询/调研、风控。",
+    "url": "https://mp.weixin.qq.com/s/c0iLsHOohz5-c5ZfcCAvhA",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "intern",
+    "category": "finance",
+    "location": "上海",
+    "deadline": "2026/11/07",
+    "tags": [
+      "意威基金",
+      "实习",
+      "日常实习",
+      "金融",
+      "上海"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-10-20T09:27:42.000Z"
+  },
+  {
     "id": "nowcoder-32822",
     "title": "超鹿运动 — 27届秋招 今日收录",
     "summary": "互联网健身企业，绩效激励清晰，线上线下健身运营数字化项目丰富。。招聘批次：27届秋招 今日收录。工作地点：福州、厦门、泉州、广州、深圳。招聘岗位：后端开发、前端开发、运维、销售技术支持、运营等。",
@@ -90,26 +112,25 @@
     "createdAt": "2026-10-20T02:03:37.000Z"
   },
   {
-    "id": "nowcoder-32845",
-    "title": "意威基金 — 日常实习 今日收录",
-    "summary": "股权投资机构，薪酬绩效清晰，硬科技赛道，科创企业投融资项目资源丰富。。招聘批次：日常实习 今日收录。工作地点：上海。招聘岗位：风控、投融资、咨询/调研。",
-    "url": "https://mp.weixin.qq.com/s/c0iLsHOohz5-c5ZfcCAvhA",
+    "id": "nowcoder-32844",
+    "title": "万可中国 — 27届秋招 今日收录",
+    "summary": "德资工业自动化企业，薪酬福利完善，工业电气产品研发应用项目丰富。。招聘批次：27届秋招 今日收录。工作地点：天津。招聘岗位：机械、化工、电气/自动化、技术支持、项目等。",
+    "url": "https://mp.weixin.qq.com/s/w6XkTguscr01FDQ3SHZ8cQ",
     "source": "牛客网",
     "sourceHandle": "@nowcoder",
-    "channel": "intern",
-    "category": "finance",
-    "location": "上海",
-    "deadline": "2026/11/07",
+    "channel": "campus",
+    "category": "other",
+    "location": "天津",
+    "deadline": "2026/11/08",
     "tags": [
-      "意威基金",
-      "实习",
-      "日常实习",
-      "金融",
-      "上海"
+      "万可中国",
+      "校招",
+      "秋招",
+      "天津"
     ],
-    "score": 92,
+    "score": 95,
     "featured": true,
-    "createdAt": "2026-10-20T02:02:33.000Z"
+    "createdAt": "2026-10-20T02:01:42.000Z"
   },
   {
     "id": "nowcoder-652",
@@ -157,7 +178,7 @@
       "深圳",
       "视频直播"
     ],
-    "score": 94,
+    "score": 89,
     "featured": true,
     "createdAt": "2026-10-12T09:03:29.000Z"
   },
@@ -469,5 +490,27 @@
     "score": 82,
     "featured": true,
     "createdAt": "2026-08-13T14:42:44.000Z"
+  },
+  {
+    "id": "nowcoder-164",
+    "title": "巨人网络 — 27届秋招",
+    "summary": "专注游戏研发与运营，创意氛围浓厚，重视新人创意能力与项目执行能力。招聘批次：27届秋招。工作地点：上海。招聘岗位：客户端开发、测试、交互/设计、动画/特效、游戏设计。",
+    "url": "https://www.nowcoder.com/jobs/company-project?projectId=2645",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "game",
+    "location": "上海",
+    "deadline": "2026/10/30",
+    "tags": [
+      "巨人网络",
+      "校招",
+      "秋招",
+      "游戏",
+      "上海"
+    ],
+    "score": 76,
+    "featured": false,
+    "createdAt": "2026-08-13T03:19:26.000Z"
   }
 ]
