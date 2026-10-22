@@ -17188,7 +17188,7 @@
       "专业技术服务业",
       "北京"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
@@ -17211,7 +17211,7 @@
       "卫生",
       "平顶山"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
@@ -17235,7 +17235,7 @@
       "软件和信息技术服务业",
       "南昌"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
@@ -17258,7 +17258,7 @@
       "批发业",
       "河南"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
@@ -17281,7 +17281,7 @@
       "批发业",
       "河南"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
@@ -17305,8 +17305,8 @@
       "专用设备制造业",
       "德阳"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
   {
@@ -17328,8 +17328,8 @@
       "批发业",
       "河南"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
   {
@@ -17352,8 +17352,8 @@
       "医药制造业",
       "上海"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
   {
@@ -17375,8 +17375,8 @@
       "采矿业",
       "岳阳"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
   {
@@ -17398,8 +17398,8 @@
       "批发业",
       "郑州"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
   {
@@ -17422,8 +17422,8 @@
       "专用设备制造业",
       "德阳"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
   {
@@ -17445,8 +17445,8 @@
       "批发业",
       "成都"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
   {
@@ -17468,8 +17468,8 @@
       "批发业",
       "河南"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
   {
@@ -17492,8 +17492,8 @@
       "医药制造业",
       "北京"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
   {
@@ -17515,8 +17515,8 @@
       "批发业",
       "乌鲁木齐"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
   {
@@ -17539,8 +17539,8 @@
       "电力、热力生产和供应业",
       "威海"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
   {
@@ -17563,8 +17563,8 @@
       "专用设备制造业",
       "德阳"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
   {
@@ -17587,8 +17587,8 @@
       "专用设备制造业",
       "德阳"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
   {
@@ -17611,8 +17611,8 @@
       "专业技术服务业",
       "深圳"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
   {
@@ -17635,8 +17635,8 @@
       "专用设备制造业",
       "德阳"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
   {
@@ -17659,8 +17659,8 @@
       "专业技术服务业",
       "北京"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
   {
@@ -17683,8 +17683,8 @@
       "制造业",
       "潍坊"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
   {
@@ -17707,8 +17707,8 @@
       "专用设备制造业",
       "德阳"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
   {
@@ -17730,8 +17730,8 @@
       "水上运输业",
       "连云港"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
   {
@@ -17753,8 +17753,8 @@
       "水上运输业",
       "济南"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
   {
@@ -17777,8 +17777,8 @@
       "化学原料和化学制品制造业",
       "南京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
   {
@@ -17801,8 +17801,8 @@
       "医药制造业",
       "上海"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
   {
@@ -17824,7 +17824,7 @@
       "建筑安装业",
       "昆明"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
@@ -17847,7 +17847,7 @@
       "教育",
       "青岛"
     ],
-    "score": 75,
+    "score": 70,
     "featured": false,
     "createdAt": "2026-10-14T00:00:00.000Z"
   },
@@ -17871,7 +17871,7 @@
       "专用设备制造业",
       "洛阳"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-10-13T22:00:03.000Z"
   },
@@ -17895,8 +17895,8 @@
       "电信、广播电视和卫星传输服务",
       "清远"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-10-13T19:49:32.000Z"
   },
   {
@@ -17919,7 +17919,7 @@
       "化学原料和化学制品制造业",
       "重庆"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-10-13T17:57:13.000Z"
   },
@@ -17943,8 +17943,8 @@
       "化学原料和化学制品制造业",
       "重庆"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-10-13T17:53:38.000Z"
   },
   {
@@ -17966,7 +17966,7 @@
       "电信、广播电视和卫星传输服务",
       "香港"
     ],
-    "score": 91,
+    "score": 86,
     "featured": true,
     "createdAt": "2026-10-13T17:51:58.000Z"
   },
@@ -17989,7 +17989,7 @@
       "电信、广播电视和卫星传输服务",
       "香港"
     ],
-    "score": 91,
+    "score": 86,
     "featured": true,
     "createdAt": "2026-10-13T17:49:45.000Z"
   },
@@ -18013,8 +18013,8 @@
       "化学原料和化学制品制造业",
       "重庆"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-10-13T17:47:32.000Z"
   },
   {
@@ -18037,8 +18037,8 @@
       "化学原料和化学制品制造业",
       "重庆"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-10-13T17:41:54.000Z"
   },
   {
@@ -18061,8 +18061,8 @@
       "化学原料和化学制品制造业",
       "重庆"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-10-13T17:23:07.000Z"
   },
   {
@@ -18087,8 +18087,8 @@
       "包头",
       "淄博"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-10-13T17:13:25.000Z"
   },
   {
@@ -18113,8 +18113,8 @@
       "包头",
       "山东"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-10-13T17:11:06.000Z"
   },
   {
@@ -18137,7 +18137,7 @@
       "化学原料和化学制品制造业",
       "重庆"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-10-13T17:10:37.000Z"
   },
@@ -18161,8 +18161,8 @@
       "航天",
       "沈阳"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-10-13T17:08:26.000Z"
   },
   {
@@ -18187,8 +18187,8 @@
       "包头",
       "淄博"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-10-13T17:05:47.000Z"
   },
   {
@@ -18211,8 +18211,8 @@
       "金属制品业",
       "北京"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-10-13T17:04:04.000Z"
   },
   {
@@ -18237,8 +18237,8 @@
       "包头",
       "淄博"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-10-13T17:01:42.000Z"
   },
   {
@@ -18261,8 +18261,8 @@
       "金属制品业",
       "包头"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-10-13T16:58:54.000Z"
   },
   {
@@ -18285,8 +18285,8 @@
       "航天",
       "沈阳"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-10-13T16:57:24.000Z"
   },
   {
@@ -18309,8 +18309,8 @@
       "金属制品业",
       "包头"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-10-13T16:56:46.000Z"
   },
   {
@@ -18333,8 +18333,8 @@
       "金属制品业",
       "包头"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-10-13T16:55:16.000Z"
   },
   {
@@ -18357,8 +18357,8 @@
       "金属制品业",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-10-13T16:50:39.000Z"
   },
   {
@@ -18381,8 +18381,8 @@
       "金属制品业",
       "包头"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-10-13T16:45:42.000Z"
   },
   {
@@ -18405,8 +18405,8 @@
       "金属制品业",
       "包头"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-10-13T16:43:57.000Z"
   },
   {
@@ -18429,8 +18429,8 @@
       "金属制品业",
       "淄博"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-10-13T16:41:42.000Z"
   },
   {
@@ -18453,8 +18453,8 @@
       "金属制品业",
       "包头"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-10-13T16:38:58.000Z"
   },
   {
@@ -18476,7 +18476,7 @@
       "房屋建筑业",
       "厦门"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-10-13T16:37:18.000Z"
   },
@@ -18499,7 +18499,7 @@
       "房屋建筑业",
       "厦门"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-10-13T16:37:18.000Z"
   },
@@ -18523,8 +18523,8 @@
       "金属制品业",
       "淄博"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-10-13T16:32:01.000Z"
   },
   {
@@ -18547,8 +18547,8 @@
       "金属制品业",
       "北京"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-10-13T16:29:53.000Z"
   },
   {
@@ -18571,8 +18571,8 @@
       "金属制品业",
       "北京"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-10-13T16:18:56.000Z"
   },
   {
@@ -18595,8 +18595,8 @@
       "金属制品业",
       "北京"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-10-13T16:11:27.000Z"
   },
   {
@@ -18619,8 +18619,8 @@
       "金属制品业",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-10-13T16:09:38.000Z"
   },
   {
@@ -18643,8 +18643,8 @@
       "金属制品业",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-10-13T16:06:29.000Z"
   },
   {
@@ -18666,7 +18666,7 @@
       "房屋建筑业",
       "厦门"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-10-13T16:02:45.000Z"
   },
@@ -18690,8 +18690,8 @@
       "金属制品业",
       "北京"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-10-13T16:02:42.000Z"
   },
   {
@@ -18714,8 +18714,8 @@
       "金属制品业",
       "北京"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-10-13T16:00:38.000Z"
   },
   {
@@ -18738,8 +18738,8 @@
       "金属制品业",
       "天津"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-10-13T15:58:26.000Z"
   },
   {
@@ -18762,8 +18762,8 @@
       "金属制品业",
       "天津"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-10-13T15:51:28.000Z"
   },
   {
@@ -18786,8 +18786,8 @@
       "金属制品业",
       "石家庄"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-10-13T15:40:49.000Z"
   },
   {
@@ -18810,8 +18810,8 @@
       "金属制品业",
       "天津"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-10-13T15:35:58.000Z"
   },
   {
@@ -18834,8 +18834,8 @@
       "金属制品业",
       "天津"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-10-13T15:27:52.000Z"
   },
   {
@@ -18858,8 +18858,8 @@
       "汽车制造业",
       "重庆"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-10-13T15:22:34.000Z"
   },
   {
@@ -18882,8 +18882,8 @@
       "金属制品业",
       "石家庄"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-10-13T15:20:53.000Z"
   },
   {
@@ -18906,8 +18906,8 @@
       "金属制品业",
       "石家庄"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-10-13T15:10:40.000Z"
   },
   {
@@ -18930,8 +18930,8 @@
       "金属制品业",
       "河北"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-10-13T15:08:46.000Z"
   },
   {
@@ -18954,8 +18954,8 @@
       "金属制品业",
       "石家庄"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-10-13T15:07:17.000Z"
   },
   {
@@ -18978,8 +18978,8 @@
       "金属制品业",
       "石家庄"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-10-13T15:05:56.000Z"
   },
   {
@@ -19002,8 +19002,8 @@
       "资本市场服务",
       "雄安新区"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-10-13T14:58:21.000Z"
   },
   {
@@ -19026,8 +19026,8 @@
       "金属制品业",
       "石家庄"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-10-13T14:56:57.000Z"
   },
   {
@@ -19050,8 +19050,8 @@
       "金属制品业",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-10-13T14:50:24.000Z"
   },
   {
@@ -19074,8 +19074,8 @@
       "金属制品业",
       "北京"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-10-13T14:46:40.000Z"
   },
   {
@@ -19098,8 +19098,8 @@
       "金属制品业",
       "保定"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-10-13T14:39:59.000Z"
   },
   {
@@ -19170,8 +19170,8 @@
       "信息传输、软件和信息技术服务业",
       "北京"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-10-13T14:19:22.000Z"
   },
   {
@@ -19217,8 +19217,8 @@
       "其他制造业",
       "山东"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-10-13T14:16:20.000Z"
   },
   {
@@ -19264,7 +19264,7 @@
       "其他",
       "成都"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-10-13T14:00:00.000Z"
   },
@@ -19288,7 +19288,7 @@
       "其他",
       "成都"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-10-13T14:00:00.000Z"
   },
@@ -19312,7 +19312,7 @@
       "其他",
       "成都"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-10-13T14:00:00.000Z"
   },
@@ -19336,7 +19336,7 @@
       "其他",
       "成都"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-10-13T14:00:00.000Z"
   },
@@ -19360,8 +19360,8 @@
       "其他",
       "成都"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-10-13T14:00:00.000Z"
   },
   {
@@ -19384,8 +19384,8 @@
       "其他",
       "成都"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-10-13T14:00:00.000Z"
   },
   {
@@ -87335,29 +87335,6 @@
     "createdAt": "2026-09-21T00:00:00.000Z"
   },
   {
-    "id": "guopin-219040994895593769",
-    "title": "中远海运船员管理有限公司 — 资金结算岗",
-    "summary": "企业性质：国企。行业：水上运输业。工作地点：上海-浦东新区。薪资：15000-25000元/月。学历：本科。规模：30000人以上。",
-    "url": "https://www.iguopin.com/job/detail?id=219040994895593769",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "上海-浦东新区",
-    "deadline": "2026/12/19",
-    "tags": [
-      "中远海运船员管理有限公司",
-      "校招",
-      "国企",
-      "水上运输业",
-      "上海"
-    ],
-    "score": 75,
-    "featured": false,
-    "createdAt": "2026-09-21T00:00:00.000Z"
-  },
-  {
     "id": "guopin-219216337656873600",
     "title": "中国中材海外科技发展有限公司 — 法务助理",
     "summary": "企业性质：国企。行业：土木工程建筑业。工作地点：北京-丰台区。薪资：12000-15000元/月。学历：本科。规模：100-300人。",
@@ -87594,6 +87571,29 @@
     "createdAt": "2026-09-21T00:00:00.000Z"
   },
   {
+    "id": "guopin-219040994895593769",
+    "title": "中远海运船员管理有限公司 — 资金结算岗",
+    "summary": "企业性质：国企。行业：水上运输业。工作地点：上海-浦东新区。薪资：15000-25000元/月。学历：本科。规模：30000人以上。",
+    "url": "https://www.iguopin.com/job/detail?id=219040994895593769",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "上海-浦东新区",
+    "deadline": "2026/12/19",
+    "tags": [
+      "中远海运船员管理有限公司",
+      "校招",
+      "国企",
+      "水上运输业",
+      "上海"
+    ],
+    "score": 70,
+    "featured": false,
+    "createdAt": "2026-09-21T00:00:00.000Z"
+  },
+  {
     "id": "guopin-218348313257182870",
     "title": "甘肃省电力投资集团有限责任公司 — 子公司数据研发岗",
     "summary": "企业性质：国企。行业：电力、热力、燃气及水生产和供应业。工作地点：甘肃。薪资面议。学历：硕士。规模：5000-10000人。",
@@ -87613,7 +87613,7 @@
       "电力、热力、燃气及水生产和供应业",
       "甘肃"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-09-21T00:00:00.000Z"
   },
@@ -87637,7 +87637,7 @@
       "电力、热力、燃气及水生产和供应业",
       "甘肃"
     ],
-    "score": 69,
+    "score": 64,
     "featured": false,
     "createdAt": "2026-09-21T00:00:00.000Z"
   },
