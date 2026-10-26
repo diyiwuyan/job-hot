@@ -1,5 +1,118 @@
 [
   {
+    "id": "nowcoder-32896",
+    "title": "Ameco — 27届秋招 今日收录",
+    "summary": "航空维修央企，薪资稳定福利完善，民航飞机大修、机载设备维修项目资源优质。。招聘批次：27届秋招 今日收录。工作地点：呼和浩特、大连、杭州、温州、武汉、广州、成都、贵阳、北京、上海、重庆、天津。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://mp.weixin.qq.com/s/vPgo1yBCUTNp6ujekLRswg",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "foreign",
+    "location": "呼和浩特、大连、杭州、温州、武汉、广州、成都、贵阳、北京、上海、重庆、天津",
+    "deadline": "2026/10/08",
+    "tags": [
+      "Ameco",
+      "校招",
+      "秋招",
+      "呼和浩特",
+      "大连",
+      "杭州"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-10-26T07:39:42.000Z"
+  },
+  {
+    "id": "nowcoder-32894",
+    "title": "王力安防 — 27届秋招 今日收录",
+    "summary": "安防门锁上市企业，薪资发放稳定，智能安防产品研发与市场落地项目充足。。招聘批次：27届秋招 今日收录。工作地点：杭州、金华、深圳、遂宁。招聘岗位：后端开发、测试、人工智能/算法、研发工程师、硬件工程师等。",
+    "url": "https://mp.weixin.qq.com/s/FeBJhh6hdWfa4J4n2YvHyQ",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "杭州、金华、深圳、遂宁",
+    "deadline": "2026/11/06",
+    "tags": [
+      "王力安防",
+      "校招",
+      "秋招",
+      "杭州",
+      "金华",
+      "深圳"
+    ],
+    "score": 95,
+    "featured": true,
+    "createdAt": "2026-10-26T07:36:16.000Z"
+  },
+  {
+    "id": "nowcoder-32893",
+    "title": "中航招采科技（北京）有限公司 — 27届秋招 今日收录",
+    "summary": "航空央企招采平台，薪资稳定福利完善，数字化招投标与采购咨询项目丰富。。招聘批次：27届秋招 今日收录。工作地点：深圳、北京。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://mp.weixin.qq.com/s/8Pn_7nXa_xXpDIDgYwAnRQ",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "深圳、北京",
+    "deadline": "2026/11/03",
+    "tags": [
+      "中航招采科技（北京）有限公司",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "深圳",
+      "北京"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-10-26T07:34:42.000Z"
+  },
+  {
+    "id": "nowcoder-32892",
+    "title": "中国石油天然气股份有限公司乌鲁木齐石化分公司 — 27届秋招 今日收录",
+    "summary": "石油炼化央企分支，薪资稳定保障齐全，芳烃炼化重大生产技改项目充足。。招聘批次：27届秋招 今日收录。工作地点：乌鲁木齐。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://zhaopin.cnpc.com.cn/web/recruitInfoshow.html?id=8b8b6c9ea07c29cc01a07ff858320057",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "乌鲁木齐",
+    "deadline": "2026/10/14",
+    "tags": [
+      "中国石油天然气股份有限公司乌鲁木齐石化分公司",
+      "校招",
+      "秋招",
+      "乌鲁木齐"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-10-26T07:32:09.000Z"
+  },
+  {
+    "id": "nowcoder-32891",
+    "title": "塔牌集团 — 27届秋招 今日收录",
+    "summary": "水泥上市龙头企业，薪资稳定福利齐全，绿色建材与固废利用工程项目丰富。。招聘批次：27届秋招 今日收录。工作地点：梅州。招聘岗位：人工智能/算法、机械、化工、电气/自动化、能源等。",
+    "url": "https://campus.tapai.com/",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "梅州",
+    "deadline": "2026/11/06",
+    "tags": [
+      "塔牌集团",
+      "校招",
+      "秋招",
+      "梅州"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-10-26T07:30:40.000Z"
+  },
+  {
     "id": "nowcoder-3122",
     "title": "中化数智 — 27届秋招",
     "summary": "化工央企数字化子公司，薪资稳定福利完善，化工工业互联网数字化项目优质。。招聘批次：27届秋招。工作地点：武汉、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
