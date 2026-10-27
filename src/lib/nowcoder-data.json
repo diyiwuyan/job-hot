@@ -182,7 +182,7 @@
       "深圳",
       "视频直播"
     ],
-    "score": 89,
+    "score": 84,
     "featured": true,
     "createdAt": "2026-10-12T09:03:29.000Z"
   },
@@ -209,6 +209,30 @@
     "score": 83,
     "featured": true,
     "createdAt": "2026-09-29T10:16:00.000Z"
+  },
+  {
+    "id": "nowcoder-1513",
+    "title": "途虎 — 27届校招",
+    "summary": "途虎养车2011年创立，以“让养车更简单”为使命，是中国领先的线上线下一体化汽车。招聘批次：27届校招。工作地点：武汉、上海。招聘岗位：测试、数据、人工智能/算法、硬件工程师、技术支持等。",
+    "url": "https://app.mokahr.com/su/votaku",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "武汉、上海",
+    "deadline": "2026/10/30",
+    "tags": [
+      "途虎",
+      "校招",
+      "车企/IC",
+      "武汉",
+      "上海",
+      "消费生活",
+      "电商"
+    ],
+    "score": 77,
+    "featured": false,
+    "createdAt": "2026-09-29T10:09:35.000Z"
   },
   {
     "id": "nowcoder-1515",
