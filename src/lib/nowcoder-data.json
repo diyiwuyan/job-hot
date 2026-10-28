@@ -235,6 +235,30 @@
     "createdAt": "2026-09-29T10:09:35.000Z"
   },
   {
+    "id": "nowcoder-13404",
+    "title": "智慧芽 — 27届校招",
+    "summary": "专注知识产权信息服务，数据资源丰富，重视新人数据分析与服务能力。招聘批次：27届校招。工作地点：深圳、北京、上海。招聘岗位：后端开发、人工智能/算法、运营、市场/营销、销售类等。",
+    "url": "https://zhihuiya.zhiye.com/campus/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "深圳、北京、上海",
+    "deadline": "2027/02/27",
+    "tags": [
+      "智慧芽",
+      "校招",
+      "互联网/AI",
+      "深圳",
+      "北京",
+      "上海",
+      "企业服务"
+    ],
+    "score": 74,
+    "featured": false,
+    "createdAt": "2026-09-22T07:10:38.000Z"
+  },
+  {
     "id": "nowcoder-1515",
     "title": "汇丰科技 — 27届秋招",
     "summary": "为全球金融机构提供软件开发与IT服务，专注于金融科技解决方案。。招聘批次：27届秋招。工作地点：广州、西安、上海。招聘岗位：数据、研发工程师。",
