@@ -834,6 +834,124 @@
     "createdAt": "2026-10-31T00:00:00.000Z"
   },
   {
+    "id": "guopin-224832213487717955",
+    "title": "广东晟源永磁材料有限责任公司 — 助理工程师",
+    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：河源-东源县。薪资：6000-10000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=224832213487717955",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "河源-东源县",
+    "deadline": "2026/11/15",
+    "tags": [
+      "广东晟源永磁材料有限责任公司",
+      "校招",
+      "国企",
+      "有色金属冶炼和压延加工业",
+      "河源"
+    ],
+    "score": 83,
+    "featured": true,
+    "createdAt": "2026-10-30T14:00:00.000Z"
+  },
+  {
+    "id": "guopin-224831562649177687",
+    "title": "中交海峰风电发展股份有限公司 — 项目技术管理岗",
+    "summary": "企业性质：国企。行业：土木工程建筑业。工作地点：中国。薪资面议。学历：本科。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=224831562649177687",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "中国",
+    "deadline": "2026/12/31",
+    "tags": [
+      "中交海峰风电发展股份有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "土木工程建筑业",
+      "中国"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-10-30T08:57:53.000Z"
+  },
+  {
+    "id": "guopin-224833400760962649",
+    "title": "中稀（赣州）稀土新材料有限公司 — 生产操作岗",
+    "summary": "企业性质：国企。行业：有色金属冶炼和压延加工业。工作地点：赣州-赣县区。薪资面议。学历：中专/中技。规模：50人以下。",
+    "url": "https://www.iguopin.com/job/detail?id=224833400760962649",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "赣州-赣县区",
+    "deadline": "2026/11/15",
+    "tags": [
+      "中稀（赣州）稀土新材料有限公司",
+      "校招",
+      "国企",
+      "有色金属冶炼和压延加工业",
+      "赣州"
+    ],
+    "score": 82,
+    "featured": true,
+    "createdAt": "2026-10-30T08:00:00.000Z"
+  },
+  {
+    "id": "guopin-224830192118398985",
+    "title": "铜陵有色金属集团股份有限公司质量检验中心 — 安全管理",
+    "summary": "企业性质：国企。行业：有色金属矿采选业。工作地点：铜陵-铜官区。薪资：9000-12000元/月。学历：硕士。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=224830192118398985",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "security",
+    "companyType": "state",
+    "location": "铜陵-铜官区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "铜陵有色金属集团股份有限公司质量检验中心",
+      "校招",
+      "国企",
+      "安全/云服务",
+      "有色金属矿采选业",
+      "铜陵"
+    ],
+    "score": 87,
+    "featured": true,
+    "createdAt": "2026-10-30T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-224830369772342856",
+    "title": "铜陵有色金属集团股份有限公司质量检验中心 — 物料检验",
+    "summary": "企业性质：国企。行业：有色金属矿采选业。工作地点：铜陵-铜官区。薪资：10000-12000元/月。学历：硕士。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=224830369772342856",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "铜陵-铜官区",
+    "deadline": "2026/12/31",
+    "tags": [
+      "铜陵有色金属集团股份有限公司质量检验中心",
+      "校招",
+      "国企",
+      "车企/IC",
+      "有色金属矿采选业",
+      "铜陵"
+    ],
+    "score": 86,
+    "featured": true,
+    "createdAt": "2026-10-30T00:00:00.000Z"
+  },
+  {
     "id": "guopin-224739768141876808",
     "title": "青岛国信建设投资有限公司 — 康养管培生 （策划方向）",
     "summary": "企业性质：国企。行业：房地产业。工作地点：青岛。薪资面议。学历：硕士。规模：300-500人。",
@@ -6458,6 +6576,30 @@
     "title": "湖南化工地质工程勘察院有限责任公司 — 地质勘查专业技术岗",
     "summary": "企业性质：国企。行业：专业技术服务业。工作地点：长沙-天心区。薪资：8000-9000元/月。学历：本科。规模：100-300人。",
     "url": "https://www.iguopin.com/job/detail?id=224685380081811465",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "长沙-天心区",
+    "deadline": "2027/06/30",
+    "tags": [
+      "湖南化工地质工程勘察院有限责任公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "专业技术服务业",
+      "长沙"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-10-28T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-224685149780971076",
+    "title": "湖南化工地质工程勘察院有限责任公司 — 建（构）筑物纠偏加固技术岗",
+    "summary": "企业性质：国企。行业：专业技术服务业。工作地点：长沙-天心区。薪资：8000-9000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=224685149780971076",
     "source": "国聘",
     "sourceHandle": "@guopin",
     "channel": "campus",
@@ -14334,174 +14476,7 @@
       "其他金融业",
       "北京"
     ],
-    "score": 93,
-    "featured": true,
-    "createdAt": "2026-10-22T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-223681929843575474",
-    "title": "中国建筑科学研究院有限公司建筑防火研究所 — 消防评估与咨询",
-    "summary": "企业性质：国企。行业：科技推广和应用服务业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=223681929843575474",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2027/01/19",
-    "tags": [
-      "中国建筑科学研究院有限公司建筑防火研究所",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "科技推广和应用服务业",
-      "北京"
-    ],
-    "score": 89,
-    "featured": true,
-    "createdAt": "2026-10-22T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-223681761618430639",
-    "title": "中国建筑科学研究院有限公司建筑防火研究所 — 消防评估与咨询",
-    "summary": "企业性质：国企。行业：科技推广和应用服务业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=223681761618430639",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2027/01/19",
-    "tags": [
-      "中国建筑科学研究院有限公司建筑防火研究所",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "科技推广和应用服务业",
-      "北京"
-    ],
-    "score": 89,
-    "featured": true,
-    "createdAt": "2026-10-22T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-223681593527503525",
-    "title": "中国建筑科学研究院有限公司建筑防火研究所 — 消防评估与咨询",
-    "summary": "企业性质：国企。行业：科技推广和应用服务业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=223681593527503525",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2027/01/19",
-    "tags": [
-      "中国建筑科学研究院有限公司建筑防火研究所",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "科技推广和应用服务业",
-      "北京"
-    ],
-    "score": 89,
-    "featured": true,
-    "createdAt": "2026-10-22T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-223681434429164199",
-    "title": "中国建筑科学研究院有限公司建筑防火研究所 — 消防评估与咨询",
-    "summary": "企业性质：国企。行业：科技推广和应用服务业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=223681434429164199",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2027/01/19",
-    "tags": [
-      "中国建筑科学研究院有限公司建筑防火研究所",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "科技推广和应用服务业",
-      "北京"
-    ],
-    "score": 89,
-    "featured": true,
-    "createdAt": "2026-10-22T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-223681237112326821",
-    "title": "中国建筑科学研究院有限公司建筑防火研究所 — 消防评估与咨询",
-    "summary": "企业性质：国企。行业：科技推广和应用服务业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=223681237112326821",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "companyType": "state",
-    "location": "北京-朝阳区",
-    "deadline": "2027/01/19",
-    "tags": [
-      "中国建筑科学研究院有限公司建筑防火研究所",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "科技推广和应用服务业",
-      "北京"
-    ],
-    "score": 89,
-    "featured": true,
-    "createdAt": "2026-10-22T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-223711563121429157",
-    "title": "中国葛洲坝集团建设工程有限公司 — 葡萄牙语、越南语、老挝语、缅甸语翻译岗",
-    "summary": "企业性质：国企。行业：建筑业。工作地点：安哥拉。薪资：7000-14500元/月。学历：本科。规模：2000-5000人。",
-    "url": "https://www.iguopin.com/job/detail?id=223711563121429157",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "安哥拉",
-    "deadline": "2027/01/19",
-    "tags": [
-      "中国葛洲坝集团建设工程有限公司",
-      "校招",
-      "国企",
-      "建筑业",
-      "安哥拉"
-    ],
-    "score": 87,
-    "featured": true,
-    "createdAt": "2026-10-22T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-223684488218020867",
-    "title": "建科公共设施运营管理有限公司 — 能源动力工程师",
-    "summary": "企业性质：国企。行业：建筑业。工作地点：北京-西城区。薪资：7000-9000元/月。学历：本科。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=223684488218020867",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "北京-西城区",
-    "deadline": "2027/01/19",
-    "tags": [
-      "建科公共设施运营管理有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "建筑业",
-      "北京"
-    ],
-    "score": 87,
+    "score": 88,
     "featured": true,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
@@ -14526,54 +14501,6 @@
       "遵义"
     ],
     "score": 87,
-    "featured": true,
-    "createdAt": "2026-10-22T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-223682407088261797",
-    "title": "中建西部建设建材科学研究院有限公司 — 财务岗（2026届本科生补录）",
-    "summary": "企业性质：国企。行业：科技推广和应用服务业。工作地点：成都、厦门。薪资：7000-9000元/月。学历：本科。规模：100-300人。",
-    "url": "https://www.iguopin.com/job/detail?id=223682407088261797",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "finance",
-    "companyType": "state",
-    "location": "成都、厦门",
-    "deadline": "2026/12/31",
-    "tags": [
-      "中建西部建设建材科学研究院有限公司",
-      "校招",
-      "国企",
-      "金融",
-      "科技推广和应用服务业",
-      "成都",
-      "厦门"
-    ],
-    "score": 86,
-    "featured": true,
-    "createdAt": "2026-10-22T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-223676079108262574",
-    "title": "沈阳宝钢东北贸易有限公司 — 培训生（市场营销）（2027届应届毕业生）",
-    "summary": "企业性质：国企。行业：黑色金属冶炼和压延加工业。工作地点：沈阳-大东区。薪资：8000-10000元/月。学历：本科。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=223676079108262574",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "沈阳-大东区",
-    "deadline": "2027/01/19",
-    "tags": [
-      "沈阳宝钢东北贸易有限公司",
-      "校招",
-      "国企",
-      "黑色金属冶炼和压延加工业",
-      "沈阳"
-    ],
-    "score": 86,
     "featured": true,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
@@ -14626,6 +14553,221 @@
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
   {
+    "id": "guopin-223681929843575474",
+    "title": "中国建筑科学研究院有限公司建筑防火研究所 — 消防评估与咨询",
+    "summary": "企业性质：国企。行业：科技推广和应用服务业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=223681929843575474",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2027/01/19",
+    "tags": [
+      "中国建筑科学研究院有限公司建筑防火研究所",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "科技推广和应用服务业",
+      "北京"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-223681761618430639",
+    "title": "中国建筑科学研究院有限公司建筑防火研究所 — 消防评估与咨询",
+    "summary": "企业性质：国企。行业：科技推广和应用服务业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=223681761618430639",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2027/01/19",
+    "tags": [
+      "中国建筑科学研究院有限公司建筑防火研究所",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "科技推广和应用服务业",
+      "北京"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-223681593527503525",
+    "title": "中国建筑科学研究院有限公司建筑防火研究所 — 消防评估与咨询",
+    "summary": "企业性质：国企。行业：科技推广和应用服务业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=223681593527503525",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2027/01/19",
+    "tags": [
+      "中国建筑科学研究院有限公司建筑防火研究所",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "科技推广和应用服务业",
+      "北京"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-223681434429164199",
+    "title": "中国建筑科学研究院有限公司建筑防火研究所 — 消防评估与咨询",
+    "summary": "企业性质：国企。行业：科技推广和应用服务业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=223681434429164199",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2027/01/19",
+    "tags": [
+      "中国建筑科学研究院有限公司建筑防火研究所",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "科技推广和应用服务业",
+      "北京"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-223681237112326821",
+    "title": "中国建筑科学研究院有限公司建筑防火研究所 — 消防评估与咨询",
+    "summary": "企业性质：国企。行业：科技推广和应用服务业。工作地点：北京-朝阳区。薪资面议。学历：硕士。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=223681237112326821",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "北京-朝阳区",
+    "deadline": "2027/01/19",
+    "tags": [
+      "中国建筑科学研究院有限公司建筑防火研究所",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "科技推广和应用服务业",
+      "北京"
+    ],
+    "score": 84,
+    "featured": true,
+    "createdAt": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-223711563121429157",
+    "title": "中国葛洲坝集团建设工程有限公司 — 葡萄牙语、越南语、老挝语、缅甸语翻译岗",
+    "summary": "企业性质：国企。行业：建筑业。工作地点：安哥拉。薪资：7000-14500元/月。学历：本科。规模：2000-5000人。",
+    "url": "https://www.iguopin.com/job/detail?id=223711563121429157",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "安哥拉",
+    "deadline": "2027/01/19",
+    "tags": [
+      "中国葛洲坝集团建设工程有限公司",
+      "校招",
+      "国企",
+      "建筑业",
+      "安哥拉"
+    ],
+    "score": 82,
+    "featured": true,
+    "createdAt": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-223684488218020867",
+    "title": "建科公共设施运营管理有限公司 — 能源动力工程师",
+    "summary": "企业性质：国企。行业：建筑业。工作地点：北京-西城区。薪资：7000-9000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=223684488218020867",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "北京-西城区",
+    "deadline": "2027/01/19",
+    "tags": [
+      "建科公共设施运营管理有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "建筑业",
+      "北京"
+    ],
+    "score": 82,
+    "featured": true,
+    "createdAt": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-223682407088261797",
+    "title": "中建西部建设建材科学研究院有限公司 — 财务岗（2026届本科生补录）",
+    "summary": "企业性质：国企。行业：科技推广和应用服务业。工作地点：成都、厦门。薪资：7000-9000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=223682407088261797",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "state",
+    "location": "成都、厦门",
+    "deadline": "2026/12/31",
+    "tags": [
+      "中建西部建设建材科学研究院有限公司",
+      "校招",
+      "国企",
+      "金融",
+      "科技推广和应用服务业",
+      "成都",
+      "厦门"
+    ],
+    "score": 81,
+    "featured": true,
+    "createdAt": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-223676079108262574",
+    "title": "沈阳宝钢东北贸易有限公司 — 培训生（市场营销）（2027届应届毕业生）",
+    "summary": "企业性质：国企。行业：黑色金属冶炼和压延加工业。工作地点：沈阳-大东区。薪资：8000-10000元/月。学历：本科。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=223676079108262574",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "沈阳-大东区",
+    "deadline": "2027/01/19",
+    "tags": [
+      "沈阳宝钢东北贸易有限公司",
+      "校招",
+      "国企",
+      "黑色金属冶炼和压延加工业",
+      "沈阳"
+    ],
+    "score": 81,
+    "featured": true,
+    "createdAt": "2026-10-22T00:00:00.000Z"
+  },
+  {
     "id": "guopin-223715044494412804",
     "title": "重庆登康口腔护理用品股份有限公司 — 销售管理培训生",
     "summary": "企业性质：国企。行业：化学原料和化学制品制造业。工作地点：中国。薪资：7000-10000元/月。学历：本科。规模：500-1000人。",
@@ -14645,7 +14787,7 @@
       "化学原料和化学制品制造业",
       "中国"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
@@ -14669,7 +14811,7 @@
       "建筑业",
       "中国"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
@@ -14692,7 +14834,7 @@
       "建筑业",
       "中国"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
@@ -14715,7 +14857,7 @@
       "建筑业",
       "中国"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
@@ -14738,7 +14880,7 @@
       "批发业",
       "深圳"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
@@ -14762,8 +14904,8 @@
       "医药制造业",
       "北京"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
   {
@@ -14786,8 +14928,8 @@
       "化学原料和化学制品制造业",
       "重庆"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
   {
@@ -14810,8 +14952,8 @@
       "化学原料和化学制品制造业",
       "重庆"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
   {
@@ -14836,8 +14978,8 @@
       "河北",
       "吉林"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
   {
@@ -14859,8 +15001,8 @@
       "建筑业",
       "北京"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
   {
@@ -14883,8 +15025,8 @@
       "商务服务业",
       "烟台"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
   {
@@ -14907,8 +15049,8 @@
       "医药制造业",
       "北京"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
   {
@@ -14931,8 +15073,8 @@
       "医药制造业",
       "北京"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
   {
@@ -14955,8 +15097,8 @@
       "医药制造业",
       "北京"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
   {
@@ -14979,8 +15121,8 @@
       "土木工程建筑业",
       "中国"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
   {
@@ -15003,8 +15145,8 @@
       "商务服务业",
       "烟台"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
   {
@@ -15027,8 +15169,8 @@
       "商务服务业",
       "烟台"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
   {
@@ -15051,8 +15193,8 @@
       "医药制造业",
       "北京"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
   {
@@ -15075,8 +15217,8 @@
       "专业技术服务业",
       "北京"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
   {
@@ -15099,8 +15241,8 @@
       "医药制造业",
       "焦作"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
   {
@@ -15123,8 +15265,8 @@
       "医药制造业",
       "北京"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
   {
@@ -15146,8 +15288,8 @@
       "交通运输、仓储和邮政业",
       "青岛"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
   {
@@ -15170,8 +15312,8 @@
       "北京",
       "秘鲁"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
   {
@@ -15194,8 +15336,8 @@
       "制造业",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
   {
@@ -15218,8 +15360,8 @@
       "制造业",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
   {
@@ -15242,8 +15384,8 @@
       "医药制造业",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
   {
@@ -15266,8 +15408,8 @@
       "医药制造业",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
   {
@@ -15290,8 +15432,8 @@
       "专业技术服务业",
       "北京"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-10-22T00:00:00.000Z"
   },
   {
@@ -15314,8 +15456,8 @@
       "医药制造业",
       "广州"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-10-21T23:00:43.000Z"
   },
   {
@@ -15338,8 +15480,8 @@
       "医药制造业",
       "广州"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-10-21T22:59:42.000Z"
   },
   {
@@ -15362,7 +15504,7 @@
       "医药制造业",
       "广州"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-10-21T22:58:25.000Z"
   },
@@ -15386,8 +15528,8 @@
       "医药制造业",
       "广州"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-10-21T22:57:01.000Z"
   },
   {
@@ -15410,8 +15552,8 @@
       "医药制造业",
       "上海"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-10-21T17:12:08.000Z"
   },
   {
@@ -15434,7 +15576,7 @@
       "建筑业",
       "中国"
     ],
-    "score": 93,
+    "score": 88,
     "featured": true,
     "createdAt": "2026-10-21T16:51:43.000Z"
   },
@@ -15458,8 +15600,8 @@
       "制造业",
       "北京"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-10-21T16:41:29.000Z"
   },
   {
@@ -28471,29 +28613,6 @@
     "createdAt": "2026-10-15T00:00:00.000Z"
   },
   {
-    "id": "guopin-222666731124951167",
-    "title": "中国化学工程第四建设有限公司 — 安装技术岗（招聘2026届大学生）",
-    "summary": "企业性质：国企。行业：建筑业。工作地点：中国。薪资：5500-8178元/月。学历：本科。规模：2000-5000人。",
-    "url": "https://www.iguopin.com/job/detail?id=222666731124951167",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "中国",
-    "deadline": "2027/01/12",
-    "tags": [
-      "中国化学工程第四建设有限公司",
-      "校招",
-      "国企",
-      "建筑业",
-      "中国"
-    ],
-    "score": 78,
-    "featured": false,
-    "createdAt": "2026-10-15T00:00:00.000Z"
-  },
-  {
     "id": "guopin-222709050880559635",
     "title": "广东信源物流设备有限公司 — 物料计划岗（2027届校招）",
     "summary": "企业性质：国企。行业：制造业。工作地点：广州-南沙区。薪资：7000-10000元/月。学历：本科。规模：1000-2000人。",
@@ -28658,6 +28777,29 @@
       "北京"
     ],
     "score": 75,
+    "featured": false,
+    "createdAt": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-222666731124951167",
+    "title": "中国化学工程第四建设有限公司 — 安装技术岗（招聘2026届大学生）",
+    "summary": "企业性质：国企。行业：建筑业。工作地点：中国。薪资：5500-8178元/月。学历：本科。规模：2000-5000人。",
+    "url": "https://www.iguopin.com/job/detail?id=222666731124951167",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "中国",
+    "deadline": "2027/01/12",
+    "tags": [
+      "中国化学工程第四建设有限公司",
+      "校招",
+      "国企",
+      "建筑业",
+      "中国"
+    ],
+    "score": 73,
     "featured": false,
     "createdAt": "2026-10-15T00:00:00.000Z"
   },

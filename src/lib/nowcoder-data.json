@@ -293,6 +293,31 @@
     "createdAt": "2026-09-22T07:10:38.000Z"
   },
   {
+    "id": "nowcoder-1515",
+    "title": "汇丰科技 — 27届秋招",
+    "summary": "为全球金融机构提供软件开发与IT服务，专注于金融科技解决方案。。招聘批次：27届秋招。工作地点：广州、西安、上海。招聘岗位：数据、研发工程师。",
+    "url": "https://www.hsbc.com/careers/students-and-graduates/find-a-programme?area-of-interest=cyber|data-analytics|engineering&page=1&location=mainland-china",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "foreign",
+    "location": "广州、西安、上海",
+    "deadline": "2026/12/30",
+    "tags": [
+      "汇丰科技",
+      "校招",
+      "秋招",
+      "金融",
+      "广州",
+      "西安",
+      "上海"
+    ],
+    "score": 69,
+    "featured": false,
+    "createdAt": "2026-09-17T08:33:09.000Z"
+  },
+  {
     "id": "nowcoder-300699",
     "title": "北京金蝶管理软件有限公司 — 网申：已结束",
     "summary": "招聘批次：网申：已结束。",
@@ -380,6 +405,29 @@
     "score": 72,
     "featured": false,
     "createdAt": "2026-09-10T09:46:25.000Z"
+  },
+  {
+    "id": "nowcoder-1247",
+    "title": "保融科技 — 27秋招",
+    "summary": "国内金融科技领域专精特新企业，技术研发扎实，金融行业解决方案适配性强。。招聘批次：27秋招。工作地点：杭州。招聘岗位：后端开发、运维、销售技术支持、通信、技术支持等。",
+    "url": "https://campus.fingard.com/",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "finance",
+    "location": "杭州",
+    "deadline": "2026/10/30",
+    "tags": [
+      "保融科技",
+      "校招",
+      "秋招",
+      "金融",
+      "杭州",
+      "互联网"
+    ],
+    "score": 73,
+    "featured": false,
+    "createdAt": "2026-09-08T07:04:06.000Z"
   },
   {
     "id": "nowcoder-2197",
