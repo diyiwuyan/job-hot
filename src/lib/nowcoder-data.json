@@ -145,6 +145,171 @@
     "createdAt": "2026-10-28T15:17:15.000Z"
   },
   {
+    "id": "nowcoder-247863",
+    "title": "深圳一博科技股份有限公司 — 27届秋招",
+    "summary": "PCB 硬件服务商，薪酬待遇优厚，AI 算力相关订单充足，硬件研发场景丰富。。招聘批次：27届秋招。工作地点：石家庄、南京、苏州、杭州、武汉、广州、深圳、珠海、西安、北京、上海、天津。招聘岗位：研发工程师、硬件工程师、电子/半导体、通信、技术支持等。",
+    "url": "https://mp.weixin.qq.com/s/lRzCY4IhD1wg1fdU30sDJw",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "石家庄、南京、苏州、杭州、武汉、广州、深圳、珠海、西安、北京、上海、天津",
+    "deadline": "2026/12/08",
+    "tags": [
+      "深圳一博科技股份有限公司",
+      "校招",
+      "秋招",
+      "车企/IC",
+      "石家庄",
+      "南京",
+      "苏州"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-10-28T14:51:41.000Z"
+  },
+  {
+    "id": "nowcoder-248785",
+    "title": "物产中大金属集团有限公司 — 27届秋招",
+    "summary": "省属混改大宗供应链集团，薪资稳定，福利齐全，海内外贸易业务资源丰富。。招聘批次：27届秋招。工作地点：杭州、广州、佛山、拉萨、西安、兰州、乌鲁木齐、上海。招聘岗位：风控、市场/营销、商务、管理、财务审计等。",
+    "url": "https://www.zmmc.com.cn:1688/recruit.aspx?category_id=53",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "杭州、广州、佛山、拉萨、西安、兰州、乌鲁木齐、上海",
+    "deadline": "2026/10/30",
+    "tags": [
+      "物产中大金属集团有限公司",
+      "校招",
+      "秋招",
+      "杭州",
+      "广州",
+      "佛山"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-10-28T14:14:29.000Z"
+  },
+  {
+    "id": "nowcoder-29811",
+    "title": "希迪智驾科技股份有限公司 — 27届秋招",
+    "summary": "商用车自动驾驶科创企业，薪酬竞争力强，赛道前景广阔，矿山物流落地项目充足。。招聘批次：27届秋招。工作地点：长沙。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://campus.51job.com/cidi2027/about2.html",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "长沙",
+    "deadline": "2026/12/09",
+    "tags": [
+      "希迪智驾科技股份有限公司",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "长沙"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-10-28T14:12:23.000Z"
+  },
+  {
+    "id": "nowcoder-264411",
+    "title": "和胜工业 — 27届秋招",
+    "summary": "新能源铝材上市企业，薪资绩效清晰，订单充足，轻量化结构件研发空间大。。招聘批次：27届秋招。工作地点：马鞍山、中山、宜宾。招聘岗位：后端开发、前端开发、测试、运维、研发工程师等。",
+    "url": "https://mp.weixin.qq.com/s/IcXwhPQivz1hXRqBnVW5Vw",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "马鞍山、中山、宜宾",
+    "deadline": "2026/12/09",
+    "tags": [
+      "和胜工业",
+      "校招",
+      "秋招",
+      "车企/IC",
+      "马鞍山",
+      "中山",
+      "宜宾"
+    ],
+    "score": 94,
+    "featured": true,
+    "createdAt": "2026-10-28T14:03:39.000Z"
+  },
+  {
+    "id": "nowcoder-252335",
+    "title": "乐禾食品 — 27届秋招",
+    "summary": "食材供应链龙头企业，薪酬发放稳定，福利规范，全国网点多，业务落地场景丰富。。招聘批次：27届秋招。工作地点：广州。招聘岗位：机械、化工、电气/自动化、技术支持、运营等。",
+    "url": "https://lehe.zhiye.com/campus/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "广州",
+    "deadline": "2026/12/09",
+    "tags": [
+      "乐禾食品",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "广州",
+      "快消",
+      "能源"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-10-28T14:01:14.000Z"
+  },
+  {
+    "id": "nowcoder-259666",
+    "title": "宇称 — 27届秋招",
+    "summary": "光电芯片硬科技企业，高薪吸引研发人才，前沿赛道，单光子探测技术国内领先。。招聘批次：27届秋招。工作地点：杭州。招聘岗位：后端开发、前端开发、硬件工程师、电子/半导体、通信等。",
+    "url": "https://mp.weixin.qq.com/s/Oi2h9IMtiszXl3Pk7e2R1w",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "杭州",
+    "deadline": "2026/12/09",
+    "tags": [
+      "宇称",
+      "校招",
+      "秋招",
+      "车企/IC",
+      "杭州",
+      "芯片",
+      "通信电子"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-10-28T13:54:50.000Z"
+  },
+  {
+    "id": "nowcoder-13840",
+    "title": "东方日升 — 27届秋招",
+    "summary": "光伏储能行业上市企业，薪资竞争力较强，全球化业务平台，研发投入持续稳定。。招聘批次：27届秋招。工作地点：宁波。招聘岗位：研发工程师、机械、化工、电气/自动化、能源等。",
+    "url": "https://risen.zhiye.com/campus/jobs?queryId=044d79c6-61cf-4b2d-9008-1ee2d5b1782a",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "宁波",
+    "deadline": "2026/12/09",
+    "tags": [
+      "东方日升",
+      "校招",
+      "秋招",
+      "车企/IC",
+      "宁波",
+      "机械制造",
+      "新能源"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-10-28T13:49:43.000Z"
+  },
+  {
     "id": "nowcoder-652",
     "title": "滴滴 — 27届秋招",
     "summary": "国内出行服务龙头企业，全生态布局，技术研发与运营能力领先。。招聘批次：27届秋招。工作地点：杭州、广州、深圳、成都、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
@@ -430,6 +595,29 @@
     "createdAt": "2026-09-08T07:04:06.000Z"
   },
   {
+    "id": "nowcoder-21369",
+    "title": "正浩创新EcoFlow — 27届秋招",
+    "summary": "全球领先的家庭智慧能源解决方案品牌，独角兽企业，全球化舞台，给予年轻人机会。。招聘批次：27届秋招。工作地点：苏州、深圳、西安。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://www.nowcoder.com/jobs/company-project?projectId=2689&deliverSource=4&activityId=176&activitySuffix=2027YKJzc&pageSource=5009&channel=qzsy",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "location": "苏州、深圳、西安",
+    "deadline": "2027/08/30",
+    "tags": [
+      "正浩创新EcoFlow",
+      "校招",
+      "秋招",
+      "苏州",
+      "深圳",
+      "西安"
+    ],
+    "score": 74,
+    "featured": false,
+    "createdAt": "2026-08-31T07:55:28.000Z"
+  },
+  {
     "id": "nowcoder-2197",
     "title": "平安产险科技中心 — 27届秋招",
     "summary": "保险行业标杆，综合金融实践平台。。招聘批次：27届秋招。工作地点：深圳。招聘岗位：后端开发、测试、数据、运维、人工智能/算法等。",
@@ -450,6 +638,44 @@
     "score": 77,
     "featured": false,
     "createdAt": "2026-08-31T06:05:21.000Z"
+  },
+  {
+    "id": "nowcoder-32020",
+    "title": "27届网申信息 — 网申：已结束",
+    "summary": "招聘批次：网申：已结束。",
+    "url": "https://campus.sma-wiki.cn/campus/campus_recruit.html?channel=school_schedule",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "deadline": "2026/08/30",
+    "tags": [
+      "27届网申信息",
+      "校招",
+      "秋招"
+    ],
+    "score": 63,
+    "featured": false,
+    "createdAt": "2026-08-30T19:00:35.000Z"
+  },
+  {
+    "id": "nowcoder-32099",
+    "title": "27届网申助手 — 网申：已结束",
+    "summary": "招聘批次：网申：已结束。",
+    "url": "https://www.nowcoder.com/my/resume-plugin-intro?channel=school_schedule",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "other",
+    "deadline": "2026/08/30",
+    "tags": [
+      "27届网申助手",
+      "校招",
+      "秋招"
+    ],
+    "score": 61,
+    "featured": false,
+    "createdAt": "2026-08-30T19:00:35.000Z"
   },
   {
     "id": "nowcoder-2932",
@@ -524,5 +750,31 @@
     "score": 76,
     "featured": false,
     "createdAt": "2026-08-13T03:19:26.000Z"
+  },
+  {
+    "id": "nowcoder-958",
+    "title": "联想 — 27届秋招",
+    "summary": "全球领先的智能设备与解决方案提供商，业务涵盖个人电脑、服务器与智能硬件。。招聘批次：27届秋招。工作地点：哈尔滨、苏州、杭州、合肥、厦门、济南、武汉、深圳、成都、西安、北京、上海、重庆、天津。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://talent.lenovo.com.cn/position",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "哈尔滨、苏州、杭州、合肥、厦门、济南、武汉、深圳、成都、西安、北京、上海、重庆、天津",
+    "deadline": "2026/11/13",
+    "tags": [
+      "联想",
+      "校招",
+      "秋招",
+      "车企/IC",
+      "哈尔滨",
+      "苏州",
+      "杭州",
+      "硬件",
+      "数据服务"
+    ],
+    "score": 77,
+    "featured": false,
+    "createdAt": "2026-08-07T05:36:22.000Z"
   }
 ]
