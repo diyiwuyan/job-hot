@@ -263,6 +263,10 @@ export default function AdminPage() {
     setLoadError("");
 
     try {
+      const errors: string[] = [];
+      const noteError = (label: string, error: { message?: string } | null) => {
+        if (error) errors.push(`${label}：${error.message || "读取失败"}`);
+      };
       // Daily stats (last 30 days)
       const { data: daily, error: dailyError } = await supabase
         .from("daily_stats")
@@ -270,9 +274,9 @@ export default function AdminPage() {
         .order("day", { ascending: false })
         .limit(30);
 
-      if (dailyError) throw dailyError;
-      if (daily) {
-        setDailyStats(daily as DailyStat[]);
+      noteError("每日趋势", dailyError);
+      setDailyStats((daily ?? []) as DailyStat[]);
+      if (daily && !dailyError) {
         // Default compare: today vs same day last week
         if (daily.length > 0 && compareDays.length === 0) {
           if (daily.length > 7) {
@@ -298,7 +302,7 @@ export default function AdminPage() {
         .order("day", { ascending: false })
         .limit(336);
 
-      if (hourlyError) throw hourlyError;
+      noteError("小时分布", hourlyError);
       setHourlyStats((hourly ?? []) as HourlyStat[]);
 
       // Module clicks (last 7 days)
@@ -308,13 +312,13 @@ export default function AdminPage() {
         .order("day", { ascending: false })
         .limit(200);
 
-      if (modulesError) throw modulesError;
+      noteError("模块点击", modulesError);
       setModuleClicks((modules ?? []) as ModuleClick[]);
 
       const { data: cities, error: citiesError } = await supabase.rpc("admin_city_stats", {
         days_back: 30,
       });
-      if (citiesError) throw citiesError;
+      noteError("访客城市", citiesError);
       setCityStats((cities ?? []) as CityStat[]);
 
       // Use the account RPC for both registered and active users. Its activity
@@ -347,9 +351,11 @@ export default function AdminPage() {
           .eq("is_pushed", true),
       ]);
 
-      for (const result of [accountRes, totalSubsRes, activeSubsRes, totalMatchesRes, pushedMatchesRes]) {
-        if (result.error) throw result.error;
-      }
+      noteError("注册用户", accountRes.error);
+      noteError("订阅总数", totalSubsRes.error);
+      noteError("活跃订阅", activeSubsRes.error);
+      noteError("匹配总数", totalMatchesRes.error);
+      noteError("已推送匹配", pushedMatchesRes.error);
       const accounts = (accountRes.data ?? []) as { last_active_at: string | null }[];
       const activeSince = (start: number) => accounts.filter(
         (account) => account.last_active_at && new Date(account.last_active_at).getTime() >= start,
@@ -364,9 +370,11 @@ export default function AdminPage() {
         total_matches: totalMatchesRes.count ?? 0,
         pushed_matches: pushedMatchesRes.count ?? 0,
       });
+      if (errors.length > 0) setLoadError(errors.join("；"));
     } catch (err) {
       console.error("Failed to load admin analytics:", err);
-      setLoadError(err instanceof Error ? err.message : "统计数据加载失败，请稍后重试");
+      setLoadError(typeof err === "object" && err !== null && "message" in err
+        ? String(err.message) : "统计数据加载失败，请稍后重试");
     }
 
     setLoading(false);
@@ -494,10 +502,10 @@ export default function AdminPage() {
 
       {loadError && (
         <div role="alert" className="admin-notice admin-notice-error">
-          统计加载失败：{loadError}。请检查数据库迁移和管理员权限，再刷新重试。
+          部分统计无法读取：{loadError}。请检查数据库权限后刷新重试。
         </div>
       )}
-      {!loading && !loadError && dailyStats.length > 0 && !todayDailyStat && (
+      {!loading && dailyStats.length > 0 && !todayDailyStat && (
         <div role="status" className="admin-notice">
           今天尚无访问记录；最近记录日期为 {dailyStats[0].day}。如果网站已有访问，请检查统计写入链路。
         </div>
