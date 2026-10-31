@@ -67,6 +67,12 @@ function shanghaiDay(): string {
   }).format(new Date());
 }
 
+function previousDay(day: string): string {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit",
+  }).format(new Date(Date.parse(`${day}T00:00:00+08:00`) - 86400000));
+}
+
 function fmtDuration(s: number): string {
   if (s < 60) return `${s}秒`;
   const m = Math.floor(s / 60);
@@ -277,14 +283,9 @@ export default function AdminPage() {
       noteError("每日趋势", dailyError);
       setDailyStats((daily ?? []) as DailyStat[]);
       if (daily && !dailyError) {
-        // Default compare: today vs same day last week
+        // Compare the latest two dates with recorded data.
         if (daily.length > 0 && compareDays.length === 0) {
-          if (daily.length > 7) {
-            setCompareDays([
-              (daily[0] as DailyStat).day,
-              (daily[7] as DailyStat).day,
-            ]);
-          } else if (daily.length > 1) {
+          if (daily.length > 1) {
             setCompareDays([
               (daily[0] as DailyStat).day,
               (daily[1] as DailyStat).day,
@@ -457,9 +458,7 @@ export default function AdminPage() {
   // ── Module clicks ─────────────────────────────────────────
   const todayModuleStr = shanghaiDay();
   const todayDailyStat = dailyStats.find((stat) => stat.day === todayModuleStr);
-  const yesterdayDay = new Intl.DateTimeFormat("en-CA", {
-    timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit",
-  }).format(new Date(Date.parse(`${todayModuleStr}T00:00:00+08:00`) - 86400000));
+  const yesterdayDay = previousDay(todayModuleStr);
   const yesterdayDailyStat = dailyStats.find((stat) => stat.day === yesterdayDay);
   const todayModuleClicks = moduleClicks
     .filter((m) => m.day === todayModuleStr)
@@ -589,7 +588,8 @@ export default function AdminPage() {
                   </thead>
                   <tbody>
                     {dailyStats.map((stat, i) => {
-                      const prev = dailyStats[i + 1];
+                      const prev = dailyStats[i + 1]?.day === previousDay(stat.day)
+                        ? dailyStats[i + 1] : undefined;
                       const change =
                         prev && prev.unique_visitors > 0
                           ? (
@@ -649,7 +649,7 @@ export default function AdminPage() {
             <div className="admin-section">
               <h3 className="admin-section-title">每小时在线分布</h3>
               <p className="admin-section-desc">
-                选择日期进行对比（默认：今天 vs 上周同日）
+                选择日期进行对比（最多 4 个日期）
               </p>
 
               <div className="admin-day-picker">
