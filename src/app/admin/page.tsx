@@ -61,6 +61,12 @@ function fmtDate(d: string): string {
   return d.slice(5); // "2026-06-18" → "06-18"
 }
 
+function shanghaiDay(): string {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit",
+  }).format(new Date());
+}
+
 function fmtDuration(s: number): string {
   if (s < 60) return `${s}秒`;
   const m = Math.floor(s / 60);
@@ -245,6 +251,7 @@ export default function AdminPage() {
   const [userStats, setUserStats] = useState<UserStat | null>(null);
   const [compareDays, setCompareDays] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
+  const [loadError, setLoadError] = useState("");
   const [activeTab, setActiveTab] = useState<
     "overview" | "hourly" | "modules" | "cities" | "users"
   >("overview");
@@ -253,15 +260,17 @@ export default function AdminPage() {
   const fetchData = useCallback(async () => {
     if (!supabase || !isAdmin) return;
     setLoading(true);
+    setLoadError("");
 
     try {
       // Daily stats (last 30 days)
-      const { data: daily } = await supabase
+      const { data: daily, error: dailyError } = await supabase
         .from("daily_stats")
         .select("*")
         .order("day", { ascending: false })
         .limit(30);
 
+      if (dailyError) throw dailyError;
       if (daily) {
         setDailyStats(daily as DailyStat[]);
         // Default compare: today vs same day last week
@@ -283,58 +292,45 @@ export default function AdminPage() {
       }
 
       // Hourly stats (last 14 days)
-      const { data: hourly } = await supabase
+      const { data: hourly, error: hourlyError } = await supabase
         .from("hourly_stats")
         .select("*")
         .order("day", { ascending: false })
         .limit(336);
 
-      if (hourly) setHourlyStats(hourly as HourlyStat[]);
+      if (hourlyError) throw hourlyError;
+      setHourlyStats((hourly ?? []) as HourlyStat[]);
 
       // Module clicks (last 7 days)
-      const { data: modules } = await supabase
+      const { data: modules, error: modulesError } = await supabase
         .from("module_click_stats")
         .select("*")
         .order("day", { ascending: false })
         .limit(200);
 
-      if (modules) setModuleClicks(modules as ModuleClick[]);
+      if (modulesError) throw modulesError;
+      setModuleClicks((modules ?? []) as ModuleClick[]);
 
-      const { data: cities } = await supabase.rpc("admin_city_stats", {
+      const { data: cities, error: citiesError } = await supabase.rpc("admin_city_stats", {
         days_back: 30,
       });
-      if (cities) setCityStats(cities as CityStat[]);
+      if (citiesError) throw citiesError;
+      setCityStats((cities ?? []) as CityStat[]);
 
-      // User stats (distinct user_id counts)
+      // Use the account RPC for both registered and active users. Its activity
+      // aggregate runs in Postgres, avoiding the API's default 1,000-row cap.
       const now = new Date();
-      const todayStr = now.toISOString().slice(0, 10);
-      const weekAgoStr = new Date(now.getTime() - 7 * 86400000)
-        .toISOString()
-        .slice(0, 10);
+      const todayStart = new Date(`${shanghaiDay()}T00:00:00+08:00`).getTime();
+      const weekStart = now.getTime() - 7 * 86400000;
 
       const [
-        allUsersRes,
-        todayUsersRes,
-        weekUsersRes,
-        { count: totalSubs },
-        { count: activeSubs },
-        { count: totalMatches },
-        { count: pushedMatches },
+        accountRes,
+        totalSubsRes,
+        activeSubsRes,
+        totalMatchesRes,
+        pushedMatchesRes,
       ] = await Promise.all([
-        supabase
-          .from("page_views")
-          .select("user_id")
-          .not("user_id", "is", null),
-        supabase
-          .from("page_views")
-          .select("user_id")
-          .not("user_id", "is", null)
-          .gte("created_at", todayStr),
-        supabase
-          .from("page_views")
-          .select("user_id")
-          .not("user_id", "is", null)
-          .gte("created_at", weekAgoStr),
+        supabase.rpc("admin_list_users_safe"),
         supabase
           .from("subscriptions")
           .select("*", { count: "exact", head: true }),
@@ -351,27 +347,26 @@ export default function AdminPage() {
           .eq("is_pushed", true),
       ]);
 
-      // Deduplicate user_ids in frontend
-      const distinctCount = (res: { data: { user_id: string }[] | null }) =>
-        new Set(res.data?.map((r) => r.user_id) ?? []).size;
+      for (const result of [accountRes, totalSubsRes, activeSubsRes, totalMatchesRes, pushedMatchesRes]) {
+        if (result.error) throw result.error;
+      }
+      const accounts = (accountRes.data ?? []) as { last_active_at: string | null }[];
+      const activeSince = (start: number) => accounts.filter(
+        (account) => account.last_active_at && new Date(account.last_active_at).getTime() >= start,
+      ).length;
 
       setUserStats({
-        total_users: distinctCount(
-          allUsersRes as { data: { user_id: string }[] | null },
-        ),
-        active_users_today: distinctCount(
-          todayUsersRes as { data: { user_id: string }[] | null },
-        ),
-        active_users_7d: distinctCount(
-          weekUsersRes as { data: { user_id: string }[] | null },
-        ),
-        total_subscriptions: totalSubs ?? 0,
-        active_subscriptions: activeSubs ?? 0,
-        total_matches: totalMatches ?? 0,
-        pushed_matches: pushedMatches ?? 0,
+        total_users: accounts.length,
+        active_users_today: activeSince(todayStart),
+        active_users_7d: activeSince(weekStart),
+        total_subscriptions: totalSubsRes.count ?? 0,
+        active_subscriptions: activeSubsRes.count ?? 0,
+        total_matches: totalMatchesRes.count ?? 0,
+        pushed_matches: pushedMatchesRes.count ?? 0,
       });
     } catch (err) {
       console.error("Failed to load admin analytics:", err);
+      setLoadError(err instanceof Error ? err.message : "统计数据加载失败，请稍后重试");
     }
 
     setLoading(false);
@@ -379,7 +374,9 @@ export default function AdminPage() {
   }, [isAdmin]);
 
   useEffect(() => {
-    if (!adminLoading && isAdmin) fetchData();
+    if (adminLoading || !isAdmin) return;
+    const timer = window.setTimeout(() => { fetchData(); }, 0);
+    return () => window.clearTimeout(timer);
   }, [adminLoading, isAdmin, fetchData]);
 
   // ── Auth guards ───────────────────────────────────────────
@@ -450,7 +447,12 @@ export default function AdminPage() {
   }));
 
   // ── Module clicks ─────────────────────────────────────────
-  const todayModuleStr = new Date().toISOString().slice(0, 10);
+  const todayModuleStr = shanghaiDay();
+  const todayDailyStat = dailyStats.find((stat) => stat.day === todayModuleStr);
+  const yesterdayDay = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit",
+  }).format(new Date(Date.parse(`${todayModuleStr}T00:00:00+08:00`) - 86400000));
+  const yesterdayDailyStat = dailyStats.find((stat) => stat.day === yesterdayDay);
   const todayModuleClicks = moduleClicks
     .filter((m) => m.day === todayModuleStr)
     .sort((a, b) => b.clicks - a.clicks);
@@ -490,6 +492,17 @@ export default function AdminPage() {
         </div>
       </div>
 
+      {loadError && (
+        <div role="alert" className="admin-notice admin-notice-error">
+          统计加载失败：{loadError}。请检查数据库迁移和管理员权限，再刷新重试。
+        </div>
+      )}
+      {!loading && !loadError && dailyStats.length > 0 && !todayDailyStat && (
+        <div role="status" className="admin-notice">
+          今天尚无访问记录；最近记录日期为 {dailyStats[0].day}。如果网站已有访问，请检查统计写入链路。
+        </div>
+      )}
+
       {/* Tab navigation */}
       <div className="admin-tabs">
         {(["overview", "hourly", "modules", "cities", "users"] as const).map(
@@ -525,27 +538,27 @@ export default function AdminPage() {
                 <div className="admin-stat-grid">
                   <div className="admin-stat-card">
                     <div className="admin-stat-value">
-                      {dailyStats[0]?.unique_visitors ?? 0}
+                      {todayDailyStat?.unique_visitors ?? 0}
                     </div>
                     <div className="admin-stat-label">今日访客</div>
                   </div>
                   <div className="admin-stat-card">
                     <div className="admin-stat-value">
-                      {dailyStats[0]?.page_views ?? 0}
+                      {todayDailyStat?.page_views ?? 0}
                     </div>
                     <div className="admin-stat-label">今日访问次数</div>
                   </div>
                   <div className="admin-stat-card">
                     <div className="admin-stat-value">
-                      {fmtDuration(dailyStats[0]?.avg_duration_seconds ?? 0)}
+                      {todayDailyStat ? fmtDuration(todayDailyStat.avg_duration_seconds) : "—"}
                     </div>
                     <div className="admin-stat-label">平均在线时长</div>
                   </div>
                   <div className="admin-stat-card">
                     <div className="admin-stat-value">
-                      {dailyStats.length > 1 &&
-                      dailyStats[1].unique_visitors > 0
-                        ? `${((dailyStats[0].unique_visitors / dailyStats[1].unique_visitors - 1) * 100).toFixed(1)}%`
+                      {todayDailyStat && yesterdayDailyStat &&
+                      yesterdayDailyStat.unique_visitors > 0
+                        ? `${((todayDailyStat.unique_visitors / yesterdayDailyStat.unique_visitors - 1) * 100).toFixed(1)}%`
                         : "—"}
                     </div>
                     <div className="admin-stat-label">访客环比</div>
@@ -553,7 +566,8 @@ export default function AdminPage() {
                 </div>
               )}
 
-              <h3 className="admin-section-title">每日趋势（近30天）</h3>
+              <h3 className="admin-section-title">最近 30 个有记录的日期</h3>
+              {dailyStats.length === 0 && <div className="admin-empty">暂无访问记录。请检查统计写入是否正常。</div>}
               <div className="admin-table-wrap">
                 <table className="admin-table">
                   <thead>
@@ -761,19 +775,19 @@ export default function AdminPage() {
                   <div className="admin-stat-value">
                     {userStats.total_users}
                   </div>
-                  <div className="admin-stat-label">累计注册用户（有访问）</div>
+                  <div className="admin-stat-label">累计注册用户</div>
                 </div>
                 <div className="admin-stat-card">
                   <div className="admin-stat-value">
                     {userStats.active_users_today}
                   </div>
-                  <div className="admin-stat-label">今日活跃用户</div>
+                  <div className="admin-stat-label">今日有访问的登录用户</div>
                 </div>
                 <div className="admin-stat-card">
                   <div className="admin-stat-value">
                     {userStats.active_users_7d}
                   </div>
-                  <div className="admin-stat-label">近7日活跃用户</div>
+                  <div className="admin-stat-label">近7日有访问的登录用户</div>
                 </div>
                 <div className="admin-stat-card">
                   <div className="admin-stat-value">

@@ -71,7 +71,7 @@ function getSessionId(): string {
   } catch {}
 
   // Generate new session ID
-  const id = `${Date.now()}-${Math.random().toString(36).slice(2, 10)}`;
+  const id = crypto.randomUUID();
   sessionId = id;
   try {
     sessionStorage.setItem("jh_sid", id);
@@ -83,6 +83,16 @@ function getSessionId(): string {
 let currentPageViewId: number | null = null;
 let pageEnterTime: number = 0;
 
+async function currentUserId(): Promise<string | null> {
+  if (!supabase) return null;
+  try {
+    const { data } = await supabase.auth.getUser();
+    return data.user?.id ?? null;
+  } catch {
+    return null;
+  }
+}
+
 export async function trackPageView(path: string): Promise<void> {
   if (!supabase) return;
 
@@ -92,52 +102,68 @@ export async function trackPageView(path: string): Promise<void> {
   pageEnterTime = Date.now();
 
   const [userId, location] = await Promise.all([
-    supabase.auth.getUser().then(({ data }) => data.user?.id ?? null),
+    currentUserId(),
     getApproximateLocation(),
   ]);
 
   try {
-    const { data } = await supabase
-      .from("page_views")
-      .insert({
-        session_id: getSessionId(),
-        user_id: userId,
-        path,
-        referrer: typeof document !== "undefined" ? document.referrer : null,
-        user_agent:
-          typeof navigator !== "undefined"
-            ? navigator.userAgent.slice(0, 256)
-            : null,
-        screen_width: typeof window !== "undefined" ? window.innerWidth : null,
-        city: location.city,
-        region: location.region,
-        country_code: location.countryCode,
-        duration_seconds: 0,
-      })
-      .select("id")
-      .single();
-
-    currentPageViewId = data?.id ?? null;
-  } catch {
-    // Silently fail — analytics should never break the app
+    const payload = {
+      session_id: getSessionId(), user_id: userId, path,
+      referrer: typeof document !== "undefined" ? document.referrer : null,
+      user_agent: typeof navigator !== "undefined" ? navigator.userAgent.slice(0, 256) : null,
+      screen_width: typeof window !== "undefined" ? window.innerWidth : null,
+      duration_seconds: 0,
+    };
+    // The RPC returns an ID without granting visitors SELECT on the table.
+    const recorded = await supabase.rpc("record_page_view", {
+      page_session: payload.session_id,
+      page_user: payload.user_id,
+      page_path: payload.path,
+      page_referrer: payload.referrer,
+      page_agent: payload.user_agent,
+      page_screen_width: payload.screen_width,
+      page_city: location.city,
+      page_region: location.region,
+      page_country_code: location.countryCode,
+    });
+    if (!recorded.error) {
+      currentPageViewId = Number(recorded.data);
+      return;
+    }
+    // Support the existing database until the migration is applied.
+    const { error } = await supabase.from("page_views").insert({
+      ...payload, city: location.city, region: location.region,
+      country_code: location.countryCode,
+    });
+    if (error?.code === "PGRST204" || error?.code === "42703") {
+      // Older databases may not have the optional location columns yet.
+      const fallback = await supabase.from("page_views").insert(payload);
+      if (fallback.error) console.warn("Page view tracking failed:", fallback.error.message);
+    } else if (error) {
+      console.warn("Page view tracking failed:", error.message);
+    }
+  } catch (error) {
+    console.warn("Page view tracking failed:", error);
   }
 }
 
 export async function updateDuration(): Promise<void> {
   if (!supabase || !currentPageViewId || !pageEnterTime) return;
 
+  const pageId = currentPageViewId;
   const duration = Math.round((Date.now() - pageEnterTime) / 1000);
   if (duration < 1) return;
-
-  try {
-    await supabase
-      .from("page_views")
-      .update({ duration_seconds: Math.min(duration, 7200) }) // Cap at 2h
-      .eq("id", currentPageViewId);
-  } catch {}
-
   currentPageViewId = null;
   pageEnterTime = 0;
+
+  try {
+    const { error } = await supabase.rpc("record_page_duration", {
+      page_id: pageId,
+      page_session: getSessionId(),
+      seconds_spent: Math.min(duration, 7200),
+    });
+    if (error) console.warn("Page duration tracking failed:", error.message);
+  } catch {}
 }
 
 // ── Event Tracking ─────────────────────────────────────────
@@ -148,10 +174,10 @@ export async function trackEvent(
 ): Promise<void> {
   if (!supabase) return;
 
-  const userId = (await supabase.auth.getUser()).data.user?.id ?? null;
+  const userId = await currentUserId();
 
   try {
-    await supabase.from("analytics_events").insert({
+    const { error } = await supabase.from("analytics_events").insert({
       session_id: getSessionId(),
       user_id: userId,
       event_type: eventType,
@@ -159,19 +185,22 @@ export async function trackEvent(
       event_data: eventData,
       path: typeof window !== "undefined" ? window.location.pathname : "",
     });
-  } catch {}
+    if (error) console.warn("Analytics event tracking failed:", error.message);
+  } catch (error) {
+    console.warn("Analytics event tracking failed:", error);
+  }
 }
 
 // ── Module Click Helper ────────────────────────────────────
 // Maps pathname prefix → module name for sidebar clicks
 const MODULE_MAP: Record<string, string> = {
-  "/": "首页",
-  "/all": "求职信息",
+  "/": "招聘信息",
+  "/all": "招聘信息",
   "/tools/assessment": "职业测评",
   "/tools/mbti": "MBTI 测试",
   "/tools/values": "职业价值观测评",
   "/tools/coaching": "求职辅导",
-  "/tools/prep": "求职准备中心",
+  "/tools/prep": "资料中心",
   "/tools/company-prep": "企业备战库",
   "/tools/exam": "笔试题库",
   "/tools/interview": "面试与群面题库",
@@ -182,7 +211,7 @@ const MODULE_MAP: Record<string, string> = {
   "/nav": "常用网址",
   "/shame": "校招避雷",
   "/bookmarks": "我的收藏",
-  "/workspace": "我的求职工作台",
+  "/workspace": "求职工作台",
   "/subscription": "每日岗位推荐",
   "/about": "关于",
   "/login": "登录",
@@ -201,19 +230,4 @@ export function getModuleName(path: string): string {
 
 export async function trackModuleClick(path: string): Promise<void> {
   await trackEvent("module_click", getModuleName(path));
-}
-
-// ── Lifecycle: flush duration on unload ────────────────────
-if (typeof window !== "undefined") {
-  window.addEventListener("beforeunload", () => {
-    if (!supabase || !currentPageViewId || !pageEnterTime) return;
-    const duration = Math.round((Date.now() - pageEnterTime) / 1000);
-    if (duration < 1) return;
-    // Use sendBeacon for reliability on unload
-    const url = `${process.env.NEXT_PUBLIC_SUPABASE_URL}/rest/v1/page_views?id=eq.${currentPageViewId}`;
-    const body = JSON.stringify({ duration_seconds: Math.min(duration, 7200) });
-    try {
-      navigator.sendBeacon(url, new Blob([body], { type: "application/json" }));
-    } catch {}
-  });
 }

@@ -1,7 +1,7 @@
 'use client';
 
 import { useSearchParams } from 'next/navigation';
-import { Suspense, useEffect, useState, useCallback, useRef } from 'react';
+import { Suspense, useEffect, useState, useCallback } from 'react';
 import { PaginatedFeed, Channel, Category, CompanyType, Major, FeedItem, FeedDay } from '@/lib/types';
 import { Timeline } from '@/components/Timeline';
 import { Pagination } from '@/components/Pagination';
@@ -43,7 +43,7 @@ async function loadSearchShard(channel: Channel): Promise<FeedItem[]> {
   if (cached) return cached;
 
   const res = await fetch(`${basePath}/api/feed/search-${shardKey}.json`);
-  if (!res.ok) return [];
+  if (!res.ok) throw new Error('岗位搜索数据暂时无法加载');
 
   const shard: ColumnarShard = await res.json();
   const { k: fields, u: urlMap, s: srcMap, c: chMap, g: catMap, d: rows } = shard;
@@ -241,15 +241,14 @@ function AllPageContent({ routePath }: { routePath: string }) {
 
   const [feed, setFeed] = useState<PaginatedFeed | null>(null);
   const [loading, setLoading] = useState(true);
-  const [viewMode, setViewMode] = useState<'detail' | 'table'>('detail');
-
-  // Read saved view mode preference
-  useEffect(() => {
+  const [loadError, setLoadError] = useState('');
+  const [viewMode, setViewMode] = useState<'detail' | 'table'>(() => {
     try {
       const saved = localStorage.getItem('jobhot-viewmode');
-      if (saved === 'detail' || saved === 'table') setViewMode(saved);
+      if (saved === 'detail' || saved === 'table') return saved;
     } catch {}
-  }, []);
+    return 'detail';
+  });
 
   function handleViewModeChange(mode: 'detail' | 'table') {
     setViewMode(mode);
@@ -264,6 +263,7 @@ function AllPageContent({ routePath }: { routePath: string }) {
 
   const loadData = useCallback(async () => {
     setLoading(true);
+    setLoadError('');
     try {
       if (query || cities.length > 0 || companyType !== 'all' || major !== 'all') {
         const result = await searchFeed(query, channel, category, page, cities, companyType, major);
@@ -271,27 +271,26 @@ function AllPageContent({ routePath }: { routePath: string }) {
       } else {
         const filename = `${channel}-${category}-${page}.json`;
         const res = await fetch(`${basePath}/api/feed/${filename}`);
-        if (!res.ok) {
-          setFeed({ days: [], currentPage: 1, totalPages: 0 });
-        } else {
-          const data: PaginatedFeed = await res.json();
-          const nowStr = new Date().toISOString();
-          data.days = data.days.map(day => ({
-            ...day,
-            items: day.items.filter(item => item.createdAt <= nowStr),
-          })).filter(day => day.items.length > 0);
-          setFeed(data);
-        }
+        if (!res.ok) throw new Error('岗位列表暂时无法加载');
+        const data: PaginatedFeed = await res.json();
+        const nowStr = new Date().toISOString();
+        data.days = data.days.map(day => ({
+          ...day,
+          items: day.items.filter(item => item.createdAt <= nowStr),
+        })).filter(day => day.items.length > 0);
+        setFeed(data);
       }
-    } catch {
-      setFeed({ days: [], currentPage: 1, totalPages: 0 });
+    } catch (error) {
+      setFeed(null);
+      setLoadError(error instanceof Error ? error.message : '岗位数据暂时无法加载');
     }
     setLoading(false);
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [page, channel, category, companyType, major, query, citiesParam]);
 
   useEffect(() => {
-    loadData();
+    const timer = window.setTimeout(() => { loadData(); }, 0);
+    return () => window.clearTimeout(timer);
   }, [loadData]);
 
   const paginationParams: Record<string, string> = {};
@@ -324,6 +323,12 @@ function AllPageContent({ routePath }: { routePath: string }) {
           <div className="empty-state-title">
             {(query || cities.length > 0 || companyType !== 'all' || major !== 'all') ? '搜索数据加载中，首次稍慢…' : '加载中…'}
           </div>
+        </div>
+      ) : loadError ? (
+        <div className="empty-state" role="alert">
+          <div className="empty-state-title">{loadError}</div>
+          <div className="empty-state-desc">请检查网络连接后重试。</div>
+          <button type="button" className="btn" onClick={loadData}>重新加载</button>
         </div>
       ) : feed ? (
         <>

@@ -73,7 +73,7 @@ function TimelineCard({ item, bookmarked, onToggleBookmark }: { item: FeedItem; 
             </svg>
           </button>
           {item.featured && <span className="timeline-selected-badge">精选</span>}
-          <span className={`timeline-score ${getScoreClass(item.score)}`} title="AI 推荐分">{item.score}</span>
+          {item.score > 0 && <span className={`timeline-score ${getScoreClass(item.score)}`} title="推荐分">{item.score}</span>}
           <ShareButton item={item} variant="icon" />
         </div>
       </div>
@@ -134,7 +134,7 @@ function CompactRow({ item, bookmarked, onToggleBookmark }: { item: FeedItem; bo
       </a>
       {item.location && <span className="compact-location">{item.location}</span>}
       {item.deadline && <span className="compact-deadline">{item.deadline}</span>}
-      <span className={`timeline-score timeline-score-sm ${getScoreClass(item.score)}`}>{item.score}</span>
+      {item.score > 0 && <span className={`timeline-score timeline-score-sm ${getScoreClass(item.score)}`}>{item.score}</span>}
       <ShareButton item={item} variant="icon" />
       <button
         type="button"
@@ -263,7 +263,7 @@ function TableView({ days, bookmarks, onToggle }: { days: FeedDay[]; bookmarks: 
                 <td className="feed-td-location">{item.location || '—'}</td>
                 <td className="feed-td-deadline">{item.deadline || '—'}</td>
                 <td className="feed-td-score">
-                  <span className={`timeline-score timeline-score-sm ${getScoreClass(item.score)}`}>{item.score}</span>
+                  {item.score > 0 ? <span className={`timeline-score timeline-score-sm ${getScoreClass(item.score)}`}>{item.score}</span> : '—'}
                 </td>
                 <td className="feed-td-actions">
                   <a href={item.url} target="_blank" rel="noopener noreferrer" className="feed-table-link" title="查看详情">

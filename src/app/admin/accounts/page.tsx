@@ -4,6 +4,7 @@ import { useEffect, useState, useCallback } from 'react';
 import { useAuth } from '@/components/AuthContext';
 import { useAdmin } from '@/hooks/useAdmin';
 import { supabase } from '@/lib/supabase';
+import { createClient } from '@supabase/supabase-js';
 import Link from 'next/link';
 
 // ── Types ───────────────────────────────────────────────────
@@ -287,26 +288,34 @@ export default function AccountsPage() {
       setError('昵称请填写 2～24 个字符');
       return;
     }
+    if (newPassword.length < 8) {
+      setError('初始密码至少 8 位');
+      return;
+    }
 
     setAddLoading(true);
     setError('');
     setSuccess('');
 
-    // Use Supabase auth.signUp to create a new user
-    const password = newPassword.trim() || (Math.random().toString(36).slice(2) + Math.random().toString(36).slice(2));
-    const { error: signUpErr } = await supabase.auth.signUp({
-      email: newEmail.trim(),
-      password,
-      options: {
-        // Skip email confirmation for admin-created accounts
-        data: { created_by_admin: true, nickname: newNickname.trim() },
-      },
+    // An isolated client ensures signUp never replaces the administrator's
+    // existing session in localStorage or AuthContext.
+    const isolatedClient = createClient(
+      process.env.NEXT_PUBLIC_SUPABASE_URL ?? '',
+      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ?? '',
+      { auth: { persistSession: false, autoRefreshToken: false, detectSessionInUrl: false } },
+    );
+    const { data: signup, error: createError } = await isolatedClient.auth.signUp({
+      email: newEmail.trim().toLowerCase(),
+      password: newPassword,
+      options: { data: { created_by_admin: true, nickname: newNickname.trim() } },
     });
 
-    if (signUpErr) {
-      setError(`添加账号失败: ${signUpErr.message}`);
+    if (createError) {
+      setError(`添加账号失败: ${createError.message}`);
+    } else if (!signup.user || signup.user.identities?.length === 0) {
+      setError('未能确认新账号已创建。该邮箱可能已注册，请刷新账号列表核对。');
     } else {
-      setSuccess(`账号 ${newEmail.trim()} 已创建成功${newPassword.trim() ? '' : '（随机密码，用户需通过重置密码登录）'}`);
+      setSuccess(`已提交 ${newEmail.trim()} 的注册，请让用户查收验证邮件后登录。`);
       setNewNickname('');
       setNewEmail('');
       setNewPassword('');
@@ -576,25 +585,28 @@ export default function AccountsPage() {
               </div>
               <div style={{ marginBottom: '1.25rem' }}>
                 <label style={{ display: 'block', fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '0.4rem' }}>
-                  初始密码（留空则随机生成）
+                  初始密码 <span style={{ color: 'var(--accent)' }}>*</span>
                 </label>
                 <input
-                  type="text"
+                  type="password"
                   className="field"
-                  placeholder="留空自动生成随机密码"
+                  placeholder="至少 8 位，请安全地交给用户"
                   value={newPassword}
                   onChange={e => setNewPassword(e.target.value)}
+                  minLength={8}
+                  required
+                  autoComplete="new-password"
                   style={{ width: '100%' }}
                 />
                 <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '0.3rem' }}>
-                  如留空，用户需通过「忘记密码」功能自行设置密码
+                  创建后请通过安全渠道告知用户，建议首次登录后修改密码。
                 </p>
               </div>
               <div className="admin-modal-actions">
                 <button type="button" className="btn btn-secondary" onClick={() => setShowAddModal(false)}>
                   取消
                 </button>
-                <button type="submit" className="btn" disabled={addLoading || !newEmail.trim() || !newNickname.trim()}>
+                <button type="submit" className="btn" disabled={addLoading || !newEmail.trim() || !newNickname.trim() || newPassword.length < 8}>
                   {addLoading ? '创建中...' : '创建账号'}
                 </button>
               </div>
