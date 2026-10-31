@@ -766,7 +766,7 @@ export default function WorkspacePage() {
       <section className={styles.hero}>
         <div>
           <p className={styles.eyebrow}>MY JOB SEARCH</p>
-          <h1>我的求职工作台</h1>
+          <h1>求职工作台</h1>
           <p>把方向、材料、机会和练习放在同一条行动链里。这里记录事实、提醒下一步，不替你制造焦虑。</p>
         </div>
         <div className={styles.heroMeta}>

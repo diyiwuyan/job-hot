@@ -8,7 +8,7 @@ import { PREP_EVIDENCE, ROLE_PREP_PROFILES } from '@/lib/role-prep-data';
 import styles from './Prep.module.css';
 
 export const metadata: Metadata = {
-  title: '求职准备中心 - JOBHOT',
+  title: '资料中心 - JOBHOT',
   description: '从简历、笔试到单面和无领导小组，按真实招聘流程完成大学生求职准备。',
 };
 
@@ -16,7 +16,7 @@ const writtenCount = [...EXAM_SETS, ...COMPANY_EXAM_SETS].reduce((total, item) =
 
 export default function PrepPage() {
   return <div className={`page ${styles.page}`}>
-    <section className={styles.hero}><div><span>JOB SEARCH PREPARATION</span><h1>求职准备中心</h1><p>不要泛泛地“准备面试”。先按岗位建立能力底盘，再根据目标企业和当前招聘环节叠加准备。</p></div><div className={styles.path}><span>岗位</span><i>→</i><span>企业</span><i>→</i><span>笔试</span><i>→</i><span>面试</span></div></section>
+    <section className={styles.hero}><div><span>JOB SEARCH PREPARATION</span><h1>资料中心</h1><p>不要泛泛地“准备面试”。先按岗位建立能力底盘，再根据目标企业和当前招聘环节叠加准备。</p></div><div className={styles.path}><span>岗位</span><i>→</i><span>企业</span><i>→</i><span>笔试</span><i>→</i><span>面试</span></div></section>
     <section className={styles.grid}>
       <Link href="/tools/role-prep" className={styles.card}><span className={styles.number}>01</span><div><small>ROLE PREP</small><h2>岗位专项备战</h2><p>按数据分析、产品、后端、AI Agent 等岗位查看 JD 要求、笔试重点和历年公开面经。</p><strong>选择岗位方向 →</strong></div><ul><li>{ROLE_PREP_PROFILES.length}个岗位方向</li><li>{PREP_EVIDENCE.length}条可追溯来源</li><li>官方 JD + 公开面经</li></ul></Link>
       <Link href="/tools/company-prep" className={styles.card}><span className={styles.number}>02</span><div><small>COMPANY PREP</small><h2>企业备战库</h2><p>按企业查看官方招聘流程、考察重点、原创行为练习和商业案例。</p><strong>选择目标企业 →</strong></div><ul><li>{COMPANY_PREP_PROFILES.length}份完整档案</li><li>{COMPANY_INTERVIEW_QUESTION_COUNT}道原创练习</li><li>官网与面经依据</li></ul></Link>

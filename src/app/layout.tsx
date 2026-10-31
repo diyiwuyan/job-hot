@@ -22,7 +22,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: 'JOBHOT - 大学生求职信息与职业发展工具',
+    default: '招聘信息 - JOBHOT',
     template: '%s',
   },
   description: 'JOBHOT 提供大学生校招实习信息、职业测评、笔试面试题库和求职进展管理工具。',

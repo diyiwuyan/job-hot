@@ -14,7 +14,7 @@ export function Pagination({ currentPage, totalPages, baseUrl, searchParams = {}
     const params = new URLSearchParams(searchParams);
     params.set('page', page.toString());
     // Trailing slash required for GitHub Pages static hosting
-    return `${baseUrl}/?${params.toString()}`;
+    return `${baseUrl === '/' ? '' : baseUrl}/?${params.toString()}`;
   }
 
   // Generate page numbers to show

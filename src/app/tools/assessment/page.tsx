@@ -6,7 +6,7 @@ import { CAREER_ASSESSMENTS } from '@/lib/career-assessment-data';
 import styles from './AssessmentCenter.module.css';
 
 export const metadata: Metadata = {
-  title: '全部职业测评 - JOBHOT',
+  title: '求职测评 - JOBHOT',
   description: '从职业倾向、职业资本和求职诊断三个方向，选择适合大学生当前问题的职业测评。',
 };
 
@@ -88,7 +88,7 @@ export default function AssessmentPage() {
     <div className="page">
       <AssessmentSourceCapture page="assessment-center" />
       <div className="page-header">
-        <h1>全部职业测评</h1>
+        <h1>求职测评</h1>
         <p>先选择最接近你当前问题的一类，再从中完成一项测评。不需要一次全部做完。</p>
       </div>
 

@@ -61,7 +61,7 @@ function buildFilterUrl(
   if (cities && cities.length > 0) params.set('cities', cities.join(','));
   if (companyType && companyType !== 'all') params.set('companyType', companyType);
   if (major && major !== 'all') params.set('major', major);
-  return `${basePath}/?${params.toString()}`;
+  return `${basePath === '/' ? '' : basePath}/?${params.toString()}`;
 }
 
 /* ── Single-select major dropdown ────────────────────────────── */
@@ -202,6 +202,7 @@ export function FeedToolbar({
   onExportCSV,
 }: FeedToolbarProps) {
   const router = useRouter();
+  const routePath = basePath === '/' ? '' : basePath;
   const [cityList, setCityList] = useState<string[]>([]);
   const [selectedCities, setSelectedCities] = useState<string[]>(currentCities);
 
@@ -227,7 +228,7 @@ export function FeedToolbar({
     if (currentMajor !== 'all') params.set('major', currentMajor);
     if (currentQuery) params.set('q', currentQuery);
     if (next.length > 0) params.set('cities', next.join(','));
-    router.push(`${basePath}/?${params.toString()}`);
+    router.push(`${routePath}/?${params.toString()}`);
   }
 
   function selectMajor(major: Major) {
@@ -239,7 +240,7 @@ export function FeedToolbar({
     if (major !== 'all') params.set('major', major);
     if (currentQuery) params.set('q', currentQuery);
     if (selectedCities.length > 0) params.set('cities', selectedCities.join(','));
-    router.push(`${basePath}/?${params.toString()}`);
+    router.push(`${routePath}/?${params.toString()}`);
   }
 
   function toggleCity(city: string) {
@@ -267,7 +268,7 @@ export function FeedToolbar({
     if (currentCompanyType !== 'all') params.set('companyType', currentCompanyType);
     if (currentMajor !== 'all') params.set('major', currentMajor);
     if (selectedCities.length > 0) params.set('cities', selectedCities.join(','));
-    router.push(`${basePath}/?${params.toString()}`);
+    router.push(`${routePath}/?${params.toString()}`);
   }
 
   // Check if any filter is active
@@ -275,14 +276,14 @@ export function FeedToolbar({
 
   function resetFilters() {
     setSelectedCities([]);
-    router.push(`${basePath}/`);
+    router.push(`${routePath}/`);
   }
 
   return (
     <div className="page-header">
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem', gap: '0.75rem', flexWrap: 'wrap' }}>
         <div>
-          <h1>求职信息</h1>
+          <h1>招聘信息</h1>
           <p>大学生求职相关资讯全量信息流</p>
         </div>
         <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center', flexShrink: 0 }}>

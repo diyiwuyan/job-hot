@@ -21,37 +21,21 @@ type NavItem = {
 const navItems: NavItem[] = [
   {
     href: '/',
-    label: '首页',
+    label: '招聘信息',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
       </svg>
     ),
-  },
-  {
-    href: '/all',
-    label: '招聘机会',
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-        <line x1="8" y1="6" x2="21" y2="6" />
-        <line x1="8" y1="12" x2="21" y2="12" />
-        <line x1="8" y1="18" x2="21" y2="18" />
-        <line x1="3" y1="6" x2="3.01" y2="6" />
-        <line x1="3" y1="12" x2="3.01" y2="12" />
-        <line x1="3" y1="18" x2="3.01" y2="18" />
-      </svg>
-    ),
     children: [
-      { href: '/all', label: '全部招聘信息' },
+      { href: '/', label: '招聘信息' },
       { href: '/nav', label: '求职网站导航' },
       { href: '/shame', label: '校招避雷' },
-      { href: '/subscription', label: '每日岗位推荐' },
-      { href: '/bookmarks', label: '已收藏岗位' },
     ],
   },
   {
     href: '/workspace',
-    label: '我的求职工作台',
+    label: '求职工作台',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <rect x="3" y="4" width="18" height="16" rx="2" />
@@ -59,10 +43,15 @@ const navItems: NavItem[] = [
         <path d="m8 14 2 2 5-5" />
       </svg>
     ),
+    children: [
+      { href: '/workspace', label: '求职工作台' },
+      { href: '/subscription', label: '每日岗位推荐' },
+      { href: '/bookmarks', label: '已收藏岗位' },
+    ],
   },
   {
     href: '/tools/assessment',
-    label: '职业方向',
+    label: '求职测评',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="12" cy="12" r="10" />
@@ -72,13 +61,13 @@ const navItems: NavItem[] = [
     ),
     children: [
       { href: '/tools/career-atlas', label: '岗位方向地图' },
-      { href: '/tools/assessment', label: '职业测评中心' },
+      { href: '/tools/assessment', label: '求职测评中心' },
       { href: '/tools/assessment/profile', label: '综合职业画像' },
     ],
   },
   {
     href: '/tools/prep',
-    label: '求职准备',
+    label: '资料中心',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <path d="M9 11l3 3L22 4" />
@@ -86,7 +75,7 @@ const navItems: NavItem[] = [
       </svg>
     ),
     children: [
-      { href: '/tools/prep', label: '求职准备中心' },
+      { href: '/tools/prep', label: '资料中心' },
       { href: '/tools/role-prep', label: '岗位专项备战' },
       { href: '/tools/company-prep', label: '企业备战库' },
       { href: '/tools/exam', label: '笔试题库' },
@@ -128,7 +117,7 @@ export function Sidebar() {
   const normalizedPath = (basePath ? pathname.replace(new RegExp(`^${basePath}`), '') : pathname) || '/';
 
   function isActive(href: string): boolean {
-    if (href === '/') return normalizedPath === '/';
+    if (href === '/') return normalizedPath === '/' || normalizedPath === '/all';
     return normalizedPath.startsWith(href);
   }
 

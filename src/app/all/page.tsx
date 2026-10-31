@@ -227,7 +227,7 @@ function BackToTop() {
   );
 }
 
-function AllPageContent() {
+function AllPageContent({ routePath }: { routePath: string }) {
   const searchParams = useSearchParams();
 
   const page = parseInt(searchParams.get('page') || '1', 10);
@@ -311,7 +311,7 @@ function AllPageContent() {
         currentCities={cities}
         currentCompanyType={companyType}
         currentMajor={major}
-        basePath="/all"
+        basePath={routePath}
         viewMode={viewMode}
         onViewModeChange={handleViewModeChange}
         onExportCSV={feed ? () => exportCSV(feed.days) : undefined}
@@ -331,7 +331,7 @@ function AllPageContent() {
           <Pagination
             currentPage={feed.currentPage}
             totalPages={feed.totalPages}
-            baseUrl="/all"
+            baseUrl={routePath}
             searchParams={paginationParams}
           />
         </>
@@ -342,10 +342,10 @@ function AllPageContent() {
   );
 }
 
-export default function AllPage() {
+export default function AllPage({ routePath = '/all' }: { routePath?: string }) {
   return (
     <Suspense fallback={<div className="empty-state"><div className="empty-state-title">加载中...</div></div>}>
-      <AllPageContent />
+      <AllPageContent routePath={routePath} />
     </Suspense>
   );
 }
