@@ -1,5 +1,30 @@
 [
   {
+    "id": "nowcoder-898",
+    "title": "快手 — 网申：已结束",
+    "summary": "全球短视频与直播龙头企业，全生态布局，内容与技术能力领先。。招聘批次：网申：已结束。工作地点：杭州、广州、深圳、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://campus.kuaishou.cn/recruit/campus/e/#/campus/jobs?pageNum=1&positionLabel=kstar&positionNatureCode=fulltime&recruitSubProjectCodes=20271779425607",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "杭州、广州、深圳、北京、上海",
+    "deadline": "2026/10/30",
+    "tags": [
+      "快手",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "杭州",
+      "广州",
+      "深圳",
+      "视频直播"
+    ],
+    "score": 94,
+    "featured": true,
+    "createdAt": "2026-10-30T19:00:01.000Z"
+  },
+  {
     "id": "nowcoder-29150",
     "title": "珠海万达商管 — 27届秋招",
     "summary": "国内商业运营龙头企业，全业态布局，商业管理与品牌资源领先。。招聘批次：27届秋招。工作地点：杭州、宁波、合肥、福州、珠海、乌鲁木齐、喀什地区、北京、上海。招聘岗位：市场/营销、供应链、管理、管理培训生、人事等。",
@@ -310,6 +335,55 @@
     "createdAt": "2026-10-28T13:49:43.000Z"
   },
   {
+    "id": "nowcoder-14471",
+    "title": "华润数科控股有限公司 — 27届秋招",
+    "summary": "华润旗下数字科技央企，薪资福利稳定，产业数字化项目多，集团资源充沛。。招聘批次：27届秋招。工作地点：深圳、西安。招聘岗位：后端开发、数据、运维、人工智能/算法、研发工程师等。",
+    "url": "https://wecruit.hotjob.cn/SU61bc2afb2f9d24431f527dc8/mc/position/campus",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "深圳、西安",
+    "deadline": "2026/12/09",
+    "tags": [
+      "华润数科控股有限公司",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "深圳",
+      "西安"
+    ],
+    "score": 92,
+    "featured": true,
+    "createdAt": "2026-10-28T13:26:54.000Z"
+  },
+  {
+    "id": "nowcoder-24319",
+    "title": "博腾制药科技股份 — 27届秋招",
+    "summary": "医药 CDMO 上市龙头，薪酬体系完善，新药管线丰富，国际化客户众多。。招聘批次：27届秋招。工作地点：苏州、宜春、孝感、成都、上海、重庆。招聘岗位：研发工程师、机械、化工、电气/自动化、技术支持等。",
+    "url": "https://porton.zhiye.com/campus/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "苏州、宜春、孝感、成都、上海、重庆",
+    "deadline": "2026/12/09",
+    "tags": [
+      "博腾制药科技股份",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "苏州",
+      "宜春",
+      "孝感",
+      "医疗健康"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-10-28T13:25:26.000Z"
+  },
+  {
     "id": "nowcoder-652",
     "title": "滴滴 — 27届秋招",
     "summary": "国内出行服务龙头企业，全生态布局，技术研发与运营能力领先。。招聘批次：27届秋招。工作地点：杭州、广州、深圳、成都、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
@@ -333,31 +407,6 @@
     "score": 84,
     "featured": true,
     "createdAt": "2026-10-14T07:20:24.000Z"
-  },
-  {
-    "id": "nowcoder-898",
-    "title": "快手 — 27届秋招",
-    "summary": "全球短视频与直播龙头企业，全生态布局，内容与技术能力领先。。招聘批次：27届秋招。工作地点：杭州、广州、深圳、北京、上海。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
-    "url": "https://campus.kuaishou.cn/recruit/campus/e/#/campus/jobs?pageNum=1&positionLabel=kstar&positionNatureCode=fulltime&recruitSubProjectCodes=20271779425607",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "campus",
-    "category": "internet",
-    "location": "杭州、广州、深圳、北京、上海",
-    "deadline": "2026/10/30",
-    "tags": [
-      "快手",
-      "校招",
-      "秋招",
-      "互联网/AI",
-      "杭州",
-      "广州",
-      "深圳",
-      "视频直播"
-    ],
-    "score": 84,
-    "featured": true,
-    "createdAt": "2026-10-12T09:03:29.000Z"
   },
   {
     "id": "nowcoder-1151",
