@@ -6,7 +6,18 @@ alter table public.page_views add column if not exists city text;
 alter table public.page_views add column if not exists region text;
 alter table public.page_views add column if not exists country_code text;
 
+drop policy if exists "Anyone can insert page views" on public.page_views;
+drop policy if exists "Visitors can insert their own page views" on public.page_views;
+create policy "Visitors can insert their own page views" on public.page_views
+  for insert to anon, authenticated
+  with check (user_id is null or user_id = auth.uid());
 drop policy if exists "Anyone can update own page view duration" on public.page_views;
+
+drop policy if exists "Anyone can insert events" on public.analytics_events;
+drop policy if exists "Visitors can insert their own analytics events" on public.analytics_events;
+create policy "Visitors can insert their own analytics events" on public.analytics_events
+  for insert to anon, authenticated
+  with check (user_id is null or user_id = auth.uid());
 
 create or replace function public.record_page_view(
   page_session text,
@@ -81,7 +92,7 @@ begin
   for fn in
     select p.oid::regprocedure as signature, p.proname as name
     from pg_proc p join pg_namespace n on n.oid = p.pronamespace
-    where n.nspname = 'public' and p.proname like 'admin\_%' escape '\'
+    where n.nspname = 'public' and left(p.proname, 6) = 'admin_'
   loop
     execute format('revoke all on function %s from public, anon, authenticated', fn.signature);
     if fn.name <> 'admin_list_users' then
