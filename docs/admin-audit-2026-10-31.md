@@ -16,7 +16,7 @@
 
 生产库预检查确认 `page_views` 缺少全部 3 个城市字段；9 月 11 日的代码变更与停更时间吻合。前端修复上线后，现网已出现 2026-10-31 的新访问记录，说明写入链路已恢复。旧代码的 `INSERT ... RETURNING` 在访客 RLS 下也有失败风险。修复不会补回历史缺失的访问数据。
 
-2026-10-31 已在生产 Supabase SQL Editor 执行本迁移。执行后验证：城市字段 3 个；旧 `admin_list_users()` 对 `anon`/`authenticated` 均不可执行；匿名访问写入与时长 RPC 可执行；旧宽松更新策略已删除；`auth.users` 共 8 人。
+2026-10-31 已在生产 Supabase SQL Editor 执行本迁移，并补建原先缺失的 `admin_city_stats(integer)`。执行后验证：城市字段 3 个；旧 `admin_list_users()` 对 `anon`/`authenticated` 均不可执行；匿名访问写入与时长 RPC 可执行；旧宽松更新策略已删除；`auth.users` 共 8 人。
 
 ## 生产环境落地顺序
 

@@ -78,6 +78,33 @@ begin
 end;
 $$;
 
+create or replace function public.admin_city_stats(days_back integer default 30)
+returns table (city text, country_code text, unique_visitors bigint, page_views bigint)
+language plpgsql
+security definer
+set search_path = ''
+stable
+as $$
+begin
+  if not public.is_admin() then
+    raise exception 'Admin access required';
+  end if;
+  if days_back is null or days_back < 1 or days_back > 180 then
+    raise exception 'days_back must be between 1 and 180';
+  end if;
+  return query
+  select coalesce(nullif(trim(pv.city), ''), '未识别'),
+    coalesce(nullif(trim(pv.country_code), ''), '--'),
+    count(distinct pv.session_id)::bigint,
+    count(*)::bigint
+  from public.page_views pv
+  where pv.created_at >= now() - make_interval(days => days_back)
+  group by 1, 2
+  order by 3 desc, 4 desc, 1
+  limit 100;
+end;
+$$;
+
 revoke all on function public.record_page_view(text, uuid, text, text, text, integer, text, text, text) from public, anon, authenticated;
 grant execute on function public.record_page_view(text, uuid, text, text, text, integer, text, text, text) to anon, authenticated;
 revoke all on function public.record_page_duration(bigint, text, integer) from public, anon, authenticated;
