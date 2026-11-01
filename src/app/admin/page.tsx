@@ -36,6 +36,7 @@ interface CityStat {
 
 interface UserStat {
   total_users: number;
+  total_page_views: number;
   active_users_today: number;
   active_users_7d: number;
   total_subscriptions: number;
@@ -330,12 +331,14 @@ export default function AdminPage() {
 
       const [
         accountRes,
+        pageViewsRes,
         totalSubsRes,
         activeSubsRes,
         totalMatchesRes,
         pushedMatchesRes,
       ] = await Promise.all([
         supabase.rpc("admin_list_users_safe"),
+        supabase.from("page_views").select("id", { count: "exact", head: true }),
         supabase
           .from("subscriptions")
           .select("*", { count: "exact", head: true }),
@@ -353,6 +356,7 @@ export default function AdminPage() {
       ]);
 
       noteError("注册用户", accountRes.error);
+      noteError("累计访问次数", pageViewsRes.error);
       noteError("订阅总数", totalSubsRes.error);
       noteError("活跃订阅", activeSubsRes.error);
       noteError("匹配总数", totalMatchesRes.error);
@@ -364,6 +368,7 @@ export default function AdminPage() {
 
       setUserStats({
         total_users: accounts.length,
+        total_page_views: pageViewsRes.count ?? 0,
         active_users_today: activeSince(todayStart),
         active_users_7d: activeSince(weekStart),
         total_subscriptions: totalSubsRes.count ?? 0,
@@ -784,6 +789,12 @@ export default function AdminPage() {
                     {userStats.total_users}
                   </div>
                   <div className="admin-stat-label">累计注册用户</div>
+                </div>
+                <div className="admin-stat-card">
+                  <div className="admin-stat-value">
+                    {userStats.total_page_views}
+                  </div>
+                  <div className="admin-stat-label">累计访问次数</div>
                 </div>
                 <div className="admin-stat-card">
                   <div className="admin-stat-value">
