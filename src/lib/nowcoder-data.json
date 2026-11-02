@@ -25,6 +25,25 @@
     "createdAt": "2026-11-02T08:36:53.000Z"
   },
   {
+    "id": "nowcoder-312013",
+    "title": "金城银行 — 网申：未开始",
+    "summary": "招聘批次：网申：未开始。",
+    "url": "https://www.nowcoder.com/enterprise/312013",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "finance",
+    "companyType": "bank",
+    "tags": [
+      "金城银行",
+      "校招",
+      "金融"
+    ],
+    "score": 83,
+    "featured": true,
+    "createdAt": "2026-11-02T05:37:28.000Z"
+  },
+  {
     "id": "nowcoder-29150",
     "title": "珠海万达商管 — 27届秋招",
     "summary": "国内商业运营龙头企业，全业态布局，商业管理与品牌资源领先。。招聘批次：27届秋招。工作地点：杭州、宁波、合肥、福州、珠海、乌鲁木齐、喀什地区、北京、上海。招聘岗位：市场/营销、供应链、管理、管理培训生、人事等。",
@@ -43,7 +62,7 @@
       "宁波",
       "合肥"
     ],
-    "score": 95,
+    "score": 90,
     "featured": true,
     "createdAt": "2026-10-29T11:38:28.000Z"
   },
