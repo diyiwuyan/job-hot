@@ -11,6 +11,8 @@
     "companyType": "state",
     "location": "昆明",
     "deadline": "2026/11/15",
+    "recruitmentType": "27届秋招",
+    "educationRequired": "本科起",
     "tags": [
       "云南省大数据",
       "校招",
@@ -36,6 +38,8 @@
     "companyType": "state",
     "location": "昆明、大理、曲靖、玉溪",
     "deadline": "2026/12/10",
+    "recruitmentType": "27届秋招",
+    "educationRequired": "本科起",
     "tags": [
       "云电投控集团",
       "校招",
@@ -63,6 +67,8 @@
     "companyType": "foreign",
     "location": "上海、南京",
     "deadline": "尽快投递",
+    "recruitmentType": "27届秋招",
+    "educationRequired": "本科起",
     "tags": [
       "佛吉亚",
       "校招",
@@ -89,6 +95,8 @@
     "companyType": "state",
     "location": "成都、自贡、攀枝花、德阳、绵阳、遂宁、南充、达州、巴中、贵阳",
     "deadline": "2026/11/22",
+    "recruitmentType": "27届秋招",
+    "educationRequired": "本科起",
     "tags": [
       "四川天府银行",
       "校招",
@@ -115,6 +123,8 @@
     "companyType": "private",
     "location": "武汉",
     "deadline": "尽快投递",
+    "recruitmentType": "27届秋招",
+    "educationRequired": "本科起",
     "tags": [
       "多比特信息科技有限公司",
       "校招",
@@ -139,6 +149,8 @@
     "companyType": "private",
     "location": "全国多地",
     "deadline": "尽快投递",
+    "recruitmentType": "27届秋招",
+    "educationRequired": "本科起",
     "tags": [
       "卫龙",
       "校招",
@@ -161,6 +173,8 @@
     "companyType": "private",
     "location": "上海、南京、苏州、杭州、合肥",
     "deadline": "2026/11/30",
+    "recruitmentType": "27届秋招",
+    "educationRequired": "本科起",
     "tags": [
       "七通智能",
       "校招",
@@ -187,6 +201,8 @@
     "companyType": "state",
     "location": "济南、青岛、上海",
     "deadline": "2026/11/13",
+    "recruitmentType": "27届秋招",
+    "educationRequired": "本科起",
     "tags": [
       "山东海洋集团",
       "校招",
@@ -214,6 +230,8 @@
     "companyType": "state",
     "location": "西安",
     "deadline": "2026/11/18",
+    "recruitmentType": "27届秋招",
+    "educationRequired": "博士",
     "tags": [
       "陕药集团",
       "校招",
@@ -239,6 +257,8 @@
     "companyType": "state",
     "location": "大连",
     "deadline": "2026/11/30",
+    "recruitmentType": "27届秋招",
+    "educationRequired": "硕士起",
     "tags": [
       "大连商品交易所",
       "校招",
@@ -264,6 +284,8 @@
     "companyType": "private",
     "location": "成都",
     "deadline": "尽快投递",
+    "recruitmentType": "27届秋招",
+    "educationRequired": "本科起",
     "tags": [
       "成都黑鸦",
       "校招",
@@ -288,6 +310,8 @@
     "companyType": "state",
     "location": "北京",
     "deadline": "尽快投递",
+    "recruitmentType": "27届秋招",
+    "educationRequired": "硕士起",
     "tags": [
       "航空工业导弹院",
       "校招",
@@ -313,6 +337,8 @@
     "companyType": "state",
     "location": "全国多地",
     "deadline": "尽快投递",
+    "recruitmentType": "27届秋招",
+    "educationRequired": "本科起",
     "tags": [
       "铁正检测科技有限公司",
       "校招",
@@ -337,6 +363,8 @@
     "companyType": "private",
     "location": "上海、苏州、杭州、广州、成都",
     "deadline": "尽快投递",
+    "recruitmentType": "27届秋招",
+    "educationRequired": "本科起",
     "tags": [
       "杉互健康",
       "实习",
@@ -363,6 +391,8 @@
     "companyType": "private",
     "location": "湖州",
     "deadline": "2027/6/30",
+    "recruitmentType": "27届秋招",
+    "educationRequired": "本科起",
     "tags": [
       "恒林家居",
       "校招",
@@ -387,6 +417,8 @@
     "companyType": "private",
     "location": "北京、上海、福清、厦门",
     "deadline": "2026/12/11",
+    "recruitmentType": "27届秋招",
+    "educationRequired": "本科起",
     "tags": [
       "瑞幸咖啡",
       "校招",
@@ -413,6 +445,10 @@
     "companyType": "state",
     "location": "北京、内蒙古、济南、全国",
     "deadline": "招满为止",
+    "recruitmentType": "27届秋招",
+    "educationRequired": "本科, 硕士, 博士",
+    "majorRequired": "按照岗位筛选，不清楚专业对应岗位的看必看文档的第八点哦 宝宝~",
+    "description": "/",
     "tags": [
       "华润双鹤",
       "校招",
@@ -904,6 +940,8 @@
     "companyType": "foreign",
     "location": "全国多地",
     "deadline": "2026/1/30",
+    "recruitmentType": "27届秋招",
+    "educationRequired": "本科起",
     "tags": [
       "怡和机器",
       "校招",
@@ -927,6 +965,8 @@
     "companyType": "state",
     "location": "杭州、全国多地",
     "deadline": "尽快投递",
+    "recruitmentType": "27届秋招",
+    "educationRequired": "本科起",
     "tags": [
       "联华华商集团",
       "校招",
