@@ -376,8 +376,8 @@ for (const [ch, items] of Object.entries(channelShards)) {
 // ─── 详情页轻量索引（按 id 哈希分桶）────────────────────────────
 // 详情页 /item?id=xxx 只需按 id 查一条，过去要整包下载 9MB 的 search-all.json。
 // 这里按 id 的哈希均匀分散到 64 个小桶，详情页只需下载对应桶（每桶通常 <50KB）。
-// 字段顺序固定，summary 截断到 80 字（详情页展示足够）。
-const detailFields = ['title', 'summary', 'url', 'source', 'channel', 'category', 'tags', 'createdAt', 'companyType', 'location', 'deadline'];
+// 详情桶保留完整摘要及来源提供的 JD 字段；招聘列表仍使用轻量短摘要。
+const detailFields = ['title', 'summary', 'url', 'source', 'channel', 'category', 'tags', 'createdAt', 'companyType', 'location', 'deadline', 'recruitmentType', 'educationRequired', 'majorRequired', 'salaryRange', 'headcount', 'benefits', 'description', 'requirements'];
 
 const DETAIL_BUCKET_COUNT = 64;
 // 简单稳定哈希（djb2），与客户端 bucketOf 保持完全一致。
@@ -404,7 +404,7 @@ for (const item of feedItems) {
   }
   detailBuckets[bucket].d[item.id] = [
     item.title,
-    item.summary.length > 80 ? item.summary.slice(0, 80) + '…' : item.summary,
+    item.summary,
     compactUrl(item.url),
     sourceCodeMap[item.source] || item.source,
     channelCodeMap[item.channel] || item.channel,
@@ -414,6 +414,14 @@ for (const item of feedItems) {
     item.companyType || '',
     item.location || '',
     item.deadline || '',
+    item.recruitmentType || '',
+    item.educationRequired || '',
+    item.majorRequired || '',
+    item.salaryRange || '',
+    item.headcount || '',
+    item.benefits || '',
+    item.description || '',
+    item.requirements || '',
   ];
 }
 

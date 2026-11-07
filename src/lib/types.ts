@@ -47,6 +47,14 @@ export interface FeedItem {
   companyType?: CompanyType; // 外企/央国企/民企/银行/事业单位
   location?: string;          // 工作城市
   deadline?: string;          // 截止日期 (e.g. "2026/05/24" or "尽快投递")
+  recruitmentType?: string;
+  educationRequired?: string;
+  majorRequired?: string;
+  salaryRange?: string;
+  headcount?: string;
+  benefits?: string;
+  description?: string;
+  requirements?: string;
   tags: string[];
   score: number;
   featured?: boolean;

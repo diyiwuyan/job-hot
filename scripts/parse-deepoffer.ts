@@ -86,6 +86,14 @@ interface FeedItem {
   companyType?: CompanyType;
   location?: string;
   deadline?: string;
+  recruitmentType?: string;
+  educationRequired?: string;
+  majorRequired?: string;
+  salaryRange?: string;
+  headcount?: string;
+  benefits?: string;
+  description?: string;
+  requirements?: string;
   tags: string[];
   score: number;
   featured?: boolean;
@@ -283,6 +291,24 @@ function buildUrl(job: DeepOfferJob): string {
   return job.apply_url || job.announcement_url || job.source_url || `https://deepoffer.cn/jobs/${job.id}`;
 }
 
+function plainText(value?: string | null): string | undefined {
+  if (!value) return undefined;
+  const text = value
+    .replace(/<\s*br\s*\/?\s*>/gi, '\n')
+    .replace(/<\/(?:p|div|li|h[1-6])\s*>/gi, '\n')
+    .replace(/<[^>]*>/g, '')
+    .replace(/&nbsp;|&#160;/gi, ' ')
+    .replace(/&amp;/gi, '&')
+    .replace(/&lt;/gi, '<')
+    .replace(/&gt;/gi, '>')
+    .replace(/&quot;/gi, '"')
+    .replace(/&#39;|&apos;/gi, "'")
+    .replace(/[\t\u00a0 ]+/g, ' ')
+    .replace(/\n\s*\n+/g, '\n')
+    .trim();
+  return text ? text.slice(0, 12000) : undefined;
+}
+
 // ─── Fetch with retry and rate-limit handling ───────────────────────
 async function fetchWithRetry(url: string, retries = MAX_RETRIES): Promise<DeepOfferResponse | null> {
   for (let attempt = 1; attempt <= retries; attempt++) {
@@ -431,6 +457,14 @@ function convertToFeedItem(job: DeepOfferJob): FeedItem {
     companyType,
     location,
     deadline,
+    recruitmentType: job.recruitment_type || undefined,
+    educationRequired: job.education_required || undefined,
+    majorRequired: job.major_required || undefined,
+    salaryRange: job.salary_range || undefined,
+    headcount: job.headcount || undefined,
+    benefits: plainText(job.benefits),
+    description: plainText(job.description),
+    requirements: plainText(job.requirements),
     tags: generateTags(job, channel, category),
     score,
     featured: score >= 80,
