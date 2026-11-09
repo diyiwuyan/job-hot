@@ -1,5 +1,100 @@
 [
   {
+    "id": "nowcoder-2746",
+    "title": "中金所技术公司 — 网申中 今日收录",
+    "summary": "金融期货技术核心，交易所全资子公司，高并发低延迟，硕博占比高。。招聘批次：网申中 今日收录。工作地点：苏州、上海。招聘岗位：后端开发、前端开发、数据、运维、人工智能/算法等。",
+    "url": "https://www.nowcoder.com/enterprise/2746?page=1&recruitType=1",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "finance",
+    "location": "苏州、上海",
+    "deadline": "2026/12/30",
+    "tags": [
+      "中金所技术公司",
+      "校招",
+      "金融",
+      "苏州",
+      "上海",
+      "交易所"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-11-09T09:47:59.000Z"
+  },
+  {
+    "id": "nowcoder-13804",
+    "title": "广东广电网络 — 27届秋招 今日收录",
+    "summary": "省属国有广电网络企业，薪资稳定福利齐全，智慧广电与政务信息化项目储备充足。。招聘批次：27届秋招 今日收录。工作地点：广州、韶关、深圳、珠海、汕头、佛山、江门、湛江、茂名、肇庆、惠州、梅州、汕尾、河源、阳江、清远、东莞、中山、潮州、揭阳、云浮、南沙开发区。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://xym.51job.com/wechat/vuectmjobs/#/search?id=6BA61ACB-DFCC-4E14-B253-3E28A9A9DE0F",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "auto_ic",
+    "location": "广州、韶关、深圳、珠海、汕头、佛山、江门、湛江、茂名、肇庆、惠州、梅州、汕尾、河源、阳江、清远、东莞、中山、潮州、揭阳、云浮、南沙开发区",
+    "deadline": "2026/11/29",
+    "tags": [
+      "广东广电网络",
+      "校招",
+      "秋招",
+      "车企/IC",
+      "广州",
+      "韶关",
+      "深圳",
+      "通信电子",
+      "数据服务"
+    ],
+    "score": 93,
+    "featured": true,
+    "createdAt": "2026-11-09T08:09:41.000Z"
+  },
+  {
+    "id": "nowcoder-27079",
+    "title": "云南信托 — 27届秋招 今日收录",
+    "summary": "全国性信托金融机构，薪资稳定福利完善，资产管理与财富管理业务资源丰富。。招聘批次：27届秋招 今日收录。工作地点：南京、武汉、深圳、昆明、北京、上海。招聘岗位：产品、运营、项目、风控、投融资等。",
+    "url": "https://yntrust.zhiye.com/campus/jobs",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "finance",
+    "location": "南京、武汉、深圳、昆明、北京、上海",
+    "deadline": "2026/12/20",
+    "tags": [
+      "云南信托",
+      "校招",
+      "秋招",
+      "金融",
+      "南京",
+      "武汉",
+      "深圳"
+    ],
+    "score": 94,
+    "featured": true,
+    "createdAt": "2026-11-09T07:15:46.000Z"
+  },
+  {
+    "id": "nowcoder-29811",
+    "title": "希迪智驾科技股份有限公司 — 27届秋招 今日收录",
+    "summary": "商用车自动驾驶科创企业，薪酬竞争力强，赛道前景广阔，矿山物流落地项目充足。。招聘批次：27届秋招 今日收录。工作地点：长沙。招聘岗位：后端开发、前端开发、客户端开发、测试、数据等。",
+    "url": "https://campus.51job.com/cidi2027/about2.html",
+    "source": "牛客网",
+    "sourceHandle": "@nowcoder",
+    "channel": "campus",
+    "category": "internet",
+    "location": "长沙",
+    "deadline": "2026/12/09",
+    "tags": [
+      "希迪智驾科技股份有限公司",
+      "校招",
+      "秋招",
+      "互联网/AI",
+      "长沙"
+    ],
+    "score": 91,
+    "featured": true,
+    "createdAt": "2026-11-09T07:11:15.000Z"
+  },
+  {
     "id": "nowcoder-264411",
     "title": "和胜工业 — 27届秋招",
     "summary": "新能源铝材上市企业，薪资绩效清晰，订单充足，轻量化结构件研发空间大。。招聘批次：27届秋招。工作地点：马鞍山、中山、宜宾。招聘岗位：后端开发、前端开发、测试、运维、研发工程师等。",
@@ -1139,28 +1234,5 @@
     "score": 77,
     "featured": false,
     "createdAt": "2026-08-07T05:36:22.000Z"
-  },
-  {
-    "id": "nowcoder-2746",
-    "title": "中金所技术公司 — 网申：已结束",
-    "summary": "金融期货技术核心，交易所全资子公司，高并发低延迟，硕博占比高。。招聘批次：网申：已结束。工作地点：苏州、上海。招聘岗位：后端开发、前端开发、数据、运维、人工智能/算法等。",
-    "url": "https://cffexit.zhiye.com/alljob/?o=2",
-    "source": "牛客网",
-    "sourceHandle": "@nowcoder",
-    "channel": "intern",
-    "category": "finance",
-    "location": "苏州、上海",
-    "deadline": "2026/06/06",
-    "tags": [
-      "中金所技术公司",
-      "实习",
-      "金融",
-      "苏州",
-      "上海",
-      "交易所"
-    ],
-    "score": 66,
-    "featured": false,
-    "createdAt": "2026-06-06T19:00:01.000Z"
   }
 ]
