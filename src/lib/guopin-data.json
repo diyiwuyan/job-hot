@@ -5530,6 +5530,30 @@
     "createdAt": "2026-11-11T00:00:00.000Z"
   },
   {
+    "id": "guopin-227152527022360730",
+    "title": "国电投绿色能源（通榆）有限公司 — 土建管理",
+    "summary": "企业性质：国企。行业：电力、热力生产和供应业。工作地点：白城-通榆县。薪资面议。学历：本科。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=227152527022360730",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "白城-通榆县",
+    "deadline": "2026/11/30",
+    "tags": [
+      "国电投绿色能源（通榆）有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "电力、热力生产和供应业",
+      "白城"
+    ],
+    "score": 83,
+    "featured": true,
+    "createdAt": "2026-11-11T00:00:00.000Z"
+  },
+  {
     "id": "guopin-226578400876169181",
     "title": "北京市热力工程设计有限责任公司 — 工程设计师（应届-电气）",
     "summary": "企业性质：国企。行业：专业技术服务业。工作地点：北京-丰台区。薪资面议。学历：硕士。规模：100-300人。",
@@ -5659,6 +5683,30 @@
     "deadline": "2026/11/30",
     "tags": [
       "国电投绿色能源股份有限公司白城热电分公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "电力、热力生产和供应业",
+      "白城"
+    ],
+    "score": 80,
+    "featured": true,
+    "createdAt": "2026-11-11T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-227152433120282779",
+    "title": "国电投绿色能源（通榆）有限公司 — 技经管理",
+    "summary": "企业性质：国企。行业：电力、热力生产和供应业。工作地点：白城-通榆县。薪资面议。学历：本科。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=227152433120282779",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "白城-通榆县",
+    "deadline": "2026/11/30",
+    "tags": [
+      "国电投绿色能源（通榆）有限公司",
       "校招",
       "国企",
       "车企/IC",
@@ -41740,29 +41788,6 @@
     "createdAt": "2026-10-30T21:22:48.000Z"
   },
   {
-    "id": "guopin-224858608611888725",
-    "title": "中储粮北方农业开发有限公司 — 农业技术岗",
-    "summary": "企业性质：国企。行业：农、林、牧、渔业。工作地点：黑河-嫩江市。薪资面议。学历：本科。规模：500-1000人。",
-    "url": "https://www.iguopin.com/job/detail?id=224858608611888725",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "黑河-嫩江市",
-    "deadline": "2026/11/15",
-    "tags": [
-      "中储粮北方农业开发有限公司",
-      "校招",
-      "国企",
-      "农、林、牧、渔业",
-      "黑河"
-    ],
-    "score": 75,
-    "featured": false,
-    "createdAt": "2026-10-30T21:22:48.000Z"
-  },
-  {
     "id": "guopin-224858608091795029",
     "title": "中储粮北方农业开发有限公司 — 农业技术岗",
     "summary": "企业性质：国企。行业：农、林、牧、渔业。工作地点：黑河-嫩江市。薪资面议。学历：本科。规模：500-1000人。",
@@ -42445,6 +42470,29 @@
       "新乡"
     ],
     "score": 75,
+    "featured": false,
+    "createdAt": "2026-10-30T21:22:48.000Z"
+  },
+  {
+    "id": "guopin-224858608611888725",
+    "title": "中储粮北方农业开发有限公司 — 农业技术岗",
+    "summary": "企业性质：国企。行业：农、林、牧、渔业。工作地点：黑河-嫩江市。薪资面议。学历：本科。规模：500-1000人。",
+    "url": "https://www.iguopin.com/job/detail?id=224858608611888725",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "黑河-嫩江市",
+    "deadline": "2026/11/15",
+    "tags": [
+      "中储粮北方农业开发有限公司",
+      "校招",
+      "国企",
+      "农、林、牧、渔业",
+      "黑河"
+    ],
+    "score": 70,
     "featured": false,
     "createdAt": "2026-10-30T21:22:48.000Z"
   },
