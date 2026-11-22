@@ -72,6 +72,54 @@
     "createdAt": "2026-11-23T00:00:00.000Z"
   },
   {
+    "id": "guopin-228051584137825416",
+    "title": "杭州杭氧透平机械有限公司 — 产品调试、安装员",
+    "summary": "企业性质：国企。行业：通用设备制造业。工作地点：杭州-临安区。薪资：5200-8000元/月。学历：本科。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=228051584137825416",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "杭州-临安区",
+    "deadline": "2027/02/18",
+    "tags": [
+      "杭州杭氧透平机械有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "通用设备制造业",
+      "杭州"
+    ],
+    "score": 85,
+    "featured": true,
+    "createdAt": "2026-11-21T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-228051870894001307",
+    "title": "杭州杭氧透平机械有限公司 — 技术研发",
+    "summary": "企业性质：国企。行业：通用设备制造业。工作地点：杭州-临安区。薪资面议。学历：硕士。规模：100-300人。",
+    "url": "https://www.iguopin.com/job/detail?id=228051870894001307",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "杭州-临安区",
+    "deadline": "2027/02/18",
+    "tags": [
+      "杭州杭氧透平机械有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "通用设备制造业",
+      "杭州"
+    ],
+    "score": 81,
+    "featured": true,
+    "createdAt": "2026-11-21T00:00:00.000Z"
+  },
+  {
     "id": "guopin-227915951335542148",
     "title": "亚太建设科技信息研究院有限公司 — 计算机/数字化",
     "summary": "企业性质：国企。行业：科技推广和应用服务业。工作地点：北京-东城区。薪资面议。学历：硕士。规模：100-300人。",
@@ -9944,8 +9992,8 @@
       "化学原料和化学制品制造业",
       "盘锦"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-11-14T08:28:44.000Z"
   },
   {
@@ -72664,7 +72712,7 @@
       "电力、热力、燃气及水生产和供应业",
       "上海"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-10-22T10:33:10.000Z"
   },
@@ -72688,7 +72736,7 @@
       "电力、热力、燃气及水生产和供应业",
       "上海"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-10-22T10:28:33.000Z"
   },
@@ -360504,30 +360552,6 @@
     "createdAt": "2026-09-01T00:00:00.000Z"
   },
   {
-    "id": "guopin-215265258174940686",
-    "title": "中国能源建设集团广东省电力设计研究院有限公司 — 广东院本部—电气工程师",
-    "summary": "企业性质：国企。行业：电力/热力/燃气/水利。工作地点：广州-黄埔区。薪资面议。学历：本科。规模：2000-5000人。",
-    "url": "https://www.iguopin.com/job/detail?id=215265258174940686",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "广州-黄埔区",
-    "deadline": "2026/12/01",
-    "tags": [
-      "中国能源建设集团广东省电力设计研究院有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "电力/热力/燃气/水利",
-      "广州"
-    ],
-    "score": 78,
-    "featured": false,
-    "createdAt": "2026-09-01T00:00:00.000Z"
-  },
-  {
     "id": "guopin-215265259919771150",
     "title": "中国能源建设集团广东省电力设计研究院有限公司 — 广东院本部—自动化工程师",
     "summary": "企业性质：国企。行业：电力/热力/燃气/水利。工作地点：广州-黄埔区。薪资面议。学历：硕士。规模：2000-5000人。",
@@ -364197,6 +364221,30 @@
       "北京"
     ],
     "score": 64,
+    "featured": false,
+    "createdAt": "2026-09-01T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-215265258174940686",
+    "title": "中国能源建设集团广东省电力设计研究院有限公司 — 广东院本部—电气工程师",
+    "summary": "企业性质：国企。行业：电力/热力/燃气/水利。工作地点：广州-黄埔区。薪资面议。学历：硕士。规模：2000-5000人。",
+    "url": "https://www.iguopin.com/job/detail?id=215265258174940686",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "广州-黄埔区",
+    "deadline": "2026/12/01",
+    "tags": [
+      "中国能源建设集团广东省电力设计研究院有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "电力/热力/燃气/水利",
+      "广州"
+    ],
+    "score": 63,
     "featured": false,
     "createdAt": "2026-09-01T00:00:00.000Z"
   },
