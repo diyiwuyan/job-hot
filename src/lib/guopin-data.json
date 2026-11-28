@@ -8386,7 +8386,7 @@
       "其他采矿业",
       "三门峡"
     ],
-    "score": 87,
+    "score": 82,
     "featured": true,
     "createdAt": "2026-11-20T00:00:00.000Z"
   },
@@ -8410,7 +8410,7 @@
       "制造业",
       "珠海"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-11-20T00:00:00.000Z"
   },
@@ -8434,7 +8434,7 @@
       "专用设备制造业",
       "黄石"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-11-20T00:00:00.000Z"
   },
@@ -8458,7 +8458,7 @@
       "制造业",
       "三门峡"
     ],
-    "score": 86,
+    "score": 81,
     "featured": true,
     "createdAt": "2026-11-20T00:00:00.000Z"
   },
@@ -8481,7 +8481,7 @@
       "其他",
       "贵州"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-11-20T00:00:00.000Z"
   },
@@ -8505,7 +8505,7 @@
       "制造业",
       "三门峡"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-11-20T00:00:00.000Z"
   },
@@ -8529,8 +8529,8 @@
       "科技推广和应用服务业",
       "廊坊"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-11-20T00:00:00.000Z"
   },
   {
@@ -8553,8 +8553,8 @@
       "科学研究和技术服务业",
       "贵阳"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-11-20T00:00:00.000Z"
   },
   {
@@ -8577,8 +8577,8 @@
       "制造业",
       "珠海"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-11-20T00:00:00.000Z"
   },
   {
@@ -8601,8 +8601,8 @@
       "医药制造业",
       "贵阳"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-11-20T00:00:00.000Z"
   },
   {
@@ -8624,8 +8624,8 @@
       "专业技术服务业",
       "北京"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-11-20T00:00:00.000Z"
   },
   {
@@ -8648,8 +8648,8 @@
       "制造业",
       "三门峡"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-11-20T00:00:00.000Z"
   },
   {
@@ -8672,8 +8672,8 @@
       "制造业",
       "三门峡"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-11-20T00:00:00.000Z"
   },
   {
@@ -8696,8 +8696,8 @@
       "其他金融业",
       "海口"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-11-20T00:00:00.000Z"
   },
   {
@@ -8719,8 +8719,8 @@
       "科学研究和技术服务业",
       "上海"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-11-20T00:00:00.000Z"
   },
   {
@@ -8743,8 +8743,8 @@
       "北京",
       "秘鲁"
     ],
-    "score": 81,
-    "featured": true,
+    "score": 76,
+    "featured": false,
     "createdAt": "2026-11-20T00:00:00.000Z"
   },
   {
@@ -8766,8 +8766,8 @@
       "科学研究和技术服务业",
       "上海"
     ],
-    "score": 80,
-    "featured": true,
+    "score": 75,
+    "featured": false,
     "createdAt": "2026-11-20T00:00:00.000Z"
   },
   {
@@ -8790,7 +8790,7 @@
       "信息传输、软件和信息技术服务业",
       "上海"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-11-20T00:00:00.000Z"
   },
@@ -8814,7 +8814,7 @@
       "信息传输、软件和信息技术服务业",
       "上海"
     ],
-    "score": 73,
+    "score": 68,
     "featured": false,
     "createdAt": "2026-11-20T00:00:00.000Z"
   },
@@ -8839,7 +8839,7 @@
       "北京",
       "上海"
     ],
-    "score": 71,
+    "score": 66,
     "featured": false,
     "createdAt": "2026-11-20T00:00:00.000Z"
   },
@@ -8864,7 +8864,7 @@
       "北京",
       "上海"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-11-20T00:00:00.000Z"
   },
@@ -8888,7 +8888,7 @@
       "信息传输、软件和信息技术服务业",
       "北京"
     ],
-    "score": 70,
+    "score": 65,
     "featured": false,
     "createdAt": "2026-11-20T00:00:00.000Z"
   },
@@ -8912,8 +8912,8 @@
       "其他制造业",
       "常德"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-11-19T22:42:34.000Z"
   },
   {
@@ -8936,8 +8936,8 @@
       "其他制造业",
       "常德"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-11-19T22:16:46.000Z"
   },
   {
@@ -8962,7 +8962,7 @@
       "郑州",
       "上海"
     ],
-    "score": 78,
+    "score": 73,
     "featured": false,
     "createdAt": "2026-11-19T18:00:00.000Z"
   },
@@ -8988,7 +8988,7 @@
       "苏州",
       "广州"
     ],
-    "score": 77,
+    "score": 72,
     "featured": false,
     "createdAt": "2026-11-19T17:34:28.000Z"
   },
@@ -9011,8 +9011,8 @@
       "新闻/出版",
       "北京"
     ],
-    "score": 82,
-    "featured": true,
+    "score": 77,
+    "featured": false,
     "createdAt": "2026-11-19T17:17:09.000Z"
   },
   {
@@ -9035,7 +9035,7 @@
       "新闻/出版",
       "北京"
     ],
-    "score": 85,
+    "score": 80,
     "featured": true,
     "createdAt": "2026-11-19T17:15:30.000Z"
   },
@@ -9058,8 +9058,8 @@
       "商务服务业",
       "雄安新区"
     ],
-    "score": 84,
-    "featured": true,
+    "score": 79,
+    "featured": false,
     "createdAt": "2026-11-19T16:08:40.000Z"
   },
   {
@@ -9082,8 +9082,8 @@
       "制造业",
       "珠海"
     ],
-    "score": 83,
-    "featured": true,
+    "score": 78,
+    "featured": false,
     "createdAt": "2026-11-19T16:00:00.000Z"
   },
   {
@@ -19333,53 +19333,6 @@
     "createdAt": "2026-11-13T00:00:00.000Z"
   },
   {
-    "id": "guopin-226895944065484963",
-    "title": "上海南华国际物流有限公司 — 租船操作",
-    "summary": "企业性质：国企。行业：多式联运和运输代理业。工作地点：上海。薪资：6000-8000元/月。学历：本科。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=226895944065484963",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "上海",
-    "deadline": "2027/02/11",
-    "tags": [
-      "上海南华国际物流有限公司",
-      "校招",
-      "国企",
-      "多式联运和运输代理业",
-      "上海"
-    ],
-    "score": 80,
-    "featured": true,
-    "createdAt": "2026-11-13T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-226904868336437402",
-    "title": "北京北矿亿博科技有限责任公司 — 自控工程师",
-    "summary": "企业性质：国企。行业：其他采矿业。工作地点：北京-丰台区。薪资：12000-20000元/月。学历：硕士。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=226904868336437402",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "companyType": "state",
-    "location": "北京-丰台区",
-    "deadline": "2027/02/10",
-    "tags": [
-      "北京北矿亿博科技有限责任公司",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "其他采矿业",
-      "北京"
-    ],
-    "score": 79,
-    "featured": false,
-    "createdAt": "2026-11-13T00:00:00.000Z"
-  },
-  {
     "id": "guopin-226904564551387290",
     "title": "国药集团新疆新特药业有限公司 — 和田 市场推广员（应届、本科、药学/医学/化学/生物相关专业）",
     "summary": "企业性质：国企。行业：批发业。工作地点：乌鲁木齐-新市区。薪资：3000-8000元/月。学历：本科。规模：1000-2000人。",
@@ -19445,29 +19398,6 @@
       "车企/IC",
       "制造业",
       "南通"
-    ],
-    "score": 79,
-    "featured": false,
-    "createdAt": "2026-11-13T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-226897052854913179",
-    "title": "海南港航控股有限公司 — 管培生（法务方向）",
-    "summary": "企业性质：国企。行业：交通运输、仓储和邮政业。工作地点：海口-秀英区。薪资：15000-20000元/月。学历：硕士。规模：2000-5000人。",
-    "url": "https://www.iguopin.com/job/detail?id=226897052854913179",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "海口-秀英区",
-    "deadline": "2026/11/30",
-    "tags": [
-      "海南港航控股有限公司",
-      "校招",
-      "国企",
-      "交通运输、仓储和邮政业",
-      "海口"
     ],
     "score": 79,
     "featured": false,
@@ -19545,123 +19475,6 @@
     "createdAt": "2026-11-13T00:00:00.000Z"
   },
   {
-    "id": "guopin-226894568149223578",
-    "title": "海南港航控股有限公司 — 管培生（全球数字化供应链方向）",
-    "summary": "企业性质：国企。行业：交通运输、仓储和邮政业。工作地点：海口-秀英区。薪资：15000-20000元/月。学历：硕士。规模：2000-5000人。",
-    "url": "https://www.iguopin.com/job/detail?id=226894568149223578",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "海口-秀英区",
-    "deadline": "2026/11/30",
-    "tags": [
-      "海南港航控股有限公司",
-      "校招",
-      "国企",
-      "交通运输、仓储和邮政业",
-      "海口"
-    ],
-    "score": 78,
-    "featured": false,
-    "createdAt": "2026-11-13T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-226893203591135250",
-    "title": "海南港航控股有限公司 — 管培生（智能航运方向）",
-    "summary": "企业性质：国企。行业：交通运输、仓储和邮政业。工作地点：海口-秀英区。薪资：15000-20000元/月。学历：硕士。规模：2000-5000人。",
-    "url": "https://www.iguopin.com/job/detail?id=226893203591135250",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "海口-秀英区",
-    "deadline": "2026/11/30",
-    "tags": [
-      "海南港航控股有限公司",
-      "校招",
-      "国企",
-      "交通运输、仓储和邮政业",
-      "海口"
-    ],
-    "score": 78,
-    "featured": false,
-    "createdAt": "2026-11-13T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-226892437476346009",
-    "title": "海南港航控股有限公司 — 管培生（数据建模与模型管理方向）",
-    "summary": "企业性质：国企。行业：交通运输、仓储和邮政业。工作地点：海口-秀英区。薪资：15000-20000元/月。学历：硕士。规模：2000-5000人。",
-    "url": "https://www.iguopin.com/job/detail?id=226892437476346009",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "internet",
-    "companyType": "state",
-    "location": "海口-秀英区",
-    "deadline": "2026/11/30",
-    "tags": [
-      "海南港航控股有限公司",
-      "校招",
-      "国企",
-      "互联网/AI",
-      "交通运输、仓储和邮政业",
-      "海口"
-    ],
-    "score": 78,
-    "featured": false,
-    "createdAt": "2026-11-13T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-226904488819032082",
-    "title": "中国汕头外轮代理有限公司 — 船务部客户开发岗（综合调度）",
-    "summary": "企业性质：国企。行业：多式联运和运输代理业。工作地点：汕头-龙湖区。薪资面议。学历：本科。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=226904488819032082",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "汕头-龙湖区",
-    "deadline": "2027/02/10",
-    "tags": [
-      "中国汕头外轮代理有限公司",
-      "校招",
-      "国企",
-      "多式联运和运输代理业",
-      "汕头"
-    ],
-    "score": 77,
-    "featured": false,
-    "createdAt": "2026-11-13T00:00:00.000Z"
-  },
-  {
-    "id": "guopin-218788690548228372",
-    "title": "中远海运化工物流有限公司 — 供应链管理岗",
-    "summary": "企业性质：国企。行业：道路运输业。工作地点：上海-虹口区。薪资面议。学历：本科。规模：300-500人。",
-    "url": "https://www.iguopin.com/job/detail?id=218788690548228372",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "auto_ic",
-    "companyType": "state",
-    "location": "上海-虹口区",
-    "deadline": "2026/12/17",
-    "tags": [
-      "中远海运化工物流有限公司",
-      "校招",
-      "国企",
-      "车企/IC",
-      "道路运输业",
-      "上海"
-    ],
-    "score": 77,
-    "featured": false,
-    "createdAt": "2026-11-13T00:00:00.000Z"
-  },
-  {
     "id": "guopin-226906141039265946",
     "title": "中国盐业集团有限公司 — 中盐盐穴综合利用股份有限公司 法务审计部 审计岗",
     "summary": "企业性质：国企。行业：制造业。工作地点：常州-金坛区。薪资面议。学历：硕士。规模：30000人以上。",
@@ -19686,25 +19499,25 @@
     "createdAt": "2026-11-13T00:00:00.000Z"
   },
   {
-    "id": "guopin-226905004064114842",
-    "title": "中国汕头外轮代理有限公司 — 散货物流部客户服务岗（调度专员）",
-    "summary": "企业性质：国企。行业：多式联运和运输代理业。工作地点：汕头-龙湖区。薪资面议。学历：本科。规模：50-100人。",
-    "url": "https://www.iguopin.com/job/detail?id=226905004064114842",
+    "id": "guopin-226895944065484963",
+    "title": "上海南华国际物流有限公司 — 租船操作",
+    "summary": "企业性质：国企。行业：多式联运和运输代理业。工作地点：上海。薪资：6000-8000元/月。学历：本科。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=226895944065484963",
     "source": "国聘",
     "sourceHandle": "@guopin",
     "channel": "campus",
     "category": "other",
     "companyType": "state",
-    "location": "汕头-龙湖区",
-    "deadline": "2027/02/10",
+    "location": "上海",
+    "deadline": "2027/02/11",
     "tags": [
-      "中国汕头外轮代理有限公司",
+      "上海南华国际物流有限公司",
       "校招",
       "国企",
       "多式联运和运输代理业",
-      "汕头"
+      "上海"
     ],
-    "score": 76,
+    "score": 75,
     "featured": false,
     "createdAt": "2026-11-13T00:00:00.000Z"
   },
@@ -19804,25 +19617,49 @@
     "createdAt": "2026-11-13T00:00:00.000Z"
   },
   {
-    "id": "guopin-226896630656272544",
-    "title": "中建材玻璃新材料研究院集团有限公司 — 人力资源管理",
-    "summary": "企业性质：国企。行业：专业技术服务业。工作地点：蚌埠-禹会区。薪资面议。学历：本科。规模：2000-5000人。",
-    "url": "https://www.iguopin.com/job/detail?id=226896630656272544",
+    "id": "guopin-226904868336437402",
+    "title": "北京北矿亿博科技有限责任公司 — 自控工程师",
+    "summary": "企业性质：国企。行业：其他采矿业。工作地点：北京-丰台区。薪资：12000-20000元/月。学历：硕士。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=226904868336437402",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "北京-丰台区",
+    "deadline": "2027/02/10",
+    "tags": [
+      "北京北矿亿博科技有限责任公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "其他采矿业",
+      "北京"
+    ],
+    "score": 74,
+    "featured": false,
+    "createdAt": "2026-11-13T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-226897052854913179",
+    "title": "海南港航控股有限公司 — 管培生（法务方向）",
+    "summary": "企业性质：国企。行业：交通运输、仓储和邮政业。工作地点：海口-秀英区。薪资：15000-20000元/月。学历：硕士。规模：2000-5000人。",
+    "url": "https://www.iguopin.com/job/detail?id=226897052854913179",
     "source": "国聘",
     "sourceHandle": "@guopin",
     "channel": "campus",
     "category": "other",
     "companyType": "state",
-    "location": "蚌埠-禹会区",
-    "deadline": "2027/01/01",
+    "location": "海口-秀英区",
+    "deadline": "2026/11/30",
     "tags": [
-      "中建材玻璃新材料研究院集团有限公司",
+      "海南港航控股有限公司",
       "校招",
       "国企",
-      "专业技术服务业",
-      "蚌埠"
+      "交通运输、仓储和邮政业",
+      "海口"
     ],
-    "score": 75,
+    "score": 74,
     "featured": false,
     "createdAt": "2026-11-13T00:00:00.000Z"
   },
@@ -19850,6 +19687,76 @@
     "createdAt": "2026-11-13T00:00:00.000Z"
   },
   {
+    "id": "guopin-226894568149223578",
+    "title": "海南港航控股有限公司 — 管培生（全球数字化供应链方向）",
+    "summary": "企业性质：国企。行业：交通运输、仓储和邮政业。工作地点：海口-秀英区。薪资：15000-20000元/月。学历：硕士。规模：2000-5000人。",
+    "url": "https://www.iguopin.com/job/detail?id=226894568149223578",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "海口-秀英区",
+    "deadline": "2026/11/30",
+    "tags": [
+      "海南港航控股有限公司",
+      "校招",
+      "国企",
+      "交通运输、仓储和邮政业",
+      "海口"
+    ],
+    "score": 73,
+    "featured": false,
+    "createdAt": "2026-11-13T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-226893203591135250",
+    "title": "海南港航控股有限公司 — 管培生（智能航运方向）",
+    "summary": "企业性质：国企。行业：交通运输、仓储和邮政业。工作地点：海口-秀英区。薪资：15000-20000元/月。学历：硕士。规模：2000-5000人。",
+    "url": "https://www.iguopin.com/job/detail?id=226893203591135250",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "海口-秀英区",
+    "deadline": "2026/11/30",
+    "tags": [
+      "海南港航控股有限公司",
+      "校招",
+      "国企",
+      "交通运输、仓储和邮政业",
+      "海口"
+    ],
+    "score": 73,
+    "featured": false,
+    "createdAt": "2026-11-13T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-226892437476346009",
+    "title": "海南港航控股有限公司 — 管培生（数据建模与模型管理方向）",
+    "summary": "企业性质：国企。行业：交通运输、仓储和邮政业。工作地点：海口-秀英区。薪资：15000-20000元/月。学历：硕士。规模：2000-5000人。",
+    "url": "https://www.iguopin.com/job/detail?id=226892437476346009",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "internet",
+    "companyType": "state",
+    "location": "海口-秀英区",
+    "deadline": "2026/11/30",
+    "tags": [
+      "海南港航控股有限公司",
+      "校招",
+      "国企",
+      "互联网/AI",
+      "交通运输、仓储和邮政业",
+      "海口"
+    ],
+    "score": 73,
+    "featured": false,
+    "createdAt": "2026-11-13T00:00:00.000Z"
+  },
+  {
     "id": "guopin-226869034115664026",
     "title": "中建六局水利水电建设集团有限公司 — 技术管理岗",
     "summary": "企业性质：国企。行业：建筑业。工作地点：中国。薪资面议。学历：本科。规模：1000-2000人。",
@@ -19873,6 +19780,99 @@
     "createdAt": "2026-11-13T00:00:00.000Z"
   },
   {
+    "id": "guopin-226904488819032082",
+    "title": "中国汕头外轮代理有限公司 — 船务部客户开发岗（综合调度）",
+    "summary": "企业性质：国企。行业：多式联运和运输代理业。工作地点：汕头-龙湖区。薪资面议。学历：本科。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=226904488819032082",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "汕头-龙湖区",
+    "deadline": "2027/02/10",
+    "tags": [
+      "中国汕头外轮代理有限公司",
+      "校招",
+      "国企",
+      "多式联运和运输代理业",
+      "汕头"
+    ],
+    "score": 72,
+    "featured": false,
+    "createdAt": "2026-11-13T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-218788690548228372",
+    "title": "中远海运化工物流有限公司 — 供应链管理岗",
+    "summary": "企业性质：国企。行业：道路运输业。工作地点：上海-虹口区。薪资面议。学历：本科。规模：300-500人。",
+    "url": "https://www.iguopin.com/job/detail?id=218788690548228372",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "auto_ic",
+    "companyType": "state",
+    "location": "上海-虹口区",
+    "deadline": "2026/12/17",
+    "tags": [
+      "中远海运化工物流有限公司",
+      "校招",
+      "国企",
+      "车企/IC",
+      "道路运输业",
+      "上海"
+    ],
+    "score": 72,
+    "featured": false,
+    "createdAt": "2026-11-13T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-226905004064114842",
+    "title": "中国汕头外轮代理有限公司 — 散货物流部客户服务岗（调度专员）",
+    "summary": "企业性质：国企。行业：多式联运和运输代理业。工作地点：汕头-龙湖区。薪资面议。学历：本科。规模：50-100人。",
+    "url": "https://www.iguopin.com/job/detail?id=226905004064114842",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "汕头-龙湖区",
+    "deadline": "2027/02/10",
+    "tags": [
+      "中国汕头外轮代理有限公司",
+      "校招",
+      "国企",
+      "多式联运和运输代理业",
+      "汕头"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-11-13T00:00:00.000Z"
+  },
+  {
+    "id": "guopin-226896630656272544",
+    "title": "中建材玻璃新材料研究院集团有限公司 — 人力资源管理",
+    "summary": "企业性质：国企。行业：专业技术服务业。工作地点：蚌埠-禹会区。薪资面议。学历：本科。规模：2000-5000人。",
+    "url": "https://www.iguopin.com/job/detail?id=226896630656272544",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "蚌埠-禹会区",
+    "deadline": "2027/01/01",
+    "tags": [
+      "中建材玻璃新材料研究院集团有限公司",
+      "校招",
+      "国企",
+      "专业技术服务业",
+      "蚌埠"
+    ],
+    "score": 70,
+    "featured": false,
+    "createdAt": "2026-11-13T00:00:00.000Z"
+  },
+  {
     "id": "guopin-226902338265155738",
     "title": "天津港集装箱码头有限公司 — 新闻宣传业务员",
     "summary": "企业性质：中外合资。行业：交通运输、仓储和邮政业。工作地点：天津-滨海新区。薪资面议。学历：本科。规模：1000-2000人。",
@@ -19891,7 +19891,7 @@
       "交通运输、仓储和邮政业",
       "天津"
     ],
-    "score": 68,
+    "score": 63,
     "featured": false,
     "createdAt": "2026-11-13T00:00:00.000Z"
   },
@@ -20069,52 +20069,6 @@
     "title": "中国供销集团有限公司 — 国际贸易岗",
     "summary": "企业性质：国企。行业：农业。工作地点：北京-西城区。薪资面议。学历：硕士。规模：10000-30000人。",
     "url": "https://www.iguopin.com/job/detail?id=226756124576057499",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-西城区",
-    "deadline": "2026/12/06",
-    "tags": [
-      "中国供销集团有限公司",
-      "校招",
-      "国企",
-      "农业",
-      "北京"
-    ],
-    "score": 79,
-    "featured": false,
-    "createdAt": "2026-11-12T16:00:00.000Z"
-  },
-  {
-    "id": "guopin-226756123904968859",
-    "title": "中国供销集团有限公司 — IT项目岗",
-    "summary": "企业性质：国企。行业：农业。工作地点：北京-西城区。薪资面议。学历：硕士。规模：10000-30000人。",
-    "url": "https://www.iguopin.com/job/detail?id=226756123904968859",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-西城区",
-    "deadline": "2026/12/06",
-    "tags": [
-      "中国供销集团有限公司",
-      "校招",
-      "国企",
-      "农业",
-      "北京"
-    ],
-    "score": 79,
-    "featured": false,
-    "createdAt": "2026-11-12T16:00:00.000Z"
-  },
-  {
-    "id": "guopin-226756132897556635",
-    "title": "中国供销集团有限公司 — 后端开发岗",
-    "summary": "企业性质：国企。行业：农业。工作地点：北京-西城区。薪资面议。学历：硕士。规模：10000-30000人。",
-    "url": "https://www.iguopin.com/job/detail?id=226756132897556635",
     "source": "国聘",
     "sourceHandle": "@guopin",
     "channel": "campus",
@@ -20341,29 +20295,6 @@
     "createdAt": "2026-11-12T16:00:00.000Z"
   },
   {
-    "id": "guopin-226756121505826971",
-    "title": "中国供销集团有限公司 — 数智化管理岗",
-    "summary": "企业性质：国企。行业：农业。工作地点：北京-西城区。薪资面议。学历：硕士。规模：10000-30000人。",
-    "url": "https://www.iguopin.com/job/detail?id=226756121505826971",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "北京-西城区",
-    "deadline": "2026/12/06",
-    "tags": [
-      "中国供销集团有限公司",
-      "校招",
-      "国企",
-      "农业",
-      "北京"
-    ],
-    "score": 76,
-    "featured": false,
-    "createdAt": "2026-11-12T16:00:00.000Z"
-  },
-  {
     "id": "guopin-226756128216713371",
     "title": "中国供销集团有限公司 — 财务会计岗",
     "summary": "企业性质：国企。行业：农业。工作地点：北京-西城区。薪资面议。学历：硕士。规模：10000-30000人。",
@@ -20505,29 +20436,6 @@
     "createdAt": "2026-11-12T16:00:00.000Z"
   },
   {
-    "id": "guopin-226756134139070619",
-    "title": "中国供销集团有限公司 — 信息管理岗",
-    "summary": "企业性质：国企。行业：农业。工作地点：上海-静安区。薪资面议。学历：硕士。规模：10000-30000人。",
-    "url": "https://www.iguopin.com/job/detail?id=226756134139070619",
-    "source": "国聘",
-    "sourceHandle": "@guopin",
-    "channel": "campus",
-    "category": "other",
-    "companyType": "state",
-    "location": "上海-静安区",
-    "deadline": "2026/12/06",
-    "tags": [
-      "中国供销集团有限公司",
-      "校招",
-      "国企",
-      "农业",
-      "上海"
-    ],
-    "score": 75,
-    "featured": false,
-    "createdAt": "2026-11-12T16:00:00.000Z"
-  },
-  {
     "id": "guopin-226756130531969179",
     "title": "中国供销集团有限公司 — 业务经理岗",
     "summary": "企业性质：国企。行业：农业。工作地点：北京-西城区。薪资面议。学历：硕士。规模：10000-30000人。",
@@ -20547,6 +20455,98 @@
       "北京"
     ],
     "score": 75,
+    "featured": false,
+    "createdAt": "2026-11-12T16:00:00.000Z"
+  },
+  {
+    "id": "guopin-226756123904968859",
+    "title": "中国供销集团有限公司 — IT项目岗",
+    "summary": "企业性质：国企。行业：农业。工作地点：北京-西城区。薪资面议。学历：硕士。规模：10000-30000人。",
+    "url": "https://www.iguopin.com/job/detail?id=226756123904968859",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-西城区",
+    "deadline": "2026/12/06",
+    "tags": [
+      "中国供销集团有限公司",
+      "校招",
+      "国企",
+      "农业",
+      "北京"
+    ],
+    "score": 74,
+    "featured": false,
+    "createdAt": "2026-11-12T16:00:00.000Z"
+  },
+  {
+    "id": "guopin-226756132897556635",
+    "title": "中国供销集团有限公司 — 后端开发岗",
+    "summary": "企业性质：国企。行业：农业。工作地点：北京-西城区。薪资面议。学历：硕士。规模：10000-30000人。",
+    "url": "https://www.iguopin.com/job/detail?id=226756132897556635",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-西城区",
+    "deadline": "2026/12/06",
+    "tags": [
+      "中国供销集团有限公司",
+      "校招",
+      "国企",
+      "农业",
+      "北京"
+    ],
+    "score": 74,
+    "featured": false,
+    "createdAt": "2026-11-12T16:00:00.000Z"
+  },
+  {
+    "id": "guopin-226756121505826971",
+    "title": "中国供销集团有限公司 — 数智化管理岗",
+    "summary": "企业性质：国企。行业：农业。工作地点：北京-西城区。薪资面议。学历：硕士。规模：10000-30000人。",
+    "url": "https://www.iguopin.com/job/detail?id=226756121505826971",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "北京-西城区",
+    "deadline": "2026/12/06",
+    "tags": [
+      "中国供销集团有限公司",
+      "校招",
+      "国企",
+      "农业",
+      "北京"
+    ],
+    "score": 71,
+    "featured": false,
+    "createdAt": "2026-11-12T16:00:00.000Z"
+  },
+  {
+    "id": "guopin-226756134139070619",
+    "title": "中国供销集团有限公司 — 信息管理岗",
+    "summary": "企业性质：国企。行业：农业。工作地点：上海-静安区。薪资面议。学历：硕士。规模：10000-30000人。",
+    "url": "https://www.iguopin.com/job/detail?id=226756134139070619",
+    "source": "国聘",
+    "sourceHandle": "@guopin",
+    "channel": "campus",
+    "category": "other",
+    "companyType": "state",
+    "location": "上海-静安区",
+    "deadline": "2026/12/06",
+    "tags": [
+      "中国供销集团有限公司",
+      "校招",
+      "国企",
+      "农业",
+      "上海"
+    ],
+    "score": 70,
     "featured": false,
     "createdAt": "2026-11-12T16:00:00.000Z"
   },
